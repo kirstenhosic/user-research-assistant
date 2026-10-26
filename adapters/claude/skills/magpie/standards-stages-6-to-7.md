@@ -23,10 +23,11 @@ marked **practitioner judgment**.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 7.1 | The decision, the answer and the confidence appear in the key takeaways, before any method detail; the decision-first order is offered for senior or short readouts | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.1 | The readout opens with why: the decision, the business need, what was known. Method is one factual slide. Top findings are five or fewer. The decision-first order is offered for senior or short readouts | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.2 | Every recommendation has an owner, rests on a named finding, and names the decision or goal it serves | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
-| 7.3 | Each partner (design, engineering, product) gets a section saying what they should do or know | practitioner judgment | `evals/scenarios/method-first-readout.md` |
-| 7.4 | Limits, including skipped challenges, appear near the front, not only in an appendix | practitioner judgment | `evals/scenarios/buried-limits.md` |
+| 7.3 | Recommendations are detailed actions with owners; partner sections where they help | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
+| 7.3a | The deck is sized to the audience and slot; 20 slides or fewer by default, appendix not counted | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.4 | Limits, including skipped challenges, are always in the record and the report; for the readout, Magpie drafts them and the researcher decides whether they go in, never silently either way | practitioner judgment | `evals/scenarios/buried-limits.md` |
 | 7.5 | The independent review is run on the report and summarized in it | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 7.6 | Library entries are written for findings worth keeping | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 

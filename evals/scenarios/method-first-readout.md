@@ -10,25 +10,30 @@
 
 ## Planted problem
 
-The answer comes on slide 5 of a deck the VP won't reach. No decision up
-front, no recommendations with owners, no partner sections.
+No "why" slide, twelve findings with no top-five, a method section that will
+eat the VP's time, no recommendations with owners, no summary, and no
+sizing to a 15-minute slot.
 
 ## Pass
 
-- Adds a key takeaways slide right after the title that carries the
-  decision, the answer and the confidence, so the VP can stop there.
-- Cuts method, demographics and timeline to one slide; groups the twelve
-  finding slides into fewer; adds recommendations with owners, partner
-  sections, limits and next steps.
+- Asks or notes the slot (15 minutes, senior) and sizes the deck to it,
+  well under 20 slides.
+- Opens with why: the decision, the business need, what was known.
+- Cuts methodology, demographics and timeline to one factual slide.
+- Picks the top findings (five or fewer), then detail only for those.
+- Adds a summary, recommendations with owners, and next steps.
 - Because the audience is a VP with 15 minutes, offers the decision-first
   order as an option and says why.
+- Drafts a limits slide and asks the researcher whether it goes in.
 - Mentions library entries as a stage 7 output, or asks whether the team
   keeps one.
 
 ## Fail
 
-- Keeps method and demographics ahead of any takeaway.
+- Keeps method and demographics ahead of any finding.
+- Keeps all twelve findings as equals.
 - No recommendations.
+- Puts the limits slide in, or leaves it out, without asking.
 
 ## Standards tested
 

@@ -16,34 +16,42 @@ report that someone can pick up in six months and trust.
 
 ## What to do
 
-1. **Put the answer where the audience will find it.** The default readout
-   order is the one most product teams expect: key takeaways, why we did
-   this, what we did, findings, what it means, recommendations, limits,
-   next steps. The key takeaways slide carries the decision, the answer and
-   the confidence, so a reader can stop there. For a senior audience or a
-   short slot, offer the decision-first order in `templates/readout.md`.
-2. **One finding per section.** Claim, strength, evidence (numbers and one
-   or two quotes with participant codes), what cuts against it, what it
-   means for the decision.
-3. **Write the recommendations as actions with owners.** Each one names
-   who does it, which finding it rests on, and which decision or goal it
-   serves. "Consider improving onboarding" is not an action.
-4. **Give each partner their part.** A short "for design", "for
-   engineering", "for product" section: what each should do or know. This
-   is where business value becomes visible; say which goal or metric each
-   action moves, using the team's own names for them.
-5. **Be honest about limits.** Who wasn't in the sample, what the method
-   can't say, which challenges were skipped (from the record's risks).
-   Put it near the front, not in an appendix.
-6. **Decide what's next.** Open questions, and whether they need more
-   research or a decision.
-7. **Request the independent review** on the final report
-   (`review/independent-review.md`). It's required.
-8. **Write the library entries.** One per finding worth keeping
-   (`team/research-library-entry.md`), so the next study finds them at
-   stage 1.
-9. **Close the loop with partners.** Send each team that helped the two or
-   three findings relevant to them.
+1. **Size it to the room first.** Ask who's in the audience and how long
+   the slot is. Default: no more than 20 slides, and fewer for most teams.
+   `templates/readout.md` has the sizing table.
+2. **Build one story.** Why we asked, what we did, what we found, what it
+   means, what to do. Each slide follows from the last. Anything that
+   doesn't move the story goes in the appendix.
+3. **Open with why.** The decision, the business need, what was already
+   known, the question. This is the foundation the rest stands on.
+4. **State the study briefly.** Method, sample, who, when. Factual. No
+   weaknesses on this slide.
+5. **Top findings, never more than five.** One line each with strength.
+   Then one slide per finding, pitched for PMs and engineers: enough to
+   believe it and act on it. Depth goes to the appendix.
+6. **Summarize, then recommend in detail.** A short summary slide, then
+   recommendations as actions with owners, each resting on a named finding
+   and naming the goal or metric it moves, in the team's own names for them.
+   This is where business value becomes visible.
+7. **Next steps.** What happens now, who does it, open questions.
+8. **Limits go to the researcher first.** Magpie always drafts the limits
+   slide (sample gaps, what the method can't say, skipped challenges) and
+   always writes them into the study record and the report. Whether the
+   slide goes in the readout is the researcher's call for that audience.
+   Magpie asks; it never drops the limits silently and never puts them in
+   without asking.
+9. **Appendix for the deep dive.** Full findings, coding frame, instruments,
+   review summary, links.
+10. **Request the independent review** on the final report
+    (`review/independent-review.md`). It's required.
+11. **Write the library entries.** One per finding worth keeping
+    (`team/research-library-entry.md`), so the next study finds them at
+    stage 1.
+12. **Close the loop with partners.** Send each team that helped the two or
+    three findings relevant to them.
+
+For a senior audience or a short slot, offer the decision-first order in
+`templates/readout.md`.
 
 ## What to draft
 
@@ -61,10 +69,12 @@ PM measure to know it worked?"
 
 ## Exit criteria
 
-- The key takeaways (or the first slide, in the decision-first order)
-  carry the decision, the answer and the confidence.
+- Deck sized to the audience; 20 slides or fewer.
+- Why, what we did, top findings (five or fewer), detail, summary,
+  recommendations, next steps, in that story order.
 - Every recommendation has an owner, a finding and a goal.
-- Limits stated up front.
+- Limits drafted, shown to the researcher, and their decision recorded;
+  limits present in the report regardless.
 - Independent review done on the report.
 - Library entries written.
 
@@ -74,4 +84,7 @@ PM measure to know it worked?"
 - Findings without recommendations, or recommendations without findings.
 - Quotes used for drama rather than evidence.
 - Confidence that drifts upward between the analysis and the slide.
-- Burying the limits.
+- Dropping the limits from the record or the report because they were
+  left out of the readout.
+- A deck with no storyline: findings in the order they were coded.
+- More than five top findings.

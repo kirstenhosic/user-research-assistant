@@ -629,34 +629,42 @@ report that someone can pick up in six months and trust.
 
 ## What to do
 
-1. **Put the answer where the audience will find it.** The default readout
-   order is the one most product teams expect: key takeaways, why we did
-   this, what we did, findings, what it means, recommendations, limits,
-   next steps. The key takeaways slide carries the decision, the answer and
-   the confidence, so a reader can stop there. For a senior audience or a
-   short slot, offer the decision-first order in `templates/readout.md`.
-2. **One finding per section.** Claim, strength, evidence (numbers and one
-   or two quotes with participant codes), what cuts against it, what it
-   means for the decision.
-3. **Write the recommendations as actions with owners.** Each one names
-   who does it, which finding it rests on, and which decision or goal it
-   serves. "Consider improving onboarding" is not an action.
-4. **Give each partner their part.** A short "for design", "for
-   engineering", "for product" section: what each should do or know. This
-   is where business value becomes visible; say which goal or metric each
-   action moves, using the team's own names for them.
-5. **Be honest about limits.** Who wasn't in the sample, what the method
-   can't say, which challenges were skipped (from the record's risks).
-   Put it near the front, not in an appendix.
-6. **Decide what's next.** Open questions, and whether they need more
-   research or a decision.
-7. **Request the independent review** on the final report
-   (`review/independent-review.md`). It's required.
-8. **Write the library entries.** One per finding worth keeping
-   (`team/research-library-entry.md`), so the next study finds them at
-   stage 1.
-9. **Close the loop with partners.** Send each team that helped the two or
-   three findings relevant to them.
+1. **Size it to the room first.** Ask who's in the audience and how long
+   the slot is. Default: no more than 20 slides, and fewer for most teams.
+   `templates/readout.md` has the sizing table.
+2. **Build one story.** Why we asked, what we did, what we found, what it
+   means, what to do. Each slide follows from the last. Anything that
+   doesn't move the story goes in the appendix.
+3. **Open with why.** The decision, the business need, what was already
+   known, the question. This is the foundation the rest stands on.
+4. **State the study briefly.** Method, sample, who, when. Factual. No
+   weaknesses on this slide.
+5. **Top findings, never more than five.** One line each with strength.
+   Then one slide per finding, pitched for PMs and engineers: enough to
+   believe it and act on it. Depth goes to the appendix.
+6. **Summarize, then recommend in detail.** A short summary slide, then
+   recommendations as actions with owners, each resting on a named finding
+   and naming the goal or metric it moves, in the team's own names for them.
+   This is where business value becomes visible.
+7. **Next steps.** What happens now, who does it, open questions.
+8. **Limits go to the researcher first.** Magpie always drafts the limits
+   slide (sample gaps, what the method can't say, skipped challenges) and
+   always writes them into the study record and the report. Whether the
+   slide goes in the readout is the researcher's call for that audience.
+   Magpie asks; it never drops the limits silently and never puts them in
+   without asking.
+9. **Appendix for the deep dive.** Full findings, coding frame, instruments,
+   review summary, links.
+10. **Request the independent review** on the final report
+    (`review/independent-review.md`). It's required.
+11. **Write the library entries.** One per finding worth keeping
+    (`team/research-library-entry.md`), so the next study finds them at
+    stage 1.
+12. **Close the loop with partners.** Send each team that helped the two or
+    three findings relevant to them.
+
+For a senior audience or a short slot, offer the decision-first order in
+`templates/readout.md`.
 
 ## What to draft
 
@@ -674,10 +682,12 @@ PM measure to know it worked?"
 
 ## Exit criteria
 
-- The key takeaways (or the first slide, in the decision-first order)
-  carry the decision, the answer and the confidence.
+- Deck sized to the audience; 20 slides or fewer.
+- Why, what we did, top findings (five or fewer), detail, summary,
+  recommendations, next steps, in that story order.
 - Every recommendation has an owner, a finding and a goal.
-- Limits stated up front.
+- Limits drafted, shown to the researcher, and their decision recorded;
+  limits present in the report regardless.
 - Independent review done on the report.
 - Library entries written.
 
@@ -687,7 +697,10 @@ PM measure to know it worked?"
 - Findings without recommendations, or recommendations without findings.
 - Quotes used for drama rather than evidence.
 - Confidence that drifts upward between the analysis and the slide.
-- Burying the limits.
+- Dropping the limits from the record or the report because they were
+  left out of the readout.
+- A deck with no storyline: findings in the order they were coded.
+- More than five top findings.
 
 <!-- core/workshops/stakeholder-workshops.md -->
 
@@ -1448,10 +1461,11 @@ marked **practitioner judgment**.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 7.1 | The decision, the answer and the confidence appear in the key takeaways, before any method detail; the decision-first order is offered for senior or short readouts | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.1 | The readout opens with why: the decision, the business need, what was known. Method is one factual slide. Top findings are five or fewer. The decision-first order is offered for senior or short readouts | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.2 | Every recommendation has an owner, rests on a named finding, and names the decision or goal it serves | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
-| 7.3 | Each partner (design, engineering, product) gets a section saying what they should do or know | practitioner judgment | `evals/scenarios/method-first-readout.md` |
-| 7.4 | Limits, including skipped challenges, appear near the front, not only in an appendix | practitioner judgment | `evals/scenarios/buried-limits.md` |
+| 7.3 | Recommendations are detailed actions with owners; partner sections where they help | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
+| 7.3a | The deck is sized to the audience and slot; 20 slides or fewer by default, appendix not counted | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.4 | Limits, including skipped challenges, are always in the record and the report; for the readout, Magpie drafts them and the researcher decides whether they go in, never silently either way | practitioner judgment | `evals/scenarios/buried-limits.md` |
 | 7.5 | The independent review is run on the report and summarized in it | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 7.6 | Library entries are written for findings worth keeping | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 
@@ -2006,72 +2020,99 @@ deeper. Prepared prompts:
 
 # Readout: [study name]
 
-Slide-by-slide outline. Each heading is one slide. The default order is the
-one most product teams expect. A "decision-first" variant is at the end for
-when the audience is senior, short on time, or already knows the study.
+Slide-by-slide outline. Each heading is one slide unless it says otherwise.
+No more than 20 slides by default; many teams want fewer. Before drafting,
+Magpie asks who's in the room and how long the slot is, and sizes the deck
+to that.
+
+The deck tells one story: why we asked, what we did, what we found, what it
+means, what to do. Each slide should follow from the one before it. If a
+slide doesn't move the story, it goes to the appendix.
 
 ## 1. Title
 
 [Study name] · [date] · [researcher] · [decision owner]
 
-## 2. Key takeaways
+## 2. Why we did this
 
-Three to five sentences a reader could stop at. The decision this study
-serves, what the evidence supports, how sure we are, and the main
-recommendation.
+The foundation. One slide, sometimes two.
 
-## 3. Why we did this
-
+- **The decision:** [Owner] will decide [what] by [when]
+- **The business need:** [goal or metric at stake, in the team's own words]
+- **What we already knew:** [prior research, partner data, or "no prior
+  evidence"]
 - **The question:** [primary research question in plain words]
-- **The decision it serves:** [Owner] will decide [what] by [when]
-- **What we already knew:** [one or two lines, or "no prior evidence"]
 
-## 4. What we did
+## 3. What we did
 
-[Method], [N] participants, [who they were], [dates]. One slide. Who's
-missing and whether it matters. Full plan in the report.
+Brief and factual: [method], [N] participants, [who they were], [dates].
+One slide. Keep it to the structure of the study. Weaknesses and gaps are
+not on this slide; see "Limits" below.
 
-## 5 to [n]. Findings, one per slide
+## 4. Top findings
+
+Never more than five. One line each, with strength. This is the slide people
+photograph.
+
+1. [Finding, one line] · [strength]
+2. …
+
+## 5 to [n]. Findings in detail
+
+One finding per slide, in the same order as the top findings. Pitched for a
+PM and engineering audience: enough to believe it and act on it, no more.
 
 **Finding [n]: [claim in plain words]** · Strength: [label]
 
-- [Evidence with numbers: "6 of 8 participants…"] [their data]
-- [One or two quotes with participant codes]
-- **What cuts against it:** [who didn't fit, what they did]
+- [Evidence with numbers: "6 of 8 participants…"]
+- [One quote with a participant code, two at most]
+- **What cuts against it:** [who didn't fit, in one line]
 - **What it means:** [one line]
 
-## [n+1]. What this means for the decision
+Anything deeper (coding, more quotes, per-participant detail) goes in the
+appendix.
 
-[The answer the evidence supports, in two or three lines, and how confident
-we are.]
+## [n+1]. Summary
+
+The story in three or four lines: what we asked, what we found, what it
+means for the decision, how confident we are.
 
 ## [n+2]. Recommendations
+
+Detailed. Each one is an action with an owner, the finding it rests on, and
+the goal or metric it moves. The "moves" column is where business value
+becomes visible: use the names the team already tracks.
 
 | Action | Owner | Rests on | Moves |
 | --- | --- | --- | --- |
 | [action] | [name] | Finding [n] | [goal or metric] |
 
-Every action has an owner and a finding. The "moves" column is where
-business value is made visible: name the goal or metric the team already
-tracks.
+If it helps the audience, split into "for design", "for engineering", "for
+product".
 
-## [n+3]. For design, engineering, product
+## [n+3]. Next steps
 
-One slide, three short columns: what each should do or know, tied to
-findings. Fold into the recommendations slide if it's short.
+- [What happens now, who does it, by when]
+- [Open questions → more research / a decision / nothing yet]
 
-## [n+4]. Limits
+## [n+4]. Limits (researcher's call)
+
+Magpie always drafts this slide and always writes the limits into the study
+record and the report. Whether it appears in the readout is the researcher's
+decision, made with the audience in mind. Magpie shows the draft to the
+researcher first and asks.
 
 - [Sample gaps]
 - [What the method can't tell us]
 - [Challenges skipped during the study, from the record's risks]
 
-## [n+5]. Open questions and next steps
-
-- [Question] → [more research / a decision / nothing yet]
-
 ## Appendix
 
+For anyone who wants the deeper dive. Not counted against the 20.
+
+- Participant profile
+- Full findings with evidence, counter-evidence and coding frame
+- Instruments
 - Independent review summary
 - Links: study record, report, raw material (access-controlled)
 
@@ -2080,19 +2121,24 @@ findings. Fold into the recommendations slide if it's short.
 ## Option: decision-first order
 
 For a senior audience with ten minutes, or a team that already knows the
-study. Say which order you're using in the readout's first line.
+study. Magpie offers it when the audience is named as senior or the slot is
+under fifteen minutes; otherwise the default above applies.
 
 1. The decision and the answer (decision, what the evidence supports, how
    sure we are, what we recommend)
 2. Recommendations with owners
 3. What we did, in one slide
-4. Findings, one per slide
-5. For design, engineering, product
-6. Limits
-7. Open questions and next steps
+4. Top findings, then detail only where needed
+5. Next steps
+6. Appendix
 
-Magpie offers this option when the audience is named as senior or the slot
-is under fifteen minutes. Otherwise the default order applies.
+## Sizing to the audience
+
+| Slot | Slides | What to cut first |
+| --- | --- | --- |
+| 10 minutes, senior | 6 to 8 | Detailed findings beyond the top three; partner sections |
+| 30 minutes, product trio | 12 to 16 | Second quotes, appendix material on main slides |
+| 60 minutes, wider team | up to 20 | Nothing on the main deck; put discussion time in the agenda |
 
 <!-- core/templates/report.md -->
 
