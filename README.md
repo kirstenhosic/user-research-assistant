@@ -10,9 +10,27 @@ helps you work out which ones matter for the decision in front of you.
 
 ## Status
 
-Early development. Phase 1 (the foundation) is in. Read `docs/DESIGN.md` for
-what Magpie is and how it's built, and `docs/PROVENANCE.md` for how it was
-made.
+Early development. Phases 1 and 2 are in: Magpie can take a study from
+existing evidence through framing, method choice, the plan and the guide
+(interviews, usability tests, surveys). Analysis, reporting and the other
+methods come next. Read `docs/DESIGN.md` for what Magpie is and how it's
+built, and `docs/PROVENANCE.md` for how it was made.
+
+## Using it
+
+- **Claude Code, in this repo:** open the repo and ask for Magpie or for
+  help with a study. The skill is already at `.claude/skills/magpie/`.
+- **Claude Code, in your own project:** copy `adapters/claude/skills/magpie/`
+  into your project's `.claude/skills/` folder.
+- **Claude.ai:** upload the files in `adapters/claude/skills/magpie/` to a
+  project, or paste `adapters/generic/system-prompt.md` as the project's
+  instructions.
+- **Any other assistant:** paste `adapters/generic/system-prompt.md` as the
+  system prompt or custom instructions. If it's too long for the platform,
+  paste `core/operating.md` and `core/voice.md` as instructions and upload
+  the files in `adapters/generic/files/`.
+- Save the study record Magpie keeps for you; it's how you pick up where
+  you left off, in any assistant.
 
 ## Layout
 
