@@ -121,8 +121,10 @@ with a skill don't need a paid plan.
 
 Paste `adapters/generic/system-prompt.md` as the system prompt or custom
 instructions. It's one long file with everything in it. If the assistant
-says it's too long, paste `adapters/skill/magpie/operating.md` instead and
-upload the rest of the folder as files.
+says it's too long, paste `adapters/generic/system-prompt-lean.md` instead
+(the rules, stages and checks, about half the size) and upload the files
+in `adapters/generic/files/` so Magpie can open the method guides and
+templates when it needs them.
 
 ## Your first conversation
 

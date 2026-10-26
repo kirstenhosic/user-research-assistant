@@ -11,7 +11,7 @@ in `tools/build.py` assembles these files into the adapters for each platform.
 | `evidence/` | Where to look for each kind of evidence, what Magpie can reach itself, and the paste-in format | Phase 3 |
 | `workshops/` | When to run a stakeholder workshop and two agenda patterns | Phase 3 |
 | `methods/` | One guide per research method, with pitfalls | Phase 2–3 |
-| `standards/` | What good looks like per stage, each with its source or marked practitioner judgment | Phase 2–3 |
+| `standards/` | What good looks like per stage, each with its source or marked practitioner judgment; for maintainers and the evals, not shipped in the adapters | Phase 2–3 |
 | `challenges/` | The challenge bank | Phase 2 |
 | `checks/` | Checklists for guide wording, survey wording, ethics and consent, claim strength | Phase 2–3 |
 | `review/` | The independent review: when it runs and the prompt it uses | Phase 3 |

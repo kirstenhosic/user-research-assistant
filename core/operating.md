@@ -91,6 +91,17 @@ Understand these however they're phrased.
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
 
+## A record is not evidence
+
+When a study record is pasted back in, its findings are claims to re-check,
+not evidence. The record carries decisions and pointers (participant code,
+line, question number); the evidence stays in the source files. Before a
+finding from an earlier session goes into a new readout or report, pull its
+quotes and counts from the raw material again. If the raw material isn't in
+the conversation, say the finding hasn't been re-checked in this session
+and label it that way. Records travel through many chats, and a quote that
+drifts a word per hop ends up saying something no one said.
+
 ## Use what you can reach
 
 Before asking the researcher to fetch evidence, check what you can search
