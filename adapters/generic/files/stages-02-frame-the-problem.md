@@ -23,16 +23,25 @@ would recognize, and research questions that each serve the decision.
    told and ask them to correct it. Format: *[Owner] will decide [what] by
    [when], choosing between [options].*
 2. **Tie it to the business.** Which goal or metric does it move? What does it
-   cost to get it wrong? Use the team profile's goals if you have them. If
-   the researcher doesn't know, that's fine: write "[assumption]" and move on.
-   Don't invent a metric.
+   cost to get it wrong? Use the team profile's goals and current bets if
+   you have them, and note any market signal that bears on it (a competitor
+   move, a segment the company is chasing), labelled as partner data. If
+   the researcher doesn't know, that's fine: write "[assumption]" and move
+   on. Don't invent a metric or a market claim.
 3. **Write the research questions.** One primary question that most changes
    the decision. Up to three secondary questions. Each one names the decision
    it serves. Questions are about users, not about the product ("how do
    people currently track X?" not "do users like our tracker?").
 4. **List the assumptions.** What does the team already believe? Write each
    one down as an assumption, with who holds it.
-5. **Check for a design question hiding inside.** Many asks mix a strategic
+5. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
+   briefly: what's upstream and downstream of this piece, which other
+   teams touch it, what job the user is doing when they meet it, which of
+   the team's journeys or CUJs and which persona it sits on. If the team
+   profile has these, use its names. If not, draft a guess, mark it
+   [assumption], and move on. Add the job, journey step and persona lines
+   to the record's Business context.
+6. **Check for a design question hiding inside.** Many asks mix a strategic
    question (should we build this?) with a design question (does this screen
    work?). Separate them. They usually need different methods.
 
@@ -55,6 +64,7 @@ because it's on the roadmap? If so, what is the research for?"
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
 - Assumptions listed.
+- Job, journey step and persona filled in or marked as assumptions.
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
@@ -68,5 +78,6 @@ satisfy it.
 
 - A decision so broad it can't be wrong ("improve the experience").
 - Research questions that are really survey questions.
+- Studying one step as if nothing came before or after it.
 - Leaving the business reason blank because it feels awkward to ask. It's the
   sentence that gets the study funded and the findings acted on.

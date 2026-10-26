@@ -22,14 +22,20 @@ decision owner could understand why.
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
    if yes, even if the researcher wanted something bigger.
-3. **Recommend one method and one backup.** Use `methods/` for the fit, the
+3. **Consider how others solve it.** If the decision is about building
+   something other tools already offer, or users will arrive with
+   expectations from elsewhere, suggest a competitive analysis
+   (`methods/competitive-analysis.md`) as a cheap first step or a companion
+   to the main method. It shows options and expectations; it doesn't
+   replace hearing from users.
+4. **Recommend one method and one backup.** Use `methods/` for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences.
-4. **Name what it can't tell you.** Every method has a blind spot. Write it
+5. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
-5. **Size the sample roughly.** Enough to see a pattern for the decision at
+6. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
-6. **Ask about partner data.** Would telemetry help choose who to recruit, or
+7. **Ask about partner data.** Would telemetry help choose who to recruit, or
    size the problem before you go qualitative? Draft the request if so.
 
 ## What to draft

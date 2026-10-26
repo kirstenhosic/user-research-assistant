@@ -19,7 +19,8 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
    from the record. Where something is unknown, write a placeholder in
    brackets, not a guess.
 2. **Write the recruiting criteria.** Who's in, who's out, and why each
-   criterion matters for the decision. Include the people who tried and left
+   criterion matters for the decision. Use the team's persona or segment
+   names where they exist, always with the behaviour that defines them. Include the people who tried and left
    if the decision depends on them.
 3. **Check the sample for blind spots.** Which groups are missing? Does that
    matter for this decision? Write the answer under trade-offs either way.

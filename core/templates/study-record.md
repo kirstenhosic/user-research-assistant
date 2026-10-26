@@ -18,6 +18,10 @@ Last updated: [date] · Stage: [1–7] · Challenge level: [standard]
 - **Goal or metric this moves:** [The company goal or metric at stake]
 - **Cost of getting it wrong:** [What happens if the decision goes the wrong way]
 - **Who else cares:** [Stakeholders beyond the owner]
+- **Job:** [what the user is trying to get done, in their terms]
+- **Journey and step:** [which CUJ or journey, which step; "none tracked" is fine]
+- **Persona or group:** [the team's name, with the behaviour that defines them]
+- **Upstream and downstream:** [what feeds this piece, what depends on it, who else touches it]
 
 ## Evidence log
 

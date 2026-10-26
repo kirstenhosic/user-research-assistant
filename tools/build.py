@@ -7,12 +7,17 @@ Reads every Markdown file under core/ in a fixed order and writes:
 
   adapters/generic/system-prompt.md      one prompt for any assistant
   adapters/generic/files/                a flat copy of each core file
-  adapters/claude/skills/magpie/         a Claude skill: SKILL.md plus the
-                                         core files it points to
+  adapters/skill/magpie/                 one skill folder (SKILL.md plus the
+                                         core files and scripts it points
+                                         to) in the format Claude, ChatGPT
+                                         and Gemini all accept
   .claude/skills/magpie/                 the same skill, where Claude Code
                                          finds it when this repo is open
 
-ChatGPT and Gemini adapters are added in Phase 4 and will read the same core.
+The code checks in tools/checks/ are copied into the skill's scripts/
+folder so the skill can run them. The per-platform setup notes in
+adapters/claude, adapters/chatgpt and adapters/gemini are written by hand
+and point at the skill folder.
 """
 
 from __future__ import annotations
@@ -23,7 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CORE = ROOT / "core"
 GENERIC = ROOT / "adapters" / "generic"
-CLAUDE = ROOT / "adapters" / "claude" / "skills" / "magpie"
+SKILL = ROOT / "adapters" / "skill" / "magpie"
 CLAUDE_LOCAL = ROOT / ".claude" / "skills" / "magpie"
 
 # Files and folders in reading order. A folder that doesn't exist yet is skipped.
@@ -31,11 +36,14 @@ ORDER = [
     "operating.md",
     "voice.md",
     "stages",
+    "lenses",
+    "evidence",
     "workshops",
     "methods",
     "standards",
     "challenges",
     "checks",
+    "review",
     "partners",
     "templates",
     "team",
@@ -45,8 +53,12 @@ GENERIC_HEADER = """# Magpie
 
 You are Magpie, a research companion for user researchers working in industry
 with product managers, designers and engineers. Everything below is your
-working knowledge. The first section, "How Magpie works", is the set of rules
-you follow in every conversation. The rest is what you draw on at each stage.
+working knowledge, organized by Markdown headings; each `<!-- core/... -->`
+line marks the start of one file. The first section, "How Magpie works", is
+the set of rules you follow in every conversation, including which of them
+the researcher can override. The rest is what you draw on at each stage:
+read the section for the current stage before drafting, and the method,
+check or template it points to.
 
 """
 
@@ -58,10 +70,14 @@ description: Research companion for user researchers. Takes a study from "do we 
 
 SKILL_INTRO = """# Magpie
 
-Follow `operating.md` in every conversation; it's the rules. Read `voice.md`
-once for tone. Then open the file for the stage the researcher is at and the
-method or template it points to. File names below are relative to this
-folder.
+Follow `operating.md` in every conversation; it's the rules, including which
+ones the researcher can override. Read `voice.md` once for tone. Then open
+the file for the stage the researcher is at and the method, check or
+template it points to, and work from the file rather than from memory of
+it; the specifics live there. File names below are relative to this folder.
+`scripts/quote_check.py` and `scripts/count_check.py` are scripts to run,
+not read: they check quotes and counts at stages 6 and 7. Run them with
+Python when you can and say so when you can't.
 
 """
 
@@ -118,29 +134,36 @@ def build_generic(files: list[Path]) -> None:
     (GENERIC / "system-prompt.md").write_text("\n".join(parts), encoding="utf-8")
 
 
-def build_claude(files: list[Path]) -> None:
-    reset(CLAUDE)
+def build_skill(files: list[Path]) -> None:
+    """One skill folder in the SKILL.md format the three platforms share."""
+    reset(SKILL)
     index = []
     for path in files:
         name = flat_name(path)
-        shutil.copyfile(path, CLAUDE / name)
+        shutil.copyfile(path, SKILL / name)
         index.append(f"- `{name}`: {first_line_after_title(path)}")
 
     skill = SKILL_FRONTMATTER + "\n" + SKILL_INTRO + "\n".join(index) + "\n"
-    (CLAUDE / "SKILL.md").write_text(skill, encoding="utf-8")
+    (SKILL / "SKILL.md").write_text(skill, encoding="utf-8")
+
+    scripts = SKILL / "scripts"
+    scripts.mkdir()
+    checks = ROOT / "tools" / "checks"
+    for script in sorted(checks.glob("*.py")):
+        shutil.copyfile(script, scripts / script.name)
 
     # The same skill inside the repo's own .claude/ folder, so opening this
     # repo in Claude Code makes Magpie available without copying anything.
-    reset(CLAUDE_LOCAL)
-    shutil.rmtree(CLAUDE_LOCAL)
-    shutil.copytree(CLAUDE, CLAUDE_LOCAL)
+    if CLAUDE_LOCAL.exists():
+        shutil.rmtree(CLAUDE_LOCAL)
+    shutil.copytree(SKILL, CLAUDE_LOCAL)
 
 
 def main() -> None:
     files = core_files()
     build_generic(files)
-    build_claude(files)
-    print(f"Built adapters/generic, adapters/claude and .claude/skills from {len(files)} core file(s):")
+    build_skill(files)
+    print(f"Built adapters/generic, adapters/skill and .claude/skills from {len(files)} core file(s):")
     for path in files:
         print(f"  core/{path.relative_to(CORE)}")
 

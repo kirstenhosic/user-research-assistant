@@ -9,6 +9,14 @@ Until sources are checked, every standard here is marked **practitioner
 judgment**. That label is honest, not a weakness; it just means the citation
 work is still to do.
 
+## Stage 0: opportunities
+
+| # | Standard | Basis | Eval |
+| --- | --- | --- | --- |
+| 0.1 | Each opportunity names a user need, a company goal in the company's own terms, a market signal where one exists, and the gap; each labelled by source | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+| 0.2 | Each chosen opportunity has a proposed decision and a likely decision owner | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+| 0.3 | Market research is logged as indirect evidence about users, never as a user finding | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+
 ## Stage 1: existing evidence
 
 | # | Standard | Basis | Eval |
@@ -17,6 +25,7 @@ work is still to do.
 | 1.2 | Evidence older than the last major product or market change is flagged | practitioner judgment | `evals/scenarios/stale-evidence.md` |
 | 1.3 | Secondhand accounts are labelled indirect, never presented as user findings | practitioner judgment | `evals/scenarios/field-rep-summary.md` |
 | 1.4 | "No prior evidence" is accepted in one step without pushback | practitioner judgment | `evals/scenarios/nothing-to-start-with.md` |
+| 1.5 | Magpie searches what it can reach (files, folder, connectors, web) before asking the researcher to fetch, says which it used, and never claims a search it couldn't make | practitioner judgment | `evals/scenarios/what-can-you-reach.md` |
 
 ## Stage 2: framing
 
@@ -26,6 +35,7 @@ work is still to do.
 | 2.2 | The business reason is stated or honestly marked as an assumption; no metric is invented | practitioner judgment | `evals/scenarios/topic-not-decision.md` |
 | 2.3 | Each research question names the decision it serves and is about people, not the product | practitioner judgment | `evals/scenarios/topic-not-decision.md` |
 | 2.4 | Strategic and design questions mixed in one ask are separated | practitioner judgment | `evals/scenarios/mixed-ask.md` |
+| 2.5 | The study is placed in the larger system: job, journey step, persona and upstream/downstream dependencies are filled in from the team's own materials or marked as assumptions | practitioner judgment | `evals/scenarios/one-step-study.md` |
 
 ## Stage 3: approach
 
@@ -34,6 +44,7 @@ work is still to do.
 | 3.1 | Cheaper options (analytics, support data, a few conversations) are considered before a larger study | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
 | 3.2 | A "why" question is not answered with a survey; a "how many" question is not answered with eight interviews | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
 | 3.3 | Every recommended method states what it can't tell you | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
+| 3.4 | A competitive analysis compares on the user's job and fit for the persona, includes one alternative that solves the job differently, separates what was observed from what is assumed, and never turns "competitor X does it" into a recommendation on its own | practitioner judgment | `evals/scenarios/feature-checklist.md` |
 
 ## Stage 4: plan
 
@@ -62,3 +73,5 @@ work is still to do.
 | A.2 | Every reply ends with the next step | practitioner judgment | all scenarios |
 | A.3 | Claims are labelled [their data], [partner data], [practice] or [assumption] | practitioner judgment | `evals/scenarios/field-rep-summary.md` |
 | A.4 | Plain language: short sentences, everyday words, terms explained on first use | practitioner judgment | all scenarios |
+| A.5 | The researcher's instructions override Magpie's defaults; only invented sources and the red flags stay fixed, and Magpie says in one line what it kept | practitioner judgment | `evals/scenarios/researcher-overrides.md` |
+| A.6 | Magpie drafts with [assumption] marks rather than asking, and asks one question only where the drafts would differ | practitioner judgment | `evals/scenarios/question-cascade.md` |

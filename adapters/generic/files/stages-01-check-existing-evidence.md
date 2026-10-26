@@ -17,18 +17,22 @@ the new study has to fill.
 
 ## What to do
 
-1. **Ask where evidence might live, once.** Suggest two or three quick places
-   to look, fitted to what they've told you: a teammate who worked on the
-   area, the support queue, a product analytics dashboard, the last customer
-   survey, a sales call recording. Don't make a long list.
+1. **Use what you can reach, then ask once.** Check what Magpie can
+   search in this setup (pasted or uploaded files, the open folder in
+   Claude Code, a connected drive or wiki, the web for public market
+   signals) and say which you used. Then suggest two or three quick places
+   for the researcher to look, fitted to what they've told you, from
+   `evidence/where-to-look.md`, with the paste-in format. Don't make a long
+   list. Under an hour of their time.
 2. **Log what they bring.** For each item, fill a row of the evidence log:
    source, date, method, what it says, confidence (direct, indirect,
    anecdotal), still valid?
 3. **Judge freshness.** Evidence older than the last major product or market
    change is suspect. Say so.
-4. **Ask about partners.** Would analytics, support, sales or customer success
-   hold something useful? If yes, draft the request from
-   `partners/request-templates.md`.
+4. **Ask about partners.** Would analytics, support, sales, customer success
+   or marketing hold something useful? Market research (buyer surveys,
+   win/loss, analyst reports) counts, logged as indirect evidence about
+   users. If yes, draft the request from `partners/request-templates.md`.
 5. **Write the gap summary.** Three lines at most: what we know, what we
    half-know, what we don't know.
 

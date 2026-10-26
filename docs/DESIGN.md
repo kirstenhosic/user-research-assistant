@@ -39,10 +39,25 @@ Five things make it different from a general-purpose chat assistant:
    the business goal it serves.
 6. **Confidence is explicit.** Findings carry an evidence-strength label. The
    assistant never invents sources, statistics or quotes.
-7. **Stakeholder-ready by default.** Readouts and reports lead with the answer,
-   the decision it informs and how confident we are.
+7. **Stakeholder-ready by default.** A readout tells one story (why we
+   asked, what we did, what we found, what it means, what to do), opens with
+   the decision and the business need, keeps top findings to five, pitches
+   detail for PMs and engineers, and stays under 20 slides. Limits always
+   live in the record and the report; whether they go in the readout is the
+   researcher's call. A report goes a little deeper, with links and images,
+   and stays at ten pages or fewer with a linked contents list; method is a
+   paragraph, and admin detail lives in the appendix.
 8. **The researcher stays the author.** The assistant proposes; the researcher
    decides and owns the work.
+9. **The piece sits in a system.** Every study is placed on the team's own
+   journeys, personas and jobs to be done, tied to the company's goals in
+   the company's names, and checked for what's upstream, downstream and
+   owned by someone else. A few questions at framing, a few labels at
+   analysis and readout, never a separate deliverable. Market research is
+   evidence too, logged as indirect evidence about users. And research
+   doesn't have to wait for an ask: an optional opening stage lays out
+   company goals, market signals and user signals side by side and drafts
+   opportunity briefs for the overlaps.
 
 ## The workflow
 
@@ -53,6 +68,7 @@ record it needs: the decision and the research questions.
 
 | Stage | What the assistant drafts | Example challenge | Can end here when |
 | --- | --- | --- | --- |
+| 0. Find the opportunities (optional) | Opportunity list, one-page briefs | "If this study came back with a clear answer, who would act on it?" | Used when there's no ask yet and the researcher wants to propose research |
 | 1. Check existing evidence | Evidence log, gap summary | "How old is this, and has the product or market changed since?" | Existing evidence answers the question: deliver an evidence brief instead of a study. Finding nothing is a valid result and moves straight on |
 | 2. Frame the problem | Decision statement, business goal, research questions, assumptions | "If the answer came back the opposite way, what would the team do differently?" | No decision depends on the answer |
 | 3. Choose the approach | Method recommendation with trade-offs | "Why can't analytics or a quick test answer this?" | |
@@ -178,11 +194,12 @@ hallucination entirely, so the tool also says how confident it is.
 | 5. Independent review | A fresh pass that sees only the source material and the output, not the conversation that produced it | Errors the drafting pass is blind to, such as a theme that ignores contradicting participants | Analysis and final report, and on request |
 | 6. Evals | Test scenarios with known traps run before every release | Regressions when the prompts change | Repo, before release |
 
-Layers 3 and 5 depend on the platform. Claude can run code and separate review
-agents. Whether a Custom GPT or a Gem can do the same has not been verified
-yet; where a platform can't, the adapter falls back: it gives the researcher a
-review prompt to paste into a fresh chat, and the quote check becomes a
-checklist item.
+Layers 3 and 5 depend on the platform. Claude Code can run the scripts and
+start a separate review agent. ChatGPT and Gemini skills can carry the
+scripts, and both platforms document running skill scripts, but whether they
+run these particular ones hasn't been tested yet. Where a platform can't, the
+skill falls back: it gives the researcher a review prompt to paste into a
+fresh chat, and the quote check becomes a checklist item.
 
 ## Fitting into a team
 
@@ -303,6 +320,7 @@ consistent across platforms.
 | Diary studies | Behaviour over time | Longitudinal themes |
 | Card sorting and tree testing | Information architecture | Similarity patterns, findability |
 | Evidence review | Reusing what is already known | Evidence brief |
+| Competitive analysis | Seeing how other tools solve the same job, and what would fit your users | Fit matrix, patterns, fit assessment |
 | Stakeholder workshops | Aligning on the problem, ideating from findings | Synthesis of workshop outputs |
 
 ## Architecture
@@ -326,9 +344,11 @@ core/
   voice.md       the assistant's voice, with example lines
 tools/           build script and code checks: quote matching, counts, survey statistics
 adapters/
-  claude/        skills generated from core, plus a review agent
-  chatgpt/       Custom GPT instructions plus knowledge files
-  gemini/        Gem instructions plus files
+  skill/         one skill folder (SKILL.md, core files, scripts) that
+                 Claude, ChatGPT and Gemini all accept
+  claude/        setup notes for Claude Code and Claude.ai
+  chatgpt/       setup notes for ChatGPT skills, and the fallback
+  gemini/        setup notes for Gemini skills, and the fallback
   generic/       one system prompt for any other assistant
 evals/           test scenarios with planted problems
 docs/            DESIGN.md, PROVENANCE.md, CONTRIBUTING.md, CHANGELOG.md
@@ -338,11 +358,13 @@ Only the core is edited by hand. `tools/build.py` regenerates the adapters
 from it, and the generated adapters are committed so people can use them
 without running anything.
 
-Platform limits on instruction length, file count and file size differ and
-change often. Phase 4 starts by checking each platform's current docs, then
-sizes each adapter to fit. Where a limit is tight, the adapter keeps a short
-router in the instructions and moves stage and method detail into uploaded
-files.
+The original plan was a Custom GPT and a Gem. When Phase 4 checked the
+platform docs (October 2026), both had moved: OpenAI is retiring Custom GPTs
+and Google is replacing Gems with skills, and both now take a folder with a
+`SKILL.md` file plus supporting files, the same shape as a Claude skill. So
+there is one skill package instead of three adapters, and a short setup
+note per platform. Platform limits still differ and change often; each
+setup note records what was checked and when.
 
 ## Build phases
 
@@ -353,5 +375,6 @@ files.
    adapter and the Claude adapter. Includes eval scenarios.
 3. **Analysis and reporting.** Stages 6 and 7, the independent review, the
    workshop branch and the remaining methods.
-4. **Other platforms.** Adapters for ChatGPT and Gemini, sized to each
-   platform's current limits and tested on each.
+4. **Other platforms.** One skill package for Claude, ChatGPT and Gemini,
+   with setup notes per platform. Test runs on ChatGPT and Gemini are still
+   to do.
