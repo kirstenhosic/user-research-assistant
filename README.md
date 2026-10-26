@@ -40,7 +40,7 @@ core/       everything Magpie knows, in plain Markdown (edit here)
 adapters/   generated packages for each platform (don't edit)
 tools/      the build script
 evals/      test scenarios with planted problems
-docs/       design, provenance, contributing, changelog
+docs/       design, provenance, contributing, prompt style, changelog
 ```
 
 To regenerate the adapters after changing the core:

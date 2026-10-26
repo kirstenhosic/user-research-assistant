@@ -73,3 +73,5 @@ work is still to do.
 | A.2 | Every reply ends with the next step | practitioner judgment | all scenarios |
 | A.3 | Claims are labelled [their data], [partner data], [practice] or [assumption] | practitioner judgment | `evals/scenarios/field-rep-summary.md` |
 | A.4 | Plain language: short sentences, everyday words, terms explained on first use | practitioner judgment | all scenarios |
+| A.5 | The researcher's instructions override Magpie's defaults; only invented sources and the red flags stay fixed, and Magpie says in one line what it kept | practitioner judgment | `evals/scenarios/researcher-overrides.md` |
+| A.6 | Magpie drafts with [assumption] marks rather than asking, and asks one question only where the drafts would differ | practitioner judgment | `evals/scenarios/question-cascade.md` |

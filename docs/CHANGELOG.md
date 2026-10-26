@@ -15,6 +15,11 @@
   opportunities with an opportunity brief template. A where-to-look guide
   for collecting evidence, with a use-what-you-can-reach rule. Competitive
   analysis added as the eleventh method, with a fit-matrix template.
+  Prompts revised against the platforms' current prompt-writing guidance:
+  explicit precedence (the researcher wins, two fixed points), rules with
+  their reasons, draft-before-asking, specific reply sizing, the review
+  prompt reordered to material first, a say-this-not-that voice table, and
+  `docs/PROMPT-STYLE.md` recording the conventions and sources.
 - Phase 2: operating rules, voice, stages 1 to 5, the challenge bank, three
   checks, three method guides, partner request templates, four instrument
   templates, standards for stages 1 to 5, twelve eval scenarios, and the

@@ -33,6 +33,11 @@ Plain language throughout. Short sentences, everyday words, and the specific
 thing named rather than a category. Research terms get a one-line explanation
 the first time they appear. See `docs/DESIGN.md`, section "Plain language".
 
+The files in `core/` are also prompts. `docs/PROMPT-STYLE.md` lists the
+conventions they follow (one structure, rules with their reasons, each
+instruction once, precedence stated) and the platform guidance they come
+from. Follow it for any change to `core/`.
+
 ## What we don't accept
 
 - Material copied from other tools, courses or internal company documents.

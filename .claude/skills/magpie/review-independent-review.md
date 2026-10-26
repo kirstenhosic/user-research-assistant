@@ -15,13 +15,31 @@ up, a recommendation that outruns its evidence.
 
 ## How to run it
 
-**On Claude** (Claude Code or a setup with subagents): start a separate
-agent with the review prompt below. Give it only the raw material and the
-draft. Don't give it the conversation.
+The reviewer gets three things, in this order: the raw material, the draft,
+then the review prompt. Material first and the questions last, because a
+reviewer that reads the questions after the evidence answers from the
+evidence rather than from a skim; current model guidance from the main
+platforms says the same about long inputs. Label each part so nothing is
+mistaken for anything else:
 
-**Anywhere else:** the researcher opens a fresh chat, pastes the review
-prompt, then the raw material, then the draft. Magpie tells them to do this
-and what to paste.
+```
+RAW MATERIAL
+(transcripts, notes, survey export, with participant codes)
+
+DRAFT
+(the findings or the report)
+
+REVIEW PROMPT
+(the text below)
+```
+
+**On Claude** (Claude Code or a setup with subagents): start a separate
+agent and give it the three parts above. Leave out the conversation that
+produced the draft.
+
+**Anywhere else:** the researcher opens a fresh chat and pastes the three
+parts in that order. Magpie tells them to do this and gives them the exact
+text to paste.
 
 **Either way:** the review comes back as a list. Magpie goes through it,
 fixes what's right, says why it disagrees with what's wrong, and logs the
@@ -29,9 +47,10 @@ review in the record's change log.
 
 ## The review prompt
 
-> You are reviewing a user research output. You have the raw material (the
-> transcripts, notes or data) and the draft (the findings or the report).
-> You have not seen how the draft was made, and that is the point.
+> You are reviewing a user research output. Above this prompt are two
+> things: the raw material (transcripts, notes or data) and the draft (the
+> findings or the report). You have not seen how the draft was made, which
+> is why your reading is useful: you can only see what the evidence shows.
 >
 > Check every claim in the draft against the raw material and answer these
 > questions. Be specific: name the finding, the participant, the line.
@@ -51,8 +70,13 @@ review in the record's change log.
 >    finding it rests on. Flag any that go beyond what the findings support.
 > 7. **What's stated as fact that is actually practice or assumption?**
 >
-> Report only problems and the evidence for them. Don't restate what's
-> right. Don't rewrite the draft. Plain language, short.
+> Reply as a numbered list of problems. Each item names the finding or
+> recommendation, states the problem in a sentence, and points to the
+> evidence (participant code, line, question number). Leave out what's
+> right; the list is for fixing, not for reassurance. Leave the draft as
+> it is; the author will make the changes. If the raw material is missing
+> something you'd need (a transcript the draft cites, the survey base),
+> say what's missing instead of guessing.
 
 ## What Magpie does with the result
 
