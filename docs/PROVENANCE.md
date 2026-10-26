@@ -38,16 +38,35 @@ Sources are listed here only after they have been checked and actually used.
 Each standard in `core/standards/` links to its entry in this list or is
 marked as practitioner judgment.
 
-| Source | Used for | Checked on |
-| --- | --- | --- |
-| (none yet) | | |
+"Checked" means the text was read on that date and the standard's claim was
+found in it, not that the source was merely located. Where only the citation
+could be confirmed, the row says so.
 
-Candidates to check before Phase 2, not yet verified or used: Braun and
-Clarke (2006) on thematic analysis; Steve Portigal, *Interviewing Users*;
-Erika Hall, *Just Enough Research*; Dillman, Smyth and Christian on the
-tailored design method for surveys; Nielsen Norman Group articles on usability
-testing; the ICC/ESOMAR code on market, opinion and social research; ISO
-9241-210 on human-centred design.
+| # | Source | Used for | Checked on |
+| --- | --- | --- | --- |
+| S1 | Braun, V. and Clarke, V. (2006). "Using thematic analysis in psychology." *Qualitative Research in Psychology*, 3(2), 77–101. doi:10.1191/1478088706qp063oa | Citation confirmed from the publisher record; full text not read. Not yet cited by a standard. | 2026-10-26 |
+| S1b | Braun, V. and Clarke, V. (2022). "Everything changes… well some things do: Reflections on, and resources for, reflexive thematic analysis." *QMiP Bulletin* (British Psychological Society). Open copy in the UWE repository. | 6.1: the six phases; a theme is a shared meaning, not a topic summary | 2026-10-26 |
+| S2 | ICC/ESOMAR *International Code on Market, Opinion and Social Research and Data Analytics*, 2025 revision. https://standards.esomar.org/resources/international-codes | 4.3 (Art. 4(a)(iii) consent, 4(a)(v) retention, 6(d) security, 6(e) deletion); 6.2 (Art. 9(d)); 6.3 and 6.5 (Art. 9(c)); 7.4 (Art. 9(a)); the vulnerable-participant red flag (Art. 1(b), 2(a), 2(b), 2(d)) | 2026-10-26 |
+| S3 | McCloskey, M. (2014). "Turn User Goals into Task Scenarios for Usability Testing." Nielsen Norman Group. https://www.nngroup.com/articles/task-scenarios-usability-testing/ | 5.4: tasks as realistic, actionable scenarios free of clues | 2026-10-26 |
+| S4 | Schade, A. (2017). "Avoid Leading Questions to Get Better Insights from Participants." Nielsen Norman Group. https://www.nngroup.com/articles/leading-questions/ | 5.2: what a leading question is and how to neutralize it | 2026-10-26 |
+| S5 | Rosala, M. (2022). "6 Mistakes When Crafting Interview Questions." Nielsen Norman Group. https://www.nngroup.com/articles/interview-questions-mistakes/ | 5.2 (leading clarifiers, compound questions); 5.3 (hypotheticals vs past experience) | 2026-10-26 |
+| S6 | Brown, M. (2023). "Writing Good Survey Questions: 10 Best Practices." Nielsen Norman Group. https://www.nngroup.com/articles/survey-best-practices/ | 5.1 (ask only what the research questions need); 5.2 (neutral wording, no double-barrelled items); 5.3 (past behaviour, not predictions); 5.5 (balanced scales) | 2026-10-26 |
+| S7 | Nielsen, J. (2001). "First Rule of Usability? Don't Listen to Users." Nielsen Norman Group. https://www.nngroup.com/articles/first-rule-of-usability-dont-listen-to-users/ | Background for the behavioural emphasis in `methods/usability-testing.md`; not cited by a standard | 2026-10-26 |
+| S8 | Laubheimer, P. (2024). "Attitudinal vs. Behavioral Research in UX." Nielsen Norman Group. https://www.nngroup.com/articles/attitudinal-behavioral/ | 5.3: self-reports of past habits and future intentions are unreliable; observe actions | 2026-10-26 |
+| S9 | Brown, M. (2024). "Screening Participants for User-Research Studies." Nielsen Norman Group. https://www.nngroup.com/articles/screening-participants/ | 4.1: criteria tied to the research questions, behavioural over demographic, past behaviour not predicted | 2026-10-26 |
+
+Located but not read, so not cited: Dillman, D. A., Smyth, J. D. and
+Christian, L. M. (2014). *Internet, Phone, Mail, and Mixed-Mode Surveys: The
+Tailored Design Method*, 4th ed., Wiley (record confirmed in WorldCat; the
+chapters on question writing would likely support 5.2 and 5.5 but have not
+been checked).
+
+Still to check: Steve Portigal, *Interviewing Users*; Erika Hall, *Just
+Enough Research*; ISO 9241-210 on human-centred design; the full text of S1
+for the stage 6 coding steps.
+
+Standards with no source yet keep "practitioner judgment" as their basis.
+Current count: 15 of 45 standards cite a source in full or in part.
 
 ## Tools used
 

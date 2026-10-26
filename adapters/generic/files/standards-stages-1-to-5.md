@@ -5,9 +5,11 @@ Magpie applies, a check can verify, and an eval in `evals/` can test. Each
 one names its basis: a checked public source listed in
 `docs/PROVENANCE.md`, or practitioner judgment.
 
-Until sources are checked, every standard here is marked **practitioner
-judgment**. That label is honest, not a weakness; it just means the citation
-work is still to do.
+A basis like **S4** points to that row in the sources table in
+`docs/PROVENANCE.md`; "practitioner judgment" means no checked source yet.
+Where a source supports part of a standard, the basis says which part. That
+label is honest, not a weakness; it just means the citation work is still
+to do.
 
 ## Stage 0: opportunities
 
@@ -50,20 +52,20 @@ work is still to do.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 4.1 | Recruiting criteria are based on behaviour and tied to the decision | practitioner judgment | `evals/scenarios/convenient-sample.md` |
+| 4.1 | Recruiting criteria are based on behaviour and tied to the decision | S9 | `evals/scenarios/convenient-sample.md` |
 | 4.2 | Missing groups in the sample are named, with whether they matter | practitioner judgment | `evals/scenarios/convenient-sample.md` |
-| 4.3 | Consent, recording, storage, access and deletion are all covered | practitioner judgment | `evals/scenarios/no-consent-plan.md` |
+| 4.3 | Consent, recording, storage, access and deletion are all covered | S2, Art. 4(a)(iii), 4(a)(v), 6(d), 6(e) | `evals/scenarios/no-consent-plan.md` |
 | 4.4 | Skipped challenges appear in the plan's risks | practitioner judgment | `evals/scenarios/skipped-challenge.md` |
 
 ## Stage 5: instrument
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 5.1 | Every item maps to a research question | practitioner judgment | `evals/scenarios/leading-guide.md` |
-| 5.2 | No leading, loaded or double-barrelled questions survive the wording check | practitioner judgment | `evals/scenarios/leading-guide.md` |
-| 5.3 | Questions ask about past behaviour, not predicted future behaviour, wherever possible | practitioner judgment | `evals/scenarios/leading-guide.md` |
-| 5.4 | Usability tasks are scenarios with written success criteria | practitioner judgment | `evals/scenarios/instruction-tasks.md` |
-| 5.5 | Survey scales are balanced and labelled; agree/disagree is used sparingly | practitioner judgment | `evals/scenarios/agree-battery.md` |
+| 5.1 | Every item maps to a research question | S6 (surveys, practice 1); guides: practitioner judgment | `evals/scenarios/leading-guide.md` |
+| 5.2 | No leading, loaded or double-barrelled questions survive the wording check | S4; S5 (mistakes 4, 5); S6 (practices 2, 5) | `evals/scenarios/leading-guide.md` |
+| 5.3 | Questions ask about past behaviour, not predicted future behaviour, wherever possible | S5 (mistake 3); S6 (practice 3); S8 | `evals/scenarios/leading-guide.md` |
+| 5.4 | Usability tasks are scenarios with written success criteria | S3 (scenarios: realistic, actionable, free of clues); success criteria: practitioner judgment | `evals/scenarios/instruction-tasks.md` |
+| 5.5 | Survey scales are balanced and labelled; agree/disagree is used sparingly | S6 (practice 6, balanced); labelling and agree/disagree: practitioner judgment | `evals/scenarios/agree-battery.md` |
 
 ## Across all stages
 
