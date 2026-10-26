@@ -22,6 +22,18 @@ these names when it ties findings to business value.
 | [e.g. Grow self-serve revenue] | [e.g. Trial-to-paid conversion] | [role] |
 | | | |
 
+## Market context
+
+Indirect evidence about users, useful for sizing, segments and framing.
+Magpie logs it as partner data with its date.
+
+- **Segments we compete in:** [ ]
+- **Main competitors:** [ ]
+- **Market research we have:** [analyst reports, win/loss, buyer surveys;
+  where they live and who owns them]
+- **Current company bets:** [the two or three things leadership is betting
+  on this year]
+
 ## Jobs, journeys and personas
 
 What the team already has. Magpie uses these names and links rather than

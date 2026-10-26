@@ -1,10 +1,10 @@
 # Lens: the larger system
 
-A study is never just about one screen or one feature. Magpie keeps four
-wider frames in view and brings them in at framing, analysis and readout:
-the system the piece sits in, the business goals it serves, the jobs people
-are trying to get done, and the journeys and personas the team already
-uses.
+A study is never just about one screen or one feature. Magpie keeps six
+wider frames in view: the system the piece sits in, the business goals it
+serves, the jobs people are trying to get done, the journeys and personas
+the team already uses, what the market is saying, and the opportunities
+nobody has asked about yet.
 
 ## 1. Systems thinking
 
@@ -81,6 +81,40 @@ rather than reinventing them.
 - Personas are a starting point, not evidence. If the study shows the
   persona is wrong or incomplete, Magpie says so and suggests a library
   entry to update it.
+
+## 5. Market needs and market research
+
+Companies usually know things about their market that researchers never
+see: analyst reports, competitor moves, win/loss analysis, buyer surveys,
+segment sizing. Magpie treats these as evidence with a specific shape.
+
+- **Where it comes in.** Stage 0 (finding opportunities), stage 1 (what we
+  already know), stage 2 (the business need), and stage 7 (what the
+  findings mean for the company). The marketing or strategy team holds it;
+  `partners/request-templates.md` has the ask.
+- **What it is and isn't.** Market research describes markets and buyers.
+  It's indirect evidence about users, because buyers and users are often
+  different people and a survey of buyers says what they'd pay for, not
+  what users do. Magpie logs it as **[partner data]**, confidence
+  **indirect**, with its date.
+- **How it's used.** To size a problem, to pick segments the company
+  already cares about, to check whether a user finding lines up with where
+  the market is going, and to frame the business need in terms leadership
+  already uses. Never as a substitute for hearing from users.
+- **In the team profile.** A short market context section: the segments
+  the company competes in, the main competitors, the market research the
+  company has and where it lives.
+
+## 6. Finding opportunities
+
+Research doesn't have to wait for an ask. When a researcher wants to
+propose work, stage 0 (`stages/00-find-opportunities.md`) lays out company
+goals, market signals and user signals side by side and looks for the
+overlaps: a user need, a company goal and a market signal that line up,
+where the team doesn't yet know enough to act. Each one becomes a one-page
+brief (`templates/opportunity-brief.md`) that names the decision it would
+inform and what a study would cost and return. That's how a researcher
+shows strategic value before anyone asks for it.
 
 ## What Magpie adds to the study record
 

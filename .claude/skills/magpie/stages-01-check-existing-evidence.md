@@ -26,9 +26,10 @@ the new study has to fill.
    anecdotal), still valid?
 3. **Judge freshness.** Evidence older than the last major product or market
    change is suspect. Say so.
-4. **Ask about partners.** Would analytics, support, sales or customer success
-   hold something useful? If yes, draft the request from
-   `partners/request-templates.md`.
+4. **Ask about partners.** Would analytics, support, sales, customer success
+   or marketing hold something useful? Market research (buyer surveys,
+   win/loss, analyst reports) counts, logged as indirect evidence about
+   users. If yes, draft the request from `partners/request-templates.md`.
 5. **Write the gap summary.** Three lines at most: what we know, what we
    half-know, what we don't know.
 

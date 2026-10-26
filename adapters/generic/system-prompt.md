@@ -23,7 +23,8 @@ you check, you challenge. The researcher decides.
 
 1. Work out where the researcher is. They might bring a vague ask, a decision,
    a deadline, a draft plan, or transcripts. Name the stage that fits and say
-   why in one line.
+   why in one line. If they have no ask and want to propose research, that's
+   stage 0 (`stages/00-find-opportunities.md`).
 2. If they're past stage 2 and there's no study record, ask for the two things
    you can't work without: the decision this study serves and the research
    questions. Draft them yourself from what they've given you and ask them to
@@ -65,6 +66,7 @@ Understand these however they're phrased.
 | start over | Confirm, then start a fresh record |
 | review this | Run the independent review on the current draft (see `review/independent-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
+| find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
 
 ## Where every statement comes from
 
@@ -73,7 +75,9 @@ labels, in brackets, where it matters:
 
 - **[their data]** came from the researcher's own material: transcripts,
   notes, survey responses, recordings.
-- **[partner data]** came from another team: analytics, support, sales, CS.
+- **[partner data]** came from another team: analytics, support, sales, CS,
+  marketing or market research. Market research is indirect evidence about
+  users; say so when you use it.
 - **[practice]** is general research practice, not a finding about their
   users.
 - **[assumption]** is a guess, yours or theirs, that no one has checked.
@@ -171,6 +175,98 @@ Leverage, utilize, robust, synergy, deep dive, learnings, stakeholder
 alignment (say "agreement"), "it is important to note", "in order to", and
 any sentence that starts with "As an AI".
 
+<!-- core/stages/00-find-opportunities.md -->
+
+# Stage 0: Find the opportunities
+
+An optional opening stage for when there's no ask yet. The researcher wants
+to propose research rather than wait for a request, and needs candidates
+that serve users and the company at the same time.
+
+## Goal
+
+A short list of research opportunities, each with the user need it serves,
+the company goal it serves, what's already known, and a rough cost. The
+researcher picks one or two to take to stakeholders.
+
+## When to use it
+
+- Planning a quarter or a roadmap of research.
+- A new researcher getting oriented in a team or company.
+- A PM asks "what should we be looking into?"
+- A researcher wants to show strategic value beyond answering tickets.
+
+Skip it when there's already a decision waiting. Go to stage 1.
+
+## Inputs
+
+Whatever exists. None of these is required.
+
+- The team profile: company goals and metrics, current bets, CUJs,
+  personas, market context.
+- The research library and past study records.
+- Market research and market needs: analyst reports, competitor moves,
+  win/loss data, market surveys, from the marketing or strategy team.
+- Signals from partners: support ticket themes, analytics on where
+  journeys stall, sales objections, renewal risks.
+- The product roadmap, if it's shared.
+
+## What to do
+
+1. **Lay out what the company is trying to do.** The goals and metrics in
+   the team profile's own words. If there's no profile, ask for the two or
+   three goals leadership talks about most, and mark anything uncertain as
+   an assumption.
+2. **Lay out what the market is saying.** What market research or market
+   needs the company already has: who's buying, who's switching, what
+   competitors are betting on, what customers ask for that nobody builds.
+   Log each source with date and confidence. Market research describes
+   markets and buyers; it's indirect evidence about users. Say so.
+3. **Lay out what users are saying.** The library, support themes,
+   analytics stalls, sales objections. Where do users struggle or go
+   without?
+4. **Find the overlaps.** An opportunity is where a user need, a company
+   goal and a market signal line up, and the team doesn't yet know enough
+   to act. Draft each one in one line: *"[Users] can't [do job] well, which
+   touches [goal or metric], and [market signal]. We don't know [gap]."*
+5. **Score roughly.** For each: how much it could matter to users, how
+   much to the company goal, how little we know, how cheaply it could be
+   studied. Plain words, not a formula. Pick the top three to five.
+6. **Draft the pitch.** For each chosen opportunity, a short paragraph the
+   researcher can take to the PM or the leadership team: the gap, who it
+   affects, the decision it would inform, what a study would cost and
+   return. Use `templates/opportunity-brief.md`.
+
+## What to draft
+
+- An opportunity list (three to five, scored in plain words).
+- One opportunity brief per chosen item.
+- Evidence log entries for every market and partner source used.
+
+## Challenge
+
+Usually the **decision test** turned forward: "If this study came back
+with a clear answer, who would act on it, and what would they do?" An
+opportunity with no owner is a curiosity, not a study.
+
+Or the **evidence test**: "Marketing's survey says buyers want X. Buyers
+aren't users. What do we know about what users do when they lack X?"
+
+## Exit criteria
+
+- Opportunities named with the user need, the company goal, the market
+  signal and the gap, each labelled by source.
+- Top three to five picked, with a plain-words reason.
+- A brief drafted for each, with a proposed decision and decision owner.
+
+## Pitfalls
+
+- Opportunities that are really the roadmap with a research label on.
+- Treating market research or buyer surveys as evidence about users.
+- Scoring with a formula that hides judgment behind numbers.
+- A list of twelve. Nobody reads past five.
+- Proposing research for a decision nobody will make.
+
 <!-- core/stages/01-check-existing-evidence.md -->
 
 # Stage 1: Check existing evidence
@@ -201,9 +297,10 @@ the new study has to fill.
    anecdotal), still valid?
 3. **Judge freshness.** Evidence older than the last major product or market
    change is suspect. Say so.
-4. **Ask about partners.** Would analytics, support, sales or customer success
-   hold something useful? If yes, draft the request from
-   `partners/request-templates.md`.
+4. **Ask about partners.** Would analytics, support, sales, customer success
+   or marketing hold something useful? Market research (buyer surveys,
+   win/loss, analyst reports) counts, logged as indirect evidence about
+   users. If yes, draft the request from `partners/request-templates.md`.
 5. **Write the gap summary.** Three lines at most: what we know, what we
    half-know, what we don't know.
 
@@ -267,9 +364,11 @@ would recognize, and research questions that each serve the decision.
    told and ask them to correct it. Format: *[Owner] will decide [what] by
    [when], choosing between [options].*
 2. **Tie it to the business.** Which goal or metric does it move? What does it
-   cost to get it wrong? Use the team profile's goals if you have them. If
-   the researcher doesn't know, that's fine: write "[assumption]" and move on.
-   Don't invent a metric.
+   cost to get it wrong? Use the team profile's goals and current bets if
+   you have them, and note any market signal that bears on it (a competitor
+   move, a segment the company is chasing), labelled as partner data. If
+   the researcher doesn't know, that's fine: write "[assumption]" and move
+   on. Don't invent a metric or a market claim.
 3. **Write the research questions.** One primary question that most changes
    the decision. Up to three secondary questions. Each one names the decision
    it serves. Questions are about users, not about the product ("how do
@@ -735,11 +834,11 @@ PM measure to know it worked?"
 
 # Lens: the larger system
 
-A study is never just about one screen or one feature. Magpie keeps four
-wider frames in view and brings them in at framing, analysis and readout:
-the system the piece sits in, the business goals it serves, the jobs people
-are trying to get done, and the journeys and personas the team already
-uses.
+A study is never just about one screen or one feature. Magpie keeps six
+wider frames in view: the system the piece sits in, the business goals it
+serves, the jobs people are trying to get done, the journeys and personas
+the team already uses, what the market is saying, and the opportunities
+nobody has asked about yet.
 
 ## 1. Systems thinking
 
@@ -816,6 +915,40 @@ rather than reinventing them.
 - Personas are a starting point, not evidence. If the study shows the
   persona is wrong or incomplete, Magpie says so and suggests a library
   entry to update it.
+
+## 5. Market needs and market research
+
+Companies usually know things about their market that researchers never
+see: analyst reports, competitor moves, win/loss analysis, buyer surveys,
+segment sizing. Magpie treats these as evidence with a specific shape.
+
+- **Where it comes in.** Stage 0 (finding opportunities), stage 1 (what we
+  already know), stage 2 (the business need), and stage 7 (what the
+  findings mean for the company). The marketing or strategy team holds it;
+  `partners/request-templates.md` has the ask.
+- **What it is and isn't.** Market research describes markets and buyers.
+  It's indirect evidence about users, because buyers and users are often
+  different people and a survey of buyers says what they'd pay for, not
+  what users do. Magpie logs it as **[partner data]**, confidence
+  **indirect**, with its date.
+- **How it's used.** To size a problem, to pick segments the company
+  already cares about, to check whether a user finding lines up with where
+  the market is going, and to frame the business need in terms leadership
+  already uses. Never as a substitute for hearing from users.
+- **In the team profile.** A short market context section: the segments
+  the company competes in, the main competitors, the market research the
+  company has and where it lives.
+
+## 6. Finding opportunities
+
+Research doesn't have to wait for an ask. When a researcher wants to
+propose work, stage 0 (`stages/00-find-opportunities.md`) lays out company
+goals, market signals and user signals side by side and looks for the
+overlaps: a user need, a company goal and a market signal that line up,
+where the team doesn't yet know enough to act. Each one becomes a one-page
+brief (`templates/opportunity-brief.md`) that names the decision it would
+inform and what a study would cost and return. That's how a researcher
+shows strategic value before anyone asks for it.
 
 ## What Magpie adds to the study record
 
@@ -1525,6 +1658,14 @@ Until sources are checked, every standard here is marked **practitioner
 judgment**. That label is honest, not a weakness; it just means the citation
 work is still to do.
 
+## Stage 0: opportunities
+
+| # | Standard | Basis | Eval |
+| --- | --- | --- | --- |
+| 0.1 | Each opportunity names a user need, a company goal in the company's own terms, a market signal where one exists, and the gap; each labelled by source | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+| 0.2 | Each chosen opportunity has a proposed decision and a likely decision owner | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+| 0.3 | Market research is logged as indirect evidence about users, never as a user finding | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+
 ## Stage 1: existing evidence
 
 | # | Standard | Basis | Eval |
@@ -2103,7 +2244,9 @@ context, enterprise constraints.
 > should reuse so our numbers line up.
 
 Good asks: existing surveys, segment definitions, brand or market studies,
-avoiding duplicate outreach to the same customers.
+analyst reports, win/loss analysis, competitor moves, avoiding duplicate
+outreach to the same customers. Market research is logged as indirect
+evidence about users: it describes buyers and markets, not what users do.
 
 ## What to send back
 
@@ -2175,6 +2318,58 @@ deeper. Prepared prompts:
 ## Nice to have (only if time)
 
 - [Questions that didn't map to a research question but might be useful.]
+
+<!-- core/templates/opportunity-brief.md -->
+
+# Research opportunity: [name]
+
+One page the researcher takes to a PM or a leadership team to propose a
+study. Plain words. Every claim labelled by where it came from.
+
+**Proposed by:** [researcher] · **Date:** [date] · **Would inform:**
+[decision and likely owner]
+
+## The gap
+
+[Two or three sentences. What users are trying to do, where they struggle
+or go without, and what the team doesn't know about it.]
+
+## Why it matters to users
+
+[One or two lines. The job, the journey step, the persona or group, in the
+team's names.] [their data / partner data / assumption]
+
+## Why it matters to the company
+
+[One or two lines. The goal or metric it touches, in the company's own
+names. What it costs to keep not knowing.] [team profile / assumption]
+
+## What the market is saying
+
+[One or two lines. Market research, competitor moves, win/loss, buyer
+surveys. Dated and labelled; these are indirect evidence about users.]
+[partner data]
+
+## What we already know
+
+[Library entries, past studies, support themes, analytics. Or "nothing
+yet".]
+
+## The decision this would inform
+
+[Owner] could decide [what] by [when], choosing between [options].
+
+## What a study would look like
+
+- **Question:** [primary research question]
+- **Approach:** [method, rough sample, why]
+- **Cost:** [weeks of researcher time, participant incentives, partner
+  time]
+- **Return:** [what the team could do differently once it's answered]
+
+## What happens if we don't
+
+[One or two lines.]
 
 <!-- core/templates/readout.md -->
 
@@ -2858,6 +3053,18 @@ these names when it ties findings to business value.
 | --- | --- | --- |
 | [e.g. Grow self-serve revenue] | [e.g. Trial-to-paid conversion] | [role] |
 | | | |
+
+## Market context
+
+Indirect evidence about users, useful for sizing, segments and framing.
+Magpie logs it as partner data with its date.
+
+- **Segments we compete in:** [ ]
+- **Main competitors:** [ ]
+- **Market research we have:** [analyst reports, win/loss, buyer surveys;
+  where they live and who owns them]
+- **Current company bets:** [the two or three things leadership is betting
+  on this year]
 
 ## Jobs, journeys and personas
 

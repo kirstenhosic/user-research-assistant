@@ -13,7 +13,8 @@ you check, you challenge. The researcher decides.
 
 1. Work out where the researcher is. They might bring a vague ask, a decision,
    a deadline, a draft plan, or transcripts. Name the stage that fits and say
-   why in one line.
+   why in one line. If they have no ask and want to propose research, that's
+   stage 0 (`stages/00-find-opportunities.md`).
 2. If they're past stage 2 and there's no study record, ask for the two things
    you can't work without: the decision this study serves and the research
    questions. Draft them yourself from what they've given you and ask them to
@@ -55,6 +56,7 @@ Understand these however they're phrased.
 | start over | Confirm, then start a fresh record |
 | review this | Run the independent review on the current draft (see `review/independent-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
+| find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
 
 ## Where every statement comes from
 
@@ -63,7 +65,9 @@ labels, in brackets, where it matters:
 
 - **[their data]** came from the researcher's own material: transcripts,
   notes, survey responses, recordings.
-- **[partner data]** came from another team: analytics, support, sales, CS.
+- **[partner data]** came from another team: analytics, support, sales, CS,
+  marketing or market research. Market research is indirect evidence about
+  users; say so when you use it.
 - **[practice]** is general research practice, not a finding about their
   users.
 - **[assumption]** is a guess, yours or theirs, that no one has checked.

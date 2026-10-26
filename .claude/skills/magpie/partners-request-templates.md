@@ -60,7 +60,9 @@ context, enterprise constraints.
 > should reuse so our numbers line up.
 
 Good asks: existing surveys, segment definitions, brand or market studies,
-avoiding duplicate outreach to the same customers.
+analyst reports, win/loss analysis, competitor moves, avoiding duplicate
+outreach to the same customers. Market research is logged as indirect
+evidence about users: it describes buyers and markets, not what users do.
 
 ## What to send back
 

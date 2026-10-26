@@ -53,7 +53,11 @@ Five things make it different from a general-purpose chat assistant:
    journeys, personas and jobs to be done, tied to the company's goals in
    the company's names, and checked for what's upstream, downstream and
    owned by someone else. A few questions at framing, a few labels at
-   analysis and readout, never a separate deliverable.
+   analysis and readout, never a separate deliverable. Market research is
+   evidence too, logged as indirect evidence about users. And research
+   doesn't have to wait for an ask: an optional opening stage lays out
+   company goals, market signals and user signals side by side and drafts
+   opportunity briefs for the overlaps.
 
 ## The workflow
 
@@ -64,6 +68,7 @@ record it needs: the decision and the research questions.
 
 | Stage | What the assistant drafts | Example challenge | Can end here when |
 | --- | --- | --- | --- |
+| 0. Find the opportunities (optional) | Opportunity list, one-page briefs | "If this study came back with a clear answer, who would act on it?" | Used when there's no ask yet and the researcher wants to propose research |
 | 1. Check existing evidence | Evidence log, gap summary | "How old is this, and has the product or market changed since?" | Existing evidence answers the question: deliver an evidence brief instead of a study. Finding nothing is a valid result and moves straight on |
 | 2. Frame the problem | Decision statement, business goal, research questions, assumptions | "If the answer came back the opposite way, what would the team do differently?" | No decision depends on the answer |
 | 3. Choose the approach | Method recommendation with trade-offs | "Why can't analytics or a quick test answer this?" | |

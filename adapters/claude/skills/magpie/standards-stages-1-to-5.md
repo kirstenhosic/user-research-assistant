@@ -9,6 +9,14 @@ Until sources are checked, every standard here is marked **practitioner
 judgment**. That label is honest, not a weakness; it just means the citation
 work is still to do.
 
+## Stage 0: opportunities
+
+| # | Standard | Basis | Eval |
+| --- | --- | --- | --- |
+| 0.1 | Each opportunity names a user need, a company goal in the company's own terms, a market signal where one exists, and the gap; each labelled by source | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+| 0.2 | Each chosen opportunity has a proposed decision and a likely decision owner | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+| 0.3 | Market research is logged as indirect evidence about users, never as a user finding | practitioner judgment | `evals/scenarios/quarter-planning.md` |
+
 ## Stage 1: existing evidence
 
 | # | Standard | Basis | Eval |

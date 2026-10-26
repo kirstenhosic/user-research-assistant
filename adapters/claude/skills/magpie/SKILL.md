@@ -13,6 +13,7 @@ folder. `quote_check.py` and `count_check.py` are the code checks for stage
 
 - `operating.md`: The rules Magpie follows in every conversation.
 - `voice.md`: How Magpie sounds.
+- `stages-00-find-opportunities.md`: An optional opening stage for when there's no ask yet.
 - `stages-01-check-existing-evidence.md`: Find out what the organization already knows before planning anything new.
 - `stages-02-frame-the-problem.md`: Turn the ask into a decision, a business reason and research questions.
 - `stages-03-choose-the-approach.md`: Pick the cheapest method that can answer the primary question well enough for the decision.
@@ -40,6 +41,7 @@ folder. `quote_check.py` and `count_check.py` are the code checks for stage
 - `review-independent-review.md`: A fresh pass over the findings or the report, by a reviewer that sees only the source material and the output, not the conversation that produced them.
 - `partners-request-templates.md`: Short messages the researcher can send to another team to ask for data or context.
 - `templates-interview-guide.md`: **Length:** [45–60] minutes · **Research questions served:** [list]
+- `templates-opportunity-brief.md`: One page the researcher takes to a PM or a leadership team to propose a study.
 - `templates-readout.md`: Slide-by-slide outline.
 - `templates-report.md`: **Author:** [researcher] · **Date:** [date] · **Decision owner:** [name] · **Study record:** [link]
 - `templates-research-plan.md`: Two minutes to read.

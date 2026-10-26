@@ -23,9 +23,11 @@ would recognize, and research questions that each serve the decision.
    told and ask them to correct it. Format: *[Owner] will decide [what] by
    [when], choosing between [options].*
 2. **Tie it to the business.** Which goal or metric does it move? What does it
-   cost to get it wrong? Use the team profile's goals if you have them. If
-   the researcher doesn't know, that's fine: write "[assumption]" and move on.
-   Don't invent a metric.
+   cost to get it wrong? Use the team profile's goals and current bets if
+   you have them, and note any market signal that bears on it (a competitor
+   move, a segment the company is chasing), labelled as partner data. If
+   the researcher doesn't know, that's fine: write "[assumption]" and move
+   on. Don't invent a metric or a market claim.
 3. **Write the research questions.** One primary question that most changes
    the decision. Up to three secondary questions. Each one names the decision
    it serves. Questions are about users, not about the product ("how do
