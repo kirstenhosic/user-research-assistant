@@ -1906,9 +1906,11 @@ Magpie applies, a check can verify, and an eval in `evals/` can test. Each
 one names its basis: a checked public source listed in
 `docs/PROVENANCE.md`, or practitioner judgment.
 
-Until sources are checked, every standard here is marked **practitioner
-judgment**. That label is honest, not a weakness; it just means the citation
-work is still to do.
+A basis like **S4** points to that row in the sources table in
+`docs/PROVENANCE.md`; "practitioner judgment" means no checked source yet.
+Where a source supports part of a standard, the basis says which part. That
+label is honest, not a weakness; it just means the citation work is still
+to do.
 
 ## Stage 0: opportunities
 
@@ -1951,20 +1953,20 @@ work is still to do.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 4.1 | Recruiting criteria are based on behaviour and tied to the decision | practitioner judgment | `evals/scenarios/convenient-sample.md` |
+| 4.1 | Recruiting criteria are based on behaviour and tied to the decision | S9 | `evals/scenarios/convenient-sample.md` |
 | 4.2 | Missing groups in the sample are named, with whether they matter | practitioner judgment | `evals/scenarios/convenient-sample.md` |
-| 4.3 | Consent, recording, storage, access and deletion are all covered | practitioner judgment | `evals/scenarios/no-consent-plan.md` |
+| 4.3 | Consent, recording, storage, access and deletion are all covered | S2, Art. 4(a)(iii), 4(a)(v), 6(d), 6(e) | `evals/scenarios/no-consent-plan.md` |
 | 4.4 | Skipped challenges appear in the plan's risks | practitioner judgment | `evals/scenarios/skipped-challenge.md` |
 
 ## Stage 5: instrument
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 5.1 | Every item maps to a research question | practitioner judgment | `evals/scenarios/leading-guide.md` |
-| 5.2 | No leading, loaded or double-barrelled questions survive the wording check | practitioner judgment | `evals/scenarios/leading-guide.md` |
-| 5.3 | Questions ask about past behaviour, not predicted future behaviour, wherever possible | practitioner judgment | `evals/scenarios/leading-guide.md` |
-| 5.4 | Usability tasks are scenarios with written success criteria | practitioner judgment | `evals/scenarios/instruction-tasks.md` |
-| 5.5 | Survey scales are balanced and labelled; agree/disagree is used sparingly | practitioner judgment | `evals/scenarios/agree-battery.md` |
+| 5.1 | Every item maps to a research question | S6 (surveys, practice 1); guides: practitioner judgment | `evals/scenarios/leading-guide.md` |
+| 5.2 | No leading, loaded or double-barrelled questions survive the wording check | S4; S5 (mistakes 4, 5); S6 (practices 2, 5) | `evals/scenarios/leading-guide.md` |
+| 5.3 | Questions ask about past behaviour, not predicted future behaviour, wherever possible | S5 (mistake 3); S6 (practice 3); S8 | `evals/scenarios/leading-guide.md` |
+| 5.4 | Usability tasks are scenarios with written success criteria | S3 (scenarios: realistic, actionable, free of clues); success criteria: practitioner judgment | `evals/scenarios/instruction-tasks.md` |
+| 5.5 | Survey scales are balanced and labelled; agree/disagree is used sparingly | S6 (practice 6, balanced); labelling and agree/disagree: practitioner judgment | `evals/scenarios/agree-battery.md` |
 
 ## Across all stages
 
@@ -1983,19 +1985,19 @@ work is still to do.
 
 What "good" looks like in analysis, reporting and workshops. Each standard
 is something Magpie applies, a check can verify, and an eval in `evals/` can
-test. Basis is a checked public source listed in `docs/PROVENANCE.md`, or
-practitioner judgment. Until sources are checked, every standard here is
-marked **practitioner judgment**.
+test. A basis like **S2** points to that row in the sources table in
+`docs/PROVENANCE.md`; "practitioner judgment" means no checked source yet.
+Where a source supports part of a standard, the basis says which part.
 
 ## Stage 6: analysis
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 6.1 | Every finding answers a research question or is listed as "also noticed" | practitioner judgment | `evals/scenarios/theme-restates-question.md` |
-| 6.2 | Every finding names its counter-evidence: the participants who didn't fit | practitioner judgment | `evals/scenarios/dropped-participants.md` |
-| 6.3 | Counts are stated as numbers ("6 of 8"), never as vague quantities; no percentages from small qualitative samples | practitioner judgment | `evals/scenarios/overclaimed-theme.md` |
+| 6.1 | Every finding answers a research question or is listed as "also noticed" | S1b (a theme is a shared meaning, not a topic summary); the "also noticed" rule: practitioner judgment | `evals/scenarios/theme-restates-question.md` |
+| 6.2 | Every finding names its counter-evidence: the participants who didn't fit | S2, Art. 9(d) (no undue selectivity) | `evals/scenarios/dropped-participants.md` |
+| 6.3 | Counts are stated as numbers ("6 of 8"), never as vague quantities; no percentages from small qualitative samples | S2, Art. 9(c) (conclusions adequately supported); the wording rule itself: practitioner judgment | `evals/scenarios/overclaimed-theme.md` |
 | 6.4 | Every quote carries a participant code and location, and matches the source | practitioner judgment | `evals/scenarios/altered-quote.md` |
-| 6.5 | Strength labels match the evidence and don't drift between record and readout | practitioner judgment | `evals/scenarios/overclaimed-theme.md` |
+| 6.5 | Strength labels match the evidence and don't drift between record and readout | S2, Art. 9(c) | `evals/scenarios/overclaimed-theme.md` |
 | 6.6 | Partner data is shown alongside the study data as agreeing, disagreeing or silent, never merged into one claim | practitioner judgment | `evals/scenarios/telemetry-merge.md` |
 | 6.7 | The independent review is requested at stage 6 and its findings are acted on or answered, never dropped | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 6.8 | Survey results show the base and say who answered; no significance claim without a test | practitioner judgment | `evals/scenarios/survey-significance.md` |
@@ -2009,7 +2011,7 @@ marked **practitioner judgment**.
 | 7.2 | Every recommendation has an owner, rests on a named finding, and names the decision or goal it serves | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
 | 7.3 | Recommendations are detailed actions with owners; partner sections where they help | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
 | 7.3a | The deck is sized to the audience and slot; 20 slides or fewer by default, appendix not counted | practitioner judgment | `evals/scenarios/method-first-readout.md` |
-| 7.4 | Limits, including skipped challenges, are always in the record and the report; for the readout, Magpie drafts them and the researcher decides whether they go in, never silently either way | practitioner judgment | `evals/scenarios/buried-limits.md` |
+| 7.4 | Limits, including skipped challenges, are always in the record and the report; for the readout, Magpie drafts them and the researcher decides whether they go in, never silently either way | S2, Art. 9(a) (enough on method and sampling to assess the conclusions); the readout rule: practitioner judgment | `evals/scenarios/buried-limits.md` |
 | 7.5 | The independent review is run on the report and summarized in it | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 7.5a | The report is ten pages or fewer (images and appendix aside), has a linked contents list, keeps method to one paragraph, and moves timelines, recruiting and consent detail to the appendix | practitioner judgment | `evals/scenarios/methods-paper-report.md` |
 | 7.6 | Library entries are written for findings worth keeping | practitioner judgment | `evals/scenarios/method-first-readout.md` |
