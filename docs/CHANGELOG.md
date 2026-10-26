@@ -2,6 +2,9 @@
 
 ## 2026-10-26
 
+- README rewritten for a first-time user: what Magpie does, setup steps
+  per tool (Claude Code, Claude.ai, ChatGPT, Gemini, anything else), a
+  first conversation, the plain commands, and troubleshooting.
 - Sources: nine public sources checked and recorded in `docs/PROVENANCE.md`
   (ICC/ESOMAR code 2025, Braun and Clarke, six Nielsen Norman Group
   articles); 12 standards now cite one in full or in part. The rest stay
