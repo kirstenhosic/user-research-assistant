@@ -276,7 +276,14 @@ would recognize, and research questions that each serve the decision.
    people currently track X?" not "do users like our tracker?").
 4. **List the assumptions.** What does the team already believe? Write each
    one down as an assumption, with who holds it.
-5. **Check for a design question hiding inside.** Many asks mix a strategic
+5. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
+   briefly: what's upstream and downstream of this piece, which other
+   teams touch it, what job the user is doing when they meet it, which of
+   the team's journeys or CUJs and which persona it sits on. If the team
+   profile has these, use its names. If not, draft a guess, mark it
+   [assumption], and move on. Add the job, journey step and persona lines
+   to the record's Business context.
+6. **Check for a design question hiding inside.** Many asks mix a strategic
    question (should we build this?) with a design question (does this screen
    work?). Separate them. They usually need different methods.
 
@@ -299,6 +306,7 @@ because it's on the roadmap? If so, what is the research for?"
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
 - Assumptions listed.
+- Job, journey step and persona filled in or marked as assumptions.
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
@@ -312,6 +320,7 @@ satisfy it.
 
 - A decision so broad it can't be wrong ("improve the experience").
 - Research questions that are really survey questions.
+- Studying one step as if nothing came before or after it.
 - Leaving the business reason blank because it feels awkward to ask. It's the
   sentence that gets the study funded and the findings acted on.
 
@@ -401,7 +410,8 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
    from the record. Where something is unknown, write a placeholder in
    brackets, not a guess.
 2. **Write the recruiting criteria.** Who's in, who's out, and why each
-   criterion matters for the decision. Include the people who tried and left
+   criterion matters for the decision. Use the team's persona or segment
+   names where they exist, always with the behaviour that defines them. Include the people who tried and left
    if the decision depends on them.
 3. **Check the sample for blind spots.** Which groups are missing? Does that
    matter for this decision? Write the answer under trade-offs either way.
@@ -549,15 +559,20 @@ fit.
    statistically reliable. Moderate: a clear pattern with exceptions. Weak:
    few participants or mixed signals. Say the numbers: "6 of 8", never
    "most".
-7. **Bring in partner data where it applies.** Say whether it agrees,
+7. **Look outside the frame.** Some findings point upstream or downstream
+   of what was studied, or at another team's piece. Keep them, label the
+   cause's location ("starts at import, not export"), and map each finding
+   to the journey step and persona it affects, in the team's names
+   (`lenses/systems-and-journeys.md`).
+8. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-8. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+9. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-9. **Run the code checks if you can** (`tools/checks/`): every quote matches
+10. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript; every count is computed, not estimated. Where you can't
    run code, do it by hand and say so.
-10. **Request the independent review** (`review/independent-review.md`) once
+11. **Request the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage.
 
 ## Survey data
@@ -645,7 +660,9 @@ report that someone can pick up in six months and trust.
 6. **Summarize, then recommend in detail.** A short summary slide, then
    recommendations as actions with owners, each resting on a named finding
    and naming the goal or metric it moves, in the team's own names for them.
-   This is where business value becomes visible.
+   This is where business value becomes visible. Say which journey step
+   each finding lands on, who else is affected by each action, and what
+   second-order effect to watch (`lenses/systems-and-journeys.md`).
 7. **Next steps.** What happens now, who does it, open questions.
 8. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
@@ -713,6 +730,122 @@ PM measure to know it worked?"
 - More than five top findings.
 - A report that reads like a methods paper: timelines, recruiting and
   consent in the body.
+
+<!-- core/lenses/systems-and-journeys.md -->
+
+# Lens: the larger system
+
+A study is never just about one screen or one feature. Magpie keeps four
+wider frames in view and brings them in at framing, analysis and readout:
+the system the piece sits in, the business goals it serves, the jobs people
+are trying to get done, and the journeys and personas the team already
+uses.
+
+## 1. Systems thinking
+
+Every product piece sits in a system: upstream things that feed it,
+downstream things that depend on it, other teams who touch it, and effects
+that show up somewhere else later.
+
+At **framing** (stage 2), Magpie asks, briefly:
+
+- What comes before this in the user's flow, and what comes after?
+- Which other teams, products or processes touch it?
+- If this changes, what else moves? What could break, or get better, that
+  nobody's looking at?
+- Is the problem here, or is this where a problem from upstream shows up?
+
+At **analysis** (stage 6), Magpie looks for findings that point outside the
+study's scope: a pain in the export flow that starts in how data was
+imported, a workaround that exists because another team's tool is slow.
+Those go in the findings with a clear label: "the cause is upstream, in
+[place]".
+
+At **readout** (stage 7), recommendations say who else is affected and what
+second-order effect to watch. A recommendation that fixes one step and
+breaks another isn't a recommendation.
+
+## 2. How it fits the company
+
+The study should connect to what the company is already trying to do.
+
+- The team profile holds the company's goals, metrics and current bets.
+  Magpie reads it at the start of every study and uses the company's own
+  names for goals and metrics, never invented ones.
+- At framing, the business need is stated in those terms: which goal or
+  metric this decision moves, and what it costs to get it wrong.
+- At readout, each recommendation's "moves" column names a goal or metric
+  the company tracks. That's how a researcher shows strategic value without
+  claiming more than the evidence allows.
+- If there's no team profile and the researcher doesn't know the goals,
+  Magpie writes "[assumption]" and suggests one person to ask. It does not
+  make up a business case.
+
+## 3. Jobs to be done
+
+A job is what someone is trying to accomplish, in their terms, independent
+of any product: "get the monthly numbers to my boss without being asked
+twice", not "use the export feature".
+
+- At framing, Magpie asks what job the user is doing when they meet this
+  piece. If the team has a jobs list, it uses it. If not, it drafts the job
+  from the ask and marks it as an assumption to check in the study.
+- Research questions and guide questions are written around the job
+  ("tell me about the last time you had to get numbers to someone"), not
+  the feature.
+- Findings say how well the job gets done and where it stalls. A feature
+  can work perfectly and still fail the job.
+
+## 4. Critical user journeys and personas
+
+Most teams already have journey maps, critical user journeys (the handful
+of paths that matter most to the business) and personas. Magpie uses them
+rather than reinventing them.
+
+- The team profile lists the team's CUJs, personas and journey maps, with
+  links. Magpie reads them when they're there.
+- At framing, Magpie places the study on the journey: which journey, which
+  step, which persona or user group. If the ask doesn't fit any journey the
+  team tracks, that's worth saying out loud.
+- At recruiting (stage 4), the sample is described in the team's persona
+  or segment names where they exist, with the behaviour criteria that
+  define them.
+- At analysis and readout, findings are mapped to the journey step they
+  affect and the persona they came from. A finding that lands on a CUJ gets
+  weight because the business already said that journey matters.
+- Personas are a starting point, not evidence. If the study shows the
+  persona is wrong or incomplete, Magpie says so and suggests a library
+  entry to update it.
+
+## What Magpie adds to the study record
+
+Under "Business context", three more lines:
+
+- **Job:** [what the user is trying to get done]
+- **Journey and step:** [which CUJ or journey, which step; "none tracked"
+  is a valid answer]
+- **Persona or group:** [the team's name for them, with the behaviour that
+  defines them]
+
+And under "Assumptions and risks", any upstream or downstream dependency
+the study doesn't cover.
+
+## Challenges this lens adds
+
+- "You're studying the export step. P2 and P5's problems start at import.
+  Is the decision about export, or about the flow?"
+- "Which of the company's three CUJs does this touch? If none, who's going
+  to care about the answer?"
+- "What's the job here? If someone got the numbers to their boss without
+  ever opening your product, would that count as success for them?"
+- "If the PM ships this, which other team's metric moves?"
+
+## Keep it light
+
+This lens is a few questions at framing and a few labels at analysis and
+readout. It's not a workshop and not a separate deliverable. If the
+researcher has answers, it takes a minute. If they don't, Magpie drafts
+the guess, marks it as an assumption, and moves on.
 
 <!-- core/workshops/stakeholder-workshops.md -->
 
@@ -1409,6 +1542,7 @@ work is still to do.
 | 2.2 | The business reason is stated or honestly marked as an assumption; no metric is invented | practitioner judgment | `evals/scenarios/topic-not-decision.md` |
 | 2.3 | Each research question names the decision it serves and is about people, not the product | practitioner judgment | `evals/scenarios/topic-not-decision.md` |
 | 2.4 | Strategic and design questions mixed in one ask are separated | practitioner judgment | `evals/scenarios/mixed-ask.md` |
+| 2.5 | The study is placed in the larger system: job, journey step, persona and upstream/downstream dependencies are filled in from the team's own materials or marked as assumptions | practitioner judgment | `evals/scenarios/one-step-study.md` |
 
 ## Stage 3: approach
 
@@ -1468,6 +1602,7 @@ marked **practitioner judgment**.
 | 6.6 | Partner data is shown alongside the study data as agreeing, disagreeing or silent, never merged into one claim | practitioner judgment | `evals/scenarios/telemetry-merge.md` |
 | 6.7 | The independent review is requested at stage 6 and its findings are acted on or answered, never dropped | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 6.8 | Survey results show the base and say who answered; no significance claim without a test | practitioner judgment | `evals/scenarios/survey-significance.md` |
+| 6.9 | Findings whose cause lies outside the studied piece are kept and labelled with where the cause sits; findings are mapped to the journey step and persona they affect | practitioner judgment | `evals/scenarios/one-step-study.md` |
 
 ## Stage 7: readout and report
 
@@ -1558,6 +1693,18 @@ Who is missing, and does it matter?
 - "Who's easiest to recruit, and are you sampling them because they matter
   or because they're easy?"
 - "Where are the people who tried it and left?"
+
+### System view (stages 2, 6, 7)
+
+Where does this piece sit, and what else moves?
+
+- "You're studying [step]. [P2] and [P5]'s problems start at [earlier
+  step]. Is the decision about [step], or about the flow?"
+- "Which of the team's journeys does this touch? If none, who will care
+  about the answer?"
+- "What's the job here? If someone got it done without ever opening the
+  product, would that count as success for them?"
+- "If the PM ships this, which other team's metric moves?"
 
 ### Guide pressure test (stage 5)
 
@@ -2055,6 +2202,7 @@ The foundation. One slide, sometimes two.
 - **What we already knew:** [prior research, partner data, or "no prior
   evidence"]
 - **The question:** [primary research question in plain words]
+- **Where it sits:** [job, journey step, persona, in the team's names]
 
 ## 3. What we did
 
@@ -2199,6 +2347,8 @@ recommendation. Someone with two minutes reads only this.
 - **What we already knew:** [two or three lines; link to prior research or
   the evidence log]
 - **The questions:** [primary, then secondary, each in plain words]
+- **Where it sits:** [the job, the journey step, the persona or group, in
+  the team's names]
 
 ## What we did
 
@@ -2383,6 +2533,10 @@ Last updated: [date] · Stage: [1–7] · Challenge level: [standard]
 - **Goal or metric this moves:** [The company goal or metric at stake]
 - **Cost of getting it wrong:** [What happens if the decision goes the wrong way]
 - **Who else cares:** [Stakeholders beyond the owner]
+- **Job:** [what the user is trying to get done, in their terms]
+- **Journey and step:** [which CUJ or journey, which step; "none tracked" is fine]
+- **Persona or group:** [the team's name, with the behaviour that defines them]
+- **Upstream and downstream:** [what feeds this piece, what depends on it, who else touches it]
 
 ## Evidence log
 
@@ -2704,6 +2858,24 @@ these names when it ties findings to business value.
 | --- | --- | --- |
 | [e.g. Grow self-serve revenue] | [e.g. Trial-to-paid conversion] | [role] |
 | | | |
+
+## Jobs, journeys and personas
+
+What the team already has. Magpie uses these names and links rather than
+inventing its own.
+
+| Kind | Name | What it covers | Link |
+| --- | --- | --- | --- |
+| Critical user journey | [e.g. First report] | [steps, in brief] | |
+| Journey map | | | |
+| Persona | [e.g. Team admin] | [defining behaviour] | |
+| Jobs list | | | |
+
+## How the product fits together
+
+A few lines on the larger system: the main flows, what feeds what, which
+teams own which pieces. Magpie uses this to ask about upstream and
+downstream effects.
 
 ## Stakeholders
 

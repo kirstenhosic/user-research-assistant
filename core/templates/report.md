@@ -42,6 +42,8 @@ recommendation. Someone with two minutes reads only this.
 - **What we already knew:** [two or three lines; link to prior research or
   the evidence log]
 - **The questions:** [primary, then secondary, each in plain words]
+- **Where it sits:** [the job, the journey step, the persona or group, in
+  the team's names]
 
 ## What we did
 

@@ -22,6 +22,7 @@ The foundation. One slide, sometimes two.
 - **What we already knew:** [prior research, partner data, or "no prior
   evidence"]
 - **The question:** [primary research question in plain words]
+- **Where it sits:** [job, journey step, persona, in the team's names]
 
 ## 3. What we did
 

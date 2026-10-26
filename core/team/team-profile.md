@@ -22,6 +22,24 @@ these names when it ties findings to business value.
 | [e.g. Grow self-serve revenue] | [e.g. Trial-to-paid conversion] | [role] |
 | | | |
 
+## Jobs, journeys and personas
+
+What the team already has. Magpie uses these names and links rather than
+inventing its own.
+
+| Kind | Name | What it covers | Link |
+| --- | --- | --- | --- |
+| Critical user journey | [e.g. First report] | [steps, in brief] | |
+| Journey map | | | |
+| Persona | [e.g. Team admin] | [defining behaviour] | |
+| Jobs list | | | |
+
+## How the product fits together
+
+A few lines on the larger system: the main flows, what feeds what, which
+teams own which pieces. Magpie uses this to ask about upstream and
+downstream effects.
+
 ## Stakeholders
 
 | Role | Name or team | What they usually need from research |

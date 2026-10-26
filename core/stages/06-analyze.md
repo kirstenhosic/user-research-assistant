@@ -36,15 +36,20 @@ fit.
    statistically reliable. Moderate: a clear pattern with exceptions. Weak:
    few participants or mixed signals. Say the numbers: "6 of 8", never
    "most".
-7. **Bring in partner data where it applies.** Say whether it agrees,
+7. **Look outside the frame.** Some findings point upstream or downstream
+   of what was studied, or at another team's piece. Keep them, label the
+   cause's location ("starts at import, not export"), and map each finding
+   to the journey step and persona it affects, in the team's names
+   (`lenses/systems-and-journeys.md`).
+8. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-8. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+9. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-9. **Run the code checks if you can** (`tools/checks/`): every quote matches
+10. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript; every count is computed, not estimated. Where you can't
    run code, do it by hand and say so.
-10. **Request the independent review** (`review/independent-review.md`) once
+11. **Request the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage.
 
 ## Survey data

@@ -7,7 +7,10 @@
   testing, diary studies, card sorting and tree testing, evidence review),
   readout, report and workshop templates, team profile, intake form and
   library entry, standards for stages 6 to 7, eleven more eval scenarios,
-  and two code checks (quotes, counts).
+  and two code checks (quotes, counts). Readout and report templates
+  reshaped around Kirsten's readout and report principles. A larger-system
+  lens (systems thinking, company goals, jobs to be done, journeys and
+  personas) added to framing, analysis and readout.
 - Phase 2: operating rules, voice, stages 1 to 5, the challenge bank, three
   checks, three method guides, partner request templates, four instrument
   templates, standards for stages 1 to 5, twelve eval scenarios, and the

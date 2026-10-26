@@ -18,6 +18,7 @@ marked **practitioner judgment**.
 | 6.6 | Partner data is shown alongside the study data as agreeing, disagreeing or silent, never merged into one claim | practitioner judgment | `evals/scenarios/telemetry-merge.md` |
 | 6.7 | The independent review is requested at stage 6 and its findings are acted on or answered, never dropped | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 6.8 | Survey results show the base and say who answered; no significance claim without a test | practitioner judgment | `evals/scenarios/survey-significance.md` |
+| 6.9 | Findings whose cause lies outside the studied piece are kept and labelled with where the cause sits; findings are mapped to the journey step and persona they affect | practitioner judgment | `evals/scenarios/one-step-study.md` |
 
 ## Stage 7: readout and report
 

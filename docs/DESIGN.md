@@ -49,6 +49,11 @@ Five things make it different from a general-purpose chat assistant:
    paragraph, and admin detail lives in the appendix.
 8. **The researcher stays the author.** The assistant proposes; the researcher
    decides and owns the work.
+9. **The piece sits in a system.** Every study is placed on the team's own
+   journeys, personas and jobs to be done, tied to the company's goals in
+   the company's names, and checked for what's upstream, downstream and
+   owned by someone else. A few questions at framing, a few labels at
+   analysis and readout, never a separate deliverable.
 
 ## The workflow
 

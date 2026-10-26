@@ -32,7 +32,9 @@ report that someone can pick up in six months and trust.
 6. **Summarize, then recommend in detail.** A short summary slide, then
    recommendations as actions with owners, each resting on a named finding
    and naming the goal or metric it moves, in the team's own names for them.
-   This is where business value becomes visible.
+   This is where business value becomes visible. Say which journey step
+   each finding lands on, who else is affected by each action, and what
+   second-order effect to watch (`lenses/systems-and-journeys.md`).
 7. **Next steps.** What happens now, who does it, open questions.
 8. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and

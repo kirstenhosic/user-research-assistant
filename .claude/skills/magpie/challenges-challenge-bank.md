@@ -65,6 +65,18 @@ Who is missing, and does it matter?
   or because they're easy?"
 - "Where are the people who tried it and left?"
 
+### System view (stages 2, 6, 7)
+
+Where does this piece sit, and what else moves?
+
+- "You're studying [step]. [P2] and [P5]'s problems start at [earlier
+  step]. Is the decision about [step], or about the flow?"
+- "Which of the team's journeys does this touch? If none, who will care
+  about the answer?"
+- "What's the job here? If someone got it done without ever opening the
+  product, would that count as success for them?"
+- "If the PM ships this, which other team's metric moves?"
+
 ### Guide pressure test (stage 5)
 
 Will the questions get at what you need?

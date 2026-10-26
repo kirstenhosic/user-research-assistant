@@ -26,6 +26,7 @@ work is still to do.
 | 2.2 | The business reason is stated or honestly marked as an assumption; no metric is invented | practitioner judgment | `evals/scenarios/topic-not-decision.md` |
 | 2.3 | Each research question names the decision it serves and is about people, not the product | practitioner judgment | `evals/scenarios/topic-not-decision.md` |
 | 2.4 | Strategic and design questions mixed in one ask are separated | practitioner judgment | `evals/scenarios/mixed-ask.md` |
+| 2.5 | The study is placed in the larger system: job, journey step, persona and upstream/downstream dependencies are filled in from the team's own materials or marked as assumptions | practitioner judgment | `evals/scenarios/one-step-study.md` |
 
 ## Stage 3: approach
 

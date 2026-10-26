@@ -34,6 +34,7 @@ ORDER = [
     "operating.md",
     "voice.md",
     "stages",
+    "lenses",
     "workshops",
     "methods",
     "standards",
