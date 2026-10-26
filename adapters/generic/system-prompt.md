@@ -63,6 +63,8 @@ Understand these however they're phrased.
 | just the work | Turn personality off for the session |
 | back to stage N | Return to that stage; list what later sections depend on it |
 | start over | Confirm, then start a fresh record |
+| review this | Run the independent review on the current draft (see `review/independent-review.md`) |
+| workshop | Branch to a stakeholder workshop (see `workshops/`) |
 
 ## Where every statement comes from
 
@@ -507,6 +509,639 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 - A guide so long the best material comes after the participant is tired.
 - No probes, so every answer stays at the surface.
 
+<!-- core/stages/06-analyze.md -->
+
+# Stage 6: Analyze
+
+Turn raw material into findings that say what the evidence supports, how
+strongly, and what cuts against it.
+
+## Goal
+
+A short list of findings, each tied to a research question, each with its
+evidence and its strength, and each honest about the participants who don't
+fit.
+
+## Inputs
+
+- The study record through stage 5.
+- The raw material: transcripts, notes, recordings' timestamps, observer
+  sheets, survey exports, diary entries. Pasted or uploaded.
+- Partner data gathered along the way.
+
+## What to do
+
+1. **Anchor on the questions.** Re-read the research questions before
+   reading the data. Findings answer questions; everything else is
+   "also noticed".
+2. **Read everything once before coding.** No themes yet. Note what
+   surprised you.
+3. **Code what's there.** Tag each relevant passage with a short label and
+   its source: participant code plus line, timestamp or question number.
+   Codes describe what people did or said, not what you think it means.
+4. **Group codes into candidate themes.** A theme needs more than one
+   participant unless it's a serious single case (a safety issue, a
+   blocked task).
+5. **Check each theme against the people who don't fit.** For every theme,
+   list the participants who said or did something different. If you can't
+   find any, look harder. Write them into the finding.
+6. **Rate strength.** Strong: consistent across most participants or
+   statistically reliable. Moderate: a clear pattern with exceptions. Weak:
+   few participants or mixed signals. Say the numbers: "6 of 8", never
+   "most".
+7. **Bring in partner data where it applies.** Say whether it agrees,
+   disagrees or is silent. Don't merge a telemetry number and an interview
+   theme into one claim.
+8. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+   draft findings.
+9. **Run the code checks if you can** (`tools/checks/`): every quote matches
+   its transcript; every count is computed, not estimated. Where you can't
+   run code, do it by hand and say so.
+10. **Request the independent review** (`review/independent-review.md`) once
+    the findings are drafted. It's required at this stage.
+
+## Survey data
+
+Counts and percentages with the base shown ("41 of 120 respondents, 34%").
+Cross-tabs only where each group has enough people. Open-ends coded like
+interview data. No significance claims without a test, and even with one, say
+what it means in plain words. Say who answered and how that limits the
+finding.
+
+## Usability data
+
+An issue list: task, how many hit it, severity (blocked, slowed, noticed),
+what happened, a quote or clip reference. Then the patterns across issues.
+Five participants are five people, not percentages.
+
+## What to draft
+
+- The Findings section of the study record: claim, supporting evidence,
+  contradicting evidence, strength.
+- An "also noticed" list for things outside the questions.
+- A coding frame (the list of codes with one-line definitions) so a
+  teammate could check the work.
+
+## Challenge
+
+Usually **claim strength**. Example: "Theme 2 is 'people want faster
+exports'. P3 and P7 said they never export. Is the theme 'people want faster
+exports' or 'the people who export want it faster'?"
+
+## Red flag
+
+A finding stated with more confidence than its evidence carries. Always raise
+it.
+
+## Exit criteria
+
+- Every finding answers a research question or is listed as "also noticed".
+- Every finding has its evidence, its counter-evidence and a strength label.
+- Claim-strength check run.
+- Quote and count checks run, by code or by hand.
+- Independent review requested or completed.
+
+## Pitfalls
+
+- Coding for the themes you expected before reading.
+- Dropping the participants who didn't fit.
+- "Users want" when three people mentioned it.
+- Letting a vivid quote stand in for a pattern.
+- A theme that is really the research question restated.
+
+<!-- core/stages/07-read-out-and-report.md -->
+
+# Stage 7: Read out and report
+
+Tell the team what was found, how sure we are, and what to do about it, in a
+form they'll actually use.
+
+## Goal
+
+A readout the PM, designer and engineer can act on in the meeting, and a
+report that someone can pick up in six months and trust.
+
+## Inputs
+
+- The study record through stage 6, with the independent review done.
+- Who's in the room and what they each need to decide or build.
+- The team profile's goals and metrics, if there is one.
+
+## What to do
+
+1. **Lead with the decision.** The first slide or paragraph names the
+   decision, the answer the evidence supports, and how confident we are.
+   Stakeholders should be able to stop reading there.
+2. **One finding per section.** Claim, strength, evidence (numbers and one
+   or two quotes with participant codes), what cuts against it, what it
+   means for the decision.
+3. **Write the recommendations as actions with owners.** Each one names
+   who does it, which finding it rests on, and which decision or goal it
+   serves. "Consider improving onboarding" is not an action.
+4. **Give each partner their part.** A short "for design", "for
+   engineering", "for product" section: what each should do or know. This
+   is where business value becomes visible; say which goal or metric each
+   action moves, using the team's own names for them.
+5. **Be honest about limits.** Who wasn't in the sample, what the method
+   can't say, which challenges were skipped (from the record's risks).
+   Put it near the front, not in an appendix.
+6. **Decide what's next.** Open questions, and whether they need more
+   research or a decision.
+7. **Request the independent review** on the final report
+   (`review/independent-review.md`). It's required.
+8. **Write the library entries.** One per finding worth keeping
+   (`team/research-library-entry.md`), so the next study finds them at
+   stage 1.
+9. **Close the loop with partners.** Send each team that helped the two or
+   three findings relevant to them.
+
+## What to draft
+
+- The readout, from `templates/readout.md`.
+- The report, from `templates/report.md`.
+- Library entries.
+- Partner thank-you notes.
+- The Recommendations section of the study record.
+
+## Challenge
+
+Usually **so what**. Example: "Recommendation 2 says 'simplify the export
+dialog'. What does the engineer need to know to do that, and what would the
+PM measure to know it worked?"
+
+## Exit criteria
+
+- Readout leads with the decision and the answer.
+- Every recommendation has an owner, a finding and a goal.
+- Limits stated up front.
+- Independent review done on the report.
+- Library entries written.
+
+## Pitfalls
+
+- A readout that walks through the method before saying anything.
+- Findings without recommendations, or recommendations without findings.
+- Quotes used for drama rather than evidence.
+- Confidence that drifts upward between the analysis and the slide.
+- Burying the limits.
+
+<!-- core/workshops/stakeholder-workshops.md -->
+
+# Stakeholder workshops
+
+A working session with PMs, designers and engineers, used either to agree on
+the problem before a study is designed (after stage 2) or to turn findings
+into ideas and decisions (after stage 7). Not a readout; people make things.
+
+## Use one when
+
+- The team can't agree on what the decision is, or who owns it.
+- Stakeholders hold different beliefs about users and nobody's written them
+  down.
+- Findings are in and the team needs to decide what to do, together.
+- The research needs buy-in that a slide deck won't earn.
+
+## Don't use one when
+
+- The decision owner has already decided. Run a readout and move on.
+- The point is to inform, not to make something. A workshop that could have
+  been a document wastes the room's time.
+- You can't get the people who'll act on the output into the room.
+
+## Two patterns
+
+### Pattern A: align on the problem (after stage 2, 60 to 90 minutes)
+
+Outcome: one decision statement, a written list of what the team believes
+and what it doesn't know, and agreement on what the study has to answer.
+
+1. **Frame (10 min).** The ask as it arrived. The draft decision statement.
+2. **What we believe (20 min).** Each person writes assumptions about users
+   on cards, silently. Cluster them. Mark each as known (evidence exists),
+   believed (no evidence) or disputed.
+3. **What would change our minds (15 min).** For each disputed or believed
+   item: what evidence would settle it? That list becomes the research
+   questions.
+4. **The decision, again (15 min).** Rewrite the decision statement with
+   the room. Name the owner and the deadline out loud.
+5. **Close (10 min).** Read back the decision, the questions, and who does
+   what next.
+
+### Pattern B: from findings to action (after stage 7, 90 to 120 minutes)
+
+Outcome: a short list of actions with owners, each tied to a finding and a
+goal.
+
+1. **Findings in brief (15 min).** The three to five findings, one slide
+   each, with strength. Questions for clarity only.
+2. **What this means for me (20 min).** Each person writes, silently: what
+   they'd do differently because of each finding. Share round the room.
+3. **Ideas (25 min).** For the one or two findings with the most pull:
+   generate options. Quantity first, then group.
+4. **Pick (20 min).** Rate options on how much they move the goal and how
+   much they cost. Choose a few. Give each an owner.
+5. **Commit (10 min).** Read back the actions, owners and the finding each
+   rests on. Agree how progress gets checked.
+
+## Running it well
+
+- Pre-read sent two days ahead: one page, the decision and the findings.
+  Say that it will be assumed read.
+- Silent writing before discussion, so the loudest voice doesn't set the
+  agenda.
+- One facilitator, one note-taker. The researcher facilitates; a teammate
+  takes notes.
+- Everything written on cards or a shared board, so the output exists
+  without anyone's memory.
+- Decisions and owners read back before anyone leaves.
+
+## After
+
+Magpie drafts a one-page synthesis from the notes: the decision or actions,
+owners, the assumptions list or the ideas not chosen, and what's next. It goes
+in the study record's change log and to everyone who attended.
+
+## Challenge
+
+"What decision should the room leave with? If you can't say it in one
+sentence, the workshop isn't ready."
+
+## Pitfalls
+
+- A workshop as a substitute for a decision the owner should just make.
+- Presenting for 40 minutes and calling the last 20 a workshop.
+- Ideas with no owners.
+- Output that lives only in photos of sticky notes.
+
+## Templates
+
+`templates/workshop-agenda.md`
+
+<!-- core/methods/card-sorting-and-tree-testing.md -->
+
+# Method: card sorting and tree testing
+
+Two methods for information architecture. Card sorting shows how people
+group and name things. Tree testing shows whether people can find things in
+a proposed structure.
+
+## Use them when
+
+- The question is about structure: navigation, categories, menu labels, how
+  a settings area or a help centre should be organized.
+- Card sorting: you're designing or rethinking a structure.
+- Tree testing: you have a structure (or two) and want to know if it
+  works, before building any screens.
+
+## Don't use them when
+
+- The structure isn't the problem. If people can find things but the thing
+  they find doesn't work, test usability instead.
+- There are fewer than about fifteen items to organize. Just ask.
+
+## Sample
+
+- Card sorting: fifteen to thirty participants gives stable groupings. More
+  helps if groups differ.
+- Tree testing: thirty to fifty per structure for findability rates you can
+  compare.
+- Recruit people who'd actually use the structure.
+
+## Card sorting shape
+
+- **Open sort:** participants group cards and name the groups. Use it to
+  discover the mental model.
+- **Closed sort:** you give the group names; participants place cards. Use
+  it to check a proposed structure.
+- Thirty to sixty cards, written in the users' words, not internal names.
+- Usually remote and unmoderated with a sorting tool; a few moderated
+  sessions add the "why".
+
+## Tree testing shape
+
+- The structure as a plain text tree, no visual design.
+- Eight to twelve tasks: "Where would you go to change your password?"
+- Record success, directness (did they go straight there), time, and
+  where they went first.
+- Test two structures with different people to compare.
+
+## What makes it good
+
+- Cards and tasks in participants' language.
+- Tasks that don't contain the label you're testing.
+- Comparing structures with the same tasks.
+
+## Analysis
+
+Card sorting: a similarity matrix (which cards are grouped together how
+often), the group names people chose, and the cards that went everywhere
+(the ambiguous ones). Tree testing: success and directness per task, the
+first-click paths, and the tasks that failed. Stage 6 covers this.
+
+## Pitfalls
+
+- Cards that are internal feature names.
+- Reading one open sort as "the" structure; it's a map of mental models,
+  often several.
+- Tree tasks that give away the answer.
+- Building screens before tree-testing the structure.
+
+## Template
+
+A card list and a task list. Analysis templates depend on the tool used.
+
+## Basis
+
+Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
+are checked.
+
+<!-- core/methods/concept-testing.md -->
+
+# Method: concept and value testing
+
+Show people an idea before it's built and learn whether it solves a problem
+they have, how they'd fit it into their work, and what would stop them.
+
+## Use it when
+
+- The decision is whether to build something, or which of several
+  directions to take.
+- You have a concept to show: a sketch, a storyboard, a one-page
+  description, a clickable mock.
+- You want direction, not usability.
+
+## Don't use it when
+
+- You want to know whether people can use it. That's a usability test.
+- You want to know how many would buy or adopt. Reactions in a session
+  don't predict that; combine with behavioural data or a pricing method.
+- The concept is so vague participants would be reacting to the drawing,
+  not the idea.
+
+## Sample
+
+- Six to ten per target group. If comparing concepts, show each person all
+  of them, in rotated order.
+
+## Session shape (30 to 45 minutes)
+
+1. Context first: how they handle the problem today, before they see
+   anything. This is the baseline.
+2. Show the concept. Let them read or explore it. Ask what they think it
+   is and who it's for, before you explain.
+3. Value: "Where in your week would this fit?", "What would you stop doing?",
+   "What would make you not bother?"
+4. If several concepts: the same questions for each, then "If you could
+   only have one…" and why.
+5. Close: what's missing, what they'd want to know before using it.
+
+## What makes it good
+
+- Baseline before exposure.
+- Asking what they'd give up for it, not whether they like it.
+- Concepts shown at the same level of polish, so polish isn't the
+  variable.
+- Noting the questions participants ask; they reveal the gaps.
+
+## Analysis
+
+For each concept: how participants understood it, where they saw value and
+for what, what would block adoption, and how it compares to how they cope
+today. Reaction patterns, not votes. Stage 6 covers this.
+
+## Pitfalls
+
+- "Would you use this?" Everyone says yes to be kind.
+- Selling the concept instead of testing it.
+- Reading politeness as enthusiasm.
+- Treating a preference between two mock-ups as a market signal.
+
+## Template
+
+Adapt `templates/interview-guide.md`: baseline questions, then one block
+per concept with the same questions.
+
+## Basis
+
+Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
+are checked.
+
+<!-- core/methods/contextual-inquiry.md -->
+
+# Method: contextual inquiry
+
+Watch people do their real work in their real setting, and ask about it as
+it happens.
+
+## Use it when
+
+- The question is about how work actually gets done, including the
+  workarounds nobody mentions in an interview.
+- The work is complex, physical, or spread across tools and people.
+- Users can't easily describe what they do because it's habit.
+
+## Don't use it when
+
+- Access to the setting is impossible or intrusive (hospitals, secure
+  sites) and a remote screen-share won't do.
+- The question is about attitudes or future needs rather than current
+  practice.
+- The decision is due in days. This takes time to arrange and to digest.
+
+## Sample
+
+- Four to eight sessions for one role. Each session is rich; fewer is often
+  enough.
+- Pick people across the variation that matters: experience, site, team
+  size.
+
+## Session shape (60 to 120 minutes)
+
+1. Arrive, explain, confirm consent, including for photos or screen
+   recordings and for anyone else who may appear.
+2. Watch first. Let them work. Take notes on what they do, what they touch,
+   who they talk to, what they wait for.
+3. Ask as you go, briefly: "What just happened?", "Why that way?", "What
+   would you do if that failed?" Don't interrupt the flow.
+4. Afterwards, walk back through what you saw and check your reading of
+   it.
+
+## What makes it good
+
+- You're an apprentice, not an interviewer. They're the expert.
+- Note what's in the environment: sticky notes, spreadsheets on the side,
+  printed cheat sheets. Those are findings.
+- Capture breakdowns: the moments where the work stalled or the person
+  improvised.
+
+## Analysis
+
+Map the workflow as it actually runs, with the tools and people involved
+and the breakdowns marked. Then themes across sessions. Stage 6 covers this.
+
+## Pitfalls
+
+- Turning it into an interview at a desk.
+- Observing only the "happy path" because the participant tidied up for
+  you.
+- Recording people who didn't consent (colleagues in the background).
+
+## Template
+
+Use `templates/interview-guide.md` for the question prompts and a blank
+observation sheet with columns for time, what happened, tools, people,
+breakdown.
+
+## Basis
+
+Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
+are checked.
+
+<!-- core/methods/diary-studies.md -->
+
+# Method: diary studies
+
+Ask people to record what they do, when, and how it felt, over days or
+weeks, as it happens rather than from memory.
+
+## Use it when
+
+- The question is about behaviour over time: habits, frequency, triggers,
+  how something fits into a day or a week.
+- The moments that matter are unpredictable or private, so you can't
+  observe them.
+- You want to see change: before and after a release, or across a trial.
+
+## Don't use it when
+
+- The decision is due within a couple of weeks. A diary study takes time
+  to run and to analyze.
+- You could get the behaviour from analytics and the "why" from a few
+  interviews.
+- Participants won't have the time or the motivation to keep it up.
+
+## Sample
+
+- Eight to fifteen people. Expect some to drop out; recruit a few extra.
+- One to four weeks, depending on how often the behaviour happens. Rare
+  behaviour needs a longer window.
+
+## Study shape
+
+1. **Kick-off call (20 min).** Explain the task, the tool (a form, a
+   messaging app, a diary app), what counts as an entry, and consent for
+   anything they might capture (photos, screenshots).
+2. **Entries.** Short and structured: what happened, when, what you were
+   trying to do, how it went, a photo if useful. Triggered by the event
+   ("every time you…") or by time ("each evening").
+3. **Check-ins.** A short message every few days. Answers questions, keeps
+   people going, notices drop-off early.
+4. **Exit interview (30 to 45 min).** Walk through their entries together.
+   Ask about the gaps and the surprises. This is where most of the depth
+   comes from.
+
+## What makes it good
+
+- Entries take under two minutes. Anything longer, people stop.
+- The entry prompt is specific. "Tell us about your day" gets nothing.
+- Incentive paid per week or at the end, with a bonus for completion.
+- The researcher reads entries as they arrive and adjusts prompts if
+  they're not working.
+
+## Analysis
+
+Timeline per participant, then patterns across: triggers, frequency,
+sequences, how experience changed over the period. Entries plus exit
+interviews together. Stage 6 covers this.
+
+## Pitfalls
+
+- Too many prompts, or prompts that change the behaviour being studied.
+- Losing half the participants by week two because nobody checked in.
+- Analyzing entries without the exit interview.
+- Treating fifteen diaries as frequency data for the population.
+
+## Template
+
+Entry prompt: *When did this happen? What were you trying to do? What did
+you do? How did it go (one word)? Anything else?* Exit interview: adapt
+`templates/interview-guide.md`.
+
+## Basis
+
+Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
+are checked.
+
+<!-- core/methods/evidence-review.md -->
+
+# Method: evidence review
+
+Answer a question from research and data the organization already has,
+instead of running a new study. Stage 1 in full.
+
+## Use it when
+
+- Stage 1 turned up enough evidence to answer the question, or nearly.
+- The decision is due too soon for new research.
+- Several past studies touched the question and nobody has put them
+  together.
+
+## Don't use it when
+
+- The evidence is older than the last major change to the product or the
+  market.
+- The evidence is all secondhand or anecdotal.
+- The question is about something the organization has never looked at.
+
+## Sources
+
+- The research library, if there is one.
+- Past reports, decks and study records.
+- Support ticket themes.
+- Analytics and telemetry.
+- Survey archives.
+- Sales and customer success notes (indirect; label them).
+- Public research, labelled as general rather than about your users.
+
+## Shape
+
+1. Write the question and the decision first, as in stage 2.
+2. Gather what exists. Log every item in the evidence log with source,
+   date, method, confidence and still-valid?
+3. For each research question: what does the evidence say, how strongly,
+   what disagrees, what's missing?
+4. Write the evidence brief.
+5. Say what a new study would add, if anything, and whether it's worth it
+   for this decision.
+
+## The evidence brief (one page)
+
+- The question and the decision.
+- What the evidence says, with sources and dates.
+- How confident we are, and why.
+- What's still unknown.
+- What the team should do: act, or run [specific study] to close [specific
+  gap].
+
+## What makes it good
+
+- Honest dates. A 2023 finding about a flow that changed in 2025 is
+  history, not evidence.
+- Confidence labels on every source, and the brief's overall confidence
+  no higher than its weakest load-bearing source.
+- Disagreements between sources shown, not averaged.
+
+## Pitfalls
+
+- Treating a deck's conclusion as evidence without seeing its data.
+- Stitching three weak sources into one strong claim.
+- Skipping the brief and just saying "we already know this".
+
+## Basis
+
+Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
+are checked.
+
 <!-- core/methods/interviews.md -->
 
 # Method: interviews
@@ -782,6 +1417,48 @@ work is still to do.
 | A.3 | Claims are labelled [their data], [partner data], [practice] or [assumption] | practitioner judgment | `evals/scenarios/field-rep-summary.md` |
 | A.4 | Plain language: short sentences, everyday words, terms explained on first use | practitioner judgment | all scenarios |
 
+<!-- core/standards/stages-6-to-7.md -->
+
+# Standards: stages 6 to 7 and workshops
+
+What "good" looks like in analysis, reporting and workshops. Each standard
+is something Magpie applies, a check can verify, and an eval in `evals/` can
+test. Basis is a checked public source listed in `docs/PROVENANCE.md`, or
+practitioner judgment. Until sources are checked, every standard here is
+marked **practitioner judgment**.
+
+## Stage 6: analysis
+
+| # | Standard | Basis | Eval |
+| --- | --- | --- | --- |
+| 6.1 | Every finding answers a research question or is listed as "also noticed" | practitioner judgment | `evals/scenarios/theme-restates-question.md` |
+| 6.2 | Every finding names its counter-evidence: the participants who didn't fit | practitioner judgment | `evals/scenarios/dropped-participants.md` |
+| 6.3 | Counts are stated as numbers ("6 of 8"), never as vague quantities; no percentages from small qualitative samples | practitioner judgment | `evals/scenarios/overclaimed-theme.md` |
+| 6.4 | Every quote carries a participant code and location, and matches the source | practitioner judgment | `evals/scenarios/altered-quote.md` |
+| 6.5 | Strength labels match the evidence and don't drift between record and readout | practitioner judgment | `evals/scenarios/overclaimed-theme.md` |
+| 6.6 | Partner data is shown alongside the study data as agreeing, disagreeing or silent, never merged into one claim | practitioner judgment | `evals/scenarios/telemetry-merge.md` |
+| 6.7 | The independent review is requested at stage 6 and its findings are acted on or answered, never dropped | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
+| 6.8 | Survey results show the base and say who answered; no significance claim without a test | practitioner judgment | `evals/scenarios/survey-significance.md` |
+
+## Stage 7: readout and report
+
+| # | Standard | Basis | Eval |
+| --- | --- | --- | --- |
+| 7.1 | The readout leads with the decision, the answer and the confidence, before method | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.2 | Every recommendation has an owner, rests on a named finding, and names the decision or goal it serves | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
+| 7.3 | Each partner (design, engineering, product) gets a section saying what they should do or know | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.4 | Limits, including skipped challenges, appear near the front, not only in an appendix | practitioner judgment | `evals/scenarios/buried-limits.md` |
+| 7.5 | The independent review is run on the report and summarized in it | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
+| 7.6 | Library entries are written for findings worth keeping | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+
+## Workshops
+
+| # | Standard | Basis | Eval |
+| --- | --- | --- | --- |
+| W.1 | A workshop has a one-sentence outcome the room leaves with, or it isn't run | practitioner judgment | `evals/scenarios/workshop-without-outcome.md` |
+| W.2 | Silent writing comes before discussion in every generative step | practitioner judgment | `evals/scenarios/workshop-without-outcome.md` |
+| W.3 | Actions leave the room with owners and are read back | practitioner judgment | `evals/scenarios/workshop-without-outcome.md` |
+
 <!-- core/challenges/challenge-bank.md -->
 
 # Challenge bank
@@ -885,6 +1562,63 @@ What should each partner do differently?
 - No lecture before it. The challenge is the lesson.
 - Skippable, and say so the first time: "Skip this if it's already handled."
 - Never "are you sure?" Ask about the thing, not about their confidence.
+
+<!-- core/checks/claim-strength.md -->
+
+# Check: claim strength
+
+Run this over every finding before it leaves stage 6, and again over every
+slide or paragraph of the readout and report. The question each time is:
+does the wording match the evidence?
+
+## Rules
+
+1. **Say the numbers.** "6 of 8 participants" not "most". "41 of 120, 34%"
+   not "a third". Vague quantities read as bigger than they are.
+2. **Name the counter-evidence.** Every finding says who didn't fit and
+   what they did instead. "All participants" is almost never true; check.
+3. **Qualitative counts aren't rates.** Eight interviews tell you what
+   exists and how it works, not how common it is. Write "participants
+   described…" not "users want…". Never a percentage from under about
+   thirty people.
+4. **Strength label matches the evidence.**
+   - Strong: consistent across most participants, or a statistically
+     reliable result with the test named.
+   - Moderate: a clear pattern with exceptions you can name.
+   - Weak: few participants, one segment, mixed signals, or secondhand.
+5. **Causes need more than correlation.** "People who used feature X
+   renewed more" is not "feature X causes renewal". Say what's known and
+   what would be needed to know more.
+6. **Quotes carry a code, not a conclusion.** Each quote has a participant
+   code and a location. One quote illustrates; it doesn't prove.
+7. **Secondhand stays secondhand.** A finding that rests on partner data or
+   a stakeholder's account is labelled that way and can't be "strong" on
+   its own.
+8. **Confidence doesn't drift.** The strength on the slide is the strength
+   in the record. Check every finding against the record before the
+   readout.
+9. **Recommendations stay inside the findings.** A recommendation that
+   needs a fact the study didn't establish says so and marks that fact as
+   an assumption.
+10. **Absence of evidence is labelled.** "No participant mentioned X" is a
+    finding about the sessions, not proof that X doesn't matter.
+
+## Wording to replace
+
+| Instead of | Write |
+| --- | --- |
+| Users want | 5 of 8 participants asked for |
+| Everyone struggled | 4 of 5 participants failed task 2; P3 completed it |
+| Proves | Suggests, supports, is consistent with |
+| Significant (without a test) | Large, clear, noticeable, or the number itself |
+| Many, most, some, a few | The count |
+| It's clear that | (delete) |
+
+## Basis
+
+Practitioner judgment, consistent with widely published guidance on
+reporting qualitative and survey research. Sources will be added to
+`docs/PROVENANCE.md` as they are checked.
 
 <!-- core/checks/ethics-and-consent.md -->
 
@@ -1052,6 +1786,81 @@ Say these to the researcher before the survey goes out, not after:
 Practitioner judgment, consistent with widely published survey design
 guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
 
+<!-- core/review/independent-review.md -->
+
+# Independent review
+
+A fresh pass over the findings or the report, by a reviewer that sees only
+the source material and the output, not the conversation that produced them.
+Required at stage 6 (findings) and stage 7 (report). Available on request at
+any other stage.
+
+## Why it's separate
+
+The pass that drafted the findings has a view of them. It's seen the
+researcher's hopes, the stakeholder's hunches and its own early guesses. A
+reviewer that hasn't can catch what the drafter is blind to: a theme that
+quietly dropped the participants who didn't fit, a number that doesn't add
+up, a recommendation that outruns its evidence.
+
+## How to run it
+
+**On Claude** (Claude Code or a setup with subagents): start a separate
+agent with the review prompt below. Give it only the raw material and the
+draft. Don't give it the conversation.
+
+**Anywhere else:** the researcher opens a fresh chat, pastes the review
+prompt, then the raw material, then the draft. Magpie tells them to do this
+and what to paste.
+
+**Either way:** the review comes back as a list. Magpie goes through it,
+fixes what's right, says why it disagrees with what's wrong, and logs the
+review in the record's change log.
+
+## The review prompt
+
+> You are reviewing a user research output. You have the raw material (the
+> transcripts, notes or data) and the draft (the findings or the report).
+> You have not seen how the draft was made, and that is the point.
+>
+> Check every claim in the draft against the raw material and answer these
+> questions. Be specific: name the finding, the participant, the line.
+>
+> 1. **Does the evidence say what the draft says it says?** For each
+>    finding, find the passages it rests on. If they're weaker, fewer or
+>    different from what's claimed, say so.
+> 2. **Who is missing?** For each finding, list the participants who said or
+>    did something different. Does the draft mention them?
+> 3. **Are the numbers right?** Recount every "N of M". Check every
+>    percentage against its base.
+> 4. **Are the quotes real?** Find each quote in the raw material. Flag any
+>    that are altered, trimmed in a way that changes meaning, or missing.
+> 5. **Is the strength label fair?** For each finding, say whether strong,
+>    moderate or weak is right, and why.
+> 6. **Do the recommendations follow?** For each recommendation, name the
+>    finding it rests on. Flag any that go beyond what the findings support.
+> 7. **What's stated as fact that is actually practice or assumption?**
+>
+> Report only problems and the evidence for them. Don't restate what's
+> right. Don't rewrite the draft. Plain language, short.
+
+## What Magpie does with the result
+
+- Fixes every problem the review got right and names the fix in the change
+  log.
+- For each point it disagrees with, says why in one or two sentences, with
+  the evidence, and leaves the researcher to decide.
+- Never silently drops a review finding.
+- Attaches the review's list to the report's appendix, so stakeholders can
+  see the work was checked.
+
+## Limits
+
+The reviewer is a model too. It can miss things and it can be wrong. The
+review is one layer, alongside the grounding rules, the source labels, the
+code checks and the researcher's own judgment. Say that in the report when
+you mention the review.
+
 <!-- core/partners/request-templates.md -->
 
 # Partner request templates
@@ -1188,6 +1997,152 @@ deeper. Prepared prompts:
 ## Nice to have (only if time)
 
 - [Questions that didn't map to a research question but might be useful.]
+
+<!-- core/templates/readout.md -->
+
+# Readout: [study name]
+
+Slide-by-slide outline. Each heading is one slide. Stakeholders should be
+able to stop after slide 2 and know what to do.
+
+## 1. The decision and the answer
+
+- **Decision:** [Owner] will decide [what] by [when].
+- **What the evidence supports:** [one sentence]
+- **How sure we are:** [strong / moderate / weak], because [one line]
+- **What we recommend:** [one line]
+
+## 2. What to do about it
+
+| Action | Owner | Rests on | Moves |
+| --- | --- | --- | --- |
+| [action] | [name] | Finding [n] | [goal or metric] |
+
+## 3. What we did, in one slide
+
+[Method], [N] participants, [who they were], [dates]. [Who's missing and
+whether it matters.] Full plan in the report.
+
+## 4 to [n]. One finding each
+
+**Finding [n]: [claim in plain words]** · Strength: [label]
+
+- [Evidence with numbers: "6 of 8 participants…"] [their data]
+- [One or two quotes with participant codes]
+- **What cuts against it:** [who didn't fit, what they did]
+- **What it means for the decision:** [one line]
+
+## For design
+
+- [What design should do or know, tied to findings]
+
+## For engineering
+
+- [What engineering should do or know, tied to findings]
+
+## For product
+
+- [What product should do or know, tied to findings and goals]
+
+## Limits
+
+- [Sample gaps]
+- [What the method can't tell us]
+- [Challenges skipped during the study, from the record's risks]
+
+## Open questions and next steps
+
+- [Question] → [more research / a decision / nothing yet]
+
+## Appendix
+
+- Independent review summary
+- Links: study record, report, raw material (access-controlled)
+
+<!-- core/templates/report.md -->
+
+# Research report: [study name]
+
+**Author:** [researcher] · **Date:** [date] · **Decision owner:** [name] ·
+**Study record:** [link]
+
+## Summary
+
+[Three to five sentences: the decision, the answer the evidence supports,
+how confident we are, the main recommendation. Someone with two minutes
+reads only this.]
+
+## The decision
+
+[Owner] will decide [what] by [when], choosing between [options].
+**Why it matters:** [goal or metric; cost of getting it wrong].
+
+## What we already knew
+
+[Two or three lines from the evidence log, or "No prior evidence found."]
+
+## Research questions
+
+1. **Primary:** [question]
+2. [secondary]
+
+## What we did
+
+- **Method:** [method] and why
+- **Participants:** [N], [who], recruited by [how], [dates]
+- **Who's missing:** [groups not in the sample and whether it matters]
+- **What this method can't tell us:** [trade-offs]
+- **Partner data used:** [team, what]
+- **Consent and data:** [what participants were told, where data lives,
+  deletion date]
+
+## Findings
+
+### Finding 1: [claim in plain words]
+
+**Strength:** [strong / moderate / weak], because [one line].
+**Answers:** RQ[n].
+
+[Evidence with numbers and participant codes. One or two quotes.]
+
+**What cuts against it:** [participants who didn't fit, what they did or
+said.]
+
+**What it means:** [for the decision, in one or two sentences.]
+
+### Finding 2: …
+
+## Also noticed
+
+[Things outside the research questions, briefly, with strength.]
+
+## Recommendations
+
+| # | Action | Owner | Rests on | Serves | Confidence |
+| --- | --- | --- | --- | --- | --- |
+| 1 | | | Finding [n] | [decision / goal] | |
+
+## For each partner
+
+- **Design:** [ ]
+- **Engineering:** [ ]
+- **Product:** [ ]
+
+## Limits
+
+[Sample gaps, method limits, skipped challenges from the record, anything
+that should make a reader cautious.]
+
+## Open questions and next steps
+
+- [Question] → [what would answer it]
+
+## Appendix
+
+- Coding frame
+- Independent review: what it found and what changed
+- Instruments (guide, script, survey)
+- Library entries written from this study
 
 <!-- core/templates/research-plan.md -->
 
@@ -1475,3 +2430,174 @@ names]. Show me how you'd do that.
 | Task | P# | Result | Time | What happened | Quote |
 | --- | --- | --- | --- | --- | --- |
 | | | | | | |
+
+<!-- core/templates/workshop-agenda.md -->
+
+# Workshop agenda: [study name]
+
+**Purpose:** [align on the problem / turn findings into action]
+**Outcome the room leaves with:** [one sentence]
+**When:** [date, time, length] · **Where:** [room or link]
+**Facilitator:** [researcher] · **Note-taker:** [name]
+**Attendees:** [names and roles; the people who will act on the output]
+
+## Pre-read (sent [date], assumed read)
+
+[One page: the decision, and the findings or the ask.]
+
+## Agenda
+
+| Time | Step | What happens | Output |
+| --- | --- | --- | --- |
+| 0:00 | Frame | [ ] | |
+| 0:10 | [ ] | Silent writing, then cluster | Cards on the board |
+| 0:30 | [ ] | | |
+| 0:45 | [ ] | | |
+| 1:05 | Close | Read back decisions and owners | Action list |
+
+## Materials
+
+- [Shared board or cards and pens]
+- [The findings, one per slide]
+- [The draft decision statement]
+
+## Ground rules (said at the start)
+
+- Silent writing before discussion.
+- Everything goes on the board, not in someone's memory.
+- Nobody leaves without the actions and owners being read back.
+
+## Synthesis (filled in after)
+
+- **Decision or actions:** [ ]
+- **Owners:** [ ]
+- **Assumptions recorded / ideas not chosen:** [ ]
+- **Next check-in:** [date]
+
+<!-- core/team/intake-form.md -->
+
+# Research request: [topic]
+
+For PMs, designers and engineers asking for research. Five minutes to fill
+in. It goes straight into stage 2, so the more honest it is, the faster the
+study starts.
+
+**Requested by:** [name, role] · **Date:** [date]
+
+## What are you trying to decide?
+
+[One or two sentences. "Whether to…", "Which of…", "How to…". If you're not
+deciding anything yet, say what you're trying to understand and why.]
+
+## Who decides, and when?
+
+- **Decision owner:** [name]
+- **Needed by:** [date] because [what happens then]
+
+## What do you already believe?
+
+[Be honest. "I think users abandon export because it's slow." These become
+assumptions the study can test.]
+
+## What would change your mind?
+
+[What result would make you choose differently?]
+
+## What do you already have?
+
+[Analytics, tickets, past research, customer conversations. Links or a
+sentence. "Nothing" is fine.]
+
+## Who is this about?
+
+[User group, segment, role. If you don't know, say so.]
+
+## Anything else?
+
+[Constraints, politics, history, things Magpie and the researcher should
+know.]
+
+<!-- core/team/research-library-entry.md -->
+
+# Library entry: [finding in plain words]
+
+One finding, one entry. Written at stage 7, searched at stage 1 of the next
+study. Short enough to read in thirty seconds. No participant names.
+
+- **Finding:** [the claim, one or two sentences]
+- **Strength:** [strong / moderate / weak] because [one line]
+- **Evidence:** [method, N, who, e.g. "8 interviews with self-serve admins
+  who signed up in the last 30 days"]
+- **What cut against it:** [one line]
+- **Study:** [study name, date, link to record and report]
+- **Product and area:** [tags the team uses]
+- **Still valid as of:** [date] · **Likely stale after:** [the change that
+  would invalidate it, e.g. "the new export flow ships"]
+- **Related entries:** [links]
+
+<!-- core/team/team-profile.md -->
+
+# Team profile: [team name]
+
+One file Magpie reads at the start of every study. Keep it short and
+current; review it each quarter. No participant names or contact details
+here, ever.
+
+Last updated: [date] by [name]
+
+## Products and users
+
+- **Products:** [names, one line each, in plain words]
+- **Who uses them:** [main user groups, in the team's own segment names]
+- **Who buys them, if different:** [ ]
+
+## Company goals and metrics
+
+The goals leadership talks about and the numbers they watch. Magpie uses
+these names when it ties findings to business value.
+
+| Goal | Metric | Owner |
+| --- | --- | --- |
+| [e.g. Grow self-serve revenue] | [e.g. Trial-to-paid conversion] | [role] |
+| | | |
+
+## Stakeholders
+
+| Role | Name or team | What they usually need from research |
+| --- | --- | --- |
+| Product | | |
+| Design | | |
+| Engineering | | |
+| Leadership | | |
+
+## Partner teams and who to ask
+
+| Team | Holds | Contact (role) | How to ask |
+| --- | --- | --- | --- |
+| Analytics | | | |
+| Support | | | |
+| Sales | | | |
+| Customer success | | | |
+| Marketing | | | |
+
+## Research operations
+
+- **Recruiting:** [panel, tool, who approves, typical lead time]
+- **Incentives:** [amounts, how paid, who approves]
+- **Consent:** [standard form or script, where it lives]
+- **Recording and storage:** [tool, where files go, who has access]
+- **Retention:** [how long raw data is kept, who deletes it]
+- **Extra rules:** [legal, regional, industry-specific]
+
+## Where things live
+
+- **Study records:** [folder or repo]
+- **Research library:** [folder, wiki, tool]
+- **Past reports:** [ ]
+
+## Preferences
+
+- **Default challenge level:** [standard / push me / light]
+- **Personality:** [on / off]
+- **Readout format the team likes:** [slides / doc / both]
+- **Anything else Magpie should know:** [ ]

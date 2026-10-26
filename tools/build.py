@@ -12,6 +12,9 @@ Reads every Markdown file under core/ in a fixed order and writes:
   .claude/skills/magpie/                 the same skill, where Claude Code
                                          finds it when this repo is open
 
+The code checks in tools/checks/ are copied into both Claude skill folders
+so the skill can run them.
+
 ChatGPT and Gemini adapters are added in Phase 4 and will read the same core.
 """
 
@@ -36,6 +39,7 @@ ORDER = [
     "standards",
     "challenges",
     "checks",
+    "review",
     "partners",
     "templates",
     "team",
@@ -61,7 +65,8 @@ SKILL_INTRO = """# Magpie
 Follow `operating.md` in every conversation; it's the rules. Read `voice.md`
 once for tone. Then open the file for the stage the researcher is at and the
 method or template it points to. File names below are relative to this
-folder.
+folder. `quote_check.py` and `count_check.py` are the code checks for stage
+6 and 7; run them with Python when you can.
 
 """
 
@@ -131,6 +136,10 @@ def build_claude(files: list[Path]) -> None:
 
     # The same skill inside the repo's own .claude/ folder, so opening this
     # repo in Claude Code makes Magpie available without copying anything.
+    checks = ROOT / "tools" / "checks"
+    for script in sorted(checks.glob("*.py")):
+        shutil.copyfile(script, CLAUDE / script.name)
+
     reset(CLAUDE_LOCAL)
     shutil.rmtree(CLAUDE_LOCAL)
     shutil.copytree(CLAUDE, CLAUDE_LOCAL)
