@@ -10,9 +10,9 @@ ones the researcher can override. Read `voice.md` once for tone. Then open
 the file for the stage the researcher is at and the method, check or
 template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
-`quote_check.py` and `count_check.py` are scripts to run, not read: they
-check quotes and counts at stages 6 and 7. Run them with Python when you
-can and say so when you can't.
+`scripts/quote_check.py` and `scripts/count_check.py` are scripts to run,
+not read: they check quotes and counts at stages 6 and 7. Run them with
+Python when you can and say so when you can't.
 
 - `operating.md`: The rules Magpie follows in every conversation.
 - `voice.md`: How Magpie sounds.

@@ -194,11 +194,12 @@ hallucination entirely, so the tool also says how confident it is.
 | 5. Independent review | A fresh pass that sees only the source material and the output, not the conversation that produced it | Errors the drafting pass is blind to, such as a theme that ignores contradicting participants | Analysis and final report, and on request |
 | 6. Evals | Test scenarios with known traps run before every release | Regressions when the prompts change | Repo, before release |
 
-Layers 3 and 5 depend on the platform. Claude can run code and separate review
-agents. Whether a Custom GPT or a Gem can do the same has not been verified
-yet; where a platform can't, the adapter falls back: it gives the researcher a
-review prompt to paste into a fresh chat, and the quote check becomes a
-checklist item.
+Layers 3 and 5 depend on the platform. Claude Code can run the scripts and
+start a separate review agent. ChatGPT and Gemini skills can carry the
+scripts, and both platforms document running skill scripts, but whether they
+run these particular ones hasn't been tested yet. Where a platform can't, the
+skill falls back: it gives the researcher a review prompt to paste into a
+fresh chat, and the quote check becomes a checklist item.
 
 ## Fitting into a team
 
@@ -343,9 +344,11 @@ core/
   voice.md       the assistant's voice, with example lines
 tools/           build script and code checks: quote matching, counts, survey statistics
 adapters/
-  claude/        skills generated from core, plus a review agent
-  chatgpt/       Custom GPT instructions plus knowledge files
-  gemini/        Gem instructions plus files
+  skill/         one skill folder (SKILL.md, core files, scripts) that
+                 Claude, ChatGPT and Gemini all accept
+  claude/        setup notes for Claude Code and Claude.ai
+  chatgpt/       setup notes for ChatGPT skills, and the fallback
+  gemini/        setup notes for Gemini skills, and the fallback
   generic/       one system prompt for any other assistant
 evals/           test scenarios with planted problems
 docs/            DESIGN.md, PROVENANCE.md, CONTRIBUTING.md, CHANGELOG.md
@@ -355,11 +358,13 @@ Only the core is edited by hand. `tools/build.py` regenerates the adapters
 from it, and the generated adapters are committed so people can use them
 without running anything.
 
-Platform limits on instruction length, file count and file size differ and
-change often. Phase 4 starts by checking each platform's current docs, then
-sizes each adapter to fit. Where a limit is tight, the adapter keeps a short
-router in the instructions and moves stage and method detail into uploaded
-files.
+The original plan was a Custom GPT and a Gem. When Phase 4 checked the
+platform docs (October 2026), both had moved: OpenAI is retiring Custom GPTs
+and Google is replacing Gems with skills, and both now take a folder with a
+`SKILL.md` file plus supporting files, the same shape as a Claude skill. So
+there is one skill package instead of three adapters, and a short setup
+note per platform. Platform limits still differ and change often; each
+setup note records what was checked and when.
 
 ## Build phases
 
@@ -370,5 +375,6 @@ files.
    adapter and the Claude adapter. Includes eval scenarios.
 3. **Analysis and reporting.** Stages 6 and 7, the independent review, the
    workshop branch and the remaining methods.
-4. **Other platforms.** Adapters for ChatGPT and Gemini, sized to each
-   platform's current limits and tested on each.
+4. **Other platforms.** One skill package for Claude, ChatGPT and Gemini,
+   with setup notes per platform. Test runs on ChatGPT and Gemini are still
+   to do.

@@ -9,6 +9,9 @@ readout and report.
 | `quote_check.py` | Every quote in the findings appears in the transcripts | `python3 tools/checks/quote_check.py findings.md transcripts/` |
 | `count_check.py` | "N of M" arithmetic, percentage math, percentages from small bases | `python3 tools/checks/count_check.py findings.md` |
 
+Inside the skill package they live at `scripts/`, so the same commands are
+`python3 scripts/quote_check.py ...` there.
+
 Where Magpie can run code (Claude Code, or any assistant with a code tool),
 it runs these itself and reports the result. Where it can't, it tells the
 researcher to run them, or does the check by hand and says so in the record.

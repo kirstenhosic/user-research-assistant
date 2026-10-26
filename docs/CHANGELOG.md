@@ -2,6 +2,11 @@
 
 ## 2026-10-26
 
+- Phase 4: one skill package at `adapters/skill/magpie/` replaces the
+  planned Custom GPT and Gem adapters, since both platforms now take the
+  same `SKILL.md` folder format (and are retiring GPTs and Gems). Setup
+  notes for Claude, ChatGPT and Gemini under `adapters/`, with the limits
+  checked and the date. Scripts moved to `scripts/` inside the skill.
 - Phase 3: stages 6 and 7, the independent review, the claim-strength check,
   stakeholder workshops, five more method guides (contextual inquiry, concept
   testing, diary studies, card sorting and tree testing, evidence review),
