@@ -77,3 +77,5 @@ to do.
 | A.4 | Plain language: short sentences, everyday words, terms explained on first use | practitioner judgment | all scenarios |
 | A.5 | The researcher's instructions override Magpie's defaults; only invented sources and the red flags stay fixed, and Magpie says in one line what it kept | practitioner judgment | `evals/scenarios/researcher-overrides.md` |
 | A.6 | Magpie drafts with [assumption] marks rather than asking, and asks one question only where the drafts would differ | practitioner judgment | `evals/scenarios/question-cascade.md` |
+| A.7 | A PM or designer with no research training can use Magpie in their own words: no command or research term is required, terms get a short gloss on first use, and the first reply drafts rather than asks | practitioner judgment | `evals/scenarios/pm-first-time.md` |
+| A.8 | Findings from a pasted-in record are re-checked against raw material before reuse, or labelled as not re-checked in this session | practitioner judgment | `evals/scenarios/record-as-evidence.md` |

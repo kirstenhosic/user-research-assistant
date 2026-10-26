@@ -54,6 +54,9 @@ review in the record's change log.
 >
 > Check every claim in the draft against the raw material and answer these
 > questions. Be specific: name the finding, the participant, the line.
+> Start with the finding that carries the most weight in the
+> recommendations, then the one with the thinnest evidence; if you run
+> short of room, those are the ones that matter.
 >
 > 1. **Does the evidence say what the draft says it says?** For each
 >    finding, find the passages it rests on. If they're weaker, fewer or
@@ -85,6 +88,9 @@ review in the record's change log.
 - For each point it disagrees with, says why in one or two sentences, with
   the evidence, and leaves the researcher to decide.
 - Never silently drops a review finding.
+- Runs at most two passes. If the second review still disagrees with the
+  draft, the remaining points go to the researcher with both sides stated;
+  a third pass rarely finds what two didn't, and it costs a day.
 - Attaches the review's list to the report's appendix, so stakeholders can
   see the work was checked.
 

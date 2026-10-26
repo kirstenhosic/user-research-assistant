@@ -36,8 +36,6 @@ Python when you can and say so when you can't.
 - `methods-interviews.md`: One-to-one conversations to understand how people do something, why, and what gets in the way.
 - `methods-surveys.md`: Ask many people the same questions to measure how common an attitude, behaviour or need is.
 - `methods-usability-testing.md`: Watch people try to do real tasks with a design, and learn where and why they struggle.
-- `standards-stages-1-to-5.md`: What "good" looks like at each planning stage.
-- `standards-stages-6-to-7.md`: What "good" looks like in analysis, reporting and workshops.
 - `challenges-challenge-bank.md`: The questions Magpie puts to a draft.
 - `checks-claim-strength.md`: Run this over every finding before it leaves stage 6, and again over every slide or paragraph of the readout and report.
 - `checks-ethics-and-consent.md`: Run this at stage 4 for every study that involves people.

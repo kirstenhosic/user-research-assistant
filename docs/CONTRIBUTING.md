@@ -17,8 +17,11 @@ what a good change looks like.
 
 1. Edit the files in `core/`.
 2. Run `python3 tools/build.py` to regenerate `adapters/`.
-3. Commit the core change and the regenerated adapters together.
-4. Open a pull request that says what changed and why.
+3. Run `python3 tools/check.py`. It confirms the adapters are fresh, every
+   file reference resolves, every standard has an eval and a recorded
+   source, and the code checks pass their fixtures. Fix anything it lists.
+4. Commit the core change and the regenerated adapters together.
+5. Open a pull request that says what changed and why.
 
 ## Standards need a source
 

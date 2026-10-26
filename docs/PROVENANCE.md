@@ -32,6 +32,16 @@ design here differs on purpose: there is no persona, continuity comes from a
 portable study record, accuracy rests on grounding rules and code checks, and
 an independent review runs only on analysis and final reports.
 
+On 26 October 2026, at the author's request, a short qualitative assessment
+of the earlier tool's strengths and weaknesses was shared with the assistant
+building Magpie and used as design input. It was a list of abstract points
+prepared in a separate review of that tool (for example, "checks run in a
+fresh context", "too many questions before any work", "prompts are heavy"),
+not its source, prompts, templates or structure, and nothing from the
+earlier tool was read. The changes it led to are listed in
+`docs/CHANGELOG.md` under that date as "Lessons from an assessment of the
+earlier tool".
+
 ## Public sources
 
 Sources are listed here only after they have been checked and actually used.

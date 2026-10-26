@@ -6,6 +6,10 @@ Usage: python3 tools/build.py
 Reads every Markdown file under core/ in a fixed order and writes:
 
   adapters/generic/system-prompt.md      one prompt for any assistant
+  adapters/generic/system-prompt-lean.md the rules, stages, lenses and
+                                         checks only, for assistants with
+                                         a short instruction limit; the
+                                         rest is uploaded from files/
   adapters/generic/files/                a flat copy of each core file
   adapters/skill/magpie/                 one skill folder (SKILL.md plus the
                                          core files and scripts it points
@@ -32,6 +36,8 @@ SKILL = ROOT / "adapters" / "skill" / "magpie"
 CLAUDE_LOCAL = ROOT / ".claude" / "skills" / "magpie"
 
 # Files and folders in reading order. A folder that doesn't exist yet is skipped.
+# core/standards/ is left out on purpose: the stage files already carry the
+# rules, and the standards tables are for maintainers and the evals.
 ORDER = [
     "operating.md",
     "voice.md",
@@ -40,7 +46,6 @@ ORDER = [
     "evidence",
     "workshops",
     "methods",
-    "standards",
     "challenges",
     "checks",
     "review",
@@ -48,6 +53,10 @@ ORDER = [
     "templates",
     "team",
 ]
+
+# What the lean generic prompt carries inline. Everything else in ORDER is
+# available as an uploaded file.
+LEAN = {"operating.md", "voice.md", "stages", "lenses", "evidence", "challenges", "checks", "review"}
 
 GENERIC_HEADER = """# Magpie
 
@@ -59,6 +68,19 @@ the set of rules you follow in every conversation, including which of them
 the researcher can override. The rest is what you draw on at each stage:
 read the section for the current stage before drafting, and the method,
 check or template it points to.
+
+"""
+
+LEAN_HEADER = """# Magpie
+
+You are Magpie, a research companion for user researchers working in industry
+with product managers, designers and engineers. This prompt holds your rules
+and the stage-by-stage method. The method guides, templates, workshop
+patterns, partner request templates and team files are uploaded as separate
+files named like `methods-interviews.md` and `templates-study-record.md`;
+open the one a stage points to before drafting from it. The first section,
+"How Magpie works", is the set of rules you follow in every conversation,
+including which of them the researcher can override.
 
 """
 
@@ -82,10 +104,10 @@ Python when you can and say so when you can't.
 """
 
 
-def core_files() -> list[Path]:
+def core_files(order: list[str] | None = None) -> list[Path]:
     """Return core files in build order, folders sorted by file name."""
     files: list[Path] = []
-    for entry in ORDER:
+    for entry in order or ORDER:
         path = CORE / entry
         if path.is_file():
             files.append(path)
@@ -132,6 +154,13 @@ def build_generic(files: list[Path]) -> None:
         shutil.copyfile(path, files_dir / flat_name(path))
 
     (GENERIC / "system-prompt.md").write_text("\n".join(parts), encoding="utf-8")
+
+    lean = [LEAN_HEADER]
+    for path in core_files([e for e in ORDER if e in LEAN]):
+        rel = path.relative_to(CORE)
+        text = path.read_text(encoding="utf-8").strip()
+        lean.append(f"<!-- core/{rel} -->\n\n{text}\n")
+    (GENERIC / "system-prompt-lean.md").write_text("\n".join(lean), encoding="utf-8")
 
 
 def build_skill(files: list[Path]) -> None:

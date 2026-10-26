@@ -2,6 +2,15 @@
 
 ## 2026-10-26
 
+- Lessons from an assessment of the earlier tool (see `docs/PROVENANCE.md`,
+  Disclosure): `tools/check.py` maintenance check with fixture tests for the
+  code checks; the independent review capped at two passes and told to
+  start with the riskiest finding; "a record is not evidence" rule for
+  resumed studies; a reader test at stage 7; standards 7.7, 7.8, A.7, A.8
+  with three new eval scenarios (PM first time, reader test, record as
+  evidence); `core/standards/` no longer shipped in the adapters; a lean
+  generic prompt (rules, stages, lenses, checks) for assistants with short
+  instruction limits.
 - README rewritten for a first-time user: what Magpie does, setup steps
   per tool (Claude Code, Claude.ai, ChatGPT, Gemini, anything else), a
   first conversation, the plain commands, and troubleshooting.
