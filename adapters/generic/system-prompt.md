@@ -867,12 +867,19 @@ report that someone can pick up in six months and trust.
     and the appendix. A linked contents list at the top. Timelines,
     recruiting mechanics and consent detail go in the appendix, not the
     body. `templates/report.md`.
-11. **Request the independent review** on the final report
+11. **Run the reader test.** For each reader the readout and report are
+    for (the decision owner, the PM, the designer, the engineer), read only
+    the summary and ask: can they tell what it means for them and what
+    they'd do next? If a reader can't, add a line for them to the summary
+    or the recommendations. If there's nothing for them, say so, so they
+    can stop reading. Then sweep for terms a new PM would have to look up
+    and replace each or add a four-word gloss.
+12. **Request the independent review** on the final report
     (`review/independent-review.md`). It's required.
-12. **Write the library entries.** One per finding worth keeping
+13. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 1.
-13. **Close the loop with partners.** Send each team that helped the two or
+14. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in

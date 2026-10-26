@@ -32,6 +32,8 @@ Where a source supports part of a standard, the basis says which part.
 | 7.5 | The independent review is run on the report and summarized in it | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 7.5a | The report is ten pages or fewer (images and appendix aside), has a linked contents list, keeps method to one paragraph, and moves timelines, recruiting and consent detail to the appendix | practitioner judgment | `evals/scenarios/methods-paper-report.md` |
 | 7.6 | Library entries are written for findings worth keeping | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.7 | The summary passes the reader test: each named reader can tell from it what it means for them and what they'd do next, or is told there's nothing for them | practitioner judgment | `evals/scenarios/reader-test.md` |
+| 7.8 | The independent review runs at most two passes; remaining disagreements go to the researcher with both sides stated | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 
 ## Workshops
 
