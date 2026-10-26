@@ -29,6 +29,7 @@ marked **practitioner judgment**.
 | 7.3a | The deck is sized to the audience and slot; 20 slides or fewer by default, appendix not counted | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.4 | Limits, including skipped challenges, are always in the record and the report; for the readout, Magpie drafts them and the researcher decides whether they go in, never silently either way | practitioner judgment | `evals/scenarios/buried-limits.md` |
 | 7.5 | The independent review is run on the report and summarized in it | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
+| 7.5a | The report is ten pages or fewer (images and appendix aside), has a linked contents list, keeps method to one paragraph, and moves timelines, recruiting and consent detail to the appendix | practitioner judgment | `evals/scenarios/methods-paper-report.md` |
 | 7.6 | Library entries are written for findings worth keeping | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 
 ## Workshops

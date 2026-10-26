@@ -655,12 +655,20 @@ report that someone can pick up in six months and trust.
    without asking.
 9. **Appendix for the deep dive.** Full findings, coding frame, instruments,
    review summary, links.
-10. **Request the independent review** on the final report
+10. **Write the report for the reader who wasn't there.** Same story as the
+    readout, a little deeper, still for a PM, designer or engineer: summary,
+    why, what we did in one paragraph, top findings (five or fewer),
+    findings in detail with evidence, images and links, recommendations,
+    next steps, limits, appendix. Ten pages or fewer, not counting images
+    and the appendix. A linked contents list at the top. Timelines,
+    recruiting mechanics and consent detail go in the appendix, not the
+    body. `templates/report.md`.
+11. **Request the independent review** on the final report
     (`review/independent-review.md`). It's required.
-11. **Write the library entries.** One per finding worth keeping
+12. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 1.
-12. **Close the loop with partners.** Send each team that helped the two or
+13. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
@@ -686,6 +694,8 @@ PM measure to know it worked?"
 - Why, what we did, top findings (five or fewer), detail, summary,
   recommendations, next steps, in that story order.
 - Every recommendation has an owner, a finding and a goal.
+- Report at ten pages or fewer (images and appendix aside), with a linked
+  contents list, method in one paragraph, admin detail in the appendix.
 - Limits drafted, shown to the researcher, and their decision recorded;
   limits present in the report regardless.
 - Independent review done on the report.
@@ -701,6 +711,8 @@ PM measure to know it worked?"
   left out of the readout.
 - A deck with no storyline: findings in the order they were coded.
 - More than five top findings.
+- A report that reads like a methods paper: timelines, recruiting and
+  consent in the body.
 
 <!-- core/workshops/stakeholder-workshops.md -->
 
@@ -1467,6 +1479,7 @@ marked **practitioner judgment**.
 | 7.3a | The deck is sized to the audience and slot; 20 slides or fewer by default, appendix not counted | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.4 | Limits, including skipped challenges, are always in the record and the report; for the readout, Magpie drafts them and the researcher decides whether they go in, never silently either way | practitioner judgment | `evals/scenarios/buried-limits.md` |
 | 7.5 | The independent review is run on the report and summarized in it | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
+| 7.5a | The report is ten pages or fewer (images and appendix aside), has a linked contents list, keeps method to one paragraph, and moves timelines, recruiting and consent detail to the appendix | practitioner judgment | `evals/scenarios/methods-paper-report.md` |
 | 7.6 | Library entries are written for findings worth keeping | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 
 ## Workshops
@@ -2147,83 +2160,133 @@ under fifteen minutes; otherwise the default above applies.
 **Author:** [researcher] · **Date:** [date] · **Decision owner:** [name] ·
 **Study record:** [link]
 
+A report is read by people who weren't in the readout and by people who come
+back to it months later. It can go deeper than the readout, but it's still
+written for a PM, designer or engineer, not for another researcher. Ten
+pages or fewer, not counting images and the appendix. Less is better as long
+as the background, the findings with their evidence, and the recommendations
+are clear.
+
+The headings below are the ones Magpie uses. Where the document tool
+supports it, the contents list links to each section; Magpie writes it as
+Markdown links to the headings so it works in most tools.
+
+## Contents
+
+- [Summary](#summary)
+- [Why we did this](#why-we-did-this)
+- [What we did](#what-we-did)
+- [Top findings](#top-findings)
+- [Findings in detail](#findings-in-detail)
+- [Recommendations](#recommendations)
+- [Next steps](#next-steps)
+- [Limits](#limits)
+- [Glossary](#glossary)
+- [Appendix](#appendix)
+
 ## Summary
 
-[Three to five sentences: the decision, the answer the evidence supports,
-how confident we are, the main recommendation. Someone with two minutes
-reads only this.]
+Five to eight sentences. The decision, the answer the evidence supports, how
+confident we are, the top findings in a phrase each, the main
+recommendation. Someone with two minutes reads only this.
 
-## The decision
+## Why we did this
 
-[Owner] will decide [what] by [when], choosing between [options].
-**Why it matters:** [goal or metric; cost of getting it wrong].
-
-## What we already knew
-
-[Two or three lines from the evidence log, or "No prior evidence found."]
-
-## Research questions
-
-1. **Primary:** [question]
-2. [secondary]
+- **The decision:** [Owner] will decide [what] by [when], choosing between
+  [options].
+- **The business need:** [goal or metric at stake; cost of getting it
+  wrong]
+- **What we already knew:** [two or three lines; link to prior research or
+  the evidence log]
+- **The questions:** [primary, then secondary, each in plain words]
 
 ## What we did
 
-- **Method:** [method] and why
-- **Participants:** [N], [who], recruited by [how], [dates]
-- **Who's missing:** [groups not in the sample and whether it matters]
-- **What this method can't tell us:** [trade-offs]
-- **Partner data used:** [team, what]
-- **Consent and data:** [what participants were told, where data lives,
-  deletion date]
+One short paragraph: [method] with [N] [who], recruited by [how], [dates],
+and why this method for these questions. Link to the plan and instruments
+in the appendix. No timeline, no recruiting mechanics, no consent detail
+here; those live in the study record and the appendix.
 
-## Findings
+## Top findings
+
+Never more than five. One or two lines each, with strength.
+
+1. **[Finding]** · [strength]
+2. …
+
+## Findings in detail
+
+One section per top finding, same order. More depth than the readout:
+the evidence, the counter-evidence, what it means, and where to look for
+more. Images where they help: a screenshot of the moment people stalled, a
+chart of task success, a photo of the workaround. Each image has a one-line
+caption saying what to see in it.
 
 ### Finding 1: [claim in plain words]
 
 **Strength:** [strong / moderate / weak], because [one line].
-**Answers:** RQ[n].
+**Answers:** [question].
 
-[Evidence with numbers and participant codes. One or two quotes.]
+[Evidence with numbers and participant codes. Two or three quotes at most.]
+
+[Image with caption, if it helps.]
 
 **What cuts against it:** [participants who didn't fit, what they did or
 said.]
 
-**What it means:** [for the decision, in one or two sentences.]
+**What it means:** [for the decision, two or three sentences.]
+
+**More:** [link to the appendix section, clips, or the study record.]
 
 ### Finding 2: …
 
-## Also noticed
+### Also noticed
 
-[Things outside the research questions, briefly, with strength.]
+Things outside the questions, briefly, with strength. Only if worth a
+reader's time.
 
 ## Recommendations
 
-| # | Action | Owner | Rests on | Serves | Confidence |
+Detailed. Each is an action with an owner, the finding it rests on, the
+goal or metric it moves, and how confident we are. Add a sentence or two
+under the table where an action needs explaining.
+
+| # | Action | Owner | Rests on | Moves | Confidence |
 | --- | --- | --- | --- | --- | --- |
-| 1 | | | Finding [n] | [decision / goal] | |
+| 1 | | | Finding [n] | [goal or metric] | |
 
-## For each partner
+[Notes on any recommendation that needs them.]
 
-- **Design:** [ ]
-- **Engineering:** [ ]
-- **Product:** [ ]
+## Next steps
+
+- [What happens now, who, by when]
+- [Open questions → what would answer them]
 
 ## Limits
 
-[Sample gaps, method limits, skipped challenges from the record, anything
-that should make a reader cautious.]
+Always in the report, briefly: sample gaps, what the method can't say,
+challenges skipped during the study (from the record's risks). Two to five
+lines. This is the durable record, so it stays even if the readout left it
+out.
 
-## Open questions and next steps
+## Glossary
 
-- [Question] → [what would answer it]
+Only if the report uses terms the reader may not know. One line each.
+Skip the section if there's nothing to define.
 
 ## Appendix
 
-- Coding frame
+Linked from the contents and from the findings. Not counted in the ten
+pages.
+
+- Participant profile
+- Research plan, instruments (guide, script, survey)
+- Full findings with coding frame and all supporting quotes
+- Partner data used, with source and date
+- Consent, data handling and retention
 - Independent review: what it found and what changed
-- Instruments (guide, script, survey)
 - Library entries written from this study
+- Links to recordings, clips and raw material (access-controlled)
 
 <!-- core/templates/research-plan.md -->
 

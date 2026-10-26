@@ -42,12 +42,20 @@ report that someone can pick up in six months and trust.
    without asking.
 9. **Appendix for the deep dive.** Full findings, coding frame, instruments,
    review summary, links.
-10. **Request the independent review** on the final report
+10. **Write the report for the reader who wasn't there.** Same story as the
+    readout, a little deeper, still for a PM, designer or engineer: summary,
+    why, what we did in one paragraph, top findings (five or fewer),
+    findings in detail with evidence, images and links, recommendations,
+    next steps, limits, appendix. Ten pages or fewer, not counting images
+    and the appendix. A linked contents list at the top. Timelines,
+    recruiting mechanics and consent detail go in the appendix, not the
+    body. `templates/report.md`.
+11. **Request the independent review** on the final report
     (`review/independent-review.md`). It's required.
-11. **Write the library entries.** One per finding worth keeping
+12. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 1.
-12. **Close the loop with partners.** Send each team that helped the two or
+13. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
@@ -73,6 +81,8 @@ PM measure to know it worked?"
 - Why, what we did, top findings (five or fewer), detail, summary,
   recommendations, next steps, in that story order.
 - Every recommendation has an owner, a finding and a goal.
+- Report at ten pages or fewer (images and appendix aside), with a linked
+  contents list, method in one paragraph, admin detail in the appendix.
 - Limits drafted, shown to the researcher, and their decision recorded;
   limits present in the report regardless.
 - Independent review done on the report.
@@ -88,3 +98,5 @@ PM measure to know it worked?"
   left out of the readout.
 - A deck with no storyline: findings in the order they were coded.
 - More than five top findings.
+- A report that reads like a methods paper: timelines, recruiting and
+  consent in the body.

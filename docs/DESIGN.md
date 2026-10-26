@@ -44,7 +44,9 @@ Five things make it different from a general-purpose chat assistant:
    the decision and the business need, keeps top findings to five, pitches
    detail for PMs and engineers, and stays under 20 slides. Limits always
    live in the record and the report; whether they go in the readout is the
-   researcher's call.
+   researcher's call. A report goes a little deeper, with links and images,
+   and stays at ten pages or fewer with a linked contents list; method is a
+   paragraph, and admin detail lives in the appendix.
 8. **The researcher stays the author.** The assistant proposes; the researcher
    decides and owns the work.
 
