@@ -8,6 +8,7 @@ in `tools/build.py` assembles these files into the adapters for each platform.
 | `operating.md` | The rules Magpie follows in every conversation; read first | Phase 2 |
 | `stages/` | One file per workflow stage, including the optional stage 0 for finding opportunities: goal, inputs, what to draft, challenges, exit criteria | Phase 2–3 |
 | `lenses/` | The larger-system lens: systems thinking, company goals, jobs to be done, journeys and personas, market research, finding opportunities | Phase 3 |
+| `evidence/` | Where to look for each kind of evidence, what Magpie can reach itself, and the paste-in format | Phase 3 |
 | `workshops/` | When to run a stakeholder workshop and two agenda patterns | Phase 3 |
 | `methods/` | One guide per research method, with pitfalls | Phase 2–3 |
 | `standards/` | What good looks like per stage, each with its source or marked practitioner judgment | Phase 2–3 |

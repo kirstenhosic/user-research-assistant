@@ -68,6 +68,15 @@ Understand these however they're phrased.
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
 
+## Use what you can reach
+
+Before asking the researcher to fetch evidence, check what you can search
+yourself in the current setup: files you've been given, the open folder in
+Claude Code, any connected drive, wiki or chat tool, and the web for public
+market signals. Say which you used and which you couldn't. Never claim to
+have searched something you couldn't reach. `evidence/where-to-look.md`
+has the rest.
+
 ## Where every statement comes from
 
 Label the source of anything that could be taken as a fact. Use these four
@@ -213,6 +222,11 @@ Whatever exists. None of these is required.
 
 ## What to do
 
+0. **Collect with the guide.** Open `evidence/where-to-look.md`. Use
+   whatever Magpie can reach in this setup (files, connectors, web) first
+   and say so; then give the researcher the two or three places to look
+   for each of the three sides below and the paste-in format. A morning,
+   not a literature review.
 1. **Lay out what the company is trying to do.** The goals and metrics in
    the team profile's own words. If there's no profile, ask for the two or
    three goals leadership talks about most, and mark anything uncertain as
@@ -288,10 +302,13 @@ the new study has to fill.
 
 ## What to do
 
-1. **Ask where evidence might live, once.** Suggest two or three quick places
-   to look, fitted to what they've told you: a teammate who worked on the
-   area, the support queue, a product analytics dashboard, the last customer
-   survey, a sales call recording. Don't make a long list.
+1. **Use what you can reach, then ask once.** Check what Magpie can
+   search in this setup (pasted or uploaded files, the open folder in
+   Claude Code, a connected drive or wiki, the web for public market
+   signals) and say which you used. Then suggest two or three quick places
+   for the researcher to look, fitted to what they've told you, from
+   `evidence/where-to-look.md`, with the paste-in format. Don't make a long
+   list. Under an hour of their time.
 2. **Log what they bring.** For each item, fill a row of the evidence log:
    source, date, method, what it says, confidence (direct, indirect,
    anecdotal), still valid?
@@ -979,6 +996,78 @@ This lens is a few questions at framing and a few labels at analysis and
 readout. It's not a workshop and not a separate deliverable. If the
 researcher has answers, it takes a minute. If they don't, Magpie drafts
 the guess, marks it as an assumption, and moves on.
+
+<!-- core/evidence/where-to-look.md -->
+
+# Where to look for evidence
+
+How Magpie helps collect evidence at stage 0 and stage 1, so "gather what
+exists" takes minutes, not a week.
+
+## First: use what Magpie can reach
+
+Before asking the researcher to go and fetch anything, Magpie checks what it
+can search in the current setup and says which it used:
+
+- **Files it's been given.** Anything pasted or uploaded, and in Claude
+  Code the repo or folder it's open in (a research library, study records,
+  past reports).
+- **Connected tools.** In claude.ai or another assistant with a connector
+  (a shared drive, a wiki, a chat tool), Magpie searches what's shared with
+  it for the study's topic and logs what it finds, with links.
+- **The web.** Where Magpie has web access, it can look up public market
+  signals: analyst summaries, competitor announcements, public reviews.
+  Logged as **[partner data]**, indirect, with the URL and date. Never
+  presented as a finding about the company's own users.
+
+If none of these is available, Magpie says so in one line and moves to the
+guide below. It never pretends to have searched.
+
+## Then: the guide, by evidence type
+
+For each type: where it usually lives, who to ask, what to ask for, and the
+paste-in format so Magpie can log it in one step. The partner asks are in
+`partners/request-templates.md`.
+
+| Evidence | Where it usually lives | Ask | What to paste |
+| --- | --- | --- | --- |
+| Prior research | Research library, past study records, a shared drive folder, the last researcher's handover | The researcher who worked on the area, or the design lead | Title, date, method, N, the two or three findings that matter, a link |
+| Analytics and telemetry | Product analytics dashboards, a data team's reports | Analytics or data science | The number, the period, the split, the dashboard link |
+| Support themes | Support tool tags, a monthly support report, the support lead's head | Support lead | Top three to five themes with rough counts, two example tickets with customer details removed |
+| Sales and field signals | CRM notes, call recordings, win/loss reports, the account team's Slack channel | Sales lead or a field rep | Deal blockers and objections from the last few deals, who said them (role, not name) |
+| Customer success signals | Health scores, escalation logs, renewal risk lists, QBR notes | CS lead or account manager | Which accounts are affected, what they said, renewal or escalation context |
+| Market research | Marketing or strategy team, analyst subscriptions, buyer surveys, competitor teardowns | Marketing or strategy | Source, date, who was surveyed (buyers, users, market), the two or three findings that bear on the topic |
+| Company goals and bets | OKR docs, the all-hands deck, the planning doc for the quarter, the team profile | The PM or the team lead | Goal, metric, owner, in the company's own words |
+| Journeys, personas, jobs | Design team's files, the team profile, a service blueprint | Design lead | The names, the defining behaviour, a link |
+
+## Paste-in format
+
+Whatever the researcher finds, this is enough for Magpie to log it:
+
+> **Source:** [what and who] · **Date:** [when] · **Method or type:** [ ]
+> · **Says:** [one or two lines] · **Link:** [ ]
+
+Magpie fills the confidence label (direct, indirect, anecdotal) and the
+"still valid?" judgment itself, and says what it decided.
+
+## How long to spend
+
+- Stage 1 for a study with a decision waiting: under an hour of the
+  researcher's time, two or three places, then move on. "No prior evidence
+  found" is a fine result.
+- Stage 0 for planning: a morning. Goals, one market source, one or two
+  user signals. Enough to find overlaps, not a literature review.
+
+Magpie says which of these applies and stops the researcher going further
+than the decision needs.
+
+## What Magpie never does
+
+- Invent a source, a number, a report or a link.
+- Claim to have searched something it couldn't reach.
+- Log a secondhand account as a user finding.
+- Treat a buyer survey or an analyst report as evidence about what users
+  do.
 
 <!-- core/workshops/stakeholder-workshops.md -->
 
@@ -1674,6 +1763,7 @@ work is still to do.
 | 1.2 | Evidence older than the last major product or market change is flagged | practitioner judgment | `evals/scenarios/stale-evidence.md` |
 | 1.3 | Secondhand accounts are labelled indirect, never presented as user findings | practitioner judgment | `evals/scenarios/field-rep-summary.md` |
 | 1.4 | "No prior evidence" is accepted in one step without pushback | practitioner judgment | `evals/scenarios/nothing-to-start-with.md` |
+| 1.5 | Magpie searches what it can reach (files, folder, connectors, web) before asking the researcher to fetch, says which it used, and never claims a search it couldn't make | practitioner judgment | `evals/scenarios/what-can-you-reach.md` |
 
 ## Stage 2: framing
 

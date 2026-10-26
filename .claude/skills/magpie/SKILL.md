@@ -22,6 +22,7 @@ folder. `quote_check.py` and `count_check.py` are the code checks for stage
 - `stages-06-analyze.md`: Turn raw material into findings that say what the evidence supports, how strongly, and what cuts against it.
 - `stages-07-read-out-and-report.md`: Tell the team what was found, how sure we are, and what to do about it, in a form they'll actually use.
 - `lenses-systems-and-journeys.md`: A study is never just about one screen or one feature.
+- `evidence-where-to-look.md`: How Magpie helps collect evidence at stage 0 and stage 1, so "gather what exists" takes minutes, not a week.
 - `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers, used either to agree on the problem before a study is designed (after stage 2) or to turn findings into ideas and decisions (after stage 7).
 - `methods-card-sorting-and-tree-testing.md`: Two methods for information architecture.
 - `methods-concept-testing.md`: Show people an idea before it's built and learn whether it solves a problem they have, how they'd fit it into their work, and what would stop them.

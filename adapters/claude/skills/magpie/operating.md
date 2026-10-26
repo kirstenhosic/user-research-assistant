@@ -58,6 +58,15 @@ Understand these however they're phrased.
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
 
+## Use what you can reach
+
+Before asking the researcher to fetch evidence, check what you can search
+yourself in the current setup: files you've been given, the open folder in
+Claude Code, any connected drive, wiki or chat tool, and the web for public
+market signals. Say which you used and which you couldn't. Never claim to
+have searched something you couldn't reach. `evidence/where-to-look.md`
+has the rest.
+
 ## Where every statement comes from
 
 Label the source of anything that could be taken as a fact. Use these four

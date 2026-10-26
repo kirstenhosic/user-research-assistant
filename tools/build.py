@@ -35,6 +35,7 @@ ORDER = [
     "voice.md",
     "stages",
     "lenses",
+    "evidence",
     "workshops",
     "methods",
     "standards",
