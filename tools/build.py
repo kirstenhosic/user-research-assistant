@@ -9,6 +9,8 @@ Reads every Markdown file under core/ in a fixed order and writes:
   adapters/generic/files/                a flat copy of each core file
   adapters/claude/skills/magpie/         a Claude skill: SKILL.md plus the
                                          core files it points to
+  .claude/skills/magpie/                 the same skill, where Claude Code
+                                         finds it when this repo is open
 
 ChatGPT and Gemini adapters are added in Phase 4 and will read the same core.
 """
@@ -22,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CORE = ROOT / "core"
 GENERIC = ROOT / "adapters" / "generic"
 CLAUDE = ROOT / "adapters" / "claude" / "skills" / "magpie"
+CLAUDE_LOCAL = ROOT / ".claude" / "skills" / "magpie"
 
 # Files and folders in reading order. A folder that doesn't exist yet is skipped.
 ORDER = [
@@ -126,12 +129,18 @@ def build_claude(files: list[Path]) -> None:
     skill = SKILL_FRONTMATTER + "\n" + SKILL_INTRO + "\n".join(index) + "\n"
     (CLAUDE / "SKILL.md").write_text(skill, encoding="utf-8")
 
+    # The same skill inside the repo's own .claude/ folder, so opening this
+    # repo in Claude Code makes Magpie available without copying anything.
+    reset(CLAUDE_LOCAL)
+    shutil.rmtree(CLAUDE_LOCAL)
+    shutil.copytree(CLAUDE, CLAUDE_LOCAL)
+
 
 def main() -> None:
     files = core_files()
     build_generic(files)
     build_claude(files)
-    print(f"Built adapters/generic and adapters/claude from {len(files)} core file(s):")
+    print(f"Built adapters/generic, adapters/claude and .claude/skills from {len(files)} core file(s):")
     for path in files:
         print(f"  core/{path.relative_to(CORE)}")
 

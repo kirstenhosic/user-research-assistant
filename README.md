@@ -18,9 +18,13 @@ built, and `docs/PROVENANCE.md` for how it was made.
 
 ## Using it
 
-- **Claude:** add the folder `adapters/claude/skills/magpie/` as a skill
-  (in Claude Code, copy it to `.claude/skills/`). Then ask for Magpie or
-  for help with a study.
+- **Claude Code, in this repo:** open the repo and ask for Magpie or for
+  help with a study. The skill is already at `.claude/skills/magpie/`.
+- **Claude Code, in your own project:** copy `adapters/claude/skills/magpie/`
+  into your project's `.claude/skills/` folder.
+- **Claude.ai:** upload the files in `adapters/claude/skills/magpie/` to a
+  project, or paste `adapters/generic/system-prompt.md` as the project's
+  instructions.
 - **Any other assistant:** paste `adapters/generic/system-prompt.md` as the
   system prompt or custom instructions. If it's too long for the platform,
   paste `core/operating.md` and `core/voice.md` as instructions and upload
