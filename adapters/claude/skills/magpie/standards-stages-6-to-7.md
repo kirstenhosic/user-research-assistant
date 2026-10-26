@@ -23,7 +23,7 @@ marked **practitioner judgment**.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 7.1 | The readout leads with the decision, the answer and the confidence, before method | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.1 | The decision, the answer and the confidence appear in the key takeaways, before any method detail; the decision-first order is offered for senior or short readouts | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.2 | Every recommendation has an owner, rests on a named finding, and names the decision or goal it serves | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
 | 7.3 | Each partner (design, engineering, product) gets a section saying what they should do or know | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.4 | Limits, including skipped challenges, appear near the front, not only in an appendix | practitioner judgment | `evals/scenarios/buried-limits.md` |

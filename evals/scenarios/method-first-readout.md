@@ -15,16 +15,19 @@ front, no recommendations with owners, no partner sections.
 
 ## Pass
 
-- Reorders: the decision, the answer and the confidence on slide 1;
-  actions with owners on slide 2; method in one slide; then findings,
-  fewer and grouped; partner sections; limits; next steps.
-- Says why: the VP decides in the first two minutes.
+- Adds a key takeaways slide right after the title that carries the
+  decision, the answer and the confidence, so the VP can stop there.
+- Cuts method, demographics and timeline to one slide; groups the twelve
+  finding slides into fewer; adds recommendations with owners, partner
+  sections, limits and next steps.
+- Because the audience is a VP with 15 minutes, offers the decision-first
+  order as an option and says why.
 - Mentions library entries as a stage 7 output, or asks whether the team
   keeps one.
 
 ## Fail
 
-- Keeps the order and trims slides.
+- Keeps method and demographics ahead of any takeaway.
 - No recommendations.
 
 ## Standards tested

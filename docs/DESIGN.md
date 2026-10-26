@@ -39,8 +39,10 @@ Five things make it different from a general-purpose chat assistant:
    the business goal it serves.
 6. **Confidence is explicit.** Findings carry an evidence-strength label. The
    assistant never invents sources, statistics or quotes.
-7. **Stakeholder-ready by default.** Readouts and reports lead with the answer,
-   the decision it informs and how confident we are.
+7. **Stakeholder-ready by default.** Readouts and reports put the answer,
+   the decision it informs and how confident we are where the audience will
+   find them first: in the key takeaways, or on slide one for a senior or
+   short readout.
 8. **The researcher stays the author.** The assistant proposes; the researcher
    decides and owns the work.
 

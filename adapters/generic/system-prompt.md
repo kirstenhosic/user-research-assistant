@@ -629,9 +629,12 @@ report that someone can pick up in six months and trust.
 
 ## What to do
 
-1. **Lead with the decision.** The first slide or paragraph names the
-   decision, the answer the evidence supports, and how confident we are.
-   Stakeholders should be able to stop reading there.
+1. **Put the answer where the audience will find it.** The default readout
+   order is the one most product teams expect: key takeaways, why we did
+   this, what we did, findings, what it means, recommendations, limits,
+   next steps. The key takeaways slide carries the decision, the answer and
+   the confidence, so a reader can stop there. For a senior audience or a
+   short slot, offer the decision-first order in `templates/readout.md`.
 2. **One finding per section.** Claim, strength, evidence (numbers and one
    or two quotes with participant codes), what cuts against it, what it
    means for the decision.
@@ -671,7 +674,8 @@ PM measure to know it worked?"
 
 ## Exit criteria
 
-- Readout leads with the decision and the answer.
+- The key takeaways (or the first slide, in the decision-first order)
+  carry the decision, the answer and the confidence.
 - Every recommendation has an owner, a finding and a goal.
 - Limits stated up front.
 - Independent review done on the report.
@@ -1444,7 +1448,7 @@ marked **practitioner judgment**.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 7.1 | The readout leads with the decision, the answer and the confidence, before method | practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.1 | The decision, the answer and the confidence appear in the key takeaways, before any method detail; the decision-first order is offered for senior or short readouts | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.2 | Every recommendation has an owner, rests on a named finding, and names the decision or goal it serves | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
 | 7.3 | Each partner (design, engineering, product) gets a section saying what they should do or know | practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.4 | Limits, including skipped challenges, appear near the front, not only in an appendix | practitioner judgment | `evals/scenarios/buried-limits.md` |
@@ -2002,55 +2006,67 @@ deeper. Prepared prompts:
 
 # Readout: [study name]
 
-Slide-by-slide outline. Each heading is one slide. Stakeholders should be
-able to stop after slide 2 and know what to do.
+Slide-by-slide outline. Each heading is one slide. The default order is the
+one most product teams expect. A "decision-first" variant is at the end for
+when the audience is senior, short on time, or already knows the study.
 
-## 1. The decision and the answer
+## 1. Title
 
-- **Decision:** [Owner] will decide [what] by [when].
-- **What the evidence supports:** [one sentence]
-- **How sure we are:** [strong / moderate / weak], because [one line]
-- **What we recommend:** [one line]
+[Study name] · [date] · [researcher] · [decision owner]
 
-## 2. What to do about it
+## 2. Key takeaways
 
-| Action | Owner | Rests on | Moves |
-| --- | --- | --- | --- |
-| [action] | [name] | Finding [n] | [goal or metric] |
+Three to five sentences a reader could stop at. The decision this study
+serves, what the evidence supports, how sure we are, and the main
+recommendation.
 
-## 3. What we did, in one slide
+## 3. Why we did this
 
-[Method], [N] participants, [who they were], [dates]. [Who's missing and
-whether it matters.] Full plan in the report.
+- **The question:** [primary research question in plain words]
+- **The decision it serves:** [Owner] will decide [what] by [when]
+- **What we already knew:** [one or two lines, or "no prior evidence"]
 
-## 4 to [n]. One finding each
+## 4. What we did
+
+[Method], [N] participants, [who they were], [dates]. One slide. Who's
+missing and whether it matters. Full plan in the report.
+
+## 5 to [n]. Findings, one per slide
 
 **Finding [n]: [claim in plain words]** · Strength: [label]
 
 - [Evidence with numbers: "6 of 8 participants…"] [their data]
 - [One or two quotes with participant codes]
 - **What cuts against it:** [who didn't fit, what they did]
-- **What it means for the decision:** [one line]
+- **What it means:** [one line]
 
-## For design
+## [n+1]. What this means for the decision
 
-- [What design should do or know, tied to findings]
+[The answer the evidence supports, in two or three lines, and how confident
+we are.]
 
-## For engineering
+## [n+2]. Recommendations
 
-- [What engineering should do or know, tied to findings]
+| Action | Owner | Rests on | Moves |
+| --- | --- | --- | --- |
+| [action] | [name] | Finding [n] | [goal or metric] |
 
-## For product
+Every action has an owner and a finding. The "moves" column is where
+business value is made visible: name the goal or metric the team already
+tracks.
 
-- [What product should do or know, tied to findings and goals]
+## [n+3]. For design, engineering, product
 
-## Limits
+One slide, three short columns: what each should do or know, tied to
+findings. Fold into the recommendations slide if it's short.
+
+## [n+4]. Limits
 
 - [Sample gaps]
 - [What the method can't tell us]
 - [Challenges skipped during the study, from the record's risks]
 
-## Open questions and next steps
+## [n+5]. Open questions and next steps
 
 - [Question] → [more research / a decision / nothing yet]
 
@@ -2058,6 +2074,25 @@ whether it matters.] Full plan in the report.
 
 - Independent review summary
 - Links: study record, report, raw material (access-controlled)
+
+---
+
+## Option: decision-first order
+
+For a senior audience with ten minutes, or a team that already knows the
+study. Say which order you're using in the readout's first line.
+
+1. The decision and the answer (decision, what the evidence supports, how
+   sure we are, what we recommend)
+2. Recommendations with owners
+3. What we did, in one slide
+4. Findings, one per slide
+5. For design, engineering, product
+6. Limits
+7. Open questions and next steps
+
+Magpie offers this option when the audience is named as senior or the slot
+is under fifteen minutes. Otherwise the default order applies.
 
 <!-- core/templates/report.md -->
 

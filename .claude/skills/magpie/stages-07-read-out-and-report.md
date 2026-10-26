@@ -16,9 +16,12 @@ report that someone can pick up in six months and trust.
 
 ## What to do
 
-1. **Lead with the decision.** The first slide or paragraph names the
-   decision, the answer the evidence supports, and how confident we are.
-   Stakeholders should be able to stop reading there.
+1. **Put the answer where the audience will find it.** The default readout
+   order is the one most product teams expect: key takeaways, why we did
+   this, what we did, findings, what it means, recommendations, limits,
+   next steps. The key takeaways slide carries the decision, the answer and
+   the confidence, so a reader can stop there. For a senior audience or a
+   short slot, offer the decision-first order in `templates/readout.md`.
 2. **One finding per section.** Claim, strength, evidence (numbers and one
    or two quotes with participant codes), what cuts against it, what it
    means for the decision.
@@ -58,7 +61,8 @@ PM measure to know it worked?"
 
 ## Exit criteria
 
-- Readout leads with the decision and the answer.
+- The key takeaways (or the first slide, in the decision-first order)
+  carry the decision, the answer and the confidence.
 - Every recommendation has an owner, a finding and a goal.
 - Limits stated up front.
 - Independent review done on the report.
