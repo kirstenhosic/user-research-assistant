@@ -4,7 +4,7 @@
 
 - Sources: nine public sources checked and recorded in `docs/PROVENANCE.md`
   (ICC/ESOMAR code 2025, Braun and Clarke, six Nielsen Norman Group
-  articles); 15 standards now cite one in full or in part. The rest stay
+  articles); 12 standards now cite one in full or in part. The rest stay
   practitioner judgment.
 - Phase 4: one skill package at `adapters/skill/magpie/` replaces the
   planned Custom GPT and Gem adapters, since both platforms now take the

@@ -66,7 +66,7 @@ Enough Research*; ISO 9241-210 on human-centred design; the full text of S1
 for the stage 6 coding steps.
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 15 of 45 standards cite a source in full or in part.
+Current count: 12 of 52 standards cite a source in full or in part.
 
 ## Tools used
 
