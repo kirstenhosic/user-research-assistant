@@ -25,6 +25,7 @@ folder. `quote_check.py` and `count_check.py` are the code checks for stage
 - `evidence-where-to-look.md`: How Magpie helps collect evidence at stage 0 and stage 1, so "gather what exists" takes minutes, not a week.
 - `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers, used either to agree on the problem before a study is designed (after stage 2) or to turn findings into ideas and decisions (after stage 7).
 - `methods-card-sorting-and-tree-testing.md`: Two methods for information architecture.
+- `methods-competitive-analysis.md`: Look at how other tools solve the same problem your users have, and work out what would fit your users and what wouldn't.
 - `methods-concept-testing.md`: Show people an idea before it's built and learn whether it solves a problem they have, how they'd fit it into their work, and what would stop them.
 - `methods-contextual-inquiry.md`: Watch people do their real work in their real setting, and ask about it as it happens.
 - `methods-diary-studies.md`: Ask people to record what they do, when, and how it felt, over days or weeks, as it happens rather than from memory.
@@ -41,6 +42,7 @@ folder. `quote_check.py` and `count_check.py` are the code checks for stage
 - `checks-survey-wording.md`: Run this over every survey before it goes out.
 - `review-independent-review.md`: A fresh pass over the findings or the report, by a reviewer that sees only the source material and the output, not the conversation that produced them.
 - `partners-request-templates.md`: Short messages the researcher can send to another team to ask for data or context.
+- `templates-competitive-analysis.md`: **Date:** [date] (competitors change; this has a shelf life) · **Study record:** [link] · **Researcher:** [name]
 - `templates-interview-guide.md`: **Length:** [45–60] minutes · **Research questions served:** [list]
 - `templates-opportunity-brief.md`: One page the researcher takes to a PM or a leadership team to propose a study.
 - `templates-readout.md`: Slide-by-slide outline.

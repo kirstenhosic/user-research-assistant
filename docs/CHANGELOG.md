@@ -13,7 +13,8 @@
   personas) added to framing, analysis and readout. Market research as
   indirect evidence, and an optional stage 0 for finding research
   opportunities with an opportunity brief template. A where-to-look guide
-  for collecting evidence, with a use-what-you-can-reach rule.
+  for collecting evidence, with a use-what-you-can-reach rule. Competitive
+  analysis added as the eleventh method, with a fit-matrix template.
 - Phase 2: operating rules, voice, stages 1 to 5, the challenge bank, three
   checks, three method guides, partner request templates, four instrument
   templates, standards for stages 1 to 5, twelve eval scenarios, and the

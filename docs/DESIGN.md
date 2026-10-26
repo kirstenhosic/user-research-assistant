@@ -319,6 +319,7 @@ consistent across platforms.
 | Diary studies | Behaviour over time | Longitudinal themes |
 | Card sorting and tree testing | Information architecture | Similarity patterns, findability |
 | Evidence review | Reusing what is already known | Evidence brief |
+| Competitive analysis | Seeing how other tools solve the same job, and what would fit your users | Fit matrix, patterns, fit assessment |
 | Stakeholder workshops | Aligning on the problem, ideating from findings | Synthesis of workshop outputs |
 
 ## Architecture

@@ -44,6 +44,7 @@ work is still to do.
 | 3.1 | Cheaper options (analytics, support data, a few conversations) are considered before a larger study | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
 | 3.2 | A "why" question is not answered with a survey; a "how many" question is not answered with eight interviews | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
 | 3.3 | Every recommended method states what it can't tell you | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
+| 3.4 | A competitive analysis compares on the user's job and fit for the persona, includes one alternative that solves the job differently, separates what was observed from what is assumed, and never turns "competitor X does it" into a recommendation on its own | practitioner judgment | `evals/scenarios/feature-checklist.md` |
 
 ## Stage 4: plan
 

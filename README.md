@@ -13,7 +13,7 @@ helps you work out which ones matter for the decision in front of you.
 Early development. Phases 1 to 3 are in: Magpie covers the whole workflow,
 from existing evidence through framing, method choice, the plan and the
 guide, to analysis, readout and report, with stakeholder workshops as a
-branch. Ten methods. ChatGPT and Gemini adapters come next. Read
+branch. Eleven methods, including competitive analysis. ChatGPT and Gemini adapters come next. Read
 `docs/DESIGN.md` for what Magpie is and how it's built, and
 `docs/PROVENANCE.md` for how it was made.
 

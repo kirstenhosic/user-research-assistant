@@ -466,14 +466,20 @@ decision owner could understand why.
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
    if yes, even if the researcher wanted something bigger.
-3. **Recommend one method and one backup.** Use `methods/` for the fit, the
+3. **Consider how others solve it.** If the decision is about building
+   something other tools already offer, or users will arrive with
+   expectations from elsewhere, suggest a competitive analysis
+   (`methods/competitive-analysis.md`) as a cheap first step or a companion
+   to the main method. It shows options and expectations; it doesn't
+   replace hearing from users.
+4. **Recommend one method and one backup.** Use `methods/` for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences.
-4. **Name what it can't tell you.** Every method has a blind spot. Write it
+5. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
-5. **Size the sample roughly.** Enough to see a pattern for the decision at
+6. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
-6. **Ask about partner data.** Would telemetry help choose who to recruit, or
+7. **Ask about partner data.** Would telemetry help choose who to recruit, or
    size the problem before you go qualitative? Draft the request if so.
 
 ## What to draft
@@ -1239,6 +1245,109 @@ A card list and a task list. Analysis templates depend on the tool used.
 Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
 are checked.
 
+<!-- core/methods/competitive-analysis.md -->
+
+# Method: competitive analysis
+
+Look at how other tools solve the same problem your users have, and work
+out what would fit your users and what wouldn't. The unit of comparison is
+the user's job, not the feature list.
+
+## Use it when
+
+- The team is deciding whether or how to build something others already
+  offer.
+- You want to know what users will expect because they've seen it
+  elsewhere.
+- You need a quick, cheap source of design options before a concept test.
+- Sales or marketing keep citing a competitor and nobody has looked
+  properly.
+
+## Don't use it when
+
+- You want to know what *your* users do or need. Competitors can show you
+  options; only your users can tell you what fits.
+- The decision is "copy them or not". That's not a research question.
+- Nobody can name the user problem the comparison is about.
+
+## Sample
+
+- Two to four products that your users could plausibly use instead,
+  including at least one that isn't a direct competitor but solves the
+  same job another way (a spreadsheet, a manual process, an adjacent
+  tool).
+- Three to five user jobs or journey steps to compare across them, taken
+  from the study record, not from a feature list.
+
+## Shape
+
+1. **Start from the job.** Name the user, the job and the journey step
+   from the study record. Write the question: "How do people get [job]
+   done in [tool], and what would fit our [persona]?"
+2. **Pick the set.** Two to four tools, with one that solves the job
+   differently. Say why each is in.
+3. **Walk the job in each tool.** Do the task as the user would. Record
+   what happens at each step: screenshots, the words the tool uses, where
+   it asks for effort, where it decides for the user. Note what it assumes
+   about the user.
+4. **Compare on fit, not on count.** For each job step and each tool: how
+   the tool handles it, what it assumes about the user, and whether that
+   assumption holds for your persona. "Has feature X" is not a row.
+5. **Separate what you saw from what you infer.** What the tool does is
+   [their data] about the tool, observed directly. Why it does it, and
+   whether their users like it, is [assumption] unless you have evidence
+   (public reviews, support forums, a user who's used both).
+6. **Draft the fit assessment.** For each pattern worth considering: what
+   it would solve for your users, what it would cost them, which persona it
+   suits, and what you'd need to check with real users before adopting it.
+
+## What makes it good
+
+- Doing the task in each tool, not reading their marketing.
+- A tool from outside the category in the set.
+- Every "they do X" paired with "and that fits or doesn't fit our users
+  because".
+- Honest about what you can't see: their data, their users' satisfaction,
+  why they made a choice.
+- Dated. Competitors change; the analysis has a shelf life. Say when it
+  was done.
+
+## Analysis
+
+A fit matrix: job steps down the side, tools across, each cell saying how
+the tool handles it and what it assumes. Then the patterns: what everyone
+does (users will expect it), what nobody does (a gap or a dead end), what
+one tool does well that would suit your persona. Then the fit assessment
+per pattern. Stage 6 covers the write-up; `templates/competitive-analysis.md`
+has the shape.
+
+## What it feeds
+
+- **Stage 2:** a sharper sense of what users may already expect.
+- **Stage 3:** design options for a concept test.
+- **Stage 7:** "here's how others handle it and why it would or wouldn't
+  fit us", as context for a recommendation, never as the recommendation's
+  evidence on its own.
+
+## Pitfalls
+
+- A feature checklist with ticks. It tells you what exists, not what fits.
+- Assuming a competitor's choice is good because they're big.
+- Treating public reviews as your users' views.
+- Only looking at direct competitors, and missing the spreadsheet everyone
+  actually uses.
+- Letting the analysis become the recommendation. "Competitor X does it"
+  is a reason to test, not a reason to build.
+
+## Template
+
+`templates/competitive-analysis.md`
+
+## Basis
+
+Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
+are checked.
+
 <!-- core/methods/concept-testing.md -->
 
 # Method: concept and value testing
@@ -1782,6 +1891,7 @@ work is still to do.
 | 3.1 | Cheaper options (analytics, support data, a few conversations) are considered before a larger study | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
 | 3.2 | A "why" question is not answered with a survey; a "how many" question is not answered with eight interviews | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
 | 3.3 | Every recommended method states what it can't tell you | practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
+| 3.4 | A competitive analysis compares on the user's job and fit for the persona, includes one alternative that solves the job differently, separates what was observed from what is assumed, and never turns "competitor X does it" into a recommendation on its own | practitioner judgment | `evals/scenarios/feature-checklist.md` |
 
 ## Stage 4: plan
 
@@ -2343,6 +2453,74 @@ evidence about users: it describes buyers and markets, not what users do.
 Every template promises findings in return. Keep the promise: a short note
 with the two or three findings most relevant to that team, when the study is
 done.
+
+<!-- core/templates/competitive-analysis.md -->
+
+# Competitive analysis: [job or problem]
+
+**Date:** [date] (competitors change; this has a shelf life) · **Study
+record:** [link] · **Researcher:** [name]
+
+## The question
+
+How do people get [job] done in other tools, and what would fit our
+[persona or group]?
+
+- **Decision this serves:** [Owner] will decide [what] by [when]
+- **Persona and journey step:** [from the study record]
+- **What we know about our users here:** [from the evidence log; one or
+  two lines; "nothing yet" is fine]
+
+## The set
+
+| Tool | Why it's in | How it solves the job | Observed on |
+| --- | --- | --- | --- |
+| [direct competitor] | | | [date] |
+| [direct competitor] | | | |
+| [different approach, e.g. spreadsheet or adjacent tool] | | | |
+
+## Fit matrix
+
+Each cell: how the tool handles the step, what it assumes about the user,
+and whether that holds for our persona. What the tool does is observed.
+Why, and whether its users like it, is an assumption unless labelled with
+evidence.
+
+| Job step | [Tool 1] | [Tool 2] | [Tool 3] |
+| --- | --- | --- | --- |
+| [step 1] | | | |
+| [step 2] | | | |
+| [step 3] | | | |
+
+## Patterns
+
+- **Everyone does:** [users will likely expect it]
+- **Nobody does:** [a gap, or a dead end; say which you think and why]
+- **One tool does well, and it would suit our persona:** [ ]
+- **One tool does, and it would not suit our persona because:** [ ]
+
+## Fit assessment
+
+One per pattern worth considering.
+
+### [Pattern]
+
+- **What it would solve for our users:** [tied to the job] [their data /
+  assumption]
+- **What it would cost them:** [effort, learning, loss of something they
+  rely on]
+- **Which persona it suits:** [ ]
+- **Before adopting, check with users:** [the one thing to test, and how]
+
+## What this can't tell us
+
+Their users' satisfaction, their data, why they chose it, whether it works
+at scale for people like ours. Say it here so nobody reads the matrix as
+proof.
+
+## Next step
+
+[Concept test / usability test of a pattern / nothing, with the reason.]
 
 <!-- core/templates/interview-guide.md -->
 
