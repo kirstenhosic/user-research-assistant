@@ -22,6 +22,7 @@ Where a source supports part of a standard, the basis says which part.
 | 6.10 | A tool's summary of transcripts, Magpie's own included, is treated as a draft that says which transcripts to read, never as findings; smoothed contradiction is caught and the dissenting participants restored | S10 | `evals/scenarios/smoothed-summary.md` |
 | 6.11 | Every count lists the participants and lines behind it ("3 of 8 (P1 06, P5 06, P7 06)"), so the count can be checked by code: as many codes as the count claims, each a real participant, each line theirs | practitioner judgment | `evals/scenarios/uncoded-count.md` |
 | 6.12 | Each hypothesis is marked supported, contradicted or not addressed, with the findings behind it, after the findings are drafted | practitioner judgment | `evals/scenarios/hypothesis-check.md` |
+| 6.13 | Before findings are written, the researcher reviews each candidate theme, shown riskiest first with its count, a quote and its risk, plus the merged and dropped codes; each theme gets its own keep, change, split or drop, a blanket "looks good" is followed up, and a skipped review is logged as a risk | practitioner judgment | `evals/scenarios/theme-review.md` |
 
 ## Stage 7: readout and report
 

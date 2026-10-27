@@ -86,6 +86,23 @@ Known assumptions, plus every challenge that was skipped and why.
 
 - [Guide, script or survey: link or file name]
 
+## Themes
+
+**Researcher's patterns** (what they saw before coding, in their words):
+
+-
+
+**Theme review.** Riskiest first. The researcher's decision on each theme
+before findings are written.
+
+| Theme | Count and participants | Risk | Decision |
+| --- | --- | --- | --- |
+| | | | keep / change / split / drop |
+
+Merged and dropped codes, and why:
+
+-
+
 ## Findings
 
 Each finding is a claim with its evidence, including what cuts against it.

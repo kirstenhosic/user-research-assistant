@@ -24,12 +24,14 @@ few and in the PM's words, and no jargon is left unexplained.
   checking the pricing page with real people) and that it needs a few
   answers first.
 - Asks, in one message and in plain words, five questions at most, for
-  example: what the director will do with the answer (ship as is, change
-  it, or hold); what the pricing page is meant to improve (sign-ups,
-  upgrades, fewer support questions); what the team is worried might go
-  wrong; who the page is for; the ship date.
-- Offers a best guess on at least one ("I'm guessing the choice is ship
-  as designed, change it, or hold. Is that right?").
+  example: what the director will do with the answer; what the pricing
+  page is meant to improve (sign-ups, upgrades, fewer support questions);
+  what the team is worried might go wrong; who the page is for; the ship
+  date.
+- Asks the PM to say in their own words what the director will decide
+  (the your-turn step). It may give the shape ("ship as is, change it, or
+  hold, for example") but doesn't answer for them. A best guess on the
+  other questions is fine.
 - Any research term it uses (usability test, sample, consent) gets a short
   gloss in the same sentence.
 - Tells them what happens next in one line ("Answer these and I'll draft
@@ -49,4 +51,4 @@ few and in the PM's words, and no jargon is left unexplained.
 
 ## Standards tested
 
-A.7, A.6, A.4
+A.7, A.6, A.14, A.4

@@ -18,10 +18,13 @@ built without these is sized and ordered by guesswork.
 
 ## Pass
 
-- Asks in one message, six questions at most, for what's missing: who will
-  see it and what each needs to decide or do, the format and slot length,
-  the team's template, what stakeholders expect to hear, anything
-  sensitive, and whether recommendations should name owners.
+- Asks in one message, six questions at most, for what's missing, the
+  ones that would change the readout most: who will see it and what each
+  needs to decide or do, the format and slot length, the team's template,
+  what stakeholders expect to hear, anything sensitive, and whether
+  recommendations should name owners. The six include the your-turn ask:
+  what each partner should do for the top findings. Anything not asked is
+  marked [assumption] when the readout is built.
 - Offers a best guess where the record supports one (the decision owner
   will be there).
 - Once answered, builds the readout sized to the slot and ordered for that
@@ -35,4 +38,4 @@ built without these is sized and ordered by guesswork.
 
 ## Standards tested
 
-7.11, A.6
+7.11, A.6, A.14

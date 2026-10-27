@@ -23,13 +23,25 @@ conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
 
 - What prompted this: who asked, and what they asked for, in their words.
-- What the research is meant to inform: the decision, who makes it, and
-  by when.
+- Who makes the decision, and by when. (The decision itself is the
+  researcher's turn, below.)
 - The business goal or metric it's meant to move.
 - The hypotheses: what the team believes now, and what would change its
   mind.
 - Who the study is about: which users or customers.
 - Anything already known or tried, if stage 1 didn't cover it.
+
+**Your turn** (`operating.md`, "Your turn"). In the same message, ask the
+researcher to write two things in their own words before you draft them:
+
+- The decision: "What will someone decide differently once you know the
+  answer?" Give the shape if it helps: *[Owner] will decide [what] by
+  [when], choosing between [options].*
+- The primary research question: "If you could ask one question to make
+  that decision easier, what would it be?"
+
+Don't offer your guess at either. If they say "not sure" or "you do it",
+draft both yourself.
 
 ## What to do
 
@@ -42,10 +54,13 @@ conversation or files you can reach, in one message, before you build
    decline, write "not added" and move on (`operating.md`, "Know the
    product").
 2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
-   or a feeling ("it's confusing"). Ask: what will someone decide differently
-   once we know the answer? Ask the researcher, offering your best guess
-   from what you've been told so they can confirm or correct it. Format:
-   *[Owner] will decide [what] by [when], choosing between [options].*
+   or a feeling ("it's confusing"). Start from the researcher's own
+   version (the your-turn ask above). Keep their words, and fill in what's
+   missing from the format: *[Owner] will decide [what] by [when], choosing
+   between [options].* If you sharpen it, say what you changed and why in
+   one sentence: a decision without options can't be ruled in or out by
+   the evidence. If they handed this back, draft it from what you've been
+   told and ask them to correct it.
 3. **Tie it to the business.** Which goal or metric does it move? What does it
    cost to get it wrong? Use the team profile's goals and current bets if
    you have them, and note any market signal that bears on it (a competitor
@@ -53,7 +68,7 @@ conversation or files you can reach, in one message, before you build
    the researcher doesn't know, that's fine: write "[assumption]" and move
    on. Don't invent a metric or a market claim.
 4. **Write the research questions.** One primary question that most changes
-   the decision. Up to three secondary questions. Each one names the decision
+   the decision, starting from the researcher's version if they gave one. Up to three secondary questions. Each one names the decision
    it serves. Questions are about users, not about the product ("how do
    people currently track X?" not "do users like our tracker?"). Where
    you know the product has buyers or admins apart from its end users,
@@ -89,6 +104,8 @@ because it's on the roadmap? If so, what is the research for?"
 
 ## Exit criteria
 
+- The researcher was asked to write the decision and the primary question
+  first, or the decision came with the brief, or they handed it back.
 - Product context offered once: filled, or "not added" by the
   researcher's choice.
 - A decision statement with owner, deadline and options.

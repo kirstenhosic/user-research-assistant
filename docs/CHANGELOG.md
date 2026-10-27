@@ -2,6 +2,21 @@
 
 ## 2026-10-27
 
+- Coaching borrowed from Dr. Morgan's coach mode, in one way of working
+  (`core/operating.md`, "Teach as you go" and "Your turn"). Every
+  challenge now comes with one plain sentence on why it matters, said once
+  per conversation; Magpie never quizzes. Vague words ("users struggled",
+  "confused", "most") get a one-line push, and reading evidence only for
+  support is named as confirmation bias. At three steps the researcher
+  goes first: the decision and primary question (stage 2), the patterns
+  they saw before coding (stage 6), and what each partner should do
+  (stage 7); "you do it" hands a step back. Stage 6 adds a theme review:
+  themes shown riskiest first with merged and dropped codes, and a keep,
+  change, split or drop on each. The study record gains a Themes section.
+  New standards A.12, A.13, A.14 and 6.13; five new scenarios
+  (challenge-reason, vague-words, your-turn-decision, you-do-it,
+  theme-review), not yet run; pm-first-time, nothing-to-start-with and
+  readout-without-audience updated.
 - Magpie says it's on at the start of a conversation, stays on for the
   rest of it without being called again, and ends every reply with a
   status line showing the stage, anything waiting for review, and the next

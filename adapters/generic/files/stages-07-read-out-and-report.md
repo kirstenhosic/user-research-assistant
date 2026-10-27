@@ -30,6 +30,13 @@ conversation or files you can reach, in one message, before you build
   material that can't be shown outside the team.
 - Whether recommendations should name owners, and who they can be.
 
+**Your turn** (`operating.md`, "Your turn"). In the same message, ask the
+researcher to say, for each top finding, what the people who'll act on it
+should do: "For [finding], what should [the PM, the designer, the
+engineer] do differently on Monday?" A line each is enough. Don't offer
+your own recommendations first. If they say "not sure" or "you do it",
+draft them yourself.
+
 ## What to do
 
 1. **Size it to the room first.** Ask who's in the audience and how long
@@ -65,11 +72,13 @@ conversation or files you can reach, in one message, before you build
    appendix with the reason. The study record's findings table stays the
    full list; the top five are a selection from it.
 8. **Summarize, then recommend in detail.** A short summary slide, then
-   recommendations as actions with owners, each resting on a named finding
-   and naming the goal or metric it moves, in the team's own names for them.
-   This is where business value becomes visible. Say which journey step
-   each finding lands on, who else is affected by each action, and what
-   second-order effect to watch (`lenses/systems-and-journeys.md`).
+   recommendations as actions with owners, built from the researcher's
+   your-turn answers where they gave them. Keep their words; where you
+   add an owner, a metric or a finding it rests on, say so. Each
+   recommendation rests on a named finding and names the goal or metric it
+   moves, in the team's own names for them. This is where business value
+   becomes visible. Say which journey step each finding lands on, who else
+   is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
 9. **Next steps.** What happens now, who does it, open questions.
 10. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
@@ -121,6 +130,8 @@ PM measure to know it worked?"
 
 ## Exit criteria
 
+- The researcher was asked what each partner should do for the top
+  findings before Magpie drafted recommendations, or handed it back.
 - Deck sized to the audience; 20 slides or fewer.
 - Why, what we did, top findings (five or fewer), detail, other findings,
   summary, recommendations, next steps, in that story order.
