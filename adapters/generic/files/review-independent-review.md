@@ -39,7 +39,12 @@ produced the draft.
 
 **Anywhere else:** the researcher opens a fresh chat and pastes the three
 parts in that order. Magpie tells them to do this and gives them the exact
-text to paste.
+text to paste. The fresh chat has to be outside Magpie: outside the
+Claude.ai or ChatGPT project that holds Magpie, or with the Magpie skill
+turned off in Gemini or Copilot. A chat that loads Magpie again isn't
+independent, and it will start asking its own context questions. Tell the
+researcher to paste the reviewer's list back into this conversation when
+it's done.
 
 **Either way:** the review comes back as a list. Magpie goes through it,
 fixes what's right, says why it disagrees with what's wrong, and logs the

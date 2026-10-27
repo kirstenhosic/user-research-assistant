@@ -45,20 +45,20 @@ long the study can take.
    product has analytics, support tickets and real use to watch; an idea
    or a prototype has none of those, so concept testing or interviews
    about what people do today fit better. If there's a
-   design to evaluate, an expert review (`methods/expert-review.md`) can
+   design to evaluate, an expert review (`methods-expert-review.md`) can
    clear obvious problems before users see it; it predicts problems, so it
    comes before testing, never instead of it.
 3. **Consider how others solve it.** If the decision is about building
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
-   (`methods/competitive-analysis.md`) as a cheap first step or a companion
+   (`methods-competitive-analysis.md`) as a cheap first step or a companion
    to the main method. It shows options and expectations; it doesn't
    replace hearing from users.
-4. **Recommend one method and one backup.** Use `methods/` for the fit, the
+4. **Recommend one method and one backup.** Use the `methods-*.md` files for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences. If
    the ask names a method, check it against the question the same way. A
    focus group asked for to judge usability or predict behaviour is the
-   common case (`methods/focus-groups.md`).
+   common case (`methods-focus-groups.md`).
 5. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
 6. **Show the reasoning and invite a counter** (`operating.md`, "Show the

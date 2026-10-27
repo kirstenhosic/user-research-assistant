@@ -26,7 +26,7 @@ guide below. It never pretends to have searched.
 
 For each type: where it usually lives, who to ask, what to ask for, and the
 paste-in format so Magpie can log it in one step. The partner asks are in
-`partners/request-templates.md`.
+`partners-request-templates.md`.
 
 | Evidence | Where it usually lives | Ask | What to paste |
 | --- | --- | --- | --- |

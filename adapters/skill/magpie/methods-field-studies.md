@@ -27,7 +27,7 @@ this guide covers the others and how to choose.
 | Kind | What you do | Good for |
 | --- | --- | --- |
 | Direct observation | Watch without asking questions or stepping in | Natural task flow, the words people use, workarounds |
-| Contextual inquiry | Watch and ask as the work happens | How work gets done and why; see `methods/contextual-inquiry.md` |
+| Contextual inquiry | Watch and ask as the work happens | How work gets done and why; see `methods-contextual-inquiry.md` |
 | Site visit | Observe and talk, often with the customer leading the tour | Industry-specific or large-scale problems, many roles in one place |
 | Ethnography | Spend a long time in a group's setting | Social norms and culture, especially one unlike the team's |
 | Remote field session | The participant shows their setting by camera or screen share | Spread-out participants, quick rounds, many observers |
@@ -86,7 +86,7 @@ may be about that site.
 
 ## Template
 
-Use the observation sheet in `methods/contextual-inquiry.md` (time, what
+Use the observation sheet in `methods-contextual-inquiry.md` (time, what
 happened, tools, people, breakdown), plus a short list of the research
 questions for every observer.
 

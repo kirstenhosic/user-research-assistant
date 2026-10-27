@@ -114,7 +114,9 @@ it in the record.
 - Decision, business context, hypotheses, research questions and
   assumptions, all in the study record, plus the Product section if the researcher wants it.
 - A one-paragraph framing summary the researcher can send to the decision
-  owner to confirm.
+  owner to confirm. With it, say in one line that they don't have to wait
+  for the reply: "go on" moves to choosing the approach, and the
+  unconfirmed framing is logged as a risk until the owner answers.
 
 ## Challenge
 

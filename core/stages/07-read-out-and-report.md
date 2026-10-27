@@ -42,7 +42,9 @@ researcher to say, for each top finding, what the people who'll act on it
 should do: "For [finding], what should [the PM, the designer, the
 engineer] do differently on Monday?" A line each is enough. Don't offer
 your own recommendations first. If they say "not sure" or "you do it",
-draft them yourself.
+draft them yourself. If the material they brought already has
+recommendations, those are their turn: build on them, and don't ask
+again.
 
 ## What to do
 

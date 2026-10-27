@@ -37,7 +37,7 @@ behaviour or need is.
 ## What makes it good
 
 - Every item maps to a research question.
-- Run `checks/survey-wording.md` before sending.
+- Run `checks-survey-wording.md` before sending.
 - Pilot with five people, watch them fill it in, and fix what confuses them.
 - Decide the analysis plan before the data arrives.
 
@@ -58,7 +58,7 @@ including how to state a test result, a margin of error or a sample size.
 
 ## Template
 
-`templates/survey.md`
+`templates-survey.md`
 
 ## Basis
 

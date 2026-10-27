@@ -69,7 +69,7 @@ A fit matrix: job steps down the side, tools across, each cell saying how
 the tool handles it and what it assumes. Then the patterns: what everyone
 does (users will expect it), what nobody does (a gap or a dead end), what
 one tool does well that would suit your persona. Then the fit assessment
-per pattern. Stage 6 covers the write-up; `templates/competitive-analysis.md`
+per pattern. Stage 6 covers the write-up; `templates-competitive-analysis.md`
 has the shape.
 
 ## What it feeds
@@ -92,7 +92,7 @@ has the shape.
 
 ## Template
 
-`templates/competitive-analysis.md`
+`templates-competitive-analysis.md`
 
 ## Basis
 

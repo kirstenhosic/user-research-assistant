@@ -54,7 +54,7 @@ sessions, or say "you do it", skip it.
 2. **Screen for participant quality first.** Before coding, drop or flag
    transcripts that look fraudulent or rushed (too clean, too fast, too
    perfectly structured), following the plan's threshold, and note each
-   removal in the record. `checks/ai-assisted-research.md`, section 4.
+   removal in the record. `checks-ai-assisted-research.md`, section 4.
 3. **Read everything once before coding.** No themes yet. Note what
    surprised you. If a tool (Magpie included) has already produced a
    summary, use it to decide which transcripts to read closely, not as a
@@ -111,18 +111,18 @@ sessions, or say "you do it", skip it.
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
-   (`lenses/systems-and-journeys.md`).
+   (`lenses-systems-and-journeys.md`).
 12. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-13. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+13. **Run the claim-strength check** (`checks-claim-strength.md`) over the
    draft findings.
 14. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-15. **Run the independent review** (`review/independent-review.md`) once
+15. **Run the independent review** (`review-independent-review.md`) once
     the findings are drafted. It's required at this stage. Start it in the
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste

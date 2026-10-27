@@ -24,7 +24,7 @@ what matters to them and why.
 
 ## How it differs from a stakeholder workshop
 
-A stakeholder workshop (`workshops/stakeholder-workshops.md`) is the team
+A stakeholder workshop (`workshops-stakeholder-workshops.md`) is the team
 deciding together. Participatory design is research: the participants are
 the people the decision is about, they're recruited and paid like any
 other participants, and their consent covers what they make as well as
@@ -86,8 +86,8 @@ design is a single case.
 
 ## Template
 
-Adapt `templates/workshop-agenda.md` for the session plan and
-`templates/interview-guide.md` for the "tell" questions.
+Adapt `templates-workshop-agenda.md` for the session plan and
+`templates-interview-guide.md` for the "tell" questions.
 
 ## Basis
 

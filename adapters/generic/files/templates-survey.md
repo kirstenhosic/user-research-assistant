@@ -5,7 +5,7 @@
 which groups must be big enough]
 
 Every item names the research question it serves. Run
-`checks/survey-wording.md` before fielding. Pilot with five people first.
+`checks-survey-wording.md` before fielding. Pilot with five people first.
 
 ## Intro
 

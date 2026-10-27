@@ -91,7 +91,7 @@ segment sizing. Magpie treats these as evidence with a specific shape.
 - **Where it comes in.** Stage 0 (finding opportunities), stage 1 (what we
   already know), stage 2 (the business need), and stage 7 (what the
   findings mean for the company). The marketing or strategy team holds it;
-  `partners/request-templates.md` has the ask.
+  `partners-request-templates.md` has the ask.
 - **What it is and isn't.** Market research describes markets and buyers.
   It's indirect evidence about users, because buyers and users are often
   different people and a survey of buyers says what they'd pay for, not
@@ -108,11 +108,11 @@ segment sizing. Magpie treats these as evidence with a specific shape.
 ## 6. Finding opportunities
 
 Research doesn't have to wait for an ask. When a researcher wants to
-propose work, stage 0 (`stages/00-find-opportunities.md`) lays out company
+propose work, stage 0 (`stages-00-find-opportunities.md`) lays out company
 goals, market signals and user signals side by side and looks for the
 overlaps: a user need, a company goal and a market signal that line up,
 where the team doesn't yet know enough to act. Each one becomes a one-page
-brief (`templates/opportunity-brief.md`) that names the decision it would
+brief (`templates-opportunity-brief.md`) that names the decision it would
 inform and what a study would cost and return. That's how a researcher
 shows strategic value before anyone asks for it.
 

@@ -98,7 +98,7 @@ it in the record.
    and risks, in their words, plus any you see that they didn't; mark
    yours as Magpie's. An assumption that would change the decision if
    wrong is a candidate for a hypothesis; say so.
-6. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
+6. **Place it in the larger system.** Use `lenses-systems-and-journeys.md`,
    briefly: what's upstream and downstream of this piece, which other
    teams touch it, what job the user is doing when they meet it, which of
    the team's journeys or CUJs and which persona it sits on. If the team
@@ -114,7 +114,9 @@ it in the record.
 - Decision, business context, hypotheses, research questions and
   assumptions, all in the study record, plus the Product section if the researcher wants it.
 - A one-paragraph framing summary the researcher can send to the decision
-  owner to confirm.
+  owner to confirm. With it, say in one line that they don't have to wait
+  for the reply: "go on" moves to choosing the approach, and the
+  unconfirmed framing is logged as a risk until the owner answers.
 
 ## Challenge
 

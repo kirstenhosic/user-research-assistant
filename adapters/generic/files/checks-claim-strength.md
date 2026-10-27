@@ -46,7 +46,7 @@ does the wording match the evidence?
     transcripts, Magpie's drafts included, is a draft until a person has
     read the passages it rests on. Smoothing is the tell: "generally
     positive, some minor confusion" where two of eight were seriously
-    stuck. `checks/ai-assisted-research.md`.
+    stuck. `checks-ai-assisted-research.md`.
 
 ## Wording to replace
 

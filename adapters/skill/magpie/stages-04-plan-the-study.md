@@ -34,9 +34,11 @@ questions.
 
 ## What to do
 
-1. **Draft the plan from `templates/research-plan.md`.** Fill every section
-   from the record. Where something is unknown, write a placeholder in
-   brackets, not a guess.
+1. **Draft the plan from `templates-research-plan.md`.** Fill every section
+   from the record. Where something is unknown, follow `operating.md`,
+   "Gather context before you build": a guess the researcher let stand is
+   marked [assumption], and anything that can't be guessed (a date, a
+   name, a budget) is a labelled blank such as "[recruiting start date]".
 2. **Write the recruiting criteria.** Who's in, who's out, and why each
    criterion matters for the decision. Use the team's persona or segment
    names where they exist, always with the behaviour that defines them.
@@ -47,7 +49,7 @@ questions.
    matter for this decision? Write the answer under trade-offs either way.
    Include disabled participants and people who use assistive technology,
    with the lead time and access arrangements that takes, or say why not
-   (`lenses/accessibility.md`).
+   (`lenses-accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
    where it's stored, who can see it, when it's deleted. If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
@@ -59,10 +61,10 @@ questions.
    how much fraud risk that carries (own verified users: low; third-party
    panels: high). Set the disqualification threshold and the replacement
    protocol now, so a bad participant costs an hour, not the study.
-   `checks/ai-assisted-research.md`, section 4.
+   `checks-ai-assisted-research.md`, section 4.
 7. **If an AI tool will moderate sessions,** schedule the first-three-
    transcript audit in the timeline, with a stop point before the rest of
-   the sessions run. `checks/ai-assisted-research.md`, section 1.
+   the sessions run. `checks-ai-assisted-research.md`, section 1.
 8. **Name the risks.** Pull every skipped challenge from the record into the
    plan's risks section, plus anything new.
 

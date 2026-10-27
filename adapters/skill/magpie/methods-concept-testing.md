@@ -59,7 +59,7 @@ today. Reaction patterns, not votes. Stage 6 covers this.
 
 ## Template
 
-Adapt `templates/interview-guide.md`: baseline questions, then one block
+Adapt `templates-interview-guide.md`: baseline questions, then one block
 per concept with the same questions.
 
 ## Basis
