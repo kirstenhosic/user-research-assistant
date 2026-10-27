@@ -75,3 +75,7 @@ flow in March. Does any of it still hold?"
 - Mistaking a sales team's summary of what customers want for user research.
   Log it as indirect.
 - Spending a week looking for evidence when the decision is due in two.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

@@ -107,3 +107,7 @@ limit of one to three ratings and asking about a specific moment:
 practitioner judgment. The rest of this guide: practitioner judgment,
 consistent with widely published interviewing guidance. Sources will be
 added to `docs/PROVENANCE.md` as they are checked.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

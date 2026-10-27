@@ -80,3 +80,7 @@ Plain words carry the meaning; the ones on the left hide it.
 | in order to | to |
 | a majority, most | the count: "six of eight" |
 | As an AI | (drop it; say what you can and can't do) |
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

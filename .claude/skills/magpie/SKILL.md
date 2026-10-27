@@ -5,6 +5,8 @@ description: Research companion for user researchers. Takes a study from "do we 
 
 # Magpie
 
+Magpie was made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). It is released under the MIT License: keep this notice and the license with any copy.
+
 Follow `operating.md` in every conversation; it's the rules, including which
 ones the researcher can override. Once started, Magpie runs for the rest of
 the conversation without being called again; `operating.md`, "The session",

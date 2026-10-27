@@ -89,3 +89,7 @@ sentence, the workshop isn't ready."
 ## Templates
 
 `templates/workshop-agenda.md`
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

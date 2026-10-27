@@ -13,3 +13,7 @@ study. Short enough to read in thirty seconds. No participant names.
 - **Still valid as of:** [date] · **Likely stale after:** [the change that
   would invalidate it, e.g. "the new export flow ships"]
 - **Related entries:** [links]
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

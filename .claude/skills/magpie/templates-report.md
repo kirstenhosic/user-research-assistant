@@ -137,3 +137,7 @@ pages.
 - Independent review: what it found and what changed
 - Library entries written from this study
 - Links to recordings, clips and raw material (access-controlled)
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

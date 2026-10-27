@@ -86,3 +86,7 @@ mitigations, including the first-three-transcript audit, the human
 synthesis step, receipts, and the fraud signals, come from the passage
 recorded there. The wording and the fit to Magpie's stages are this
 project's.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

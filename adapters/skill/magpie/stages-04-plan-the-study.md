@@ -96,3 +96,7 @@ need to hear from them?"
   to be bots or speed-runners.
 - A timeline that ends the day the decision is due, with no time for the
   team to absorb the findings.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

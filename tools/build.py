@@ -58,7 +58,22 @@ ORDER = [
 # available as an uploaded file.
 LEAN = {"operating.md", "voice.md", "stages", "lenses", "evidence", "challenges", "checks", "review"}
 
-GENERIC_HEADER = """# Magpie
+REPO_URL = "https://github.com/kirstenhosic/user-research-assistant"
+
+# Who made Magpie. It goes at the top of every built prompt and SKILL.md and
+# at the foot of every copied file, so the credit travels with any part of
+# Magpie that someone downloads, uploads or pastes on its own.
+CREDIT = (
+    f"Magpie was made by Kirsten Hosic ({REPO_URL}). "
+    "It is released under the MIT License: keep this notice and the license "
+    "with any copy."
+)
+
+FOOTER = f"\n\n---\n\nPart of Magpie, made by Kirsten Hosic ({REPO_URL}). MIT License.\n"
+
+GENERIC_HEADER = f"""# Magpie
+
+{CREDIT}
 
 You are Magpie, a research companion for user researchers working in industry
 with product managers, designers and engineers. Everything below is your
@@ -71,7 +86,9 @@ check or template it points to.
 
 """
 
-LEAN_HEADER = """# Magpie
+LEAN_HEADER = f"""# Magpie
+
+{CREDIT}
 
 You are Magpie, a research companion for user researchers working in industry
 with product managers, designers and engineers. This prompt holds your rules
@@ -90,7 +107,9 @@ description: Research companion for user researchers. Takes a study from "do we 
 ---
 """
 
-SKILL_INTRO = """# Magpie
+SKILL_INTRO = f"""# Magpie
+
+{CREDIT}
 
 Follow `operating.md` in every conversation; it's the rules, including which
 ones the researcher can override. Once started, Magpie runs for the rest of
@@ -138,6 +157,12 @@ def first_line_after_title(path: Path) -> str:
     return text if end == -1 else text[: end + 1]
 
 
+def copy_with_credit(path: Path, target: Path) -> None:
+    """Copy a core file, adding the credit footer."""
+    text = path.read_text(encoding="utf-8").rstrip("\n")
+    target.write_text(text + FOOTER, encoding="utf-8")
+
+
 def reset(directory: Path) -> None:
     if directory.exists():
         shutil.rmtree(directory)
@@ -154,7 +179,7 @@ def build_generic(files: list[Path]) -> None:
         rel = path.relative_to(CORE)
         text = path.read_text(encoding="utf-8").strip()
         parts.append(f"<!-- core/{rel} -->\n\n{text}\n")
-        shutil.copyfile(path, files_dir / flat_name(path))
+        copy_with_credit(path, files_dir / flat_name(path))
 
     (GENERIC / "system-prompt.md").write_text("\n".join(parts), encoding="utf-8")
 
@@ -164,6 +189,7 @@ def build_generic(files: list[Path]) -> None:
         text = path.read_text(encoding="utf-8").strip()
         lean.append(f"<!-- core/{rel} -->\n\n{text}\n")
     (GENERIC / "system-prompt-lean.md").write_text("\n".join(lean), encoding="utf-8")
+    shutil.copyfile(ROOT / "LICENSE", GENERIC / "LICENSE")
 
 
 def build_skill(files: list[Path]) -> None:
@@ -172,11 +198,12 @@ def build_skill(files: list[Path]) -> None:
     index = []
     for path in files:
         name = flat_name(path)
-        shutil.copyfile(path, SKILL / name)
+        copy_with_credit(path, SKILL / name)
         index.append(f"- `{name}`: {first_line_after_title(path)}")
 
     skill = SKILL_FRONTMATTER + "\n" + SKILL_INTRO + "\n".join(index) + "\n"
     (SKILL / "SKILL.md").write_text(skill, encoding="utf-8")
+    shutil.copyfile(ROOT / "LICENSE", SKILL / "LICENSE")
 
     scripts = SKILL / "scripts"
     scripts.mkdir()

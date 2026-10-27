@@ -38,3 +38,7 @@
 - **Owners:** [ ]
 - **Assumptions recorded / ideas not chosen:** [ ]
 - **Next check-in:** [date]
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

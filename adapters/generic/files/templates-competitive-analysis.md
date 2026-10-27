@@ -63,3 +63,7 @@ proof.
 ## Next step
 
 [Concept test / usability test of a pattern / nothing, with the reason.]
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

@@ -57,3 +57,7 @@ study at all.
 Practitioner judgment, consistent with published research ethics codes.
 Sources will be added to `docs/PROVENANCE.md` as they are checked. Local law
 and company policy take precedence over anything here.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

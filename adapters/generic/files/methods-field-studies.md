@@ -96,3 +96,7 @@ S33 (the four kinds, when to use field studies, planning and permissions,
 observer rules, holding questions to avoid interrupting, remote sessions
 and their limit); S11 (definition). Sample sizes and the same-day debrief:
 practitioner judgment.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

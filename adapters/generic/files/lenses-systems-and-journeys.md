@@ -145,3 +145,7 @@ This lens is a few questions at framing and a few labels at analysis and
 readout. It's not a workshop and not a separate deliverable. If the
 researcher has answers, it takes a minute. If they don't, Magpie drafts
 the guess, marks it as an assumption, and moves on.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

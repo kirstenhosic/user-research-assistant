@@ -52,3 +52,7 @@ D2. [one more if needed] · Prefer not to say
 ## Thanks
 
 Thank you. [What happens next, incentive if any.]
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

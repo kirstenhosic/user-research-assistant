@@ -64,3 +64,7 @@ including how to state a test result, a margin of error or a sample size.
 
 Practitioner judgment, consistent with widely published survey design
 guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

@@ -7,6 +7,8 @@ this?", to a report your product manager, designer, and engineer can act
 on. It's built for researchers, and for PMs and designers doing their own
 research.
 
+Made by Kirsten Hosic.
+
 Why a magpie: it collects the shiny bits of evidence that already exist,
 then helps you figure out which ones matter for the decision in front of you.
 
@@ -308,10 +310,20 @@ adapters are rebuilt from it. [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
 has the rest, and [`docs/DESIGN.md`](docs/DESIGN.md) explains how Magpie is
 built and why.
 
-Magpie is an independent personal project. It isn't made, endorsed or
-supported by any employer.
+## Credit and license
 
-Licensed under the MIT License. See `LICENSE`. The license covers the
-Magpie files only. It doesn't give permission to use any particular AI
-tool at work, or to share any data with one; see
+Magpie was made by Kirsten Hosic. It's an independent personal project, not
+made, endorsed or supported by any employer.
+
+It's released under the MIT License (see `LICENSE`), so you're free to use,
+change and share it. The license's one condition is that copies, and
+substantial parts of it, keep the copyright notice and the license text. To
+make that easy, every built file carries a credit line: the top of
+`SKILL.md` and both system prompts, the foot of every method guide, template
+and other file, and the top of each script. The skill folder and
+`adapters/generic/` also hold a copy of `LICENSE`. If you share or adapt
+part of Magpie, please keep those lines.
+
+The license covers the Magpie files only. It doesn't give permission to use
+any particular AI tool at work, or to share any data with one; see
 [Using Magpie at work](#get-started).

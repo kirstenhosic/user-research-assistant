@@ -65,3 +65,7 @@ instead of running a new study. Stage 1 in full.
 
 Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
 are checked.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

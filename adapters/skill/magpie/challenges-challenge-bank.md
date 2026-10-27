@@ -142,3 +142,7 @@ Not challenges from the bank: one-line questions that can come in any reply
 | "intuitive", "easy" | "What did people do that made it look easy? How many?" |
 | "most", "many", "everyone" | "How many, out of how many?" |
 | "users want" | "Who said it, how many, and did anyone not?" |
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

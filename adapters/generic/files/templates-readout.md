@@ -135,3 +135,7 @@ under fifteen minutes; otherwise the default above applies.
 | 10 minutes, senior | 6 to 8 | Detailed findings beyond the top three; partner sections. The other-findings slide stays, even if it's the last one |
 | 30 minutes, product trio | 12 to 16 | Second quotes, appendix material on main slides |
 | 60 minutes, wider team | up to 20 | Nothing on the main deck; put discussion time in the agenda |
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

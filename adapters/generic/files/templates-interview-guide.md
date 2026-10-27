@@ -67,3 +67,7 @@ deeper. Prepared prompts:
 ## Nice to have (only if time)
 
 - [Questions that didn't map to a research question but might be useful.]
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

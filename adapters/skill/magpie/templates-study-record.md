@@ -137,3 +137,7 @@ reviewed it. An output stays "not yet" until the researcher says yes.
 | Date | What changed | Why |
 | --- | --- | --- |
 | | | |
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

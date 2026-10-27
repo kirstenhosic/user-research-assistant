@@ -80,3 +80,7 @@ Includes every skipped challenge from the study record.
 
 - [Readout on [date]: findings, confidence, recommendations]
 - [Report, library entries, partner summaries]
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

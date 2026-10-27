@@ -2,6 +2,13 @@
 
 ## 2026-10-27
 
+- Credit travels with every copy. `tools/build.py` now puts "Magpie was
+  made by Kirsten Hosic" with the repository link and the MIT License at
+  the top of `SKILL.md` and both system prompts, and a one-line credit at
+  the foot of every copied file; the three scripts carry it in their
+  header. The skill folder and `adapters/generic/` get a copy of
+  `LICENSE`. The README names Kirsten at the top and gains a "Credit and
+  license" section.
 - README gains a short "Using Magpie at work" note before the setup
   steps: use Magpie at work only in an employer-approved AI tool, and
   follow your organization's data and privacy rules. The license line now

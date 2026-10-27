@@ -99,3 +99,7 @@ best for new or unfamiliar systems, to be combined with usability
 testing). The [assumption] label and keeping results apart from user
 findings follow `operating.md`. Avoiding self-review, the pitfalls and
 the issue-list columns: practitioner judgment.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

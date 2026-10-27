@@ -84,3 +84,7 @@ with a screen reader, keyboard, high contrast and 400% zoom; breaks and
 stopping). S37 was last updated in July 2019, so check it against current
 practice. The audit distinction, the fallback plan, and the analysis
 points: practitioner judgment.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

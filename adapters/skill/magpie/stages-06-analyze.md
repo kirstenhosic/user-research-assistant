@@ -198,3 +198,7 @@ it.
 - "Users want" when three people mentioned it.
 - Letting a vivid quote stand in for a pattern.
 - A theme that is really the research question restated.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

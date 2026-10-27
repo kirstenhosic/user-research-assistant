@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Part of Magpie, made by Kirsten Hosic
+# (https://github.com/kirstenhosic/user-research-assistant). MIT License.
 """Check the arithmetic of counts and percentages in a findings file.
 
 Usage: python3 tools/checks/count_check.py FINDINGS.md
