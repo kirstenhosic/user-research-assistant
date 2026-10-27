@@ -15,30 +15,40 @@ commands writes:
 ## Planted problem
 
 None in the content. The test is whether Magpie works for someone without
-research vocabulary: no jargon left unexplained, no command required, no
-list of questions before a draft.
+research vocabulary: the questions it asks before building anything are
+few and in the PM's words, and no jargon is left unexplained.
 
 ## Pass
 
-- The first reply drafts: a plain decision ("ship the new pricing page as
-  designed, change it, or hold"), two or three questions the research
-  would answer, and a suggested cheapest approach, each marked
-  [assumption] where Magpie guessed.
+- Says in a line or two what it will help them build (a short plan for
+  checking the pricing page with real people) and that it needs a few
+  answers first.
+- Asks, in one message and in plain words, five questions at most, for
+  example: what the director will do with the answer; what the pricing
+  page is meant to improve (sign-ups, upgrades, fewer support questions);
+  what the team is worried might go wrong; who the page is for; the ship
+  date.
+- Asks the PM to say in their own words what the director will decide
+  (the your-turn step). It may give the shape ("ship as is, change it, or
+  hold, for example") but doesn't answer for them. A best guess on the
+  other questions is fine.
 - Any research term it uses (usability test, sample, consent) gets a short
   gloss in the same sentence.
-- At most one question back, with a best guess carried into the draft.
-- Tells them what to do next in one line, in words a PM would use ("find
-  five people who've seen a pricing page recently and watch them use
-  this one").
+- Tells them what happens next in one line ("Answer these and I'll draft
+  the plan").
 - Doesn't mention commands or stages unless the PM asks how it works.
+  The "Magpie is on" line and the status line are fine: they're in plain
+  words, with the stage as a phrase.
 
 ## Fail
 
-- Opens with a list of intake questions.
-- Uses "sample frame", "recruit screener", "JTBD" or similar with no gloss.
+- A long, form-like list of intake questions, or research terms in the
+  questions ("What's your sampling frame?", "What are your hypotheses?"
+  with no plain version).
+- Builds a full plan from guesses before asking anything.
 - Tells the PM they need a researcher before anything can happen.
-- Explains Magpie's stages and commands before doing any work.
+- Explains Magpie's stages and commands before helping.
 
 ## Standards tested
 
-A.7, A.6, A.1, A.4
+A.7, A.6, A.14, A.4

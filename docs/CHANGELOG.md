@@ -2,6 +2,68 @@
 
 ## 2026-10-27
 
+- Coaching borrowed from Dr. Morgan's coach mode, in one way of working
+  (`core/operating.md`, "Teach as you go" and "Your turn"). Every
+  challenge now comes with one plain sentence on why it matters, said once
+  per conversation; Magpie never quizzes. Vague words ("users struggled",
+  "confused", "most") get a one-line push, and reading evidence only for
+  support is named as confirmation bias. At three steps the researcher
+  goes first: the decision, primary question, existing research questions
+  and assumptions (stage 2), the patterns they saw before coding (stage
+  6), and what each partner should do (stage 7); "you do it" hands a step
+  back. At stage 3 the method comes with its reasoning shown, and at
+  stage 5 the guide comes with a map of what each question serves and why
+  it sits where it does; the researcher can counter either, and Magpie
+  reworks or answers in a line. Stage 6 adds a theme review:
+  themes shown riskiest first with merged and dropped codes, and a keep,
+  change, split or drop on each. The study record gains a Themes section.
+  New standards A.12, A.13, A.14, 3.7, 5.7 and 6.13; seven new scenarios
+  (challenge-reason, vague-words, your-turn-decision, you-do-it,
+  theme-review, method-reasoning, question-order), not yet run; pm-first-time, nothing-to-start-with and
+  readout-without-audience updated.
+- Magpie says it's on at the start of a conversation, stays on for the
+  rest of it without being called again, and ends every reply with a
+  status line showing the stage, anything waiting for review, and the next
+  step. "stop Magpie" ends the session (`core/operating.md`, "The
+  session"). Standard A.9, scenario `session-persists`.
+- Every output Magpie drafts waits for the researcher's "yes". Asked once
+  in one line, tracked in a new Outputs table in the study record and in
+  the status line. A readout or report stays labelled "draft" until it and
+  its findings have a yes. Standards A.10 and 7.10, scenario `review-yes`.
+- Every count lists the participants and lines behind it ("3 of 8 (P1 06,
+  P5 06, P7 06)"). New `tools/checks/evidence_check.py` checks the list
+  matches the count, every code is a real participant, and every cited
+  line exists and is that participant speaking. Standard 6.11, scenario
+  `uncoded-count`.
+- `quote_check.py` now checks who a quote is credited to: a quote found
+  only in another participant's transcript, or in the interviewer's lines,
+  is flagged. It also lists short quoted text it didn't check, and pairs
+  quote marks correctly when a short quote comes first. Standard 6.4
+  extended, scenario `misattributed-quote`.
+- Evals can now fail in the ways that matter: each run proves Magpie was
+  loaded, runs one scenario without Magpie to test that proof, keeps
+  answers and project notes out of the session, runs each scenario three
+  times, and has a person judge at least ten replies. New run template
+  (`evals/runs/TEMPLATE.md`) and a clean fixture with no planted problems
+  (`evals/fixtures/sparrow-clean/`) to count false alarms. The 27 October
+  run is marked unconfirmed.
+- Stage 7's last two steps were both numbered 15; fixed.
+- Context before the work. Magpie now asks for the context an output
+  needs before it builds it, instead of drafting from guesses first. Each
+  stage file from 0 and 2 to 7 has a "Before you build" list (for
+  example, the plan needs the decision, goal, hypotheses, participants,
+  consent rules and dates; the readout needs its audience, format and
+  template). Magpie asks only for what's missing, in one message, six
+  questions at most, offering best guesses to confirm; then it builds the
+  whole output and adds one challenge. "Just draft it" builds straight
+  away with gaps marked [assumption] and logged as risks. The study record
+  and research plan gain a Hypotheses section; stage 2 records them and
+  stage 6 marks each supported, contradicted or not addressed. Standards
+  A.1, A.6 and A.7 rewritten; new standards 2.7, 6.12, 7.11 and A.11.
+  Evals question-cascade, pm-first-time and nothing-to-start-with
+  rewritten; three new (just-draft-it, readout-without-audience,
+  hypothesis-check), not yet run. README, design notes, prompt style and
+  voice updated.
 - Product context, optional. The study record opens with a Product
   section: what the product is, what it does, the part under study, its end users, its
   buyers or admins if different, where it stands and recent changes.

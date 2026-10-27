@@ -18,17 +18,27 @@ or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
 - **Starts wherever you are.** Bring a vague request from a stakeholder, a
   deadline, a half-written plan, or a folder of transcripts. Magpie figures
   out which stage you're at and picks up from there.
-- **Drafts first, then asks one good question.** Every reply gives you
-  something you can use right away (a plan, a guide, a set of findings),
-  then one question worth thinking about. You can skip it; Magpie notes
-  the skip as a risk and moves on.
+- **Asks before it builds, then asks one good question.** Before it
+  writes a plan, a guide, findings, a readout or a report, Magpie asks for
+  the context it's missing (your hypotheses, the business goal, what the
+  research will inform, who will read it), in one short message. Then it
+  builds the whole thing, followed by one question worth thinking about.
+  You can skip that question; Magpie notes the skip as a risk and moves
+  on. Say "just draft it" and it builds straight away, marking its
+  guesses.
 - **Keeps a study record.** One document that carries the product and who
   uses it, the decision, the questions, the method, the participants, the
   findings, and the risks. Save it and you can continue in any assistant,
   any day.
 - **Labels where every claim comes from.** Your data, a partner team's data,
   general practice, or an assumption. It never makes up a quote, a number,
-  or a participant.
+  or a participant, and every count names the participants behind it.
+- **Waits for your yes.** Everything Magpie drafts stays a draft until you
+  reply "yes" to say you've reviewed it. A readout or report isn't called
+  final without it.
+- **Stays on once you start it.** Magpie tells you it's on, and every reply
+  ends with a short status line, so you can see the session is still
+  running. You don't need to call it again.
 - **Writes for stakeholders.** Readouts (the presentation of findings) and
   reports follow a tested shape: why first, a short note on method, up to five
   top findings, the other findings on one page so nothing is dropped,
@@ -70,16 +80,22 @@ example is in [`docs/examples/`](docs/examples/).
 Five ideas run through everything Magpie does. The reasoning behind each is
 in [`docs/DESIGN.md`](docs/DESIGN.md).
 
-1. **Draft first, then one challenge.** Every reply gives you something you
-   can use, then asks one question that could change it. You can skip the
-   question; the skip is noted as a risk, not argued.
+1. **Context first, then the work, then one challenge.** Magpie asks for
+   what it needs to know before it builds an output, then gives you the
+   whole output, then asks one question that could change it, with a
+   sentence on why it matters. You can skip the question; the skip is
+   noted as a risk, not argued. At three steps you go first (the decision
+   and questions, the patterns you saw, what each partner should do) and
+   Magpie builds on what you wrote. Say "you do it" to hand a step back.
+   When Magpie picks a method or orders a guide, it shows its reasoning
+   and you can counter.
 2. **One study record.** The product and its users, the decision,
    questions, method, participants, findings, and risks live in one
    document that you own and can take to any assistant.
 3. **Every claim says where it came from.** Your data, a partner team's
    data, general practice, or an assumption. Magpie never makes up a quote,
-   a number, or a participant, and two small scripts check quotes and
-   counts against the transcripts.
+   a number, or a participant, and three small scripts check the quotes,
+   the counts and the people behind each count against the transcripts.
 4. **An independent review before anything reaches stakeholders.** A
    second pass that sees only the transcripts and the draft, not the
    conversation that produced them, for the analysis and the final report.
@@ -93,15 +109,20 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
 
 As of October 27, 2026. This section is updated with each release.
 
-- **Tested.** The first 36 test scenarios in [`evals/scenarios/`](evals/scenarios/)
-  (four more have been added since and not yet run) were run in Claude Code without access to the answers, then judged
-  against their pass and fail lists: 31 pass, 5 partial with reasons, 0
+- **Tested.** The first 36 test scenarios in
+  [`evals/scenarios/`](evals/scenarios/) (19 more have been added since and
+  not yet run) were run in Claude Code without access to the answers, then
+  judged against their pass and fail lists: 31 pass, 5 partial with reasons, 0
   fail. Two made-up studies with answer keys in
   [`evals/fixtures/`](evals/fixtures/) were run the same way, and every
   planted problem was caught. The results, and the limits of this method
   (the judge was the same kind of AI model), are in
-  [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md).
-- **What backs the rules.** Magpie follows 63 written standards in
+  [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md). That run didn't
+  record proof that Magpie was loaded in each session, so treat its totals
+  as unconfirmed until the next run, which follows the stricter rules in
+  [`evals/README.md`](evals/README.md): proof of loading, three runs per
+  scenario, a person judging, and a fixture with no planted problems.
+- **What backs the rules.** Magpie follows 69 written standards in
   [`core/standards/`](core/standards/). 37 cite a public source in full or
   in part (the ICC/ESOMAR code, Braun and Clarke, Nielsen Norman Group
   articles, the GOV.UK Service Manual). The rest rest on professional
@@ -141,8 +162,8 @@ git clone https://github.com/kirstenhosic/user-research-assistant.git
 
 Inside, the folder you'll use is `adapters/skill/magpie/`. It's all of
 Magpie in one place: a `SKILL.md` file that tells the assistant how to
-behave, the files it reads at each stage, and two small scripts that check
-quotes and counts.
+behave, the files it reads at each stage, and three small scripts that
+check quotes, counts and the people behind each count.
 
 ## Set it up in your tool
 
@@ -227,14 +248,21 @@ Tell Magpie what you've got, in your own words. Three examples that work:
 
 > I want to propose research for next quarter but I don't have a brief.
 
-Magpie names the stage it thinks you're at, drafts the first thing you
-need, and ends every reply with the next step. If it guesses wrong, say so
-and it adjusts.
+Magpie opens by saying it's on, names the stage it thinks you're at, drafts
+the first thing you need, and asks you to reply "yes" once you've reviewed
+it. Every reply ends with a status line like this one:
+
+> Magpie · Planning the study · Waiting for your yes: research plan · Next: send me the recruiting criteria
+
+If it guesses wrong, say so and it adjusts. Asking for changes isn't a
+yes; Magpie revises and asks again.
 
 A few plain words steer it:
 
 | Say | Magpie does |
 | --- | --- |
+| yes | Marks what's waiting as reviewed |
+| stop Magpie | Ends the session and offers the record to save |
 | skip | Notes the current question as a risk and moves on |
 | push me | Asks up to three questions per stage instead of one |
 | ease off | Only raises red flags (consent, leading questions, claims the evidence can't support) |
@@ -256,6 +284,10 @@ up where you left off, in any assistant.
   Make sure `SKILL.md` is at the top level inside the zip.
 - **It drafted the wrong stage.** Say which stage you're at ("we're at
   stage 4, planning") and it switches.
+- **The status line stopped appearing.** The session may have dropped,
+  which can happen in a very long conversation. Say "Magpie, pick up where we
+  were" (or paste your study record) and it starts again. A new
+  conversation always needs Magpie started again.
 - **The quote or count check didn't run.** Not every assistant can run
   scripts. When it can't, Magpie does the check by reading and says so in
   the record.
@@ -272,7 +304,7 @@ adapters/skill/magpie/   the skill folder you install (generated)
 adapters/generic/        one long prompt for any other assistant (generated)
 adapters/claude|chatgpt|gemini/   setup notes per platform, with what was checked and when
 core/                    everything Magpie knows, in plain Markdown (edit here)
-tools/                   the build script and the quote and count checks
+tools/                   the build script and the quote, count and evidence checks
 .github/workflows/       runs tools/check.py on every pull request
 evals/                   test scenarios with planted problems
 docs/                    design, provenance, contributing, prompt style, changelog

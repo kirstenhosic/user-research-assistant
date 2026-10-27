@@ -48,3 +48,5 @@ back to a month was raised by P1 (07, 14) and P3 (09, 13).
   P2 quote is MISSING; the two P3 quotes are found (3 quotes, 2 found).
 - `count_check.py draft-readout-summary.md` exits 1: the arithmetic holds
   (5 of 6 is 83%) but a percentage from a base of 6 is flagged.
+- `evidence_check.py draft-readout-summary.md sessions/` exits 1: "5 of 6"
+  and "4 of 6" are counts over the whole sample with no participant codes.

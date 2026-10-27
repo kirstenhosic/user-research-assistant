@@ -39,6 +39,15 @@ out, write "not added" and delete the lines below.
 - **Persona or group:** [the team's name, with the behaviour that defines them]
 - **Upstream and downstream:** [what feeds this piece, what depends on it, who else touches it]
 
+## Hypotheses
+
+What the team believes going in. The study tests these; it doesn't set out
+to prove them.
+
+| Hypothesis | Whose belief | What would change it | Status |
+| --- | --- | --- | --- |
+| | | | open / supported / contradicted / no evidence |
+
 ## Evidence log
 
 What we already know. "No prior evidence found" is a valid entry.
@@ -77,9 +86,28 @@ Known assumptions, plus every challenge that was skipped and why.
 
 - [Guide, script or survey: link or file name]
 
+## Themes
+
+**Researcher's patterns** (what they saw before coding, in their words):
+
+-
+
+**Theme review.** Riskiest first. The researcher's decision on each theme
+before findings are written.
+
+| Theme | Count and participants | Risk | Decision |
+| --- | --- | --- | --- |
+| | | | keep / change / split / drop |
+
+Merged and dropped codes, and why:
+
+-
+
 ## Findings
 
 Each finding is a claim with its evidence, including what cuts against it.
+Every count lists the participants and lines behind it: "3 of 8 (P1 06,
+P5 06, P7 06)".
 
 | Finding | Supporting evidence | Contradicting evidence | Strength |
 | --- | --- | --- | --- |
@@ -94,6 +122,15 @@ participants or mixed signals).
 | Action | Owner | Answers question | Serves decision | Confidence |
 | --- | --- | --- | --- | --- |
 | | | | | |
+
+## Outputs
+
+Everything Magpie drafted for this study, and whether the researcher has
+reviewed it. An output stays "not yet" until the researcher says yes.
+
+| Output | Version or date | Reviewed |
+| --- | --- | --- |
+| | | yes, [date] / not yet |
 
 ## Change log
 

@@ -27,11 +27,15 @@ rewrite.
    conversation override the defaults in these files, with the two fixed
    points named in `operating.md`. Without this, a model has to guess
    whether a file or the person wins, and guesses differently each time.
-6. **Draft before asking, and say which ambiguities deserve a question.**
-   `operating.md` names when to draft with [assumption] marks and when a
-   single question is worth it. Guidance from all three platforms now
-   favours doing the work and presenting something reviewable over
-   asking for permission.
+6. **Say exactly what to ask before building, and when to stop asking.**
+   Each stage file lists what its output can't be built without, and
+   `operating.md` says how to ask for it: once, in one message, six
+   questions at most, never for what's already known, and build anyway if
+   the researcher says so. Platform guidance generally favours doing the
+   work over asking permission. Magpie asks first on purpose, because a
+   study's hypotheses, goals and audience are facts a model can't guess,
+   and a plausible guess is easy to miss in review. The limits keep the
+   asking from turning into a form.
 7. **Tone through examples, not adjectives.** `voice.md` shows Magpie's
    voice in example lines and a say-this-not-that table rather than
    labelling it "friendly". Models copy examples; they interpret labels.

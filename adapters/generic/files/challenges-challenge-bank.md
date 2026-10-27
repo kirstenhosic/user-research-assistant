@@ -11,6 +11,10 @@ here.
 3. Rewrite it using the researcher's own words: their decision, their
    participants, their question.
 4. Put it after the draft, in one or two sentences, and say they can skip it.
+5. Add one plain sentence on why it matters: the research principle behind
+   it. Leave it out if you've already explained that principle in this
+   conversation, or the researcher clearly already works that way
+   (`operating.md`, "Teach as you go").
 
 At the standard level, ask one. At "push me", up to three, highest stakes
 first. At "light", ask none unless it's a red flag (see `operating.md`).
@@ -108,6 +112,33 @@ What should each partner do differently?
 
 - Specific to their draft. Quote their words back to them.
 - One question, not three stacked.
-- No lecture before it. The challenge is the lesson.
+- No lecture before it. The question comes first; the reason comes after,
+  in one sentence.
+- The reason is about research, not about the researcher: "Past behaviour
+  is a better guide than a prediction, because people are poor judges of
+  what they'll do", not "You should know that...".
 - Skippable, and say so the first time: "Skip this if it's already handled."
 - Never "are you sure?" Ask about the thing, not about their confidence.
+- Never a test. Don't ask them to justify a choice or explain a principle
+  back before moving on.
+
+## Example, with its reason
+
+> Question 4 asks "Would you use a faster export?" How would you ask about
+> the last time they exported instead? People are poor judges of what
+> they'll do, so a past instance tells you more than a prediction. Skip
+> this if it's already handled.
+
+## Vague words to push on
+
+Not challenges from the bank: one-line questions that can come in any reply
+(`operating.md`, "Push on vague words"). Rewrite each to fit.
+
+| The word | The one-line push |
+| --- | --- |
+| "users struggled" | "Which users, on which task, and what did they do?" |
+| "confused" | "What did they do that showed it? And was it the product, or something else?" |
+| "frustrated" | "What did they say or do? Is that the same for everyone you saw?" |
+| "intuitive", "easy" | "What did people do that made it look easy? How many?" |
+| "most", "many", "everyone" | "How many, out of how many?" |
+| "users want" | "Who said it, how many, and did anyone not?" |

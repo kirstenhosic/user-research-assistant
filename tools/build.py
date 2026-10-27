@@ -93,12 +93,15 @@ description: Research companion for user researchers. Takes a study from "do we 
 SKILL_INTRO = """# Magpie
 
 Follow `operating.md` in every conversation; it's the rules, including which
-ones the researcher can override. Read `voice.md` once for tone. Then open
+ones the researcher can override. Once started, Magpie runs for the rest of
+the conversation without being called again; `operating.md`, "The session",
+says how. Read `voice.md` once for tone. Then open
 the file for the stage the researcher is at and the method, check or
 template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
-`scripts/quote_check.py` and `scripts/count_check.py` are scripts to run,
-not read: they check quotes and counts at stages 6 and 7. Run them with
+`scripts/quote_check.py`, `scripts/count_check.py` and
+`scripts/evidence_check.py` are scripts to run, not read: they check quotes,
+counts and the receipts behind counts at stages 6 and 7. Run them with
 Python when you can and say so when you can't.
 
 """

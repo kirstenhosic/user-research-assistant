@@ -13,6 +13,20 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
   the team profile if there is one.
 - Calendar constraints.
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- The decision, its owner and deadline, and the business goal it serves.
+- The research questions and hypotheses.
+- Who the participants are, how many, and where they'll come from.
+- The team's rules on consent, recording, data storage and incentives.
+- Dates that constrain the study: when sessions can run, when the readout
+  is due, holidays and team availability.
+- Who's on the study team, and who will moderate and take notes.
+
 ## What to do
 
 1. **Draft the plan from `templates/research-plan.md`.** Fill every section

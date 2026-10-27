@@ -21,10 +21,11 @@ the merged cause?
 
 3. Judge the reply against the traps table in `ANSWER-KEY.md`. Count each
    trap as caught, missed, or partly caught (noticed but mis-stated).
-4. Run the two code checks and compare with the expected results at the end
+4. Run the three code checks and compare with the expected results at the end
    of the key:
 
    ```
    python3 tools/checks/quote_check.py evals/fixtures/harbor-invites/draft-findings.md evals/fixtures/harbor-invites/transcripts/
    python3 tools/checks/count_check.py evals/fixtures/harbor-invites/draft-findings.md
+   python3 tools/checks/evidence_check.py evals/fixtures/harbor-invites/draft-findings.md evals/fixtures/harbor-invites/transcripts/
    ```

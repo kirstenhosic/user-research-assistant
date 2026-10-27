@@ -16,6 +16,28 @@ fit.
   sheets, survey exports, diary entries. Pasted or uploaded.
 - Partner data gathered along the way.
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- The raw material for every session, or a note of which sessions are
+  missing and why.
+- The participant list with what matters for this study: role, segment,
+  how long they've used the product, any accessibility needs.
+- Sessions that went wrong or should be left out, and why.
+- Observer notes or debrief notes, if the team kept them.
+- Partner data that arrived since planning.
+- The research questions and hypotheses, if they aren't in the record.
+
+**Your turn** (`operating.md`, "Your turn"). If the researcher sat in or
+watched the sessions, ask in the same message: "Before I code anything,
+what were the two or three patterns that stood out to you?" Write their
+answer in the record as the researcher's patterns. Don't use it to code;
+it's compared with the themes afterwards (step 7). If they didn't see the
+sessions, or say "you do it", skip it.
+
 ## What to do
 
 1. **Anchor on the questions.** Re-read the research questions before
@@ -45,24 +67,57 @@ fit.
 6. **Check each theme against the people who don't fit.** For every theme,
    list the participants who said or did something different. If you can't
    find any, look harder. Write them into the finding.
-7. **Rate strength.** Strong: consistent across most participants or
+7. **Compare with the researcher's patterns.** If they named patterns
+   before coding, put them next to the candidate themes: which match,
+   which of theirs the coding didn't find, and which themes they didn't
+   mention. Say what each gap might mean in a line. A pattern they saw
+   that the transcripts don't show may live in what wasn't said; a theme
+   they missed may be one they'd want to check. Neither side wins by
+   default.
+8. **The researcher reviews each theme.** Before you write findings, show
+   the candidate themes riskiest first, so the shaky ones get the closest
+   look: single-participant themes first, then themes where one person
+   supplies most of the evidence, then themes with no one who doesn't fit,
+   then themes that confirm a hypothesis. For each theme give the
+   statement, the count with the participants behind it, one quote with
+   its location, and its risk in a few words. Then list the codes you
+   merged and dropped, with why, because that's where an experienced
+   researcher will disagree. Ask for a decision on each: "Keep, change,
+   split or drop? 'Keep 1 and 3, drop 2, split 4 into...' is a fine
+   answer." Every theme needs its own answer. If the reply is a blanket
+   "looks good", ask which, if any, they'd change. Write each decision in
+   the record's Theme review table. Don't carry a dropped theme into the
+   findings, and re-check the evidence for a split one. If they say "skip"
+   or "just draft it", build the findings, log "themes not reviewed by
+   the researcher" under Assumptions and risks, and say so in the
+   findings.
+9. **Rate strength.** Strong: consistent across most participants or
    statistically reliable. Moderate: a clear pattern with exceptions. Weak:
    few participants or mixed signals. Say the numbers: "6 of 8", never
-   "most".
-8. **Look outside the frame.** Some findings point upstream or downstream
+   "most". Write each count with the people and lines behind it, "3 of 8
+   (P1 06, P5 06, P7 06)", so the count can be checked by code instead of
+   by trust.
+10. **Check the hypotheses.** Once the findings are drafted, say for each
+   hypothesis in the record whether the evidence supports it, contradicts
+   it or doesn't speak to it, with the findings behind each, and update its
+   status. Do this after coding, not before, so the hypotheses don't steer
+   what you see.
+11. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses/systems-and-journeys.md`).
-9. **Bring in partner data where it applies.** Say whether it agrees,
+12. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-10. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+13. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-11. **Run the code checks if you can** (`tools/checks/`): every quote matches
-   its transcript; every count is computed, not estimated. Where you can't
-   run code, do it by hand and say so.
-12. **Request the independent review** (`review/independent-review.md`) once
+14. **Run the code checks if you can** (`tools/checks/`): every quote matches
+   its transcript and the person it's credited to; every count's
+   arithmetic holds; every count lists as many participants as it claims,
+   and each cited line exists and is that participant speaking. Where you
+   can't run code, do it by hand and say so.
+15. **Request the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage.
 
 ## Survey data
@@ -107,6 +162,8 @@ Five participants are five people, not percentages.
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
+- The theme review: the themes riskiest first, the merged and dropped
+  codes, and the researcher's decision on each theme, in the record.
 
 ## Challenge
 
@@ -123,6 +180,8 @@ it.
 
 - Every finding answers a research question or is listed as "also noticed".
 - Every finding has its evidence, its counter-evidence and a strength label.
+- The researcher kept, changed, split or dropped each theme, or the skip
+  is logged as a risk.
 - Claim-strength check run.
 - Quote and count checks run, by code or by hand.
 - Independent review requested or completed.

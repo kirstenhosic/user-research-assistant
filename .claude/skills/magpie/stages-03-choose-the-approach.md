@@ -14,6 +14,19 @@ decision owner could understand why.
 - Constraints: deadline, budget, access to participants, tools available.
 - Anything partner teams can provide (analytics, support data).
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- The deadline for the decision, and how much time the study can take.
+- Budget, including incentives and tools.
+- Access to participants: who the team can reach, and how.
+- Tools available for sessions, surveys or analysis.
+- Any method a stakeholder expects or has ruled out, and why.
+- Partner data the team can get (analytics, support, sales), and how fast.
+
 ## What to do
 
 1. **Start from the question, not the method.** Is the primary question about
@@ -43,16 +56,26 @@ decision owner could understand why.
    common case (`methods/focus-groups.md`).
 5. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
-6. **Size the sample roughly.** Enough to see a pattern for the decision at
+6. **Show the reasoning and invite a counter** (`operating.md`, "Show the
+   reasoning"). Under the recommendation, in a few plain lines: the kind
+   of question (why, how many, does it work) and why that points to this
+   method family; the cheaper options you ruled out and why; what the
+   method can't tell them; why the backup is second. Then one line: "If
+   you'd pick differently, say why and I'll rework it." A counter is new
+   input: rework the choice with their reasoning, or say in a line or two
+   why you'd keep it. Their call stands.
+7. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
-7. **Ask about partner data.** Would telemetry help choose who to recruit, or
+8. **Ask about partner data.** Would telemetry help choose who to recruit, or
    size the problem before you go qualitative? Draft the request if so.
 
 ## What to draft
 
 - The Approach section of the study record: method, why, sample, trade-offs,
   partner data requested.
+- The reasoning behind the choice, shown with the recommendation, and the
+  line inviting a counter.
 - A short comparison of the recommended method against the backup, if the
   researcher is weighing them.
 

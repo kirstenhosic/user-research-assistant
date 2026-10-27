@@ -13,13 +13,16 @@ Where a source supports part of a standard, the basis says which part.
 | 6.1 | Every finding answers a research question or is tagged "also noticed"; a tagged finding meets the same evidence bar and still reaches the readout | S1b (a theme is a shared meaning, not a topic summary); the "also noticed" rule: practitioner judgment | `evals/scenarios/theme-restates-question.md` |
 | 6.2 | Every finding names its counter-evidence: the participants who didn't fit | S2, Art. 9(d) (no undue selectivity) | `evals/scenarios/dropped-participants.md` |
 | 6.3 | Counts are stated as numbers ("6 of 8"), never as vague quantities; no percentages from small qualitative samples | S2, Art. 9(c) (conclusions adequately supported); the wording rule itself: practitioner judgment | `evals/scenarios/overclaimed-theme.md` |
-| 6.4 | Every quote carries a participant code and location, and matches the source | practitioner judgment | `evals/scenarios/altered-quote.md` |
+| 6.4 | Every quote carries a participant code and location, matches the source, and is the words of the participant it's credited to | practitioner judgment | `evals/scenarios/altered-quote.md`, `evals/scenarios/misattributed-quote.md` |
 | 6.5 | Strength labels match the evidence and don't drift between record and readout | S2, Art. 9(c) | `evals/scenarios/overclaimed-theme.md` |
 | 6.6 | Partner data is shown alongside the study data as agreeing, disagreeing or silent, never merged into one claim | S13 (check whether other data supports a result); S14 (no data source automatically overrules another) in part; the three labels: practitioner judgment | `evals/scenarios/telemetry-merge.md` |
 | 6.7 | The independent review is requested at stage 6 and its findings are acted on or answered, never dropped | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 6.8 | Survey results show the base and say who answered; no significance claim without a test | S12 (report the sample size and do the math before stating a number from a sample; significance at p < 0.05) | `evals/scenarios/survey-significance.md` |
 | 6.9 | Findings whose cause lies outside the studied piece are kept and labelled with where the cause sits; findings are mapped to the journey step and persona they affect | practitioner judgment | `evals/scenarios/one-step-study.md` |
 | 6.10 | A tool's summary of transcripts, Magpie's own included, is treated as a draft that says which transcripts to read, never as findings; smoothed contradiction is caught and the dissenting participants restored | S10 | `evals/scenarios/smoothed-summary.md` |
+| 6.11 | Every count lists the participants and lines behind it ("3 of 8 (P1 06, P5 06, P7 06)"), so the count can be checked by code: as many codes as the count claims, each a real participant, each line theirs | practitioner judgment | `evals/scenarios/uncoded-count.md` |
+| 6.12 | Each hypothesis is marked supported, contradicted or not addressed, with the findings behind it, after the findings are drafted | practitioner judgment | `evals/scenarios/hypothesis-check.md` |
+| 6.13 | Before findings are written, the researcher reviews each candidate theme, shown riskiest first with its count, a quote and its risk, plus the merged and dropped codes; each theme gets its own keep, change, split or drop, a blanket "looks good" is followed up, and a skipped review is logged as a risk | practitioner judgment | `evals/scenarios/theme-review.md` |
 
 ## Stage 7: readout and report
 
@@ -36,6 +39,8 @@ Where a source supports part of a standard, the basis says which part.
 | 7.7 | The summary passes the reader test: each named reader can tell from it what it means for them and what they'd do next, or is told there's nothing for them | practitioner judgment | `evals/scenarios/reader-test.md` |
 | 7.8 | The independent review runs at most two passes; remaining disagreements go to the researcher with both sides stated | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 7.9 | No finding enters a readout or report without receipts (two participant references with locations, or a labelled single case), and Magpie asks once whether the researcher has read the passages behind each top finding, logging "not yet" as a risk | S10 | `evals/scenarios/smoothed-summary.md` |
+| 7.10 | A readout or report stays labelled "draft" until it and the findings it rests on have the researcher's yes; Magpie drafts it anyway and says what's waiting | practitioner judgment | `evals/scenarios/review-yes.md` |
+| 7.11 | Before building a readout or report, Magpie asks who will see it and what each reader needs to decide or do, the format and slot, and the team's template, unless these are already known | practitioner judgment | `evals/scenarios/readout-without-audience.md` |
 
 ## Workshops
 

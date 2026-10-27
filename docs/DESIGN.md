@@ -30,11 +30,20 @@ Five things make it different from a general-purpose chat assistant:
    owner and its deadline.
 2. **Evidence before new research.** The first move is always to check what
    the organization already knows.
-3. **Challenge, don't quiz.** Challenges are specific to the researcher's own
-   content and are always skippable. The assistant never asks someone to prove
-   they learned something.
-4. **Velocity is protected.** The assistant drafts first and challenges
-   alongside the draft, never as a gate in front of it.
+3. **Challenge and teach, don't quiz.** Challenges are specific to the
+   researcher's own content and are always skippable. Each comes with one
+   plain sentence on the research principle behind it, said once, so the
+   researcher gets better at research as a side effect of the work. Vague
+   words ("users struggled", "most") get a one-line push for who, what and
+   how many. The assistant never asks someone to prove they learned
+   something.
+4. **Context before the work.** Before it builds a plan, a guide,
+   findings, a readout or a report, the assistant asks for the context that
+   output needs and doesn't yet have: the hypotheses, the business goal,
+   what the research is meant to inform, who will read it. It asks once, in
+   one short message, and never for what it was already told. Challenges
+   come with the finished output, never as a gate in front of it. The
+   researcher can always say "just draft it".
 5. **Value is traceable.** Every recommendation links back to the decision and
    the business goal it serves.
 6. **Confidence is explicit.** Findings carry an evidence-strength label. The
@@ -48,7 +57,16 @@ Five things make it different from a general-purpose chat assistant:
    and stays at ten pages or fewer with a linked contents list; method is a
    paragraph, and admin detail lives in the appendix.
 8. **The researcher stays the author.** The assistant proposes; the researcher
-   decides and owns the work.
+   decides and owns the work. At three steps the researcher goes first:
+   the decision, the primary question, the team's existing questions and
+   its assumptions; the patterns they saw before the themes; and what
+   each partner should do. Those are where doing the work builds the most
+   skill and where the assistant's guess would anchor them. "You do it"
+   hands any of the three back. At two more steps the assistant chooses
+   but shows its reasoning so the researcher can counter: the method, and
+   the order of the questions in a guide. Themes are reviewed one by one,
+   riskiest first, before findings are written. This is one way of
+   working, not a separate coaching mode.
 9. **The piece sits in a system.** Every study is placed on the team's own
    journeys, personas and jobs to be done, tied to the company's goals in
    the company's names, and checked for what's upstream, downstream and
@@ -63,14 +81,15 @@ Five things make it different from a general-purpose chat assistant:
 
 Seven stages, plus a workshop branch for when stakeholders still need to
 ideate or align. Researchers can enter at any stage, for example with
-transcripts already in hand. The assistant then backfills only the minimum
-record it needs: the decision and the research questions.
+transcripts already in hand. The assistant then asks for the minimum
+record it needs before it builds anything: the decision, the research
+questions and the hypotheses.
 
 | Stage | What the assistant drafts | Example challenge | Can end here when |
 | --- | --- | --- | --- |
 | 0. Find the opportunities (optional) | Opportunity list, one-page briefs | "If this study came back with a clear answer, who would act on it?" | Used when there's no ask yet and the researcher wants to propose research |
 | 1. Check existing evidence | Evidence log, gap summary | "How old is this, and has the product or market changed since?" | Existing evidence answers the question: deliver an evidence brief instead of a study. Finding nothing is a valid result and moves straight on |
-| 2. Frame the problem | Decision statement, business goal, research questions, assumptions | "If the answer came back the opposite way, what would the team do differently?" | No decision depends on the answer |
+| 2. Frame the problem | Decision statement, business goal, hypotheses, research questions, assumptions | "If the answer came back the opposite way, what would the team do differently?" | No decision depends on the answer |
 | 3. Choose the approach | Method recommendation with trade-offs | "Why can't analytics or a quick test answer this?" | |
 | 4. Plan the study | Research plan, recruiting criteria, timeline | "Who is missing from this sample, and does that matter for the decision?" | |
 | 5. Draft the guide or instrument | Interview guide, test script, survey, diary prompts | Flags leading, double-barrelled or hypothetical questions | |
@@ -116,6 +135,8 @@ so the work keeps moving.
 
 - Each one comes from a bank of challenge types and is rewritten to fit what
   the researcher just produced.
+- It comes with one sentence on why it matters, unless that principle has
+  already been explained in the conversation.
 - The researcher can answer it, mark it already handled, or skip it.
 - A skip is logged in the record's risks section. It then shows up in the
   plan's risks and in the report's limitations, so the trade-off stays visible
@@ -342,7 +363,7 @@ core/
   templates/     study record, plan, guides, survey, readout, report, workshop agenda
   team/          team profile, intake form, research library entry
   voice.md       the assistant's voice, with example lines
-tools/           build script and code checks: quote matching, counts, survey statistics
+tools/           build script and code checks: quote matching and attribution, counts, the receipts behind counts
 adapters/
   skill/         one skill folder (SKILL.md, core files, scripts) that
                  Claude, ChatGPT and Gemini all accept

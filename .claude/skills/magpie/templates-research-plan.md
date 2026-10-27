@@ -27,6 +27,12 @@ evidence found" is fine.]
 2. [secondary]
 3. [secondary]
 
+## Hypotheses
+
+What the team believes now, and what we'd need to see to change our minds.
+
+- [hypothesis] · held by [who] · would change if [what we'd see]
+
 ## Approach
 
 - **Method:** [method]
