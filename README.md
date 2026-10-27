@@ -42,6 +42,13 @@ You need one of these:
   may not be able to add skills yet; see the ChatGPT section.
 - A Google account, signed in to Gemini, with Keep Activity turned on.
 
+**Where it has been tested.** Magpie was built in Claude Code and its code
+checks run there. It has not yet been tested end to end on Claude.ai,
+ChatGPT or Gemini (as of 27 October 2026). The setup steps for those come
+from each vendor's help pages, checked on 26 October 2026, so expect small
+differences. If something breaks, please open an issue with the tool, the
+step and what you saw.
+
 Then download Magpie. Either click the green **Code** button on this page
 and choose **Download ZIP**, or run:
 
@@ -171,9 +178,7 @@ on, in any assistant.
   You can run the scripts yourself with Python:
   `python3 adapters/skill/magpie/scripts/count_check.py findings.md`.
 
-Not tested yet on ChatGPT or Gemini as of 26 October 2026. If you try it
-and something breaks, please open an issue on this repository with the
-tool, the step, and what you saw.
+See "Where it has been tested" above before reporting a platform problem.
 
 ## What's in the repository
 
@@ -185,7 +190,11 @@ core/                    everything Magpie knows, in plain Markdown (edit here)
 tools/                   the build script and the quote and count checks
 evals/                   test scenarios with planted problems
 docs/                    design, provenance, contributing, prompt style, changelog
+docs/examples/           a filled-in report and readout (Markdown, Word, PowerPoint)
 ```
+
+`docs/examples/` shows what a finished report and readout look like, with
+the templates as Word files and the example readout as a PowerPoint deck.
 
 To change Magpie, edit `core/` and run `python3 tools/build.py`; the
 adapters are regenerated from it. `docs/CONTRIBUTING.md` has the rest.
