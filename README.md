@@ -77,9 +77,10 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
 4. **An independent review before anything reaches stakeholders.** A
    second pass that sees only the transcripts and the draft, not the
    conversation that produced them, for the analysis and the final report.
-5. **Written for the people who have to act.** Readouts and reports lead
-   with the decision, keep to five findings, and give every recommendation
-   an owner.
+5. **Written for the people who have to act.** Readouts and reports open
+   with why the study was done, keep to five findings, and give every
+   recommendation an owner. For a senior audience or a short slot, Magpie
+   can put the decision first instead.
 
 ## Where it stands
 
