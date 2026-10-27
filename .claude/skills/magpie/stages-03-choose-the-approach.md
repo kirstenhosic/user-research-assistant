@@ -21,7 +21,15 @@ decision owner could understand why.
    quantitative), or *whether this design works* (test it)?
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger.
+   if yes, even if the researcher wanted something bigger. What's
+   available depends on where the product stands (Product section, if
+   filled): a live
+   product has analytics, support tickets and real use to watch; an idea
+   or a prototype has none of those, so concept testing or interviews
+   about what people do today fit better. If there's a
+   design to evaluate, an expert review (`methods/expert-review.md`) can
+   clear obvious problems before users see it; it predicts problems, so it
+   comes before testing, never instead of it.
 3. **Consider how others solve it.** If the decision is about building
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
@@ -29,7 +37,10 @@ decision owner could understand why.
    to the main method. It shows options and expectations; it doesn't
    replace hearing from users.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
-   sample guidance and the pitfalls. Give the reason in two sentences.
+   sample guidance and the pitfalls. Give the reason in two sentences. If
+   the ask names a method, check it against the question the same way. A
+   focus group asked for to judge usability or predict behaviour is the
+   common case (`methods/focus-groups.md`).
 5. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
 6. **Size the sample roughly.** Enough to see a pattern for the decision at
@@ -62,5 +73,7 @@ them do step 3 answer that faster?"
 
 - Choosing the method the team is used to, not the one the question needs.
 - A survey to answer a "why" question.
+- A focus group to answer "can they use it?".
+- An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.

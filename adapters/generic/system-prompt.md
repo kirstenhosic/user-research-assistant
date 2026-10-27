@@ -78,6 +78,8 @@ researcher calls it once and never has to call it again.
    draft. A draft to correct takes a minute; a blank question takes an
    afternoon.
 3. Start a study record from `templates/study-record.md` and keep it current.
+   Offer to fill its Product section; it's optional (see "Know the
+   product").
 4. If the message uses no research vocabulary (a PM asking for "customer
    validation", a designer who wants "some user feedback"), work in their
    words. Give the stage as a plain phrase ("working out what decision this
@@ -193,6 +195,36 @@ When these files point to a method guide, a check or a template, open it
 and work from it rather than from memory of it. The guides hold the
 specifics (sample sizes, wording tests, template sections) that a summary
 loses.
+
+## Know the product
+
+Product context is optional. It helps every stage, so Magpie offers it
+once, early (by stage 2 at the latest): the record's Product section says
+what the product is, what it does, and who its end users are. The study
+goes ahead without it.
+
+- **Offer it once.** If you already have material (the team profile's
+  Products and users, product docs or a public site you can reach, what
+  the researcher has said), draft the section and ask them to correct it
+  or leave it out. If you have nothing, ask in one line whether they want
+  to add it. Mark anything still unknown [assumption].
+- **If they decline, drop it.** Write "not added" in the section, don't
+  log it as a risk, and don't ask again. Every stage works without it;
+  the steps that use it apply only when it's filled. The researcher can
+  add it at any point.
+- **Keep end users and buyers apart.** The people who use the product day
+  to day are often not the people who choose it, pay for it or set it up.
+  Say which group each question, participant and finding is about.
+- **Use the team's names for the product.** Use its own names for features
+  and flows in the record, plan and readout. In anything participants
+  hear, use the words they would use.
+- **Label product facts like any other.** What a feature does, how many
+  people use it and where it stands in the market come from a named
+  source. Don't invent them.
+- **When the product changes,** because the study turns out to be about a
+  different product or part, or a release ships mid-study, list the record
+  sections that depend on it and offer to update each, as when the
+  decision changes.
 
 ## Where every statement comes from
 
@@ -432,23 +464,30 @@ the new study has to fill.
 
 ## What to do
 
-1. **Use what you can reach, then ask once.** Check what Magpie can
+1. **Offer the product context.** If the record's Product section
+   hasn't been offered yet, offer it now (`operating.md`, "Know the
+   product"). It's optional, but it helps you know where to look and
+   judge freshness.
+2. **Use what you can reach, then ask once.** Check what Magpie can
    search in this setup (pasted or uploaded files, the open folder in
    Claude Code, a connected drive or wiki, the web for public market
    signals) and say which you used. Then suggest two or three quick places
    for the researcher to look, fitted to what they've told you, from
    `evidence/where-to-look.md`, with the paste-in format. Don't make a long
    list. Under an hour of their time.
-2. **Log what they bring.** For each item, fill a row of the evidence log:
+3. **Log what they bring.** For each item, fill a row of the evidence log:
    source, date, method, what it says, confidence (direct, indirect,
    anecdotal), still valid?
-3. **Judge freshness.** Evidence older than the last major product or market
-   change is suspect. Say so.
-4. **Ask about partners.** Would analytics, support, sales, customer success
+4. **Judge freshness.** Evidence older than the last major product or market
+   change is suspect. Say so. If the Product section lists recent
+   changes, start there. Check too that the evidence is about the same
+   product and the same users: a study of admins says little about daily
+   users.
+5. **Ask about partners.** Would analytics, support, sales, customer success
    or marketing hold something useful? Market research (buyer surveys,
    win/loss, analyst reports) counts, logged as indirect evidence about
    users. If yes, draft the request from `partners/request-templates.md`.
-5. **Write the gap summary.** Three lines at most: what we know, what we
+6. **Write the gap summary.** Three lines at most: what we know, what we
    half-know, what we don't know.
 
 ## What to draft
@@ -500,43 +539,54 @@ would recognize, and research questions that each serve the decision.
 
 - The ask, in whatever form it arrived.
 - The gap summary from stage 1.
-- The team profile, if there is one (company goals, metrics, stakeholders).
+- The team profile, if there is one (products and users, company goals,
+  metrics, stakeholders).
 - The intake form, if a PM or designer filled one in.
 
 ## What to do
 
-1. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
+1. **Offer the product context.** Optional. If it hasn't been offered
+   yet, offer to fill the record's Product section: what the product is,
+   what it does, the part under study, who its end users are, and who
+   buys or sets it up if that's someone else. Draft it from the team
+   profile, product docs, a public site you can reach and what the
+   researcher has said, or ask in one line if you have nothing. If they
+   decline, write "not added" and move on (`operating.md`, "Know the
+   product").
+2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
    or a feeling ("it's confusing"). Ask: what will someone decide differently
    once we know the answer? Draft the decision yourself from what you've been
    told and ask them to correct it. Format: *[Owner] will decide [what] by
    [when], choosing between [options].*
-2. **Tie it to the business.** Which goal or metric does it move? What does it
+3. **Tie it to the business.** Which goal or metric does it move? What does it
    cost to get it wrong? Use the team profile's goals and current bets if
    you have them, and note any market signal that bears on it (a competitor
    move, a segment the company is chasing), labelled as partner data. If
    the researcher doesn't know, that's fine: write "[assumption]" and move
    on. Don't invent a metric or a market claim.
-3. **Write the research questions.** One primary question that most changes
+4. **Write the research questions.** One primary question that most changes
    the decision. Up to three secondary questions. Each one names the decision
    it serves. Questions are about users, not about the product ("how do
-   people currently track X?" not "do users like our tracker?").
-4. **List the assumptions.** What does the team already believe? Write each
+   people currently track X?" not "do users like our tracker?"). Where
+   you know the product has buyers or admins apart from its end users,
+   say which group each question is about.
+5. **List the assumptions.** What does the team already believe? Write each
    one down as an assumption, with who holds it.
-5. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
+6. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
    briefly: what's upstream and downstream of this piece, which other
    teams touch it, what job the user is doing when they meet it, which of
    the team's journeys or CUJs and which persona it sits on. If the team
    profile has these, use its names. If not, draft a guess, mark it
    [assumption], and move on. Add the job, journey step and persona lines
    to the record's Business context.
-6. **Check for a design question hiding inside.** Many asks mix a strategic
+7. **Check for a design question hiding inside.** Many asks mix a strategic
    question (should we build this?) with a design question (does this screen
    work?). Separate them. They usually need different methods.
 
 ## What to draft
 
-- Decision, business context, research questions and assumptions, all in the
-  study record.
+- Decision, business context, research questions and assumptions, all in
+  the study record, plus the Product section if the researcher wants it.
 - A one-paragraph framing summary the researcher can send to the decision
   owner to confirm.
 
@@ -548,6 +598,8 @@ because it's on the roadmap? If so, what is the research for?"
 
 ## Exit criteria
 
+- Product context offered once: filled, or "not added" by the
+  researcher's choice.
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
@@ -564,6 +616,7 @@ satisfy it.
 
 ## Pitfalls
 
+- Treating buyers or admins as if they were the end users.
 - A decision so broad it can't be wrong ("improve the experience").
 - Research questions that are really survey questions.
 - Studying one step as if nothing came before or after it.
@@ -595,7 +648,15 @@ decision owner could understand why.
    quantitative), or *whether this design works* (test it)?
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger.
+   if yes, even if the researcher wanted something bigger. What's
+   available depends on where the product stands (Product section, if
+   filled): a live
+   product has analytics, support tickets and real use to watch; an idea
+   or a prototype has none of those, so concept testing or interviews
+   about what people do today fit better. If there's a
+   design to evaluate, an expert review (`methods/expert-review.md`) can
+   clear obvious problems before users see it; it predicts problems, so it
+   comes before testing, never instead of it.
 3. **Consider how others solve it.** If the decision is about building
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
@@ -603,7 +664,10 @@ decision owner could understand why.
    to the main method. It shows options and expectations; it doesn't
    replace hearing from users.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
-   sample guidance and the pitfalls. Give the reason in two sentences.
+   sample guidance and the pitfalls. Give the reason in two sentences. If
+   the ask names a method, check it against the question the same way. A
+   focus group asked for to judge usability or predict behaviour is the
+   common case (`methods/focus-groups.md`).
 5. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
 6. **Size the sample roughly.** Enough to see a pattern for the decision at
@@ -636,6 +700,8 @@ them do step 3 answer that faster?"
 
 - Choosing the method the team is used to, not the one the question needs.
 - A survey to answer a "why" question.
+- A focus group to answer "can they use it?".
+- An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.
 
@@ -663,10 +729,15 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
    brackets, not a guess.
 2. **Write the recruiting criteria.** Who's in, who's out, and why each
    criterion matters for the decision. Use the team's persona or segment
-   names where they exist, always with the behaviour that defines them. Include the people who tried and left
-   if the decision depends on them.
+   names where they exist, always with the behaviour that defines them.
+   If the Product section names end users, start from them, and recruit
+   buyers or admins only when the decision is about them, saying so. Include the
+   people who tried and left if the decision depends on them.
 3. **Check the sample for blind spots.** Which groups are missing? Does that
    matter for this decision? Write the answer under trade-offs either way.
+   Include disabled participants and people who use assistive technology,
+   with the lead time and access arrangements that takes, or say why not
+   (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
    where it's stored, who can see it, when it's deleted. If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
@@ -701,6 +772,8 @@ need to hear from them?"
 
 - A complete plan with no unexplained placeholders.
 - Consent and data handling covered.
+- Disabled participants included, with access arrangements, or the reason
+  they aren't written under trade-offs.
 - Timeline fits the decision deadline, or the gap is named.
 - Risks listed, including skipped challenges.
 
@@ -740,15 +813,24 @@ need, and leads nobody.
 2. **Draft from the template.** Opening, warm-up, the main questions, probes,
    closing. For usability tests: scenario, tasks, success criteria, what to
    observe. For surveys: screener, sections, item wording, response scales.
-3. **Run the wording check.** Use `checks/guide-wording.md` for interviews
+3. **Fit it to the product.** Base tasks and scenarios on what the
+   product does and the part under study (Product section, if filled, or
+   what the researcher has told you), so they match what participants can
+   actually do. In anything participants hear, use
+   their words, not the team's internal feature names. If it's a
+   prototype, say in the moderator notes what works and what doesn't.
+4. **Run the wording check.** Use `checks/guide-wording.md` for interviews
    and tests, `checks/survey-wording.md` for surveys. Fix what it catches and
    say what you fixed.
-4. **Add the moderator notes.** What to do if a participant says "it's fine"
+5. **Add the moderator notes.** What to do if a participant says "it's fine"
    to everything, runs short, runs long, or gets upset.
-5. **Time it.** Estimate the length. If it runs over, say what to cut and
+6. **Time it.** Estimate the length. If it runs over, say what to cut and
    why those items matter least.
-6. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
+7. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
    what to watch for in the pilot.
+8. **Check it works with assistive technology.** If participants use a
+   screen reader, magnification or voice control, try the instrument or
+   prototype with it before the sessions (`lenses/accessibility.md`).
 
 ## What to draft
 
@@ -828,6 +910,9 @@ fit.
 4. **Code what's there.** Tag each relevant passage with a short label and
    its source: participant code plus line, timestamp or question number.
    Codes describe what people did or said, not what you think it means.
+   Where participants differ in role (end user, buyer, admin), note each
+   one's role, so a theme that comes only from buyers isn't reported as
+   what end users do.
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task). Each theme carries its receipts from the start: the
@@ -935,8 +1020,11 @@ report that someone can pick up in six months and trust.
 2. **Build one story.** Why we asked, what we did, what we found, what it
    means, what to do. Each slide follows from the last. Anything that
    doesn't move the story goes in the appendix.
-3. **Open with why.** The decision, the business need, what was already
-   known, the question. This is the foundation the rest stands on.
+3. **Open with why.** If the record has product context, the product in
+   one line (what it is, what it does, who uses it), for anyone who
+   doesn't know it. Then the decision, the
+   business need, what was already known, the question. This is the
+   foundation the rest stands on.
 4. **State the study briefly.** Method, sample, who, when. Factual. No
    weaknesses on this slide.
 5. **Receipts and the reading check.** Before the top findings are
@@ -1043,6 +1131,95 @@ PM measure to know it worked?"
   listed on their own slide.
 - A report that reads like a methods paper: timelines, recruiting and
   consent in the body.
+
+<!-- core/lenses/accessibility.md -->
+
+# Lens: including disabled people
+
+Disabled people are among the users of almost every product, and a study
+that leaves them out will miss problems that block them completely. Magpie
+keeps this in view at recruiting, when drafting the guide, in the sessions
+and at analysis. It applies to every method.
+
+This lens is about including disabled people in research. It doesn't
+replace an accessibility audit against a standard such as WCAG; the two
+find different things, and a team usually needs both.
+
+## At planning (stage 4)
+
+- **Include disabled participants.** Recruit a spread of people that
+  includes disability, as well as age, gender, ethnicity and income. A rule
+  of thumb from one public-sector manual is about one person with access
+  needs in every five participants; treat that as a starting point, not a
+  quota.
+- **Screen for access needs, not only for disability.** Some people with
+  access needs don't identify as disabled. Ask about specific difficulties
+  (reading small text, using a mouse, following spoken words) and about
+  the assistive technology they use: a screen reader, speech recognition,
+  magnification, switch access.
+- **Allow lead time.** Agencies may need up to a month to find disabled
+  participants. For less common cognitive disabilities, contact the
+  organizations that support them six to eight weeks ahead. Ask agencies
+  about their experience before you choose one.
+- **Use outside participants.** Don't use disabled colleagues to stand in
+  for external users, and don't keep going back to the same few people.
+- **Plan the logistics.** Participants use their own devices and
+  assistive technology where possible, since their settings are hard to
+  recreate. If they can't bring them, go to them. Check the venue is
+  accessible, and plan for interpreters or helpers.
+- **Consent they can use.** The consent form and information sheet work
+  with a screen reader and are written plainly; send them ahead.
+
+## At drafting the guide or instrument (stage 5)
+
+- Check the prototype, survey tool or diary app works with the assistive
+  technology your participants use before the sessions. Survey tools may
+  not be accessible, especially matrix, ranking and slider questions. Try the instrument with a
+  screen reader, the keyboard alone, high-contrast mode and 400% zoom.
+- If the product doesn't work with a participant's assistive technology,
+  that's a finding, but it's not a session. Have a fallback plan for the
+  time you've booked.
+
+## In the session
+
+- Talk to the participant, not to their interpreter or helper.
+- Ask before you help, and don't assume what someone can or can't do.
+- Ask which words they prefer for their disability, and use them.
+- Build in breaks, and make clear they can pause or stop at any time.
+- Allow more time for setup and for tasks. Speed is not the measure.
+
+## At analysis (stage 6)
+
+- Record the assistive technology and settings used, next to each issue.
+  "Blocked with a screen reader on mobile" is a finding; "hard for blind
+  users" is a generalization.
+- One screen-reader user stands for themselves, not for all blind people,
+  much less all disabled people. Apply the same claim-strength rules as for
+  everyone else.
+- An issue that blocks a task completely is serious even with one
+  participant (stage 6, step 5).
+
+## Challenges this lens adds
+
+- "Nobody in the sample uses assistive technology. Whose experience will
+  this decision get wrong?"
+- "The survey uses a ranking question. Have you tried it with a screen
+  reader?"
+- "Recruiting starts next week. Is that enough lead time to find the
+  people you need?"
+
+## Basis
+
+S28 (recruit a spread that includes disability; screen for difficulties,
+not only disability; ask about assistive technology; lead times; avoid
+internal staff and repeat participants); S36 (own assistive technology or
+visit them, usable consent forms, talk to the participant, ask before
+helping, ask about preferred words, plan setup time); S37 (about one in
+five; involve people with access needs at every stage; check survey tools
+with a screen reader, keyboard, high contrast and 400% zoom; breaks and
+stopping). S37 was last updated in July 2019, so check it against current
+practice. The audit distinction, the fallback plan, and the analysis
+points: practitioner judgment.
 
 <!-- core/lenses/systems-and-journeys.md -->
 
@@ -1284,6 +1461,8 @@ into ideas and decisions (after stage 7). Not a readout; people make things.
 
 ## Don't use one when
 
+- You want the people the decision is about to shape the design. That's
+  research with users: `methods/participatory-design.md`.
 - The decision owner has already decided. Run a readout and move on.
 - The point is to inform, not to make something. A workshop that could have
   been a document wastes the room's time.
@@ -1617,6 +1796,10 @@ are checked.
 Watch people do their real work in their real setting, and ask about it as
 it happens.
 
+This is one kind of field study. `methods/field-studies.md` covers the
+others (direct observation, site visits, ethnography, remote sessions) and
+how to choose between them.
+
 ## Use it when
 
 - The question is about how work actually gets done, including the
@@ -1826,6 +2009,317 @@ instead of running a new study. Stage 1 in full.
 Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
 are checked.
 
+<!-- core/methods/expert-review.md -->
+
+# Method: expert review
+
+Reviewers, not users, inspect a design for likely problems. Two common
+forms: a heuristic evaluation checks the design against a set of usability
+principles; a cognitive walkthrough steps through a task as a new user
+would. Neither involves users, so neither is user research.
+
+## Use it when
+
+- You want to clear obvious problems cheaply before testing with users,
+  so the sessions find the problems only users can show you.
+- The team needs a quick read on a design and there's no time to recruit.
+- You're deciding what to test: the review shows which tasks look risky.
+- Cognitive walkthrough: the system is new or unfamiliar to its users
+  (new patterns, a kiosk, a first-time flow), and learnability is the
+  question.
+
+## Don't use it when
+
+- The decision needs evidence about users. A review predicts problems;
+  only users show them.
+- The design follows familiar patterns throughout. A walkthrough of a
+  standard checkout is overkill.
+- You'd be the only reviewer. One reviewer misses problems, and someone
+  who made the design is too close to it to see them.
+
+## How Magpie labels the results
+
+Every issue from an expert review is a reviewer's prediction. Label it
+[assumption], not a finding, until a usability test or other evidence from
+users confirms it. A review can sit in the study record's evidence log
+and shape what to test; it can't stand behind a recommendation on its own.
+
+## Heuristic evaluation
+
+1. **Prepare.** Pick the heuristics (Nielsen's ten usability heuristics
+   are the common set; add domain-specific ones if needed). Narrow the
+   scope to a task, a section, a user group or a device. Agree how issues
+   will be recorded.
+2. **Review alone.** Three to five reviewers, each working independently
+   for one to two hours. Go through the scope once to learn it, then again
+   noting each place a heuristic is broken and why.
+3. **Combine.** Only after everyone has finished, group the issues, discuss
+   where reviewers disagree, and decide which issues matter most and which
+   need data from users.
+
+## Cognitive walkthrough
+
+1. **Prepare.** Pick a few tasks, ideally the ones users do most or the
+   ones the decision is about. Agree who the user is and what they know.
+2. **Walk through.** A cross-functional group (design, product,
+   engineering, someone who knows the domain). A facilitator does the task
+   one step at a time. At each step the group asks:
+   1. Will users try to achieve the right result?
+   2. Will users notice that the correct action is available?
+   3. Will users connect the correct action with what they're trying to do?
+   4. After the action, will users see that they're making progress?
+3. **Record.** Any "no" marks that step as a likely failure, with the
+   reason. A note-taker records each answer.
+4. **Summarize.** The failure points per task, and what to test with users.
+
+## What makes it good
+
+- Independent reviews before discussion, so one reviewer doesn't set the
+  list.
+- A narrow scope. The narrower it is, the more detailed the review.
+- Each issue tied to the principle or the walkthrough question it fails,
+  and to where it happens.
+- Treating a broken heuristic as a question, not a verdict. Context
+  matters, and principles are guidelines, not laws.
+
+## Analysis
+
+An issue list: where, which heuristic or question it fails, how many
+reviewers found it, and a note on whether users need to confirm it. Then
+the short list of tasks to put in front of users. Keep it separate from
+findings from users, in the record and in any readout.
+
+## Pitfalls
+
+- Presenting review issues as "users struggle with…".
+- One reviewer, or reviewers who compare notes before they finish.
+- Using a review instead of testing with users, rather than before it.
+- Ranking issues by how many principles they break rather than by what
+  they'd cost users.
+
+## Template
+
+An issue list with columns: location, heuristic or walkthrough question,
+what happens, reviewers who found it, confirm with users (yes or no).
+
+## Basis
+
+S34 (heuristic evaluation: three to five independent reviewers, one to two
+hours each, narrow scope, consolidate afterwards, heuristics are
+guidelines, it can't replace user research); S35 (cognitive walkthrough:
+the four questions, a cross-functional group, a facilitator and a recorder,
+best for new or unfamiliar systems, to be combined with usability
+testing). The [assumption] label and keeping results apart from user
+findings follow `operating.md`. Avoiding self-review, the pitfalls and
+the issue-list columns: practitioner judgment.
+
+<!-- core/methods/field-studies.md -->
+
+# Method: field studies
+
+Go where people actually do the thing, at work, at home or out in the
+world, and see it happen. Contextual inquiry is one kind of field study;
+this guide covers the others and how to choose.
+
+## Use it when
+
+- You're early, still working out what the problem is, and you don't yet
+  know what to ask.
+- The setting changes the experience: noise, interruptions, other people,
+  shared devices, paper next to the screen.
+- People do the thing out of habit and can't describe it well.
+- The audience's culture or work is unfamiliar to the team.
+
+## Don't use it when
+
+- The work is confidential, or watching it would be unsafe or intrusive.
+  Simulate it in a lab, or interview instead.
+- A remote session would show enough. It's cheaper and faster, and suits
+  people spread far apart.
+- The decision is due in days. Field work takes time to arrange: access,
+  permissions, travel.
+
+## Choose the kind
+
+| Kind | What you do | Good for |
+| --- | --- | --- |
+| Direct observation | Watch without asking questions or stepping in | Natural task flow, the words people use, workarounds |
+| Contextual inquiry | Watch and ask as the work happens | How work gets done and why; see `methods/contextual-inquiry.md` |
+| Site visit | Observe and talk, often with the customer leading the tour | Industry-specific or large-scale problems, many roles in one place |
+| Ethnography | Spend a long time in a group's setting | Social norms and culture, especially one unlike the team's |
+| Remote field session | The participant shows their setting by camera or screen share | Spread-out participants, quick rounds, many observers |
+
+Ethnography, in the full sense, takes weeks of immersion. Most product
+teams run a few days of observation and should call it that.
+
+## Sample
+
+- Four to eight sites or people per role, chosen across the variation
+  that matters (site size, experience, region).
+- Where several people share the work, observe the handoffs between them,
+  not only one person.
+
+## Study shape
+
+1. **Plan.** Research questions, who, where, and when the work actually
+   happens (month-end, a night shift). A shared observation guide so every
+   observer looks at the same things.
+2. **Get access.** Permission from the participant, their manager and
+   whoever runs the place. Find one person on site who can help with
+   rooms, recruiting and equipment.
+3. **Consent for everyone in view.** Photos, recordings, and colleagues or
+   family who may appear. Agree what you won't record.
+4. **Observe.** Notes on what people do, what they use, who they talk to,
+   and where things stall. Hold most questions until a natural break so you
+   don't interrupt the work.
+5. **Debrief the same day.** Observers compare notes while memory is fresh.
+
+## What makes it good
+
+- One or two observers, not a crowd. More people change what you see.
+- Rules for observers agreed beforehand: where to stand, when to stay
+  quiet, no side conversations.
+- Notes that keep what you saw separate from what you think it means.
+- Remote sessions that ask for the context the camera misses: "Can you
+  show me what's on the desk?", "Who else is in the room?"
+
+## Analysis
+
+As for contextual inquiry: map the work as it actually runs, mark the
+breakdowns and workarounds, then themes across sites (stage 6). Note the
+setting for every finding, since a problem that appears only at one site
+may be about that site.
+
+## Pitfalls
+
+- Turning it into an interview at a desk.
+- Too many observers crowding the space, so people perform instead of
+  work.
+- Side conversations among the team that pull attention from the
+  participant.
+- Going in without agreed questions, so each observer comes back with a
+  different study.
+- Calling three days of visits "ethnography".
+
+## Template
+
+Use the observation sheet in `methods/contextual-inquiry.md` (time, what
+happened, tools, people, breakdown), plus a short list of the research
+questions for every observer.
+
+## Basis
+
+S33 (the four kinds, when to use field studies, planning and permissions,
+observer rules, holding questions to avoid interrupting, remote sessions
+and their limit); S11 (definition). Sample sizes and the same-day debrief:
+practitioner judgment.
+
+<!-- core/methods/focus-groups.md -->
+
+# Method: focus groups
+
+A moderated discussion with a small group of people about a set of topics,
+to hear what they want, how they talk about it, and where they agree and
+disagree.
+
+## Use it when
+
+- You're early, before design, and want to know what people want and the
+  words they use for it.
+- You want reactions and ideas from several people at once, and hearing
+  them react to each other is part of the point.
+- The topic is an activity that runs over days or weeks and would cost too
+  much to observe.
+- The group itself matters: how a team or a household decides together.
+
+## Don't use it when
+
+- The question is whether people can use a design. A focus group is a
+  poor way to judge usability; people watch, talk and agree rather than
+  try. Run a usability test.
+- You need to know what people actually do. A group tells you what people
+  say they do. Observe, or interview one to one about specific past
+  events.
+- The topic is sensitive, or people would hold back in front of
+  colleagues, a manager or strangers. Interview them one at a time.
+- It's the only method in the study. Pair it with one-to-one sessions or
+  observation.
+
+## When someone asks for one
+
+Teams often ask for a focus group because it sounds efficient: ten people
+in one hour. Before planning one, ask what decision it serves and what the
+team wants to learn. If the answer is "will they use it" or "can they use
+it", say which method answers that better and why. If a group still fits,
+run it well.
+
+## Sample
+
+- Six to nine people per group, with a moderator.
+- At least two groups. One group can be pulled off course by one person or
+  one mood, and you can't tell from inside it.
+- Each group drawn from one segment, so people have enough in common to
+  talk. Different segments go in different groups.
+- Recruit on recent behaviour, as for interviews.
+
+## Session shape (90 to 120 minutes)
+
+1. **Opening (10 min).** Who you are, what it's for, what's recorded, that
+   there are no right answers, and that people can disagree. Ask people
+   not to share what others said outside the room; you can't promise it,
+   so say so.
+2. **Warm-up (10 min).** Each person, in turn, answers one easy question
+   about their own experience. Everyone has spoken once early on.
+3. **Topics (60 to 80 min).** Three or four topics from a written guide,
+   each with an opening question and probes. Use concrete material
+   (a scenario, a sketch, a prototype on screen) rather than abstract
+   questions; people react better to something real.
+4. **Individual exercise (10 min).** Before discussing a key question, each
+   person writes or picks their answer alone. Then share. This captures
+   views before the group shapes them.
+5. **Close (5 min).** Anything we missed, thanks, what happens next.
+
+## What makes it good
+
+- A guide with set goals for what to learn, so the discussion stays on
+  track without being cut short.
+- Every person contributes. The moderator draws in the quiet ones and
+  holds back the one who dominates.
+- Writing before talking, so the first confident voice doesn't set
+  everyone's answer.
+- A second person taking notes on who said what, not just what was said.
+
+## Analysis
+
+Code the transcript as for interviews (stage 6), but keep track of who
+spoke. Report the group's overall mood with a few quotes, the topics where
+people disagreed, and the views that came from the written exercise versus
+the discussion. Agreement in a group is not a count: "the room agreed" may
+mean two people spoke and six nodded. Never turn group agreement into a
+percentage.
+
+## Pitfalls
+
+- Using it to test usability.
+- Treating what people say they'd do as what they do.
+- One loud participant becoming "the group's view".
+- Showing a demo and asking for opinions; watching a demo is not using the
+  product.
+- Running one group and reporting it as the finding.
+
+## Template
+
+Adapt `templates/interview-guide.md`: one block per topic with an opening
+question and probes, plus the individual exercise.
+
+## Basis
+
+S31 (what focus groups are good and bad for, six to nine per group, more
+than one group, moderation, demos are not use); S11 (definition; NN/g's
+overview gives a wider range of 3 to 12 per group). Writing before
+discussing: S15, S16, which make this point for workshops. The opening on
+confidentiality and the session timings: practitioner judgment.
+
 <!-- core/methods/interviews.md -->
 
 # Method: interviews
@@ -1874,6 +2368,31 @@ what gets in the way.
 - Notes capture what they did and said, separately from what you think it
   means.
 
+## Ratings with a "why"
+
+A rating question followed by "why that number?" is a quick way into a
+conversation, and it lets you compare how people felt about the same
+moment. In an interview the reason is the data; the number is a prompt.
+
+- **Ask about a specific moment.** "Thinking about the last time you
+  [did the thing], how easy or hard was it, from 1, very hard, to 7, very
+  easy?" Not "how easy is it in general".
+- **Follow every rating with "Why that number?"** Then probe the reason
+  as you would any answer: "What happened that made it a 3?" If it isn't
+  already clear, ask what would have moved it up or down.
+- **Keep it to one to three ratings per session.** Closed questions stop
+  the conversation; too many turn an interview into a spoken survey.
+- **Use the same scale every time,** with words on both ends, so answers
+  can be compared across people.
+- **Expect ratings to run kind.** People rate higher to the researcher's
+  face than they feel. A 6 with a story of a workaround is a problem,
+  whatever the number says.
+
+In analysis, report each person's rating next to their reason ("P3: 2 of
+7, because the export failed twice"). Don't average interview ratings or
+turn them into percentages; with eight people a mean looks precise and
+isn't. The reasons, coded like any other answer, are the finding.
+
 ## Analysis
 
 Thematic analysis: read everything, code what's there, group codes into
@@ -1902,8 +2421,118 @@ transcripts in full before the rest run. `checks/ai-assisted-research.md`.
 
 ## Basis
 
-Practitioner judgment, consistent with widely published interviewing
-guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+Ratings with a "why": S38 (pair a rating with "why did you give it that
+score?" for qualitative insight, and don't make much of the average from a
+few users); S39 (closed questions used sparingly in qualitative research,
+because they stop the conversation); S40 (word-labelled scales are easier to
+understand; rating scales are prone to acquiescence and social-desirability
+bias); S12 (numbers from small qualitative studies carry large error). The
+limit of one to three ratings and asking about a specific moment:
+practitioner judgment. The rest of this guide: practitioner judgment,
+consistent with widely published interviewing guidance. Sources will be
+added to `docs/PROVENANCE.md` as they are checked.
+
+<!-- core/methods/participatory-design.md -->
+
+# Method: participatory design (co-design)
+
+Give participants materials and let them make their ideal version of an
+experience, then ask them to explain what they made. What they make shows
+what matters to them and why.
+
+## Use it when
+
+- You're at the start, before anyone has decided what to build, and the
+  question is open: what should this be for these people?
+- The people the decision is about are the experts on their own lives or
+  work, and the team doesn't share that experience.
+- You want people's priorities in their own terms, not reactions to the
+  team's idea.
+- The decision will affect a community that expects a say in it.
+
+## Don't use it when
+
+- You need to know whether a design works. Test it.
+- The team won't act on what participants make. Asking people to design
+  something and then ignoring it costs their trust and yours.
+- You want a finished design from participants. They show what matters;
+  the team still designs.
+
+## How it differs from a stakeholder workshop
+
+A stakeholder workshop (`workshops/stakeholder-workshops.md`) is the team
+deciding together. Participatory design is research: the participants are
+the people the decision is about, they're recruited and paid like any
+other participants, and their consent covers what they make as well as
+what they say.
+
+## Sample
+
+- Groups of four to six, or one-to-one making sessions for sensitive
+  topics.
+- Two to four sessions per user group. As with interviews, stop adding
+  sessions when the last ones bring nothing new.
+
+## Session shape (90 to 120 minutes)
+
+1. **Opening (10 min).** What it's for, what's recorded (including
+   photos of what they make), that there's no wrong answer and no drawing
+   skill needed.
+2. **Warm-up (15 min).** A small making task about their own recent
+   experience: a timeline of the last time they did the thing, using cards
+   or stickers. This gets people used to making, and it's data too.
+3. **Make (40 min).** The main task, with a kit: cards with words and
+   images, blank cards, a large sheet, simple shapes for screens or steps.
+   The prompt is about their goal, not the product ("Make the way you'd
+   want to get your monthly numbers to your boss").
+4. **Tell (25 min).** Each person or pair walks the group through what they
+   made. Ask why each piece is there, what they left out, what they'd fight
+   to keep.
+5. **Close (10 min).** What surprised them, what's next, and how they'll
+   hear what came of it.
+
+## What makes it good
+
+- The researcher facilitates; the participant is the expert. Don't correct
+  or improve what they make.
+- A kit with enough ready-made pieces that nobody faces a blank page, and
+  blank pieces for what you didn't think of.
+- More than one way to take part: drawing, arranging cards, talking it
+  through while someone else places the pieces.
+- The "tell" step recorded. What people made matters less than why they
+  made it.
+- Participants hear back what changed because of their work.
+
+## Analysis
+
+Analyze the explanations, not the objects. Code the "tell" transcripts as
+for interviews (stage 6), with photos of the artifacts as context. Look for
+what people put first, what they repeated, what they left out, and the
+reasons they gave. A pattern across people is a finding; one person's
+design is a single case.
+
+## Pitfalls
+
+- Treating a participant's design as a design spec.
+- A prompt about the product ("design our dashboard") instead of their goal.
+- A kit made of the team's own concepts, so people can only rearrange the
+  team's idea.
+- Skipping the "tell" step and analyzing photos of sticky notes.
+- No follow-up, so participants never learn what their work led to.
+
+## Template
+
+Adapt `templates/workshop-agenda.md` for the session plan and
+`templates/interview-guide.md` for the "tell" questions.
+
+## Basis
+
+S32 (co-design as collective creativity; the participant as the expert on
+their own experience; the researcher as facilitator who provides tools for
+people to express themselves; most useful at the open, early stage of
+design); S11 (definition: participants construct their ideal experience
+from design elements or creative materials). Sample sizes, timings and the
+session shape: practitioner judgment.
 
 <!-- core/methods/surveys.md -->
 
@@ -2008,8 +2637,11 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
    wrong answers. What's recorded.
 2. Brief context questions about how they do this today.
 3. Tasks, one at a time, as scenarios: "You want to…", never "Click the…".
-4. After each task: how did that go, what did you expect.
-5. Close: overall impressions, anything missing, thanks.
+4. After each task: a rating of how easy or hard it was, then "why that
+   rating?", then what they expected to happen. See "Follow-up questions"
+   below.
+5. Debrief: go back to the moments that mattered, then overall
+   impressions, anything missing, thanks.
 
 ## What makes it good
 
@@ -2020,11 +2652,49 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
 - Severity is rated per issue: how many hit it, how badly it blocked them,
   how often it would happen in real use.
 
+## Follow-up questions
+
+Watching shows where people struggle; follow-up questions show why. Ask
+them after the task, not during it, so you don't change what happens.
+
+**After each task**
+
+- One ease rating, in the style of the Single Ease Question (SEQ): how
+  easy or difficult the task was, on seven points from very difficult to
+  very easy. Ask it while the task is fresh, and word it the same way
+  every time.
+- "Why that rating?" Then probe the reason: "You paused on the payment
+  screen. What were you thinking there?"
+- "What did you expect to happen?" and, if they didn't finish, "What would
+  you have tried next?"
+
+**Debrief at the end (five to ten minutes)**
+
+- Go back to one or two moments you saw: "When you went back to the menu
+  the second time, what were you looking for?" Name what they did, not
+  what you think it meant.
+- "What was the hardest part?" and "Was anything different from what you
+  expected?"
+- If you're tracking perceived usability across releases, a standard
+  questionnaire such as the System Usability Scale (SUS: ten fixed items,
+  a score from 0 to 100) goes here, with the wording and order unchanged.
+  It needs twenty or more people per round to mean much; with five, use
+  it as a conversation starter, not a score.
+
+A participant's rating and what they did can disagree. Someone who failed
+the task may still rate it easy. Report both; what they did comes first.
+
 ## Analysis
 
 Issue list: each issue with the task, how many participants hit it, severity,
 and a short description of what happened. Stage 6 covers this. For
 unmoderated studies: success rate, time on task, and clips of the failures.
+
+Ease ratings from a moderated study go next to each participant's result
+and reason ("P2: failed, rated 5 of 7, 'I assumed it saved'"). Don't
+average five ratings or report them as a percentage; the reasons are the
+finding. With twenty or more unmoderated participants, ratings can be
+summarized, following stage 6's survey data rules.
 
 ## Pitfalls
 
@@ -2032,6 +2702,8 @@ unmoderated studies: success rate, time on task, and clips of the failures.
 - Fixing a prototype between sessions without noting it.
 - Counting "they found it eventually" as success.
 - Reporting five participants as a percentage.
+- Asking the rating, then not asking why.
+- Probing during the task, so the question changes what they do next.
 
 ## Template
 
@@ -2039,8 +2711,15 @@ unmoderated studies: success rate, time on task, and clips of the failures.
 
 ## Basis
 
-Practitioner judgment, consistent with widely published usability testing
-guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+Follow-up questions: S38 (the Single Ease Question after each task, on
+seven points, while the task is fresh; SUS after the session with wording
+and order unchanged, ten items, a 0 to 100 score that isn't a percentage;
+twenty to thirty users or more for questionnaire numbers; pair a rating
+with "why"); S12 (numbers from small qualitative studies carry large
+error). Probing after rather than during the task, and the debrief:
+practitioner judgment. Background: S7. The rest of this guide:
+practitioner judgment, consistent with widely published usability testing
+guidance.
 
 <!-- core/challenges/challenge-bank.md -->
 
@@ -2770,6 +3449,13 @@ stop at any time. OK to start recording?
 - [Question]
   - Probe:
 
+### Rating with a why (optional, one to three per session) → RQ[n]
+
+- Thinking about the last time you [did the thing], how easy or hard was
+  it, from 1, very hard, to 7, very easy?
+  - Why that number?
+  - Probe: What happened that made it a [number]?
+
 ## Deep dive (10 min)
 
 Pick the one thing they raised that matters most for the decision and go
@@ -2869,6 +3555,7 @@ slide doesn't move the story, it goes to the appendix.
 
 The foundation. One slide, sometimes two.
 
+- **The product:** [optional: what it is, what it does, who uses it, in one line]
 - **The decision:** [Owner] will decide [what] by [when]
 - **The business need:** [goal or metric at stake, in the team's own words]
 - **What we already knew:** [prior research, partner data, or "no prior
@@ -3027,6 +3714,8 @@ recommendation. Someone with two minutes reads only this.
 
 ## Why we did this
 
+- **The product:** [optional: what it is, what it does, the part studied, and who
+  uses it; who buys or sets it up, if different]
 - **The decision:** [Owner] will decide [what] by [when], choosing between
   [options].
 - **The business need:** [goal or metric at stake; cost of getting it
@@ -3136,6 +3825,11 @@ Two minutes to read. Everything here comes from the study record.
 **Owner:** [researcher] · **Decision owner:** [name] · **Decision due:** [date]
 · **Readout:** [date]
 
+## The product
+
+[Optional; leave this section out if the record doesn't have it. What it is, what it does, the part this study covers, and who its end
+users are. Who buys or sets it up, if different.]
+
 ## The decision
 
 [Owner] will decide [what] by [when], choosing between [options].
@@ -3210,6 +3904,22 @@ somewhere your team can find it, and paste or upload it to pick up where you
 left off in any assistant.
 
 Last updated: [date] · Stage: [1–7] · Challenge level: [standard]
+
+## Product
+
+Optional. What's being studied, so every stage works from the same
+picture. Offered early, filled from the team profile, product docs or the
+researcher, with guesses marked [assumption]. If the researcher leaves it
+out, write "not added" and delete the lines below.
+
+- **Product:** [name, and what it is in one plain sentence]
+- **What it does:** [the main things people do with it, in their terms]
+- **Part under study:** [the feature, flow or screen; "the whole product" is fine]
+- **End users:** [who uses it day to day, by what they do and where; people who stopped using it, if they matter]
+- **Buyers or admins, if different:** [who chooses, pays for or sets it up]
+- **Where it stands:** [idea, prototype, beta or live; which platforms]
+- **Recent changes:** [releases or redesigns that could date earlier evidence]
+- **Source:** [team profile, product docs, the researcher, or [assumption]]
 
 ## Decision
 
@@ -3384,7 +4094,8 @@ delete it by [date]. You can stop at any time. OK to start?
 ## Tasks
 
 For each task, record: completed / completed with difficulty / failed, time,
-what happened, and what they said.
+ease rating and why, what happened, and what they said. Ask follow-ups after
+the task, not during it.
 
 ### Task 1 → RQ[n]
 
@@ -3393,24 +4104,29 @@ names]. Show me how you'd do that.
 
 **Success:** [what done looks like]
 **Watch for:** [the thing we're worried about]
-**After:** How did that go? What did you expect to happen?
+**After:** Overall, how easy or difficult was that task, from 1, very
+difficult, to 7, very easy? Why that rating? What did you expect to happen?
 
 ### Task 2 → RQ[n]
 
 **Scenario:**
 **Success:**
 **Watch for:**
-**After:**
+**After:** Ease rating (1–7), why that rating, what they expected.
 
 ### Task 3 → RQ[n]
 
 **Scenario:**
 **Success:**
 **Watch for:**
-**After:**
+**After:** Ease rating (1–7), why that rating, what they expected.
 
-## Close (5 min)
+## Debrief and close (5–10 min)
 
+- When you [something they did, described neutrally], what were you
+  looking for?
+- What was the hardest part?
+- Was anything different from what you expected?
 - Overall, how was that compared to how you do it now?
 - Anything you expected to find and didn't?
 - Thanks. Here's what happens next: [incentive, findings].
@@ -3426,9 +4142,9 @@ names]. Show me how you'd do that.
 
 ## Observer sheet
 
-| Task | P# | Result | Time | What happened | Quote |
-| --- | --- | --- | --- | --- | --- |
-| | | | | | |
+| Task | P# | Result | Time | Ease (1–7) and why | What happened | Quote |
+| --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | |
 
 <!-- core/templates/workshop-agenda.md -->
 
@@ -3487,6 +4203,12 @@ study starts.
 
 [One or two sentences. "Whether to…", "Which of…", "How to…". If you're not
 deciding anything yet, say what you're trying to understand and why.]
+
+## What product is this about? (optional)
+
+[What it is and what it does, in a sentence. Which part this request is
+about. Who uses it day to day, and who buys or sets it up if that's
+someone else. If you're not sure, say so.]
 
 ## Who decides, and when?
 
@@ -3549,6 +4271,7 @@ Last updated: [date] by [name]
 - **Products:** [names, one line each, in plain words]
 - **Who uses them:** [main user groups, in the team's own segment names]
 - **Who buys them, if different:** [ ]
+- **Where to read about them:** [product docs, help center, public site]
 
 ## Company goals and metrics
 

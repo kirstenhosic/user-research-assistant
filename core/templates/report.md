@@ -36,6 +36,8 @@ recommendation. Someone with two minutes reads only this.
 
 ## Why we did this
 
+- **The product:** [optional: what it is, what it does, the part studied, and who
+  uses it; who buys or sets it up, if different]
 - **The decision:** [Owner] will decide [what] by [when], choosing between
   [options].
 - **The business need:** [goal or metric at stake; cost of getting it

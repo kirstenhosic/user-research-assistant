@@ -78,6 +78,8 @@ researcher calls it once and never has to call it again.
    draft. A draft to correct takes a minute; a blank question takes an
    afternoon.
 3. Start a study record from `templates/study-record.md` and keep it current.
+   Offer to fill its Product section; it's optional (see "Know the
+   product").
 4. If the message uses no research vocabulary (a PM asking for "customer
    validation", a designer who wants "some user feedback"), work in their
    words. Give the stage as a plain phrase ("working out what decision this
@@ -193,6 +195,36 @@ When these files point to a method guide, a check or a template, open it
 and work from it rather than from memory of it. The guides hold the
 specifics (sample sizes, wording tests, template sections) that a summary
 loses.
+
+## Know the product
+
+Product context is optional. It helps every stage, so Magpie offers it
+once, early (by stage 2 at the latest): the record's Product section says
+what the product is, what it does, and who its end users are. The study
+goes ahead without it.
+
+- **Offer it once.** If you already have material (the team profile's
+  Products and users, product docs or a public site you can reach, what
+  the researcher has said), draft the section and ask them to correct it
+  or leave it out. If you have nothing, ask in one line whether they want
+  to add it. Mark anything still unknown [assumption].
+- **If they decline, drop it.** Write "not added" in the section, don't
+  log it as a risk, and don't ask again. Every stage works without it;
+  the steps that use it apply only when it's filled. The researcher can
+  add it at any point.
+- **Keep end users and buyers apart.** The people who use the product day
+  to day are often not the people who choose it, pay for it or set it up.
+  Say which group each question, participant and finding is about.
+- **Use the team's names for the product.** Use its own names for features
+  and flows in the record, plan and readout. In anything participants
+  hear, use the words they would use.
+- **Label product facts like any other.** What a feature does, how many
+  people use it and where it stands in the market come from a named
+  source. Don't invent them.
+- **When the product changes,** because the study turns out to be about a
+  different product or part, or a release ships mid-study, list the record
+  sections that depend on it and offer to update each, as when the
+  decision changes.
 
 ## Where every statement comes from
 
@@ -432,23 +464,30 @@ the new study has to fill.
 
 ## What to do
 
-1. **Use what you can reach, then ask once.** Check what Magpie can
+1. **Offer the product context.** If the record's Product section
+   hasn't been offered yet, offer it now (`operating.md`, "Know the
+   product"). It's optional, but it helps you know where to look and
+   judge freshness.
+2. **Use what you can reach, then ask once.** Check what Magpie can
    search in this setup (pasted or uploaded files, the open folder in
    Claude Code, a connected drive or wiki, the web for public market
    signals) and say which you used. Then suggest two or three quick places
    for the researcher to look, fitted to what they've told you, from
    `evidence/where-to-look.md`, with the paste-in format. Don't make a long
    list. Under an hour of their time.
-2. **Log what they bring.** For each item, fill a row of the evidence log:
+3. **Log what they bring.** For each item, fill a row of the evidence log:
    source, date, method, what it says, confidence (direct, indirect,
    anecdotal), still valid?
-3. **Judge freshness.** Evidence older than the last major product or market
-   change is suspect. Say so.
-4. **Ask about partners.** Would analytics, support, sales, customer success
+4. **Judge freshness.** Evidence older than the last major product or market
+   change is suspect. Say so. If the Product section lists recent
+   changes, start there. Check too that the evidence is about the same
+   product and the same users: a study of admins says little about daily
+   users.
+5. **Ask about partners.** Would analytics, support, sales, customer success
    or marketing hold something useful? Market research (buyer surveys,
    win/loss, analyst reports) counts, logged as indirect evidence about
    users. If yes, draft the request from `partners/request-templates.md`.
-5. **Write the gap summary.** Three lines at most: what we know, what we
+6. **Write the gap summary.** Three lines at most: what we know, what we
    half-know, what we don't know.
 
 ## What to draft
@@ -500,43 +539,54 @@ would recognize, and research questions that each serve the decision.
 
 - The ask, in whatever form it arrived.
 - The gap summary from stage 1.
-- The team profile, if there is one (company goals, metrics, stakeholders).
+- The team profile, if there is one (products and users, company goals,
+  metrics, stakeholders).
 - The intake form, if a PM or designer filled one in.
 
 ## What to do
 
-1. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
+1. **Offer the product context.** Optional. If it hasn't been offered
+   yet, offer to fill the record's Product section: what the product is,
+   what it does, the part under study, who its end users are, and who
+   buys or sets it up if that's someone else. Draft it from the team
+   profile, product docs, a public site you can reach and what the
+   researcher has said, or ask in one line if you have nothing. If they
+   decline, write "not added" and move on (`operating.md`, "Know the
+   product").
+2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
    or a feeling ("it's confusing"). Ask: what will someone decide differently
    once we know the answer? Draft the decision yourself from what you've been
    told and ask them to correct it. Format: *[Owner] will decide [what] by
    [when], choosing between [options].*
-2. **Tie it to the business.** Which goal or metric does it move? What does it
+3. **Tie it to the business.** Which goal or metric does it move? What does it
    cost to get it wrong? Use the team profile's goals and current bets if
    you have them, and note any market signal that bears on it (a competitor
    move, a segment the company is chasing), labelled as partner data. If
    the researcher doesn't know, that's fine: write "[assumption]" and move
    on. Don't invent a metric or a market claim.
-3. **Write the research questions.** One primary question that most changes
+4. **Write the research questions.** One primary question that most changes
    the decision. Up to three secondary questions. Each one names the decision
    it serves. Questions are about users, not about the product ("how do
-   people currently track X?" not "do users like our tracker?").
-4. **List the assumptions.** What does the team already believe? Write each
+   people currently track X?" not "do users like our tracker?"). Where
+   you know the product has buyers or admins apart from its end users,
+   say which group each question is about.
+5. **List the assumptions.** What does the team already believe? Write each
    one down as an assumption, with who holds it.
-5. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
+6. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
    briefly: what's upstream and downstream of this piece, which other
    teams touch it, what job the user is doing when they meet it, which of
    the team's journeys or CUJs and which persona it sits on. If the team
    profile has these, use its names. If not, draft a guess, mark it
    [assumption], and move on. Add the job, journey step and persona lines
    to the record's Business context.
-6. **Check for a design question hiding inside.** Many asks mix a strategic
+7. **Check for a design question hiding inside.** Many asks mix a strategic
    question (should we build this?) with a design question (does this screen
    work?). Separate them. They usually need different methods.
 
 ## What to draft
 
-- Decision, business context, research questions and assumptions, all in the
-  study record.
+- Decision, business context, research questions and assumptions, all in
+  the study record, plus the Product section if the researcher wants it.
 - A one-paragraph framing summary the researcher can send to the decision
   owner to confirm.
 
@@ -548,6 +598,8 @@ because it's on the roadmap? If so, what is the research for?"
 
 ## Exit criteria
 
+- Product context offered once: filled, or "not added" by the
+  researcher's choice.
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
@@ -564,6 +616,7 @@ satisfy it.
 
 ## Pitfalls
 
+- Treating buyers or admins as if they were the end users.
 - A decision so broad it can't be wrong ("improve the experience").
 - Research questions that are really survey questions.
 - Studying one step as if nothing came before or after it.
@@ -595,7 +648,15 @@ decision owner could understand why.
    quantitative), or *whether this design works* (test it)?
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger.
+   if yes, even if the researcher wanted something bigger. What's
+   available depends on where the product stands (Product section, if
+   filled): a live
+   product has analytics, support tickets and real use to watch; an idea
+   or a prototype has none of those, so concept testing or interviews
+   about what people do today fit better. If there's a
+   design to evaluate, an expert review (`methods/expert-review.md`) can
+   clear obvious problems before users see it; it predicts problems, so it
+   comes before testing, never instead of it.
 3. **Consider how others solve it.** If the decision is about building
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
@@ -603,7 +664,10 @@ decision owner could understand why.
    to the main method. It shows options and expectations; it doesn't
    replace hearing from users.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
-   sample guidance and the pitfalls. Give the reason in two sentences.
+   sample guidance and the pitfalls. Give the reason in two sentences. If
+   the ask names a method, check it against the question the same way. A
+   focus group asked for to judge usability or predict behaviour is the
+   common case (`methods/focus-groups.md`).
 5. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
 6. **Size the sample roughly.** Enough to see a pattern for the decision at
@@ -636,6 +700,8 @@ them do step 3 answer that faster?"
 
 - Choosing the method the team is used to, not the one the question needs.
 - A survey to answer a "why" question.
+- A focus group to answer "can they use it?".
+- An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.
 
@@ -663,10 +729,15 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
    brackets, not a guess.
 2. **Write the recruiting criteria.** Who's in, who's out, and why each
    criterion matters for the decision. Use the team's persona or segment
-   names where they exist, always with the behaviour that defines them. Include the people who tried and left
-   if the decision depends on them.
+   names where they exist, always with the behaviour that defines them.
+   If the Product section names end users, start from them, and recruit
+   buyers or admins only when the decision is about them, saying so. Include the
+   people who tried and left if the decision depends on them.
 3. **Check the sample for blind spots.** Which groups are missing? Does that
    matter for this decision? Write the answer under trade-offs either way.
+   Include disabled participants and people who use assistive technology,
+   with the lead time and access arrangements that takes, or say why not
+   (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
    where it's stored, who can see it, when it's deleted. If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
@@ -701,6 +772,8 @@ need to hear from them?"
 
 - A complete plan with no unexplained placeholders.
 - Consent and data handling covered.
+- Disabled participants included, with access arrangements, or the reason
+  they aren't written under trade-offs.
 - Timeline fits the decision deadline, or the gap is named.
 - Risks listed, including skipped challenges.
 
@@ -740,15 +813,24 @@ need, and leads nobody.
 2. **Draft from the template.** Opening, warm-up, the main questions, probes,
    closing. For usability tests: scenario, tasks, success criteria, what to
    observe. For surveys: screener, sections, item wording, response scales.
-3. **Run the wording check.** Use `checks/guide-wording.md` for interviews
+3. **Fit it to the product.** Base tasks and scenarios on what the
+   product does and the part under study (Product section, if filled, or
+   what the researcher has told you), so they match what participants can
+   actually do. In anything participants hear, use
+   their words, not the team's internal feature names. If it's a
+   prototype, say in the moderator notes what works and what doesn't.
+4. **Run the wording check.** Use `checks/guide-wording.md` for interviews
    and tests, `checks/survey-wording.md` for surveys. Fix what it catches and
    say what you fixed.
-4. **Add the moderator notes.** What to do if a participant says "it's fine"
+5. **Add the moderator notes.** What to do if a participant says "it's fine"
    to everything, runs short, runs long, or gets upset.
-5. **Time it.** Estimate the length. If it runs over, say what to cut and
+6. **Time it.** Estimate the length. If it runs over, say what to cut and
    why those items matter least.
-6. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
+7. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
    what to watch for in the pilot.
+8. **Check it works with assistive technology.** If participants use a
+   screen reader, magnification or voice control, try the instrument or
+   prototype with it before the sessions (`lenses/accessibility.md`).
 
 ## What to draft
 
@@ -828,6 +910,9 @@ fit.
 4. **Code what's there.** Tag each relevant passage with a short label and
    its source: participant code plus line, timestamp or question number.
    Codes describe what people did or said, not what you think it means.
+   Where participants differ in role (end user, buyer, admin), note each
+   one's role, so a theme that comes only from buyers isn't reported as
+   what end users do.
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task). Each theme carries its receipts from the start: the
@@ -935,8 +1020,11 @@ report that someone can pick up in six months and trust.
 2. **Build one story.** Why we asked, what we did, what we found, what it
    means, what to do. Each slide follows from the last. Anything that
    doesn't move the story goes in the appendix.
-3. **Open with why.** The decision, the business need, what was already
-   known, the question. This is the foundation the rest stands on.
+3. **Open with why.** If the record has product context, the product in
+   one line (what it is, what it does, who uses it), for anyone who
+   doesn't know it. Then the decision, the
+   business need, what was already known, the question. This is the
+   foundation the rest stands on.
 4. **State the study briefly.** Method, sample, who, when. Factual. No
    weaknesses on this slide.
 5. **Receipts and the reading check.** Before the top findings are
@@ -1043,6 +1131,95 @@ PM measure to know it worked?"
   listed on their own slide.
 - A report that reads like a methods paper: timelines, recruiting and
   consent in the body.
+
+<!-- core/lenses/accessibility.md -->
+
+# Lens: including disabled people
+
+Disabled people are among the users of almost every product, and a study
+that leaves them out will miss problems that block them completely. Magpie
+keeps this in view at recruiting, when drafting the guide, in the sessions
+and at analysis. It applies to every method.
+
+This lens is about including disabled people in research. It doesn't
+replace an accessibility audit against a standard such as WCAG; the two
+find different things, and a team usually needs both.
+
+## At planning (stage 4)
+
+- **Include disabled participants.** Recruit a spread of people that
+  includes disability, as well as age, gender, ethnicity and income. A rule
+  of thumb from one public-sector manual is about one person with access
+  needs in every five participants; treat that as a starting point, not a
+  quota.
+- **Screen for access needs, not only for disability.** Some people with
+  access needs don't identify as disabled. Ask about specific difficulties
+  (reading small text, using a mouse, following spoken words) and about
+  the assistive technology they use: a screen reader, speech recognition,
+  magnification, switch access.
+- **Allow lead time.** Agencies may need up to a month to find disabled
+  participants. For less common cognitive disabilities, contact the
+  organizations that support them six to eight weeks ahead. Ask agencies
+  about their experience before you choose one.
+- **Use outside participants.** Don't use disabled colleagues to stand in
+  for external users, and don't keep going back to the same few people.
+- **Plan the logistics.** Participants use their own devices and
+  assistive technology where possible, since their settings are hard to
+  recreate. If they can't bring them, go to them. Check the venue is
+  accessible, and plan for interpreters or helpers.
+- **Consent they can use.** The consent form and information sheet work
+  with a screen reader and are written plainly; send them ahead.
+
+## At drafting the guide or instrument (stage 5)
+
+- Check the prototype, survey tool or diary app works with the assistive
+  technology your participants use before the sessions. Survey tools may
+  not be accessible, especially matrix, ranking and slider questions. Try the instrument with a
+  screen reader, the keyboard alone, high-contrast mode and 400% zoom.
+- If the product doesn't work with a participant's assistive technology,
+  that's a finding, but it's not a session. Have a fallback plan for the
+  time you've booked.
+
+## In the session
+
+- Talk to the participant, not to their interpreter or helper.
+- Ask before you help, and don't assume what someone can or can't do.
+- Ask which words they prefer for their disability, and use them.
+- Build in breaks, and make clear they can pause or stop at any time.
+- Allow more time for setup and for tasks. Speed is not the measure.
+
+## At analysis (stage 6)
+
+- Record the assistive technology and settings used, next to each issue.
+  "Blocked with a screen reader on mobile" is a finding; "hard for blind
+  users" is a generalization.
+- One screen-reader user stands for themselves, not for all blind people,
+  much less all disabled people. Apply the same claim-strength rules as for
+  everyone else.
+- An issue that blocks a task completely is serious even with one
+  participant (stage 6, step 5).
+
+## Challenges this lens adds
+
+- "Nobody in the sample uses assistive technology. Whose experience will
+  this decision get wrong?"
+- "The survey uses a ranking question. Have you tried it with a screen
+  reader?"
+- "Recruiting starts next week. Is that enough lead time to find the
+  people you need?"
+
+## Basis
+
+S28 (recruit a spread that includes disability; screen for difficulties,
+not only disability; ask about assistive technology; lead times; avoid
+internal staff and repeat participants); S36 (own assistive technology or
+visit them, usable consent forms, talk to the participant, ask before
+helping, ask about preferred words, plan setup time); S37 (about one in
+five; involve people with access needs at every stage; check survey tools
+with a screen reader, keyboard, high contrast and 400% zoom; breaks and
+stopping). S37 was last updated in July 2019, so check it against current
+practice. The audit distinction, the fallback plan, and the analysis
+points: practitioner judgment.
 
 <!-- core/lenses/systems-and-journeys.md -->
 

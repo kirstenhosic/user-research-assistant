@@ -44,6 +44,31 @@ what gets in the way.
 - Notes capture what they did and said, separately from what you think it
   means.
 
+## Ratings with a "why"
+
+A rating question followed by "why that number?" is a quick way into a
+conversation, and it lets you compare how people felt about the same
+moment. In an interview the reason is the data; the number is a prompt.
+
+- **Ask about a specific moment.** "Thinking about the last time you
+  [did the thing], how easy or hard was it, from 1, very hard, to 7, very
+  easy?" Not "how easy is it in general".
+- **Follow every rating with "Why that number?"** Then probe the reason
+  as you would any answer: "What happened that made it a 3?" If it isn't
+  already clear, ask what would have moved it up or down.
+- **Keep it to one to three ratings per session.** Closed questions stop
+  the conversation; too many turn an interview into a spoken survey.
+- **Use the same scale every time,** with words on both ends, so answers
+  can be compared across people.
+- **Expect ratings to run kind.** People rate higher to the researcher's
+  face than they feel. A 6 with a story of a workaround is a problem,
+  whatever the number says.
+
+In analysis, report each person's rating next to their reason ("P3: 2 of
+7, because the export failed twice"). Don't average interview ratings or
+turn them into percentages; with eight people a mean looks precise and
+isn't. The reasons, coded like any other answer, are the finding.
+
 ## Analysis
 
 Thematic analysis: read everything, code what's there, group codes into
@@ -72,5 +97,13 @@ transcripts in full before the rest run. `checks/ai-assisted-research.md`.
 
 ## Basis
 
-Practitioner judgment, consistent with widely published interviewing
-guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+Ratings with a "why": S38 (pair a rating with "why did you give it that
+score?" for qualitative insight, and don't make much of the average from a
+few users); S39 (closed questions used sparingly in qualitative research,
+because they stop the conversation); S40 (word-labelled scales are easier to
+understand; rating scales are prone to acquiescence and social-desirability
+bias); S12 (numbers from small qualitative studies carry large error). The
+limit of one to three ratings and asking about a specific moment:
+practitioner judgment. The rest of this guide: practitioner judgment,
+consistent with widely published interviewing guidance. Sources will be
+added to `docs/PROVENANCE.md` as they are checked.

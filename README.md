@@ -22,9 +22,10 @@ or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
   something you can use right away (a plan, a guide, a set of findings),
   then one question worth thinking about. You can skip it; Magpie notes
   the skip as a risk and moves on.
-- **Keeps a study record.** One document that carries the decision, the
-  questions, the method, the participants, the findings, and the risks. Save
-  it and you can continue in any assistant, any day.
+- **Keeps a study record.** One document that carries the product and who
+  uses it, the decision, the questions, the method, the participants, the
+  findings, and the risks. Save it and you can continue in any assistant,
+  any day.
 - **Labels where every claim comes from.** Your data, a partner team's data,
   general practice, or an assumption. It never makes up a quote, a number,
   or a participant, and every count names the participants behind it.
@@ -38,7 +39,7 @@ or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
   reports follow a tested shape: why first, a short note on method, up to five
   top findings, the other findings on one page so nothing is dropped,
   recommendations with owners, next steps, appendix.
-- **Covers eleven methods.** The table below says what each one is for
+- **Covers fifteen methods.** The table below says what each one is for
   and what Magpie gives you.
 
 ## What you can do with it
@@ -55,6 +56,10 @@ it will suggest a method. You can also name one yourself.
 | [Contextual inquiry](core/methods/contextual-inquiry.md) | How real work happens in its real setting | A plan, question prompts, an observation sheet, and a map of the workflow and where it breaks down |
 | [Concept and value testing](core/methods/concept-testing.md) | Whether an idea solves a problem people have, before it's built | A session guide and patterns in how people reacted, with a reminder that "I'd use it" is not the same as using it |
 | [Diary studies](core/methods/diary-studies.md) | Behavior over days or weeks, as it happens | Entry prompts, an exit interview guide, and themes over time |
+| [Field studies](core/methods/field-studies.md) | How people work in their own setting: direct observation, site visits, remote sessions | A way to choose the kind of field study, an observation guide, and rules for observers |
+| [Focus groups](core/methods/focus-groups.md) | What a group of people want, in their own words, early on | A check on whether a group fits the question, a discussion guide with a write-alone step, and analysis that doesn't count nods as votes |
+| [Participatory design](core/methods/participatory-design.md) | What matters to people, from what they make when given the materials | A session plan with a making kit and a "tell us about it" step, and themes from their explanations |
+| [Expert review](core/methods/expert-review.md) | Likely usability problems, found by reviewers before users see the design | A heuristic evaluation or cognitive walkthrough plan, and an issue list labeled as predictions until users confirm them |
 | [Card sorting and tree testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, and whether they can find them | A card list and task list, and findings on how people group things and whether they can find them |
 | [Evidence review](core/methods/evidence-review.md) | What the organization already knows, before running anything new | An evidence log with how fresh and how trustworthy each source is, a summary of the gaps, and a one-page evidence brief |
 | [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job, and what would fit your users | A comparison table built around the user's job, not the feature list |
@@ -74,9 +79,9 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
 1. **Draft first, then one challenge.** Every reply gives you something you
    can use, then asks one question that could change it. You can skip the
    question; the skip is noted as a risk, not argued.
-2. **One study record.** The decision, questions, method, participants,
-   findings, and risks live in one document that you own and can take to
-   any assistant.
+2. **One study record.** The product and its users, the decision,
+   questions, method, participants, findings, and risks live in one
+   document that you own and can take to any assistant.
 3. **Every claim says where it came from.** Your data, a partner team's
    data, general practice, or an assumption. Magpie never makes up a quote,
    a number, or a participant, and three small scripts check the quotes,
@@ -94,8 +99,8 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
 
 As of October 27, 2026. This section is updated with each release.
 
-- **Tested.** All 36 test scenarios at the time, in [`evals/scenarios/`](evals/scenarios/),
-  were run in Claude Code without access to the answers, then judged
+- **Tested.** The first 36 test scenarios in [`evals/scenarios/`](evals/scenarios/)
+  (nine more have been added since and not yet run) were run in Claude Code without access to the answers, then judged
   against their pass and fail lists: 31 pass, 5 partial with reasons, 0
   fail. Two made-up studies with answer keys in
   [`evals/fixtures/`](evals/fixtures/) were run the same way, and every
@@ -106,8 +111,8 @@ As of October 27, 2026. This section is updated with each release.
   as unconfirmed until the next run, which follows the stricter rules in
   [`evals/README.md`](evals/README.md): proof of loading, three runs per
   scenario, a person judging, and a fixture with no planted problems.
-- **What backs the rules.** Magpie follows 64 written standards in
-  [`core/standards/`](core/standards/). 34 cite a public source in full or
+- **What backs the rules.** Magpie follows 69 written standards in
+  [`core/standards/`](core/standards/). 37 cite a public source in full or
   in part (the ICC/ESOMAR code, Braun and Clarke, Nielsen Norman Group
   articles, the GOV.UK Service Manual). The rest rest on professional
   judgment and say so. [`docs/PROVENANCE.md`](docs/PROVENANCE.md) lists

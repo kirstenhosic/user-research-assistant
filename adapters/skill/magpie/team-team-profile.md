@@ -11,6 +11,7 @@ Last updated: [date] by [name]
 - **Products:** [names, one line each, in plain words]
 - **Who uses them:** [main user groups, in the team's own segment names]
 - **Who buys them, if different:** [ ]
+- **Where to read about them:** [product docs, help center, public site]
 
 ## Company goals and metrics
 

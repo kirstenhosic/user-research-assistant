@@ -17,23 +17,30 @@ the new study has to fill.
 
 ## What to do
 
-1. **Use what you can reach, then ask once.** Check what Magpie can
+1. **Offer the product context.** If the record's Product section
+   hasn't been offered yet, offer it now (`operating.md`, "Know the
+   product"). It's optional, but it helps you know where to look and
+   judge freshness.
+2. **Use what you can reach, then ask once.** Check what Magpie can
    search in this setup (pasted or uploaded files, the open folder in
    Claude Code, a connected drive or wiki, the web for public market
    signals) and say which you used. Then suggest two or three quick places
    for the researcher to look, fitted to what they've told you, from
    `evidence/where-to-look.md`, with the paste-in format. Don't make a long
    list. Under an hour of their time.
-2. **Log what they bring.** For each item, fill a row of the evidence log:
+3. **Log what they bring.** For each item, fill a row of the evidence log:
    source, date, method, what it says, confidence (direct, indirect,
    anecdotal), still valid?
-3. **Judge freshness.** Evidence older than the last major product or market
-   change is suspect. Say so.
-4. **Ask about partners.** Would analytics, support, sales, customer success
+4. **Judge freshness.** Evidence older than the last major product or market
+   change is suspect. Say so. If the Product section lists recent
+   changes, start there. Check too that the evidence is about the same
+   product and the same users: a study of admins says little about daily
+   users.
+5. **Ask about partners.** Would analytics, support, sales, customer success
    or marketing hold something useful? Market research (buyer surveys,
    win/loss, analyst reports) counts, logged as indirect evidence about
    users. If yes, draft the request from `partners/request-templates.md`.
-5. **Write the gap summary.** Three lines at most: what we know, what we
+6. **Write the gap summary.** Three lines at most: what we know, what we
    half-know, what we don't know.
 
 ## What to draft
