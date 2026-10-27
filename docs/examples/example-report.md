@@ -3,7 +3,7 @@
 **Author:** Priya Nair · **Date:** 14 October 2026 · **Decision owner:** Sam Okafor (PM, Reporting) ·
 **Study record:** [link to study record]
 
-*Fictional example. Ledgerline, its customers and participants are made up to show what a Magpie report looks like when filled in.*
+**Fictional example.** Ledgerline, its customers and its participants are made up to show what a Magpie report looks like when filled in.
 
 ## Contents
 
@@ -21,126 +21,153 @@
 
 ## Summary
 
-Reporting has to decide by 30 October whether to rebuild the export dialog or fix the import step that feeds it. The evidence supports fixing import first. Six of eight participants abandoned an export at least once in the session, and in five of those six the cause was columns that were never mapped at import, not the dialog itself. Two participants from finance teams could not complete any export and gave up. Confidence is moderate: eight sessions, one segment over-represented. The main recommendation is to add a column-mapping check at import, owned by the Data Pipeline team, with the export dialog change deferred until that ships.
+Reporting has to decide by 30 October whether to rebuild the export dialog or fix the import step that feeds it. The evidence supports fixing import first. 6 of 8 participants abandoned an export during the session, and for 5 of those 6 the cause was columns that were never mapped at import, not the dialog itself. Both participants from finance teams could not get a file their finance system would accept. Confidence is moderate: 8 sessions, and all participants were recruited through Customer Success (CS). The main recommendation is a column-mapping check at import, owned by the Data Pipeline team, with the dialog rebuild deferred until that check ships.
 
 ## Why we did this
 
-- **The decision:** Sam Okafor will decide by 30 October whether Q1 engineering time goes to a redesigned export dialog or to the import step, choosing between those two options or neither.
-- **The business need:** "Weekly active sharers" is the Reporting team's goal metric for H2 [team profile]. Support logged 212 export-related tickets in Q3 [partner data, Support, 2 October]. A rebuilt dialog costs roughly one engineer-quarter [assumption, from Sam].
-- **What we already knew:** A 2025 survey found export was the second most-used feature among admins [their data, evidence log E2]. No prior research on why exports fail. Field reps report "customers hate the export" [partner data, indirect].
-- **The questions:** Primary: why do mid-size customers abandon exports in the first 90 days? Secondary: where in the flow does abandonment happen, and what do people do instead?
-- **Where it sits:** Job: get this month's numbers into the finance system. Journey: "Share a report", step 3 of 4. Persona: Report builder (builds and shares reports weekly). Upstream: import and column mapping; downstream: the finance team's reconciliation.
+- **The product:** Ledgerline is accounting software for mid-size businesses. This study covers export, where report builders send report data to other tools; report builders use it weekly, and the finance team receives what they send.
+- **The decision:** Sam Okafor will decide by 30 October whether Q1 engineering time goes to a redesigned export dialog, to the import step, or to neither.
+- **The business need:** "Weekly active sharers" is the Reporting team's goal metric for H2 [team profile]. Support logged 212 export-related tickets in Q3 [partner data, Support, 2 October 2026]. A rebuilt dialog would cost about one engineer-quarter [assumption, from Sam].
+- **What we already knew:** A 2025 survey found export was the second most-used feature among admins [their data, evidence log E2]. There was no earlier research on why exports fail. Field reps report that "customers hate the export" [partner data, indirect].
+- **The questions:** The primary question was why mid-size customers abandon exports in their first 90 days. The secondary questions were where in the flow they abandon, and what they do instead.
+- **Where it sits:** The job is getting this month's numbers into the finance system, in step 3 of 4 of the "Share a report" journey, for the Report builder persona.
 
 ## What we did
 
-Eight remote sessions of 45 minutes between 6 and 10 October, each a short interview about the last export the participant attempted followed by a usability task on their own account (export last month's revenue report to CSV). Participants were report builders at mid-size customers (50 to 500 seats) who had used Ledgerline for under 90 days, recruited from our own user base by the CS team. We chose sessions over a survey because the question was why, and over analytics alone because the funnel shows where people stop but not what they were trying to do. Plan and guide are in the appendix.
+We ran 8 remote sessions of 45 minutes between 6 and 10 October 2026. Each was a short interview about the participant's last export, then a usability task on their own account: export last month's revenue report to CSV. Participants were report builders at mid-size customers (50 to 500 seats) who had used Ledgerline for under 90 days, recruited from our own customers by the CS team. We chose sessions over a survey because the question was why, and over analytics alone because the funnel shows where people stop but not what they were trying to do. The plan and guide are in appendix C.
 
 ## Top findings
 
-1. **Most abandoned exports fail at import, not export.** Five of eight participants hit missing columns that were never mapped when the data was imported. · Strong
-2. **Finance-team participants could not complete any export.** Two of eight, both reconciling against an external system, gave up entirely. · Weak (two participants, one segment), but serious
-3. **The workaround is email.** Six of eight had sent a raw file to a colleague to fix by hand at least once. · Strong
-4. **Nobody understood the "Include hidden fields" option.** Seven of eight either ignored it or guessed. · Moderate
-5. **Filename confusion is real but minor.** Three of eight mentioned the default filename; none abandoned because of it. · Weak
+1. **For 5 of 8, export failed because import never mapped the columns.** The dialog wasn't the cause. · Strong
+2. **Both finance-team participants could not get a file their finance system accepts.** Their reconciliation tools need a column order export can't produce. · Weak · serious case
+3. **6 of 8 work around export by emailing the file to a colleague.** The export funnel counts these as completed. · Strong
+4. **7 of 8 couldn't say what "Include hidden fields" does.** It's a labelling problem, not a reason to abandon. · Moderate
 
 ## Findings in detail
 
-### Finding 1: Most abandoned exports fail at import, not export
+### Finding 1: For 5 of 8, export failed because import never mapped the columns
 
-**Strength:** Strong, because five of eight participants hit it independently and the cause is visible in their accounts.
+**Strength:** Strong, because 5 participants hit it on their own and the cause was checked in their account during the session.
 **Answers:** the primary question.
 
-Five of eight participants (P1, P3, P4, P6, P8) stopped their export when the preview showed empty columns. In every case the account's import mapping had skipped those columns (checked in the admin view during the session). P3, line 41: "The columns just aren't there. I thought export was broken, but it's the import that never had them." P6, 12:40: "I've done this four times and every time I assume it's me."
+P1, P3, P4, P6 and P8 stopped their export when the preview showed empty columns. In all 5 accounts, the import mapping had skipped those columns; we checked in the admin view during the session.
 
-[Image: export preview with three empty columns, P4's session, 08:15. Caption: the moment P4 stopped. The empty columns are the ones unmapped at import.]
+> "The columns just aren't there. I thought export was broken, but it's the import that never had them." — P3, operations analyst, 120 seats
 
-**What cuts against it:** P2 and P5 exported successfully with all columns; both had been onboarded by a CS manager who ran the import for them. P7's export failed for a different reason (Finding 2).
+> "I've done this four times and every time I assume it's me." — P6, account manager, 95 seats
 
-**What it means:** Rebuilding the dialog would not have helped five of the six people who abandoned. The fix is earlier in the journey, which also means it belongs to a different team.
+[Image: the export preview with three empty columns, from P4's session at 08:15. Caption: the moment P4 stopped. The empty columns are the ones left unmapped at import.]
 
-**More:** appendix B, coding frame rows 1 to 14; clips P3 41, P6 12:40, P8 06:02.
+**What cuts against it:** P2 and P5 exported with every column present. Both had a CS manager run their import for them. P7's export failed for a different reason (finding 2).
 
-### Finding 2: Finance-team participants could not complete any export
+**What it means:** A rebuilt dialog would not have helped 5 of the 6 people who abandoned. The fix sits earlier in the journey, so it belongs to a different team.
 
-**Strength:** Weak on count (two of eight), labelled a serious case because the task was fully blocked.
-**Answers:** the secondary question on where abandonment happens.
+**More:** appendix B, coding frame rows 1 to 14; clips P3 line 41, P6 12:40, P8 06:02.
 
-P5 and P7, both reconciling Ledgerline against an external finance system, needed a fixed column order that the export cannot produce. Both tried twice and gave up. P7, 22:10: "If the order's wrong the reconciliation tool rejects the whole file, so there's no point."
+### Finding 2: Both finance-team participants could not get a file their finance system accepts
 
-**What cuts against it:** The other six participants had no column-order requirement. This may be a segment problem rather than a general one.
+**Strength:** Weak, because it rests on 2 participants from one segment. It's on this list because their task was fully blocked.
+**Answers:** the secondary question on where people abandon.
 
-**What it means:** A small, specific group is fully blocked. Worth sizing before deciding: Support can tell us how many finance-team customers have raised this.
+P5 and P7 both reconcile Ledgerline against an external finance system, which needs a fixed column order that export cannot produce. P7 tried twice and gave up. P5 finished the export, but their reconciliation tool rejected the file.
 
-**More:** appendix B rows 15 to 19.
+> "If the order's wrong the reconciliation tool rejects the whole file, so there's no point." — P7, finance controller, 450 seats
 
-### Finding 3: The workaround is email
+**What cuts against it:** The other 6 participants had no column-order need, so this may be a problem for one segment, not for everyone.
 
-**Strength:** Strong; six of eight described it unprompted.
+**What it means:** A small, specific group is fully blocked. Support can count how many finance-team customers have raised this, which sizes it before the decision.
 
-P1, P3, P4, P6, P7 and P8 had sent a raw export to a colleague to fix by hand. P1, line 15: "Sent the raw file to a colleague and asked them to fix it." This is the behaviour that hides the problem from analytics: the export funnel shows a completion, then the real work happens in email.
+**More:** appendix B, rows 15 to 19.
 
-**What cuts against it:** P2 and P5 did not report a workaround; P2 exports rarely.
+### Finding 3: 6 of 8 work around export by emailing the file to a colleague
 
-**What it means:** The 212 support tickets understate the problem; most people route around it without telling us.
+**Strength:** Strong, because 6 participants described it without being asked.
 
-### Finding 4: Nobody understood "Include hidden fields"
+P1, P3, P4, P6, P7 and P8 had each sent a raw export to a colleague to fix by hand. This is what hides the problem from analytics: the funnel records a completed export, and the real work then happens in email.
 
-**Strength:** Moderate; seven of eight, but we didn't test alternatives.
+> "Sent the raw file to [name] and asked them to fix it." — P1, operations manager, 80 seats
 
-Seven of eight either skipped the checkbox or ticked it and then untick it when the preview changed. Nobody could say what a hidden field was. P4, 09:30: "Hidden from who?"
+**What cuts against it:** P2 and P5 reported no workaround. P2 rarely exports.
 
-**What cuts against it:** P8 used it correctly, having read the help article.
+**What it means:** The 212 support tickets understate the problem, because most people route around it without telling us.
 
-**What it means:** A labelling fix, cheap, inside the dialog. Not the reason for abandonment, but a free improvement.
+### Finding 4: 7 of 8 couldn't say what "Include hidden fields" does
 
-### Finding 5: Filename confusion is real but minor
+**Strength:** Moderate, because 7 of 8 is a clear pattern, but we didn't test other labels.
 
-**Strength:** Weak.
+Everyone except P8 either skipped the checkbox, or ticked it and then unticked it when the preview changed. None of the 7 could say what a hidden field was.
 
-Three of eight mentioned renaming the default file. Nobody stopped because of it. Logged so it isn't raised again as a priority.
+> "Hidden from who?" — P4, reporting lead, 310 seats
+
+**What cuts against it:** P8 used the option correctly after reading the help article.
+
+**What it means:** This is a cheap labelling fix inside the dialog. It isn't why people abandon, but it costs little to fix.
 
 ## Other findings
 
-- Two participants (P2, P6) expected export to schedule itself monthly. Unexpected; worth a line in the roadmap discussion. Weak.
-- Three of eight (P1, P5, P7) re-selected the same columns every time because the dialog doesn't remember the last choice. Not why they abandoned. Weak.
+- **Filename:** P1, P5 and P7 renamed the default file before sending it, and none of them stopped because of it. This is weak, and it's recorded so it isn't raised again as a priority.
+- **Scheduled export:** P2 and P6 expected export to run on a monthly schedule by itself. This is weak and unexpected, and it's worth a line in the roadmap discussion.
+- **Column choice:** P1, P5 and P7 re-selected the same columns every time because the dialog doesn't remember the last choice. This is weak and wasn't why anyone abandoned.
 
 ## Recommendations
 
-| # | Action | Owner | Rests on | Moves | Confidence |
-| -- | ------------------------------ | -------------- | ---------- | ---------------- | -------- |
-| 1 | Add a column-mapping check at import that warns when columns used by saved reports are unmapped | Data Pipeline (Lena Fischer) | Finding 1 | Weekly active sharers; export support tickets | High |
-| 2 | Defer the export dialog rebuild until recommendation 1 ships and is measured | Sam Okafor | Findings 1, 3 | Q1 engineering capacity | High |
-| 3 | Size the finance-team blocker: count customers who need fixed column order | Support (Marco Ruiz) with CS | Finding 2 | Decides whether a column-order option is Q1 or later | Medium |
-| 4 | Relabel "Include hidden fields" with a plain description and an example | Design (Aisha Bello) | Finding 4 | Export completion rate | Medium |
+| Action | Owner | Rests on | Moves | Confidence |
+| --- | --- | --- | --- | --- |
+| 1. Add a check at import that warns when columns used by saved reports are unmapped | Data Pipeline (Lena Fischer) | Finding 1 | Weekly active sharers; export tickets | Strong |
+| 2. Defer the export dialog rebuild until recommendation 1 ships and is measured | Sam Okafor | Findings 1 and 3 | Q1 engineering capacity | Strong |
+| 3. Count the customers who need a fixed column order | Support (Marco Ruiz), with CS | Finding 2 | Whether a column-order option goes in Q1 or later | Moderate |
+| 4. Relabel "Include hidden fields" with a plain description and an example | Design (Aisha Bello) | Finding 4 | Export completion rate | Moderate |
 
-Recommendation 2 is the uncomfortable one: the study was commissioned to inform a dialog rebuild. The evidence says the rebuild would miss the cause. If the rebuild goes ahead anyway, Finding 1 should be in the brief so the new dialog at least shows why columns are empty.
+Recommendation 2 is the uncomfortable one, because the study was commissioned to inform a dialog rebuild and the evidence says the rebuild would miss the cause. If the rebuild goes ahead anyway, finding 1 should be in its brief, so the new dialog at least explains why columns are empty.
 
 ## Next steps
 
-- Sam decides by 30 October; this report and the readout deck are the inputs.
-- Marco returns the finance-team count by 24 October.
-- If recommendation 1 is approved, Priya runs three follow-up sessions with finance-team customers in November to test the column-order need.
-- Open question: does the same import gap affect scheduled reports? Nothing yet; add to the research backlog.
+1. Marco returns the count of finance-team customers by 24 October.
+2. Sam decides by 30 October, with this report and the readout deck as the inputs.
+3. If recommendation 1 is approved, Priya runs 3 follow-up sessions with finance-team customers in November to test the column-order need.
+4. The open question is whether the same import gap affects scheduled reports. Nothing answers it yet, so it goes on the research backlog.
 
 ## Limits
 
-- Eight participants, all from accounts onboarded by CS; self-serve customers may differ.
-- Two of eight were finance-team users, so Finding 2 could be bigger or smaller than it looks.
-- Sessions were on participants' own accounts, so we saw their real data but could not control for how recently they imported.
-- Challenge skipped during planning: we did not pull the export funnel from analytics before recruiting, so we can't say what share of all customers hit Finding 1. Logged as a risk on 3 October.
+- **Recruiting:** All 8 participants were recruited through CS, so they're customers CS already knows. Self-serve customers may differ.
+- **Finance teams:** Only 2 of 8 were from finance teams, so finding 2 could be bigger or smaller than it looks.
+- **Own accounts:** Sessions used participants' own accounts, so we saw their real data but couldn't control how recently they had imported.
+- **Skipped challenge:** We didn't pull the export funnel from analytics before recruiting, so we can't say what share of all customers hit finding 1. This was logged as a risk on 3 October 2026.
 
 ## Glossary
 
 - **Column mapping:** matching the columns in a customer's uploaded file to Ledgerline's fields at import.
-- **Report builder:** the persona who builds and shares reports weekly; defined in the team profile.
+- **Report builder:** the persona who builds and shares reports weekly, as defined in the team profile.
 
 ## Appendix
 
-- A. Participant profile (eight rows: segment, seat count, days since signup, role)
+- [A. Participant profile](#a-participant-profile)
 - B. Full findings with coding frame and all supporting quotes
 - C. Research plan, interview guide and usability task script
-- D. Partner data used: Support ticket export (2 October), field rep summary (29 September), 2025 admin survey (E2)
-- E. Consent, recording, storage and retention: standard notice v3; recordings deleted 14 January 2027
-- F. Independent review: 11 points raised, 8 accepted, 3 answered (see change log)
-- G. Library entries: three, one per strong finding
-- H. Recordings and clips (access-controlled)
+- D. Partner data used: Support ticket export (2 October 2026), field rep summary (29 September 2026), 2025 admin survey (E2)
+- E. Consent, recording, storage and retention: standard notice v3, which tells participants an AI assistant helps analyse the sessions; recordings deleted 14 January 2027
+- F. Independent review: 11 points raised, 8 accepted, 3 answered (see the record's change log)
+- [G. How AI was used](#g-how-ai-was-used)
+- H. Library entries: three, one per strong finding
+- I. Recordings and clips (access-controlled)
+
+### A. Participant profile
+
+| Code | Role | Seats | Days since signup | Team |
+| --- | --- | --- | --- | --- |
+| P1 | Operations manager | 80 | 41 | Operations |
+| P2 | Office manager | 60 | 72 | Operations |
+| P3 | Operations analyst | 120 | 28 | Operations |
+| P4 | Reporting lead | 310 | 55 | Reporting |
+| P5 | Finance analyst | 200 | 63 | Finance |
+| P6 | Account manager | 95 | 19 | Sales |
+| P7 | Finance controller | 450 | 84 | Finance |
+| P8 | Data analyst | 150 | 37 | Reporting |
+
+### G. How AI was used
+
+- **Assistant:** Magpie, running in Claude Code.
+- **What it drafted:** the research plan, the interview guide and task script, the candidate themes and findings, this report and the readout deck.
+- **What the researcher did:** Priya framed the decision and the research questions, ran all 8 sessions, named her own patterns before seeing Magpie's themes, kept, changed or dropped each theme, and wrote the recommendations with each owner. She reviewed the findings on 12 October 2026 and this report on 14 October 2026.
+- **Checks:** quotes and counts were checked by code against the transcripts. A separate AI reviewer saw only the transcripts and the draft findings, raised 11 points, and 8 changed the findings. The reviewer is a model too and can be wrong.
+- **Other AI tools in the study:** the sessions were transcribed by the video tool's built-in transcription, and Priya corrected the transcripts against the recordings.
