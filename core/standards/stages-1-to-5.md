@@ -64,7 +64,7 @@ to do.
 | 4.5 | The plan names the participant source's fraud risk, a disqualification threshold and a replacement protocol; suspect transcripts are screened before coding | S10 | `evals/scenarios/panel-fraud.md` |
 | 4.6 | The plan includes disabled participants and assistive technology users, with recruiting lead time and access arrangements (own devices, usable consent, venue), or says under trade-offs why not | S28 (include disability in the spread; lead times; screen for access needs); S36 (own assistive technology, usable consent); S37 in part (about one in five) | `evals/scenarios/no-access-plan.md` |
 | 4.7 | When the Product section names end users, recruiting starts from them; buyers or admins stand in for them only when the decision is about them, and the plan says so | practitioner judgment | `evals/scenarios/unknown-product.md` |
-| 4.8 | When an AI tool will moderate sessions, the consent plan says participants are told before the session that they'll talk with an AI, not a person, and how to stop or reach a person; a plan without it gets the consent red flag | practitioner judgment | `evals/scenarios/ai-moderator-consent.md` |
+| 4.8 | When an AI tool will moderate, transcribe, summarize or analyze the sessions (Magpie included), the consent plan says what participants are told about each before the session; for an AI moderator, that they'll talk with an AI and how to stop or reach a person; a plan without it gets the consent red flag | practitioner judgment | `evals/scenarios/ai-tools-consent.md` |
 
 ## Stage 5: instrument
 

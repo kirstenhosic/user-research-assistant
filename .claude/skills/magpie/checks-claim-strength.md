@@ -23,7 +23,15 @@ does the wording match the evidence?
    renewed more" is not "feature X causes renewal". Say what's known and
    what would be needed to know more.
 6. **Quotes carry a code, not a conclusion.** Each quote has a participant
-   code and a location. One quote illustrates; it doesn't prove.
+   code and a location. One quote illustrates; it doesn't prove. In a
+   readout or report, the code comes with a short descriptor from the
+   participant list, so the reader knows who is speaking: "— P3, finance
+   manager, SMB". Use the role and the team's own segment names (company
+   size or type, plan, region, end user or buyer), the ones that matter
+   for this decision, or the team profile's quote label if it sets one.
+   Never a name or a company name. If a combination would point to one
+   person (the only CTO in the study), use a broader label and say so
+   once (`operating.md`, "Personal details in the material").
 7. **Secondhand stays secondhand.** A finding that rests on partner data or
    a stakeholder's account is labelled that way and can't be "strong" on
    its own.

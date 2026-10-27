@@ -92,6 +92,7 @@ downstream effects.
 - **Default challenge level:** [standard / push me / light]
 - **Personality:** [on / off]
 - **Readout format the team likes:** [slides / doc / both]
+- **Quote label:** [what follows the participant code on a quote, such as role and company size: "P3, finance manager, SMB"]
 - **Anything else Magpie should know:** [ ]
 
 ---

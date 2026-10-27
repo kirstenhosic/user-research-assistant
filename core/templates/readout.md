@@ -49,7 +49,7 @@ PM and engineering audience: enough to believe it and act on it, no more.
 
 - [Evidence with numbers: "6 of 8 participants…"]
 - [Receipts: at least two participant codes with locations, or "single case"]
-- [One quote with a participant code, two at most]
+- [One quote with a participant code and descriptor, "— P3, finance manager, SMB"; two at most]
 - **What cuts against it:** [who didn't fit, in one line]
 - **What it means:** [one line]
 

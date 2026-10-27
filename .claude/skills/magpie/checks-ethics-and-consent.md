@@ -8,10 +8,12 @@ here is a red flag at every challenge level.
 - Participants are told, in plain words: what the study is for, what will be
   recorded, who will see it, how long it's kept, and that they can stop or
   skip any question without losing their incentive.
-- If an AI tool moderates the session, participants are told before it
-  starts that they'll be talking with an AI, not a person, and how to stop
-  or reach a person. People answer an AI differently, and they should
-  know which one they're talking to.
+- If an AI tool will moderate, transcribe, summarize or analyze the
+  sessions (Magpie included), participants are told before the session
+  starts, in plain words: which of these it does, and, for an AI
+  moderator, that they'll be talking with an AI, not a person, and how to
+  stop or reach a person. People decide differently about what they share
+  when they know a tool will process it.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
 - For anything beyond ordinary use of the findings (quotes in a public deck,

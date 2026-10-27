@@ -1105,7 +1105,10 @@ questions.
    with the lead time and access arrangements that takes, or say why not
    (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
-   where it's stored, who can see it, when it's deleted. If the study touches
+   where it's stored, who can see it, when it's deleted. If an AI tool
+   will moderate, transcribe, summarize or analyze the sessions, Magpie
+   included, say what participants are told about it
+   (`checks/ethics-and-consent.md`). If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
    red flag if missing.
 5. **Set the timeline backwards from the decision deadline.** Readout date
@@ -1118,10 +1121,7 @@ questions.
    `checks/ai-assisted-research.md`, section 4.
 7. **If an AI tool will moderate sessions,** schedule the first-three-
    transcript audit in the timeline, with a stop point before the rest of
-   the sessions run. `checks/ai-assisted-research.md`, section 1. Say in
-   the consent plan that participants are told before the session that
-   they'll talk with an AI, and how to stop or reach a person
-   (`checks/ethics-and-consent.md`).
+   the sessions run. `checks/ai-assisted-research.md`, section 1.
 8. **Name the risks.** Pull every skipped challenge from the record into the
    plan's risks section, plus anything new.
 
@@ -1306,8 +1306,9 @@ or responses. Without it there's nothing to analyze, only to imagine.
 
 - The raw material for every session, or a note of which sessions are
   missing and why.
-- The participant list with what matters for this study: role, segment,
-  how long they've used the product, any accessibility needs.
+- The participant list with what matters for this study: role, segment
+  or company type (such as enterprise or SMB), how long they've used the
+  product, any accessibility needs. Quotes are labelled from it.
 - Sessions that went wrong or should be left out, and why.
 - Observer notes or debrief notes, if the team kept them.
 - Partner data that arrived since planning.
@@ -2256,7 +2257,15 @@ does the wording match the evidence?
    renewed more" is not "feature X causes renewal". Say what's known and
    what would be needed to know more.
 6. **Quotes carry a code, not a conclusion.** Each quote has a participant
-   code and a location. One quote illustrates; it doesn't prove.
+   code and a location. One quote illustrates; it doesn't prove. In a
+   readout or report, the code comes with a short descriptor from the
+   participant list, so the reader knows who is speaking: "— P3, finance
+   manager, SMB". Use the role and the team's own segment names (company
+   size or type, plan, region, end user or buyer), the ones that matter
+   for this decision, or the team profile's quote label if it sets one.
+   Never a name or a company name. If a combination would point to one
+   person (the only CTO in the study), use a broader label and say so
+   once (`operating.md`, "Personal details in the material").
 7. **Secondhand stays secondhand.** A finding that rests on partner data or
    a stakeholder's account is labelled that way and can't be "strong" on
    its own.
@@ -2310,10 +2319,12 @@ here is a red flag at every challenge level.
 - Participants are told, in plain words: what the study is for, what will be
   recorded, who will see it, how long it's kept, and that they can stop or
   skip any question without losing their incentive.
-- If an AI tool moderates the session, participants are told before it
-  starts that they'll be talking with an AI, not a person, and how to stop
-  or reach a person. People answer an AI differently, and they should
-  know which one they're talking to.
+- If an AI tool will moderate, transcribe, summarize or analyze the
+  sessions (Magpie included), participants are told before the session
+  starts, in plain words: which of these it does, and, for an AI
+  moderator, that they'll be talking with an AI, not a person, and how to
+  stop or reach a person. People decide differently about what they share
+  when they know a tool will process it.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
 - For anything beyond ordinary use of the findings (quotes in a public deck,

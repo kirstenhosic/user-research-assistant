@@ -63,7 +63,7 @@ What the team believes now, and what we'd need to see to change our minds.
 ## Consent and data
 
 - **What participants are told:** [purpose, recording, who sees it, can stop]
-- **AI moderator:** [none / what participants are told before the session, and how they stop or reach a person]
+- **AI tools that touch the sessions:** [none / which tools moderate, transcribe, summarize or analyze, and what participants are told about each before the session; for an AI moderator, how they stop or reach a person]
 - **What's recorded and where it's stored:** [ ]
 - **Who can see raw data:** [ ]
 - **Deletion date:** [ ]

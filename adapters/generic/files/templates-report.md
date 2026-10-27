@@ -75,7 +75,8 @@ caption saying what to see in it.
 **Strength:** [strong / moderate / weak], because [one line].
 **Answers:** [question].
 
-[Evidence with numbers and participant codes. Two or three quotes at most.]
+[Evidence with numbers and participant codes. Two or three quotes at most,
+each with its code and descriptor: "— P3, finance manager, SMB".]
 
 [Image with caption, if it helps.]
 

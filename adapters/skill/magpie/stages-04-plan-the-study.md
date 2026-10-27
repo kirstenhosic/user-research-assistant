@@ -51,7 +51,10 @@ questions.
    with the lead time and access arrangements that takes, or say why not
    (`lenses-accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
-   where it's stored, who can see it, when it's deleted. If the study touches
+   where it's stored, who can see it, when it's deleted. If an AI tool
+   will moderate, transcribe, summarize or analyze the sessions, Magpie
+   included, say what participants are told about it
+   (`checks-ethics-and-consent.md`). If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
    red flag if missing.
 5. **Set the timeline backwards from the decision deadline.** Readout date
@@ -64,10 +67,7 @@ questions.
    `checks-ai-assisted-research.md`, section 4.
 7. **If an AI tool will moderate sessions,** schedule the first-three-
    transcript audit in the timeline, with a stop point before the rest of
-   the sessions run. `checks-ai-assisted-research.md`, section 1. Say in
-   the consent plan that participants are told before the session that
-   they'll talk with an AI, and how to stop or reach a person
-   (`checks-ethics-and-consent.md`).
+   the sessions run. `checks-ai-assisted-research.md`, section 1.
 8. **Name the risks.** Pull every skipped challenge from the record into the
    plan's risks section, plus anything new.
 
