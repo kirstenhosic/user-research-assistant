@@ -2,6 +2,8 @@
 
 ## 2026-10-27
 
+- GitHub Actions workflow runs `tools/check.py` on every pull request and
+  push to main, so the maintenance check shows as a status on the PR.
 - README reviewed for plain language and American English spelling,
   punctuation and dates.
 - README: a methods table saying what each of the eleven methods is for
