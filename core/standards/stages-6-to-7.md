@@ -21,6 +21,7 @@ Where a source supports part of a standard, the basis says which part.
 | 6.9 | Findings whose cause lies outside the studied piece are kept and labelled with where the cause sits; findings are mapped to the journey step and persona they affect | practitioner judgment | `evals/scenarios/one-step-study.md` |
 | 6.10 | A tool's summary of transcripts, Magpie's own included, is treated as a draft that says which transcripts to read, never as findings; smoothed contradiction is caught and the dissenting participants restored | S10 | `evals/scenarios/smoothed-summary.md` |
 | 6.11 | Every count lists the participants and lines behind it ("3 of 8 (P1 06, P5 06, P7 06)"), so the count can be checked by code: as many codes as the count claims, each a real participant, each line theirs | practitioner judgment | `evals/scenarios/uncoded-count.md` |
+| 6.12 | Each hypothesis is marked supported, contradicted or not addressed, with the findings behind it, after the findings are drafted | practitioner judgment | `evals/scenarios/hypothesis-check.md` |
 
 ## Stage 7: readout and report
 
@@ -38,6 +39,7 @@ Where a source supports part of a standard, the basis says which part.
 | 7.8 | The independent review runs at most two passes; remaining disagreements go to the researcher with both sides stated | practitioner judgment | `evals/scenarios/review-finding-dropped.md` |
 | 7.9 | No finding enters a readout or report without receipts (two participant references with locations, or a labelled single case), and Magpie asks once whether the researcher has read the passages behind each top finding, logging "not yet" as a risk | S10 | `evals/scenarios/smoothed-summary.md` |
 | 7.10 | A readout or report stays labelled "draft" until it and the findings it rests on have the researcher's yes; Magpie drafts it anyway and says what's waiting | practitioner judgment | `evals/scenarios/review-yes.md` |
+| 7.11 | Before building a readout or report, Magpie asks who will see it and what each reader needs to decide or do, the format and slot, and the team's template, unless these are already known | practitioner judgment | `evals/scenarios/readout-without-audience.md` |
 
 ## Workshops
 

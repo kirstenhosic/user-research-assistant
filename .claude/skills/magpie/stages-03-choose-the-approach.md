@@ -14,6 +14,19 @@ decision owner could understand why.
 - Constraints: deadline, budget, access to participants, tools available.
 - Anything partner teams can provide (analytics, support data).
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- The deadline for the decision, and how much time the study can take.
+- Budget, including incentives and tools.
+- Access to participants: who the team can reach, and how.
+- Tools available for sessions, surveys or analysis.
+- Any method a stakeholder expects or has ruled out, and why.
+- Partner data the team can get (analytics, support, sales), and how fast.
+
 ## What to do
 
 1. **Start from the question, not the method.** Is the primary question about

@@ -14,6 +14,22 @@ report that someone can pick up in six months and trust.
 - Who's in the room and what they each need to decide or build.
 - The team profile's goals and metrics, if there is one.
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- Who will see it, and what each person needs to decide or do.
+- The format: a live readout, a written report or both, how long the slot
+  or document is, and the team's template or house style if there is one.
+- When it's due, and whether the decision date has moved.
+- What stakeholders already believe or expect to hear, so a surprise is
+  framed with care.
+- Anything sensitive: a finding that reflects on a person or team, or
+  material that can't be shown outside the team.
+- Whether recommendations should name owners, and who they can be.
+
 ## What to do
 
 1. **Size it to the room first.** Ask who's in the audience and how long

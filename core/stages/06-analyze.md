@@ -16,6 +16,21 @@ fit.
   sheets, survey exports, diary entries. Pasted or uploaded.
 - Partner data gathered along the way.
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- The raw material for every session, or a note of which sessions are
+  missing and why.
+- The participant list with what matters for this study: role, segment,
+  how long they've used the product, any accessibility needs.
+- Sessions that went wrong or should be left out, and why.
+- Observer notes or debrief notes, if the team kept them.
+- Partner data that arrived since planning.
+- The research questions and hypotheses, if they aren't in the record.
+
 ## What to do
 
 1. **Anchor on the questions.** Re-read the research questions before
@@ -51,22 +66,27 @@ fit.
    "most". Write each count with the people and lines behind it, "3 of 8
    (P1 06, P5 06, P7 06)", so the count can be checked by code instead of
    by trust.
-8. **Look outside the frame.** Some findings point upstream or downstream
+8. **Check the hypotheses.** Once the findings are drafted, say for each
+   hypothesis in the record whether the evidence supports it, contradicts
+   it or doesn't speak to it, with the findings behind each, and update its
+   status. Do this after coding, not before, so the hypotheses don't steer
+   what you see.
+9. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses/systems-and-journeys.md`).
-9. **Bring in partner data where it applies.** Say whether it agrees,
+10. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-10. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+11. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-11. **Run the code checks if you can** (`tools/checks/`): every quote matches
+12. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-12. **Request the independent review** (`review/independent-review.md`) once
+13. **Request the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage.
 
 ## Survey data

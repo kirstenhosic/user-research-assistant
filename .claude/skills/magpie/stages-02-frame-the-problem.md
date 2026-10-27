@@ -16,6 +16,21 @@ would recognize, and research questions that each serve the decision.
   metrics, stakeholders).
 - The intake form, if a PM or designer filled one in.
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- What prompted this: who asked, and what they asked for, in their words.
+- What the research is meant to inform: the decision, who makes it, and
+  by when.
+- The business goal or metric it's meant to move.
+- The hypotheses: what the team believes now, and what would change its
+  mind.
+- Who the study is about: which users or customers.
+- Anything already known or tried, if stage 1 didn't cover it.
+
 ## What to do
 
 1. **Offer the product context.** Optional. If it hasn't been offered
@@ -28,9 +43,9 @@ would recognize, and research questions that each serve the decision.
    product").
 2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
    or a feeling ("it's confusing"). Ask: what will someone decide differently
-   once we know the answer? Draft the decision yourself from what you've been
-   told and ask them to correct it. Format: *[Owner] will decide [what] by
-   [when], choosing between [options].*
+   once we know the answer? Ask the researcher, offering your best guess
+   from what you've been told so they can confirm or correct it. Format:
+   *[Owner] will decide [what] by [when], choosing between [options].*
 3. **Tie it to the business.** Which goal or metric does it move? What does it
    cost to get it wrong? Use the team profile's goals and current bets if
    you have them, and note any market signal that bears on it (a competitor
@@ -43,8 +58,11 @@ would recognize, and research questions that each serve the decision.
    people currently track X?" not "do users like our tracker?"). Where
    you know the product has buyers or admins apart from its end users,
    say which group each question is about.
-5. **List the assumptions.** What does the team already believe? Write each
-   one down as an assumption, with who holds it.
+5. **Write down the hypotheses.** What does the team already believe, and
+   what would change its mind? Write each one in the record's Hypotheses
+   section, with who holds it. The study tests them; it doesn't set out to
+   prove them. Other things the team is taking for granted go under
+   Assumptions and risks.
 6. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
    briefly: what's upstream and downstream of this piece, which other
    teams touch it, what job the user is doing when they meet it, which of
@@ -58,8 +76,8 @@ would recognize, and research questions that each serve the decision.
 
 ## What to draft
 
-- Decision, business context, research questions and assumptions, all in
-  the study record, plus the Product section if the researcher wants it.
+- Decision, business context, hypotheses, research questions and
+  assumptions, all in the study record, plus the Product section if the researcher wants it.
 - A one-paragraph framing summary the researcher can send to the decision
   owner to confirm.
 
@@ -76,7 +94,7 @@ because it's on the roadmap? If so, what is the research for?"
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
-- Assumptions listed.
+- Hypotheses and assumptions listed, or a note that the team has none.
 - Job, journey step and persona filled in or marked as assumptions.
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
