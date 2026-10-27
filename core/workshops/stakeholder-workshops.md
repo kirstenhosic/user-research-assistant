@@ -14,6 +14,8 @@ into ideas and decisions (after stage 7). Not a readout; people make things.
 
 ## Don't use one when
 
+- You want the people the decision is about to shape the design. That's
+  research with users: `methods/participatory-design.md`.
 - The decision owner has already decided. Run a readout and move on.
 - The point is to inform, not to make something. A workshop that could have
   been a document wastes the room's time.

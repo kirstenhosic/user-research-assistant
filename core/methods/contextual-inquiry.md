@@ -3,6 +3,10 @@
 Watch people do their real work in their real setting, and ask about it as
 it happens.
 
+This is one kind of field study. `methods/field-studies.md` covers the
+others (direct observation, site visits, ethnography, remote sessions) and
+how to choose between them.
+
 ## Use it when
 
 - The question is about how work actually gets done, including the

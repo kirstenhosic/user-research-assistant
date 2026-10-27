@@ -22,7 +22,8 @@ delete it by [date]. You can stop at any time. OK to start?
 ## Tasks
 
 For each task, record: completed / completed with difficulty / failed, time,
-what happened, and what they said.
+ease rating and why, what happened, and what they said. Ask follow-ups after
+the task, not during it.
 
 ### Task 1 → RQ[n]
 
@@ -31,24 +32,29 @@ names]. Show me how you'd do that.
 
 **Success:** [what done looks like]
 **Watch for:** [the thing we're worried about]
-**After:** How did that go? What did you expect to happen?
+**After:** Overall, how easy or difficult was that task, from 1, very
+difficult, to 7, very easy? Why that rating? What did you expect to happen?
 
 ### Task 2 → RQ[n]
 
 **Scenario:**
 **Success:**
 **Watch for:**
-**After:**
+**After:** Ease rating (1–7), why that rating, what they expected.
 
 ### Task 3 → RQ[n]
 
 **Scenario:**
 **Success:**
 **Watch for:**
-**After:**
+**After:** Ease rating (1–7), why that rating, what they expected.
 
-## Close (5 min)
+## Debrief and close (5–10 min)
 
+- When you [something they did, described neutrally], what were you
+  looking for?
+- What was the hardest part?
+- Was anything different from what you expected?
 - Overall, how was that compared to how you do it now?
 - Anything you expected to find and didn't?
 - Thanks. Here's what happens next: [incentive, findings].
@@ -64,6 +70,6 @@ names]. Show me how you'd do that.
 
 ## Observer sheet
 
-| Task | P# | Result | Time | What happened | Quote |
-| --- | --- | --- | --- | --- | --- |
-| | | | | | |
+| Task | P# | Result | Time | Ease (1–7) and why | What happened | Quote |
+| --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | |

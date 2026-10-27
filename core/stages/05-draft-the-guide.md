@@ -31,6 +31,9 @@ need, and leads nobody.
    why those items matter least.
 6. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
    what to watch for in the pilot.
+7. **Check it works with assistive technology.** If participants use a
+   screen reader, magnification or voice control, try the instrument or
+   prototype with it before the sessions (`lenses/accessibility.md`).
 
 ## What to draft
 

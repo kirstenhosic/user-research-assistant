@@ -32,7 +32,7 @@ or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
   reports follow a tested shape: why first, a short note on method, up to five
   top findings, the other findings on one page so nothing is dropped,
   recommendations with owners, next steps, appendix.
-- **Covers eleven methods.** The table below says what each one is for
+- **Covers fifteen methods.** The table below says what each one is for
   and what Magpie gives you.
 
 ## What you can do with it
@@ -49,6 +49,10 @@ it will suggest a method. You can also name one yourself.
 | [Contextual inquiry](core/methods/contextual-inquiry.md) | How real work happens in its real setting | A plan, question prompts, an observation sheet, and a map of the workflow and where it breaks down |
 | [Concept and value testing](core/methods/concept-testing.md) | Whether an idea solves a problem people have, before it's built | A session guide and patterns in how people reacted, with a reminder that "I'd use it" is not the same as using it |
 | [Diary studies](core/methods/diary-studies.md) | Behavior over days or weeks, as it happens | Entry prompts, an exit interview guide, and themes over time |
+| [Field studies](core/methods/field-studies.md) | How people work in their own setting: direct observation, site visits, remote sessions | A way to choose the kind of field study, an observation guide, and rules for observers |
+| [Focus groups](core/methods/focus-groups.md) | What a group of people want, in their own words, early on | A check on whether a group fits the question, a discussion guide with a write-alone step, and analysis that doesn't count nods as votes |
+| [Participatory design](core/methods/participatory-design.md) | What matters to people, from what they make when given the materials | A session plan with a making kit and a "tell us about it" step, and themes from their explanations |
+| [Expert review](core/methods/expert-review.md) | Likely usability problems, found by reviewers before users see the design | A heuristic evaluation or cognitive walkthrough plan, and an issue list labeled as predictions until users confirm them |
 | [Card sorting and tree testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, and whether they can find them | A card list and task list, and findings on how people group things and whether they can find them |
 | [Evidence review](core/methods/evidence-review.md) | What the organization already knows, before running anything new | An evidence log with how fresh and how trustworthy each source is, a summary of the gaps, and a one-page evidence brief |
 | [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job, and what would fit your users | A comparison table built around the user's job, not the feature list |
@@ -88,16 +92,16 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
 
 As of October 27, 2026. This section is updated with each release.
 
-- **Tested.** All 36 test scenarios in [`evals/scenarios/`](evals/scenarios/)
-  were run in Claude Code without access to the answers, then judged
+- **Tested.** The first 36 test scenarios in [`evals/scenarios/`](evals/scenarios/)
+  (four more have been added since and not yet run) were run in Claude Code without access to the answers, then judged
   against their pass and fail lists: 31 pass, 5 partial with reasons, 0
   fail. Two made-up studies with answer keys in
   [`evals/fixtures/`](evals/fixtures/) were run the same way, and every
   planted problem was caught. The results, and the limits of this method
   (the judge was the same kind of AI model), are in
   [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md).
-- **What backs the rules.** Magpie follows 60 written standards in
-  [`core/standards/`](core/standards/). 34 cite a public source in full or
+- **What backs the rules.** Magpie follows 63 written standards in
+  [`core/standards/`](core/standards/). 37 cite a public source in full or
   in part (the ICC/ESOMAR code, Braun and Clarke, Nielsen Norman Group
   articles, the GOV.UK Service Manual). The rest rest on professional
   judgment and say so. [`docs/PROVENANCE.md`](docs/PROVENANCE.md) lists

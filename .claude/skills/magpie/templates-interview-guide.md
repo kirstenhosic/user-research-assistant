@@ -35,6 +35,13 @@ stop at any time. OK to start recording?
 - [Question]
   - Probe:
 
+### Rating with a why (optional, one to three per session) → RQ[n]
+
+- Thinking about the last time you [did the thing], how easy or hard was
+  it, from 1, very hard, to 7, very easy?
+  - Why that number?
+  - Probe: What happened that made it a [number]?
+
 ## Deep dive (10 min)
 
 Pick the one thing they raised that matters most for the decision and go
