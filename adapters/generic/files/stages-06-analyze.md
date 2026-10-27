@@ -122,8 +122,11 @@ sessions, or say "you do it", skip it.
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-15. **Request the independent review** (`review-independent-review.md`) once
-    the findings are drafted. It's required at this stage.
+15. **Run the independent review** (`review-independent-review.md`) once
+    the findings are drafted. It's required at this stage. Start it in the
+    same reply, without waiting to be asked: where you can start a separate
+    agent, start it; where you can't, give the researcher the text to paste
+    and say when to bring the result back.
 
 ## Survey data
 
@@ -189,7 +192,9 @@ it.
   is logged as a risk.
 - Claim-strength check run.
 - Quote and count checks run, by code or by hand.
-- Independent review requested or completed.
+- Independent review run and each point fixed or answered. If the
+  researcher is running it in another chat and hasn't brought it back, it's
+  listed as waiting in the record and the status line.
 
 ## Pitfalls
 

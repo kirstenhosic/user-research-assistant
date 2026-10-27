@@ -10,7 +10,9 @@ report that someone can pick up in six months and trust.
 
 ## Inputs
 
-- The study record through stage 6, with the independent review done.
+- The study record through stage 6, with the independent review done. If
+  it isn't, say so in one line and run it (or give the researcher the text
+  to paste) before drafting the readout.
 - Who's in the room and what they each need to decide or build.
 - The team profile's goals and metrics, if there is one.
 
@@ -111,12 +113,21 @@ again.
     or the recommendations. If there's nothing for them, say so, so they
     can stop reading. Then sweep for terms a new PM would have to look up
     and replace each or add a four-word gloss.
-14. **Request the independent review** on the final report
-    (`review-independent-review.md`). It's required.
-15. **Write the library entries.** One per finding worth keeping
+14. **Check the quotes and counts again** in the readout and report.
+    Wording changes between the record and the deck, so run the code
+    checks (`scripts/`) on both: every quote matches its transcript
+    and the person it's credited to, every count's arithmetic holds, and
+    every count lists as many participants as it claims. Where you can't
+    run code, do it by hand and say so.
+15. **Run the independent review** on the final report
+    (`review-independent-review.md`). It's required. Start it in the same
+    reply, as at stage 6: start a separate agent where you can, otherwise
+    give the researcher the text to paste and say when to bring the result
+    back.
+16. **Write the library entries.** One per finding worth keeping
     (`team-research-library-entry.md`), so the next study finds them at
     stage 1.
-16. **Close the loop with partners.** Send each team that helped the two or
+17. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
@@ -150,6 +161,8 @@ PM measure to know it worked?"
   contents list, method in one paragraph, admin detail in the appendix.
 - Limits drafted, shown to the researcher, and their decision recorded;
   limits present in the report regardless.
+- Quote and count checks run on the readout and report, by code or by
+  hand.
 - Independent review done on the report.
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".
