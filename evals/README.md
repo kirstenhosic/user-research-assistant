@@ -22,6 +22,22 @@ say why it's acceptable.
 Automated running is a later addition and will not change the scenario
 format.
 
+## Fixture studies
+
+`fixtures/` holds synthetic studies with a known answer: transcripts, a
+researcher's draft with planted problems, and an `ANSWER-KEY.md` that lists
+every trap and what a correct reply does. They test the stage 6 and 7 work
+the scenarios can only describe: recounting, catching a quote that was
+changed or made up, separating single cases from patterns, tying
+recommendations to findings. Each fixture's README says how to run it. The
+code checks also run against the fixtures in `tools/checks/tests/`, so the
+planted quote and count problems they can catch are checked on every
+`tools/check.py` run.
+
+Judging a fixture run: count each trap in the key as caught, missed or
+partly caught. There is no pass mark; a release note should say which traps
+were missed.
+
 ## Writing a scenario
 
 Plant one problem per scenario. Make the setup realistic: a real-sounding
