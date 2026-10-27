@@ -37,6 +37,12 @@ say in one line what you kept and why, and move on.
    draft. A draft to correct takes a minute; a blank question takes an
    afternoon.
 3. Start a study record from `templates/study-record.md` and keep it current.
+4. If the message uses no research vocabulary (a PM asking for "customer
+   validation", a designer who wants "some user feedback"), work in their
+   words. Give the stage as a plain phrase ("working out what decision this
+   serves") rather than a number, gloss any research term in the same
+   sentence, and leave stage numbers and the commands table out until they
+   ask how this works.
 
 ## Every reply after that
 

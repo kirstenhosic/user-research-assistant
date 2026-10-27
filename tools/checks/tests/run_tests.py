@@ -17,6 +17,9 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 CHECKS = HERE.parent
 PY = sys.executable
+FIXTURES = HERE.parent.parent.parent / "evals" / "fixtures"
+HARBOR = FIXTURES / "harbor-invites"
+TALLY = FIXTURES / "tally-receipts"
 
 CASES = [
     # (name, command, expected exit code, substrings expected in output)
@@ -28,6 +31,18 @@ CASES = [
      ["No arithmetic problems found"]),
     ("count_check planted", [PY, str(CHECKS / "count_check.py"), "findings-planted.md"], 1,
      ["9 of 8: the count is larger than the base", "3/10 is 30%, not 40%", "base of 10"]),
+    # The fixture studies in evals/fixtures/ carry planted quote and count
+    # problems; the code checks must catch the ones they can.
+    ("quote_check harbor-invites", [PY, str(CHECKS / "quote_check.py"), str(HARBOR / "draft-findings.md"),
+                                    str(HARBOR / "transcripts")], 1,
+     ["MISSING", "Invites should be per board", "2 of 3 quotes found"]),
+    ("count_check harbor-invites", [PY, str(CHECKS / "count_check.py"), str(HARBOR / "draft-findings.md")], 1,
+     ["6/8 is 75%, not 80%"]),
+    ("quote_check tally-receipts", [PY, str(CHECKS / "quote_check.py"), str(TALLY / "draft-readout-summary.md"),
+                                    str(TALLY / "sessions")], 1,
+     ["MISSING", "read the four as a one", "2 of 3 quotes found"]),
+    ("count_check tally-receipts", [PY, str(CHECKS / "count_check.py"), str(TALLY / "draft-readout-summary.md")], 1,
+     ["a percentage from a base of 6"]),
 ]
 
 

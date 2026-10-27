@@ -2,6 +2,15 @@
 
 ## 2026-10-27
 
+- First recorded eval run: all 36 scenarios run blind in Claude Code and
+  judged against their pass and fail lists (`evals/runs/2026-10-27.md`):
+  31 pass, 5 partial with reasons, 0 fail. One rule added from it: when the
+  researcher uses no research vocabulary, Magpie gives the stage as a plain
+  phrase and leaves stage numbers and commands out (`core/operating.md`).
+- Two fixture studies with answer keys under `evals/fixtures/`: Harbor
+  trial invites (8 interviews, 11 planted traps) and Tally receipt capture
+  (6 usability sessions, 12 traps). The code-check tests now run against
+  them.
 - Eighteen more standards cite a source (34 of 60), all from pages read on
   the open web: Nielsen Norman Group articles, the GOV.UK Service Manual
   and the GOV.UK content principles (S11 to S30 in `docs/PROVENANCE.md`).
