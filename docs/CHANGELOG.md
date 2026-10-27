@@ -2,6 +2,10 @@
 
 ## 2026-10-27
 
+- Eighteen more standards cite a source (34 of 60), all from pages read on
+  the open web: Nielsen Norman Group articles, the GOV.UK Service Manual
+  and the GOV.UK content principles (S11 to S30 in `docs/PROVENANCE.md`).
+  Where a page supports only part of a standard, the basis says so.
 - S10 (Papas) citation completed with publisher and edition dates.
 - `docs/examples/`: a fictional filled-in report and readout, the two
   templates as Word files and the readout as a PowerPoint deck.
