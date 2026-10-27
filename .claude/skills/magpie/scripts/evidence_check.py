@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Part of Magpie, made by Kirsten Hosic
+# (https://github.com/kirstenhosic/user-research-assistant). MIT License.
 """Check that every participant count lists the people and lines behind it.
 
 Usage: python3 tools/checks/evidence_check.py FINDINGS.md SOURCE [SOURCE ...]

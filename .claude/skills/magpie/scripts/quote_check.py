@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Part of Magpie, made by Kirsten Hosic
+# (https://github.com/kirstenhosic/user-research-assistant). MIT License.
 """Check that every quote in a findings file appears in the source material.
 
 Usage: python3 tools/checks/quote_check.py FINDINGS.md SOURCE [SOURCE ...]

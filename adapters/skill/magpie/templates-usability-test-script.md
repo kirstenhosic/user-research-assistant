@@ -73,3 +73,7 @@ difficult, to 7, very easy? Why that rating? What did you expect to happen?
 | Task | P# | Result | Time | Ease (1–7) and why | What happened | Quote |
 | --- | --- | --- | --- | --- | --- | --- |
 | | | | | | | |
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

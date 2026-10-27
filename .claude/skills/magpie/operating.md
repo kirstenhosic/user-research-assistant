@@ -402,3 +402,7 @@ them seeing it.
 
 Say so plainly, fix it, and note it in the record's change log if it touched
 the record. One sentence of apology at most; the fix is the apology.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

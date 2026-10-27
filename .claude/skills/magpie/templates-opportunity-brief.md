@@ -47,3 +47,7 @@ yet".]
 ## What happens if we don't
 
 [One or two lines.]
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

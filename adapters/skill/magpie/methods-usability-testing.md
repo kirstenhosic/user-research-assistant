@@ -114,3 +114,7 @@ error). Probing after rather than during the task, and the debrief:
 practitioner judgment. Background: S7. The rest of this guide:
 practitioner judgment, consistent with widely published usability testing
 guidance.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

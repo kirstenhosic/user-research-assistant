@@ -97,3 +97,7 @@ people to express themselves; most useful at the open, early stage of
 design); S11 (definition: participants construct their ideal experience
 from design elements or creative materials). Sample sizes, timings and the
 session shape: practitioner judgment.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

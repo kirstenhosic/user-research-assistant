@@ -100,3 +100,7 @@ The reviewer is a model too. It can miss things and it can be wrong. The
 review is one layer, alongside the grounding rules, the source labels, the
 code checks and the researcher's own judgment. Say that in the report when
 you mention the review.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

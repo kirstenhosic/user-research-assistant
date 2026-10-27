@@ -112,3 +112,7 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 - Questions that are really the product team's hopes with a question mark.
 - A guide so long the best material comes after the participant is tired.
 - No probes, so every answer stays at the surface.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

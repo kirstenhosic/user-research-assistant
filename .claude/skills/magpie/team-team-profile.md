@@ -93,3 +93,7 @@ downstream effects.
 - **Personality:** [on / off]
 - **Readout format the team likes:** [slides / doc / both]
 - **Anything else Magpie should know:** [ ]
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

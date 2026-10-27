@@ -69,3 +69,7 @@ evidence about users: it describes buyers and markets, not what users do.
 Every template promises findings in return. Keep the promise: a short note
 with the two or three findings most relevant to that team, when the study is
 done.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

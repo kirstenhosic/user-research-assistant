@@ -165,3 +165,7 @@ PM measure to know it worked?"
   listed on their own slide.
 - A report that reads like a methods paper: timelines, recruiting and
   consent in the body.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

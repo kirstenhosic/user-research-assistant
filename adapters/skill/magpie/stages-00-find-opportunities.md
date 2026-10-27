@@ -111,3 +111,7 @@ aren't users. What do we know about what users do when they lack X?"
 - Scoring with a formula that hides judgment behind numbers.
 - A list of twelve. Nobody reads past five.
 - Proposing research for a decision nobody will make.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

@@ -101,3 +101,7 @@ than one group, moderation, demos are not use); S11 (definition; NN/g's
 overview gives a wider range of 3 to 12 per group). Writing before
 discussing: S15, S16, which make this point for workshops. The opening on
 confidentiality and the session timings: practitioner judgment.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

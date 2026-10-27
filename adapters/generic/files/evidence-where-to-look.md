@@ -67,3 +67,7 @@ than the decision needs.
 - Log a secondhand account as a user finding.
 - Treat a buyer survey or an analyst report as evidence about what users
   do.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

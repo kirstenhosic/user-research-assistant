@@ -44,3 +44,7 @@ out. For each item that fails, say which rule it broke and offer a rewrite.
 
 Practitioner judgment, consistent with widely published interviewing
 guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

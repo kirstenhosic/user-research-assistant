@@ -151,3 +151,7 @@ satisfy it.
 - Studying one step as if nothing came before or after it.
 - Leaving the business reason blank because it feels awkward to ask. It's the
   sentence that gets the study funded and the findings acted on.
+
+---
+
+Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
