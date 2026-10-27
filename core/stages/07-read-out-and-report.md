@@ -30,6 +30,9 @@ for.
 - Who will see it, and what each person needs to decide or do.
 - The format: a live readout, a written report or both, how long the slot
   or document is, and the team's template or house style if there is one.
+  Ask about the template only if the study record and team profile don't
+  already name one. Once the researcher answers, with a template or "no",
+  save it in the record's settings and don't ask again in this study.
 - When it's due, and whether the decision date has moved.
 - What stakeholders already believe or expect to hear, so a surprise is
   framed with care.
@@ -48,20 +51,24 @@ again.
 
 ## What to do
 
-1. **Size it to the room first.** Use the answers on who's in the
+1. **Use their template, or the house style.** With the team's template,
+   follow its structure and formatting, and use `templates/house-style.md`
+   only for what it leaves open. Without one, use the house style for
+   everything.
+2. **Size it to the room.** Use the answers on who's in the
    audience and how long the slot is. Default: no more than 20 slides, and fewer for most teams.
    `templates/readout.md` has the sizing table.
-2. **Build one story.** Why we asked, what we did, what we found, what it
+3. **Build one story.** Why we asked, what we did, what we found, what it
    means, what to do. Each slide follows from the last. Anything that
    doesn't move the story goes in the appendix.
-3. **Open with why.** If the record has product context, the product in
+4. **Open with why.** If the record has product context, the product in
    one line (what it is, what it does, who uses it), for anyone who
    doesn't know it. Then the decision, the
    business need, what was already known, the question. This is the
    foundation the rest stands on.
-4. **State the study briefly.** Method, sample, who, when. Factual. No
+5. **State the study briefly.** Method, sample, who, when. Factual. No
    weaknesses on this slide.
-5. **Receipts and the reading check.** Before the top findings are
+6. **Receipts and the reading check.** Before the top findings are
    chosen: every finding going in has at least two participant references
    with locations, or is labelled a single case; and Magpie asks, once,
    whether the researcher has read the passages behind each of them. Ask
@@ -69,19 +76,19 @@ again.
    yet" is fine; it goes in the risks until it's done. Magpie's findings
    are a draft until a person has read what they rest on.
    `checks/ai-assisted-research.md`, sections 2 and 3.
-6. **Top findings, never more than five.** The findings the decision
+7. **Top findings, never more than five.** The findings the decision
    rests on, one line each with strength. An unexpected finding can be
    one of the five if it's serious enough. Then one slide per top finding,
    pitched for PMs and engineers: enough to believe it and act on it.
    Depth goes to the appendix.
-7. **Other findings, on one slide.** Every finding that met the evidence
+8. **Other findings, on one slide.** Every finding that met the evidence
    bar but isn't in the top five, one line each with its strength, tagged
    "unexpected" where it fell outside the research questions. Nothing that
    passed the evidence bar is dropped from the readout; the only way a
    finding leaves is if its evidence doesn't hold, and then it goes in the
    appendix with the reason. The study record's findings table stays the
    full list; the top five are a selection from it.
-8. **Summarize, then recommend in detail.** A short summary slide, then
+9. **Summarize, then recommend in detail.** A short summary slide, then
    recommendations as actions with owners, built from the researcher's
    your-turn answers where they gave them. Keep their words; where you
    add an owner, a metric or a finding it rests on, say so. Each
@@ -89,21 +96,21 @@ again.
    moves, in the team's own names for them. This is where business value
    becomes visible. Say which journey step each finding lands on, who else
    is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
-9. **Next steps.** What happens now, who does it, open questions.
-10. **Limits go to the researcher first.** Magpie always drafts the limits
+10. **Next steps.** What happens now, who does it, open questions.
+11. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
    always writes them into the study record and the report. Whether the
    slide goes in the readout is the researcher's call for that audience.
    Magpie asks; it never drops the limits silently and never puts them in
    without asking.
-11. **Appendix for the deep dive.** Full findings, coding frame, instruments,
+12. **Appendix for the deep dive.** Full findings, coding frame, instruments,
     review summary, links, and how AI was used: which outputs Magpie
     drafted, what the researcher did and reviewed, which checks ran and
     how, and any other AI tool in the study, from the record
     (`templates/report.md`, "How AI was used"). It goes in every report
     and readout appendix, so the people who act on the work know an AI
     helped make it.
-12. **Write the report for the reader who wasn't there.** Same story as the
+13. **Write the report for the reader who wasn't there.** Same story as the
     readout, a little deeper, still for a PM, designer or engineer: summary,
     why, what we did in one paragraph, top findings (five or fewer),
     findings in detail with evidence, images and links, other findings,
@@ -111,28 +118,28 @@ again.
     and the appendix. A linked contents list at the top. Timelines,
     recruiting mechanics and consent detail go in the appendix, not the
     body. `templates/report.md`.
-13. **Run the reader test.** For each reader the readout and report are
+14. **Run the reader test.** For each reader the readout and report are
     for (the decision owner, the PM, the designer, the engineer), read only
     the summary and ask: can they tell what it means for them and what
     they'd do next? If a reader can't, add a line for them to the summary
     or the recommendations. If there's nothing for them, say so, so they
     can stop reading. Then sweep for terms a new PM would have to look up
     and replace each or add a four-word gloss.
-14. **Check the quotes and counts again** in the readout and report.
+15. **Check the quotes and counts again** in the readout and report.
     Wording changes between the record and the deck, so run the code
     checks (`tools/checks/`) on both: every quote matches its transcript
     and the person it's credited to, every count's arithmetic holds, and
     every count lists as many participants as it claims. Where you can't
     run code, do it by hand and say so.
-15. **Run the independent review** on the final report
+16. **Run the independent review** on the final report
     (`review/independent-review.md`). It's required. Start it in the same
     reply, as at stage 6: start a separate agent where you can, otherwise
     give the researcher the text to paste and say when to bring the result
     back.
-16. **Write the library entries.** One per finding worth keeping
+17. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 1.
-17. **Close the loop with partners.** Send each team that helped the two or
+18. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
@@ -156,6 +163,7 @@ PM measure to know it worked?"
 
 - The researcher was asked what each partner should do for the top
   findings before Magpie drafted recommendations, or handed it back.
+- Built on the team's template, or on the house style where there's none.
 - Deck sized to the audience; 20 slides or fewer.
 - Why, what we did, top findings (five or fewer), detail, other findings,
   summary, recommendations, next steps, in that story order.

@@ -55,6 +55,7 @@ Python when you can and say so when you can't.
 - `review-independent-review.md`: A fresh pass over the findings or the report, by a reviewer that sees only the source material and the output, not the conversation that produced them.
 - `partners-request-templates.md`: Short messages the researcher can send to another team to ask for data or context.
 - `templates-competitive-analysis.md`: **Date:** [date] (competitors change; this has a shelf life) · **Study record:** [link] · **Researcher:** [name]
+- `templates-house-style.md`: How Magpie formats anything written for the people who act on research: the readout, the report, opportunity briefs and notes to partners.
 - `templates-interview-guide.md`: **Length:** [45–60] minutes · **Research questions served:** [list]
 - `templates-opportunity-brief.md`: One page the researcher takes to a PM or a leadership team to propose a study.
 - `templates-readout.md`: Slide-by-slide outline.

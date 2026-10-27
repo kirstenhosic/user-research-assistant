@@ -2,7 +2,9 @@
 
 ## 2026-10-27
 
-- Five changes from mapping Magpie to the HEARTS scorecard.
+- Five changes from mapping Magpie to the HEARTS scorecard (Loosbrock, K.
+  (2025). The HEARTS Framework: Six lenses for evaluating AI-assisted UX
+  research. Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework).
   - Reports and readouts get a "How AI was used" section in the
     appendix, built from the study record: what Magpie drafted, what the
     researcher did and reviewed, which checks ran and how, and any other
@@ -25,10 +27,18 @@
   - The independent review asks an eighth question: where the draft
     explains behaviour with assumptions about a group that participants
     didn't state.
-  - New standards 4.8, 6.14, 7.12, A.19 and A.20, 6.4 extended, six new eval
+  - A house style for readouts and reports (`templates/house-style.md`):
+    numbered lists only where order or rank matters, full-sentence
+    bullets, one level of bullets, three heading levels, block quotes
+    with code and descriptor, recommendations grouped by role where it
+    helps. The team's template still comes first; Magpie asks for it
+    once, saves the answer in the record and doesn't ask again. Stage 7
+    gains a first step, so its later steps move down one.
+  - New standards 4.8, 6.14, 7.12, 7.13, A.19 and A.20, 6.4 and 7.11
+    extended, eight new eval
     scenarios (not yet run), and a new quote-check fixture. The README
     and provenance standard counts, which had fallen behind, are
-    corrected to 89 and 37.
+    corrected to 90 and 37.
 - Fixes from the end-to-end workflow review (issues 5 to 13).
   - Save points: when a stage's drafts all have their yes, Magpie
     suggests saving the record in one line; in Claude Code it saves

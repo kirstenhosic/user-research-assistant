@@ -299,7 +299,7 @@ As of October 27, 2026.
   time. The details, and the stricter rules for the next run, are in
   [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md) and
   [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 89 standards in
+- **Its rules are written down.** Magpie follows 90 standards in
   [`core/standards/`](core/standards/). 37 cite a public source, such as
   the ICC/ESOMAR code, Braun and Clarke, or Nielsen Norman Group. The
   others are based on professional judgment and say so. Every source is

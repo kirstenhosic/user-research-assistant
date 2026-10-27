@@ -1,6 +1,8 @@
 # Readout: [study name]
 
 Slide-by-slide outline. Each heading is one slide unless it says otherwise.
+Formatting follows the team's template if there is one, and
+`templates-house-style.md` for anything it leaves open.
 No more than 20 slides by default; many teams want fewer. Before drafting,
 Magpie asks who's in the room and how long the slot is, and sizes the deck
 to that.
