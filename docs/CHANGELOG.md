@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-27
+
+- AI-assisted research check (`core/checks/ai-assisted-research.md`), from
+  a passage of Papas, *AI-Powered UX Research* (S10) supplied by the
+  author: AI moderators get a wording check, scope boundaries, a fallback
+  for unclear answers and a first-three-transcript audit; AI summaries,
+  Magpie's own included, are drafts until a person has read the passages;
+  receipts (two participant references or a labelled single case) before
+  any finding reaches a readout; participant quality planned (fraud risk,
+  threshold, replacement) and screened before coding. Standards 4.5, 5.6,
+  6.10, 7.9 with three eval scenarios.
+
 ## 2026-10-26
 
 - Lessons from an assessment of the earlier tool (see `docs/PROVENANCE.md`,

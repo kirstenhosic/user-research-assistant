@@ -38,6 +38,14 @@ need, and leads nobody.
 - A list of what the wording check caught and changed.
 - An updated Instruments section in the study record.
 
+## If an AI tool will moderate
+
+The moderator's instructions are a guide and get the same wording check.
+Add the boundaries (what's in and out of scope) and the fallback for
+unclear answers ("ask them to say more; don't rephrase or interpret"), and
+plan to read the first three transcripts in full before the rest run.
+`checks/ai-assisted-research.md`, section 1.
+
 ## Challenge
 
 Usually the **guide pressure test**. Example: "Question 4 asks 'how much

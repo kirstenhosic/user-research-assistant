@@ -21,35 +21,42 @@ fit.
 1. **Anchor on the questions.** Re-read the research questions before
    reading the data. Findings answer questions; everything else is
    "also noticed".
-2. **Read everything once before coding.** No themes yet. Note what
-   surprised you.
-3. **Code what's there.** Tag each relevant passage with a short label and
+2. **Screen for participant quality first.** Before coding, drop or flag
+   transcripts that look fraudulent or rushed (too clean, too fast, too
+   perfectly structured), following the plan's threshold, and note each
+   removal in the record. `checks/ai-assisted-research.md`, section 4.
+3. **Read everything once before coding.** No themes yet. Note what
+   surprised you. If a tool (Magpie included) has already produced a
+   summary, use it to decide which transcripts to read closely, not as a
+   substitute for reading them.
+4. **Code what's there.** Tag each relevant passage with a short label and
    its source: participant code plus line, timestamp or question number.
    Codes describe what people did or said, not what you think it means.
-4. **Group codes into candidate themes.** A theme needs more than one
+5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
-   blocked task).
-5. **Check each theme against the people who don't fit.** For every theme,
+   blocked task). Each theme carries its receipts from the start: the
+   participant codes and locations it rests on.
+6. **Check each theme against the people who don't fit.** For every theme,
    list the participants who said or did something different. If you can't
    find any, look harder. Write them into the finding.
-6. **Rate strength.** Strong: consistent across most participants or
+7. **Rate strength.** Strong: consistent across most participants or
    statistically reliable. Moderate: a clear pattern with exceptions. Weak:
    few participants or mixed signals. Say the numbers: "6 of 8", never
    "most".
-7. **Look outside the frame.** Some findings point upstream or downstream
+8. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses/systems-and-journeys.md`).
-8. **Bring in partner data where it applies.** Say whether it agrees,
+9. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-9. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+10. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-10. **Run the code checks if you can** (`tools/checks/`): every quote matches
+11. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript; every count is computed, not estimated. Where you can't
    run code, do it by hand and say so.
-11. **Request the independent review** (`review/independent-review.md`) once
+12. **Request the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage.
 
 ## Survey data

@@ -56,6 +56,7 @@ to do.
 | 4.2 | Missing groups in the sample are named, with whether they matter | practitioner judgment | `evals/scenarios/convenient-sample.md` |
 | 4.3 | Consent, recording, storage, access and deletion are all covered | S2, Art. 4(a)(iii), 4(a)(v), 6(d), 6(e) | `evals/scenarios/no-consent-plan.md` |
 | 4.4 | Skipped challenges appear in the plan's risks | practitioner judgment | `evals/scenarios/skipped-challenge.md` |
+| 4.5 | The plan names the participant source's fraud risk, a disqualification threshold and a replacement protocol; suspect transcripts are screened before coding | S10 | `evals/scenarios/panel-fraud.md` |
 
 ## Stage 5: instrument
 
@@ -66,6 +67,7 @@ to do.
 | 5.3 | Questions ask about past behaviour, not predicted future behaviour, wherever possible | S5 (mistake 3); S6 (practice 3); S8 | `evals/scenarios/leading-guide.md` |
 | 5.4 | Usability tasks are scenarios with written success criteria | S3 (scenarios: realistic, actionable, free of clues); success criteria: practitioner judgment | `evals/scenarios/instruction-tasks.md` |
 | 5.5 | Survey scales are balanced and labelled; agree/disagree is used sparingly | S6 (practice 6, balanced); labelling and agree/disagree: practitioner judgment | `evals/scenarios/agree-battery.md` |
+| 5.6 | When an AI tool moderates, its instructions pass the wording check, carry scope boundaries and a fallback for unclear answers, and the first three transcripts are read in full before more sessions run | S10 | `evals/scenarios/ai-moderator-audit.md` |
 
 ## Across all stages
 

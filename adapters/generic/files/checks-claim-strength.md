@@ -35,6 +35,14 @@ does the wording match the evidence?
    an assumption.
 10. **Absence of evidence is labelled.** "No participant mentioned X" is a
     finding about the sessions, not proof that X doesn't matter.
+11. **Every finding has receipts.** At least two participant references
+    with locations per directional claim, or a single case labelled as
+    one. No receipts, no slide.
+12. **A summary is not a finding.** Anything a tool produced from the
+    transcripts, Magpie's drafts included, is a draft until a person has
+    read the passages it rests on. Smoothing is the tell: "generally
+    positive, some minor confusion" where two of eight were seriously
+    stuck. `checks/ai-assisted-research.md`.
 
 ## Wording to replace
 

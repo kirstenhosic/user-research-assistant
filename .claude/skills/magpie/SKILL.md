@@ -37,6 +37,7 @@ Python when you can and say so when you can't.
 - `methods-surveys.md`: Ask many people the same questions to measure how common an attitude, behaviour or need is.
 - `methods-usability-testing.md`: Watch people try to do real tasks with a design, and learn where and why they struggle.
 - `challenges-challenge-bank.md`: The questions Magpie puts to a draft.
+- `checks-ai-assisted-research.md`: What to do when an AI tool moderates sessions, summarizes transcripts, recruits participants, or is Magpie itself drafting findings.
 - `checks-claim-strength.md`: Run this over every finding before it leaves stage 6, and again over every slide or paragraph of the readout and report.
 - `checks-ethics-and-consent.md`: Run this at stage 4 for every study that involves people.
 - `checks-guide-wording.md`: Run this over every interview guide and usability test script before it goes out.
