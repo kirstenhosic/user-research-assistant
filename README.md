@@ -16,6 +16,8 @@ then helps you figure out which ones matter for the decision in front of you.
 **Work in progress.** So far Magpie has been tested only in Claude Code.
 See [Where it stands](#where-it-stands) before you rely on it.
 
+Ready to try it? Jump to [Get started](#get-started).
+
 ## What a session looks like
 
 Tell Magpie what you've got, in your own words. For example:
@@ -37,6 +39,117 @@ ends with a status line, so you can see Magpie is still running:
 
 If it guesses the stage wrong, say so and it adjusts. You call Magpie once
 per conversation; it stays on until you say "stop Magpie".
+
+## What Magpie does
+
+- **Starts wherever you are.** A vague request, a deadline, a half-written
+  plan or a folder of transcripts: Magpie works out which stage you're at
+  and picks up from there.
+- **Asks before it builds.** Before a plan, a guide, findings or a report,
+  it asks up to six short questions about what it doesn't know, such as
+  your hypotheses, the business goal and who will read it, plus the ones
+  your particular study raises. If it doesn't have the bare minimum, it
+  says so. Say "just draft it" to skip the questions; Magpie marks what
+  it had to guess, or gives an outline if the minimum is missing.
+- **Coaches as it works.**
+  - After each output it asks the one question most likely to change it,
+    and says in a sentence why it matters. You can skip it.
+  - It explains each research principle once and never quizzes you.
+  - It asks what vague words like "confused" or "most" stand for.
+  - At three steps you go first: framing the problem, spotting patterns in
+    analysis, and deciding what each partner should do. Say "you do it" to
+    hand a step back.
+  - It shows why it chose a method and why the guide's questions sit in
+    that order, and you can push back.
+  - In analysis, you keep, change, split or drop each theme it proposes.
+- **Says where every claim comes from.** Your data, a partner team's data,
+  general practice, or an assumption. It never makes up a quote, a number,
+  or a participant, and every count names the participants behind it.
+- **Keeps a study record.** One document holds the product and its users
+  (if you want to add them), the decision, questions, method, participants,
+  findings and risks. Save it and you can continue in
+  any assistant, any day.
+- **Waits for your yes.** Nothing Magpie drafts is final until you reply
+  "yes" to say you've reviewed it. Before analysis or a report reaches
+  stakeholders, Magpie can run an independent review that sees only the
+  transcripts and the draft.
+- **Writes for the people who act on it.** Readouts and reports lead with
+  why the study was done and up to five top findings, keep every other
+  finding on one page, and give each recommendation an owner.
+
+The reasoning behind each of these is in [`docs/DESIGN.md`](docs/DESIGN.md).
+
+## The stages
+
+Magpie follows eight stages. You can start at any of them.
+
+0. [Find the opportunities](core/stages/00-find-opportunities.md), when
+   nobody has asked for research yet
+1. [Check existing evidence](core/stages/01-check-existing-evidence.md)
+2. [Frame the problem](core/stages/02-frame-the-problem.md)
+3. [Choose the approach](core/stages/03-choose-the-approach.md)
+4. [Plan the study](core/stages/04-plan-the-study.md)
+5. [Draft the guide or survey](core/stages/05-draft-the-guide.md)
+6. [Analyze](core/stages/06-analyze.md)
+7. [Read out and report](core/stages/07-read-out-and-report.md)
+
+## Methods it covers
+
+Tell Magpie what you're trying to learn and it will suggest a method, or
+name one yourself. Each method has a guide Magpie reads when you choose it.
+
+| Method | Use it to learn | What you get |
+| --- | --- | --- |
+| [Interviews](core/methods/interviews.md) | How people do something, why, and what gets in the way | Plan, interview guide, themes with counts |
+| [Usability testing](core/methods/usability-testing.md) | Where and why people struggle with a design | Test script with tasks, problems ranked by severity |
+| [Surveys](core/methods/surveys.md) | How common an attitude, behavior, or need is | Survey draft, analysis plan, small-sample warnings |
+| [Contextual inquiry](core/methods/contextual-inquiry.md) | How real work happens in its real setting | Plan, observation sheet, workflow map |
+| [Concept and value testing](core/methods/concept-testing.md) | Whether an idea solves a real problem, before it's built | Session guide, patterns in reactions |
+| [Diary studies](core/methods/diary-studies.md) | Behavior over days or weeks, as it happens | Entry prompts, exit interview guide, themes over time |
+| [Field studies](core/methods/field-studies.md) | How people work in their own setting | Observation guide, rules for observers |
+| [Focus groups](core/methods/focus-groups.md) | What a group of people want, in their own words | Fit check, discussion guide, analysis |
+| [Participatory design](core/methods/participatory-design.md) | What matters to people, from what they make | Session plan with a making kit, themes |
+| [Expert review](core/methods/expert-review.md) | Likely usability problems, before users see the design | Review plan, issue list labeled as predictions |
+| [Card sorting and tree testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, and whether they can find them | Card and task lists, findings |
+| [Evidence review](core/methods/evidence-review.md) | What the organization already knows | Evidence log, gaps, one-page brief |
+| [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job | Comparison built around the user's job |
+| [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings | Agenda, named owners, summary |
+| [Finding opportunities](core/stages/00-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and owner |
+
+Every study ends the same way: findings with counts and participant
+references, a readout, a report, and research library entries, drafted
+from the templates in [`core/templates/`](core/templates/). A finished
+example is in [`docs/examples/`](docs/examples/).
+
+## Words that steer it
+
+The ones you'll use most:
+
+| Say | Magpie does |
+| --- | --- |
+| yes | Marks what's waiting as reviewed |
+| stop Magpie | Ends the session and offers the record to save |
+| just draft it | Builds now without the missing context, marking the gaps as assumptions |
+| you do it | Takes over a step where you were asked to go first |
+| skip | Notes the current question as a risk and moves on |
+
+More:
+
+| Say | Magpie does |
+| --- | --- |
+| counter: ... | Reworks a method choice or question order with your reasoning, or says why it would keep it |
+| handled | Marks the question as dealt with, with nothing logged |
+| push me | Asks up to three questions per stage instead of one |
+| ease off | Only raises red flags (consent, leading questions, claims the evidence can't support) |
+| standard | Goes back to one question per stage |
+| just the work | Turns off the personality for the session |
+| show the record | Shows the full study record |
+| review this | Runs an independent review of your findings or report |
+| back to stage 3 | Returns to that stage and says what depends on it |
+
+**Save your study record.** At the end of a session, ask for the record
+and paste it into a document. Next time, paste it back and Magpie picks up
+where you left off, in any assistant.
 
 ## Get started
 
@@ -153,117 +266,6 @@ instructions. It's one long file with everything in it. If the assistant
 says it's too long, paste `adapters/generic/system-prompt-lean.md` instead
 (about half the size) and upload the files in `adapters/generic/files/` so
 Magpie can open the method guides and templates when it needs them.
-
-## What Magpie does
-
-- **Starts wherever you are.** A vague request, a deadline, a half-written
-  plan or a folder of transcripts: Magpie works out which stage you're at
-  and picks up from there.
-- **Asks before it builds.** Before a plan, a guide, findings or a report,
-  it asks up to six short questions about what it doesn't know, such as
-  your hypotheses, the business goal and who will read it, plus the ones
-  your particular study raises. If it doesn't have the bare minimum, it
-  says so. Say "just draft it" to skip the questions; Magpie marks what
-  it had to guess, or gives an outline if the minimum is missing.
-- **Coaches as it works.**
-  - After each output it asks the one question most likely to change it,
-    and says in a sentence why it matters. You can skip it.
-  - It explains each research principle once and never quizzes you.
-  - It asks what vague words like "confused" or "most" stand for.
-  - At three steps you go first: framing the problem, spotting patterns in
-    analysis, and deciding what each partner should do. Say "you do it" to
-    hand a step back.
-  - It shows why it chose a method and why the guide's questions sit in
-    that order, and you can push back.
-  - In analysis, you keep, change, split or drop each theme it proposes.
-- **Says where every claim comes from.** Your data, a partner team's data,
-  general practice, or an assumption. It never makes up a quote, a number,
-  or a participant, and every count names the participants behind it.
-- **Keeps a study record.** One document holds the product and its users
-  (if you want to add them), the decision, questions, method, participants,
-  findings and risks. Save it and you can continue in
-  any assistant, any day.
-- **Waits for your yes.** Nothing Magpie drafts is final until you reply
-  "yes" to say you've reviewed it. Before analysis or a report reaches
-  stakeholders, Magpie can run an independent review that sees only the
-  transcripts and the draft.
-- **Writes for the people who act on it.** Readouts and reports lead with
-  why the study was done and up to five top findings, keep every other
-  finding on one page, and give each recommendation an owner.
-
-The reasoning behind each of these is in [`docs/DESIGN.md`](docs/DESIGN.md).
-
-## The stages
-
-Magpie follows eight stages. You can start at any of them.
-
-0. [Find the opportunities](core/stages/00-find-opportunities.md), when
-   nobody has asked for research yet
-1. [Check existing evidence](core/stages/01-check-existing-evidence.md)
-2. [Frame the problem](core/stages/02-frame-the-problem.md)
-3. [Choose the approach](core/stages/03-choose-the-approach.md)
-4. [Plan the study](core/stages/04-plan-the-study.md)
-5. [Draft the guide or survey](core/stages/05-draft-the-guide.md)
-6. [Analyze](core/stages/06-analyze.md)
-7. [Read out and report](core/stages/07-read-out-and-report.md)
-
-## Methods it covers
-
-Tell Magpie what you're trying to learn and it will suggest a method, or
-name one yourself. Each method has a guide Magpie reads when you choose it.
-
-| Method | Use it to learn | What you get |
-| --- | --- | --- |
-| [Interviews](core/methods/interviews.md) | How people do something, why, and what gets in the way | Plan, interview guide, themes with counts |
-| [Usability testing](core/methods/usability-testing.md) | Where and why people struggle with a design | Test script with tasks, problems ranked by severity |
-| [Surveys](core/methods/surveys.md) | How common an attitude, behavior, or need is | Survey draft, analysis plan, small-sample warnings |
-| [Contextual inquiry](core/methods/contextual-inquiry.md) | How real work happens in its real setting | Plan, observation sheet, workflow map |
-| [Concept and value testing](core/methods/concept-testing.md) | Whether an idea solves a real problem, before it's built | Session guide, patterns in reactions |
-| [Diary studies](core/methods/diary-studies.md) | Behavior over days or weeks, as it happens | Entry prompts, exit interview guide, themes over time |
-| [Field studies](core/methods/field-studies.md) | How people work in their own setting | Observation guide, rules for observers |
-| [Focus groups](core/methods/focus-groups.md) | What a group of people want, in their own words | Fit check, discussion guide, analysis |
-| [Participatory design](core/methods/participatory-design.md) | What matters to people, from what they make | Session plan with a making kit, themes |
-| [Expert review](core/methods/expert-review.md) | Likely usability problems, before users see the design | Review plan, issue list labeled as predictions |
-| [Card sorting and tree testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, and whether they can find them | Card and task lists, findings |
-| [Evidence review](core/methods/evidence-review.md) | What the organization already knows | Evidence log, gaps, one-page brief |
-| [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job | Comparison built around the user's job |
-| [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings | Agenda, named owners, summary |
-| [Finding opportunities](core/stages/00-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and owner |
-
-Every study ends the same way: findings with counts and participant
-references, a readout, a report, and research library entries, drafted
-from the templates in [`core/templates/`](core/templates/). A finished
-example is in [`docs/examples/`](docs/examples/).
-
-## Words that steer it
-
-The ones you'll use most:
-
-| Say | Magpie does |
-| --- | --- |
-| yes | Marks what's waiting as reviewed |
-| stop Magpie | Ends the session and offers the record to save |
-| just draft it | Builds now without the missing context, marking the gaps as assumptions |
-| you do it | Takes over a step where you were asked to go first |
-| skip | Notes the current question as a risk and moves on |
-
-More:
-
-| Say | Magpie does |
-| --- | --- |
-| counter: ... | Reworks a method choice or question order with your reasoning, or says why it would keep it |
-| handled | Marks the question as dealt with, with nothing logged |
-| push me | Asks up to three questions per stage instead of one |
-| ease off | Only raises red flags (consent, leading questions, claims the evidence can't support) |
-| standard | Goes back to one question per stage |
-| just the work | Turns off the personality for the session |
-| show the record | Shows the full study record |
-| review this | Runs an independent review of your findings or report |
-| back to stage 3 | Returns to that stage and says what depends on it |
-
-**Save your study record.** At the end of a session, ask for the record
-and paste it into a document. Next time, paste it back and Magpie picks up
-where you left off, in any assistant.
 
 ## Where it stands
 
