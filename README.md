@@ -335,7 +335,7 @@ adapters/skill/magpie/   the skill folder you install (generated)
 adapters/generic/        one long prompt for any other assistant (generated)
 adapters/claude|chatgpt|gemini|copilot/   setup notes per platform, with what was checked and when
 core/                    everything Magpie knows, in plain Markdown (edit here)
-tools/                   the build script and the quote, count and evidence checks
+tools/                   the build script, the quote, count and evidence checks, and the example deck builder
 .github/workflows/       runs tools/check.py on every pull request
 evals/                   test scenarios with planted problems
 docs/                    design, provenance, contributing, prompt style, changelog

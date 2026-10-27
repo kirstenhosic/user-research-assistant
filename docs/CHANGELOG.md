@@ -2,6 +2,10 @@
 
 ## 2026-10-27
 
+- The example readout deck is rebuilt as a story: it opens with the answer
+  and a "what we learned, and what it means" slide, adds a journey slide
+  showing where export goes wrong, uses one-line titles and plainer words,
+  and turns the recommendations into cards with owners.
 - The example report and readout in `docs/examples/` are redone in the
   house style, with quote labels, a placeholder for a named colleague, a
   participant profile and a "How AI was used" section. Finding 5 moved
