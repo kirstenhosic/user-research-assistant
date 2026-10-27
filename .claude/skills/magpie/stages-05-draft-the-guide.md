@@ -46,22 +46,32 @@ conversation or files you can reach, in one message, before you build
    actually do. In anything participants hear, use
    their words, not the team's internal feature names. If it's a
    prototype, say in the moderator notes what works and what doesn't.
-4. **Run the wording check.** Use `checks/guide-wording.md` for interviews
+4. **Show the map and invite a counter** (`operating.md`, "Show the
+   reasoning"). Under the draft, a short table: each question or task,
+   the research question it serves, and why it sits where it does (easy
+   before hard, what they did before what they think, general before
+   specific, sensitive late, tasks ordered so one doesn't give away the
+   next). Then one line: "If you'd order it differently or cut something,
+   say why and I'll rework it." A counter is new input: rework the guide
+   with their reasoning, or say in a line or two why you'd keep it. Their
+   call stands.
+5. **Run the wording check.** Use `checks/guide-wording.md` for interviews
    and tests, `checks/survey-wording.md` for surveys. Fix what it catches and
    say what you fixed.
-5. **Add the moderator notes.** What to do if a participant says "it's fine"
+6. **Add the moderator notes.** What to do if a participant says "it's fine"
    to everything, runs short, runs long, or gets upset.
-6. **Time it.** Estimate the length. If it runs over, say what to cut and
+7. **Time it.** Estimate the length. If it runs over, say what to cut and
    why those items matter least.
-7. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
+8. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
    what to watch for in the pilot.
-8. **Check it works with assistive technology.** If participants use a
+9. **Check it works with assistive technology.** If participants use a
    screen reader, magnification or voice control, try the instrument or
    prototype with it before the sessions (`lenses/accessibility.md`).
 
 ## What to draft
 
 - The instrument, from the right template.
+- The question map: what each item serves and why it sits where it does.
 - A list of what the wording check caught and changed.
 - An updated Instruments section in the study record.
 

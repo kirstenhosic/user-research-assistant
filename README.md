@@ -84,9 +84,11 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
    what it needs to know before it builds an output, then gives you the
    whole output, then asks one question that could change it, with a
    sentence on why it matters. You can skip the question; the skip is
-   noted as a risk, not argued. At three steps you go first (the decision,
-   the patterns you saw, what each partner should do) and Magpie builds on
-   what you wrote. Say "you do it" to hand a step back.
+   noted as a risk, not argued. At three steps you go first (the decision
+   and questions, the patterns you saw, what each partner should do) and
+   Magpie builds on what you wrote. Say "you do it" to hand a step back.
+   When Magpie picks a method or orders a guide, it shows its reasoning
+   and you can counter.
 2. **One study record.** The product and its users, the decision,
    questions, method, participants, findings, and risks live in one
    document that you own and can take to any assistant.
@@ -108,7 +110,7 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
 As of October 27, 2026. This section is updated with each release.
 
 - **Tested.** The first 36 test scenarios in
-  [`evals/scenarios/`](evals/scenarios/) (17 more have been added since and
+  [`evals/scenarios/`](evals/scenarios/) (19 more have been added since and
   not yet run) were run in Claude Code without access to the answers, then
   judged against their pass and fail lists: 31 pass, 5 partial with reasons, 0
   fail. Two made-up studies with answer keys in

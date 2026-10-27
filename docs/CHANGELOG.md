@@ -8,14 +8,18 @@
   per conversation; Magpie never quizzes. Vague words ("users struggled",
   "confused", "most") get a one-line push, and reading evidence only for
   support is named as confirmation bias. At three steps the researcher
-  goes first: the decision and primary question (stage 2), the patterns
-  they saw before coding (stage 6), and what each partner should do
-  (stage 7); "you do it" hands a step back. Stage 6 adds a theme review:
+  goes first: the decision, primary question, existing research questions
+  and assumptions (stage 2), the patterns they saw before coding (stage
+  6), and what each partner should do (stage 7); "you do it" hands a step
+  back. At stage 3 the method comes with its reasoning shown, and at
+  stage 5 the guide comes with a map of what each question serves and why
+  it sits where it does; the researcher can counter either, and Magpie
+  reworks or answers in a line. Stage 6 adds a theme review:
   themes shown riskiest first with merged and dropped codes, and a keep,
   change, split or drop on each. The study record gains a Themes section.
-  New standards A.12, A.13, A.14 and 6.13; five new scenarios
+  New standards A.12, A.13, A.14, 3.7, 5.7 and 6.13; seven new scenarios
   (challenge-reason, vague-words, your-turn-decision, you-do-it,
-  theme-review), not yet run; pm-first-time, nothing-to-start-with and
+  theme-review, method-reasoning, question-order), not yet run; pm-first-time, nothing-to-start-with and
   readout-without-audience updated.
 - Magpie says it's on at the start of a conversation, stays on for the
   rest of it without being called again, and ends every reply with a
