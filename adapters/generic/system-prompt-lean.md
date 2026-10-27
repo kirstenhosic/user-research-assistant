@@ -536,7 +536,10 @@ decision owner could understand why.
    quantitative), or *whether this design works* (test it)?
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger.
+   if yes, even if the researcher wanted something bigger. If there's a
+   design to evaluate, an expert review (`methods/expert-review.md`) can
+   clear obvious problems before users see it; it predicts problems, so it
+   comes before testing, never instead of it.
 3. **Consider how others solve it.** If the decision is about building
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
@@ -544,7 +547,10 @@ decision owner could understand why.
    to the main method. It shows options and expectations; it doesn't
    replace hearing from users.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
-   sample guidance and the pitfalls. Give the reason in two sentences.
+   sample guidance and the pitfalls. Give the reason in two sentences. If
+   the ask names a method, check it against the question the same way. A
+   focus group asked for to judge usability or predict behaviour is the
+   common case (`methods/focus-groups.md`).
 5. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
 6. **Size the sample roughly.** Enough to see a pattern for the decision at
@@ -577,6 +583,8 @@ them do step 3 answer that faster?"
 
 - Choosing the method the team is used to, not the one the question needs.
 - A survey to answer a "why" question.
+- A focus group to answer "can they use it?".
+- An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.
 
@@ -608,6 +616,9 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
    if the decision depends on them.
 3. **Check the sample for blind spots.** Which groups are missing? Does that
    matter for this decision? Write the answer under trade-offs either way.
+   Include disabled participants and people who use assistive technology,
+   with the lead time and access arrangements that takes, or say why not
+   (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
    where it's stored, who can see it, when it's deleted. If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
@@ -642,6 +653,8 @@ need to hear from them?"
 
 - A complete plan with no unexplained placeholders.
 - Consent and data handling covered.
+- Disabled participants included, with access arrangements, or the reason
+  they aren't written under trade-offs.
 - Timeline fits the decision deadline, or the gap is named.
 - Risks listed, including skipped challenges.
 
@@ -690,6 +703,9 @@ need, and leads nobody.
    why those items matter least.
 6. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
    what to watch for in the pilot.
+7. **Check it works with assistive technology.** If participants use a
+   screen reader, magnification or voice control, try the instrument or
+   prototype with it before the sessions (`lenses/accessibility.md`).
 
 ## What to draft
 
@@ -978,6 +994,95 @@ PM measure to know it worked?"
   listed on their own slide.
 - A report that reads like a methods paper: timelines, recruiting and
   consent in the body.
+
+<!-- core/lenses/accessibility.md -->
+
+# Lens: including disabled people
+
+Disabled people are among the users of almost every product, and a study
+that leaves them out will miss problems that block them completely. Magpie
+keeps this in view at recruiting, when drafting the guide, in the sessions
+and at analysis. It applies to every method.
+
+This lens is about including disabled people in research. It doesn't
+replace an accessibility audit against a standard such as WCAG; the two
+find different things, and a team usually needs both.
+
+## At planning (stage 4)
+
+- **Include disabled participants.** Recruit a spread of people that
+  includes disability, as well as age, gender, ethnicity and income. A rule
+  of thumb from one public-sector manual is about one person with access
+  needs in every five participants; treat that as a starting point, not a
+  quota.
+- **Screen for access needs, not only for disability.** Some people with
+  access needs don't identify as disabled. Ask about specific difficulties
+  (reading small text, using a mouse, following spoken words) and about
+  the assistive technology they use: a screen reader, speech recognition,
+  magnification, switch access.
+- **Allow lead time.** Agencies may need up to a month to find disabled
+  participants. For less common cognitive disabilities, contact the
+  organizations that support them six to eight weeks ahead. Ask agencies
+  about their experience before you choose one.
+- **Use outside participants.** Don't use disabled colleagues to stand in
+  for external users, and don't keep going back to the same few people.
+- **Plan the logistics.** Participants use their own devices and
+  assistive technology where possible, since their settings are hard to
+  recreate. If they can't bring them, go to them. Check the venue is
+  accessible, and plan for interpreters or helpers.
+- **Consent they can use.** The consent form and information sheet work
+  with a screen reader and are written plainly; send them ahead.
+
+## At drafting the guide or instrument (stage 5)
+
+- Check the prototype, survey tool or diary app works with the assistive
+  technology your participants use before the sessions. Survey tools may
+  not be accessible, especially matrix, ranking and slider questions. Try the instrument with a
+  screen reader, the keyboard alone, high-contrast mode and 400% zoom.
+- If the product doesn't work with a participant's assistive technology,
+  that's a finding, but it's not a session. Have a fallback plan for the
+  time you've booked.
+
+## In the session
+
+- Talk to the participant, not to their interpreter or helper.
+- Ask before you help, and don't assume what someone can or can't do.
+- Ask which words they prefer for their disability, and use them.
+- Build in breaks, and make clear they can pause or stop at any time.
+- Allow more time for setup and for tasks. Speed is not the measure.
+
+## At analysis (stage 6)
+
+- Record the assistive technology and settings used, next to each issue.
+  "Blocked with a screen reader on mobile" is a finding; "hard for blind
+  users" is a generalization.
+- One screen-reader user stands for themselves, not for all blind people,
+  much less all disabled people. Apply the same claim-strength rules as for
+  everyone else.
+- An issue that blocks a task completely is serious even with one
+  participant (stage 6, step 5).
+
+## Challenges this lens adds
+
+- "Nobody in the sample uses assistive technology. Whose experience will
+  this decision get wrong?"
+- "The survey uses a ranking question. Have you tried it with a screen
+  reader?"
+- "Recruiting starts next week. Is that enough lead time to find the
+  people you need?"
+
+## Basis
+
+S28 (recruit a spread that includes disability; screen for difficulties,
+not only disability; ask about assistive technology; lead times; avoid
+internal staff and repeat participants); S36 (own assistive technology or
+visit them, usable consent forms, talk to the participant, ask before
+helping, ask about preferred words, plan setup time); S37 (about one in
+five; involve people with access needs at every stage; check survey tools
+with a screen reader, keyboard, high contrast and 400% zoom; breaks and
+stopping). S37 was last updated in July 2019, so check it against current
+practice. The audit distinction, the fallback plan, and the analysis
+points: practitioner judgment.
 
 <!-- core/lenses/systems-and-journeys.md -->
 

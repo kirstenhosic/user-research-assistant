@@ -47,6 +47,8 @@ to do.
 | 3.2 | A "why" question is not answered with a survey; a "how many" question is not answered with eight interviews | S11 (qualitative for why and how to fix; quantitative for how many and how much) | `evals/scenarios/survey-for-a-why.md` |
 | 3.3 | Every recommended method states what it can't tell you | S11, S13 (every method has limits that another source mitigates) in part; the "state it every time" rule: practitioner judgment | `evals/scenarios/survey-for-a-why.md` |
 | 3.4 | A competitive analysis compares on the user's job and fit for the persona, includes one alternative that solves the job differently, separates what was observed from what is assumed, and never turns "competitor X does it" into a recommendation on its own | S24 (compare on key tasks; look at tangential businesses; "beat the competition, not copy them"; observe what users do); observed vs assumed labelling: practitioner judgment | `evals/scenarios/feature-checklist.md` |
+| 3.5 | A focus group is checked against the question before it's planned; one asked for to judge usability or predict behaviour gets a better-fitting method suggested, and one that goes ahead runs at least two groups and is paired with another method | S31 | `evals/scenarios/focus-group-ask.md` |
+| 3.6 | An expert review (heuristic evaluation, cognitive walkthrough) is offered only as a step before testing with users; its issues are labelled [assumption] and never reported as what users do | S34, S35 (reviews can't replace research with users; combine with usability testing); the [assumption] label: practitioner judgment | `evals/scenarios/review-as-evidence.md` |
 
 ## Stage 4: plan
 
@@ -57,6 +59,7 @@ to do.
 | 4.3 | Consent, recording, storage, access and deletion are all covered | S2, Art. 4(a)(iii), 4(a)(v), 6(d), 6(e) | `evals/scenarios/no-consent-plan.md` |
 | 4.4 | Skipped challenges appear in the plan's risks | practitioner judgment | `evals/scenarios/skipped-challenge.md` |
 | 4.5 | The plan names the participant source's fraud risk, a disqualification threshold and a replacement protocol; suspect transcripts are screened before coding | S10 | `evals/scenarios/panel-fraud.md` |
+| 4.6 | The plan includes disabled participants and assistive technology users, with recruiting lead time and access arrangements (own devices, usable consent, venue), or says under trade-offs why not | S28 (include disability in the spread; lead times; screen for access needs); S36 (own assistive technology, usable consent); S37 in part (about one in five) | `evals/scenarios/no-access-plan.md` |
 
 ## Stage 5: instrument
 

@@ -24,6 +24,7 @@ Python when you can and say so when you can't.
 - `stages-05-draft-the-guide.md`: Write the thing the researcher will put in front of participants: an interview guide, a usability test script, a survey or diary prompts.
 - `stages-06-analyze.md`: Turn raw material into findings that say what the evidence supports, how strongly, and what cuts against it.
 - `stages-07-read-out-and-report.md`: Tell the team what was found, how sure we are, and what to do about it, in a form they'll actually use.
+- `lenses-accessibility.md`: Disabled people are among the users of almost every product, and a study that leaves them out will miss problems that block them completely.
 - `lenses-systems-and-journeys.md`: A study is never just about one screen or one feature.
 - `evidence-where-to-look.md`: How Magpie helps collect evidence at stage 0 and stage 1, so "gather what exists" takes minutes, not a week.
 - `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers, used either to agree on the problem before a study is designed (after stage 2) or to turn findings into ideas and decisions (after stage 7).
@@ -33,7 +34,11 @@ Python when you can and say so when you can't.
 - `methods-contextual-inquiry.md`: Watch people do their real work in their real setting, and ask about it as it happens.
 - `methods-diary-studies.md`: Ask people to record what they do, when, and how it felt, over days or weeks, as it happens rather than from memory.
 - `methods-evidence-review.md`: Answer a question from research and data the organization already has, instead of running a new study.
+- `methods-expert-review.md`: Reviewers, not users, inspect a design for likely problems.
+- `methods-field-studies.md`: Go where people actually do the thing, at work, at home or out in the world, and see it happen.
+- `methods-focus-groups.md`: A moderated discussion with a small group of people about a set of topics, to hear what they want, how they talk about it, and where they agree and disagree.
 - `methods-interviews.md`: One-to-one conversations to understand how people do something, why, and what gets in the way.
+- `methods-participatory-design.md`: Give participants materials and let them make their ideal version of an experience, then ask them to explain what they made.
 - `methods-surveys.md`: Ask many people the same questions to measure how common an attitude, behaviour or need is.
 - `methods-usability-testing.md`: Watch people try to do real tasks with a design, and learn where and why they struggle.
 - `challenges-challenge-bank.md`: The questions Magpie puts to a draft.

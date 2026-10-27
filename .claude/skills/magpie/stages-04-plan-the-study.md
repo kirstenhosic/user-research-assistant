@@ -24,6 +24,9 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
    if the decision depends on them.
 3. **Check the sample for blind spots.** Which groups are missing? Does that
    matter for this decision? Write the answer under trade-offs either way.
+   Include disabled participants and people who use assistive technology,
+   with the lead time and access arrangements that takes, or say why not
+   (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
    where it's stored, who can see it, when it's deleted. If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
@@ -58,6 +61,8 @@ need to hear from them?"
 
 - A complete plan with no unexplained placeholders.
 - Consent and data handling covered.
+- Disabled participants included, with access arrangements, or the reason
+  they aren't written under trade-offs.
 - Timeline fits the decision deadline, or the gap is named.
 - Risks listed, including skipped challenges.
 
