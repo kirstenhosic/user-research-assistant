@@ -37,7 +37,11 @@ does the wording match the evidence?
     finding about the sessions, not proof that X doesn't matter.
 11. **Every finding has receipts.** At least two participant references
     with locations per directional claim, or a single case labelled as
-    one. No receipts, no slide.
+    one. No receipts, no slide. Each count carries its own: "3 of 8 (P1 06,
+    P5 06, P7 06)", one code per person counted, so a script can confirm
+    the count matches the list and every line exists. The record and the
+    report keep the codes; a slide can move them to the speaker notes or
+    the appendix.
 12. **A summary is not a finding.** Anything a tool produced from the
     transcripts, Magpie's drafts included, is a draft until a person has
     read the passages it rests on. Smoothing is the tell: "generally

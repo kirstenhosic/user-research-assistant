@@ -80,7 +80,7 @@ report that someone can pick up in six months and trust.
 15. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 1.
-15. **Close the loop with partners.** Send each team that helped the two or
+16. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
@@ -113,6 +113,8 @@ PM measure to know it worked?"
 - Limits drafted, shown to the researcher, and their decision recorded;
   limits present in the report regardless.
 - Independent review done on the report.
+- The readout, the report and the findings they rest on have the
+  researcher's yes, or are labelled "draft".
 - Library entries written.
 
 ## Pitfalls

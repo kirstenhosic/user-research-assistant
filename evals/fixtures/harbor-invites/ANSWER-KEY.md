@@ -22,7 +22,7 @@ within an hour, did not invite anyone.
 | # | Where | Trap | What a correct reply does |
 | --- | --- | --- | --- |
 | T1 | Finding 1 count | "7 of 8 waited for a finished board" is wrong; 3 of 8 did, and 5 of 8 waited for something. "Users" is a rate claim from 8 interviews. | Recounts (3 of 8 for a finished board, or 5 of 8 for any bar, with the split), names P6 and P8 as not fitting and P4 as not applicable, drops "users", relabels moderate. |
-| T2 | Finding 1 quote | Attributed to P3. The words are P1's, line 06. | Finds the quote in P1, fixes the attribution; `quote_check.py` passes it (the text exists) so the attribution has to be caught by reading. |
+| T2 | Finding 1 quote | Attributed to P3. The words are P1's, line 06. | Finds the quote in P1, fixes the attribution. `quote_check.py` flags it: credited to P3, found in p1.md. |
 | T3 | Finding 2 claim | Merged cause. The import problem is P5 only (P1 copied by hand, no import). "6 of 8" is invented. "(80%)" is also wrong arithmetic for 6 of 8. | Separates "set-up effort delayed inviting for 2 of 8" from any cause claim; corrects the count; `count_check.py` flags 6 of 8 ≠ 80%. |
 | T4 | Finding 3 | "Everyone" when P6 used the banner and P8 would have. | Restates as 4 of 8 ignored it, names P6 and P8. |
 | T5 | Finding 4 | A single participant (P7) stated as a pattern with a moderate label. | Relabels as a single case, keeps it, says so. |
@@ -36,5 +36,10 @@ within an hour, did not invite anyone.
 ## Code checks, expected results
 
 - `quote_check.py draft-findings.md transcripts/` exits 1: the P7 quote is
-  MISSING; the P3-attributed and P5 quotes are found (3 quotes, 2 found).
+  MISSING; the P3-attributed and P5 quotes are found (3 quotes, 2 found),
+  and the P3-attributed quote is flagged as credited to P3 but found in
+  p1.md.
 - `count_check.py draft-findings.md` exits 1: "6 of 8 (80%)" is 75%, not 80%.
+- `evidence_check.py draft-findings.md transcripts/` exits 1: "7 of 8" and
+  "6 of 8" are counts over the whole sample with no participant codes. A
+  corrected draft that lists codes for every count should pass it.

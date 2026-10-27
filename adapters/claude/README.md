@@ -11,8 +11,8 @@ beside it, and the code checks in `scripts/`.
 - **In your own project:** copy `adapters/skill/magpie/` into your
   project's `.claude/skills/` folder.
 
-Claude Code can run `scripts/quote_check.py` and `scripts/count_check.py`
-itself, and can start a separate agent for the independent review at stages
+Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
+`scripts/evidence_check.py` itself, and can start a separate agent for the independent review at stages
 6 and 7.
 
 ## Claude.ai

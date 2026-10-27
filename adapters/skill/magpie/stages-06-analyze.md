@@ -45,7 +45,9 @@ fit.
 7. **Rate strength.** Strong: consistent across most participants or
    statistically reliable. Moderate: a clear pattern with exceptions. Weak:
    few participants or mixed signals. Say the numbers: "6 of 8", never
-   "most".
+   "most". Write each count with the people and lines behind it, "3 of 8
+   (P1 06, P5 06, P7 06)", so the count can be checked by code instead of
+   by trust.
 8. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
@@ -57,8 +59,10 @@ fit.
 10. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
 11. **Run the code checks if you can** (`tools/checks/`): every quote matches
-   its transcript; every count is computed, not estimated. Where you can't
-   run code, do it by hand and say so.
+   its transcript and the person it's credited to; every count's
+   arithmetic holds; every count lists as many participants as it claims,
+   and each cited line exists and is that participant speaking. Where you
+   can't run code, do it by hand and say so.
 12. **Request the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage.
 
