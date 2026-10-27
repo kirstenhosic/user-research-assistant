@@ -2,6 +2,10 @@
 
 ## 2026-10-27
 
+- Eval run of the eight HEARTS scenarios, three runs each, judged by the
+  model (`evals/runs/2026-10-27-hearts.md`): 7 pass in all three runs;
+  read-hardest is partial in all three because Magpie changed parts of a
+  clean draft that needed no change. A person still has to judge them.
 - Five changes from mapping Magpie to the HEARTS scorecard (Loosbrock, K.
   (2025). The HEARTS Framework: Six lenses for evaluating AI-assisted UX
   research. Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework).
