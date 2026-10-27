@@ -10,7 +10,9 @@ pages or fewer, not counting images and the appendix. Less is better as long
 as the background, the findings with their evidence, and the recommendations
 are clear.
 
-The headings below are the ones Magpie uses. Where the document tool
+Formatting follows the team's template if there is one, and
+`templates-house-style.md` for anything it leaves open. The headings below
+are the ones Magpie uses. Where the document tool
 supports it, the contents list links to each section; Magpie writes it as
 Markdown links to the headings so it works in most tools.
 
