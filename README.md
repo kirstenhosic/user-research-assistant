@@ -10,6 +10,9 @@ and engineer can act on.
 Why a magpie: it collects the shiny bits of evidence that already exist,
 then helps you work out which ones matter for the decision in front of you.
 
+**Work in progress.** Tested in Claude Code; not yet on Claude.ai, ChatGPT
+or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
+
 ## What Magpie does
 
 - **Starts wherever you are.** Bring a vague stakeholder ask, a deadline, a
@@ -28,9 +31,83 @@ then helps you work out which ones matter for the decision in front of you.
 - **Writes for stakeholders.** Readouts and reports follow a tested shape:
   why first, a brief method, five findings at most, recommendations with
   owners, next steps, appendix.
-- **Covers eleven methods.** Interviews, usability testing, surveys,
-  contextual inquiry, concept testing, diary studies, card sorting and tree
-  testing, evidence review, competitive analysis, and stakeholder workshops.
+- **Covers eleven methods.** The table below says what each one is for
+  and what Magpie gives you.
+
+## What you can do with it
+
+Each method has a guide Magpie reads when you choose it, and most have a
+template it drafts from. Tell Magpie what you're trying to learn and it
+will suggest the method; you can also name one.
+
+| Method | Use it to learn | What Magpie gives you |
+| --- | --- | --- |
+| [Interviews](core/methods/interviews.md) | How people do something, why, and what gets in the way | A research plan, an interview guide with a wording check, thematic analysis with counts and receipts |
+| [Usability testing](core/methods/usability-testing.md) | Where and why people struggle with a design, moderated or unmoderated | A test script with task scenarios and success criteria, issue findings by severity and frequency |
+| [Surveys](core/methods/surveys.md) | How common an attitude, behaviour or need is | A survey draft with a wording check, an analysis plan, cautions on bases, sample source and significance |
+| [Contextual inquiry](core/methods/contextual-inquiry.md) | How real work happens in its real setting | A plan, question prompts and an observation sheet, workflow and breakdown mapping |
+| [Concept and value testing](core/methods/concept-testing.md) | Whether an idea solves a problem people have, before it's built | A session guide, reaction patterns and fit signals, with the limits of stated intent |
+| [Diary studies](core/methods/diary-studies.md) | Behaviour over days or weeks, as it happens | Entry prompts and an exit interview guide, themes over time |
+| [Card sorting and tree testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, and whether they can find them | A card list and task list, similarity and findability findings |
+| [Evidence review](core/methods/evidence-review.md) | What the organization already knows, before running anything new | An evidence log with freshness and confidence per source, a gap summary, an evidence brief |
+| [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job, and what would fit your users | A fit matrix built around the user's job, not the feature list |
+| [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings, with PM, design and engineering | A workshop agenda with silent writing, owners and read-back, and a synthesis |
+| [Finding opportunities](core/stages/00-find-opportunities.md) | Where company goals, market signals and user signals overlap, when nobody has asked yet | Opportunity briefs with a decision and owner each |
+
+Whatever the method, the study ends the same way: findings with counts and
+participant references, a readout, a report, and library entries, drafted
+from the templates in [`core/templates/`](core/templates/). A finished
+example is in [`docs/examples/`](docs/examples/).
+
+## How it's built
+
+Five ideas run through everything Magpie does. The reasoning behind each is
+in [`docs/DESIGN.md`](docs/DESIGN.md).
+
+1. **Draft first, then one challenge.** Every reply gives you something you
+   can use, then asks one question that could change it. You can skip the
+   question; the skip is logged as a risk, not argued.
+2. **One study record.** The decision, questions, method, sample, findings
+   and risks live in one document that you own and can take to any
+   assistant.
+3. **Every claim says where it came from.** Your data, a partner team's
+   data, general practice, or an assumption. Magpie never invents a quote,
+   a number or a participant, and two small scripts check quotes and counts
+   against the source material.
+4. **An independent review before anything reaches stakeholders.** A fresh
+   pass that sees only the raw material and the draft, not the conversation
+   that produced it, for analysis and the final report.
+5. **Written for the people who have to act.** Readouts and reports lead
+   with the decision, keep to five findings, and give every recommendation
+   an owner.
+
+## Where it stands
+
+As of 27 October 2026. This section is updated with each release.
+
+- **Tested.** All 36 test scenarios in [`evals/scenarios/`](evals/scenarios/)
+  were run blind in Claude Code and judged against their pass and fail
+  lists: 31 pass, 5 partial with reasons, 0 fail. Two synthetic studies
+  with answer keys in [`evals/fixtures/`](evals/fixtures/) were run the
+  same way and every planted problem was caught. Results and the method's
+  limits, including that the judge was the same model family, are in
+  [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md).
+- **What backs the rules.** Magpie follows 60 written standards in
+  [`core/standards/`](core/standards/). 34 cite a public source in full or
+  in part (the ICC/ESOMAR code, Braun and Clarke, Nielsen Norman Group
+  articles, the GOV.UK Service Manual); the rest are practitioner
+  judgment and say so. [`docs/PROVENANCE.md`](docs/PROVENANCE.md) lists
+  every source and how Magpie was made.
+- **Not yet tested.** Claude.ai, ChatGPT and Gemini end to end. The setup
+  steps for those come from each vendor's help pages, checked on 26 October
+  2026, so expect small differences. Long conversations: most scenarios
+  test one reply.
+- **Known limits.** Magpie can be wrong in the same ways any assistant can,
+  and the independent review is also a model. The study record and the
+  participant references exist so you can check its work; please do.
+- **Found a problem?** Open an issue with the tool you used, the step and
+  what you saw. Changes are listed in
+  [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 
 ## Before you start
 
@@ -42,12 +119,8 @@ You need one of these:
   may not be able to add skills yet; see the ChatGPT section.
 - A Google account, signed in to Gemini, with Keep Activity turned on.
 
-**Where it has been tested.** Magpie was built in Claude Code and its code
-checks run there. It has not yet been tested end to end on Claude.ai,
-ChatGPT or Gemini (as of 27 October 2026). The setup steps for those come
-from each vendor's help pages, checked on 26 October 2026, so expect small
-differences. If something breaks, please open an issue with the tool, the
-step and what you saw.
+Magpie has been tested in Claude Code and not yet on the other three; see
+[Where it stands](#where-it-stands).
 
 Then download Magpie. Either click the green **Code** button on this page
 and choose **Download ZIP**, or run:

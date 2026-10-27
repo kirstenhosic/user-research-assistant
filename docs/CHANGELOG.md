@@ -2,6 +2,11 @@
 
 ## 2026-10-27
 
+- README: a methods table saying what each of the eleven methods is for
+  and what Magpie gives you, a "How it's built" section with the five
+  ideas behind it, and a dated "Where it stands" section with what has
+  been tested, what backs the rules, what hasn't been tested and how to
+  report a problem. A work-in-progress line under the title.
 - First recorded eval run: all 36 scenarios run blind in Claude Code and
   judged against their pass and fail lists (`evals/runs/2026-10-27.md`):
   31 pass, 5 partial with reasons, 0 fail. One rule added from it: when the
