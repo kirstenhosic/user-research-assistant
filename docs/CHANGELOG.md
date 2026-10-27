@@ -2,6 +2,7 @@
 
 ## 2026-10-27
 
+- S10 (Papas) citation completed with publisher and edition dates.
 - `docs/examples/`: a fictional filled-in report and readout, the two
   templates as Word files and the readout as a PowerPoint deck.
 - README says where Magpie has and hasn't been tested, in one place.
