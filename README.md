@@ -23,8 +23,9 @@ or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
   then one question worth thinking about. You can skip it; Magpie notes
   the skip as a risk and moves on.
 - **Keeps a study record.** One document that carries the product and who
-  uses it, the decision, the questions, the method, the participants, the findings, and the risks. Save
-  it and you can continue in any assistant, any day.
+  uses it, the decision, the questions, the method, the participants, the
+  findings, and the risks. Save it and you can continue in any assistant,
+  any day.
 - **Labels where every claim comes from.** Your data, a partner team's data,
   general practice, or an assumption. It never makes up a quote, a number,
   or a participant.
@@ -73,8 +74,8 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
    can use, then asks one question that could change it. You can skip the
    question; the skip is noted as a risk, not argued.
 2. **One study record.** The product and its users, the decision,
-   questions, method, participants, findings, and risks live in one document that you own and can take to
-   any assistant.
+   questions, method, participants, findings, and risks live in one
+   document that you own and can take to any assistant.
 3. **Every claim says where it came from.** Your data, a partner team's
    data, general practice, or an assumption. Magpie never makes up a quote,
    a number, or a participant, and two small scripts check quotes and
