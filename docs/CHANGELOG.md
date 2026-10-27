@@ -2,6 +2,11 @@
 
 ## 2026-10-27
 
+- Setup for Microsoft 365 Copilot. The skill folder uploads unchanged to
+  Cowork, so there's a new hand-written `adapters/copilot/README.md` and
+  a Copilot section in the README's setup steps. Agent Builder agents
+  were checked and not used: their 8,000-character instruction limit is
+  too small for Magpie's rules. Not yet tested in Copilot.
 - Credit travels with every copy. `tools/build.py` now puts "Magpie was
   made by Kirsten Hosic" with the repository link and the MIT License at
   the top of `SKILL.md` and both system prompts, and a one-line credit at

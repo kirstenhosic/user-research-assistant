@@ -20,8 +20,8 @@ Reads every Markdown file under core/ in a fixed order and writes:
 
 The code checks in tools/checks/ are copied into the skill's scripts/
 folder so the skill can run them. The per-platform setup notes in
-adapters/claude, adapters/chatgpt and adapters/gemini are written by hand
-and point at the skill folder.
+adapters/claude, adapters/chatgpt, adapters/gemini and adapters/copilot are
+written by hand and point at the skill folder.
 """
 
 from __future__ import annotations

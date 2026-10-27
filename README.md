@@ -1,7 +1,8 @@
 # Magpie
 
 Magpie is a free, open-source research helper for user researchers. You
-run it inside the AI assistant you already use (Claude, ChatGPT, or Gemini).
+run it inside the AI assistant you already use (Claude, ChatGPT, Gemini, or
+Microsoft 365 Copilot).
 It works with you on a study from the first question, "Do we already know
 this?", to a report your product manager, designer, and engineer can act
 on. It's built for researchers, and for PMs and designers doing their own
@@ -128,6 +129,23 @@ on. Google is replacing Gems with skills, which take the same folder.
 Uploading works in the web app and the Mac app, not the phone apps. Using
 a skill in a chat doesn't need a paid plan.
 
+### Microsoft 365 Copilot
+
+Use **Cowork** in Microsoft 365 Copilot. At work you need a Microsoft
+Copilot license, and your admin has to turn Cowork on. Personal Microsoft
+accounts with an eligible Microsoft 365 subscription can try it in
+preview.
+
+1. Open `adapters/skill/magpie/`, select everything inside it, and zip
+   that selection, so `SKILL.md` is at the top of the zip.
+2. In Cowork, open **Customize** > **Skills**, choose the arrow next to
+   **Add**, then **Upload skill**, and pick the zip.
+3. When it appears under **Your skills**, start a chat and describe your
+   study.
+
+More detail, and why Magpie isn't set up as an Agent Builder agent, is in
+[`adapters/copilot/README.md`](adapters/copilot/README.md).
+
 ### Any other assistant
 
 Paste `adapters/generic/system-prompt.md` as the system prompt or custom
@@ -251,8 +269,8 @@ where you left off, in any assistant.
 
 As of October 27, 2026.
 
-- **Tested in Claude Code only.** Claude.ai, ChatGPT and Gemini haven't
-  been tested from start to finish. Their setup steps come from each
+- **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
+  haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
 - **Early results look good but aren't confirmed.** Most of the first 36
   test scenarios passed, but that run didn't prove Magpie was loaded each
@@ -274,8 +292,8 @@ you saw. Changes are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 ## When something goes wrong
 
 - **The assistant doesn't seem to know Magpie.** In Claude Code, check the
-  path is exactly `.claude/skills/magpie/SKILL.md`. In ChatGPT or Gemini,
-  check the skill is installed and active, then name it in the chat.
+  path is exactly `.claude/skills/magpie/SKILL.md`. In ChatGPT, Gemini or
+  Copilot, check the skill is installed and active, then name it in the chat.
 - **It won't take the upload.** Zip the `magpie` folder and upload the zip.
   Make sure `SKILL.md` is at the top level inside the zip.
 - **It asks questions when you just want a draft.** Say "just draft it".
@@ -296,7 +314,7 @@ you saw. Changes are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 ```
 adapters/skill/magpie/   the skill folder you install (generated)
 adapters/generic/        one long prompt for any other assistant (generated)
-adapters/claude|chatgpt|gemini/   setup notes per platform, with what was checked and when
+adapters/claude|chatgpt|gemini|copilot/   setup notes per platform, with what was checked and when
 core/                    everything Magpie knows, in plain Markdown (edit here)
 tools/                   the build script and the quote, count and evidence checks
 .github/workflows/       runs tools/check.py on every pull request
