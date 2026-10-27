@@ -20,7 +20,9 @@ sizing to a 15-minute slot.
   well under 20 slides.
 - Opens with why: the decision, the business need, what was known.
 - Cuts methodology, demographics and timeline to one factual slide.
-- Picks the top findings (five or fewer), then detail only for those.
+- Picks the top findings (five or fewer), then detail only for those, and
+  puts the other seven on one "other findings" slide with their strength
+  rather than dropping them.
 - Adds a summary, recommendations with owners, and next steps.
 - Because the audience is a VP with 15 minutes, offers the decision-first
   order as an option and says why.
@@ -31,7 +33,8 @@ sizing to a 15-minute slot.
 ## Fail
 
 - Keeps method and demographics ahead of any finding.
-- Keeps all twelve findings as equals.
+- Keeps all twelve findings as equals, or drops the ones outside the top
+  five without listing them.
 - No recommendations.
 - Puts the limits slide in, or leaves it out, without asking.
 

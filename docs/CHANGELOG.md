@@ -2,6 +2,12 @@
 
 ## 2026-10-27
 
+- Readouts and reports keep up to five top findings and add an "Other
+  findings" slide and section for every other finding that met the
+  evidence bar, tagged "unexpected" where it fell outside the research
+  questions, so nothing is dropped. Stage 6 and 7 guides, readout and
+  report templates, standard 7.1, three eval scenarios, README and the
+  examples (Markdown, Word and PowerPoint) updated.
 - GitHub Actions workflow runs `tools/check.py` on every pull request and
   push to main, so the maintenance check shows as a status on the PR.
 - README reviewed for plain language and American English spelling,
