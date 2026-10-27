@@ -2,6 +2,11 @@
 
 ## 2026-10-27
 
+- README gains a short "Using Magpie at work" note before the setup
+  steps: use Magpie at work only in an employer-approved AI tool, and
+  follow your organization's data and privacy rules. The license line now
+  says Magpie is an independent personal project and that the MIT License
+  covers the Magpie files only. Magpie itself asks no new question.
 - Magpie works out its own questions. Each stage's "Before you build"
   list is now the floor: Magpie also asks what this particular study or
   task raises (text size and setup help for a test with older

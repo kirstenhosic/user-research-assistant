@@ -49,6 +49,15 @@ a `SKILL.md` file that tells the assistant how to behave, the files it
 reads at each stage, and three small scripts that check quotes, counts and
 the people behind each count.
 
+**Using Magpie at work.** Magpie runs inside whichever AI assistant you
+install it in, so anything you share with Magpie goes to that assistant.
+If you want to try it on work projects, use it only in an AI tool your
+employer has approved, and follow your organization's rules on data,
+privacy and confidentiality. That includes participant data, transcripts,
+recordings and anything your company treats as internal. If you aren't
+sure what's allowed, ask your manager or your privacy or security team
+before you start.
+
 Then set it up in your tool.
 
 ### Claude Code
@@ -299,4 +308,10 @@ adapters are rebuilt from it. [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
 has the rest, and [`docs/DESIGN.md`](docs/DESIGN.md) explains how Magpie is
 built and why.
 
-Licensed under the MIT License. See `LICENSE`.
+Magpie is an independent personal project. It isn't made, endorsed or
+supported by any employer.
+
+Licensed under the MIT License. See `LICENSE`. The license covers the
+Magpie files only. It doesn't give permission to use any particular AI
+tool at work, or to share any data with one; see
+[Using Magpie at work](#get-started).
