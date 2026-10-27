@@ -97,7 +97,12 @@ again.
    Magpie asks; it never drops the limits silently and never puts them in
    without asking.
 11. **Appendix for the deep dive.** Full findings, coding frame, instruments,
-    review summary, links.
+    review summary, links, and how AI was used: which outputs Magpie
+    drafted, what the researcher did and reviewed, which checks ran and
+    how, and any other AI tool in the study, from the record
+    (`templates/report.md`, "How AI was used"). It goes in every report
+    and readout appendix, so the people who act on the work know an AI
+    helped make it.
 12. **Write the report for the reader who wasn't there.** Same story as the
     readout, a little deeper, still for a PM, designer or engineer: summary,
     why, what we did in one paragraph, top findings (five or fewer),
@@ -164,6 +169,7 @@ PM measure to know it worked?"
 - Quote and count checks run on the readout and report, by code or by
   hand.
 - Independent review done on the report.
+- "How AI was used" in the report and readout appendix.
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".
 - Library entries written.

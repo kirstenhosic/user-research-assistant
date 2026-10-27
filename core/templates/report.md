@@ -75,7 +75,8 @@ caption saying what to see in it.
 **Strength:** [strong / moderate / weak], because [one line].
 **Answers:** [question].
 
-[Evidence with numbers and participant codes. Two or three quotes at most.]
+[Evidence with numbers and participant codes. Two or three quotes at most,
+each with its code and descriptor: "— P3, finance manager, SMB".]
 
 [Image with caption, if it helps.]
 
@@ -135,5 +136,24 @@ pages.
 - Partner data used, with source and date
 - Consent, data handling and retention
 - Independent review: what it found and what changed
+- How AI was used (below)
 - Library entries written from this study
 - Links to recordings, clips and raw material (access-controlled)
+
+### How AI was used
+
+Four or five lines, written from the study record, so a stakeholder can
+see which parts an AI drafted and which a person did or checked. Plain
+facts, no reassurance.
+
+- **Assistant:** Magpie, running in [the assistant, if known].
+- **What it drafted:** [outputs from the record's Outputs table, such as
+  the plan, the guide, the findings, this report]
+- **What the researcher did:** [the your-turn steps they took, from the
+  record; the theme decisions; each output's review date, or "not yet
+  reviewed"]
+- **Checks:** quotes and counts checked [by code / by hand]; independent
+  review by a separate AI pass, [what it found and what changed]. The
+  reviewer is a model too and can be wrong.
+- **Other AI tools in the study:** [an AI moderator, transcription or
+  summary tool, if the record names one; otherwise leave the line out]

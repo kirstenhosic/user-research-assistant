@@ -2,6 +2,33 @@
 
 ## 2026-10-27
 
+- Five changes from mapping Magpie to the HEARTS scorecard.
+  - Reports and readouts get a "How AI was used" section in the
+    appendix, built from the study record: what Magpie drafted, what the
+    researcher did and reviewed, which checks ran and how, and any other
+    AI tool in the study.
+  - When an AI tool moderates, transcribes, summarizes or analyzes the
+    sessions (Magpie included), the consent check and research plan say
+    what participants are told about it beforehand; for an AI moderator,
+    also that they'll talk with an AI and how to stop or reach a person.
+  - Quotes in readouts and reports carry a short descriptor from the
+    participant list after the code ("P3, finance manager, SMB"), never a
+    name or company name, broadened where it would point to one person.
+    The team profile can set the label.
+  - With the review ask on findings, a readout or a report, Magpie names
+    where to read hardest: the finding the decision leans on most and
+    the one with the thinnest evidence.
+  - Details that identify a participant stay out of every output; quotes
+    use placeholders such as [name], and Magpie says once what it kept
+    out. `quote_check.py` accepts a bracketed placeholder standing for a
+    few words.
+  - The independent review asks an eighth question: where the draft
+    explains behaviour with assumptions about a group that participants
+    didn't state.
+  - New standards 4.8, 6.14, 7.12, A.19 and A.20, 6.4 extended, six new eval
+    scenarios (not yet run), and a new quote-check fixture. The README
+    and provenance standard counts, which had fallen behind, are
+    corrected to 89 and 37.
 - Fixes from the end-to-end workflow review (issues 5 to 13).
   - Save points: when a stage's drafts all have their yes, Magpie
     suggests saving the record in one line; in Claude Code it saves

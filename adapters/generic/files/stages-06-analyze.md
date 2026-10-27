@@ -29,8 +29,9 @@ or responses. Without it there's nothing to analyze, only to imagine.
 
 - The raw material for every session, or a note of which sessions are
   missing and why.
-- The participant list with what matters for this study: role, segment,
-  how long they've used the product, any accessibility needs.
+- The participant list with what matters for this study: role, segment
+  or company type (such as enterprise or SMB), how long they've used the
+  product, any accessibility needs. Quotes are labelled from it.
 - Sessions that went wrong or should be left out, and why.
 - Observer notes or debrief notes, if the team kept them.
 - Partner data that arrived since planning.

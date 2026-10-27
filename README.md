@@ -284,7 +284,7 @@ the folder as files.
 `adapters/generic/system-prompt.md` holds all of Magpie in one file, for
 tools that take one very long system prompt, such as some API setups. It's
 about 200 KB, and the lean version, `system-prompt-lean.md`, is about
-115 KB. Most custom-instruction boxes in chat apps are far smaller, so
+120 KB. Most custom-instruction boxes in chat apps are far smaller, so
 expect them to refuse both.
 
 ## Where it stands
@@ -299,8 +299,8 @@ As of October 27, 2026.
   time. The details, and the stricter rules for the next run, are in
   [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md) and
   [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 78 standards in
-  [`core/standards/`](core/standards/). 36 cite a public source, such as
+- **Its rules are written down.** Magpie follows 89 standards in
+  [`core/standards/`](core/standards/). 37 cite a public source, such as
   the ICC/ESOMAR code, Braun and Clarke, or Nielsen Norman Group. The
   others are based on professional judgment and say so. Every source is
   listed in [`docs/PROVENANCE.md`](docs/PROVENANCE.md).

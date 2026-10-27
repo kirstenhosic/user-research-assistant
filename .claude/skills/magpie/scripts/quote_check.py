@@ -21,6 +21,11 @@ name (p3.md is P3) or from the first code on its title line. A quote found
 only in someone else's transcript, or only in the interviewer's lines, is
 flagged as misattributed.
 
+A bracketed placeholder inside a quote, such as [name] or [company], stands
+for words left out to keep a participant from being identified. The words
+on each side of it must appear in order in one transcript, with no more
+than a few words between them where the placeholder sits.
+
 Shorter quoted text is listed as not checked, so a short quote isn't taken
 as verified. Exit code 1 if any quote is missing or misattributed.
 """
@@ -37,12 +42,37 @@ MIN_WORDS = 4
 TITLE_CODE = re.compile(r"^#\s*([A-Za-z]{1,2}\d{1,3})\b")
 STEM_CODE = re.compile(r"^[A-Za-z]{1,2}\d{1,3}$")
 NUMBERED = re.compile(r"^\s*\d{1,4}\s+(.*)$")
+PLACEHOLDER = re.compile(r"\[[^\]]*\]")
+MAX_GAP = 40  # characters a placeholder may stand for, after normalizing
 
 
 def normalize(text: str) -> str:
     text = text.lower()
     text = re.sub(r"[^\w\s]", " ", text)
     return " ".join(text.split())
+
+
+def pieces(quote: str) -> list[str]:
+    """The normalized words of a quote, split where a placeholder sits."""
+    return [k for k in (normalize(part) for part in PLACEHOLDER.split(quote)) if k]
+
+
+def contains(text: str, parts: list[str]) -> bool:
+    """True if the parts appear in order, each gap short enough to be a placeholder."""
+    if len(parts) == 1:
+        return parts[0] in text
+    start = text.find(parts[0])
+    while start != -1:
+        pos = start + len(parts[0])
+        for part in parts[1:]:
+            nxt = text.find(part, pos)
+            if nxt == -1 or nxt - pos > MAX_GAP:
+                break
+            pos = nxt + len(part)
+        else:
+            return True
+        start = text.find(parts[0], start + 1)
+    return False
 
 
 def participant_code(path: Path, text: str) -> str | None:
@@ -113,7 +143,8 @@ def main(argv: list[str]) -> int:
     short = []
     for m in QUOTE.finditer(findings):
         text = " ".join(m.group(1).split())
-        if len(text.split()) >= MIN_WORDS and len(text) >= MIN_CHARS:
+        words = " ".join(PLACEHOLDER.sub(" ", text).split())
+        if len(words.split()) >= MIN_WORDS and len(words) >= MIN_CHARS:
             quotes.append((text, attribution(findings, m.start(), m.end(), code_re)))
         elif text not in short:
             short.append(text)
@@ -126,8 +157,9 @@ def main(argv: list[str]) -> int:
     missing = []
     misattributed = []
     for quote, credited in quotes:
-        key = normalize(quote)
-        found = [s for s, text in corpus.items() if key in text]
+        parts = pieces(quote)
+        key = max(parts, key=len)
+        found = [s for s, text in corpus.items() if contains(text, parts)]
         names = ", ".join(s.name for s in found)
         if not found:
             print(f"MISSING  {quote[:60]!r}")
@@ -146,7 +178,8 @@ def main(argv: list[str]) -> int:
             print(f"WRONG    {quote[:60]!r}  {problem}")
             misattributed.append((quote, problem))
         else:
-            print(f"ok       {quote[:60]!r}  in {names}")
+            gap = " (placeholder gap allowed)" if len(parts) > 1 else ""
+            print(f"ok       {quote[:60]!r}  in {names}{gap}")
 
     print()
     found_count = len(quotes) - len(missing)

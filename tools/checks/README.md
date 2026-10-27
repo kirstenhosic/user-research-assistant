@@ -6,7 +6,7 @@ readout and report.
 
 | Script | Checks | Run |
 | --- | --- | --- |
-| `quote_check.py` | Every quote in the findings appears in the transcripts, and in the transcript of the participant it's credited to, in their own lines; lists short quoted text it didn't check | `python3 tools/checks/quote_check.py findings.md transcripts/` |
+| `quote_check.py` | Every quote in the findings appears in the transcripts, and in the transcript of the participant it's credited to, in their own lines; a bracketed placeholder such as [name] may stand in for a few left-out words; lists short quoted text it didn't check | `python3 tools/checks/quote_check.py findings.md transcripts/` |
 | `count_check.py` | "N of M" arithmetic, percentage math, percentages from small bases | `python3 tools/checks/count_check.py findings.md` |
 | `evidence_check.py` | Every count lists as many participant codes as it claims, every code is a real participant, every cited line exists and is that participant speaking; a whole-sample count with no codes is flagged | `python3 tools/checks/evidence_check.py findings.md transcripts/` |
 
