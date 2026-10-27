@@ -21,7 +21,9 @@ what a good change looks like.
    file reference resolves, every standard has an eval and a recorded
    source, and the code checks pass their fixtures. Fix anything it lists.
 4. Commit the core change and the regenerated adapters together.
-5. Open a pull request that says what changed and why.
+5. Open a pull request that says what changed and why. GitHub runs the
+   same `tools/check.py` on the pull request (`.github/workflows/check.yml`)
+   and shows the result as the `check` status.
 
 ## Standards need a source
 

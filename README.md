@@ -265,6 +265,7 @@ adapters/generic/        one long prompt for any other assistant (generated)
 adapters/claude|chatgpt|gemini/   setup notes per platform, with what was checked and when
 core/                    everything Magpie knows, in plain Markdown (edit here)
 tools/                   the build script and the quote and count checks
+.github/workflows/       runs tools/check.py on every pull request
 evals/                   test scenarios with planted problems
 docs/                    design, provenance, contributing, prompt style, changelog
 docs/examples/           a filled-in report and readout (Markdown, Word, PowerPoint)

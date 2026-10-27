@@ -1,0 +1,20 @@
+# Runs the repository's maintenance check on every pull request and on
+# every push to main. It is the same command a contributor runs locally:
+# python3 tools/check.py (adapters fresh, references resolve, standards and
+# evals cross-check, code-check fixtures pass).
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 tools/check.py
