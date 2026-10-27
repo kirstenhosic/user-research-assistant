@@ -6,6 +6,21 @@ left off in any assistant.
 
 Last updated: [date] · Stage: [1–7] · Challenge level: [standard]
 
+## Product
+
+What's being studied, so every stage works from the same picture. Filled
+early, from the team profile, product docs or the researcher. Guesses are
+marked [assumption].
+
+- **Product:** [name, and what it is in one plain sentence]
+- **What it does:** [the main things people do with it, in their terms]
+- **Part under study:** [the feature, flow or screen; "the whole product" is fine]
+- **End users:** [who uses it day to day, by what they do and where; people who stopped using it, if they matter]
+- **Buyers or admins, if different:** [who chooses, pays for or sets it up]
+- **Where it stands:** [idea, prototype, beta or live; which platforms]
+- **Recent changes:** [releases or redesigns that could date earlier evidence]
+- **Source:** [team profile, product docs, the researcher, or [assumption]]
+
 ## Decision
 
 - **Decision:** [What will be decided, in one sentence]

@@ -12,43 +12,53 @@ would recognize, and research questions that each serve the decision.
 
 - The ask, in whatever form it arrived.
 - The gap summary from stage 1.
-- The team profile, if there is one (company goals, metrics, stakeholders).
+- The team profile, if there is one (products and users, company goals,
+  metrics, stakeholders).
 - The intake form, if a PM or designer filled one in.
 
 ## What to do
 
-1. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
+1. **Get the product context.** Fill the record's Product section: what
+   the product is, what it does, the part under study, who its end users
+   are, and who buys or sets it up if that's someone else. Draft it from
+   the team profile, product docs, a public site you can reach and what
+   the researcher has said, then ask them to correct it, in one question.
+   Mark what's still unknown [assumption] (`operating.md`, "Know the
+   product").
+2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
    or a feeling ("it's confusing"). Ask: what will someone decide differently
    once we know the answer? Draft the decision yourself from what you've been
    told and ask them to correct it. Format: *[Owner] will decide [what] by
    [when], choosing between [options].*
-2. **Tie it to the business.** Which goal or metric does it move? What does it
+3. **Tie it to the business.** Which goal or metric does it move? What does it
    cost to get it wrong? Use the team profile's goals and current bets if
    you have them, and note any market signal that bears on it (a competitor
    move, a segment the company is chasing), labelled as partner data. If
    the researcher doesn't know, that's fine: write "[assumption]" and move
    on. Don't invent a metric or a market claim.
-3. **Write the research questions.** One primary question that most changes
+4. **Write the research questions.** One primary question that most changes
    the decision. Up to three secondary questions. Each one names the decision
    it serves. Questions are about users, not about the product ("how do
-   people currently track X?" not "do users like our tracker?").
-4. **List the assumptions.** What does the team already believe? Write each
+   people currently track X?" not "do users like our tracker?"). Say
+   which users: the end users in the Product section, or the buyers or
+   admins, if the decision is about them.
+5. **List the assumptions.** What does the team already believe? Write each
    one down as an assumption, with who holds it.
-5. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
+6. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
    briefly: what's upstream and downstream of this piece, which other
    teams touch it, what job the user is doing when they meet it, which of
    the team's journeys or CUJs and which persona it sits on. If the team
    profile has these, use its names. If not, draft a guess, mark it
    [assumption], and move on. Add the job, journey step and persona lines
    to the record's Business context.
-6. **Check for a design question hiding inside.** Many asks mix a strategic
+7. **Check for a design question hiding inside.** Many asks mix a strategic
    question (should we build this?) with a design question (does this screen
    work?). Separate them. They usually need different methods.
 
 ## What to draft
 
-- Decision, business context, research questions and assumptions, all in the
-  study record.
+- Product, decision, business context, research questions and assumptions,
+  all in the study record.
 - A one-paragraph framing summary the researcher can send to the decision
   owner to confirm.
 
@@ -60,6 +70,8 @@ because it's on the roadmap? If so, what is the research for?"
 
 ## Exit criteria
 
+- The Product section says what the product is, what it does, the part
+  under study and who its end users are, or marks each as an assumption.
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
@@ -76,6 +88,8 @@ satisfy it.
 
 ## Pitfalls
 
+- Framing a study without knowing what the product does or who uses it.
+- Treating buyers or admins as if they were the end users.
 - A decision so broad it can't be wrong ("improve the experience").
 - Research questions that are really survey questions.
 - Studying one step as if nothing came before or after it.

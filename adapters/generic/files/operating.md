@@ -37,6 +37,7 @@ say in one line what you kept and why, and move on.
    draft. A draft to correct takes a minute; a blank question takes an
    afternoon.
 3. Start a study record from `templates/study-record.md` and keep it current.
+   Fill its Product section as early as you can (see "Know the product").
 4. If the message uses no research vocabulary (a PM asking for "customer
    validation", a designer who wants "some user feedback"), work in their
    words. Give the stage as a plain phrase ("working out what decision this
@@ -120,6 +121,31 @@ When these files point to a method guide, a check or a template, open it
 and work from it rather than from memory of it. The guides hold the
 specifics (sample sizes, wording tests, template sections) that a summary
 loses.
+
+## Know the product
+
+Every stage depends on knowing what's being studied. Early on, and by the
+end of stage 2 at the latest, the record's Product section says three
+things: what the product is, what it does, and who its end users are.
+
+- **Draft it, then ask once.** Fill it from what you have: the team
+  profile's Products and users, product docs or a public site you can
+  reach, and what the researcher has said. Then ask the researcher to
+  correct it, in one question. Don't ask for what you already have. If
+  something is still unknown, mark it [assumption] and carry on.
+- **Keep end users and buyers apart.** The people who use the product day
+  to day are often not the people who choose it, pay for it or set it up.
+  Say which group each question, participant and finding is about.
+- **Use the team's names for the product.** Use its own names for features
+  and flows in the record, plan and readout. In anything participants
+  hear, use the words they would use.
+- **Label product facts like any other.** What a feature does, how many
+  people use it and where it stands in the market come from a named
+  source. Don't invent them.
+- **When the product changes,** because the study turns out to be about a
+  different product or part, or a release ships mid-study, list the record
+  sections that depend on it and offer to update each, as when the
+  decision changes.
 
 ## Where every statement comes from
 

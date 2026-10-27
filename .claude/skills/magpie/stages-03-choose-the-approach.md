@@ -21,7 +21,11 @@ decision owner could understand why.
    quantitative), or *whether this design works* (test it)?
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger. If there's a
+   if yes, even if the researcher wanted something bigger. What's
+   available depends on where the product stands (Product section): a live
+   product has analytics, support tickets and real use to watch; an idea
+   or a prototype has none of those, so concept testing or interviews
+   about what people do today fit better. If there's a
    design to evaluate, an expert review (`methods/expert-review.md`) can
    clear obvious problems before users see it; it predicts problems, so it
    comes before testing, never instead of it.

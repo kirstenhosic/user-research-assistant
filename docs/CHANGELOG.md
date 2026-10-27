@@ -2,6 +2,16 @@
 
 ## 2026-10-27
 
+- Product context. The study record opens with a Product section: what
+  the product is, what it does, the part under study, its end users, its
+  buyers or admins if different, where it stands and recent changes.
+  Magpie drafts it early from the team profile, product docs or what the
+  researcher said, asks once, and marks gaps as assumptions. Stages 1 to
+  7 use it (freshness, framing, method choice, recruiting end users,
+  tasks in participants' words, roles in analysis, a product line in the
+  readout). The plan, readout and report templates, the intake form and
+  the team profile gain a product line. Standards 2.6 and 4.7 and one
+  eval scenario (unknown product, not yet run).
 - Four new method guides: focus groups, participatory design (co-design),
   field studies and expert review (heuristic evaluation and cognitive
   walkthrough). A new lens for including disabled people and assistive

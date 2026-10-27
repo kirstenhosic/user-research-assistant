@@ -22,16 +22,21 @@ need, and leads nobody.
 2. **Draft from the template.** Opening, warm-up, the main questions, probes,
    closing. For usability tests: scenario, tasks, success criteria, what to
    observe. For surveys: screener, sections, item wording, response scales.
-3. **Run the wording check.** Use `checks/guide-wording.md` for interviews
+3. **Fit it to the product.** Base tasks and scenarios on what the
+   product does and the part under study (Product section), so they match
+   what participants can actually do. In anything participants hear, use
+   their words, not the team's internal feature names. If it's a
+   prototype, say in the moderator notes what works and what doesn't.
+4. **Run the wording check.** Use `checks/guide-wording.md` for interviews
    and tests, `checks/survey-wording.md` for surveys. Fix what it catches and
    say what you fixed.
-4. **Add the moderator notes.** What to do if a participant says "it's fine"
+5. **Add the moderator notes.** What to do if a participant says "it's fine"
    to everything, runs short, runs long, or gets upset.
-5. **Time it.** Estimate the length. If it runs over, say what to cut and
+6. **Time it.** Estimate the length. If it runs over, say what to cut and
    why those items matter least.
-6. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
+7. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
    what to watch for in the pilot.
-7. **Check it works with assistive technology.** If participants use a
+8. **Check it works with assistive technology.** If participants use a
    screen reader, magnification or voice control, try the instrument or
    prototype with it before the sessions (`lenses/accessibility.md`).
 

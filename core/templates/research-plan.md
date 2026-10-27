@@ -5,6 +5,11 @@ Two minutes to read. Everything here comes from the study record.
 **Owner:** [researcher] · **Decision owner:** [name] · **Decision due:** [date]
 · **Readout:** [date]
 
+## The product
+
+[What it is, what it does, the part this study covers, and who its end
+users are. Who buys or sets it up, if different.]
+
 ## The decision
 
 [Owner] will decide [what] by [when], choosing between [options].

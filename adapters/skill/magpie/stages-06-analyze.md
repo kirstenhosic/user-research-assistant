@@ -35,6 +35,9 @@ fit.
 4. **Code what's there.** Tag each relevant passage with a short label and
    its source: participant code plus line, timestamp or question number.
    Codes describe what people did or said, not what you think it means.
+   Note each participant's role against the Product section (end user,
+   buyer, admin), so a theme that comes only from buyers isn't reported
+   as what end users do.
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task). Each theme carries its receipts from the start: the
