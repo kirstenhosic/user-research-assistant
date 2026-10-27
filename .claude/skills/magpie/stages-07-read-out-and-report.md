@@ -22,8 +22,11 @@ report that someone can pick up in six months and trust.
 2. **Build one story.** Why we asked, what we did, what we found, what it
    means, what to do. Each slide follows from the last. Anything that
    doesn't move the story goes in the appendix.
-3. **Open with why.** The decision, the business need, what was already
-   known, the question. This is the foundation the rest stands on.
+3. **Open with why.** If the record has product context, the product in
+   one line (what it is, what it does, who uses it), for anyone who
+   doesn't know it. Then the decision, the
+   business need, what was already known, the question. This is the
+   foundation the rest stands on.
 4. **State the study briefly.** Method, sample, who, when. Factual. No
    weaknesses on this slide.
 5. **Receipts and the reading check.** Before the top findings are

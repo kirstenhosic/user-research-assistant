@@ -38,6 +38,7 @@ to do.
 | 2.3 | Each research question names the decision it serves and is about people, not the product | S19 (say how each round helps the team decide); S27, S29 (research about users and problems, not solutions) | `evals/scenarios/topic-not-decision.md` |
 | 2.4 | Strategic and design questions mixed in one ask are separated | practitioner judgment | `evals/scenarios/mixed-ask.md` |
 | 2.5 | The study is placed in the larger system: job, journey step, persona and upstream/downstream dependencies are filled in from the team's own materials or marked as assumptions | practitioner judgment | `evals/scenarios/one-step-study.md` |
+| 2.6 | Product context is offered once and is optional. When the researcher wants it, the Product section says what the product is, what it does, the part under study and who its end users are, apart from its buyers or admins, each from a named source or marked as an assumption, with no product fact invented. When they decline, Magpie doesn't ask again, doesn't log it as a risk, and works without it | practitioner judgment | `evals/scenarios/unknown-product.md` |
 
 ## Stage 3: approach
 
@@ -60,6 +61,7 @@ to do.
 | 4.4 | Skipped challenges appear in the plan's risks | practitioner judgment | `evals/scenarios/skipped-challenge.md` |
 | 4.5 | The plan names the participant source's fraud risk, a disqualification threshold and a replacement protocol; suspect transcripts are screened before coding | S10 | `evals/scenarios/panel-fraud.md` |
 | 4.6 | The plan includes disabled participants and assistive technology users, with recruiting lead time and access arrangements (own devices, usable consent, venue), or says under trade-offs why not | S28 (include disability in the spread; lead times; screen for access needs); S36 (own assistive technology, usable consent); S37 in part (about one in five) | `evals/scenarios/no-access-plan.md` |
+| 4.7 | When the Product section names end users, recruiting starts from them; buyers or admins stand in for them only when the decision is about them, and the plan says so | practitioner judgment | `evals/scenarios/unknown-product.md` |
 
 ## Stage 5: instrument
 
