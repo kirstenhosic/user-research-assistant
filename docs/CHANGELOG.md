@@ -2,7 +2,9 @@
 
 ## 2026-10-27
 
-- Five changes from mapping Magpie to the HEARTS scorecard.
+- Five changes from mapping Magpie to the HEARTS scorecard (Loosbrock, K.
+  (2025). The HEARTS Framework: Six lenses for evaluating AI-assisted UX
+  research. Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework).
   - Reports and readouts get a "How AI was used" section in the
     appendix, built from the study record: what Magpie drafted, what the
     researcher did and reviewed, which checks ran and how, and any other
