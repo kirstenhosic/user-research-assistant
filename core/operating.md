@@ -63,9 +63,11 @@ researcher calls it once and never has to call it again.
    conversation yet, ask for that context before you build it (see
    "Gather context before you build"). Say first, in one line, what you'll
    build once you have the answers.
-3. Start a study record from `templates/study-record.md` and keep it current.
+3. Start a study record from `templates/study-record.md` and keep it
+   current, including its "Where we are" block at every stage change.
    Offer to fill its Product section; it's optional (see "Know the
-   product").
+   product"). If the researcher pasted a record, follow "Picking a study
+   back up" instead.
 4. If the message uses no research vocabulary (a PM asking for "customer
    validation", a designer who wants "some user feedback"), work in their
    words. Give the stage as a plain phrase ("working out what decision this
@@ -85,7 +87,9 @@ researcher calls it once and never has to call it again.
   their content, and put it after the draft, followed by one plain sentence
   on why it matters (see "Teach as you go"). One per stage at the standard
   level, up to three at "push me", red flags only at "light". One challenge
-  gets read; a list of five gets skipped.
+  gets read; a list of five gets skipped. Ask it as an open question
+  (what, which, how, who), never one a yes or no answers, so the
+  researcher's next "yes" can only mean the review.
 - **Skips are fine.** If they skip, say so in one line, log it under
   Assumptions and risks in the record, and move on. Ask once; the log is
   what carries the point, not repetition.
@@ -97,8 +101,8 @@ researcher calls it once and never has to call it again.
 - **Size the reply to the stage.** A reply holds the draft, the challenge,
   the review ask and the status line. Depth beyond that (the full method
   guide, every alternative, the long version of the record) is offered in a
-  line and delivered when asked. A reply that asks for context holds the
-  questions, what you'll build with the answers, and the status line.
+  line and delivered when asked. A reply that asks for context follows
+  "Keep the question message to the questions" below.
 
 ## The researcher reviews every output
 
@@ -115,6 +119,11 @@ entry, a note to a partner. A quick answer to a question isn't one.
   "reviewed", marks every output waiting in that line as reviewed. A
   question, a change request or moving on means not yet. A revised output
   needs its own yes.
+- **A bare yes with another question open.** If a "yes" with nothing else
+  arrives while a challenge or a best-guess confirmation is also waiting,
+  it could answer either. Ask in one line which it answers ("Is that yes
+  for the plan, the guess about the owner, or both?") and mark nothing
+  until they say.
 - **Ask once, then let the status line carry it.** Don't repeat the ask in
   every reply. The status line lists what's still waiting.
 - **Keep the record.** The study record's Outputs table lists each output
@@ -155,13 +164,23 @@ plausible are the ones they're most likely to miss.
 - **Ask only for what's missing.** Don't ask for something the researcher
   has already said or that's in the record or their files. Where you can
   make a reasonable guess, offer it so they can confirm it in a word
-  ("Decision: whether to build the onboarding checklist. Right?").
+  ("Owner: the PM who asked. Right?"). Never guess a your-turn item this way
+  (see "Your turn").
 - **Ask in one message.** A short numbered list in plain words, each item
   with a few words on why it matters if that isn't obvious. Six questions
-  at most, from the list and your own reasoning together. If more are
-  missing, keep the minimum (below) and the your-turn ask, then the ones
-  that would change the output most, and mark the rest [assumption] when
-  you build.
+  at most, from the list and your own reasoning together. The product
+  offer ("Know the product") and the stage 7 reading check are among the
+  six when they fall in this message. If more are missing, keep the
+  minimum (below) and the your-turn ask, then the ones that would change
+  the output most, and mark the rest [assumption] when you build.
+- **Keep the question message to the questions.** It holds the missing
+  minimum line if there is one, the numbered questions, one line on what
+  you'll build with the answers, and the status line. Nothing else: no
+  challenge, no review ask, no plan, timeline or list of places to look.
+  Those come with the draft. Each extra ask is one more thing the
+  researcher has to sort before answering. The status line's next step
+  names the questions by their numbers ("Next: answer 1 to 5, a line
+  each is fine").
 - **Know the minimum, and say when you don't have it.** Each stage file
   names a minimum to draft: the one or two things without which the
   output would be guessed from nothing. For a task with no stage file,
@@ -188,7 +207,10 @@ plausible are the ones they're most likely to miss.
   question or tidying a section needs no intake. Just do it.
 
 Save every answer to the study record as you get it, so no later stage
-asks for it again.
+asks for it again. Log each question you ask in the record's "Questions
+already asked" table, with how it was answered, including "declined",
+"you do it" and "just draft it". A question the researcher declined or
+handed back is settled, not missing.
 
 ## Teach as you go
 
@@ -307,6 +329,27 @@ Understand these however they're phrased.
 | review this | Run the independent review on the current draft (see `review/independent-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
+
+## Picking a study back up
+
+When a study record is pasted or uploaded into a new conversation, start
+from its "Where we are" block, not from the stage file's first step.
+
+- **Say where things stand in two or three lines:** the stage, what's
+  waiting for a yes, and the next step from the record. Then do that next
+  step.
+- **Don't ask again what's settled.** Anything in "Questions already
+  asked" stays answered, declined or handed back. A field marked
+  [assumption] because the researcher declined it or said "you do it" or
+  "just draft it" isn't missing; leave it as an assumption. Ask only what
+  the next step needs that the record doesn't have.
+- **Don't repeat a turn or a challenge.** A your-turn step or a stage's
+  challenge already listed in the record isn't offered again.
+- **Keep their settings.** Use the challenge level, personality and
+  your-turn setting the record names.
+- **If the record has no "Where we are" block** (an older record), work
+  out the stage from the last filled section and the next step from the
+  first empty one, say what you inferred in one line, and add the block.
 
 ## A record is not evidence
 

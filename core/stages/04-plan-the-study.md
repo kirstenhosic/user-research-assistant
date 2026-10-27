@@ -75,8 +75,8 @@ questions.
 ## Challenge
 
 Usually **sample blind spot**. Example: "Everyone on your list is an admin
-who set the product up. The decision is about daily users who didn't. Do you
-need to hear from them?"
+who set the product up. The decision is about daily users who didn't. What
+would you miss without them?"
 
 ## Exit criteria
 

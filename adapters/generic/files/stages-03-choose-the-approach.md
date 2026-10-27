@@ -87,8 +87,8 @@ long the study can take.
 ## Challenge
 
 Usually **method fit**. Example: "You've gone straight to a survey, but the
-question is 'why do people stop after step 3?' Would eight sessions watching
-them do step 3 answer that faster?"
+question is 'why do people stop after step 3?' What would eight sessions
+watching them do step 3 tell you that the survey can't?"
 
 ## Exit criteria
 

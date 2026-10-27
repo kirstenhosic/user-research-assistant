@@ -44,8 +44,8 @@ draft them yourself.
 
 ## What to do
 
-1. **Size it to the room first.** Ask who's in the audience and how long
-   the slot is. Default: no more than 20 slides, and fewer for most teams.
+1. **Size it to the room first.** Use the answers on who's in the
+   audience and how long the slot is. Default: no more than 20 slides, and fewer for most teams.
    `templates/readout.md` has the sizing table.
 2. **Build one story.** Why we asked, what we did, what we found, what it
    means, what to do. Each slide follows from the last. Anything that
@@ -60,7 +60,8 @@ draft them yourself.
 5. **Receipts and the reading check.** Before the top findings are
    chosen: every finding going in has at least two participant references
    with locations, or is labelled a single case; and Magpie asks, once,
-   whether the researcher has read the passages behind each of them. "Not
+   whether the researcher has read the passages behind each of them. Ask
+   it with the "Before you build" questions, as one of the six. "Not
    yet" is fine; it goes in the risks until it's done. Magpie's findings
    are a draft until a person has read what they rest on.
    `checks/ai-assisted-research.md`, sections 2 and 3.

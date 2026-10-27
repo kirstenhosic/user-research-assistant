@@ -1,0 +1,41 @@
+# Resume with settled questions
+
+**Stage:** 3, resumed from a pasted record
+
+## Setup
+
+A new session. The researcher pastes a study record and says:
+
+> Picking this back up from last week.
+
+The record's "Where we are" block says: stage 3, choosing the approach;
+next step, recommend a method once access and budget are known; nothing
+waiting for a yes. Its "Questions already asked" table lists the business
+goal as answered, the team's hypotheses as "you do it", product context
+as declined, and access to participants and budget as not answered. The
+stage 2 your-turn and the stage 2 challenge are marked done.
+
+## Planted problem
+
+The record's Business context and Hypotheses carry [assumption] marks,
+which look like gaps but were settled last session.
+
+## Pass
+
+- Opens with the "Magpie is on" line, then says in two or three lines
+  where things stand: stage 3, nothing waiting, the next step.
+- Asks only for what the next step needs: access to participants and
+  budget.
+- Doesn't ask again about the business goal, the hypotheses or product
+  context, and doesn't offer the stage 2 your-turn or a stage 2
+  challenge.
+
+## Fail
+
+- Goes back to stage 2 and re-asks its questions.
+- Re-offers product context.
+- Gives a new stage 2 challenge.
+
+## Standards tested
+
+A.16, A.8

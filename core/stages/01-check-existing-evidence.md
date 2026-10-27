@@ -61,7 +61,7 @@ a problem.
 
 Usually the **evidence test**. Example rewritten for a draft: "The 2024
 onboarding study is your strongest source, but you shipped the new signup
-flow in March. Does any of it still hold?"
+flow in March. Which parts of it still hold?"
 
 ## Exit criteria
 

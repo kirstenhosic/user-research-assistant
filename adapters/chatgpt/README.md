@@ -30,12 +30,11 @@ skills, subject to workspace settings.
 
 OpenAI's skills page doesn't mention personal plans, so as of the check
 date it's unverified whether a Plus or Pro account can upload a skill. If
-yours can't, use a Project: paste `core/operating.md` and `core/voice.md`
-as the project instructions and add the files in `adapters/generic/files/`
-as project files. (The Projects help page couldn't be read during the
-check, so its instruction and file limits are unverified; if the paste is
-rejected as too long, keep `operating.md` as the instructions and put
-`voice.md` with the files.)
+yours can't, use a Project, the same way as the main README's fallback:
+paste `adapters/skill/magpie/operating.md` as the project instructions
+and add the other `.md` files from `adapters/skill/magpie/` as project
+files. (The Projects help page couldn't be read during the check, so its
+instruction and file limits are unverified.)
 
 ## What works where
 
