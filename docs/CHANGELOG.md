@@ -2,6 +2,16 @@
 
 ## 2026-10-27
 
+- The independent review and the quote and count checks no longer wait to
+  be asked. Stages 6 and 7 say "run", not "request": Magpie starts a
+  separate agent in the same reply where it can, and otherwise hands over
+  the paste text in that reply. Stage 6 can't close with the review only
+  "requested"; an unreturned review shows as waiting. Stage 7 checks the
+  quotes and counts in the readout and report again, and runs the stage 6
+  review first if it's missing. Found in a live Claude Code test where one
+  report run of five waited for "review this". Standards 6.7 and 7.5
+  updated, new 7.5b, new eval scenario `review-starts-itself.md` (not yet
+  run).
 - Fixes from the end-to-end workflow review (issues 1 to 4).
   - Setup steps agree: one way to make the zip for Copilot, with the
     troubleshooting tip no longer contradicting it; Claude.ai and the

@@ -1353,8 +1353,11 @@ sessions, or say "you do it", skip it.
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-15. **Request the independent review** (`review/independent-review.md`) once
-    the findings are drafted. It's required at this stage.
+15. **Run the independent review** (`review/independent-review.md`) once
+    the findings are drafted. It's required at this stage. Start it in the
+    same reply, without waiting to be asked: where you can start a separate
+    agent, start it; where you can't, give the researcher the text to paste
+    and say when to bring the result back.
 
 ## Survey data
 
@@ -1420,7 +1423,9 @@ it.
   is logged as a risk.
 - Claim-strength check run.
 - Quote and count checks run, by code or by hand.
-- Independent review requested or completed.
+- Independent review run and each point fixed or answered. If the
+  researcher is running it in another chat and hasn't brought it back, it's
+  listed as waiting in the record and the status line.
 
 ## Pitfalls
 
@@ -1444,7 +1449,9 @@ report that someone can pick up in six months and trust.
 
 ## Inputs
 
-- The study record through stage 6, with the independent review done.
+- The study record through stage 6, with the independent review done. If
+  it isn't, say so in one line and run it (or give the researcher the text
+  to paste) before drafting the readout.
 - Who's in the room and what they each need to decide or build.
 - The team profile's goals and metrics, if there is one.
 
@@ -1543,12 +1550,21 @@ draft them yourself.
     or the recommendations. If there's nothing for them, say so, so they
     can stop reading. Then sweep for terms a new PM would have to look up
     and replace each or add a four-word gloss.
-14. **Request the independent review** on the final report
-    (`review/independent-review.md`). It's required.
-15. **Write the library entries.** One per finding worth keeping
+14. **Check the quotes and counts again** in the readout and report.
+    Wording changes between the record and the deck, so run the code
+    checks (`tools/checks/`) on both: every quote matches its transcript
+    and the person it's credited to, every count's arithmetic holds, and
+    every count lists as many participants as it claims. Where you can't
+    run code, do it by hand and say so.
+15. **Run the independent review** on the final report
+    (`review/independent-review.md`). It's required. Start it in the same
+    reply, as at stage 6: start a separate agent where you can, otherwise
+    give the researcher the text to paste and say when to bring the result
+    back.
+16. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 1.
-16. **Close the loop with partners.** Send each team that helped the two or
+17. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
@@ -1582,6 +1598,8 @@ PM measure to know it worked?"
   contents list, method in one paragraph, admin detail in the appendix.
 - Limits drafted, shown to the researcher, and their decision recorded;
   limits present in the report regardless.
+- Quote and count checks run on the readout and report, by code or by
+  hand.
 - Independent review done on the report.
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".
