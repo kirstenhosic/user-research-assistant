@@ -19,6 +19,11 @@ decision owner could understand why.
 Ask for whatever on this list isn't already in the study record, the
 conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
+This list is the floor: add the questions this particular study or task
+raises, within the same six.
+
+**Minimum to draft:** the primary research question, and roughly how
+long the study can take.
 
 - The deadline for the decision, and how much time the study can take.
 - Budget, including incentives and tools.

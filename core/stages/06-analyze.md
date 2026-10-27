@@ -21,6 +21,11 @@ fit.
 Ask for whatever on this list isn't already in the study record, the
 conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
+This list is the floor: add the questions this particular study or task
+raises, within the same six.
+
+**Minimum to draft:** the raw material: transcripts, notes, recordings
+or responses. Without it there's nothing to analyze, only to imagine.
 
 - The raw material for every session, or a note of which sessions are
   missing and why.

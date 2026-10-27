@@ -19,6 +19,11 @@ report that someone can pick up in six months and trust.
 Ask for whatever on this list isn't already in the study record, the
 conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
+This list is the floor: add the questions this particular study or task
+raises, within the same six.
+
+**Minimum to draft:** the findings, and who the readout or report is
+for.
 
 - Who will see it, and what each person needs to decide or do.
 - The format: a live readout, a written report or both, how long the slot

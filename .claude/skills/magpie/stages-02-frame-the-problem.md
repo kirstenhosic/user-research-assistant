@@ -21,6 +21,11 @@ would recognize, and research questions that each serve the decision.
 Ask for whatever on this list isn't already in the study record, the
 conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
+This list is the floor: add the questions this particular study or task
+raises, within the same six.
+
+**Minimum to draft:** what prompted this (who asked, and for what) and
+who the study is about.
 
 - What prompted this: who asked, and what they asked for, in their words.
 - Who makes the decision, and by when. (The decision itself is the
