@@ -18,6 +18,11 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
 Ask for whatever on this list isn't already in the study record, the
 conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
+This list is the floor: add the questions this particular study or task
+raises, within the same six.
+
+**Minimum to draft:** the decision the study serves and its research
+questions.
 
 - The decision, its owner and deadline, and the business goal it serves.
 - The research questions and hypotheses.

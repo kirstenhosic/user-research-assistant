@@ -2,6 +2,18 @@
 
 ## 2026-10-27
 
+- Magpie works out its own questions. Each stage's "Before you build"
+  list is now the floor: Magpie also asks what this particular study or
+  task raises (text size and setup help for a test with older
+  participants, languages for a survey across countries), and works out
+  the questions from scratch for a task with no stage file, such as a
+  recruiting email. The six-question cap covers both. Each stage also
+  names a minimum to draft (for the plan: the decision and research
+  questions). When it's missing, Magpie says so first, and "just draft
+  it" gets an outline with labelled blanks instead of a made-up draft
+  (`core/operating.md`, "Gather context before you build"). Standards
+  A.6 and A.11 rewritten, new standard A.15; three new scenarios
+  (task-specific-questions, off-list-task, below-minimum), not yet run.
 - README reorganized for readers: what a session looks like and setup
   come first; "What Magpie does" and "How it's built" are merged into
   one shorter list; the eight stages are listed; the methods table and

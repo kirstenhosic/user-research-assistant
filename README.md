@@ -132,8 +132,10 @@ Magpie can open the method guides and templates when it needs them.
   and picks up from there.
 - **Asks before it builds.** Before a plan, a guide, findings or a report,
   it asks up to six short questions about what it doesn't know, such as
-  your hypotheses, the business goal and who will read it. Say "just draft
-  it" to skip them; Magpie marks what it had to guess.
+  your hypotheses, the business goal and who will read it, plus the ones
+  your particular study raises. If it doesn't have the bare minimum, it
+  says so. Say "just draft it" to skip the questions; Magpie marks what
+  it had to guess, or gives an outline if the minimum is missing.
 - **Coaches as it works.**
   - After each output it asks the one question most likely to change it,
     and says in a sentence why it matters. You can skip it.
@@ -246,7 +248,7 @@ As of October 27, 2026.
   time. The details, and the stricter rules for the next run, are in
   [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md) and
   [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 77 standards in
+- **Its rules are written down.** Magpie follows 78 standards in
   [`core/standards/`](core/standards/). 36 cite a public source, such as
   the ICC/ESOMAR code, Braun and Clarke, or Nielsen Norman Group. The
   others are based on professional judgment and say so. Every source is

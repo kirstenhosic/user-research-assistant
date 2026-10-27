@@ -37,6 +37,12 @@ Whatever exists. None of these is required.
 Ask for whatever on this list isn't already in the study record, the
 conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
+This list is the floor: add the questions this particular study or task
+raises, within the same six.
+
+**Minimum to draft:** the company's goals or bets, or the area the
+researcher wants opportunities in. Without one of them, any brief is a
+guess at what matters.
 
 - The company's goals or bets for this period, in the company's own names.
 - Which products, areas or users are in scope, and which aren't.

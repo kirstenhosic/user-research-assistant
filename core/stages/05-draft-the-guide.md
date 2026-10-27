@@ -19,6 +19,11 @@ need, and leads nobody.
 Ask for whatever on this list isn't already in the study record, the
 conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
+This list is the floor: add the questions this particular study or task
+raises, within the same six.
+
+**Minimum to draft:** the research questions, and what kind of
+instrument it is (interview, usability test, survey or diary).
 
 - The format: moderated or not, remote or in person, and how long each
   session runs.
