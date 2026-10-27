@@ -57,11 +57,16 @@ Eight 45-minute remote sessions, 6 to 10 October. Report builders at mid-size cu
 - **What cuts against it:** P8 used it correctly after reading the help article.
 - **What it means:** A cheap labelling fix inside the dialog. Not why people abandon.
 
-## 9. Summary
+## 9. Other findings
+
+- Two participants expected export to schedule itself monthly · **Weak** · unexpected
+- Three of eight re-selected the same columns every time; the dialog doesn't remember the last choice · **Weak**
+
+## 10. Summary
 
 We asked why people abandon export. Mostly they don't fail at export; they fail at import and only notice at export. A separate, smaller group is fully blocked by column order. Confidence is moderate overall: eight sessions, one segment over-represented. The evidence points to fixing import before touching the dialog.
 
-## 10. Recommendations
+## 11. Recommendations
 
 | Action | Owner | Rests on | Moves |
 | --- | --- | --- | --- |
@@ -70,14 +75,14 @@ We asked why people abandon export. Mostly they don't fail at export; they fail 
 | Count finance-team customers who need fixed column order | Support (Marco) with CS | Finding 2 | Whether column order is Q1 or later |
 | Relabel "Include hidden fields" with a plain description | Design (Aisha) | Finding 4 | Export completion |
 
-## 11. Next steps
+## 12. Next steps
 
 - Sam decides by 30 October.
 - Marco returns the finance-team count by 24 October.
 - If the import check is approved: three follow-up sessions with finance-team customers in November.
 - Open: does the import gap also affect scheduled reports? Backlog.
 
-## 12. Limits
+## 13. Limits
 
 - Eight participants, all CS-onboarded; self-serve customers may differ.
 - Two finance-team users, so Finding 2 could be bigger or smaller than it looks.
@@ -85,7 +90,7 @@ We asked why people abandon export. Mostly they don't fail at export; they fail 
 
 *Magpie drafted this slide and the researcher chose to keep it in. It is in the report regardless.*
 
-## 13. Appendix
+## 14. Appendix
 
 - Participant profile
 - Full findings with coding frame and all quotes

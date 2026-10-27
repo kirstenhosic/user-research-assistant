@@ -29,8 +29,9 @@ or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
   general practice, or an assumption. It never makes up a quote, a number,
   or a participant.
 - **Writes for stakeholders.** Readouts (the presentation of findings) and
-  reports follow a tested shape: why first, a short note on method, five
-  findings at most, recommendations with owners, next steps, appendix.
+  reports follow a tested shape: why first, a short note on method, up to five
+  top findings, the other findings on one page so nothing is dropped,
+  recommendations with owners, next steps, appendix.
 - **Covers eleven methods.** The table below says what each one is for
   and what Magpie gives you.
 

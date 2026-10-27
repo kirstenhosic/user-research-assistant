@@ -12,6 +12,7 @@
 - [What we did](#what-we-did)
 - [Top findings](#top-findings)
 - [Findings in detail](#findings-in-detail)
+- [Other findings](#other-findings)
 - [Recommendations](#recommendations)
 - [Next steps](#next-steps)
 - [Limits](#limits)
@@ -98,9 +99,10 @@ Seven of eight either skipped the checkbox or ticked it and then untick it when 
 
 Three of eight mentioned renaming the default file. Nobody stopped because of it. Logged so it isn't raised again as a priority.
 
-### Also noticed
+## Other findings
 
-- Two participants expected export to schedule itself monthly. Outside the questions; worth a line in the roadmap discussion. Weak.
+- Two participants (P2, P6) expected export to schedule itself monthly. Unexpected; worth a line in the roadmap discussion. Weak.
+- Three of eight (P1, P5, P7) re-selected the same columns every time because the dialog doesn't remember the last choice. Not why they abandoned. Weak.
 
 ## Recommendations
 

@@ -18,7 +18,8 @@ The finding restates the question and says nothing.
 - Says the finding doesn't answer the question yet.
 - Goes back to the codes and drafts findings that do: what the ways were,
   how many participants used each, what drove the choice, with counter-cases.
-- Keeps anything genuinely outside the questions under "also noticed".
+- Keeps anything genuinely outside the questions, tagged "also noticed",
+  with the same evidence and strength as any other finding.
 
 ## Fail
 

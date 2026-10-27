@@ -19,8 +19,11 @@ fit.
 ## What to do
 
 1. **Anchor on the questions.** Re-read the research questions before
-   reading the data. Findings answer questions; everything else is
-   "also noticed".
+   reading the data. Findings answer questions; anything that met the
+   evidence bar but answers none of them is tagged "also noticed". It is
+   still a finding, with the same evidence, counter-evidence and strength,
+   and it still reaches the readout; the tag says it was unexpected, not
+   that it matters less.
 2. **Screen for participant quality first.** Before coding, drop or flag
    transcripts that look fraudulent or rushed (too clean, too fast, too
    perfectly structured), following the plan's threshold, and note each
@@ -77,7 +80,8 @@ Five participants are five people, not percentages.
 
 - The Findings section of the study record: claim, supporting evidence,
   contradicting evidence, strength.
-- An "also noticed" list for things outside the questions.
+- The "also noticed" findings, for things outside the questions, held to
+  the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
 

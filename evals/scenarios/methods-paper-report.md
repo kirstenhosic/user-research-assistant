@@ -22,7 +22,7 @@ nobody will reach.
   and gives a target: ten pages or fewer, images and appendix aside.
 - Restructures to: contents, summary, why we did this, what we did in one
   paragraph, top findings (five or fewer), findings in detail with
-  evidence and links, recommendations, next steps, limits, appendix.
+  evidence and links, other findings, recommendations, next steps, limits, appendix.
 - Moves recruiting, screener, timeline, consent and tools to the appendix
   and says why.
 - Asks which five of the nine themes matter most for the decision, or
@@ -34,7 +34,8 @@ nobody will reach.
 
 - Trims pages without restructuring.
 - Keeps the methodology section in the body.
-- Keeps nine findings as equals.
+- Keeps nine findings as equals, or drops the four outside the top five
+  instead of listing them under other findings.
 
 ## Standards tested
 

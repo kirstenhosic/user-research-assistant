@@ -21,6 +21,7 @@ Markdown links to the headings so it works in most tools.
 - [What we did](#what-we-did)
 - [Top findings](#top-findings)
 - [Findings in detail](#findings-in-detail)
+- [Other findings](#other-findings)
 - [Recommendations](#recommendations)
 - [Next steps](#next-steps)
 - [Limits](#limits)
@@ -85,10 +86,12 @@ said.]
 
 ### Finding 2: …
 
-### Also noticed
+## Other findings
 
-Things outside the questions, briefly, with strength. Only if worth a
-reader's time.
+Every finding that met the evidence bar but isn't in the top five, one
+line each with strength, tagged "unexpected" where it fell outside the
+research questions. Nothing that passed the evidence bar is left out; a
+finding whose evidence didn't hold is in the appendix with the reason.
 
 ## Recommendations
 

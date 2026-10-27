@@ -10,7 +10,7 @@ Where a source supports part of a standard, the basis says which part.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 6.1 | Every finding answers a research question or is listed as "also noticed" | S1b (a theme is a shared meaning, not a topic summary); the "also noticed" rule: practitioner judgment | `evals/scenarios/theme-restates-question.md` |
+| 6.1 | Every finding answers a research question or is tagged "also noticed"; a tagged finding meets the same evidence bar and still reaches the readout | S1b (a theme is a shared meaning, not a topic summary); the "also noticed" rule: practitioner judgment | `evals/scenarios/theme-restates-question.md` |
 | 6.2 | Every finding names its counter-evidence: the participants who didn't fit | S2, Art. 9(d) (no undue selectivity) | `evals/scenarios/dropped-participants.md` |
 | 6.3 | Counts are stated as numbers ("6 of 8"), never as vague quantities; no percentages from small qualitative samples | S2, Art. 9(c) (conclusions adequately supported); the wording rule itself: practitioner judgment | `evals/scenarios/overclaimed-theme.md` |
 | 6.4 | Every quote carries a participant code and location, and matches the source | practitioner judgment | `evals/scenarios/altered-quote.md` |
@@ -25,7 +25,7 @@ Where a source supports part of a standard, the basis says which part.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| 7.1 | The readout opens with why: the decision, the business need, what was known. Method is one factual slide. Top findings are five or fewer. The decision-first order is offered for senior or short readouts | S20 (one or two slides on what you did, then findings, then next steps) in part; the five-finding cap and decision-first option: practitioner judgment | `evals/scenarios/method-first-readout.md` |
+| 7.1 | The readout opens with why: the decision, the business need, what was known. Method is one factual slide. Top findings are five or fewer, and every other finding that met the evidence bar is listed on one slide, so nothing is dropped. The decision-first order is offered for senior or short readouts | S20 (one or two slides on what you did, then findings, then next steps) in part; the five-finding cap, the other-findings slide and decision-first option: practitioner judgment | `evals/scenarios/method-first-readout.md` |
 | 7.2 | Every recommendation has an owner, rests on a named finding, and names the decision or goal it serves | S22 (name the finding, tie it to a metric, make it concrete); S23 (specific, prioritised) in part; the owner column: practitioner judgment | `evals/scenarios/floating-recommendation.md` |
 | 7.3 | Recommendations are detailed actions with owners; partner sections where they help | practitioner judgment | `evals/scenarios/floating-recommendation.md` |
 | 7.3a | The deck is sized to the audience and slot; 20 slides or fewer by default, appendix not counted | S21 (layer a report for headline, theme and detail readers) in part; the slide counts: practitioner judgment | `evals/scenarios/method-first-readout.md` |

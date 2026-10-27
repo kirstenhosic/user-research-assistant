@@ -753,8 +753,11 @@ fit.
 ## What to do
 
 1. **Anchor on the questions.** Re-read the research questions before
-   reading the data. Findings answer questions; everything else is
-   "also noticed".
+   reading the data. Findings answer questions; anything that met the
+   evidence bar but answers none of them is tagged "also noticed". It is
+   still a finding, with the same evidence, counter-evidence and strength,
+   and it still reaches the readout; the tag says it was unexpected, not
+   that it matters less.
 2. **Screen for participant quality first.** Before coding, drop or flag
    transcripts that look fraudulent or rushed (too clean, too fast, too
    perfectly structured), following the plan's threshold, and note each
@@ -811,7 +814,8 @@ Five participants are five people, not percentages.
 
 - The Findings section of the study record: claim, supporting evidence,
   contradicting evidence, strength.
-- An "also noticed" list for things outside the questions.
+- The "also noticed" findings, for things outside the questions, held to
+  the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
 
@@ -879,42 +883,51 @@ report that someone can pick up in six months and trust.
    yet" is fine; it goes in the risks until it's done. Magpie's findings
    are a draft until a person has read what they rest on.
    `checks/ai-assisted-research.md`, sections 2 and 3.
-6. **Top findings, never more than five.** One line each with strength.
-   Then one slide per finding, pitched for PMs and engineers: enough to
-   believe it and act on it. Depth goes to the appendix.
-7. **Summarize, then recommend in detail.** A short summary slide, then
+6. **Top findings, never more than five.** The findings the decision
+   rests on, one line each with strength. An unexpected finding can be
+   one of the five if it's serious enough. Then one slide per top finding,
+   pitched for PMs and engineers: enough to believe it and act on it.
+   Depth goes to the appendix.
+7. **Other findings, on one slide.** Every finding that met the evidence
+   bar but isn't in the top five, one line each with its strength, tagged
+   "unexpected" where it fell outside the research questions. Nothing that
+   passed the evidence bar is dropped from the readout; the only way a
+   finding leaves is if its evidence doesn't hold, and then it goes in the
+   appendix with the reason. The study record's findings table stays the
+   full list; the top five are a selection from it.
+8. **Summarize, then recommend in detail.** A short summary slide, then
    recommendations as actions with owners, each resting on a named finding
    and naming the goal or metric it moves, in the team's own names for them.
    This is where business value becomes visible. Say which journey step
    each finding lands on, who else is affected by each action, and what
    second-order effect to watch (`lenses/systems-and-journeys.md`).
-8. **Next steps.** What happens now, who does it, open questions.
-9. **Limits go to the researcher first.** Magpie always drafts the limits
+9. **Next steps.** What happens now, who does it, open questions.
+10. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
    always writes them into the study record and the report. Whether the
    slide goes in the readout is the researcher's call for that audience.
    Magpie asks; it never drops the limits silently and never puts them in
    without asking.
-10. **Appendix for the deep dive.** Full findings, coding frame, instruments,
-   review summary, links.
-11. **Write the report for the reader who wasn't there.** Same story as the
+11. **Appendix for the deep dive.** Full findings, coding frame, instruments,
+    review summary, links.
+12. **Write the report for the reader who wasn't there.** Same story as the
     readout, a little deeper, still for a PM, designer or engineer: summary,
     why, what we did in one paragraph, top findings (five or fewer),
-    findings in detail with evidence, images and links, recommendations,
-    next steps, limits, appendix. Ten pages or fewer, not counting images
+    findings in detail with evidence, images and links, other findings,
+    recommendations, next steps, limits, appendix. Ten pages or fewer, not counting images
     and the appendix. A linked contents list at the top. Timelines,
     recruiting mechanics and consent detail go in the appendix, not the
     body. `templates/report.md`.
-12. **Run the reader test.** For each reader the readout and report are
+13. **Run the reader test.** For each reader the readout and report are
     for (the decision owner, the PM, the designer, the engineer), read only
     the summary and ask: can they tell what it means for them and what
     they'd do next? If a reader can't, add a line for them to the summary
     or the recommendations. If there's nothing for them, say so, so they
     can stop reading. Then sweep for terms a new PM would have to look up
     and replace each or add a four-word gloss.
-13. **Request the independent review** on the final report
+14. **Request the independent review** on the final report
     (`review/independent-review.md`). It's required.
-14. **Write the library entries.** One per finding worth keeping
+15. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 1.
 15. **Close the loop with partners.** Send each team that helped the two or
@@ -940,8 +953,10 @@ PM measure to know it worked?"
 ## Exit criteria
 
 - Deck sized to the audience; 20 slides or fewer.
-- Why, what we did, top findings (five or fewer), detail, summary,
-  recommendations, next steps, in that story order.
+- Why, what we did, top findings (five or fewer), detail, other findings,
+  summary, recommendations, next steps, in that story order.
+- Every finding that met the evidence bar is on a slide: in the top five
+  or on the other-findings slide.
 - Every recommendation has an owner, a finding and a goal.
 - Report at ten pages or fewer (images and appendix aside), with a linked
   contents list, method in one paragraph, admin detail in the appendix.
@@ -959,7 +974,8 @@ PM measure to know it worked?"
 - Dropping the limits from the record or the report because they were
   left out of the readout.
 - A deck with no storyline: findings in the order they were coded.
-- More than five top findings.
+- More than five top findings, or other findings dropped instead of
+  listed on their own slide.
 - A report that reads like a methods paper: timelines, recruiting and
   consent in the body.
 
