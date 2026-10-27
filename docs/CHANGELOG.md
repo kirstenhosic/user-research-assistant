@@ -2,6 +2,11 @@
 
 ## 2026-10-27
 
+- README reorganized for readers: what a session looks like and setup
+  come first; "What Magpie does" and "How it's built" are merged into
+  one shorter list; the eight stages are listed; the methods table and
+  commands table are trimmed; "Where it stands" is shorter and links to
+  the test details; contributor material moves to the end.
 - README brought up to date with today's changes: asking for context
   before building, the reason with each challenge, teaching without
   testing, the vague-word push, the three "your turn" steps, the method
