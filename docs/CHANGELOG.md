@@ -2,6 +2,9 @@
 
 ## 2026-10-27
 
+- `docs/examples/`: a fictional filled-in report and readout, the two
+  templates as Word files and the readout as a PowerPoint deck.
+- README says where Magpie has and hasn't been tested, in one place.
 - AI-assisted research check (`core/checks/ai-assisted-research.md`), from
   a passage of Papas, *AI-Powered UX Research* (S10) supplied by the
   author: AI moderators get a wording check, scope boundaries, a fallback
