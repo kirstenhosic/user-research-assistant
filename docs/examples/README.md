@@ -3,7 +3,7 @@
 What Magpie's two stakeholder outputs look like, empty and filled in.
 
 The study in the filled examples is fictional. Ledgerline, its customers,
-its participants and the people named as owners are made up to show the
+its participants and the people named in them are made up to show the
 shape of a finished report and readout; nothing in them is real evidence.
 
 | File | What it is |
@@ -21,8 +21,8 @@ colours, or paste its content into the team's own template. It uses only
 Office fonts (Cambria and Calibri), which Google Slides also has. Its
 design rules, in case you restyle it:
 
-- It opens with the answer, then a "what we learned, and what it means"
-  slide for the product and the business, then tells the story: the
+- It opens with the answer, then a short summary drawn from the study's
+  own focus and findings, then tells the story: the
   decision, what we did, what we expected, where it actually goes wrong,
   and one slide per finding.
 - Every title states the slide's message in plain words and fits on one
@@ -32,7 +32,9 @@ design rules, in case you restyle it:
   means, with the evidence strength in words.
 - Colour never carries meaning alone: strength and the "serious" flag are
   written out.
-- The recommendations are cards with an owner, in priority order.
+- The recommendations are cards in priority order. They name the teams
+  involved, not a person; who takes each one is for the teams to agree.
+- No single named person carries the decision. The deck says "the team".
 
 The Markdown files are what Magpie actually writes; the Word and PowerPoint
 versions were converted from them. They follow the house style

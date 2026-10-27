@@ -84,33 +84,34 @@ s = slide(dark=True); n += 1; TITLES.append("Export isn't the problem. Import is
 text(s, M, Inches(2.3), Inches(11), Inches(0.35), "UX RESEARCH READOUT · LEDGERLINE", size=13, bold=True, color=LEAF)
 text(s, M, Inches(2.75), Inches(12), Inches(1.0), "Export isn't the problem. Import is.", size=48, font=SERIF, bold=True, color=WHITE)
 text(s, M, Inches(3.95), Inches(11), Inches(1.2), ["Why new customers give up on export, and what to do about it",
-     [("14 October 2026 · Priya Nair, UX Research · For Sam Okafor, PM Reporting", {"size": 16, "color": LEAF})]], size=22, color=WHITE)
+     [("14 October 2026 · Priya Nair, UX Research · For the Reporting team", {"size": 16, "color": LEAF})]], size=22, color=WHITE)
 text(s, M, Inches(7.0), Inches(6), Inches(0.25), "Fictional example · made with Magpie", size=10, color=LEAF)
 notes(s, "Open with the answer. The rest of the deck shows how we know.")
 
-# 2 The short version
-s = slide(); n += 1; header(s, "The short version", "What we learned, and what it means", n=n)
-cols = [("What we learned", "Most people who gave up on export were stuck before they started. Import had quietly skipped some of their columns, so the file came out with gaps. They fix it by emailing the file to a colleague."),
-        ("For the product", "A new export screen wouldn't fix this. A check at import, warning people about skipped columns, would. A small group, finance teams, needs a fixed column order."),
-        ("For the business", "The planned rebuild, about one engineer-quarter, would miss the cause. Fixing import goes after the 212 export tickets from last quarter and our goal of more weekly sharing.")]
-cw = Inches(3.8); gap = Inches(0.25)
-for i, (h, b) in enumerate(cols):
-    x = M + i * (cw + gap)
-    box(s, x, Inches(1.95), cw, Inches(4.6), fill=MIST, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.04)
-    box(s, x, Inches(1.95), cw, Inches(0.09), fill=[GREEN, SLATE, LEAF][i])
-    text(s, x + Inches(0.35), Inches(2.35), cw - Inches(0.7), Inches(0.5), h, size=20, font=SERIF, bold=True, color=GREEN)
-    text(s, x + Inches(0.35), Inches(3.0), cw - Inches(0.7), Inches(3.4), b, size=17, spacing=1.2)
+# 2 The short version: drawn from this study's focus and findings, not fixed headings
+s = slide(); n += 1; header(s, "The short version", "What we learned, in short", n=n)
+text(s, M, Inches(2.0), Inches(4.6), Inches(3.6), [[("We set out to learn why new customers give up on export.", {"font": SERIF, "size": 26, "bold": True, "color": GREEN})],
+     [("The answer points earlier in the journey than we expected.", {"size": 18, "color": MUTED})]], size=26, spacing=1.15)
+points = [("Import is where it breaks.", "For 5 of the 6 people who gave up, import had quietly skipped columns. A new export screen wouldn't have helped them."),
+          ("The problem is bigger than our numbers show.", "6 of 8 fix the file by emailing it to a colleague, so these exports count as successes."),
+          ("Finance teams are fully blocked.", "Only 2 people, but neither could get a file their finance system accepts.")]
+for i, (h, b) in enumerate(points):
+    y = Inches(1.95) + i * Inches(1.5)
+    box(s, Inches(5.75), y, Inches(6.9), Inches(1.32), fill=MIST, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.08)
+    text(s, Inches(6.1), y + Inches(0.2), Inches(6.3), Inches(0.4), h, size=19, bold=True, color=GREEN)
+    text(s, Inches(6.1), y + Inches(0.6), Inches(6.3), Inches(0.7), b, size=15, spacing=1.1)
+text(s, M, Inches(6.45), Inches(11.9), Inches(0.4), [[("So: ", {"bold": True, "color": GREEN}), ("fix import first, then decide whether the export screen still needs a rebuild.", {})]], size=18)
 notes(s, "If people only remember one slide, it's this one.")
 
 # 3 The decision
-s = slide(); n += 1; header(s, "Why we did this", "Sam has to choose where Q1 effort goes", n=n)
+s = slide(); n += 1; header(s, "Why we did this", "The team is choosing where Q1 effort goes", n=n)
 for i, (h, b) in enumerate([("Option A", "Rebuild the export screen"), ("Option B", "Fix the import step that feeds it")]):
     x = M + i * Inches(4.15)
     box(s, x, Inches(2.0), Inches(3.9), Inches(1.9), fill=WHITE, line=LINE, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.06)
     text(s, x + Inches(0.35), Inches(2.3), Inches(3.3), Inches(0.35), h.upper(), size=12, bold=True, color=SLATE)
     text(s, x + Inches(0.35), Inches(2.7), Inches(3.3), Inches(1.0), b, size=24, font=SERIF, bold=True, color=GREEN)
 text(s, M, Inches(4.35), Inches(8.0), Inches(2.4), [
-    [("Decision by: ", {"bold": True}), ("30 October, by Sam Okafor, PM Reporting.", {})],
+    [("Decision by: ", {"bold": True}), ("30 October, by the Reporting team.", {})],
     [("Why it matters: ", {"bold": True}), ("212 export tickets last quarter, and more weekly sharing is the team's goal for the second half of the year.", {})],
     [("What we asked: ", {"bold": True}), ("Why do new customers give up on export in their first 90 days?", {})]], size=17, spacing=1.15)
 box(s, Inches(9.25), Inches(2.0), Inches(3.4), Inches(2.9), fill=MIST, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.05)
@@ -217,10 +218,10 @@ text(s, M, Inches(6.0), Inches(11.8), Inches(0.5), "All weak evidence. Every fin
 
 # 12 Recommendations
 s = slide(); n += 1; header(s, "What to do", "Four things to do, in this order", n=n)
-recs = [("1", "Warn people at import when columns their reports use were skipped.", "Data Pipeline team (Lena)", "Fixes finding 1"),
-        ("2", "Hold the export screen rebuild until the import warning is live and measured.", "Sam", "Based on findings 1 and 3"),
-        ("3", "Count how many finance-team customers need a fixed column order.", "Support (Marco), with Customer Success", "Sizes finding 2"),
-        ("4", "Rename \"Include hidden fields\" and add a one-line explanation.", "Design (Aisha)", "Fixes finding 4")]
+recs = [("1", "Warn people at import when columns their reports use were skipped.", "Data Pipeline, Reporting", "Fixes finding 1"),
+        ("2", "Hold the export screen rebuild until the import warning is live and measured.", "Reporting", "Based on findings 1 and 3"),
+        ("3", "Count how many finance-team customers need a fixed column order.", "Support, Customer Success", "Sizes finding 2"),
+        ("4", "Rename \"Include hidden fields\" and add a one-line explanation.", "Design", "Fixes finding 4")]
 for i, (num, act, owner, why) in enumerate(recs):
     x = M + (i % 2) * Inches(6.05); y = Inches(1.95) + (i // 2) * Inches(2.35)
     box(s, x, y, Inches(5.85), Inches(2.15), fill=MIST, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.05)
@@ -228,12 +229,14 @@ for i, (num, act, owner, why) in enumerate(recs):
     tf = c.text_frame; tf.margin_left = tf.margin_right = 0; p = tf.paragraphs[0]; p.alignment = PP_ALIGN.CENTER
     r = p.add_run(); r.text = num; r.font.size = Pt(18); r.font.bold = True; r.font.color.rgb = WHITE; r.font.name = SANS
     text(s, x + Inches(1.1), y + Inches(0.3), Inches(4.5), Inches(1.0), act, size=18, bold=True, spacing=1.15)
-    text(s, x + Inches(1.1), y + Inches(1.35), Inches(4.5), Inches(0.7), [[("Owner: ", {"bold": True}), (owner, {})], [(why, {"color": MUTED})]], size=14)
+    text(s, x + Inches(1.1), y + Inches(1.35), Inches(4.5), Inches(0.7), [[("Teams involved: ", {"bold": True}), (owner, {})], [(why, {"color": MUTED})]], size=14)
+
+text(s, M, Inches(6.55), Inches(11.9), Inches(0.35), "Who takes each one is for the teams to agree together.", size=14, color=MUTED)
 
 # 13 Next
-s = slide(); n += 1; header(s, "What happens next", "Sam decides on 30 October", n=n)
+s = slide(); n += 1; header(s, "What happens next", "The team decides by 30 October", n=n)
 steps = [("24 Oct", "Support counts the finance-team customers", "So we know how big finding 2 is."),
-         ("30 Oct", "Sam decides", "Using this deck and the report."),
+         ("30 Oct", "The team decides", "Using this deck and the report."),
          ("November", "3 follow-up sessions", "With finance teams, if the import warning goes ahead."),
          ("Later", "One open question", "Does the import problem affect scheduled reports too?")]
 lw = Inches(2.85)
@@ -272,9 +275,9 @@ for i, row in enumerate(rows):
 s = slide(); n += 1; header(s, "Appendix", "How AI was used", n=n)
 text(s, M, Inches(2.0), Inches(11.5), Inches(4.6), [
     [("Magpie, an AI research assistant, ", {"bold": True}), ("drafted the plan, the interview guide, the findings, the report and this deck.", {})],
-    [("Priya, the researcher, ", {"bold": True}), ("ran every session, noted her own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. She reviewed the findings on 12 October and this deck on 14 October.", {})],
+    [("The researcher ", {"bold": True}), ("ran every session, noted their own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. They reviewed the findings on 12 October and this deck on 14 October.", {})],
     [("Checks: ", {"bold": True}), ("quotes and counts were checked by code against the transcripts. A separate AI reviewer raised 11 points, and 8 changed the findings. That reviewer can be wrong too.", {})],
-    [("Transcripts ", {"bold": True}), ("came from the video tool, and Priya corrected them against the recordings.", {})]], size=18, spacing=1.2)
+    [("Transcripts ", {"bold": True}), ("came from the video tool, and the researcher corrected them against the recordings.", {})]], size=18, spacing=1.2)
 
 prs.save(out)
 long = [t for t in TITLES if len(t) > 50]

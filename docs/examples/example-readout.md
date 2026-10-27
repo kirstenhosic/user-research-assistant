@@ -1,22 +1,26 @@
 # Readout: Why mid-size customers abandon export in Ledgerline
 
-**Fictional example.** 16 slides for a 30-minute slot with the product trio (PM, designer, engineering lead) and two engineers. Each heading is one slide, and each slide title is the slide's message, on one line. The deck opens with the answer and the short version, then tells the story of how we know.
+**Fictional example.** 16 slides for a 30-minute slot with the product trio (PM, designer, engineering lead) and two engineers. Each heading is one slide, and each slide title is the slide's message, on one line. The deck opens with the answer and a short summary drawn from the study's findings, then tells the story of how we know.
 
 ## 1. Export isn't the problem. Import is.
 
-Why new customers give up on export, and what to do about it · 14 October 2026 · Priya Nair, UX Research · For Sam Okafor, PM Reporting
+Why new customers give up on export, and what to do about it · 14 October 2026 · Priya Nair, UX Research · For the Reporting team
 
-## 2. What we learned, and what it means
+## 2. What we learned, in short
 
-- **What we learned:** Most people who gave up on export were stuck before they started. Import had quietly skipped some of their columns, so the file came out with gaps. They fix it by emailing the file to a colleague.
-- **For the product:** A new export screen wouldn't fix this. A check at import, warning people about skipped columns, would. A small group, finance teams, needs a fixed column order.
-- **For the business:** The planned rebuild, about one engineer-quarter, would miss the cause. Fixing import goes after the 212 export tickets from last quarter and our goal of more weekly sharing.
+We set out to learn why new customers give up on export. The answer points earlier in the journey than we expected.
 
-## 3. Sam has to choose where Q1 effort goes
+- **Import is where it breaks.** For 5 of the 6 people who gave up, import had quietly skipped columns. A new export screen wouldn't have helped them.
+- **The problem is bigger than our numbers show.** 6 of 8 fix the file by emailing it to a colleague, so these exports count as successes.
+- **Finance teams are fully blocked.** Only 2 people, but neither could get a file their finance system accepts.
+
+So: fix import first, then decide whether the export screen still needs a rebuild.
+
+## 3. The team is choosing where Q1 effort goes
 
 - **Option A:** Rebuild the export screen.
 - **Option B:** Fix the import step that feeds it.
-- **Decision by:** 30 October, by Sam Okafor, PM Reporting.
+- **Decision by:** 30 October, by the Reporting team.
 - **Why it matters:** 212 export tickets last quarter, and more weekly sharing is the team's goal for the second half of the year.
 - **What we asked:** Why do new customers give up on export in their first 90 days?
 - **What we already knew:** Export is the second most-used admin feature (2025 survey). Field reps hear that "customers hate the export". Nobody had asked why it fails.
@@ -94,15 +98,17 @@ All weak evidence. Every finding from the study is in this deck or the report's 
 
 ## 12. Four things to do, in this order
 
-1. Warn people at import when columns their reports use were skipped. Owner: Data Pipeline team (Lena). Fixes finding 1.
-2. Hold the export screen rebuild until the import warning is live and measured. Owner: Sam. Based on findings 1 and 3.
-3. Count how many finance-team customers need a fixed column order. Owner: Support (Marco), with Customer Success. Sizes finding 2.
-4. Rename "Include hidden fields" and add a one-line explanation. Owner: Design (Aisha). Fixes finding 4.
+1. Warn people at import when columns their reports use were skipped. Teams involved: Data Pipeline, Reporting. Fixes finding 1.
+2. Hold the export screen rebuild until the import warning is live and measured. Teams involved: Reporting. Based on findings 1 and 3.
+3. Count how many finance-team customers need a fixed column order. Teams involved: Support, Customer Success. Sizes finding 2.
+4. Rename "Include hidden fields" and add a one-line explanation. Teams involved: Design. Fixes finding 4.
 
-## 13. Sam decides on 30 October
+Who takes each one is for the teams to agree together.
+
+## 13. The team decides by 30 October
 
 1. **24 October:** Support counts the finance-team customers, so we know how big finding 2 is.
-2. **30 October:** Sam decides, using this deck and the report.
+2. **30 October:** the team decides, using this deck and the report.
 3. **November:** 3 follow-up sessions with finance teams, if the import warning goes ahead.
 4. **Later:** one open question. Does the import problem affect scheduled reports too?
 
@@ -130,6 +136,6 @@ Magpie drafted this slide and the researcher chose to keep it. The limits are in
 ## 16. How AI was used
 
 - **Magpie, an AI research assistant,** drafted the plan, the interview guide, the findings, the report and this deck.
-- **Priya, the researcher,** ran every session, noted her own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. She reviewed the findings on 12 October and this deck on 14 October.
+- **The researcher** ran every session, noted their own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. They reviewed the findings on 12 October and this deck on 14 October.
 - **Checks:** quotes and counts were checked by code against the transcripts. A separate AI reviewer raised 11 points, and 8 changed the findings. That reviewer can be wrong too.
-- **Transcripts** came from the video tool, and Priya corrected them against the recordings.
+- **Transcripts** came from the video tool, and the researcher corrected them against the recordings.
