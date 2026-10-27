@@ -32,11 +32,11 @@ material first. See "Using Magpie at work" in the main README.
 
 ## Setup
 
-1. Make a zip with `SKILL.md` at the top level, not inside a folder.
-   Open `adapters/skill/magpie/`, select everything inside it, and
-   compress that selection. Don't zip the `magpie` folder itself. From a
-   terminal:
-   `cd adapters/skill/magpie && zip -r ../magpie.zip .`
+1. Download `magpie.zip` from the top of the repository. It has
+   `SKILL.md` at the top level, not inside a folder, as Cowork needs.
+   To make your own instead, open `adapters/skill/magpie/`, select
+   everything inside it, and compress that selection. Don't zip the
+   `magpie` folder itself.
 2. In Cowork, open **Customize**, then the **Skills** tab. Choose the
    arrow next to **Add**, then **Upload skill**, and pick the zip.
 3. Cowork checks the file and saves the skill to your OneDrive. When it

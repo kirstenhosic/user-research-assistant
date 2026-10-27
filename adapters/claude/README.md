@@ -8,8 +8,9 @@ beside it, and the code checks in `scripts/`.
 
 - **In this repo:** nothing to do. The same folder is at
   `.claude/skills/magpie/`, so open the repo and ask for Magpie.
-- **In your own project:** copy `adapters/skill/magpie/` into your
-  project's `.claude/skills/` folder.
+- **In your own project:** unzip `magpie.zip` (from the top of the
+  repository) into `.claude/skills/magpie/` in your project, or copy
+  `adapters/skill/magpie/` there.
 
 Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
 `scripts/evidence_check.py` itself, and can start a separate agent for the independent review at stages
@@ -19,7 +20,7 @@ Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
 
 Use a Project, with the same steps as the main README:
 
-1. Add the `.md` files from `adapters/skill/magpie/` to the project's
+1. Add the `.md` files from `magpie.zip` (or `adapters/skill/magpie/`) to the project's
    knowledge. The scripts are optional, since Claude.ai can't run them.
 2. Paste the contents of `adapters/skill/magpie/operating.md` (about
    22,000 characters) into the project's instructions.

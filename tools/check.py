@@ -4,7 +4,8 @@
 Usage: python3 tools/check.py
 
 Checks:
-  1. The adapters are up to date with core/ (a rebuild changes nothing).
+  1. The adapters and magpie.zip are up to date with core/ (a rebuild
+     changes nothing).
   2. Every core file has a title line and a first paragraph.
   3. Every file path named in backticks in core/ exists.
   4. Every standard names an eval that exists, and every source it cites
@@ -24,6 +25,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -59,6 +61,29 @@ def check_build_fresh() -> None:
             diff = trees_differ(fresh, committed)
             if diff:
                 fail(f"{committed.relative_to(ROOT)} is stale; run python3 tools/build.py ({diff})")
+    check_zip_fresh()
+
+
+def check_zip_fresh() -> None:
+    """magpie.zip holds exactly the skill folder, SKILL.md at the top.
+
+    Compares names and file contents, not the zip's own bytes, which can
+    differ between zlib versions.
+    """
+    if not build.ZIP.exists():
+        fail("magpie.zip is missing; run python3 tools/build.py")
+        return
+    with zipfile.ZipFile(build.ZIP) as zf:
+        zipped = {name: zf.read(name) for name in zf.namelist()}
+    folder = {
+        p.relative_to(build.SKILL).as_posix(): p.read_bytes()
+        for p in build.SKILL.rglob("*")
+        if p.is_file()
+    }
+    if "SKILL.md" not in zipped:
+        fail("magpie.zip has no SKILL.md at the top")
+    if zipped != folder:
+        fail("magpie.zip is stale; run python3 tools/build.py")
 
 
 def trees_differ(a: Path, b: Path) -> str:

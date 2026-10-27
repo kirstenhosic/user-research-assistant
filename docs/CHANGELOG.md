@@ -2,6 +2,18 @@
 
 ## 2026-10-27
 
+- The example report and readout in `docs/examples/` are redone in the
+  house style, with quote labels, a placeholder for a named colleague, a
+  participant profile and a "How AI was used" section. Finding 5 moved
+  to the other findings, and two contradictions are fixed (P5 now
+  finishes the export but the file is rejected; the limits no longer say
+  every participant was onboarded by CS). The Word templates are rebuilt
+  from the current report and readout templates.
+- A ready-made download, `magpie.zip`, at the top of the repository: the
+  skill folder's contents with `SKILL.md` at the top, rebuilt by
+  `tools/build.py` and checked by `tools/check.py`. The setup steps for
+  every tool now start from it, so nobody has to find a folder or zip
+  one themselves.
 - Eval run of the eight HEARTS scenarios, three runs each, judged by the
   model (`evals/runs/2026-10-27-hearts.md`): 7 pass in all three runs;
   read-hardest is partial in all three because Magpie changed parts of a

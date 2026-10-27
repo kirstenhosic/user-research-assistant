@@ -165,17 +165,12 @@ designers who ask you for research; Magpie can start from a filled one.
 
 ## Get started
 
-First, download Magpie. Either click the green **Code** button on this page
-and choose **Download ZIP**, or run:
-
-```
-git clone https://github.com/kirstenhosic/user-research-assistant.git
-```
-
-The folder you'll use is `adapters/skill/magpie/`. It holds all of Magpie:
-a `SKILL.md` file that tells the assistant how to behave, the files it
-reads at each stage, and three small scripts that check quotes, counts and
-the people behind each count.
+First, download Magpie: **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**
+(about 120 KB). It holds all of Magpie: a `SKILL.md` file that tells the
+assistant how to behave, the files it reads at each stage, and three small
+scripts that check quotes, counts and the people behind each count. The
+same files are in the folder `adapters/skill/magpie/` in this repository,
+if you'd rather copy them from there.
 
 **Using Magpie at work.** Magpie runs inside whichever AI assistant you
 install it in, so anything you share with Magpie goes to that assistant.
@@ -193,7 +188,7 @@ Then set it up in your tool.
 You need the Claude Code command-line tool or its desktop app.
 
 1. Open your project in Claude Code.
-2. Copy the folder `adapters/skill/magpie/` into your project's
+2. Unzip `magpie.zip` into a folder named `magpie` inside your project's
    `.claude/skills/` folder, so you end up with
    `.claude/skills/magpie/SKILL.md`. Create `.claude/skills/` if it isn't
    there.
@@ -208,11 +203,11 @@ already in place.
 You need a Claude.ai account with Projects.
 
 1. Create a new Project.
-2. Add the files from `adapters/skill/magpie/` to the project's knowledge
-   (all the `.md` files; the scripts are optional, since Claude.ai can't
-   run them).
+2. Unzip `magpie.zip` and add its files to the project's knowledge (all
+   the `.md` files; the scripts are optional, since Claude.ai can't run
+   them).
 3. Open the project's instructions and paste the contents of
-   `adapters/skill/magpie/operating.md` (about 22,000 characters). That's
+   `operating.md` from the zip (about 22,000 characters). That's
    the rulebook; the rest are reference files Claude reads when it needs
    them. Don't paste `adapters/generic/system-prompt.md` here; at about
    200 KB it repeats every file you just added.
@@ -227,18 +222,17 @@ personal plan, try the steps anyway; if the Skills page isn't there, use
 the fallback below.
 
 1. In the ChatGPT sidebar, open **Plugins**, then the **Skills** tab.
-2. Choose **Create** > **Upload from your computer** and upload the
-   `adapters/skill/magpie/` folder (zip it first if the uploader asks for a
-   single file).
+2. Choose **Create** > **Upload from your computer** and upload
+   `magpie.zip`.
 3. ChatGPT scans the upload. If it says **Needs Review**, read what it
    flags. The only code in the package is three scripts that read files on
    your computer; nothing connects to the internet.
 4. Install it. Then start a chat and @-mention `magpie`, or just describe
    your study.
 
-**Fallback for personal plans:** create a Project, paste
-`adapters/skill/magpie/operating.md` as the project instructions, and add
-the other `.md` files from the folder as project files.
+**Fallback for personal plans:** unzip `magpie.zip`, create a Project,
+paste `operating.md` as the project instructions, and add the other `.md`
+files as project files.
 
 ### Gemini
 
@@ -247,8 +241,7 @@ on. Google is replacing Gems with skills, which take the same folder.
 
 1. Go to gemini.google.com. In the sidebar, open **Customize** (it may be
    under **More**), then **Skills**.
-2. Choose **Create** > **Upload** and pick the `adapters/skill/magpie/`
-   folder, or a zip of it.
+2. Choose **Create** > **Upload** and pick `magpie.zip`.
 3. Check the name, description and instructions Gemini shows, then
    **Create**.
 4. In a chat, type `/magpie` (or `@magpie`), or just describe your study.
@@ -263,11 +256,10 @@ Copilot license, and your admin has to turn Cowork on. Personal Microsoft
 accounts with an eligible Microsoft 365 subscription can try it in
 preview.
 
-1. Open `adapters/skill/magpie/`, select everything inside it, and zip
-   that selection, so `SKILL.md` is at the top of the zip.
-2. In Cowork, open **Customize** > **Skills**, choose the arrow next to
-   **Add**, then **Upload skill**, and pick the zip.
-3. When it appears under **Your skills**, start a chat and describe your
+1. In Cowork, open **Customize** > **Skills**, choose the arrow next to
+   **Add**, then **Upload skill**, and pick `magpie.zip`. It's already
+   zipped the way Cowork needs, with `SKILL.md` at the top.
+2. When it appears under **Your skills**, start a chat and describe your
    study.
 
 More detail, and why Magpie isn't set up as an Agent Builder agent, is in
@@ -275,9 +267,9 @@ More detail, and why Magpie isn't set up as an Agent Builder agent, is in
 
 ### Any other assistant
 
-Use the skill folder if the assistant takes one; it's the easiest route.
+Upload `magpie.zip` if the assistant takes skills; it's the easiest route.
 If it doesn't, but it has projects or knowledge files, set it up like
-Claude.ai above: paste `adapters/skill/magpie/operating.md` as the
+Claude.ai above: paste `operating.md` from the zip as the
 instructions (about 22,000 characters) and add the other `.md` files from
 the folder as files.
 
@@ -316,12 +308,12 @@ you saw. Changes are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 - **The assistant doesn't seem to know Magpie.** In Claude Code, check the
   path is exactly `.claude/skills/magpie/SKILL.md`. In ChatGPT, Gemini or
   Copilot, check the skill is installed and active, then name it in the chat.
-- **It won't take the upload.** Check how the zip is made. For Copilot,
-  open `adapters/skill/magpie/`, select everything inside it and zip that,
-  so `SKILL.md` is at the top of the zip, not inside a folder. For ChatGPT
-  and Gemini, upload the folder itself if you can. These steps haven't
-  been tested in ChatGPT or Gemini, so if one way is refused, try the
-  other, and please open an issue saying which worked.
+- **It won't take the upload.** Use `magpie.zip` as downloaded; it has
+  `SKILL.md` at the top, which Copilot needs. If you made your own zip,
+  zip the files inside `adapters/skill/magpie/`, not the folder itself.
+  The upload hasn't been tested in ChatGPT or Gemini; if the zip is
+  refused there, try uploading the unzipped folder, and please open an
+  issue saying which worked.
 - **It asks questions when you just want a draft.** Say "just draft it".
   Magpie builds straight away and marks what it had to guess.
 - **It's working on the wrong stage.** Say which stage you're at ("we're
@@ -338,6 +330,7 @@ you saw. Changes are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 ## For contributors
 
 ```
+magpie.zip               the skill folder, zipped for download (generated)
 adapters/skill/magpie/   the skill folder you install (generated)
 adapters/generic/        one long prompt for any other assistant (generated)
 adapters/claude|chatgpt|gemini|copilot/   setup notes per platform, with what was checked and when

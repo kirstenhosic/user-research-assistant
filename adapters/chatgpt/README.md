@@ -17,10 +17,11 @@ skills, subject to workspace settings.
 
 1. In the ChatGPT sidebar, open **Plugins**, then the **Skills** tab.
 2. **Create** > **Upload from your computer** and upload
-   `adapters/skill/magpie/` (zip the folder first if the uploader wants a
-   single file; the help page doesn't say which it takes).
+   `magpie.zip` from the top of the repository, or the
+   `adapters/skill/magpie/` folder if the zip is refused (the help page
+   doesn't say which it takes).
 3. ChatGPT scans the upload. If it's marked **Needs Review**, read what it
-   flags; the only code in the package is the two checks in `scripts/`,
+   flags; the only code in the package is the three checks in `scripts/`,
    which read local files and use no network.
 4. Install it. ChatGPT uses it automatically when a request matches the
    description, or you can @-mention `magpie`.

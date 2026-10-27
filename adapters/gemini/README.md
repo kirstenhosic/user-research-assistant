@@ -18,8 +18,9 @@ is web and Mac only. No paid plan is needed for chats.
 
 1. At gemini.google.com, open **Customize** in the sidebar (under **More**
    if you don't see it), then **Skills**.
-2. **Create** > **Upload**, and choose the `adapters/skill/magpie/` folder
-   or a `.zip` of it. `SKILL.md` must be in the top folder, which it is.
+2. **Create** > **Upload**, and choose `magpie.zip` from the top of the
+   repository, or the `adapters/skill/magpie/` folder. `SKILL.md` must be
+   in the top folder, which it is in both.
 3. Review the name, description and instructions Gemini shows, then
    **Create**.
 4. In a chat, type `/magpie` (or `@magpie` with the newer shortcut), or
