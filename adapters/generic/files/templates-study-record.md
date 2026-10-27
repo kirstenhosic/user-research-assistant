@@ -4,7 +4,32 @@ One file for the whole study. Every stage reads it and adds to it. Save it
 somewhere your team can find it, and paste or upload it to pick up where you
 left off in any assistant.
 
-Last updated: [date] · Stage: [1–7] · Challenge level: [standard]
+Last updated: [date]
+
+## Where we are
+
+Read this first when the record is pasted into a new conversation. Magpie
+updates it whenever the stage changes or something here is settled.
+
+- **Stage:** [0–7, as a plain phrase too: "2, framing the problem"]
+- **Next step:** [what happens next, and who does it]
+- **Waiting for the researcher's yes:** [outputs, or "nothing"]
+- **Settings:** challenge level [standard / push me / light] · personality [on / off] · your-turn steps [offered / stopped at the researcher's request]
+
+**Questions already asked.** So no later session asks them again.
+
+| Question | Stage | Answer |
+| --- | --- | --- |
+| | | answered (see section) / declined / "you do it" / "just draft it" / not answered, marked [assumption] |
+
+**Your-turn steps and challenges.** Each is offered once per study.
+
+| Step | Status |
+| --- | --- |
+| Stage 2 your turn: decision, primary question, team's questions, assumptions | not yet / done by the researcher / handed back |
+| Stage 6 your turn: the researcher's patterns | not yet / done / handed back / not needed |
+| Stage 7 your turn: what each partner should do | not yet / done / handed back / already in the material |
+| Challenges given | [stage: the challenge in a few words, and answered / skipped / handled] |
 
 ## Product
 

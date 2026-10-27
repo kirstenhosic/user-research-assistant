@@ -119,8 +119,8 @@ it in the record.
 ## Challenge
 
 Usually the **decision test** or the **riskiest assumption**. Example: "If
-the answer comes back 'users don't want this', would the PM still ship it
-because it's on the roadmap? If so, what is the research for?"
+the answer comes back 'users don't want this', what would the PM do, given
+it's on the roadmap? If they'd ship it anyway, what is the research for?"
 
 ## Exit criteria
 

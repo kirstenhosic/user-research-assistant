@@ -149,7 +149,9 @@ More:
 
 **Save your study record.** At the end of a session, ask for the record
 and paste it into a document. Next time, paste it back and Magpie picks up
-where you left off, in any assistant.
+where you left off, in any assistant. The record's "Where we are" section
+holds the stage, the next step and the questions you've already answered,
+so Magpie doesn't ask them again.
 
 ## Get started
 
@@ -200,8 +202,10 @@ You need a Claude.ai account with Projects.
    (all the `.md` files; the scripts are optional, since Claude.ai can't
    run them).
 3. Open the project's instructions and paste the contents of
-   `adapters/skill/magpie/operating.md`. That's the rulebook; the rest are
-   reference files Claude reads when it needs them.
+   `adapters/skill/magpie/operating.md` (about 22,000 characters). That's
+   the rulebook; the rest are reference files Claude reads when it needs
+   them. Don't paste `adapters/generic/system-prompt.md` here; at about
+   200 KB it repeats every file you just added.
 4. Start a chat in the project and describe your study.
 
 ### ChatGPT
@@ -261,11 +265,17 @@ More detail, and why Magpie isn't set up as an Agent Builder agent, is in
 
 ### Any other assistant
 
-Paste `adapters/generic/system-prompt.md` as the system prompt or custom
-instructions. It's one long file with everything in it. If the assistant
-says it's too long, paste `adapters/generic/system-prompt-lean.md` instead
-(about half the size) and upload the files in `adapters/generic/files/` so
-Magpie can open the method guides and templates when it needs them.
+Use the skill folder if the assistant takes one; it's the easiest route.
+If it doesn't, but it has projects or knowledge files, set it up like
+Claude.ai above: paste `adapters/skill/magpie/operating.md` as the
+instructions (about 22,000 characters) and add the other `.md` files from
+the folder as files.
+
+`adapters/generic/system-prompt.md` holds all of Magpie in one file, for
+tools that take one very long system prompt, such as some API setups. It's
+about 200 KB, and the lean version, `system-prompt-lean.md`, is about
+115 KB. Most custom-instruction boxes in chat apps are far smaller, so
+expect them to refuse both.
 
 ## Where it stands
 
@@ -296,8 +306,12 @@ you saw. Changes are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 - **The assistant doesn't seem to know Magpie.** In Claude Code, check the
   path is exactly `.claude/skills/magpie/SKILL.md`. In ChatGPT, Gemini or
   Copilot, check the skill is installed and active, then name it in the chat.
-- **It won't take the upload.** Zip the `magpie` folder and upload the zip.
-  Make sure `SKILL.md` is at the top level inside the zip.
+- **It won't take the upload.** Check how the zip is made. For Copilot,
+  open `adapters/skill/magpie/`, select everything inside it and zip that,
+  so `SKILL.md` is at the top of the zip, not inside a folder. For ChatGPT
+  and Gemini, upload the folder itself if you can. These steps haven't
+  been tested in ChatGPT or Gemini, so if one way is refused, try the
+  other, and please open an issue saying which worked.
 - **It asks questions when you just want a draft.** Say "just draft it".
   Magpie builds straight away and marks what it had to guess.
 - **It's working on the wrong stage.** Say which stage you're at ("we're

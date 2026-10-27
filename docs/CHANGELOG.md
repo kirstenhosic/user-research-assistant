@@ -2,6 +2,25 @@
 
 ## 2026-10-27
 
+- Fixes from the end-to-end workflow review (issues 1 to 4).
+  - Setup steps agree: one way to make the zip for Copilot, with the
+    troubleshooting tip no longer contradicting it; Claude.ai and the
+    ChatGPT fallback both use `operating.md` as the instructions plus the
+    skill folder's `.md` files; "Any other assistant" says plainly that
+    the 200 KB and 115 KB prompts are too long for most chat apps.
+  - Fewer asks per reply: a question message holds only the questions,
+    one line on what will be built, and the status line. The product
+    offer and the stage 7 reading check count toward the six.
+  - "yes" stays the review word. Challenges are now open questions a yes
+    or no can't answer (the challenge bank and the stage examples are
+    reworded), and a bare "yes" while a best guess or challenge is open
+    gets a one-line check of what it answers.
+  - Picking a study back up: the study record gains a "Where we are"
+    block (stage 0 to 7, next step, what's waiting for a yes, settings,
+    questions already asked and how, your-turn steps and challenges
+    given). A pasted record is picked up from it without re-asking what's
+    settled. New standard A.16; A.6 and A.10 extended; three new eval
+    scenarios (not yet run).
 - Setup for Microsoft 365 Copilot. The skill folder uploads unchanged to
   Cowork, so there's a new hand-written `adapters/copilot/README.md` and
   a Copilot section in the README's setup steps. Agent Builder agents

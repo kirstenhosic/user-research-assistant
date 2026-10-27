@@ -17,15 +17,23 @@ Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
 
 ## Claude.ai
 
-Upload the files in `adapters/skill/magpie/` to a project, or paste
-`adapters/generic/system-prompt.md` as the project's instructions. Without a
-code tool, Magpie does the quote and count checks by hand and says so in the
-record, and the independent review runs in a fresh chat as described in
-`review-independent-review.md`.
+Use a Project, with the same steps as the main README:
+
+1. Add the `.md` files from `adapters/skill/magpie/` to the project's
+   knowledge. The scripts are optional, since Claude.ai can't run them.
+2. Paste the contents of `adapters/skill/magpie/operating.md` (about
+   22,000 characters) into the project's instructions.
+
+Don't paste `adapters/generic/system-prompt.md` as the instructions. At
+about 200 KB it repeats every file in the knowledge.
+
+Without a code tool, Magpie does the quote and count checks by hand and
+says so in the record, and the independent review runs in a fresh chat as
+described in `review-independent-review.md`.
 
 ## Checked
 
 Claude skill format: `SKILL.md` frontmatter with `name` and `description`,
 supporting files loaded on demand (Anthropic engineering post, "Equipping
 agents for the real world with Agent Skills"), checked 2026-10-26. Tested
-in Claude Code in this repo.
+in Claude Code in this repo. Claude.ai not yet tested.
