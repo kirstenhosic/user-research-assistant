@@ -50,7 +50,10 @@ marked as practitioner judgment.
 
 "Checked" means the text was read on that date and the standard's claim was
 found in it, not that the source was merely located. Where only the citation
-could be confirmed, the row says so.
+could be confirmed, the row says so. Where a passage was supplied by the
+author from a copy the assistant can't open (a Kindle book), the row says
+that too, and only the supplied passage counts as read. Supplied passages
+are paraphrased in the core, never reproduced.
 
 | # | Source | Used for | Checked on |
 | --- | --- | --- | --- |
@@ -64,6 +67,7 @@ could be confirmed, the row says so.
 | S7 | Nielsen, J. (2001). "First Rule of Usability? Don't Listen to Users." Nielsen Norman Group. https://www.nngroup.com/articles/first-rule-of-usability-dont-listen-to-users/ | Background for the behavioural emphasis in `methods/usability-testing.md`; not cited by a standard | 2026-10-26 |
 | S8 | Laubheimer, P. (2024). "Attitudinal vs. Behavioral Research in UX." Nielsen Norman Group. https://www.nngroup.com/articles/attitudinal-behavioral/ | 5.3: self-reports of past habits and future intentions are unreliable; observe actions | 2026-10-26 |
 | S9 | Brown, M. (2024). "Screening Participants for User-Research Studies." Nielsen Norman Group. https://www.nngroup.com/articles/screening-participants/ | 4.1: criteria tied to the research questions, behavioural over demographic, past behaviour not predicted | 2026-10-26 |
+| S10 | Papas, C. *AI-Powered UX Research*, chapter 3, "Where the tools break", pp. 57–63. Publisher and year to be confirmed. The passage on five failure modes of AI research tools (AI moderators shaping answers, overclaiming from AI summaries, a thin evidence trail, moderation going off-script, participant quality) with their mitigations was supplied by Kirsten Hosic from her copy on 2026-10-27; the text of the passage was read, the rest of the book was not. | 4.5, 5.6, 6.10, 7.9; `core/checks/ai-assisted-research.md` | 2026-10-27 |
 
 Located but not read, so not cited: Dillman, D. A., Smyth, J. D. and
 Christian, L. M. (2014). *Internet, Phone, Mail, and Mixed-Mode Surveys: The
@@ -76,7 +80,7 @@ Enough Research*; ISO 9241-210 on human-centred design; the full text of S1
 for the stage 6 coding steps.
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 12 of 52 standards cite a source in full or in part.
+Current count: 16 of 60 standards cite a source in full or in part.
 
 ## Tools used
 

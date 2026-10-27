@@ -58,6 +58,14 @@ quotes tied to participant codes and timestamps. Stage 6 covers this.
 - Treating eight interviews as "most users think…". They tell you what
   exists, not how common it is.
 
+## If an AI moderates
+
+Some tools run interviews from a guide. They're blunter-friendly but shape
+answers through phrasing and follow-ups, and the data comes out tidier than
+the people were. Treat the moderator's instructions as a guide (wording
+check, boundaries, fallback for unclear answers) and read the first three
+transcripts in full before the rest run. `checks/ai-assisted-research.md`.
+
 ## Template
 
 `templates/interview-guide.md`

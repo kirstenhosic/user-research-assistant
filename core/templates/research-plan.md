@@ -36,6 +36,7 @@ evidence found" is fine.]
 - **Who's excluded and why:** [criteria]
 - **Known gaps in the sample:** [groups missing, and whether it matters]
 - **Recruiting:** [source, screener, incentive]
+- **Participant quality:** [fraud risk for this source; what disqualifies a participant; how they're replaced]
 
 ## Timeline
 

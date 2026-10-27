@@ -609,7 +609,15 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
 5. **Set the timeline backwards from the decision deadline.** Readout date
    first, then analysis, then sessions, then recruiting. If it doesn't fit,
    say what to cut.
-6. **Name the risks.** Pull every skipped challenge from the record into the
+6. **Plan for participant quality.** Say where participants come from and
+   how much fraud risk that carries (own verified users: low; third-party
+   panels: high). Set the disqualification threshold and the replacement
+   protocol now, so a bad participant costs an hour, not the study.
+   `checks/ai-assisted-research.md`, section 4.
+7. **If an AI tool will moderate sessions,** schedule the first-three-
+   transcript audit in the timeline, with a stop point before the rest of
+   the sessions run. `checks/ai-assisted-research.md`, section 1.
+8. **Name the risks.** Pull every skipped challenge from the record into the
    plan's risks section, plus anything new.
 
 ## What to draft
@@ -636,6 +644,8 @@ need to hear from them?"
 - A plan that lists activities but never says why they answer the question.
 - Recruiting whoever's easiest to reach.
 - Consent treated as a form to sign rather than a conversation.
+- Recruiting from a panel with no plan for the participants who turn out
+  to be bots or speed-runners.
 - A timeline that ends the day the decision is due, with no time for the
   team to absorb the findings.
 
@@ -680,6 +690,14 @@ need, and leads nobody.
 - The instrument, from the right template.
 - A list of what the wording check caught and changed.
 - An updated Instruments section in the study record.
+
+## If an AI tool will moderate
+
+The moderator's instructions are a guide and get the same wording check.
+Add the boundaries (what's in and out of scope) and the fallback for
+unclear answers ("ask them to say more; don't rephrase or interpret"), and
+plan to read the first three transcripts in full before the rest run.
+`checks/ai-assisted-research.md`, section 1.
 
 ## Challenge
 
@@ -731,35 +749,42 @@ fit.
 1. **Anchor on the questions.** Re-read the research questions before
    reading the data. Findings answer questions; everything else is
    "also noticed".
-2. **Read everything once before coding.** No themes yet. Note what
-   surprised you.
-3. **Code what's there.** Tag each relevant passage with a short label and
+2. **Screen for participant quality first.** Before coding, drop or flag
+   transcripts that look fraudulent or rushed (too clean, too fast, too
+   perfectly structured), following the plan's threshold, and note each
+   removal in the record. `checks/ai-assisted-research.md`, section 4.
+3. **Read everything once before coding.** No themes yet. Note what
+   surprised you. If a tool (Magpie included) has already produced a
+   summary, use it to decide which transcripts to read closely, not as a
+   substitute for reading them.
+4. **Code what's there.** Tag each relevant passage with a short label and
    its source: participant code plus line, timestamp or question number.
    Codes describe what people did or said, not what you think it means.
-4. **Group codes into candidate themes.** A theme needs more than one
+5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
-   blocked task).
-5. **Check each theme against the people who don't fit.** For every theme,
+   blocked task). Each theme carries its receipts from the start: the
+   participant codes and locations it rests on.
+6. **Check each theme against the people who don't fit.** For every theme,
    list the participants who said or did something different. If you can't
    find any, look harder. Write them into the finding.
-6. **Rate strength.** Strong: consistent across most participants or
+7. **Rate strength.** Strong: consistent across most participants or
    statistically reliable. Moderate: a clear pattern with exceptions. Weak:
    few participants or mixed signals. Say the numbers: "6 of 8", never
    "most".
-7. **Look outside the frame.** Some findings point upstream or downstream
+8. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses/systems-and-journeys.md`).
-8. **Bring in partner data where it applies.** Say whether it agrees,
+9. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-9. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+10. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-10. **Run the code checks if you can** (`tools/checks/`): every quote matches
+11. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript; every count is computed, not estimated. Where you can't
    run code, do it by hand and say so.
-11. **Request the independent review** (`review/independent-review.md`) once
+12. **Request the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage.
 
 ## Survey data
@@ -841,25 +866,32 @@ report that someone can pick up in six months and trust.
    known, the question. This is the foundation the rest stands on.
 4. **State the study briefly.** Method, sample, who, when. Factual. No
    weaknesses on this slide.
-5. **Top findings, never more than five.** One line each with strength.
+5. **Receipts and the reading check.** Before the top findings are
+   chosen: every finding going in has at least two participant references
+   with locations, or is labelled a single case; and Magpie asks, once,
+   whether the researcher has read the passages behind each of them. "Not
+   yet" is fine; it goes in the risks until it's done. Magpie's findings
+   are a draft until a person has read what they rest on.
+   `checks/ai-assisted-research.md`, sections 2 and 3.
+6. **Top findings, never more than five.** One line each with strength.
    Then one slide per finding, pitched for PMs and engineers: enough to
    believe it and act on it. Depth goes to the appendix.
-6. **Summarize, then recommend in detail.** A short summary slide, then
+7. **Summarize, then recommend in detail.** A short summary slide, then
    recommendations as actions with owners, each resting on a named finding
    and naming the goal or metric it moves, in the team's own names for them.
    This is where business value becomes visible. Say which journey step
    each finding lands on, who else is affected by each action, and what
    second-order effect to watch (`lenses/systems-and-journeys.md`).
-7. **Next steps.** What happens now, who does it, open questions.
-8. **Limits go to the researcher first.** Magpie always drafts the limits
+8. **Next steps.** What happens now, who does it, open questions.
+9. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
    always writes them into the study record and the report. Whether the
    slide goes in the readout is the researcher's call for that audience.
    Magpie asks; it never drops the limits silently and never puts them in
    without asking.
-9. **Appendix for the deep dive.** Full findings, coding frame, instruments,
+10. **Appendix for the deep dive.** Full findings, coding frame, instruments,
    review summary, links.
-10. **Write the report for the reader who wasn't there.** Same story as the
+11. **Write the report for the reader who wasn't there.** Same story as the
     readout, a little deeper, still for a PM, designer or engineer: summary,
     why, what we did in one paragraph, top findings (five or fewer),
     findings in detail with evidence, images and links, recommendations,
@@ -867,19 +899,19 @@ report that someone can pick up in six months and trust.
     and the appendix. A linked contents list at the top. Timelines,
     recruiting mechanics and consent detail go in the appendix, not the
     body. `templates/report.md`.
-11. **Run the reader test.** For each reader the readout and report are
+12. **Run the reader test.** For each reader the readout and report are
     for (the decision owner, the PM, the designer, the engineer), read only
     the summary and ask: can they tell what it means for them and what
     they'd do next? If a reader can't, add a line for them to the summary
     or the recommendations. If there's nothing for them, say so, so they
     can stop reading. Then sweep for terms a new PM would have to look up
     and replace each or add a four-word gloss.
-12. **Request the independent review** on the final report
+13. **Request the independent review** on the final report
     (`review/independent-review.md`). It's required.
-13. **Write the library entries.** One per finding worth keeping
+14. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 1.
-14. **Close the loop with partners.** Send each team that helped the two or
+15. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
@@ -1263,6 +1295,97 @@ What should each partner do differently?
 - Skippable, and say so the first time: "Skip this if it's already handled."
 - Never "are you sure?" Ask about the thing, not about their confidence.
 
+<!-- core/checks/ai-assisted-research.md -->
+
+# Check: when AI runs part of the study
+
+What to do when an AI tool moderates sessions, summarizes transcripts,
+recruits participants, or is Magpie itself drafting findings. These tools
+are useful enough to create false confidence, which is the risk; the checks
+below are what keep the work research rather than something that looks like
+it.
+
+## 1. An AI moderator shapes answers
+
+An AI running interviews follows the guide but phrases follow-ups,
+sequences questions and acknowledges answers in ways that can narrow what
+participants say. Participants are blunter with an AI, and also more
+responsive to each question's framing, because there's no person to push
+back against. The data comes out tidier and more convergent, and the
+tidiness is the problem: it reflects the prompts more than the people.
+
+- The moderator's instructions get the same wording check as a human
+  guide (`checks/guide-wording.md`), item by item, before launch.
+- The instructions set boundaries (topics in and out of scope) and a
+  fallback for unclear answers: ask the participant to say more; don't
+  rephrase or interpret.
+- Pilot the moderator with two or three internal participants first.
+- **Audit the first three transcripts in full** before more sessions run.
+  Read the moderator's actual follow-ups. Look for leading phrasing, for
+  off-script probes, and for participants converging on the same words,
+  which signals shaping. If any of it shows, stop the study and revise the
+  instructions. This gate is what makes AI-moderated data credible.
+
+## 2. An AI summary is a first draft
+
+A summary of transcripts reads like findings: confident, structured prose.
+It isn't. It compresses what was said by pattern and frequency, without
+the judgment about which moments matter for this decision, without
+weighing the people who disagreed, and without telling a strong opinion
+from passive agreement. The common failure is smoothing: six positive
+participants and two seriously confused ones become "generally positive,
+some minor confusion", and the two who may represent a real problem
+disappear.
+
+- Treat every AI summary, Magpie's own drafts included, as a draft that
+  tells you which transcripts to read in full, not as a substitute for
+  reading them.
+- A human synthesis step sits between any AI output and anything a
+  stakeholder sees. The tool finds the candidates; the researcher decides
+  which matter and why. Magpie asks the researcher to confirm they've read
+  the passages behind each top finding before drafting the readout, and
+  logs "not confirmed" as a risk if they haven't.
+- Every claim traces to specific participant moments with quotes and
+  context. If it can't be traced, it doesn't go in.
+
+## 3. Receipts
+
+Traditional studies build an evidence trail by default: recordings,
+timestamped notes, coded transcripts, synthesis documents that link claims
+to data. When tools handle moderation and summarizing, that trail thins out
+unless the researcher keeps it on purpose.
+
+- Raw transcripts are stored alongside any summaries.
+- **No finding goes into a stakeholder-facing document without receipts:**
+  at least two traceable participant references (code and location) per
+  directional claim, or a single case labelled as one.
+- Where the tool links summary claims to timestamped quotes, use that; the
+  feature only helps if someone actually follows the links.
+
+## 4. Participant quality
+
+Tools that make recruiting faster also make fraud easier: bots, people who
+speed through for the incentive, people who paste AI-written answers. The
+risk is low when participants come from your own verified user base and
+high with third-party panels, whose incentive economics reward fraud.
+
+- Assume some of the sample is compromised and plan to catch it before
+  synthesis, not after.
+- Read early transcripts, not just summaries. Watch for answers that are
+  too clean, too fast, or too perfectly structured.
+- Set a disqualification threshold and a replacement protocol in the plan,
+  so removing someone doesn't stall the study.
+- Platform fraud detection is worth having and doesn't replace judgment.
+  Fast recruiting and good recruiting are different things.
+
+## Basis
+
+S10 (see `docs/PROVENANCE.md`): the five failure modes and their
+mitigations, including the first-three-transcript audit, the human
+synthesis step, receipts, and the fraud signals, come from the passage
+recorded there. The wording and the fit to Magpie's stages are this
+project's.
+
 <!-- core/checks/claim-strength.md -->
 
 # Check: claim strength
@@ -1302,6 +1425,14 @@ does the wording match the evidence?
    an assumption.
 10. **Absence of evidence is labelled.** "No participant mentioned X" is a
     finding about the sessions, not proof that X doesn't matter.
+11. **Every finding has receipts.** At least two participant references
+    with locations per directional claim, or a single case labelled as
+    one. No receipts, no slide.
+12. **A summary is not a finding.** Anything a tool produced from the
+    transcripts, Magpie's drafts included, is a draft until a person has
+    read the passages it rests on. Smoothing is the tell: "generally
+    positive, some minor confusion" where two of eight were seriously
+    stuck. `checks/ai-assisted-research.md`.
 
 ## Wording to replace
 

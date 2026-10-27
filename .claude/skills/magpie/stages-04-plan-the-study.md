@@ -31,7 +31,15 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
 5. **Set the timeline backwards from the decision deadline.** Readout date
    first, then analysis, then sessions, then recruiting. If it doesn't fit,
    say what to cut.
-6. **Name the risks.** Pull every skipped challenge from the record into the
+6. **Plan for participant quality.** Say where participants come from and
+   how much fraud risk that carries (own verified users: low; third-party
+   panels: high). Set the disqualification threshold and the replacement
+   protocol now, so a bad participant costs an hour, not the study.
+   `checks/ai-assisted-research.md`, section 4.
+7. **If an AI tool will moderate sessions,** schedule the first-three-
+   transcript audit in the timeline, with a stop point before the rest of
+   the sessions run. `checks/ai-assisted-research.md`, section 1.
+8. **Name the risks.** Pull every skipped challenge from the record into the
    plan's risks section, plus anything new.
 
 ## What to draft
@@ -58,5 +66,7 @@ need to hear from them?"
 - A plan that lists activities but never says why they answer the question.
 - Recruiting whoever's easiest to reach.
 - Consent treated as a form to sign rather than a conversation.
+- Recruiting from a panel with no plan for the participants who turn out
+  to be bots or speed-runners.
 - A timeline that ends the day the decision is due, with no time for the
   team to absorb the findings.
