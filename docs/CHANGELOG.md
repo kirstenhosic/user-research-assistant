@@ -2,6 +2,13 @@
 
 ## 2026-10-27
 
+- README brought up to date with today's changes: asking for context
+  before building, the reason with each challenge, teaching without
+  testing, the vague-word push, the three "your turn" steps, the method
+  and guide reasoning you can counter, and the theme review. The commands
+  table gains "just draft it", "you do it", "counter", "handled" and
+  "standard". The standards count is corrected to 36 of 77 citing a
+  source, in the README and `docs/PROVENANCE.md`.
 - Coaching borrowed from Dr. Morgan's coach mode, in one way of working
   (`core/operating.md`, "Teach as you go" and "Your turn"). Every
   challenge now comes with one plain sentence on why it matters, said once
