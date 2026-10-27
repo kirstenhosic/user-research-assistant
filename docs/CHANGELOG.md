@@ -2,6 +2,8 @@
 
 ## 2026-10-27
 
+- README reviewed for plain language and American English spelling,
+  punctuation and dates.
 - README: a methods table saying what each of the eleven methods is for
   and what Magpie gives you, a "How it's built" section with the five
   ideas behind it, and a dated "Where it stands" section with what has
