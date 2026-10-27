@@ -96,5 +96,8 @@ has the shape.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+S24 (compare on the key tasks users need to complete; look at tangentially
+related businesses for perspective; the aim is to beat the competition,
+not copy it; observe what users actually do). Separating what was observed
+from what is inferred, the fit matrix and the shelf-life note: practitioner
+judgment.

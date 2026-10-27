@@ -19,10 +19,13 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
 
 ## Sample
 
-- Moderated: five per distinct user group finds most of the serious problems.
-  Run another round after fixes rather than a bigger first round.
-- Unmoderated: twenty or more per group if you want task-success rates you
-  can compare.
+- Moderated: five people from one user group find most of the problems.
+  With two distinct groups, three or four from each; with three or more,
+  three from each. Run another small round after fixes rather than one big
+  first round.
+- Unmoderated, for rates (task success, time on task): more than thirty
+  people, and forty or more if you want ranges narrow enough to compare.
+  Five people can show problems but can't give you a rate.
 - Recruit people who would actually do these tasks.
 
 ## Session shape (moderated, 30 to 60 minutes)
@@ -43,8 +46,9 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
 - Tasks are realistic and in a realistic order.
 - The moderator doesn't help. "What would you do if I weren't here?"
 - Observers take notes against the tasks, not freeform.
-- Severity is rated per issue: how many hit it, how badly it blocked them,
-  how often it would happen in real use.
+- Severity is rated per issue on three things: how many hit it (frequency),
+  how hard it was to get past (impact), and whether it would keep bothering
+  people or only the first time (persistence).
 
 ## Follow-up questions
 
@@ -72,8 +76,8 @@ them after the task, not during it, so you don't change what happens.
 - If you're tracking perceived usability across releases, a standard
   questionnaire such as the System Usability Scale (SUS: ten fixed items,
   a score from 0 to 100) goes here, with the wording and order unchanged.
-  It needs twenty or more people per round to mean much; with five, use
-  it as a conversation starter, not a score.
+  It needs twenty to thirty or more people per round to mean much; with
+  five, use it as a conversation starter, not a score.
 
 A participant's rating and what they did can disagree. Someone who failed
 the task may still rate it easy. Report both; what they did comes first.
@@ -87,7 +91,7 @@ unmoderated studies: success rate, time on task, and clips of the failures.
 Ease ratings from a moderated study go next to each participant's result
 and reason ("P2: failed, rated 5 of 7, 'I assumed it saved'"). Don't
 average five ratings or report them as a percentage; the reasons are the
-finding. With twenty or more unmoderated participants, ratings can be
+finding. With more than thirty unmoderated participants, ratings can be
 summarized, following stage 6's survey data rules.
 
 ## Pitfalls
@@ -105,12 +109,17 @@ summarized, following stage 6's survey data rules.
 
 ## Basis
 
-Follow-up questions: S38 (the Single Ease Question after each task, on
-seven points, while the task is fresh; SUS after the session with wording
-and order unchanged, ten items, a 0 to 100 score that isn't a percentage;
-twenty to thirty users or more for questionnaire numbers; pair a rating
-with "why"); S12 (numbers from small qualitative studies carry large
-error). Probing after rather than during the task, and the debrief:
-practitioner judgment. Background: S7. The rest of this guide:
-practitioner judgment, consistent with widely published usability testing
-guidance.
+What a test is: S47 (a facilitator, realistic tasks, a realistic
+participant, thinking aloud; moderated and unmoderated, in person and
+remote; the facilitator must avoid influencing behaviour). Sample: S45
+(five users find most problems; small rounds over one big one; three or
+four per group for two groups, three per group for three or more); S46
+(more than thirty for quantitative studies, forty or more for useful
+ranges; five can't give rates). Tasks: S3. Severity: S48 (frequency,
+impact, persistence). Follow-up questions: S38 (a post-task ease rating on
+seven points while the task is fresh; SUS after the session, wording and
+order unchanged, ten items, a 0 to 100 score that isn't a percentage; 20
+to 30 or more users for questionnaire numbers; pair a rating with "why");
+S12 (numbers from small qualitative studies carry large error).
+Background: S7. Session timings, probing after rather than during the
+task, the debrief, and the pitfalls: practitioner judgment.

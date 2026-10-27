@@ -1424,8 +1424,8 @@ a proposed structure.
 
 ## Sample
 
-- Card sorting: fifteen to thirty participants gives stable groupings. More
-  helps if groups differ.
+- Card sorting: at least fifteen participants. Thirty adds a little
+  stability for twice the cost; it's worth it on large projects.
 - Tree testing: thirty to fifty per structure for findability rates you can
   compare.
 - Recruit people who'd actually use the structure.
@@ -1434,9 +1434,13 @@ a proposed structure.
 
 - **Open sort:** participants group cards and name the groups. Use it to
   discover the mental model.
-- **Closed sort:** you give the group names; participants place cards. Use
-  it to check a proposed structure.
-- Thirty to sixty cards, written in the users' words, not internal names.
+- **Closed sort:** you give the group names; participants place cards. A
+  tree test usually checks a proposed structure better.
+- Avoid hybrid sorts (some groups given, some made); the given groups steer
+  people.
+- Thirty to fifty cards, written in the users' words, not internal names.
+  More than fifty and people tire, and the "miscellaneous" pile grows.
+  Don't repeat the same word across cards; people group on the word.
 - Usually remote and unmoderated with a sorting tool; a few moderated
   sessions add the "why".
 
@@ -1446,7 +1450,9 @@ a proposed structure.
 - Eight to twelve tasks: "Where would you go to change your password?"
 - Record success, directness (did they go straight there), time, and
   where they went first.
-- Test two structures with different people to compare.
+- Test two structures with different people to compare (each person sees
+  only one).
+- Run it before any layouts or content exist.
 
 ## What makes it good
 
@@ -1475,8 +1481,15 @@ A card list and a task list. Analysis templates depend on the tool used.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+Card sorting: S49 (at least fifteen participants, from correlations of
+0.75 at five, 0.90 at fifteen and 0.95 at thirty); S50 (open, closed and
+hybrid sorts and when to use each; thirty to fifty cards; repeated words;
+moderated for the why, unmoderated for numbers; similarity matrix; limits
+of the method). Tree testing: S51 (a text-only tree before layouts or
+content; tasks that don't give away the answer; success, directness and
+first click; one tree per participant when comparing). Definitions: S52.
+The tree-testing sample (thirty to fifty) follows S46's thirty-plus for
+rates; the eight-to-twelve task range is practitioner judgment.
 
 <!-- core/methods/competitive-analysis.md -->
 
@@ -1578,8 +1591,11 @@ has the shape.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+S24 (compare on the key tasks users need to complete; look at tangentially
+related businesses for perspective; the aim is to beat the competition,
+not copy it; observe what users actually do). Separating what was observed
+from what is inferred, the fit matrix and the shelf-life note: practitioner
+judgment.
 
 <!-- core/methods/concept-testing.md -->
 
@@ -1649,8 +1665,12 @@ per concept with the same questions.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+Definition: S52 (an attitudinal method that collects people's thoughts
+and attitudes about a product idea). Why "would you use it?" misleads and
+reactions don't predict adoption: S8 (self-reported future intentions are
+unreliable; observe behaviour where you can); S27 (research should not stop
+at a yes or no). Pairing reactions with behavioural data: S13. Sample sizes,
+the session shape and the baseline-first rule: practitioner judgment.
 
 <!-- core/methods/contextual-inquiry.md -->
 
@@ -1687,18 +1707,27 @@ how to choose between them.
 
 ## Session shape (60 to 120 minutes)
 
-1. Arrive, explain, confirm consent, including for photos or screen
-   recordings and for anyone else who may appear.
-2. Watch first. Let them work. Take notes on what they do, what they touch,
-   who they talk to, what they wait for.
-3. Ask as you go, briefly: "What just happened?", "Why that way?", "What
-   would you do if that failed?" Don't interrupt the flow.
-4. Afterwards, walk back through what you saw and check your reading of
-   it.
+1. **Primer.** Arrive, build rapport, explain the goal, and confirm
+   consent, including for photos or screen recordings and for anyone else
+   who may appear.
+2. **Transition.** Say out loud that you're switching from talking to
+   watching: "From now on, please work as you normally would. I'll stop
+   you now and then to ask about something." Don't skip this; without it,
+   people keep explaining instead of working.
+3. **Watch and ask.** Let them work. Take notes on what they do, what they
+   touch, who they talk to, what they wait for. Stop to ask when something
+   is unclear: "What just happened?", "Why that way?" Keep your
+   interpretations mostly for the end, since checking them mid-task can
+   change what they do next.
+4. **Wrap-up.** Walk back through what you saw, say your reading of it, and
+   let them correct you. Their corrections are often the best data of the
+   session.
 
 ## What makes it good
 
-- You're an apprentice, not an interviewer. They're the expert.
+- You're an apprentice, not an interviewer. They're the expert, and either
+  of you can steer the session.
+- You know what you're there to learn, so you know what to watch.
 - Note what's in the environment: sticky notes, spreadsheets on the side,
   printed cheat sheets. Those are findings.
 - Capture breakdowns: the moments where the work stalled or the person
@@ -1711,7 +1740,11 @@ and the breakdowns marked. Then themes across sessions. Stage 6 covers this.
 
 ## Pitfalls
 
-- Turning it into an interview at a desk.
+- Turning it into an interview at a desk, or letting the participant
+  summarize their work instead of doing it.
+- A session that becomes a list of complaints about the current system.
+  Bring it back to the work.
+- Reacting to what they do, so they start doing what you seem to want.
 - Observing only the "happy path" because the participant tidied up for
   you.
 - Recording people who didn't consent (colleagues in the background).
@@ -1724,8 +1757,13 @@ breakdown.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+S43 (the apprentice model; context, partnership, interpretation and focus;
+the primer, transition, contextual interview and wrap-up; holding most
+interpretations for the end and letting the participant correct them;
+pitfalls of interview mode, complaint sessions and researcher reactions;
+a small sample of people qualified in the work); S52 (definition); S33
+(contextual inquiry as one kind of field study). The sample range, the
+session length and the observation-sheet columns: practitioner judgment.
 
 <!-- core/methods/diary-studies.md -->
 
@@ -1752,21 +1790,26 @@ weeks, as it happens rather than from memory.
 
 ## Sample
 
-- Eight to fifteen people. Expect some to drop out; recruit a few extra.
-- One to four weeks, depending on how often the behaviour happens. Rare
-  behaviour needs a longer window.
+- Five to twelve people for a small, focused study; twelve to thirty for a
+  broad one. Expect some to drop out; recruit a few extra.
+- One to three weeks is typical, set by how often the behaviour happens.
+  Rare behaviour needs a longer window.
 
 ## Study shape
 
-1. **Kick-off call (20 min).** Explain the task, the tool (a form, a
+1. **Pilot.** Run the study with one or two people for a couple of days to
+   test the prompts, the tool and the instructions.
+2. **Kick-off call (20 min).** Explain the task, the tool (a form, a
    messaging app, a diary app), what counts as an entry, and consent for
    anything they might capture (photos, screenshots).
-2. **Entries.** Short and structured: what happened, when, what you were
+3. **Entries.** Short and structured: what happened, when, what you were
    trying to do, how it went, a photo if useful. Triggered by the event
-   ("every time you…") or by time ("each evening").
-3. **Check-ins.** A short message every few days. Answers questions, keeps
+   ("every time you…"), by time ("each evening"), or by a prompt you send
+   at varied times. Use events for things that happen a few times a week,
+   time or prompts for things that happen all day.
+4. **Check-ins.** A short message every few days. Answers questions, keeps
    people going, notices drop-off early.
-4. **Exit interview (30 to 45 min).** Walk through their entries together.
+5. **Exit interview (30 to 45 min).** Walk through their entries together.
    Ask about the gaps and the surprises. This is where most of the depth
    comes from.
 
@@ -1774,7 +1817,9 @@ weeks, as it happens rather than from memory.
 
 - Entries take under two minutes. Anything longer, people stop.
 - The entry prompt is specific. "Tell us about your day" gets nothing.
-- Incentive paid per week or at the end, with a bonus for completion.
+- Incentive paid in stages for longer studies, at a higher rate than a
+  single session, with a realistic minimum number of entries and a maximum
+  if more entries earn more.
 - The researcher reads entries as they arrive and adjusts prompts if
   they're not working.
 
@@ -1787,6 +1832,9 @@ interviews together. Stage 6 covers this.
 ## Pitfalls
 
 - Too many prompts, or prompts that change the behaviour being studied.
+- A minimum entry count so high that people log things they'd never
+  normally do, or no maximum, so people invent entries for the money.
+- A sample entry in the instructions that people then copy.
 - Losing half the participants by week two because nobody checked in.
 - Analyzing entries without the exit interview.
 - Treating fifteen diaries as frequency data for the population.
@@ -1799,8 +1847,13 @@ you do? How did it go (one word)? Anything else?* Exit interview: adapt
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+S44 (when to use diary studies; event, interval and signal logging and
+when each fits; one to three weeks in its examples; five to twelve and
+twelve to thirty for saturation; over-recruiting; the pilot and kick-off;
+reading entries as they arrive and sending reminders; staged and higher
+incentives with a minimum and maximum; the exit interview; pitfalls of
+minimums, invented entries and sample entries); S52 (definition). The
+two-minute entry limit and the entry prompt: practitioner judgment.
 
 <!-- core/methods/evidence-review.md -->
 
@@ -1869,8 +1922,12 @@ instead of running a new study. Stage 1 in full.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+S18 (secondary research as a standard first step; judge each source's
+validity and limitations; a missing methods section is a red flag); S13
+(one source's limits are offset by another); S14 (when sources disagree,
+examine how each was done; quantitative data doesn't automatically
+overrule qualitative). The evidence brief's shape and the confidence rule
+(no higher than the weakest load-bearing source): practitioner judgment.
 
 <!-- core/methods/expert-review.md -->
 
@@ -2206,9 +2263,13 @@ what gets in the way.
 
 ## Sample
 
-- Start at six to eight for a single, fairly uniform group. Add people if
-  the last sessions are still bringing new things.
-- Several distinct groups need several small samples, not one big one.
+- Start at five or six for a single, fairly uniform group, and analyze as
+  you go. Add people while sessions still bring new codes; stop when they
+  add little. Five is often not enough for interviews, and a broad question
+  across varied people can need twenty or more.
+- Where groups differ, recruit across the differences that could change the
+  answers. A fixed number per persona ("five each") can mean far more
+  interviews than the question needs.
 - Recruit on recent behaviour ("did X in the last month"), not on
   self-description ("considers themselves a power user").
 
@@ -2284,16 +2345,23 @@ transcripts in full before the rest run. `checks/ai-assisted-research.md`.
 
 ## Basis
 
-Ratings with a "why": S38 (pair a rating with "why did you give it that
-score?" for qualitative insight, and don't make much of the average from a
-few users); S39 (closed questions used sparingly in qualitative research,
-because they stop the conversation); S40 (word-labelled scales are easier to
-understand; rating scales are prone to acquiescence and social-desirability
-bias); S12 (numbers from small qualitative studies carry large error). The
-limit of one to three ratings and asking about a specific moment:
-practitioner judgment. The rest of this guide: practitioner judgment,
-consistent with widely published interviewing guidance. Sources will be
-added to `docs/PROVENANCE.md` as they are checked.
+Sample: S42 (no fixed number; start with five or six and add while new
+codes appear; five is often not enough; broad, varied studies can need 20
+to 30 or more; a fixed number per persona can mean too many). Session and
+questions: S41 (easy questions first to put people at ease; ask about
+specific events, because memory is flawed; follow-up questions prepared,
+probes used as they arise; leading questions compromise the data); S5
+(past experience over hypotheticals); S8 (self-reported intentions are
+unreliable). Recruiting on behaviour: S9. Analysis: S1b. Ratings with a
+"why": S38 (pair a rating with "why did you give it that score?" for
+qualitative insight, and don't make much of the average from a few users);
+S39 (closed questions used sparingly in qualitative research, because they
+stop the conversation); S40 (word-labelled scales are easier to understand;
+rating scales are prone to acquiescence and social-desirability bias); S12
+(numbers from small qualitative studies carry large error). Session timings,
+counting to five in silences, one to three ratings, and the AI-moderator
+section's reading rule: practitioner judgment (the AI-moderator risks
+themselves: S10).
 
 <!-- core/methods/participatory-design.md -->
 
@@ -2488,10 +2556,13 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
 
 ## Sample
 
-- Moderated: five per distinct user group finds most of the serious problems.
-  Run another round after fixes rather than a bigger first round.
-- Unmoderated: twenty or more per group if you want task-success rates you
-  can compare.
+- Moderated: five people from one user group find most of the problems.
+  With two distinct groups, three or four from each; with three or more,
+  three from each. Run another small round after fixes rather than one big
+  first round.
+- Unmoderated, for rates (task success, time on task): more than thirty
+  people, and forty or more if you want ranges narrow enough to compare.
+  Five people can show problems but can't give you a rate.
 - Recruit people who would actually do these tasks.
 
 ## Session shape (moderated, 30 to 60 minutes)
@@ -2512,8 +2583,9 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
 - Tasks are realistic and in a realistic order.
 - The moderator doesn't help. "What would you do if I weren't here?"
 - Observers take notes against the tasks, not freeform.
-- Severity is rated per issue: how many hit it, how badly it blocked them,
-  how often it would happen in real use.
+- Severity is rated per issue on three things: how many hit it (frequency),
+  how hard it was to get past (impact), and whether it would keep bothering
+  people or only the first time (persistence).
 
 ## Follow-up questions
 
@@ -2541,8 +2613,8 @@ them after the task, not during it, so you don't change what happens.
 - If you're tracking perceived usability across releases, a standard
   questionnaire such as the System Usability Scale (SUS: ten fixed items,
   a score from 0 to 100) goes here, with the wording and order unchanged.
-  It needs twenty or more people per round to mean much; with five, use
-  it as a conversation starter, not a score.
+  It needs twenty to thirty or more people per round to mean much; with
+  five, use it as a conversation starter, not a score.
 
 A participant's rating and what they did can disagree. Someone who failed
 the task may still rate it easy. Report both; what they did comes first.
@@ -2556,7 +2628,7 @@ unmoderated studies: success rate, time on task, and clips of the failures.
 Ease ratings from a moderated study go next to each participant's result
 and reason ("P2: failed, rated 5 of 7, 'I assumed it saved'"). Don't
 average five ratings or report them as a percentage; the reasons are the
-finding. With twenty or more unmoderated participants, ratings can be
+finding. With more than thirty unmoderated participants, ratings can be
 summarized, following stage 6's survey data rules.
 
 ## Pitfalls
@@ -2574,15 +2646,20 @@ summarized, following stage 6's survey data rules.
 
 ## Basis
 
-Follow-up questions: S38 (the Single Ease Question after each task, on
-seven points, while the task is fresh; SUS after the session with wording
-and order unchanged, ten items, a 0 to 100 score that isn't a percentage;
-twenty to thirty users or more for questionnaire numbers; pair a rating
-with "why"); S12 (numbers from small qualitative studies carry large
-error). Probing after rather than during the task, and the debrief:
-practitioner judgment. Background: S7. The rest of this guide:
-practitioner judgment, consistent with widely published usability testing
-guidance.
+What a test is: S47 (a facilitator, realistic tasks, a realistic
+participant, thinking aloud; moderated and unmoderated, in person and
+remote; the facilitator must avoid influencing behaviour). Sample: S45
+(five users find most problems; small rounds over one big one; three or
+four per group for two groups, three per group for three or more); S46
+(more than thirty for quantitative studies, forty or more for useful
+ranges; five can't give rates). Tasks: S3. Severity: S48 (frequency,
+impact, persistence). Follow-up questions: S38 (a post-task ease rating on
+seven points while the task is fresh; SUS after the session, wording and
+order unchanged, ten items, a 0 to 100 score that isn't a percentage; 20
+to 30 or more users for questionnaire numbers; pair a rating with "why");
+S12 (numbers from small qualitative studies carry large error).
+Background: S7. Session timings, probing after rather than during the
+task, the debrief, and the pitfalls: practitioner judgment.
 
 <!-- core/challenges/challenge-bank.md -->
 

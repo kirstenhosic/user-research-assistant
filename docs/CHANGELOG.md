@@ -2,6 +2,21 @@
 
 ## 2026-10-27
 
+- Eight older method guides now cite public sources (S41–S52, read
+  today): interviews, usability testing, concept testing, contextual
+  inquiry, diary studies, card sorting and tree testing, competitive
+  analysis and evidence review. Each says which parts rest on a source and
+  which are practitioner judgment. Reading them changed some guidance:
+  interview samples start at five or six and grow while new codes appear;
+  usability samples per group follow Nielsen's three-to-four rule, and
+  unmoderated rates need more than thirty people; severity uses frequency,
+  impact and persistence; contextual inquiry gains the transition step and
+  the wrap-up check; diary studies gain a pilot, signal-based logging,
+  staged incentives and three pitfalls; card sorts use thirty to fifty
+  cards and avoid hybrid sorts. The surveys guide is unchanged for now.
+- Two more fixture studies with answer keys, not yet run: Larder
+  meal-planning diary (6 diaries, 12 traps) and Dockside returns desk (5
+  contextual inquiry sessions, 11 traps).
 - Four new method guides: focus groups, participatory design (co-design),
   field studies and expert review (heuristic evaluation and cognitive
   walkthrough). A new lens for including disabled people and assistive
