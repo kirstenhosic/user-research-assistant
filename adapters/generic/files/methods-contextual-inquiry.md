@@ -3,7 +3,7 @@
 Watch people do their real work in their real setting, and ask about it as
 it happens.
 
-This is one kind of field study. `methods/field-studies.md` covers the
+This is one kind of field study. `methods-field-studies.md` covers the
 others (direct observation, site visits, ethnography, remote sessions) and
 how to choose between them.
 
@@ -62,7 +62,7 @@ and the breakdowns marked. Then themes across sessions. Stage 6 covers this.
 
 ## Template
 
-Use `templates/interview-guide.md` for the question prompts and a blank
+Use `templates-interview-guide.md` for the question prompts and a blank
 observation sheet with columns for time, what happened, tools, people,
 breakdown.
 

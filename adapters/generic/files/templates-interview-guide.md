@@ -3,7 +3,7 @@
 **Length:** [45–60] minutes · **Research questions served:** [list]
 
 Every main question names the research question it serves (RQ1, RQ2…). Run
-`checks/guide-wording.md` before using.
+`checks-guide-wording.md` before using.
 
 ## Opening (2 min)
 

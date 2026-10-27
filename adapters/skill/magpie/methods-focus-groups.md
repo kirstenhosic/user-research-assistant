@@ -91,7 +91,7 @@ percentage.
 
 ## Template
 
-Adapt `templates/interview-guide.md`: one block per topic with an opening
+Adapt `templates-interview-guide.md`: one block per topic with an opening
 question and probes, plus the individual exercise.
 
 ## Basis

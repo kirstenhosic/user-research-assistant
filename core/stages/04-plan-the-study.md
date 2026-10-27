@@ -35,8 +35,10 @@ questions.
 ## What to do
 
 1. **Draft the plan from `templates/research-plan.md`.** Fill every section
-   from the record. Where something is unknown, write a placeholder in
-   brackets, not a guess.
+   from the record. Where something is unknown, follow `operating.md`,
+   "Gather context before you build": a guess the researcher let stand is
+   marked [assumption], and anything that can't be guessed (a date, a
+   name, a budget) is a labelled blank such as "[recruiting start date]".
 2. **Write the recruiting criteria.** Who's in, who's out, and why each
    criterion matters for the decision. Use the team's persona or segment
    names where they exist, always with the behaviour that defines them.

@@ -64,7 +64,7 @@ interviews together. Stage 6 covers this.
 
 Entry prompt: *When did this happen? What were you trying to do? What did
 you do? How did it go (one word)? Anything else?* Exit interview: adapt
-`templates/interview-guide.md`.
+`templates-interview-guide.md`.
 
 ## Basis
 

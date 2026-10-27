@@ -71,8 +71,8 @@ per conversation; it stays on until you say "stop Magpie".
   any assistant, any day.
 - **Waits for your yes.** Nothing Magpie drafts is final until you reply
   "yes" to say you've reviewed it. Before analysis or a report reaches
-  stakeholders, Magpie can run an independent review that sees only the
-  transcripts and the draft.
+  stakeholders, Magpie runs an independent review that sees only the
+  transcripts and the draft. It's required at analysis and at the report.
 - **Writes for the people who act on it.** Readouts and reports lead with
   why the study was done and up to five top findings, keep every other
   finding on one page, and give each recommendation an owner.
@@ -131,7 +131,7 @@ The ones you'll use most:
 | stop Magpie | Ends the session and offers the record to save |
 | just draft it | Builds now without the missing context, marking the gaps as assumptions |
 | you do it | Takes over a step where you were asked to go first |
-| skip | Notes the current question as a risk and moves on |
+| skip | Notes the current challenge as a risk and moves on; on a context question, builds without it and marks the gap |
 
 More:
 
@@ -147,11 +147,21 @@ More:
 | review this | Runs an independent review of your findings or report |
 | back to stage 3 | Returns to that stage and says what depends on it |
 
-**Save your study record.** At the end of a session, ask for the record
-and paste it into a document. Next time, paste it back and Magpie picks up
-where you left off, in any assistant. The record's "Where we are" section
+**Save your study record.** Say "show the record" and paste it into a
+document. Magpie suggests a good moment at the end of each stage; in
+Claude Code it saves the record to a file in your project for you. Next
+time, paste it back and Magpie picks up where you left off, in any
+assistant. The record's "Where we are" section
 holds the stage, the next step and the questions you've already answered,
 so Magpie doesn't ask them again.
+
+**Optional: a team profile and an intake form.** Fill in
+[`core/team/team-profile.md`](core/team/team-profile.md) once with your
+products, users, goals and research rules, and attach it (or keep it in
+your Claude Code folder) when you start a study. Magpie reads it first, so
+it asks fewer questions every time. Send
+[`core/team/intake-form.md`](core/team/intake-form.md) to PMs and
+designers who ask you for research; Magpie can start from a filled one.
 
 ## Get started
 

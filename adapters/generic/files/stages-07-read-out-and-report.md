@@ -40,13 +40,15 @@ researcher to say, for each top finding, what the people who'll act on it
 should do: "For [finding], what should [the PM, the designer, the
 engineer] do differently on Monday?" A line each is enough. Don't offer
 your own recommendations first. If they say "not sure" or "you do it",
-draft them yourself.
+draft them yourself. If the material they brought already has
+recommendations, those are their turn: build on them, and don't ask
+again.
 
 ## What to do
 
 1. **Size it to the room first.** Use the answers on who's in the
    audience and how long the slot is. Default: no more than 20 slides, and fewer for most teams.
-   `templates/readout.md` has the sizing table.
+   `templates-readout.md` has the sizing table.
 2. **Build one story.** Why we asked, what we did, what we found, what it
    means, what to do. Each slide follows from the last. Anything that
    doesn't move the story goes in the appendix.
@@ -64,7 +66,7 @@ draft them yourself.
    it with the "Before you build" questions, as one of the six. "Not
    yet" is fine; it goes in the risks until it's done. Magpie's findings
    are a draft until a person has read what they rest on.
-   `checks/ai-assisted-research.md`, sections 2 and 3.
+   `checks-ai-assisted-research.md`, sections 2 and 3.
 6. **Top findings, never more than five.** The findings the decision
    rests on, one line each with strength. An unexpected finding can be
    one of the five if it's serious enough. Then one slide per top finding,
@@ -84,7 +86,7 @@ draft them yourself.
    recommendation rests on a named finding and names the goal or metric it
    moves, in the team's own names for them. This is where business value
    becomes visible. Say which journey step each finding lands on, who else
-   is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
+   is affected by each action, and what second-order effect to watch (`lenses-systems-and-journeys.md`).
 9. **Next steps.** What happens now, who does it, open questions.
 10. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
@@ -101,7 +103,7 @@ draft them yourself.
     recommendations, next steps, limits, appendix. Ten pages or fewer, not counting images
     and the appendix. A linked contents list at the top. Timelines,
     recruiting mechanics and consent detail go in the appendix, not the
-    body. `templates/report.md`.
+    body. `templates-report.md`.
 13. **Run the reader test.** For each reader the readout and report are
     for (the decision owner, the PM, the designer, the engineer), read only
     the summary and ask: can they tell what it means for them and what
@@ -110,20 +112,20 @@ draft them yourself.
     can stop reading. Then sweep for terms a new PM would have to look up
     and replace each or add a four-word gloss.
 14. **Request the independent review** on the final report
-    (`review/independent-review.md`). It's required.
+    (`review-independent-review.md`). It's required.
 15. **Write the library entries.** One per finding worth keeping
-    (`team/research-library-entry.md`), so the next study finds them at
+    (`team-research-library-entry.md`), so the next study finds them at
     stage 1.
 16. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
-`templates/readout.md`.
+`templates-readout.md`.
 
 ## What to draft
 
-- The readout, from `templates/readout.md`.
-- The report, from `templates/report.md`.
+- The readout, from `templates-readout.md`.
+- The report, from `templates-report.md`.
 - Library entries.
 - Partner thank-you notes.
 - The Recommendations section of the study record.

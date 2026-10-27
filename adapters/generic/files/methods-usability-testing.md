@@ -101,7 +101,7 @@ summarized, following stage 6's survey data rules.
 
 ## Template
 
-`templates/usability-test-script.md`
+`templates-usability-test-script.md`
 
 ## Basis
 

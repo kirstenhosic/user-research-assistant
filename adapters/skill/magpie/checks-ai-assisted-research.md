@@ -16,7 +16,7 @@ back against. The data comes out tidier and more convergent, and the
 tidiness is the problem: it reflects the prompts more than the people.
 
 - The moderator's instructions get the same wording check as a human
-  guide (`checks/guide-wording.md`), item by item, before launch.
+  guide (`checks-guide-wording.md`), item by item, before launch.
 - The instructions set boundaries (topics in and out of scope) and a
   fallback for unclear answers: ask the participant to say more; don't
   rephrase or interpret.

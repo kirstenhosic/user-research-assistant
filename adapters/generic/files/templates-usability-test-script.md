@@ -3,7 +3,7 @@
 **Length:** [30–60] minutes · **What's being tested:** [prototype / live
 product, version] · **Research questions served:** [list]
 
-Run `checks/guide-wording.md` before using. Tasks are scenarios, not
+Run `checks-guide-wording.md` before using. Tasks are scenarios, not
 instructions, and each has a success criterion written before the session.
 
 ## Opening (3 min)

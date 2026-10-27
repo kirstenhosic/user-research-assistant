@@ -11,8 +11,8 @@ need, and leads nobody.
 ## Inputs
 
 - The study record through stage 4.
-- The method guide from `methods/`.
-- The template for the instrument from `templates/`.
+- The method guide from the `methods-*.md` files.
+- The template for the instrument from the `templates-*.md` files.
 
 ## Before you build
 
@@ -60,8 +60,8 @@ instrument it is (interview, usability test, survey or diary).
    say why and I'll rework it." A counter is new input: rework the guide
    with their reasoning, or say in a line or two why you'd keep it. Their
    call stands.
-5. **Run the wording check.** Use `checks/guide-wording.md` for interviews
-   and tests, `checks/survey-wording.md` for surveys. Fix what it catches and
+5. **Run the wording check.** Use `checks-guide-wording.md` for interviews
+   and tests, `checks-survey-wording.md` for surveys. Fix what it catches and
    say what you fixed.
 6. **Add the moderator notes.** What to do if a participant says "it's fine"
    to everything, runs short, runs long, or gets upset.
@@ -71,7 +71,7 @@ instrument it is (interview, usability test, survey or diary).
    what to watch for in the pilot.
 9. **Check it works with assistive technology.** If participants use a
    screen reader, magnification or voice control, try the instrument or
-   prototype with it before the sessions (`lenses/accessibility.md`).
+   prototype with it before the sessions (`lenses-accessibility.md`).
 
 ## What to draft
 
@@ -86,7 +86,7 @@ The moderator's instructions are a guide and get the same wording check.
 Add the boundaries (what's in and out of scope) and the fallback for
 unclear answers ("ask them to say more; don't rephrase or interpret"), and
 plan to read the first three transcripts in full before the rest run.
-`checks/ai-assisted-research.md`, section 1.
+`checks-ai-assisted-research.md`, section 1.
 
 ## Challenge
 

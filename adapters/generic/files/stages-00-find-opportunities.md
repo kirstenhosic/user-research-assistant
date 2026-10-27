@@ -53,7 +53,7 @@ guess at what matters.
 
 ## What to do
 
-0. **Collect with the guide.** Open `evidence/where-to-look.md`. Use
+0. **Collect with the guide.** Open `evidence-where-to-look.md`. Use
    whatever Magpie can reach in this setup (files, connectors, web) first
    and say so; then give the researcher the two or three places to look
    for each of the three sides below and the paste-in format. A morning,
@@ -80,7 +80,7 @@ guess at what matters.
 6. **Draft the pitch.** For each chosen opportunity, a short paragraph the
    researcher can take to the PM or the leadership team: the gap, who it
    affects, the decision it would inform, what a study would cost and
-   return. Use `templates/opportunity-brief.md`.
+   return. Use `templates-opportunity-brief.md`.
 
 ## What to draft
 

@@ -2,6 +2,32 @@
 
 ## 2026-10-27
 
+- Fixes from the end-to-end workflow review (issues 5 to 13).
+  - Save points: when a stage's drafts all have their yes, Magpie
+    suggests saving the record in one line; in Claude Code it saves
+    `study-record-[name].md` itself. The README says "show the record".
+  - A plain "I've reviewed them" counts as the yes, and recommendations
+    that come with the findings count as the stage 7 your-turn.
+  - In Claude Code, Magpie searches only the open folder and folders the
+    researcher names, and asks where material is instead of searching
+    the whole computer.
+  - Independent review outside Claude: the fresh chat has to be outside
+    the Magpie project or with the skill off, and the reviewer's list is
+    pasted back. The README says the review is required at analysis and
+    at the report.
+  - Stage 2 says the researcher doesn't have to wait for the decision
+    owner's reply: "go on" continues and logs it as a risk.
+  - Rule conflicts settled: "skip" on a context question builds without
+    it and marks the gap; stage 4 marks guesses [assumption] and leaves
+    labelled blanks only for what can't be guessed.
+  - Magpie reads a team profile or intake form first if one is there,
+    and the README tells new users about both.
+  - `tools/build.py` rewrites core paths in the flat copies to the flat
+    file names (`methods/interviews.md` becomes `methods-interviews.md`,
+    `tools/checks/` becomes `scripts/` in the skill folder).
+  - Gemini notes say three checks, not two.
+  - New standards A.17 and A.18; A.10 and A.14 extended; three new eval
+    scenarios (not yet run).
 - Fixes from the end-to-end workflow review (issues 1 to 4).
   - Setup steps agree: one way to make the zip for Copilot, with the
     troubleshooting tip no longer contradicting it; Claude.ai and the

@@ -33,8 +33,8 @@ upload the whole folder again.
 - Total upload at most 100 MB; the package is well under 1 MB.
 - Plain-text files only (`.md`, `.py`, `.txt` and similar). The package
   has nothing else.
-- Scripts can't use the internet or act on external sites. The two checks
-  in `scripts/` read local files only.
+- Scripts can't use the internet or act on external sites. The three
+  checks in `scripts/` read local files only.
 - The skill name must be lowercase with hyphens. It's `magpie`.
 
 ## What works where

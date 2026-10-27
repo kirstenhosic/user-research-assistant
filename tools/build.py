@@ -26,6 +26,7 @@ written by hand and point at the skill folder.
 
 from __future__ import annotations
 
+import re
 import shutil
 from pathlib import Path
 
@@ -157,9 +158,32 @@ def first_line_after_title(path: Path) -> str:
     return text if end == -1 else text[: end + 1]
 
 
-def copy_with_credit(path: Path, target: Path) -> None:
-    """Copy a core file, adding the credit footer."""
-    text = path.read_text(encoding="utf-8").rstrip("\n")
+# Core files point to each other by their core paths (`methods/interviews.md`).
+# In the flat copies those files are named `methods-interviews.md`, so the
+# references are rewritten to match, and the code checks live in `scripts/`.
+FILE_REF = re.compile(r"`([a-z]+)/([\w.-]+\.md)`")
+FOLDER_REF = re.compile(r"`(" + "|".join(e for e in ORDER if not e.endswith(".md")) + r")/`")
+
+
+def flatten_refs(text: str, scripts: bool) -> str:
+    """Rewrite core paths in backticks to the flat names beside them."""
+
+    def file_ref(match: re.Match[str]) -> str:
+        folder, name = match.groups()
+        if (CORE / folder / name).is_file():
+            return f"`{folder}-{name}`"
+        return match.group(0)
+
+    text = FILE_REF.sub(file_ref, text)
+    text = FOLDER_REF.sub(lambda m: f"the `{m.group(1)}-*.md` files", text)
+    if scripts:
+        text = text.replace("`tools/checks/`", "`scripts/`")
+    return text
+
+
+def copy_with_credit(path: Path, target: Path, scripts: bool = False) -> None:
+    """Copy a core file with flat references, adding the credit footer."""
+    text = flatten_refs(path.read_text(encoding="utf-8").rstrip("\n"), scripts)
     target.write_text(text + FOOTER, encoding="utf-8")
 
 
@@ -198,7 +222,7 @@ def build_skill(files: list[Path]) -> None:
     index = []
     for path in files:
         name = flat_name(path)
-        copy_with_credit(path, SKILL / name)
+        copy_with_credit(path, SKILL / name, scripts=True)
         index.append(f"- `{name}`: {first_line_after_title(path)}")
 
     skill = SKILL_FRONTMATTER + "\n" + SKILL_INTRO + "\n".join(index) + "\n"
