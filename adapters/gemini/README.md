@@ -42,8 +42,8 @@ upload the whole folder again.
 - The independent review at stages 6 and 7 runs in a fresh chat with the
   three-part paste (raw material, draft, review prompt), as
   `review-independent-review.md` describes.
-- Whether Gemini runs `scripts/quote_check.py` and
-  `scripts/count_check.py` hasn't been tested. If it doesn't, Magpie does
+- Whether Gemini runs `scripts/quote_check.py`, `scripts/count_check.py`
+  and `scripts/evidence_check.py` hasn't been tested. If it doesn't, Magpie does
   the checks by hand and says so.
 
 ## Checked

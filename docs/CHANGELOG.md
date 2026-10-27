@@ -2,6 +2,34 @@
 
 ## 2026-10-27
 
+- Magpie says it's on at the start of a conversation, stays on for the
+  rest of it without being called again, and ends every reply with a
+  status line showing the stage, anything waiting for review, and the next
+  step. "stop Magpie" ends the session (`core/operating.md`, "The
+  session"). Standard A.9, scenario `session-persists`.
+- Every output Magpie drafts waits for the researcher's "yes". Asked once
+  in one line, tracked in a new Outputs table in the study record and in
+  the status line. A readout or report stays labelled "draft" until it and
+  its findings have a yes. Standards A.10 and 7.10, scenario `review-yes`.
+- Every count lists the participants and lines behind it ("3 of 8 (P1 06,
+  P5 06, P7 06)"). New `tools/checks/evidence_check.py` checks the list
+  matches the count, every code is a real participant, and every cited
+  line exists and is that participant speaking. Standard 6.11, scenario
+  `uncoded-count`.
+- `quote_check.py` now checks who a quote is credited to: a quote found
+  only in another participant's transcript, or in the interviewer's lines,
+  is flagged. It also lists short quoted text it didn't check, and pairs
+  quote marks correctly when a short quote comes first. Standard 6.4
+  extended, scenario `misattributed-quote`.
+- Evals can now fail in the ways that matter: each run proves Magpie was
+  loaded, runs one scenario without Magpie to test that proof, keeps
+  answers and project notes out of the session, runs each scenario three
+  times, and has a person judge at least ten replies. New run template
+  (`evals/runs/TEMPLATE.md`) and a clean fixture with no planted problems
+  (`evals/fixtures/sparrow-clean/`) to count false alarms. The 27 October
+  run is marked unconfirmed.
+- Stage 7's last two steps were both numbered 15; fixed.
+
 - Product context, optional. The study record opens with a Product
   section: what the product is, what it does, the part under study, its end users, its
   buyers or admins if different, where it stands and recent changes.

@@ -342,7 +342,7 @@ core/
   templates/     study record, plan, guides, survey, readout, report, workshop agenda
   team/          team profile, intake form, research library entry
   voice.md       the assistant's voice, with example lines
-tools/           build script and code checks: quote matching, counts, survey statistics
+tools/           build script and code checks: quote matching and attribution, counts, the receipts behind counts
 adapters/
   skill/         one skill folder (SKILL.md, core files, scripts) that
                  Claude, ChatGPT and Gemini all accept

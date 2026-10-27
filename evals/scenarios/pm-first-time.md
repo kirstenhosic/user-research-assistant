@@ -31,6 +31,8 @@ list of questions before a draft.
   five people who've seen a pricing page recently and watch them use
   this one").
 - Doesn't mention commands or stages unless the PM asks how it works.
+  The "Magpie is on" line and the status line are fine: they're in plain
+  words, with the stage as a phrase.
 
 ## Fail
 

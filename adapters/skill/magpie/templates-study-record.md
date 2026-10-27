@@ -80,6 +80,8 @@ Known assumptions, plus every challenge that was skipped and why.
 ## Findings
 
 Each finding is a claim with its evidence, including what cuts against it.
+Every count lists the participants and lines behind it: "3 of 8 (P1 06,
+P5 06, P7 06)".
 
 | Finding | Supporting evidence | Contradicting evidence | Strength |
 | --- | --- | --- | --- |
@@ -94,6 +96,15 @@ participants or mixed signals).
 | Action | Owner | Answers question | Serves decision | Confidence |
 | --- | --- | --- | --- | --- |
 | | | | | |
+
+## Outputs
+
+Everything Magpie drafted for this study, and whether the researcher has
+reviewed it. An output stays "not yet" until the researcher says yes.
+
+| Output | Version or date | Reviewed |
+| --- | --- | --- |
+| | | yes, [date] / not yet |
 
 ## Change log
 
