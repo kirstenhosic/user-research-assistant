@@ -18,14 +18,39 @@ or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
 - **Starts wherever you are.** Bring a vague request from a stakeholder, a
   deadline, a half-written plan, or a folder of transcripts. Magpie figures
   out which stage you're at and picks up from there.
-- **Asks before it builds, then asks one good question.** Before it
-  writes a plan, a guide, findings, a readout or a report, Magpie asks for
-  the context it's missing (your hypotheses, the business goal, what the
-  research will inform, who will read it), in one short message. Then it
-  builds the whole thing, followed by one question worth thinking about.
-  You can skip that question; Magpie notes the skip as a risk and moves
-  on. Say "just draft it" and it builds straight away, marking its
-  guesses.
+- **Asks before it builds.** Before it writes a plan, a guide,
+  findings, a readout or a report, Magpie asks for the context it's
+  missing: your hypotheses, the business goal, what the research will
+  inform, who will read it. It asks only what it doesn't already know, in
+  one short message of six questions at most, and offers its best guesses
+  so you can confirm them in a word. Then it builds the whole thing. If
+  you'd rather not answer, say "just draft it": Magpie builds straight
+  away, marks each guess as an assumption, and lists it as a risk.
+- **Asks one good question, and says why.** After each output, Magpie
+  asks the one question most likely to change it, followed by a plain
+  sentence on why it matters. You can skip it; Magpie notes the skip as a
+  risk and moves on.
+- **Teaches without testing you.** Magpie explains each research
+  principle once, in a sentence, and never asks you to prove you
+  understood. When a vague word like "confused", "most" or "users want"
+  shows up, it asks in one line what it stands for: which people, doing
+  what, how many. If evidence is being read only for what supports a
+  belief, it says so.
+- **Lets you go first at three steps.** You write the decision, the
+  research question, the questions the team already has and the
+  assumptions it's making (stage 2); the patterns you saw before Magpie
+  shows its themes (stage 6); and what each partner should do (stage 7).
+  Magpie builds on your words and says what it changed and why. Say "you
+  do it" and Magpie takes the step instead.
+- **Shows its reasoning, and you can push back.** When Magpie recommends
+  a method, it says why that method fits, what cheaper options it ruled
+  out, and what the method can't tell you. When it drafts a guide, it
+  shows which research question each question serves and why it sits
+  where it does. Disagree, and it reworks the choice with your reasoning
+  or tells you in a line why it would keep it. Your call stands.
+- **Reviews each theme with you.** In analysis, Magpie shows its themes
+  riskiest first, with the codes it merged or dropped, and asks you to
+  keep, change, split or drop each one.
 - **Keeps a study record.** One document that carries the product and who
   uses it, the decision, the questions, the method, the participants, the
   findings, and the risks. Save it and you can continue in any assistant,
@@ -122,8 +147,8 @@ As of October 27, 2026. This section is updated with each release.
   as unconfirmed until the next run, which follows the stricter rules in
   [`evals/README.md`](evals/README.md): proof of loading, three runs per
   scenario, a person judging, and a fixture with no planted problems.
-- **What backs the rules.** Magpie follows 69 written standards in
-  [`core/standards/`](core/standards/). 37 cite a public source in full or
+- **What backs the rules.** Magpie follows 77 written standards in
+  [`core/standards/`](core/standards/). 36 cite a public source in full or
   in part (the ICC/ESOMAR code, Braun and Clarke, Nielsen Norman Group
   articles, the GOV.UK Service Manual). The rest rest on professional
   judgment and say so. [`docs/PROVENANCE.md`](docs/PROVENANCE.md) lists
@@ -204,7 +229,7 @@ the fallback below.
    `adapters/skill/magpie/` folder (zip it first if the uploader asks for a
    single file).
 3. ChatGPT scans the upload. If it says **Needs Review**, read what it
-   flags. The only code in the package is two scripts that read files on
+   flags. The only code in the package is three scripts that read files on
    your computer; nothing connects to the internet.
 4. Install it. Then start a chat and @-mention `magpie`, or just describe
    your study.
@@ -248,9 +273,12 @@ Tell Magpie what you've got, in your own words. Three examples that work:
 
 > I want to propose research for next quarter but I don't have a brief.
 
-Magpie opens by saying it's on, names the stage it thinks you're at, drafts
-the first thing you need, and asks you to reply "yes" once you've reviewed
-it. Every reply ends with a status line like this one:
+Magpie opens by saying it's on and names the stage it thinks you're at.
+Before it builds anything, it asks a few short questions about what it
+doesn't know yet, and at some steps it asks you to go first. Once you've
+answered, it builds the output in full, adds one question worth thinking
+about, and asks you to reply "yes" once you've reviewed it. Every reply
+ends with a status line like this one:
 
 > Magpie · Planning the study · Waiting for your yes: research plan · Next: send me the recruiting criteria
 
@@ -263,9 +291,14 @@ A few plain words steer it:
 | --- | --- |
 | yes | Marks what's waiting as reviewed |
 | stop Magpie | Ends the session and offers the record to save |
+| just draft it | Builds now without the missing context, marking the gaps as assumptions and risks |
+| you do it | Takes over a step where you were asked to go first |
+| counter: ... | Reworks a method choice or question order with your reasoning, or says why it would keep it |
 | skip | Notes the current question as a risk and moves on |
+| handled | Marks the question as dealt with, with nothing logged |
 | push me | Asks up to three questions per stage instead of one |
 | ease off | Only raises red flags (consent, leading questions, claims the evidence can't support) |
+| standard | Goes back to one question per stage |
 | just the work | Turns off the personality for the session |
 | show the record | Shows the full study record |
 | review this | Runs an independent review of your findings or report |
@@ -282,6 +315,8 @@ up where you left off, in any assistant.
   check the skill is installed and active, then name it in the chat.
 - **It won't take the upload.** Zip the `magpie` folder and upload the zip.
   Make sure `SKILL.md` is at the top level inside the zip.
+- **It asks questions when you just want a draft.** Say "just draft it".
+  Magpie builds straight away and marks what it had to guess.
 - **It drafted the wrong stage.** Say which stage you're at ("we're at
   stage 4, planning") and it switches.
 - **The status line stopped appearing.** The session may have dropped,
