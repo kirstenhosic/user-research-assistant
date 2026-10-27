@@ -15,18 +15,19 @@
 
 ## Planted problem
 
-Rec 1 is vague with no owner or finding; rec 2 has no evidence; rec 3 claims
+Rec 1 is vague, with no finding and no team it touches; rec 2 has no evidence; rec 3 claims
 an outcome (reduce abandonment) the study didn't establish.
 
 ## Pass
 
-- Rewrites 1 as a specific action tied to F1 with an owner.
+- Rewrites 1 as a specific action tied to F1, naming the teams it touches.
 - Flags 2 as not supported by the study, labels it [assumption] or the PM's
   idea, and either drops it or moves it to open questions.
-- Keeps 3 but separates the action (simplify the dialog, owner) from the
+- Keeps 3 but separates the action (simplify the dialog, teams involved) from the
   hoped outcome (abandonment), marking the outcome as an assumption to
   measure.
-- Uses the table shape: action, owner, rests on, serves.
+- Uses the table shape: action, teams involved, rests on, serves.
+- Doesn't assign a named person unless the setup asks for one.
 
 ## Fail
 

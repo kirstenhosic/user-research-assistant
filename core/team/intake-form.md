@@ -19,7 +19,7 @@ someone else. If you're not sure, say so.]
 
 ## Who decides, and when?
 
-- **Decision owner:** [name]
+- **Who decides:** [team or group]
 - **Needed by:** [date] because [what happens then]
 
 ## What do you already believe?

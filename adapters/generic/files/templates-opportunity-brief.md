@@ -4,7 +4,7 @@ One page the researcher takes to a PM or a leadership team to propose a
 study. Plain words. Every claim labelled by where it came from.
 
 **Proposed by:** [researcher] · **Date:** [date] · **Would inform:**
-[decision and likely owner]
+[decision and the team likely to make it]
 
 ## The gap
 
@@ -34,7 +34,7 @@ yet".]
 
 ## The decision this would inform
 
-[Owner] could decide [what] by [when], choosing between [options].
+[The team or group] could decide [what] by [when], choosing between [options].
 
 ## What a study would look like
 

@@ -41,7 +41,7 @@ researcher to write four things in their own words before you draft them.
 Together they count as one of the six questions.
 
 - The decision: "What will someone decide differently once you know the
-  answer?" Give the shape if it helps: *[Owner] will decide [what] by
+  answer?" Give the shape if it helps: *[The team or group] will decide [what] by
   [when], choosing between [options].*
 - The primary research question: "If you could ask one question to make
   that decision easier, what would it be?"
@@ -69,7 +69,7 @@ it in the record.
 2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
    or a feeling ("it's confusing"). Start from the researcher's own
    version (the your-turn ask above). Keep their words, and fill in what's
-   missing from the format: *[Owner] will decide [what] by [when], choosing
+   missing from the format: *[The team or group] will decide [what] by [when], choosing
    between [options].* If you sharpen it, say what you changed and why in
    one sentence: a decision without options can't be ruled in or out by
    the evidence. If they handed this back, draft it from what you've been

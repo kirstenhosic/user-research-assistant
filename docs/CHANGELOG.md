@@ -2,10 +2,19 @@
 
 ## 2026-10-27
 
+- Summaries and named people: the report and readout summaries now come
+  from the study's own focus, goals and findings, with product and
+  business impact as things to look for, not fixed sections. Templates,
+  stage 7, the standards and the floating-recommendation eval now name
+  the teams a recommendation touches instead of one owner, and say "the
+  team" will decide. Who takes each action is left for the teams to agree;
+  Magpie names a person only when the researcher asks. Stage 2 still asks
+  who decides, but the plan, brief, competitive analysis and intake form
+  record a team or group, not a named person.
 - The example readout deck is rebuilt as a story: it opens with the answer
   and a "what we learned, and what it means" slide, adds a journey slide
   showing where export goes wrong, uses one-line titles and plainer words,
-  and turns the recommendations into cards with owners.
+  and turns the recommendations into cards that name the teams involved.
 - The example report and readout in `docs/examples/` are redone in the
   house style, with quote labels, a placeholder for a named colleague, a
   participant profile and a "How AI was used" section. Finding 5 moved

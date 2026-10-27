@@ -46,7 +46,7 @@ sentences.
 ## Tables
 
 - Use a table when several items share the same attributes:
-  recommendations (action, owner, finding, goal, confidence), a usability
+  recommendations (action, teams involved, finding, goal, confidence), a usability
   issue list, the participant profile.
 - Five columns at most, short cells, a header row. A table wider than a
   phone screen goes to the appendix with a short list in the body.

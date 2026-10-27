@@ -59,7 +59,7 @@ Python when you can and say so when you can't.
 - `templates-interview-guide.md`: **Length:** [45–60] minutes · **Research questions served:** [list]
 - `templates-opportunity-brief.md`: One page the researcher takes to a PM or a leadership team to propose a study.
 - `templates-readout.md`: Slide-by-slide outline.
-- `templates-report.md`: **Author:** [researcher] · **Date:** [date] · **Decision owner:** [name] · **Study record:** [link]
+- `templates-report.md`: **Author:** [researcher] · **Date:** [date] · **For:** [the team or group] · **Study record:** [link]
 - `templates-research-plan.md`: Two minutes to read.
 - `templates-study-record.md`: One file for the whole study.
 - `templates-survey.md`: **Length:** [under 10] minutes · **Research questions served:** [list] · **Target:** [who, how reached] · **Analysis plan:** [which cross-tabs, which groups must be big enough]

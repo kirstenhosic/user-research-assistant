@@ -2,7 +2,7 @@
 
 Two minutes to read. Everything here comes from the study record.
 
-**Owner:** [researcher] · **Decision owner:** [name] · **Decision due:** [date]
+**Owner:** [researcher] · **Who decides:** [team or group] · **Decision due:** [date]
 · **Readout:** [date]
 
 ## The product
@@ -12,7 +12,7 @@ users are. Who buys or sets it up, if different.]
 
 ## The decision
 
-[Owner] will decide [what] by [when], choosing between [options].
+[The team or group] will decide [what] by [when], choosing between [options].
 
 **Why it matters:** [goal or metric it moves; cost of getting it wrong]
 

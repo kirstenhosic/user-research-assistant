@@ -13,14 +13,14 @@ slide doesn't move the story, it goes to the appendix.
 
 ## 1. Title
 
-[Study name] · [date] · [researcher] · [decision owner]
+[Study name] · [date] · [researcher] · [the team or group it's for]
 
 ## 2. Why we did this
 
 The foundation. One slide, sometimes two.
 
 - **The product:** [optional: what it is, what it does, who uses it, in one line]
-- **The decision:** [Owner] will decide [what] by [when]
+- **The decision:** By [when], the team will decide [what]
 - **The business need:** [goal or metric at stake, in the team's own words]
 - **What we already knew:** [prior research, partner data, or "no prior
   evidence"]
@@ -71,18 +71,24 @@ the reason.
 
 ## [n+2]. Summary
 
-The story in three or four lines: what we asked, what we found, what it
-means for the decision, how confident we are.
+The story in three or four lines, drawn from this study's focus, goals
+and findings. Things to look for: what we asked, what we found, what it
+means for the product or the business, how confident we are. Use the
+ones this study speaks to. For an audience that wants the answer first,
+this slide can come second, right after the title.
 
 ## [n+3]. Recommendations
 
-Detailed. Each one is an action with an owner, the finding it rests on, and
-the goal or metric it moves. The "moves" column is where business value
-becomes visible: use the names the team already tracks.
+Detailed. Each one is an action, the teams it touches, the finding it
+rests on, and the goal or metric it moves. The "moves" column is where
+business value becomes visible: use the names the team already tracks.
+Name the teams each action touches, not a person. Who takes each action
+is often for the teams to agree together; name a person only when the
+researcher asks for it.
 
-| Action | Owner | Rests on | Moves |
+| Action | Teams involved | Rests on | Moves |
 | --- | --- | --- | --- |
-| [action] | [name] | Finding [n] | [goal or metric] |
+| [action] | [teams] | Finding [n] | [goal or metric] |
 
 If it helps the audience, split into "for design", "for engineering", "for
 product".
@@ -124,7 +130,7 @@ under fifteen minutes; otherwise the default above applies.
 
 1. The decision and the answer (decision, what the evidence supports, how
    sure we are, what we recommend)
-2. Recommendations with owners
+2. Recommendations, with the teams involved
 3. What we did, in one slide
 4. Top findings, then detail only where needed
 5. Other findings, one slide

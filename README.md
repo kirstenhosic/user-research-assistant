@@ -75,7 +75,7 @@ per conversation; it stays on until you say "stop Magpie".
   transcripts and the draft. It's required at analysis and at the report.
 - **Writes for the people who act on it.** Readouts and reports lead with
   why the study was done and up to five top findings, keep every other
-  finding on one page, and give each recommendation an owner.
+  finding on one page, and say which teams each recommendation touches.
 
 The reasoning behind each of these is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
