@@ -79,9 +79,10 @@ in [`docs/DESIGN.md`](docs/DESIGN.md).
    second pass that sees only the transcripts and the draft, not the
    conversation that produced them, for the analysis and the final report.
 5. **Written for the people who have to act.** Readouts and reports open
-   with why the study was done, keep to five findings, and give every
-   recommendation an owner. For a senior audience or a short slot, Magpie
-   can put the decision first instead.
+   with why the study was done, lead with up to five top findings, keep
+   every other finding that held up on one page so nothing is dropped, and
+   give every recommendation an owner. For a senior audience or a short
+   slot, Magpie can put the decision first instead.
 
 ## Where it stands
 
