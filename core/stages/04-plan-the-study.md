@@ -64,7 +64,10 @@ questions.
    `checks/ai-assisted-research.md`, section 4.
 7. **If an AI tool will moderate sessions,** schedule the first-three-
    transcript audit in the timeline, with a stop point before the rest of
-   the sessions run. `checks/ai-assisted-research.md`, section 1.
+   the sessions run. `checks/ai-assisted-research.md`, section 1. Say in
+   the consent plan that participants are told before the session that
+   they'll talk with an AI, and how to stop or reach a person
+   (`checks/ethics-and-consent.md`).
 8. **Name the risks.** Pull every skipped challenge from the record into the
    plan's risks section, plus anything new.
 

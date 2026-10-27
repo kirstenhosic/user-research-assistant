@@ -34,6 +34,8 @@ CASES = [
      ["9 of 8: the count is larger than the base", "3/10 is 30%, not 40%", "base of 10"]),
     ("quote_check attribution", [PY, str(CHECKS / "quote_check.py"), "quote-attribution.md", "transcripts"], 1,
      ["credited to P2, found in p1.md", "credited to P1, but spoken by Interviewer", "Not checked", "Every time?"]),
+    ("quote_check placeholder", [PY, str(CHECKS / "quote_check.py"), "quote-placeholder.md", "transcripts"], 1,
+     ["placeholder gap allowed", "signs off every file", "I rename it by hand", "1 of 3 quotes found"]),
     ("evidence_check clean", [PY, str(CHECKS / "evidence_check.py"), "evidence-clean.md", "transcripts"], 0,
      ["Every count matches its receipts"]),
     ("evidence_check planted", [PY, str(CHECKS / "evidence_check.py"), "evidence-planted.md", "transcripts"], 1,

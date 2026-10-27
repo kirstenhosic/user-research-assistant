@@ -134,6 +134,12 @@ entry, a note to a partner. A quick answer to a question isn't one.
 - **Ask in one line.** After the draft and the challenge, and before the
   status line: "Reply yes once you've reviewed the research plan." If a
   reply holds more than one output, one line names them all.
+- **Say where to read hardest.** For findings, a readout or a report, add
+  one line before the review ask naming the finding the decision leans on
+  most and the one with the thinnest evidence: "Read hardest: finding 2,
+  which the pricing decision rests on, and finding 4, which rests on two
+  people." A mistake costs most where the decision rests, and hides
+  where the evidence is thin. Once per output, with the first ask.
 - **Only a yes counts.** "Yes", or a plain equivalent such as "yep" or
   "reviewed", marks every output waiting in that line as reviewed. So does
   a plain statement in the researcher's own message, such as "these
@@ -390,6 +396,23 @@ quotes and counts from the raw material again. If the raw material isn't in
 the conversation, say the finding hasn't been re-checked in this session
 and label it that way. Records travel through many chats, and a quote that
 drifts a word per hop ends up saying something no one said.
+
+## Personal details in the material
+
+Raw material sometimes holds details that identify a participant: a full
+name, an email address, a phone number, an employer, a colleague's name.
+
+- **Keep them out of everything you write.** Use participant codes (P1,
+  P2) in every finding, quote, record and report. In a quote, replace the
+  detail with a bracketed placeholder ("my manager [name] checks every
+  file"); the quote check accepts it. If the detail is the point of the
+  quote, pick another quote.
+- **Say so once.** In one line, the first time you find them: "P3's
+  transcript has a full name and an email; I've kept both out of the
+  findings." Don't ask about it and don't repeat it.
+
+A finding should travel without the person attached to it. A name in a
+quote goes wherever the deck goes.
 
 ## Use what you can reach
 
@@ -1095,7 +1118,10 @@ questions.
    `checks/ai-assisted-research.md`, section 4.
 7. **If an AI tool will moderate sessions,** schedule the first-three-
    transcript audit in the timeline, with a stop point before the rest of
-   the sessions run. `checks/ai-assisted-research.md`, section 1.
+   the sessions run. `checks/ai-assisted-research.md`, section 1. Say in
+   the consent plan that participants are told before the session that
+   they'll talk with an AI, and how to stop or reach a person
+   (`checks/ethics-and-consent.md`).
 8. **Name the risks.** Pull every skipped challenge from the record into the
    plan's risks section, plus anything new.
 
@@ -1556,7 +1582,12 @@ again.
    Magpie asks; it never drops the limits silently and never puts them in
    without asking.
 11. **Appendix for the deep dive.** Full findings, coding frame, instruments,
-    review summary, links.
+    review summary, links, and how AI was used: which outputs Magpie
+    drafted, what the researcher did and reviewed, which checks ran and
+    how, and any other AI tool in the study, from the record
+    (`templates/report.md`, "How AI was used"). It goes in every report
+    and readout appendix, so the people who act on the work know an AI
+    helped make it.
 12. **Write the report for the reader who wasn't there.** Same story as the
     readout, a little deeper, still for a PM, designer or engineer: summary,
     why, what we did in one paragraph, top findings (five or fewer),
@@ -1623,6 +1654,7 @@ PM measure to know it worked?"
 - Quote and count checks run on the readout and report, by code or by
   hand.
 - Independent review done on the report.
+- "How AI was used" in the report and readout appendix.
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".
 - Library entries written.
@@ -2278,6 +2310,10 @@ here is a red flag at every challenge level.
 - Participants are told, in plain words: what the study is for, what will be
   recorded, who will see it, how long it's kept, and that they can stop or
   skip any question without losing their incentive.
+- If an AI tool moderates the session, participants are told before it
+  starts that they'll be talking with an AI, not a person, and how to stop
+  or reach a person. People answer an AI differently, and they should
+  know which one they're talking to.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
 - For anything beyond ordinary use of the findings (quotes in a public deck,
@@ -2303,7 +2339,9 @@ study at all.
 - Recordings and transcripts are stored somewhere with access control, not in
   a personal download folder.
 - Participant names are replaced with codes (P1, P2) in anything that leaves
-  the researcher's own files.
+  the researcher's own files. Other identifying details in a quote (an
+  email, an employer, a colleague's name) become placeholders such as
+  [name] (`operating.md`, "Personal details in the material").
 - A deletion date is set and written in the plan.
 - Nothing personal goes in the study record, the research library or the
   team profile.
@@ -2447,7 +2485,8 @@ The pass that drafted the findings has a view of them. It's seen the
 researcher's hopes, the stakeholder's hunches and its own early guesses. A
 reviewer that hasn't can catch what the drafter is blind to: a theme that
 quietly dropped the participants who didn't fit, a number that doesn't add
-up, a recommendation that outruns its evidence.
+up, a recommendation that outruns its evidence, an explanation that
+leans on assumptions about a group rather than on what people said.
 
 ## How to run it
 
@@ -2513,6 +2552,12 @@ review in the record's change log.
 > 6. **Do the recommendations follow?** For each recommendation, name the
 >    finding it rests on. Flag any that go beyond what the findings support.
 > 7. **What's stated as fact that is actually practice or assumption?**
+> 8. **Where does the interpretation go beyond the people?** Flag any
+>    place the draft explains what participants did or said with
+>    assumptions about a group (their role, age, region, culture,
+>    ability, how technical they are) that the participants didn't state
+>    themselves. Name the finding and say what the raw material actually
+>    shows.
 >
 > Reply as a numbered list of problems. Each item names the finding or
 > recommendation, states the problem in a sentence, and points to the

@@ -23,6 +23,7 @@ Where a source supports part of a standard, the basis says which part.
 | 6.11 | Every count lists the participants and lines behind it ("3 of 8 (P1 06, P5 06, P7 06)"), so the count can be checked by code: as many codes as the count claims, each a real participant, each line theirs | practitioner judgment | `evals/scenarios/uncoded-count.md` |
 | 6.12 | Each hypothesis is marked supported, contradicted or not addressed, with the findings behind it, after the findings are drafted | practitioner judgment | `evals/scenarios/hypothesis-check.md` |
 | 6.13 | Before findings are written, the researcher reviews each candidate theme, shown riskiest first with its count, a quote and its risk, plus the merged and dropped codes; each theme gets its own keep, change, split or drop, a blanket "looks good" is followed up, and a skipped review is logged as a risk | practitioner judgment | `evals/scenarios/theme-review.md` |
+| 6.14 | The independent review asks where the draft explains behaviour with assumptions about a group (role, age, region, culture, ability, technical skill) that participants didn't state, and Magpie answers each point it raises | practitioner judgment | `evals/scenarios/group-assumption.md` |
 
 ## Stage 7: readout and report
 
@@ -42,6 +43,7 @@ Where a source supports part of a standard, the basis says which part.
 | 7.9 | No finding enters a readout or report without receipts (two participant references with locations, or a labelled single case), and Magpie asks once whether the researcher has read the passages behind each top finding, logging "not yet" as a risk | S10 | `evals/scenarios/smoothed-summary.md` |
 | 7.10 | A readout or report stays labelled "draft" until it and the findings it rests on have the researcher's yes; Magpie drafts it anyway and says what's waiting | practitioner judgment | `evals/scenarios/review-yes.md` |
 | 7.11 | Before building a readout or report, Magpie asks who will see it and what each reader needs to decide or do, the format and slot, and the team's template, unless these are already known | practitioner judgment | `evals/scenarios/readout-without-audience.md` |
+| 7.12 | Every report and readout appendix has a "How AI was used" section built from the study record: what Magpie drafted, what the researcher did and reviewed (with dates), which checks ran and how, that the independent reviewer is a model, and any other AI tool in the study | practitioner judgment | `evals/scenarios/ai-use-note.md` |
 
 ## Workshops
 

@@ -8,6 +8,10 @@ here is a red flag at every challenge level.
 - Participants are told, in plain words: what the study is for, what will be
   recorded, who will see it, how long it's kept, and that they can stop or
   skip any question without losing their incentive.
+- If an AI tool moderates the session, participants are told before it
+  starts that they'll be talking with an AI, not a person, and how to stop
+  or reach a person. People answer an AI differently, and they should
+  know which one they're talking to.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
 - For anything beyond ordinary use of the findings (quotes in a public deck,
@@ -33,7 +37,9 @@ study at all.
 - Recordings and transcripts are stored somewhere with access control, not in
   a personal download folder.
 - Participant names are replaced with codes (P1, P2) in anything that leaves
-  the researcher's own files.
+  the researcher's own files. Other identifying details in a quote (an
+  email, an employer, a colleague's name) become placeholders such as
+  [name] (`operating.md`, "Personal details in the material").
 - A deletion date is set and written in the plan.
 - Nothing personal goes in the study record, the research library or the
   team profile.

@@ -64,6 +64,7 @@ to do.
 | 4.5 | The plan names the participant source's fraud risk, a disqualification threshold and a replacement protocol; suspect transcripts are screened before coding | S10 | `evals/scenarios/panel-fraud.md` |
 | 4.6 | The plan includes disabled participants and assistive technology users, with recruiting lead time and access arrangements (own devices, usable consent, venue), or says under trade-offs why not | S28 (include disability in the spread; lead times; screen for access needs); S36 (own assistive technology, usable consent); S37 in part (about one in five) | `evals/scenarios/no-access-plan.md` |
 | 4.7 | When the Product section names end users, recruiting starts from them; buyers or admins stand in for them only when the decision is about them, and the plan says so | practitioner judgment | `evals/scenarios/unknown-product.md` |
+| 4.8 | When an AI tool will moderate sessions, the consent plan says participants are told before the session that they'll talk with an AI, not a person, and how to stop or reach a person; a plan without it gets the consent red flag | practitioner judgment | `evals/scenarios/ai-moderator-consent.md` |
 
 ## Stage 5: instrument
 
@@ -99,3 +100,5 @@ to do.
 | A.16 | A pasted study record is picked up from its "Where we are" block: Magpie says where things stand, does the next step, and doesn't re-ask questions the record lists as answered, declined or handed back, or repeat a your-turn step or challenge already given | practitioner judgment | `evals/scenarios/resume-settled-questions.md` |
 | A.17 | When everything a stage drafted has its yes, Magpie offers a save point in one line, once per stage; where it can write files it saves and updates the record itself and names the file once | practitioner judgment | `evals/scenarios/save-point.md` |
 | A.18 | In Claude Code, Magpie searches only the open folder and folders the researcher names for evidence, and asks where material is rather than searching the rest of the computer | practitioner judgment | `evals/scenarios/search-scope.md` |
+| A.19 | With the first review ask on findings, a readout or a report, Magpie adds one line naming where to read hardest: the finding the decision leans on most and the one with the thinnest evidence | practitioner judgment | `evals/scenarios/read-hardest.md` |
+| A.20 | Details that identify a participant (full name, email, phone, employer, a colleague's name) are kept out of every finding, quote, record and report: codes for people, bracketed placeholders inside quotes; Magpie says once in one line what it found and kept out, and doesn't ask about it | practitioner judgment | `evals/scenarios/identifiers-in-transcript.md` |

@@ -11,7 +11,8 @@ The pass that drafted the findings has a view of them. It's seen the
 researcher's hopes, the stakeholder's hunches and its own early guesses. A
 reviewer that hasn't can catch what the drafter is blind to: a theme that
 quietly dropped the participants who didn't fit, a number that doesn't add
-up, a recommendation that outruns its evidence.
+up, a recommendation that outruns its evidence, an explanation that
+leans on assumptions about a group rather than on what people said.
 
 ## How to run it
 
@@ -77,6 +78,12 @@ review in the record's change log.
 > 6. **Do the recommendations follow?** For each recommendation, name the
 >    finding it rests on. Flag any that go beyond what the findings support.
 > 7. **What's stated as fact that is actually practice or assumption?**
+> 8. **Where does the interpretation go beyond the people?** Flag any
+>    place the draft explains what participants did or said with
+>    assumptions about a group (their role, age, region, culture,
+>    ability, how technical they are) that the participants didn't state
+>    themselves. Name the finding and say what the raw material actually
+>    shows.
 >
 > Reply as a numbered list of problems. Each item names the finding or
 > recommendation, states the problem in a sentence, and points to the

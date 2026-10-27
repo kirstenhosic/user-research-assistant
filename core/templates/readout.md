@@ -109,6 +109,7 @@ For anyone who wants the deeper dive. Not counted against the 20.
 - Full findings with evidence, counter-evidence and coding frame
 - Instruments
 - Independent review summary
+- How AI was used: the same lines as the report's (`templates/report.md`, "How AI was used")
 - Links: study record, report, raw material (access-controlled)
 
 ---
