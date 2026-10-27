@@ -73,6 +73,26 @@ interview data. No significance claims without a test, and even with one, say
 what it means in plain words. Say who answered and how that limits the
 finding.
 
+When you give a test result, a margin of error or a sample size:
+
+- **Compute it, don't estimate it.** Run the numbers in code where you can,
+  and show the inputs (each group's count and base) so the researcher can
+  check them. If the group sizes aren't known, say the result is an
+  illustration for an assumed split, and ask for the real counts.
+- **Compare groups with the margin on the difference.** The margin of error
+  on each group's percentage is not the test. With two groups of 100 and
+  results near 50%, each group carries about ±10 points, but the gap
+  between them carries about ±14.
+- **Say what a non-significant result means.** "We can't tell these groups
+  apart with this sample", not "it's noise" or "they're the same". A p value
+  is not the chance the difference is real.
+- **State the assumption behind a sample size.** "To detect a 10-point gap"
+  needs a power level (usually 80%) and a significance level (usually 0.05).
+  Put both in the same sentence as the number, or leave the number out.
+  Don't say "reliably" without them. A sample that only just reaches
+  significance for the observed gap has about a 50% chance of detecting it,
+  which isn't reliable.
+
 ## Usability data
 
 An issue list: task, how many hit it, severity (blocked, slowed, noticed),

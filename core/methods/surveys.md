@@ -46,7 +46,8 @@ behaviour or need is.
 Descriptives first: counts and percentages with the base shown. Cross-tabs
 only where groups are big enough. Open-ends coded like interview data. Say
 what the numbers can and can't support; don't claim significance without a
-test, and even with one explain it in plain words. Stage 6 covers this.
+test, and even with one explain it in plain words. Stage 6 covers this,
+including how to state a test result, a margin of error or a sample size.
 
 ## Pitfalls
 
