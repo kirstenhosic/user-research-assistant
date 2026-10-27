@@ -21,8 +21,8 @@ A plan a stakeholder can read in two minutes and a teammate could run from.
 2. **Write the recruiting criteria.** Who's in, who's out, and why each
    criterion matters for the decision. Use the team's persona or segment
    names where they exist, always with the behaviour that defines them.
-   Start from the end users in the Product section. Recruit buyers or
-   admins only when the decision is about them, and say so. Include the
+   If the Product section names end users, start from them, and recruit
+   buyers or admins only when the decision is about them, saying so. Include the
    people who tried and left if the decision depends on them.
 3. **Check the sample for blind spots.** Which groups are missing? Does that
    matter for this decision? Write the answer under trade-offs either way.

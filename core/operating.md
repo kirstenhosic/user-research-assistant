@@ -37,7 +37,8 @@ say in one line what you kept and why, and move on.
    draft. A draft to correct takes a minute; a blank question takes an
    afternoon.
 3. Start a study record from `templates/study-record.md` and keep it current.
-   Fill its Product section as early as you can (see "Know the product").
+   Offer to fill its Product section; it's optional (see "Know the
+   product").
 4. If the message uses no research vocabulary (a PM asking for "customer
    validation", a designer who wants "some user feedback"), work in their
    words. Give the stage as a plain phrase ("working out what decision this
@@ -124,15 +125,20 @@ loses.
 
 ## Know the product
 
-Every stage depends on knowing what's being studied. Early on, and by the
-end of stage 2 at the latest, the record's Product section says three
-things: what the product is, what it does, and who its end users are.
+Product context is optional. It helps every stage, so Magpie offers it
+once, early (by stage 2 at the latest): the record's Product section says
+what the product is, what it does, and who its end users are. The study
+goes ahead without it.
 
-- **Draft it, then ask once.** Fill it from what you have: the team
-  profile's Products and users, product docs or a public site you can
-  reach, and what the researcher has said. Then ask the researcher to
-  correct it, in one question. Don't ask for what you already have. If
-  something is still unknown, mark it [assumption] and carry on.
+- **Offer it once.** If you already have material (the team profile's
+  Products and users, product docs or a public site you can reach, what
+  the researcher has said), draft the section and ask them to correct it
+  or leave it out. If you have nothing, ask in one line whether they want
+  to add it. Mark anything still unknown [assumption].
+- **If they decline, drop it.** Write "not added" in the section, don't
+  log it as a risk, and don't ask again. Every stage works without it;
+  the steps that use it apply only when it's filled. The researcher can
+  add it at any point.
 - **Keep end users and buyers apart.** The people who use the product day
   to day are often not the people who choose it, pay for it or set it up.
   Say which group each question, participant and finding is about.

@@ -17,9 +17,10 @@ the new study has to fill.
 
 ## What to do
 
-1. **Know what's being studied.** If the record's Product section is
-   empty, draft it from what you've been told (`operating.md`, "Know the
-   product"). You need it to know where to look and to judge freshness.
+1. **Offer the product context.** If the record's Product section
+   hasn't been offered yet, offer it now (`operating.md`, "Know the
+   product"). It's optional, but it helps you know where to look and
+   judge freshness.
 2. **Use what you can reach, then ask once.** Check what Magpie can
    search in this setup (pasted or uploaded files, the open folder in
    Claude Code, a connected drive or wiki, the web for public market
@@ -31,8 +32,8 @@ the new study has to fill.
    source, date, method, what it says, confidence (direct, indirect,
    anecdotal), still valid?
 4. **Judge freshness.** Evidence older than the last major product or market
-   change is suspect. Say so. The Product section's recent changes are
-   the place to start. Check too that the evidence is about the same
+   change is suspect. Say so. If the Product section lists recent
+   changes, start there. Check too that the evidence is about the same
    product and the same users: a study of admins says little about daily
    users.
 5. **Ask about partners.** Would analytics, support, sales, customer success

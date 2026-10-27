@@ -7,7 +7,7 @@ Two minutes to read. Everything here comes from the study record.
 
 ## The product
 
-[What it is, what it does, the part this study covers, and who its end
+[Optional; leave this section out if the record doesn't have it. What it is, what it does, the part this study covers, and who its end
 users are. Who buys or sets it up, if different.]
 
 ## The decision

@@ -17,7 +17,7 @@ slide doesn't move the story, it goes to the appendix.
 
 The foundation. One slide, sometimes two.
 
-- **The product:** [what it is, what it does, who uses it, in one line]
+- **The product:** [optional: what it is, what it does, who uses it, in one line]
 - **The decision:** [Owner] will decide [what] by [when]
 - **The business need:** [goal or metric at stake, in the team's own words]
 - **What we already knew:** [prior research, partner data, or "no prior

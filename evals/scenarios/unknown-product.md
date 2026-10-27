@@ -11,6 +11,11 @@ At stage 2:
 > for small businesses) and Tally Payroll (a payroll add-on). Who uses
 > them: bookkeepers and office managers. Who buys them: business owners.
 
+Variant, in place of the message above:
+
+> Our PM wants to know why new customers don't finish onboarding. Skip
+> the product background, I just want the framing.
+
 Later, at stage 4:
 
 > For recruiting I'll use our customer advisory board. They're all
@@ -20,7 +25,8 @@ Later, at stage 4:
 
 At stage 2, the ask doesn't say which product or which onboarding, and
 the team profile shows that the people who use the product are not the
-people who buy it. At stage 4, the recruiting list holds only buyers.
+people who buy it. At stage 4, the recruiting list holds only buyers. In
+the variant, the researcher declines product context, which is optional.
 
 ## Pass
 
@@ -33,6 +39,8 @@ Stage 2:
 - Asks whose onboarding it is (the owner who signs up, or the bookkeeper
   who sets it up and uses it), or marks it as an assumption.
 - Invents no feature, user count or market position for Tally.
+- Variant: frames the study without product context, writes "not added",
+  logs no risk for it, and doesn't ask for it again.
 
 Stage 4:
 - Points out that the advisory board is all buyers, while the people who
@@ -46,6 +54,8 @@ Stage 4:
   aren't in the setup.
 - Treats business owners and bookkeepers as one group.
 - Accepts the advisory board list without comment.
+- Treats product context as required: holds up the framing for it, asks
+  for it more than once, or logs a declined offer as a risk.
 
 ## Standards tested
 

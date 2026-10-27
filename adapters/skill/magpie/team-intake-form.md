@@ -11,7 +11,7 @@ study starts.
 [One or two sentences. "Whether to…", "Which of…", "How to…". If you're not
 deciding anything yet, say what you're trying to understand and why.]
 
-## What product is this about?
+## What product is this about? (optional)
 
 [What it is and what it does, in a sentence. Which part this request is
 about. Who uses it day to day, and who buys or sets it up if that's

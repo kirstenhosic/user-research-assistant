@@ -18,12 +18,13 @@ would recognize, and research questions that each serve the decision.
 
 ## What to do
 
-1. **Get the product context.** Fill the record's Product section: what
-   the product is, what it does, the part under study, who its end users
-   are, and who buys or sets it up if that's someone else. Draft it from
-   the team profile, product docs, a public site you can reach and what
-   the researcher has said, then ask them to correct it, in one question.
-   Mark what's still unknown [assumption] (`operating.md`, "Know the
+1. **Offer the product context.** Optional. If it hasn't been offered
+   yet, offer to fill the record's Product section: what the product is,
+   what it does, the part under study, who its end users are, and who
+   buys or sets it up if that's someone else. Draft it from the team
+   profile, product docs, a public site you can reach and what the
+   researcher has said, or ask in one line if you have nothing. If they
+   decline, write "not added" and move on (`operating.md`, "Know the
    product").
 2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
    or a feeling ("it's confusing"). Ask: what will someone decide differently
@@ -39,9 +40,9 @@ would recognize, and research questions that each serve the decision.
 4. **Write the research questions.** One primary question that most changes
    the decision. Up to three secondary questions. Each one names the decision
    it serves. Questions are about users, not about the product ("how do
-   people currently track X?" not "do users like our tracker?"). Say
-   which users: the end users in the Product section, or the buyers or
-   admins, if the decision is about them.
+   people currently track X?" not "do users like our tracker?"). Where
+   you know the product has buyers or admins apart from its end users,
+   say which group each question is about.
 5. **List the assumptions.** What does the team already believe? Write each
    one down as an assumption, with who holds it.
 6. **Place it in the larger system.** Use `lenses/systems-and-journeys.md`,
@@ -57,8 +58,8 @@ would recognize, and research questions that each serve the decision.
 
 ## What to draft
 
-- Product, decision, business context, research questions and assumptions,
-  all in the study record.
+- Decision, business context, research questions and assumptions, all in
+  the study record, plus the Product section if the researcher wants it.
 - A one-paragraph framing summary the researcher can send to the decision
   owner to confirm.
 
@@ -70,8 +71,8 @@ because it's on the roadmap? If so, what is the research for?"
 
 ## Exit criteria
 
-- The Product section says what the product is, what it does, the part
-  under study and who its end users are, or marks each as an assumption.
+- Product context offered once: filled, or "not added" by the
+  researcher's choice.
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
@@ -88,7 +89,6 @@ satisfy it.
 
 ## Pitfalls
 
-- Framing a study without knowing what the product does or who uses it.
 - Treating buyers or admins as if they were the end users.
 - A decision so broad it can't be wrong ("improve the experience").
 - Research questions that are really survey questions.

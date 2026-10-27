@@ -8,9 +8,10 @@ Last updated: [date] · Stage: [1–7] · Challenge level: [standard]
 
 ## Product
 
-What's being studied, so every stage works from the same picture. Filled
-early, from the team profile, product docs or the researcher. Guesses are
-marked [assumption].
+Optional. What's being studied, so every stage works from the same
+picture. Offered early, filled from the team profile, product docs or the
+researcher, with guesses marked [assumption]. If the researcher leaves it
+out, write "not added" and delete the lines below.
 
 - **Product:** [name, and what it is in one plain sentence]
 - **What it does:** [the main things people do with it, in their terms]
