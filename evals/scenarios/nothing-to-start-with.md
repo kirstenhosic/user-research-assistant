@@ -19,9 +19,11 @@ quickly and the researcher isn't made to feel it's a problem.
   notes, support tickets about reporting, a usage number from analytics),
   then moves on.
 - Logs "no prior evidence found" and notes the study starts from zero.
-- Drafts a first version of the decision for stage 2 from what's known
-  ("the PM will decide [what] about the reporting feature"), asking the
-  researcher to correct it.
+- Moves to framing by asking, in one message, for what it needs: what
+  the PM will decide once they know why people don't use reporting, the
+  goal behind it, and what the team thinks the reason is now. Offers a
+  best guess for the decision ("the PM will decide [what] about the
+  reporting feature") for the researcher to correct.
 - Tone is warm; nothing suggests the researcher should have found more.
 
 ## Fail

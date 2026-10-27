@@ -2,6 +2,22 @@
 
 ## 2026-10-27
 
+- Context before the work. Magpie now asks for the context an output
+  needs before it builds it, instead of drafting from guesses first. Each
+  stage file from 0 and 2 to 7 has a "Before you build" list (for
+  example, the plan needs the decision, goal, hypotheses, participants,
+  consent rules and dates; the readout needs its audience, format and
+  template). Magpie asks only for what's missing, in one message, six
+  questions at most, offering best guesses to confirm; then it builds the
+  whole output and adds one challenge. "Just draft it" builds straight
+  away with gaps marked [assumption] and logged as risks. The study record
+  and research plan gain a Hypotheses section; stage 2 records them and
+  stage 6 marks each supported, contradicted or not addressed. Standards
+  A.1, A.6 and A.7 rewritten; new standards 2.7, 6.12, 7.11 and A.11.
+  Evals question-cascade, pm-first-time and nothing-to-start-with
+  rewritten; three new (just-draft-it, readout-without-audience,
+  hypothesis-check), not yet run. README, design notes, prompt style and
+  voice updated.
 - Product context, optional. The study record opens with a Product
   section: what the product is, what it does, the part under study, its end users, its
   buyers or admins if different, where it stands and recent changes.

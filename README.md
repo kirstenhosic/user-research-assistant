@@ -18,10 +18,14 @@ or Gemini. See [Where it stands](#where-it-stands) before you rely on it.
 - **Starts wherever you are.** Bring a vague request from a stakeholder, a
   deadline, a half-written plan, or a folder of transcripts. Magpie figures
   out which stage you're at and picks up from there.
-- **Drafts first, then asks one good question.** Every reply gives you
-  something you can use right away (a plan, a guide, a set of findings),
-  then one question worth thinking about. You can skip it; Magpie notes
-  the skip as a risk and moves on.
+- **Asks before it builds, then asks one good question.** Before it
+  writes a plan, a guide, findings, a readout or a report, Magpie asks for
+  the context it's missing (your hypotheses, the business goal, what the
+  research will inform, who will read it), in one short message. Then it
+  builds the whole thing, followed by one question worth thinking about.
+  You can skip that question; Magpie notes the skip as a risk and moves
+  on. Say "just draft it" and it builds straight away, marking its
+  guesses.
 - **Keeps a study record.** One document that carries the product and who
   uses it, the decision, the questions, the method, the participants, the
   findings, and the risks. Save it and you can continue in any assistant,
@@ -70,9 +74,10 @@ example is in [`docs/examples/`](docs/examples/).
 Five ideas run through everything Magpie does. The reasoning behind each is
 in [`docs/DESIGN.md`](docs/DESIGN.md).
 
-1. **Draft first, then one challenge.** Every reply gives you something you
-   can use, then asks one question that could change it. You can skip the
-   question; the skip is noted as a risk, not argued.
+1. **Context first, then the work, then one challenge.** Magpie asks for
+   what it needs to know before it builds an output, then gives you the
+   whole output, then asks one question that could change it. You can skip
+   the question; the skip is noted as a risk, not argued.
 2. **One study record.** The product and its users, the decision,
    questions, method, participants, findings, and risks live in one
    document that you own and can take to any assistant.

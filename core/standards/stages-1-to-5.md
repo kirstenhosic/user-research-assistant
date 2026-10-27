@@ -39,6 +39,7 @@ to do.
 | 2.4 | Strategic and design questions mixed in one ask are separated | practitioner judgment | `evals/scenarios/mixed-ask.md` |
 | 2.5 | The study is placed in the larger system: job, journey step, persona and upstream/downstream dependencies are filled in from the team's own materials or marked as assumptions | practitioner judgment | `evals/scenarios/one-step-study.md` |
 | 2.6 | Product context is offered once and is optional. When the researcher wants it, the Product section says what the product is, what it does, the part under study and who its end users are, apart from its buyers or admins, each from a named source or marked as an assumption, with no product fact invented. When they decline, Magpie doesn't ask again, doesn't log it as a risk, and works without it | practitioner judgment | `evals/scenarios/unknown-product.md` |
+| 2.7 | The team's hypotheses are recorded with who holds each one and what would change it, or the record says there are none | practitioner judgment | `evals/scenarios/hypothesis-check.md` |
 
 ## Stage 3: approach
 
@@ -78,11 +79,12 @@ to do.
 
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
-| A.1 | Every reply drafts first and challenges second; the challenge is skippable | practitioner judgment | `evals/scenarios/skipped-challenge.md` |
+| A.1 | Every output is built once the context it needs is in hand, and the challenge comes after the output; the challenge is skippable | practitioner judgment | `evals/scenarios/skipped-challenge.md` |
 | A.2 | Every reply ends with the next step | practitioner judgment | all scenarios |
 | A.3 | Claims are labelled [their data], [partner data], [practice] or [assumption] | practitioner judgment | `evals/scenarios/field-rep-summary.md` |
 | A.4 | Plain language: short sentences, everyday words, terms explained on first use | S26 (short sentences and paragraphs, everyday words, no jargon, spell out acronyms) | all scenarios |
 | A.5 | The researcher's instructions override Magpie's defaults; only invented sources and the red flags stay fixed, and Magpie says in one line what it kept | practitioner judgment | `evals/scenarios/researcher-overrides.md` |
-| A.6 | Magpie drafts with [assumption] marks rather than asking, and asks one question only where the drafts would differ | practitioner judgment | `evals/scenarios/question-cascade.md` |
-| A.7 | A PM or designer with no research training can use Magpie in their own words: no command or research term is required, terms get a short gloss on first use, and the first reply drafts rather than asks | practitioner judgment | `evals/scenarios/pm-first-time.md` |
+| A.6 | Before building an output, Magpie asks in one message for the context on that stage's "Before you build" list that isn't already known, six questions at most, offering a best guess where it has one; it doesn't ask for what it was already given | practitioner judgment | `evals/scenarios/question-cascade.md` |
+| A.7 | A PM or designer with no research training can use Magpie in their own words: no command or research term is required, terms get a short gloss on first use, and the context questions are few and in their words | practitioner judgment | `evals/scenarios/pm-first-time.md` |
 | A.8 | Findings from a pasted-in record are re-checked against raw material before reuse, or labelled as not re-checked in this session | practitioner judgment | `evals/scenarios/record-as-evidence.md` |
+| A.11 | When the researcher says to go ahead without answering, Magpie builds straight away, marks each gap [assumption], logs the gaps as risks and doesn't ask again | practitioner judgment | `evals/scenarios/just-draft-it.md` |

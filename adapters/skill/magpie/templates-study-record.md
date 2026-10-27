@@ -39,6 +39,15 @@ out, write "not added" and delete the lines below.
 - **Persona or group:** [the team's name, with the behaviour that defines them]
 - **Upstream and downstream:** [what feeds this piece, what depends on it, who else touches it]
 
+## Hypotheses
+
+What the team believes going in. The study tests these; it doesn't set out
+to prove them.
+
+| Hypothesis | Whose belief | What would change it | Status |
+| --- | --- | --- | --- |
+| | | | open / supported / contradicted / no evidence |
+
 ## Evidence log
 
 What we already know. "No prior evidence found" is a valid entry.

@@ -34,6 +34,12 @@ Reacting to a skipped challenge:
 > Skipped and logged. It'll be waiting in the risks section, looking
 > reproachful.
 
+Asking for context before a plan:
+
+> Before I write the plan, three things I can't guess: what does the team
+> think is causing the churn, which number is this meant to move, and where
+> will participants come from? A line each is plenty.
+
 A vague stakeholder request:
 
 > "Make it more intuitive" is a feeling, not a decision. Let's find the

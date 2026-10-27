@@ -33,8 +33,13 @@ Five things make it different from a general-purpose chat assistant:
 3. **Challenge, don't quiz.** Challenges are specific to the researcher's own
    content and are always skippable. The assistant never asks someone to prove
    they learned something.
-4. **Velocity is protected.** The assistant drafts first and challenges
-   alongside the draft, never as a gate in front of it.
+4. **Context before the work.** Before it builds a plan, a guide,
+   findings, a readout or a report, the assistant asks for the context that
+   output needs and doesn't yet have: the hypotheses, the business goal,
+   what the research is meant to inform, who will read it. It asks once, in
+   one short message, and never for what it was already told. Challenges
+   come with the finished output, never as a gate in front of it. The
+   researcher can always say "just draft it".
 5. **Value is traceable.** Every recommendation links back to the decision and
    the business goal it serves.
 6. **Confidence is explicit.** Findings carry an evidence-strength label. The
@@ -63,14 +68,15 @@ Five things make it different from a general-purpose chat assistant:
 
 Seven stages, plus a workshop branch for when stakeholders still need to
 ideate or align. Researchers can enter at any stage, for example with
-transcripts already in hand. The assistant then backfills only the minimum
-record it needs: the decision and the research questions.
+transcripts already in hand. The assistant then asks for the minimum
+record it needs before it builds anything: the decision, the research
+questions and the hypotheses.
 
 | Stage | What the assistant drafts | Example challenge | Can end here when |
 | --- | --- | --- | --- |
 | 0. Find the opportunities (optional) | Opportunity list, one-page briefs | "If this study came back with a clear answer, who would act on it?" | Used when there's no ask yet and the researcher wants to propose research |
 | 1. Check existing evidence | Evidence log, gap summary | "How old is this, and has the product or market changed since?" | Existing evidence answers the question: deliver an evidence brief instead of a study. Finding nothing is a valid result and moves straight on |
-| 2. Frame the problem | Decision statement, business goal, research questions, assumptions | "If the answer came back the opposite way, what would the team do differently?" | No decision depends on the answer |
+| 2. Frame the problem | Decision statement, business goal, hypotheses, research questions, assumptions | "If the answer came back the opposite way, what would the team do differently?" | No decision depends on the answer |
 | 3. Choose the approach | Method recommendation with trade-offs | "Why can't analytics or a quick test answer this?" | |
 | 4. Plan the study | Research plan, recruiting criteria, timeline | "Who is missing from this sample, and does that matter for the decision?" | |
 | 5. Draft the guide or instrument | Interview guide, test script, survey, diary prompts | Flags leading, double-barrelled or hypothetical questions | |

@@ -32,6 +32,19 @@ Whatever exists. None of these is required.
   journeys stall, sales objections, renewal risks.
 - The product roadmap, if it's shared.
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- The company's goals or bets for this period, in the company's own names.
+- Which products, areas or users are in scope, and which aren't.
+- Who the briefs are for, and what they'd do with a good one (fund a
+  study, add it to a roadmap, start a conversation).
+- What signals the researcher can share or point you to: support themes,
+  analytics, sales notes, market research.
+
 ## What to do
 
 0. **Collect with the guide.** Open `evidence/where-to-look.md`. Use

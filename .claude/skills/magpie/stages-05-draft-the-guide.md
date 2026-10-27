@@ -14,6 +14,24 @@ need, and leads nobody.
 - The method guide from `methods/`.
 - The template for the instrument from `templates/`.
 
+## Before you build
+
+Ask for whatever on this list isn't already in the study record, the
+conversation or files you can reach, in one message, before you build
+(`operating.md`, "Gather context before you build").
+
+- The format: moderated or not, remote or in person, and how long each
+  session runs.
+- What participants will see or use: a prototype, the live product, a
+  concept, or nothing.
+- Which hypotheses the sessions need to test, and which topics are the
+  priority if time runs short.
+- The words participants use for the product and its features, if they
+  differ from the team's.
+- Anything off limits: topics, unreleased features, legal or brand rules.
+- Who will run the sessions: the researcher, a teammate, a PM, or an AI
+  tool.
+
 ## What to do
 
 1. **Map every question to a research question.** Each item in the guide

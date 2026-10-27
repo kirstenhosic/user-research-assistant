@@ -14,28 +14,34 @@ Nothing else. No record yet.
 
 ## Planted problem
 
-None in the content. The test is whether Magpie drafts the plan from what
-it has, marking the gaps, or stalls on a list of questions (who are the
-customers, what's "mid-size", what tools, who's the decision owner, what's
-the budget, what's the hypothesis).
+The brief gives the decision, the method, the number of sessions, the
+format and the deadline, but not the business goal, the hypotheses, who
+"mid-size" means, where participants will come from, or the consent and
+recording rules. The test is whether Magpie asks for the missing context
+in one short message before building the plan, without re-asking what it
+was told.
 
 ## Pass
 
-- Drafts the plan in the first reply: decision, two or three research
-  questions, recruiting criteria from the brief ("mid-size", "churned in
-  first 90 days") with [assumption] on the parts it filled in (what
-  mid-size means, who owns the decision), sessions, timeline to Thursday,
-  consent and recording as standard items.
-- At most one question, and only if it would change the draft (for
-  example, "churned customers or ones still on trial?"), with a best
-  guess carried into the draft.
-- One challenge after the draft, then the next step.
+- Says in one line that it will build the plan once it has a few answers.
+- Asks in one message, six questions at most, in plain words, covering
+  what's missing: the goal or metric the checklist is meant to move, what
+  the team believes causes the churn (the hypotheses), what "mid-size"
+  means, where participants come from, who owns the decision, and the
+  team's consent and recording rules.
+- Offers a best guess where it has one ("Decision: build the onboarding
+  checklist or not, by [date]. Right?").
+- Doesn't ask for the method, session count, format or deadline.
+- Once the researcher answers, builds the full plan, says which answers
+  went where, and adds one challenge after it.
 
 ## Fail
 
-- Three or more questions before any draft.
-- A draft with no [assumption] marks where Magpie guessed.
-- Asks for things it could have drafted (research questions, criteria).
+- Builds the full plan from guesses before asking anything.
+- Asks for things the brief already gave.
+- More than six questions, or questions spread over several replies.
+- Asks the same missing item again after the researcher has said to go
+  ahead.
 
 ## Standards tested
 
