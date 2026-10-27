@@ -17,6 +17,9 @@ Reads every Markdown file under core/ in a fixed order and writes:
                                          and Gemini all accept
   .claude/skills/magpie/                 the same skill, where Claude Code
                                          finds it when this repo is open
+  magpie.zip                             the skill folder's contents, zipped
+                                         with SKILL.md at the top, for people
+                                         who download Magpie and upload it
 
 The code checks in tools/checks/ are copied into the skill's scripts/
 folder so the skill can run them. The per-platform setup notes in
@@ -28,6 +31,7 @@ from __future__ import annotations
 
 import re
 import shutil
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -35,6 +39,7 @@ CORE = ROOT / "core"
 GENERIC = ROOT / "adapters" / "generic"
 SKILL = ROOT / "adapters" / "skill" / "magpie"
 CLAUDE_LOCAL = ROOT / ".claude" / "skills" / "magpie"
+ZIP = ROOT / "magpie.zip"
 
 # Files and folders in reading order. A folder that doesn't exist yet is skipped.
 # core/standards/ is left out on purpose: the stage files already carry the
@@ -242,11 +247,28 @@ def build_skill(files: list[Path]) -> None:
     shutil.copytree(SKILL, CLAUDE_LOCAL)
 
 
+def build_zip(source: Path, target: Path) -> None:
+    """Zip the skill folder's contents, SKILL.md at the top, not in a folder.
+
+    Copilot Cowork needs SKILL.md at the top of the zip, and Gemini and
+    ChatGPT take it that way too, so one zip serves every upload route.
+    Fixed dates and order keep the zip the same from one build to the next.
+    """
+    target.unlink(missing_ok=True)
+    with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+        for path in sorted(p for p in source.rglob("*") if p.is_file()):
+            info = zipfile.ZipInfo(path.relative_to(source).as_posix(), (1980, 1, 1, 0, 0, 0))
+            info.external_attr = 0o644 << 16
+            info.compress_type = zipfile.ZIP_DEFLATED
+            zf.writestr(info, path.read_bytes())
+
+
 def main() -> None:
     files = core_files()
     build_generic(files)
     build_skill(files)
-    print(f"Built adapters/generic, adapters/skill and .claude/skills from {len(files)} core file(s):")
+    build_zip(SKILL, ZIP)
+    print(f"Built adapters/generic, adapters/skill, .claude/skills and magpie.zip from {len(files)} core file(s):")
     for path in files:
         print(f"  core/{path.relative_to(CORE)}")
 

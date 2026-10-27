@@ -2,6 +2,11 @@
 
 ## 2026-10-27
 
+- A ready-made download, `magpie.zip`, at the top of the repository: the
+  skill folder's contents with `SKILL.md` at the top, rebuilt by
+  `tools/build.py` and checked by `tools/check.py`. The setup steps for
+  every tool now start from it, so nobody has to find a folder or zip
+  one themselves.
 - Eval run of the eight HEARTS scenarios, three runs each, judged by the
   model (`evals/runs/2026-10-27-hearts.md`): 7 pass in all three runs;
   read-hardest is partial in all three because Magpie changed parts of a
