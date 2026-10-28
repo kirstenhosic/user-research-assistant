@@ -246,7 +246,8 @@ record's change log and to everyone who attended, once the researcher has
 reviewed it.
 
 The agenda and the summary are documents the team shares, so give each as
-a Word file (.docx) as well as Markdown, the same as a plan or report. Each
+a Word file (.docx) as well as Markdown, the same as a plan or report
+(`operating.md`, "Files for the team"). Each
 opens with a document details table (team, date, author(s), reviewers and
 status). Status starts as Draft and changes only when the researcher says
 so. The agenda steps are numbered in Word's own numbering, so people can

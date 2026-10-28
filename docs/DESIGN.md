@@ -239,7 +239,7 @@ hallucination entirely, so the tool also says how confident it is.
 | 2. Source labels | Each statement is tagged as coming from your data, from partner data, from general practice or from an assumption | General knowledge passed off as a study finding | Every stage |
 | 3. Checks done by code, not the model | Quotes are string-matched against transcripts. Counts and survey statistics are computed by code. | Altered or invented quotes, wrong counts, wrong percentages | Analysis, readout, report |
 | 4. Built-in checklists | Each stage ends with a short self-check against written criteria | Leading questions, missing consent plan, overclaiming | Every stage |
-| 5. Independent review | A fresh pass that sees only the source material and the output, not the conversation that produced it | Errors the drafting pass is blind to, such as a theme that ignores contradicting participants | Analysis and final report, and on request |
+| 5. Independent review | A fresh pass that sees only the source material and the output, not the conversation that produced it | Errors the drafting pass is blind to, such as a theme that ignores contradicting participants | Guide or survey, analysis, and final report and readout, and on request |
 | 6. Evals | Test scenarios with known traps run before every release | Regressions when the prompts change | Repo, before release |
 
 Layers 3 and 5 depend on the platform. Claude Code can run the scripts and

@@ -1,7 +1,8 @@
 # Stage 5: Draft the guide or instrument
 
 Write the thing the researcher will put in front of participants: an
-interview guide, a usability test script, a survey or diary prompts.
+interview guide, a usability test script, a survey, diary prompts, a
+focus group guide or a concept test.
 
 ## Goal
 
@@ -48,6 +49,12 @@ instrument it is (interview, usability test, survey or diary).
    For diaries: the entry prompt, its required and optional formats, and
    what not to capture (`methods-diary-studies.md`, "Ways to capture
    entries").
+   **Write anything the moderator says the way a person speaks:** the
+   opening, the warm-up, every question, and a spoken transition each
+   time the topic changes ("Thanks, that's really helpful. Now I'd like to
+   shift our focus to how you set up your team."). Short sentences the
+   moderator can read aloud as written, not headings or notes. Survey and
+   diary intros and section openers get the same plain, friendly voice.
 3. **Fit it to the product.** Base tasks and scenarios on what the
    product does and the part under study (Product section, if filled, or
    what the researcher has told you), so they match what participants can
@@ -63,24 +70,36 @@ instrument it is (interview, usability test, survey or diary).
    say why and I'll rework it." A counter is new input: rework the guide
    with their reasoning, or say in a line or two why you'd keep it. Their
    call stands.
-5. **Run the wording check.** Use `checks-guide-wording.md` for interviews
-   and tests, `checks-survey-wording.md` for surveys. Fix what it catches and
-   say what you fixed.
-6. **Add the moderator notes.** What to do if a participant says "it's fine"
+5. **Run the wording check.** Use `checks-guide-wording.md` for interviews,
+   tests, focus groups, concept tests and diary prompts, and
+   `checks-survey-wording.md` for surveys. Fix what it catches and say what
+   you fixed.
+6. **Run the question review** (`review-question-review.md`). It's
+   required. Start it in the same reply, without waiting to be asked: start
+   a separate agent where you can, otherwise give the researcher the text
+   to paste and say when to bring the result back. Fix what it got right
+   and say why you disagree with the rest.
+7. **Add the moderator notes.** What to do if a participant says "it's fine"
    to everything, runs short, runs long, or gets upset.
-7. **Time it.** Estimate the length. If it runs over, say what to cut and
+8. **Time it.** Estimate the length. If it runs over, say what to cut and
    why those items matter least.
-8. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
+9. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
    what to watch for in the pilot.
-9. **Check it works with assistive technology.** If participants use a
+10. **Check it works with assistive technology.** If participants use a
    screen reader, magnification or voice control, try the instrument or
    prototype with it before the sessions (`lenses-accessibility.md`).
 
 ## What to draft
 
-- The instrument, from the right template.
+- The instrument, from the right template, opening with the document
+  details, as a Markdown file and a Word file (`operating.md`, "Files for
+  the team").
+- For interviews, usability tests and diary studies, a note-taking sheet
+  (`templates-notes-sheet.md`) as an Excel file: one row per participant,
+  one column per research question, and a summary row.
 - The question map: what each item serves and why it sits where it does.
-- A list of what the wording check caught and changed.
+- A list of what the wording check and the question review caught and
+  changed.
 - An updated Instruments section in the study record.
 
 ## If an AI tool will moderate
@@ -105,7 +124,16 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 
 - Every item maps to a research question.
 - Wording check run and fixes made.
+- Question review run and each point fixed or answered. If the researcher
+  is running it in another chat and hasn't brought it back, it's listed as
+  waiting in the record and the status line.
+- Everything the moderator says is written to be said aloud, with a spoken
+  transition at each change of topic.
 - Moderator notes present.
+- The instrument given as a Word file as well as Markdown, or the
+  researcher told how to get one, with its document details filled in or
+  labelled blank.
+- Note-taking sheet given, for interviews, tests and diary studies.
 - Pilot planned or deliberately skipped (logged as a risk).
 
 ## Pitfalls
@@ -115,6 +143,9 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 - Questions that are really the product team's hopes with a question mark.
 - A guide so long the best material comes after the participant is tired.
 - No probes, so every answer stays at the surface.
+- Topic headings with no spoken line, so the moderator improvises the
+  transition or skips it and the participant is jolted from one subject to
+  the next.
 
 ---
 

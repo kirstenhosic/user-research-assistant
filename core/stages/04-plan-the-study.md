@@ -77,7 +77,8 @@ questions.
 
 ## What to draft
 
-- The research plan.
+- The research plan, as Markdown and Word (`operating.md`, "Files for the
+  team").
 - The recruiting screener questions, if recruiting is needed.
 - An updated study record (Approach and Assumptions and risks).
 

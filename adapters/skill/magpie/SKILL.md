@@ -16,8 +16,11 @@ template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
 `scripts/quote_check.py`, `scripts/count_check.py` and
 `scripts/evidence_check.py` are scripts to run, not read: they check quotes,
-counts and the receipts behind counts at stages 6 and 7. Run them with
-Python when you can and say so when you can't.
+counts and the receipts behind counts at stages 6 and 7.
+`scripts/md_to_docx.py` turns a Markdown output into a Word file and
+`scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
+files, for the team to edit together (`operating.md`, "Files for the
+team"). Run them with Python when you can and say so when you can't.
 
 - `operating.md`: The rules Magpie follows in every conversation.
 - `voice.md`: How Magpie sounds.
@@ -26,7 +29,7 @@ Python when you can and say so when you can't.
 - `stages-02-frame-the-problem.md`: Turn the ask into a decision, a business reason and research questions.
 - `stages-03-choose-the-approach.md`: Pick the cheapest method that can answer the primary question well enough for the decision.
 - `stages-04-plan-the-study.md`: Write the research plan: who, how, when, and how participants are protected.
-- `stages-05-draft-the-guide.md`: Write the thing the researcher will put in front of participants: an interview guide, a usability test script, a survey or diary prompts.
+- `stages-05-draft-the-guide.md`: Write the thing the researcher will put in front of participants: an interview guide, a usability test script, a survey, diary prompts, a focus group guide or a concept test.
 - `stages-06-analyze.md`: Turn raw material into findings that say what the evidence supports, how strongly, and what cuts against it.
 - `stages-07-read-out-and-report.md`: Tell the team what was found, how sure we are, and what to do about it, in a form they'll actually use.
 - `lenses-accessibility.md`: Disabled people are among the users of almost every product, and a study that leaves them out will miss problems that block them completely.
@@ -51,20 +54,24 @@ Python when you can and say so when you can't.
 - `checks-ai-assisted-research.md`: What to do when an AI tool moderates sessions, summarizes transcripts, recruits participants, or is Magpie itself drafting findings.
 - `checks-claim-strength.md`: Run this over every finding before it leaves stage 6, and again over every slide or paragraph of the readout and report.
 - `checks-ethics-and-consent.md`: Run this at stage 4 for every study that involves people.
-- `checks-guide-wording.md`: Run this over every interview guide and usability test script before it goes out.
+- `checks-guide-wording.md`: Run this over every interview guide, usability test script, focus group guide, concept test and set of diary prompts before it goes out, the researcher's own included.
+- `checks-research-questions.md`: Run this over the research questions at stage 2, the researcher's own included, before they go in the record.
 - `checks-survey-wording.md`: Run this over every survey before it goes out.
-- `review-independent-review.md`: A fresh pass over the findings or the report, by a reviewer that sees only the source material and the output, not the conversation that produced them.
+- `review-independent-review.md`: A fresh pass over the findings, or the report and readout deck, by a reviewer that sees only the source material and the output, not the conversation that produced them.
+- `review-question-review.md`: A fresh pass over the questions Magpie wrote for participants, by a reviewer that sees only the research questions and the draft, not the conversation that produced them.
 - `partners-request-templates.md`: Short messages the researcher can send to another team to ask for data or context.
+- `templates-analysis-sheet.md`: An Excel workbook Magpie offers at stage 6, laid out like the note-taking sheet so the researcher can put the two side by side.
 - `templates-competitive-analysis.md`: **Date:** [date] (competitors change; this has a shelf life) · **Study record:** [link] · **Researcher:** [name]
 - `templates-house-style.md`: How Magpie formats anything written for the people who act on research: the readout, the report, opportunity briefs and notes to partners.
-- `templates-interview-guide.md`: **Length:** [45–60] minutes · **Research questions served:** [list]
+- `templates-interview-guide.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-notes-sheet.md`: An Excel workbook that goes out with every interview guide, usability test script and diary study, so note-takers write down what they hear under the research question it answers.
 - `templates-opportunity-brief.md`: One page the researcher takes to a PM or a leadership team to propose a study.
 - `templates-readout.md`: Slide-by-slide outline.
 - `templates-report.md`: **Author:** [researcher] · **Date:** [date] · **For:** [the team or group] · **Study record:** [link]
 - `templates-research-plan.md`: Two minutes to read.
 - `templates-study-record.md`: One file for the whole study.
-- `templates-survey.md`: **Length:** [under 10] minutes · **Research questions served:** [list] · **Target:** [who, how reached] · **Analysis plan:** [which cross-tabs, which groups must be big enough]
-- `templates-usability-test-script.md`: **Length:** [30–60] minutes · **What's being tested:** [prototype / live product, version] · **Research questions served:** [list]
+- `templates-survey.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-usability-test-script.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
 - `templates-workshop-agenda.md`: | Document details | | | --- | --- | | Team | [team running the workshop] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
 - `templates-workshop-summary.md`: | Document details | | | --- | --- | | Team | [team that ran the workshop] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
 - `team-intake-form.md`: For PMs, designers and engineers asking for research.

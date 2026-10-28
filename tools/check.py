@@ -11,7 +11,8 @@ Checks:
   4. Every standard names an eval that exists, and every source it cites
      (S1, S2, ...) is a row in docs/PROVENANCE.md.
   5. Every eval scenario names standards that exist.
-  6. The code checks pass their fixture tests.
+  6. The code checks pass their fixture tests, and the Word and Excel
+     exports write valid files.
   7. Size report for the generic prompts, with a rough token estimate.
 
 Exit 1 if any check fails. The size report never fails the run.
@@ -167,6 +168,61 @@ def check_standards_and_evals() -> None:
                 fail(f"{path.relative_to(ROOT)}: tests unknown standard {sid}")
 
 
+def check_export() -> None:
+    from xml.dom import minidom
+    src = ROOT / "evals" / "fixtures" / "export-sample.md"
+    with tempfile.TemporaryDirectory() as tmp:
+        out = Path(tmp) / "sample.docx"
+        run = subprocess.run([sys.executable, str(ROOT / "tools" / "export" / "md_to_docx.py"), str(src), str(out)],
+                             capture_output=True, text=True)
+        if run.returncode != 0 or not out.exists():
+            fail("md_to_docx.py failed:\n" + run.stdout + run.stderr)
+            return
+        with zipfile.ZipFile(out) as z:
+            for name in z.namelist():
+                if name.endswith(".xml") or name.endswith(".rels"):
+                    try:
+                        minidom.parseString(z.read(name))
+                    except Exception as e:  # noqa: BLE001
+                        fail(f"md_to_docx.py wrote invalid XML in {name}: {e}")
+            doc = z.read("word/document.xml").decode("utf-8")
+            numbering = z.read("word/numbering.xml").decode("utf-8")
+            footer = z.read("word/footer1.xml").decode("utf-8")
+        for needle in ('w:val="Heading2"', 'w:val="Quote"', 'w:val="ListBullet"', 'w:val="ListNumber"',
+                       "<w:tbl>", "<w:b/>", "shift our focus"):
+            if needle not in doc:
+                fail(f"md_to_docx.py output is missing {needle}")
+        if "ask question 10. This wrapped line" not in doc.replace("</w:t></w:r><w:r><w:t xml:space=\"preserve\">", ""):
+            fail("md_to_docx.py split a paragraph at a wrapped line starting with a number")
+        for needle in ('w:val="lowerLetter"', 'w:val="Q%1."'):
+            if needle not in numbering:
+                fail(f"md_to_docx.py numbering is missing {needle}")
+        for needle in ('w:val="Note"', 'w:val="Option"', "\u2610", "\u25cb", "<w:gridSpan", 'w:fill="DCE9E3"',
+                       'w:val="Heading3"', "footerReference"):
+            if needle not in doc:
+                fail(f"md_to_docx.py output is missing {needle}")
+        if "Status: Draft" not in footer or "PAGE" not in footer:
+            fail("md_to_docx.py footer is missing the status or page number")
+        sheet = Path(tmp) / "sample.xlsx"
+        run = subprocess.run([sys.executable, str(ROOT / "tools" / "export" / "make_sheet.py"),
+                              str(ROOT / "evals" / "fixtures" / "export-sample.json"), str(sheet)],
+                             capture_output=True, text=True)
+        if run.returncode != 0 or not sheet.exists():
+            fail("make_sheet.py failed:\n" + run.stdout + run.stderr)
+            return
+        with zipfile.ZipFile(sheet) as z:
+            for name in z.namelist():
+                try:
+                    minidom.parseString(z.read(name))
+                except Exception as e:  # noqa: BLE001
+                    fail(f"make_sheet.py wrote invalid XML in {name}: {e}")
+            first = z.read("xl/worksheets/sheet1.xml").decode("utf-8")
+            if "RQ1" not in first or 'state="frozen"' not in first or "xl/worksheets/sheet2.xml" not in z.namelist():
+                fail("make_sheet.py output is missing its header row, frozen pane or second sheet")
+            if 'customHeight="1"' not in first or "Merged and dropped codes" not in first or ">Team<" not in first:
+                fail("make_sheet.py output is missing its row height, details block or extra table")
+
+
 def check_fixtures() -> None:
     run = subprocess.run([sys.executable, str(ROOT / "tools" / "checks" / "tests" / "run_tests.py")],
                          capture_output=True, text=True)
@@ -193,6 +249,7 @@ def main() -> int:
     check_refs()
     check_standards_and_evals()
     check_fixtures()
+    check_export()
     size_report()
     if problems:
         print(f"\n{len(problems)} problem(s):")

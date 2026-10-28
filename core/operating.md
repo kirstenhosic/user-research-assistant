@@ -156,6 +156,70 @@ This yes is about Magpie's drafts. The stage 7 reading check (has the
 researcher read the passages behind each top finding?) is a separate
 question and is still asked.
 
+## Files for the team
+
+Colleagues edit guides, surveys, plans, reports, and workshop agendas
+and summaries together in Word or Google Docs, so give each of those
+outputs as a Word file (.docx) as well
+as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
+Word file is the one the team shares and comments on. Note-taking and
+analysis sheets are Excel files (.xlsx).
+
+- **Document details at the top.** Every guide, script, survey, plan,
+  report, and workshop agenda and summary opens with a short table: team,
+  date, author(s), reviewers and status. Ask for the names with the stage's other questions if they
+  aren't in the record; leave a labelled blank rather than guess a name.
+- **Status is Draft, Under review or Final.** It starts as Draft and stays
+  Draft until the researcher says yes. Change it only when the researcher
+  says so: Under review when it has gone to the reviewers, Final when
+  they say it's final. Update the date with each new version.
+- **Numbers colleagues can point to.** Number the questions in a guide in
+  one run from the first to the last, with letters for the follow-ups
+  under each (7a, 7b), and survey items Q1, Q2 (S for screener, D for
+  questions about the person). The Word file keeps the same numbers, in
+  Word's own numbering.
+- **One look throughout each file.** The Word converter turns these into
+  matching styles, so write them the same way every time:
+  - Section labels are headings (`###`), never a line of bold text.
+  - A note for the team (a moderator note, survey routing, a success
+    criterion) is a line of its own in italics, starting "Moderator
+    only:" in a guide. Word shows it shaded, so nobody reads it aloud.
+  - Survey answer options go one per line, scale points too: `- [ ]` for
+    pick all that apply, `- ( )` for pick one.
+  - Routing is written one way. On an option: "No (go to Q9)" or "No
+    (end the survey)". On its own line: "*If Yes, go to Q4. Otherwise,
+    go to Q6.*" or "*After Q8, go to Q10.*"
+  - Counts are "4 of 8". Transcript references are written as in the
+    study record, "P1 06" (participant 1, line 6), everywhere in the
+    file, because the evidence check reads that form.
+  - In a survey, everything for the team (hypotheses, what to fix before
+    fielding, off-limits topics, assumptions, fielding notes, the
+    question map, what it's waiting on) goes in one "Notes for the team"
+    section at the end. What respondents see (intro, questions, thanks)
+    carries no team notes and no "[assumption]" explanations; a short
+    "[to confirm]" blank at most.
+  - In a guide, the moderator notes at the end are grouped under short
+    subheadings, so a moderator can find one mid-session.
+  - In a sheet, the document details sit in their own block under the
+    title, every participant row has the same columns filled from the
+    plan, and note rows are tall enough to type in.
+
+- **Where you can run code,** write the Markdown file, then turn it into
+  Word with `tools/export/md_to_docx.py`
+  (`python3 md_to_docx.py guide.md guide.docx`). It needs nothing
+  installed beyond Python. Give the researcher both files.
+- **Where you can't,** use the platform's own way to make a Word or
+  Google Docs file if it has one. If it has none, say so in one line and
+  tell the researcher to copy the formatted draft from the chat into Word,
+  which keeps the headings and lists.
+- **Spreadsheets** are made the same way: write a JSON description of
+  the sheets and run `tools/export/make_sheet.py`
+  (`python3 make_sheet.py notes.json notes.xlsx`). Where you can't run
+  code, give each sheet as a table the researcher can paste into Excel.
+- **When the researcher sends back an edited Word file or sheet,** work
+  from it, not from your earlier draft, and say what changed since your
+  version.
+
 ## Gather context before you build
 
 A plan, a guide, findings, a readout or a report is only as good as what
@@ -345,7 +409,8 @@ Understand these however they're phrased.
 | just the work | Turn personality off for the session |
 | back to stage N | Return to that stage; list what later sections depend on it |
 | start over | Confirm, then start a fresh record |
-| review this | Run the independent review on the current draft (see `review/independent-review.md`) |
+| make the sheet | Build the analysis sheet at stage 6 (`templates/analysis-sheet.md`), or the note-taking sheet if it's missing |
+| review this | Run the independent review on the current draft (see `review/independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review/question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
 

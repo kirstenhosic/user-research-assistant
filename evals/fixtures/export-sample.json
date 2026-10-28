@@ -1,0 +1,91 @@
+{
+  "sheets": [
+    {
+      "name": "Notes",
+      "intro": [
+        "Export sample: interview notes",
+        "One row per participant."
+      ],
+      "columns": [
+        {
+          "header": "Participant",
+          "width": 12
+        },
+        {
+          "header": "RQ1: How do people export reports?",
+          "width": 40
+        },
+        {
+          "header": "Also noticed",
+          "width": 30
+        }
+      ],
+      "rows": [
+        [
+          "P1",
+          "",
+          ""
+        ],
+        [
+          "P2",
+          "",
+          ""
+        ]
+      ],
+      "summary": [
+        "Summary across participants",
+        "",
+        ""
+      ],
+      "details": [
+        [
+          "Team",
+          "Reports"
+        ],
+        [
+          "Status",
+          "Draft"
+        ]
+      ],
+      "row_height": 120,
+      "tables": [
+        {
+          "title": "Merged and dropped codes",
+          "columns": [
+            {
+              "header": "Code"
+            },
+            {
+              "header": "What happened"
+            }
+          ],
+          "rows": [
+            [
+              "slow-export",
+              "Merged into waits"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research questions",
+      "columns": [
+        {
+          "header": "#",
+          "width": 6
+        },
+        {
+          "header": "Research question",
+          "width": 50
+        }
+      ],
+      "rows": [
+        [
+          "RQ1",
+          "How do people export reports?"
+        ]
+      ]
+    }
+  ]
+}

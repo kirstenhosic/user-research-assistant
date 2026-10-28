@@ -69,10 +69,22 @@ per conversation; it stays on until you say "stop Magpie".
   (if you want to add them), the decision, questions, method, participants,
   findings and risks. Save it and you can continue in
   any assistant, any day.
+- **Gives you files your team can edit.** Guides, surveys, plans and
+  reports come as a Word file as well as Markdown, with the team, authors,
+  reviewers and status at the top and numbered questions, so colleagues
+  can comment and edit together. Guides come with an Excel note-taking
+  sheet, one column per research question, and analysis offers a
+  matching sheet of findings, themes and codes. In Claude Code this is automatic. Elsewhere
+  Magpie uses the assistant's own way to make a Word file, or tells you
+  to copy the draft into Word.
 - **Waits for your yes.** Nothing Magpie drafts is final until you reply
   "yes" to say you've reviewed it. Before analysis or a report reaches
   stakeholders, Magpie runs an independent review that sees only the
-  transcripts and the draft. It's required at analysis and at the report.
+  transcripts and the draft. It's required at analysis and at the report
+  and readout, and checks that every finding traces to its source and the
+  language is plain. Interview guides and surveys get their own
+  independent review for leading, double-barrelled or out-of-order
+  questions.
 - **Writes for the people who act on it.** Readouts and reports lead with
   why the study was done and up to five top findings, keep every other
   finding on one page, and say which teams each recommendation touches.
@@ -144,7 +156,8 @@ More:
 | standard | Goes back to one question per stage |
 | just the work | Turns off the personality for the session |
 | show the record | Shows the full study record |
-| review this | Runs an independent review of your findings or report |
+| make the sheet | Builds the analysis spreadsheet, laid out like the note-taking sheet |
+| review this | Runs an independent review of your guide, survey, findings or report |
 | back to stage 3 | Returns to that stage and says what depends on it |
 
 **Save your study record.** Say "show the record" and paste it into a
@@ -291,13 +304,13 @@ As of October 27, 2026.
   time. The details, and the stricter rules for the next run, are in
   [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md) and
   [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 91 standards in
-  [`core/standards/`](core/standards/). 37 cite a public source, such as
+- **Its rules are written down.** Magpie follows 110 standards in
+  [`core/standards/`](core/standards/). 47 cite a public source, such as
   the ICC/ESOMAR code, Braun and Clarke, or Nielsen Norman Group. The
   others are based on professional judgment and say so. Every source is
   listed in [`docs/PROVENANCE.md`](docs/PROVENANCE.md).
 - **It can be wrong.** Like any AI assistant, Magpie makes mistakes, and
-  its independent review is done by an AI too. The study record and the
+  its independent reviews are done by an AI too. The study record and the
   participant references are there so you can check its work. Please do.
 
 Found a problem? Open an issue with the tool you used, the step, and what

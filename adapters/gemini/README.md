@@ -40,12 +40,16 @@ upload the whole folder again.
 
 ## What works where
 
-- The independent review at stages 6 and 7 runs in a fresh chat with the
-  three-part paste (raw material, draft, review prompt), as
-  `review-independent-review.md` describes.
+- The independent reviews (questions at stage 5, findings and report at
+  stages 6 and 7) run in a fresh chat with a three-part paste, as
+  `review-question-review.md` and `review-independent-review.md` describe.
 - Whether Gemini runs `scripts/quote_check.py`, `scripts/count_check.py`
   and `scripts/evidence_check.py` hasn't been tested. If it doesn't, Magpie does
   the checks by hand and says so.
+- Word files: `scripts/md_to_docx.py` turns a guide, survey, plan or
+  report into a .docx using only Python. Whether Gemini runs it hasn't been
+  tested. If it doesn't, Magpie uses Gemini's own way to make a Word file if
+  it has one, or tells you to copy the formatted draft into Word.
 
 ## Checked
 
