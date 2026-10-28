@@ -50,6 +50,10 @@ example:
 > - **Questions people already have** (rough is fine, or "none"): ...
 > - **What the team is taking for granted** (or "none"): ...
 
+Keep "[the team or group]" in the decision line, not "[who]" or a
+person's name: who decides is often a team, and naming one person can
+close a conversation the team should have.
+
 What each line is for:
 
 - The decision: what will someone decide differently once they know the

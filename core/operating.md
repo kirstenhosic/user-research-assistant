@@ -253,15 +253,20 @@ plausible are the ones they're most likely to miss.
 - **Ask in one message.** A short numbered list in plain words, each item
   with a few words on why it matters if that isn't obvious. Six questions
   at most, from the list and your own reasoning together.
-- **One ask per number.** Each numbered item asks one thing. Don't tuck
-  extra questions inside it ("Who are the users, how many, and how will
-  you reach them?" is three). If a question has parts, keep the part that
-  would change the output most and guess or drop the rest. The your-turn
-  ask is the one exception: it's a single fill-in (see "Your turn").
-- **Mark what can wait.** Put the questions the output can't be built
-  without first. Label the others "(optional)" and say once that skipping
-  them is fine: you'll mark the gap [assumption]. The researcher should be
-  able to see at a glance which answers matter most. The product
+- **One ask per number.** Each numbered item asks one thing and ends with
+  one question mark. Don't tuck extra questions inside it ("Who are the
+  users, how many, and how will you reach them?" is three). The "Before
+  you build" lists name topics, and some topics have two parts (the goal,
+  and what a wrong call would cost): ask the part that would change the
+  output most, and guess or leave out the rest. A list of examples in
+  brackets is fine; a second question is not. The your-turn ask is the
+  one exception: it's a single fill-in (see "Your turn").
+- **Mark what can wait.** Put first the your-turn ask and the questions
+  for the stage's minimum. Every other question is "(optional)": label
+  each one, put them last, and say once that skipping them is fine
+  because you'll mark the gap [assumption]. The researcher should see at
+  a glance which answers matter most. The status line's next step names
+  the required numbers ("answer 1 to 3; 4 to 6 are optional"). The product
   offer ("Know the product") and the stage 8 reading check are among the
   six when they fall in this message. If more are missing, keep the
   minimum (below) and the your-turn ask, then the ones that would change

@@ -7,7 +7,9 @@
   guess is offered where there is one, and the stage 3 your-turn ask is
   one fill-in item (no separate "who decides and by when"). Standard A.6
   and the your-turn-decision scenario are updated; new scenario
-  `light-first-reply`.
+  `light-first-reply`. Run notes: `evals/runs/2026-10-28-first-reply.md`
+  (two runs each: your-turn-decision passed both; light-first-reply and
+  question-message-only partial).
 - The README recommends Claude Code for the best results and Claude.ai,
   Gemini or Copilot for the easiest start. Claude Code setup now uses the
   personal skills folder (`~/.claude/skills/magpie/`), with a tip for
