@@ -2,6 +2,24 @@
 
 ## 2026-10-28
 
+- Choosing a method now weighs the same things two method-choice guides
+  do (Rohrer at Nielsen Norman Group, S11, and Alvarez at UserTesting,
+  S72). Before naming a method, stage 4 places the question on four lines:
+  the kind of question, whether it needs what people say or what they do
+  (leaning on what they do), where the product stands (exploring,
+  designing, or live and measured) and the setting (real or scripted use,
+  remote or in person, any place it has to happen) (standard 4.10). When
+  a question has two halves, such as how many and why, Magpie suggests a
+  companion method for the other half if the time and rigor allow (4.11).
+  Every recommendation says in a plain line what the team will have at
+  the end, and the study record and research plan keep it (4.12). Three
+  new method guides cover measuring and reactions: benchmarking,
+  analytics and A/B tests, and preference and desirability testing, with
+  a check that a measuring method has what it needs before it's planned
+  (4.13). The usability testing guide gains a section on remote moderated
+  sessions. Sources S72 to S78; scenarios `say-or-do`, `pair-methods` and
+  `ab-test-ask`, and `method-reasoning` now checks the what-you'll-get
+  line. None of the new scenarios has been run live yet.
 - Every finding now says how sure we are and how much it matters, as two
   separate things (new `core/lenses/confidence-and-priority.md`).
   **Confidence** keeps the strong, moderate or weak label and adds a

@@ -37,6 +37,32 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
 5. Debrief: go back to the moments that mattered, then overall
    impressions, anything missing, thanks.
 
+## Remote, moderated
+
+The same session over a video call with screen sharing. It's often
+cheaper and quicker than meeting in person, easier for participants, and
+reaches people who can't travel. It takes more preparation.
+
+- Pick a call tool that participants, observers and the moderator can all
+  use. Check it works on the participant's device and browser while
+  screening.
+- Decide how tasks reach the participant: a document with one task per
+  page that they don't read ahead in, or one task at a time in the chat,
+  read aloud by the participant. Reading tasks aloud yourself is the
+  weakest choice.
+- Hold a short tech check the day before (about 15 minutes), using
+  something other than the design you're testing: install the tool,
+  check sound and screen sharing, and do the consent form.
+- Remind participants the day before: charged device, headset, a strong
+  connection, somewhere quiet and private.
+- Keep observers muted, keep team chat where the participant can't see
+  it, and give observers the task list and what to watch for.
+- Recruit a few extra people, leave spare time in each session for tech
+  trouble, and have a backup plan.
+- Run a pilot first. It tests the test, not the design, so a colleague
+  can do it.
+- At the start, ask permission to record and confirm the end time.
+
 ## What makes it good
 
 - Tasks have a written success criterion before the session.
@@ -111,7 +137,12 @@ and order unchanged, ten items, a 0 to 100 score that isn't a percentage;
 twenty to thirty users or more for questionnaire numbers; pair a rating
 with "why"); S12 (numbers from small qualitative studies carry large
 error). Probing after rather than during the task, and the debrief:
-practitioner judgment. Background: S7. The rest of this guide:
+practitioner judgment. Remote, moderated: S78 (advantages and the
+extra preparation; choosing a call tool; how tasks reach the participant,
+with the moderator reading them as the weakest choice; a tech check the
+day before on something else; reminders; observers; recruiting extra and
+spare time; a pilot that tests the test; recording consent at the start).
+Background: S7. The rest of this guide:
 practitioner judgment, consistent with widely published usability testing
 guidance.
 

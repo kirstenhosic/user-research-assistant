@@ -39,6 +39,7 @@ What the team believes now, and what we'd need to see to change our minds.
 
 - **Method:** [method]
 - **Why:** [two sentences]
+- **What we will have at the end:** [one line, in words anyone could repeat]
 - **What it won't tell us:** [trade-offs]
 - **Why this is enough for the risk:** [one line; any cut made for time or budget and what it costs]
 - **Partner data:** [team, what, status]

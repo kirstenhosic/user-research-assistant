@@ -29,6 +29,9 @@ seriously and answered rather than overridden or caved to.
   fits; which cheaper options were ruled out (for example, whether
   analytics can already show where people drop) and why; what the method
   can't tell them; why the backup is second.
+- Says in a plain line what the team will have at the end (for example,
+  "the main reasons people stop partway through an export, and where
+  each one happens").
 - Ends with one line inviting a counter.
 - On the counter: takes the speed and the 200 responses as real input,
   says in a line or two what a survey could and couldn't answer here (how
@@ -48,4 +51,4 @@ seriously and answered rather than overridden or caved to.
 
 ## Standards tested
 
-4.7, 4.2, 4.3
+4.7, 4.2, 4.3, 4.12
