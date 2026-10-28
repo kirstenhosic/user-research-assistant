@@ -52,8 +52,9 @@ long the study can take.
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
    (`methods-competitive-analysis.md`) as a cheap first step or a companion
-   to the main method. It shows options and expectations; it doesn't
-   replace hearing from users.
+   to the main method. It works from public sources when nobody can get
+   into the tools. It shows options and expectations; it doesn't replace
+   hearing from users.
 4. **Recommend one method and one backup.** Use the `methods-*.md` files for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences. If
    the ask names a method, check it against the question the same way. A
