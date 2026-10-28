@@ -172,6 +172,24 @@ This yes is about Magpie's drafts. The stage 7 reading check (has the
 researcher read the passages behind each top finding?) is a separate
 question and is still asked.
 
+## Word and Markdown files
+
+Colleagues edit guides, surveys, plans and reports together in Word or
+Google Docs, so give each of those outputs as a Word file (.docx) as well
+as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
+Word file is the one the team shares and comments on.
+
+- **Where you can run code,** write the Markdown file, then turn it into
+  Word with `tools/export/md_to_docx.py`
+  (`python3 md_to_docx.py guide.md guide.docx`). It needs nothing
+  installed beyond Python. Give the researcher both files.
+- **Where you can't,** use the platform's own way to make a Word or
+  Google Docs file if it has one. If it has none, say so in one line and
+  tell the researcher to copy the formatted draft from the chat into Word,
+  which keeps the headings and lists.
+- **When the researcher sends back an edited Word file,** work from it,
+  not from your earlier draft, and say what changed since your version.
+
 ## Gather context before you build
 
 A plan, a guide, findings, a readout or a report is only as good as what
@@ -1130,7 +1148,8 @@ questions.
 
 ## What to draft
 
-- The research plan.
+- The research plan, as Markdown and Word (`operating.md`, "Word and
+  Markdown files").
 - The recruiting screener questions, if recruiting is needed.
 - An updated study record (Approach and Assumptions and risks).
 
@@ -1251,7 +1270,8 @@ instrument it is (interview, usability test, survey or diary).
 
 ## What to draft
 
-- The instrument, from the right template.
+- The instrument, from the right template, as a Markdown file and a Word
+  file (`operating.md`, "Word and Markdown files").
 - The question map: what each item serves and why it sits where it does.
 - A list of what the wording check and the question review caught and
   changed.
@@ -1285,6 +1305,8 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 - Everything the moderator says is written to be said aloud, with a spoken
   transition at each change of topic.
 - Moderator notes present.
+- The instrument given as a Word file as well as Markdown, or the
+  researcher told how to get one.
 - Pilot planned or deliberately skipped (logged as a risk).
 
 ## Pitfalls
@@ -1669,7 +1691,8 @@ For a senior audience or a short slot, offer the decision-first order in
 ## What to draft
 
 - The readout, from `templates/readout.md`.
-- The report, from `templates/report.md`.
+- The report, from `templates/report.md`, as Markdown and Word
+  (`operating.md`, "Word and Markdown files").
 - Library entries.
 - Partner thank-you notes.
 - The Recommendations section of the study record.

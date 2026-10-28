@@ -15,6 +15,8 @@ beside it, and the code checks in `scripts/`.
 Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
 `scripts/evidence_check.py` itself, and can start a separate agent for the independent reviews: the question
 review at stage 5 and the findings and report review at stages 6 and 7.
+It also runs `scripts/md_to_docx.py`, so guides, surveys, plans and
+reports come as a Word file as well as Markdown.
 
 ## Claude.ai
 
@@ -31,6 +33,9 @@ about 200 KB it repeats every file in the knowledge.
 Without a code tool, Magpie does the quote and count checks by hand and
 says so in the record, and the independent reviews run in a fresh chat as
 described in `review-question-review.md` and `review-independent-review.md`.
+For Word files, Magpie uses Claude.ai's own file creation if your plan has
+it turned on (not yet tested with Magpie), or tells you to copy the
+formatted draft into Word.
 
 ## Checked
 

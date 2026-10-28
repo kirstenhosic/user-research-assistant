@@ -46,6 +46,10 @@ instruction and file limits are unverified.)
 - The quote and count checks: OpenAI's skill docs allow scripts in
   `scripts/`. Whether ChatGPT runs these two hasn't been tested; if it
   doesn't, Magpie does the checks by hand and says so.
+- Word files: `scripts/md_to_docx.py` turns a guide, survey, plan or
+  report into a .docx using only Python. Whether ChatGPT runs it hasn't been
+  tested. If it doesn't, Magpie uses ChatGPT's own way to make a Word file if
+  it has one, or tells you to copy the formatted draft into Word.
 
 ## Checked
 

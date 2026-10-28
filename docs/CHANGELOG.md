@@ -23,6 +23,13 @@
     named step on the deck and report.
   - Standards 2.8, 5.8 and 5.9 added, 7.5 extended. Four new eval
     scenarios (not yet run).
+  - Word files: guides, surveys, plans and reports come as .docx as well
+    as Markdown, so colleagues can edit together. New
+    `tools/export/md_to_docx.py` (standard library only, copied into the
+    skill's `scripts/`) makes them; `tools/check.py` checks its output on
+    a fixture. Where code can't run, Magpie uses the platform's own export
+    or says to copy the draft into Word. Standard A.21, scenario
+    `word-file.md`.
 - Next steps in the report and readout templates now have three parts:
   what happens now (with the teams involved), open questions, and the
   researcher's own next steps. Magpie drafts all three from the findings

@@ -88,7 +88,8 @@ instrument it is (interview, usability test, survey or diary).
 
 ## What to draft
 
-- The instrument, from the right template.
+- The instrument, from the right template, as a Markdown file and a Word
+  file (`operating.md`, "Word and Markdown files").
 - The question map: what each item serves and why it sits where it does.
 - A list of what the wording check and the question review caught and
   changed.
@@ -122,6 +123,8 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 - Everything the moderator says is written to be said aloud, with a spoken
   transition at each change of topic.
 - Moderator notes present.
+- The instrument given as a Word file as well as Markdown, or the
+  researcher told how to get one.
 - Pilot planned or deliberately skipped (logged as a risk).
 
 ## Pitfalls

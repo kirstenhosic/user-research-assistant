@@ -156,6 +156,24 @@ This yes is about Magpie's drafts. The stage 7 reading check (has the
 researcher read the passages behind each top finding?) is a separate
 question and is still asked.
 
+## Word and Markdown files
+
+Colleagues edit guides, surveys, plans and reports together in Word or
+Google Docs, so give each of those outputs as a Word file (.docx) as well
+as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
+Word file is the one the team shares and comments on.
+
+- **Where you can run code,** write the Markdown file, then turn it into
+  Word with `tools/export/md_to_docx.py`
+  (`python3 md_to_docx.py guide.md guide.docx`). It needs nothing
+  installed beyond Python. Give the researcher both files.
+- **Where you can't,** use the platform's own way to make a Word or
+  Google Docs file if it has one. If it has none, say so in one line and
+  tell the researcher to copy the formatted draft from the chat into Word,
+  which keeps the headings and lists.
+- **When the researcher sends back an edited Word file,** work from it,
+  not from your earlier draft, and say what changed since your version.
+
 ## Gather context before you build
 
 A plan, a guide, findings, a readout or a report is only as good as what

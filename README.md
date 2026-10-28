@@ -69,6 +69,11 @@ per conversation; it stays on until you say "stop Magpie".
   (if you want to add them), the decision, questions, method, participants,
   findings and risks. Save it and you can continue in
   any assistant, any day.
+- **Gives you files your team can edit.** Guides, surveys, plans and
+  reports come as a Word file as well as Markdown, so colleagues can
+  comment and edit together. In Claude Code this is automatic. Elsewhere
+  Magpie uses the assistant's own way to make a Word file, or tells you
+  to copy the draft into Word.
 - **Waits for your yes.** Nothing Magpie drafts is final until you reply
   "yes" to say you've reviewed it. Before analysis or a report reaches
   stakeholders, Magpie runs an independent review that sees only the
@@ -295,7 +300,7 @@ As of October 27, 2026.
   time. The details, and the stricter rules for the next run, are in
   [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md) and
   [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 93 standards in
+- **Its rules are written down.** Magpie follows 94 standards in
   [`core/standards/`](core/standards/). 37 cite a public source, such as
   the ICC/ESOMAR code, Braun and Clarke, or Nielsen Norman Group. The
   others are based on professional judgment and say so. Every source is

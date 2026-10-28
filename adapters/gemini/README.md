@@ -46,6 +46,10 @@ upload the whole folder again.
 - Whether Gemini runs `scripts/quote_check.py`, `scripts/count_check.py`
   and `scripts/evidence_check.py` hasn't been tested. If it doesn't, Magpie does
   the checks by hand and says so.
+- Word files: `scripts/md_to_docx.py` turns a guide, survey, plan or
+  report into a .docx using only Python. Whether Gemini runs it hasn't been
+  tested. If it doesn't, Magpie uses Gemini's own way to make a Word file if
+  it has one, or tells you to copy the formatted draft into Word.
 
 ## Checked
 

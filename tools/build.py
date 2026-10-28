@@ -126,8 +126,10 @@ template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
 `scripts/quote_check.py`, `scripts/count_check.py` and
 `scripts/evidence_check.py` are scripts to run, not read: they check quotes,
-counts and the receipts behind counts at stages 6 and 7. Run them with
-Python when you can and say so when you can't.
+counts and the receipts behind counts at stages 6 and 7.
+`scripts/md_to_docx.py` turns a Markdown output into a Word file for the
+team to edit together (`operating.md`, "Word and Markdown files"). Run them
+with Python when you can and say so when you can't.
 
 """
 
@@ -183,6 +185,7 @@ def flatten_refs(text: str, scripts: bool) -> str:
     text = FOLDER_REF.sub(lambda m: f"the `{m.group(1)}-*.md` files", text)
     if scripts:
         text = text.replace("`tools/checks/`", "`scripts/`")
+        text = text.replace("`tools/export/md_to_docx.py`", "`scripts/md_to_docx.py`")
     return text
 
 
@@ -237,7 +240,7 @@ def build_skill(files: list[Path]) -> None:
     scripts = SKILL / "scripts"
     scripts.mkdir()
     checks = ROOT / "tools" / "checks"
-    for script in sorted(checks.glob("*.py")):
+    for script in sorted(checks.glob("*.py")) + sorted((ROOT / "tools" / "export").glob("*.py")):
         shutil.copyfile(script, scripts / script.name)
 
     # The same skill inside the repo's own .claude/ folder, so opening this
