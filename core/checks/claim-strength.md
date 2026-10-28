@@ -19,6 +19,10 @@ does the wording match the evidence?
      reliable result with the test named.
    - Moderate: a clear pattern with exceptions you can name.
    - Weak: few participants, one segment, mixed signals, or secondhand.
+
+   Each label carries a confidence line with its reasons: how many, who
+   they are against the target users, whether it was seen or said, and
+   whether other sources agree (`lenses/confidence-and-priority.md`).
 5. **Causes need more than correlation.** "People who used feature X
    renewed more" is not "feature X causes renewal". Say what's known and
    what would be needed to know more.
@@ -55,6 +59,14 @@ does the wording match the evidence?
     read the passages it rests on. Smoothing is the tell: "generally
     positive, some minor confusion" where two of eight were seriously
     stuck. `checks/ai-assisted-research.md`.
+13. **Said isn't seen.** A claim about what people do that rests only on
+    what they said they do or would do is moderate at most and says so
+    ("participants said they…"). Same for a claim that rests only on
+    buyers, admins or colleagues speaking for the users. Where saying and
+    doing differ, both are reported.
+14. **No other source isn't a weakness.** "First study on this; no other
+    sources" is stated plainly and lowers nothing. Only a source that
+    disagrees lowers the label.
 
 ## Wording to replace
 
@@ -66,6 +78,7 @@ does the wording match the evidence?
 | Significant (without a test) | Large, clear, noticeable, or the number itself |
 | Many, most, some, a few | The count |
 | It's clear that | (delete) |
+| Users check the preview (from interviews) | 5 of 8 said they check the preview; in the task, 2 of them did |
 
 ## Basis
 

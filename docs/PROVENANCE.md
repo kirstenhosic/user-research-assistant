@@ -115,6 +115,9 @@ are paraphrased in the core, never reproduced.
 | S66 | Government Digital Service. "Managing user research data and participant privacy." GOV.UK Service Manual, published 5 November 2018; page metadata gives an update on 18 September 2026. https://www.gov.uk/service-manual/user-research/managing-user-research-data-participant-privacy | 5.10; `core/methods/diary-studies.md`, "Recordings, photos and consent": photos, audio and video are personal data; consent covers what's collected, how it's stored and used and who it's shared with; approved storage and limited access; blur personal data in screenshots and video before sharing | 2026-10-28 |
 | S67 | Krause, R. and Gibbons, S. "Empathy Mapping: The First Step in Design Thinking." Nielsen Norman Group (page dated 2 October 2026; earlier versions not checked). https://www.nngroup.com/articles/empathy-mapping/ | The empathy map activity and the understand-the-users workshop type: says, thinks, does and feels; built as a team, each person writing notes alone first, then clustering; empty areas show gaps in the research | 2026-10-28 |
 | S68 | Gibbons, S. (2016). "Design Critiques: Encourage a Positive Culture to Improve Products." Nielsen Norman Group. https://www.nngroup.com/articles/design-critiques/ | The critique activity: judge a design against agreed objectives, set the scope first, round robin, reframe opinion around the goals | 2026-10-28 |
+| S69 | Rohrer, C. (2022, last reviewed 15 July 2026). "When to Use Which User-Experience Research Methods." Nielsen Norman Group. https://www.nngroup.com/articles/which-ux-research-methods/ | 7.18 in part; `core/lenses/confidence-and-priority.md`, "When what people said and did differ": the attitudinal and behavioural dimension contrasts what people say with what people do, which often differ; self-report is limited by what people are aware of and willing to report | 2026-10-28 |
+| S70 | Sauro, J. (2013, 30 July). "Rating the Severity of Usability Problems." MeasuringU. https://measuringu.com/rating-severity/ | 7.19 in part; `core/lenses/confidence-and-priority.md`, "Priority": frequency (users who hit a problem out of all users) is reported alongside severity and treated separately from it; severity is ordered categories of a problem's impact on users. The article also summarizes Nielsen's 0 to 4 severity scale; Nielsen's own article was not read | 2026-10-28 |
+| S71 | Whitenton, K. (2021, 10 September). "Triangulation: Combine Findings from Multiple User Research Methods." Nielsen Norman Group (video). https://www.nngroup.com/videos/triangulation-combine-findings-multiple-user-research-methods/ | 7.17 in part: triangulation means looking at a question from several angles, by combining kinds of data or several research methods, and diversifying methods makes results more reliable. Only the page's summary was read; the video itself was not watched | 2026-10-28 |
 
 Located but not read, so not cited: Carter, S. and Mankoff, J. (2005).
 "When participants do the capturing: the role of media in diary studies."
@@ -141,7 +144,7 @@ list to check: the sourcing effort is limited to material that can be read
 on the open web.
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 47 of 117 standards cite a source in full or in part.
+Current count: 50 of 121 standards cite a source in full or in part.
 
 ## Tools used
 

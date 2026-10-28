@@ -32,6 +32,13 @@ or responses. Without it there's nothing to analyze, only to imagine.
 - The participant list with what matters for this study: role, segment
   or company type (such as enterprise or SMB), how long they've used the
   product, any accessibility needs. Quotes are labelled from it.
+- Who the target users are, if the plan doesn't say, so each participant's
+  fit can be judged: matches, partly, or stand-in (a buyer or admin
+  speaking for users). Magpie drafts the fit from the screener for a yes
+  (`lenses-confidence-and-priority.md`).
+- Other sources on the same topic: past studies, analytics, support
+  tickets. "None, this is the first study" is a full answer and counts
+  against nothing.
 - Sessions that went wrong or should be left out, and why.
 - Observer notes or debrief notes, if the team kept them.
 - Partner data that arrived since planning.
@@ -63,9 +70,13 @@ sessions, or say "you do it", skip it.
 4. **Code what's there.** Tag each relevant passage with a short label and
    its source: participant code plus line, timestamp or question number.
    Codes describe what people did or said, not what you think it means.
-   Where participants differ in role (end user, buyer, admin), note each
-   one's role, so a theme that comes only from buyers isn't reported as
-   what end users do.
+   Tag each code with the kind of evidence: **seen** (watched doing it),
+   **past time** (described a real, specific time) or **opinion** (a
+   general view, habit or prediction). Where participants differ in role
+   (end user, buyer, admin), note each one's role and fit to the target
+   users, so a theme that comes only from buyers isn't reported as what
+   end users do. Where someone says one thing and does another, code both
+   (`lenses-confidence-and-priority.md`).
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task). Each theme carries its receipts from the start: the
@@ -106,38 +117,53 @@ sessions, or say "you do it", skip it.
    "most". Write each count with the people and lines behind it, "3 of 8
    (P1 06, P5 06, P7 06)", so the count can be checked by code instead of
    by trust.
+   Then write the confidence line: the count and segments, the fit of the
+   people behind it, the kind of evidence, whether other sources agree,
+   disagree or there are none yet, and who didn't fit. Opinion-only
+   behaviour and stand-in-only findings are moderate at most; a source
+   that disagrees lowers the label; no other source is neutral
+   (`lenses-confidence-and-priority.md`). A gap between what people said
+   and what they did is a finding of its own.
 10. **Re-judge the rigor.** Look at what actually happened in the
    sessions (no-shows, sessions cut short, flagged participants, a missing
    group, a question that turned out to lead) and lower a strength where
    it weakened the evidence, saying why. Then mark each finding enough for
    this decision, enough with a caveat, or not enough, using the decision
    risk in the record (`lenses-minimum-viable-rigor.md`).
-11. **Check the hypotheses.** Once the findings are drafted, say for each
+11. **Set the priority.** For each finding, rate impact (on the users who
+   hit it and on the decision) and reach (how many target users, how
+   often), each with a reason, and read the priority off the grid in
+   `lenses-confidence-and-priority.md`. Confidence never moves priority.
+   A high-priority finding with weak confidence, or not enough for the
+   decision, is marked "check next". Show the findings in priority order
+   and ask whether the order matches the researcher's; their order
+   stands.
+12. **Check the hypotheses.** Once the findings are drafted, say for each
    hypothesis in the record whether the evidence supports it, contradicts
    it or doesn't speak to it, with the findings behind each, and update its
    status. Do this after coding, not before, so the hypotheses don't steer
    what you see.
-12. **Look outside the frame.** Some findings point upstream or downstream
+13. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses-systems-and-journeys.md`).
-13. **Bring in partner data where it applies.** Say whether it agrees,
+14. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-14. **Run the claim-strength check** (`checks-claim-strength.md`) over the
+15. **Run the claim-strength check** (`checks-claim-strength.md`) over the
    draft findings.
-15. **Run the code checks if you can** (`scripts/`): every quote matches
+16. **Run the code checks if you can** (`scripts/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-16. **Run the independent review** (`review-independent-review.md`) once
+17. **Run the independent review** (`review-independent-review.md`) once
     the findings are drafted. It's required at this stage. Start it in the
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
-16. **Offer the analysis sheet** (`templates-analysis-sheet.md`) in one
+18. **Offer the analysis sheet** (`templates-analysis-sheet.md`) in one
     line once the findings are drafted: an Excel file laid out like the
     note-taking sheet, filled with what each participant said on each
     research question, the findings, the themes and the codes, for the
@@ -177,14 +203,19 @@ When you give a test result, a margin of error or a sample size:
 ## Usability data
 
 An issue list: task, how many hit it, severity (blocked, slowed, noticed),
-what happened, a quote or clip reference. Then the patterns across issues.
+how often it would happen in real use, what happened, a quote or clip
+reference. Severity is the issue's impact (blocked is high, slowed medium,
+noticed low) and sets its priority with reach
+(`lenses-confidence-and-priority.md`). Then the patterns across issues.
 Five participants are five people, not percentages.
 
 ## What to draft
 
-- The Findings section of the study record: claim, supporting evidence,
-  contradicting evidence, strength, and whether it's enough for the
-  decision.
+- The Findings section of the study record: claim, supporting evidence
+  tagged seen, past time or opinion, contradicting evidence, strength with
+  its confidence line, and whether it's enough for the decision.
+- The Priority table: impact, reach and priority for each finding, with
+  reasons, in the order the researcher agreed or marked as Magpie's draft.
 - The "also noticed" findings, for things outside the questions, held to
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
@@ -207,7 +238,10 @@ it.
 ## Exit criteria
 
 - Every finding answers a research question or is listed as "also noticed".
-- Every finding has its evidence, its counter-evidence and a strength label.
+- Every finding has its evidence, its counter-evidence, a strength label
+  and a confidence line.
+- Every finding has an impact, a reach and a priority, and the order has
+  been shown to the researcher.
 - Each finding is marked enough, enough with a caveat, or not enough for
   this decision, judged on what happened in the sessions.
 - The researcher kept, changed, split or dropped each theme, or the skip
@@ -225,6 +259,9 @@ it.
 - Dropping the participants who didn't fit.
 - "Users want" when three people mentioned it.
 - Letting a vivid quote stand in for a pattern.
+- Reporting what people said they do as what they do.
+- Marking a finding down because no other study exists yet.
+- Ranking findings by how sure we are instead of how much they matter.
 - A theme that is really the research question restated.
 
 ---

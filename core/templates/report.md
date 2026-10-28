@@ -61,11 +61,13 @@ here; those live in the study record and the appendix.
 
 ## Top findings
 
-Never more than five. One or two lines each, with strength and whether it's
-enough for this decision. A not-enough finding says what would make us
-surer and roughly what that costs.
+Never more than five, the highest-priority findings for this decision, in
+priority order. One or two lines each, with priority, confidence and
+whether it's enough for this decision. A not-enough finding says what would
+make us surer and roughly what that costs; a high-priority finding with
+weak confidence is marked "check next".
 
-1. **[Finding]** · [strength] · [enough / enough if [caveat] / not enough: [what would make us surer]]
+1. **[Finding]** · Priority: [high / medium / low] ([impact], [reach]) · Confidence: [strong / moderate / weak] ([why]) · [enough / enough if [caveat] / not enough: [what would make us surer]]
 2. …
 
 ## Findings in detail
@@ -78,7 +80,8 @@ caption saying what to see in it.
 
 ### Finding 1: [claim in plain words]
 
-**Strength:** [strong / moderate / weak], because [one line].
+**Priority:** [high / medium / low]. Impact: [what happens to people who hit it, and what it means for the decision]. Reach: [how many target users, how often; say if it isn't known outside the study].
+**Confidence:** [strong / moderate / weak], because [count and segments; fit to the target users; seen, past time or opinion; other sources agree, disagree, or this is the first study on it].
 **Answers:** [question].
 
 [Evidence with numbers and participant codes. Two or three quotes at most,
@@ -97,8 +100,8 @@ said.]
 
 ## Other findings
 
-Every finding that met the evidence bar but isn't in the top five, one
-line each with strength, tagged "unexpected" where it fell outside the
+Every finding that met the evidence bar but isn't in the top five, in
+priority order, one line each with priority and confidence, tagged "unexpected" where it fell outside the
 research questions. Nothing that passed the evidence bar is left out; a
 finding whose evidence didn't hold is in the appendix with the reason.
 
@@ -106,7 +109,8 @@ finding whose evidence didn't hold is in the appendix with the reason.
 
 Detailed. Each is an action, the teams it touches, the finding it rests
 on, the goal or metric it moves, and how confident we are. Number the
-actions in priority order. Add a sentence or two under the table where an
+actions in the priority order of the findings they rest on, unless the
+researcher orders them differently. Add a sentence or two under the table where an
 action needs explaining.
 Name the teams each action touches, not a person. Who takes each action
 is often for the teams to agree together; name a person only when the
