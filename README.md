@@ -48,7 +48,9 @@ per conversation; it stays on until you say "stop Magpie".
 - **Asks before it builds.** Before a plan, a guide, findings or a report,
   it asks up to six short questions about what it doesn't know, such as
   your hypotheses, the business goal and who will read it, plus the ones
-  your particular study raises. If it doesn't have the bare minimum, it
+  your particular study raises. A research plan from scratch gets up to
+  three short rounds (the problem, the method, then the logistics), so
+  the plan isn't built on guesses. If it doesn't have the bare minimum, it
   says so. It drafts nothing until the required answers are in, from you
   or as a guess you've said yes to. Say "just draft it" to skip the
   optional questions; for any required ones, Magpie shows its best
@@ -313,14 +315,14 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
-- **Early results look good but aren't confirmed.** There are now 96
+- **Early results look good but aren't confirmed.** There are now 97
   test scenarios. Most of the first 36 passed, but that run didn't prove
   Magpie was loaded each time. Three later runs used the stricter rules: 6
   of 7 coaching scenarios and 7 of 8 HEARTS scenarios passed, with one
   partial each, and the diary capture scenario passed. All were judged by
   a model, not yet by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 111 standards in
+- **Its rules are written down.** Magpie follows 112 standards in
   [`core/standards/`](core/standards/). 47 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.

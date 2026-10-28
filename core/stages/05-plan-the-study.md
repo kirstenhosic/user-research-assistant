@@ -32,6 +32,11 @@ are.
   is due, holidays and team availability.
 - Who's on the study team, and who will moderate and take notes.
 
+If stages 3 and 4 aren't done yet, don't squeeze all of this into one
+message. Gather it in up to three rounds (frame, method, plan), six
+questions at most each, and build the plan once (`operating.md`, "A plan
+from scratch takes rounds").
+
 ## What to do
 
 1. **Draft the plan from `templates/research-plan.md`.** Fill every section

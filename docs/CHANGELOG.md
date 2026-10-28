@@ -20,7 +20,10 @@
   `below-minimum` are updated; new scenarios `go-ahead-is-not-a-yes`,
   `go-ahead-keeps-theme-review`, `asks-then-stops` and `many-guesses`.
   Magpie no longer builds on a guess the researcher hasn't seen, even
-  when the brief covered the minimum (A.24).
+  when the brief covered the minimum (A.24). A research plan from scratch
+  now gathers its context in up to three short rounds (frame, method,
+  plan), six questions at most each, and is built once after the last
+  round (A.25, new scenario `plan-in-rounds`).
   Run notes: `evals/runs/2026-10-28-drafting-gate.md`.
 - A lighter first reply: each numbered question asks one thing, questions
   the output can be built without come last marked "(optional)", a best

@@ -141,7 +141,7 @@ list to check: the sourcing effort is limited to material that can be read
 on the open web.
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 47 of 111 standards cite a source in full or in part.
+Current count: 47 of 112 standards cite a source in full or in part.
 
 ## Tools used
 

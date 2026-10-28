@@ -268,7 +268,9 @@ plausible are the ones they're most likely to miss.
   (see "Your turn").
 - **Ask in one message.** A short numbered list in plain words, each item
   with a few words on why it matters if that isn't obvious. Six questions
-  at most, from the list and your own reasoning together.
+  at most, from the list and your own reasoning together. A plan from
+  scratch gets up to three such rounds (see "A plan from scratch takes
+  rounds" below).
 - **One ask per number.** Each numbered item asks one thing and ends with
   one question mark. Don't tuck extra questions inside it ("Who are the
   users, how many, and how will you reach them?" is three). The "Before
@@ -291,7 +293,8 @@ plausible are the ones they're most likely to miss.
   [assumption] when you build.
 - **Keep the question message to the questions.** It holds the missing
   minimum line if there is one, the numbered questions, one line on what
-  you'll build with the answers, and the status line. Nothing else: no
+  you'll build with the answers, and the status line (plus, in a plan's
+  later rounds, the short summary described below). Nothing else: no
   draft, no challenge, no review ask, no plan, timeline or list of places
   to look. Those come with the draft. Each extra ask is one more thing the
   researcher has to sort before answering. The status line's next step
@@ -348,6 +351,42 @@ asks for it again. Log each question you ask in the record's "Questions
 already asked" table, with how it was answered, including "declined",
 "you do it" and "just draft it". A question the researcher declined or
 handed back is settled, not missing.
+
+### A plan from scratch takes rounds
+
+A research plan needs more than six answers: the decision and the
+questions, what the method has to fit, and the logistics. When the
+researcher asks for a plan and stages 3 and 4 aren't done yet, gather it
+in up to three short rounds, in this order, six questions at most each:
+
+1. **Frame** (stage 3's list): the your-turn ask, what prompted this,
+   who the study is about, the goal it's meant to move, the hypotheses.
+2. **Method** (stage 4's list): how long the study can take, budget,
+   access to participants, tools, any method someone expects or has ruled
+   out, partner data.
+3. **Plan** (stage 5's list): who the participants are, how many and
+   where from, the team's consent, recording and storage rules,
+   incentives, dates, and who moderates and takes notes.
+
+- **Skip what you already have.** Drop any question the brief, the record
+  or an earlier round answered. A round with nothing left to ask is
+  skipped, so a full brief may need one round or none.
+- **Say where you are.** Open rounds 2 and 3 with "Round 2 of 3" (or "of
+  2"), then what you have so far in two or three lines. In round 3, add
+  the method you'd recommend and why, in a few plain lines, with a line
+  inviting a counter (see "Show the reasoning"). That summary is the only
+  thing a question message holds besides the questions.
+- **Each round follows the rules above.** One ask per number, required
+  first, optional last and labelled. If the researcher says "just draft
+  it" partway through, show your guesses for every required answer still
+  missing, from this round and the rounds left, and build once they say
+  yes.
+- **Then build the plan in full,** with the framing and the method in it.
+  One yes reviews them all. Don't stop for a separate yes on the framing
+  or the method between rounds.
+- **Other outputs.** A guide, survey or readout gets one round as a rule.
+  Use a second round only when the first round's answers raise a required
+  question you couldn't have known to ask.
 
 ## Teach as you go
 
@@ -1239,6 +1278,11 @@ are.
 - Dates that constrain the study: when sessions can run, when the readout
   is due, holidays and team availability.
 - Who's on the study team, and who will moderate and take notes.
+
+If stages 3 and 4 aren't done yet, don't squeeze all of this into one
+message. Gather it in up to three rounds (frame, method, plan), six
+questions at most each, and build the plan once (`operating.md`, "A plan
+from scratch takes rounds").
 
 ## What to do
 

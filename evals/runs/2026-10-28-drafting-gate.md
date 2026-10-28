@@ -36,6 +36,24 @@ fix any line", and every turn 3 built the output (or, at analysis, showed
 candidate themes for review, not findings). One first reply had 7
 numbered items, over the cap of six.
 
+## Plan in rounds (added after Kirsten chose rounds)
+
+Five more runs on this branch with A.25. A bare plan ask ("Can you make me
+a research plan for our new onboarding flow?") was answered round by
+round with scripted answers (3 runs). A fuller brief got one scripted
+answer and then "yes" (2 runs).
+
+- **Bare ask:** all 3 runs asked in three rounds of six numbered items,
+  labelled round 1, 2 and 3 of 3, with no draft before the last round.
+  Run 2 built the plan after round 3. Runs 1 and 3 first showed a short
+  guess list for two or three answers still missing (who the 8 should
+  be, how reversible the decision is, the goal metric), then built on
+  "yes". So a plan from a bare ask took four or five replies.
+- **Fuller brief:** both runs skipped the framing questions already
+  answered and went straight to the gaps, then a "round 2". The scripted
+  answers didn't cover the primary question, so Magpie asked again and
+  didn't build. That is the gate working; the script, not Magpie, stalled.
+
 ## Limits
 
 Two or three runs per ask is small. Every turn 2 was the same blanket
