@@ -20,7 +20,11 @@
   decision-maker or owner. Library entries and partner notes are offered
   after the yes instead of added to it. The question review no longer
   reopens research questions already agreed. Template descriptions in
-  `SKILL.md` no longer show a table. Nothing here was run live yet.
+  `SKILL.md` no longer show a table. A live re-run in Claude Code (three
+  sessions, judged by a model, not a person) showed the guide, findings
+  and readout reviews arriving as one message each, single cases under
+  the theme table, one ask per question and teams named instead of
+  people; the AI-tools and theme-review evals weren't run on their own.
 
 - Stage 7 gains "Numbers from small samples", from Sauro and Lewis,
   *Quantifying the User Experience*, 2nd ed. (S100, passages supplied by
