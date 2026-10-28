@@ -2,6 +2,16 @@
 
 ## 2026-10-28
 
+- A lighter first reply: each numbered question asks one thing, questions
+  the output can be built without come last marked "(optional)", a best
+  guess is offered where there is one, and the stage 3 your-turn ask is
+  one fill-in item (no separate "who decides and by when"). Standard A.6
+  and the your-turn-decision scenario are updated; new scenario
+  `light-first-reply`.
+- The README recommends Claude Code for the best results and Claude.ai,
+  Gemini or Copilot for the easiest start. Claude Code setup now uses the
+  personal skills folder (`~/.claude/skills/magpie/`), with a tip for
+  showing hidden folders.
 - Stages are now numbered 1 to 8 instead of 0 to 7, everywhere: the stage
   files (`core/stages/01-find-opportunities.md` to
   `08-read-out-and-report.md`), their headings, every "stage N" reference,

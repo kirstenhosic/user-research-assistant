@@ -8,9 +8,17 @@ beside it, and the code checks in `scripts/`.
 
 - **In this repo:** nothing to do. The same folder is at
   `.claude/skills/magpie/`, so open the repo and ask for Magpie.
-- **In your own project:** unzip `magpie.zip` (from the top of the
-  repository) into `.claude/skills/magpie/` in your project, or copy
+- **For all your projects (recommended):** unzip `magpie.zip` (from the
+  top of the repository) into your personal skills folder,
+  `~/.claude/skills/magpie/`. You can ask Claude Code to do it: "Unzip
+  ~/Downloads/magpie.zip into ~/.claude/skills/magpie/".
+- **For one project, shared with a team:** unzip it into
+  `.claude/skills/magpie/` in that project and commit it, or copy
   `adapters/skill/magpie/` there.
+
+Locations checked against https://code.claude.com/docs/en/skills on
+28 October 2026. Personal skills load in every project on that computer,
+but not in Cowork or cloud sessions.
 
 Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
 `scripts/evidence_check.py` itself, and can start a separate agent for the independent reviews: the question

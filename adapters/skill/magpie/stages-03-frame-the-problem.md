@@ -28,8 +28,8 @@ raises, within the same six.
 who the study is about.
 
 - What prompted this: who asked, and what they asked for, in their words.
-- Who makes the decision, and by when. (The decision itself is the
-  researcher's turn, below.)
+- Who makes the decision, and by when, only if the your-turn answer
+  below leaves it out. (The decision itself is the researcher's turn.)
 - The business goal or metric it's meant to move, and what a wrong call
   would cost: can it be undone, and how quickly?
 - The hypotheses: what the team believes now, and what would change its
@@ -39,19 +39,27 @@ who the study is about.
 
 **Your turn** (`operating.md`, "Your turn"). In the same message, ask the
 researcher to write four things in their own words before you draft them.
-Together they count as one of the six questions.
+Give them as one numbered item, a fill-in line each, so they read as one
+thing to fill in. Together they count as one of the six questions. For
+example:
 
-- The decision: "What will someone decide differently once you know the
-  answer?" Give the shape if it helps: *[The team or group] will decide [what] by
-  [when], choosing between [options].*
-- The primary research question: "If you could ask one question to make
-  that decision easier, what would it be?"
-- Research questions the team already has: "Has anyone written research
-  questions for this already, or are there questions stakeholders keep
-  asking? List them as they are, even if they're rough."
-- The assumptions: "What is the team taking for granted here? Anything
-  that, if it turned out to be wrong, would change the study or the
-  decision."
+> Your turn, a line each is fine:
+> - **The decision:** [the team or group] will decide [what] by [when],
+>   choosing between [options].
+> - **The one question** that would make that decision easier: ...
+> - **Questions people already have** (rough is fine, or "none"): ...
+> - **What the team is taking for granted** (or "none"): ...
+
+What each line is for:
+
+- The decision: what will someone decide differently once they know the
+  answer?
+- The primary research question: the one question that would make that
+  decision easier.
+- Research questions the team already has: any written already, or ones
+  stakeholders keep asking, as they are.
+- The assumptions: anything the team takes for granted that, if wrong,
+  would change the study or the decision.
 
 Don't offer your guess at any of them. If they say "not sure" or "you do
 it", draft them yourself. "None" is a fine answer for the last two; write

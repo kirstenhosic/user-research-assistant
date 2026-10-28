@@ -25,9 +25,10 @@ it drafts them, and does it in the same message as the context questions.
   the shape of a decision statement if it helps), what one question would
   make that decision easier, whether the team already has research
   questions or ones stakeholders keep asking, and what the team is taking
-  for granted. These four count as one question. Also asks for the
-  missing context (who decides and by when, the goal or metric, the
-  hypotheses, who the study is about).
+  for granted. These four come as one numbered item with a fill-in line
+  each, and count as one question. Also asks for the missing context (the
+  goal or metric, the hypotheses, who the study is about), without asking
+  again for who decides and by when, which the decision line covers.
 - Doesn't offer its own guess at any of the four.
 - Once the researcher answers, keeps their words, fills in what's missing
   from the decision format, and says what it changed and why in one

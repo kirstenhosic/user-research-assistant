@@ -194,22 +194,34 @@ recordings and anything your company treats as internal. If you aren't
 sure what's allowed, ask your manager or your privacy or security team
 before you start.
 
-Then set it up in your tool.
+Then set it up in your tool. **Best results: Claude Code.** There, Magpie
+runs its quote and count checks itself and starts its independent
+reviewer on its own; in other tools you paste the review in by hand.
+**Easiest start: Claude.ai, Gemini or Copilot.** Only Claude Code has been
+tested from start to finish so far.
 
 ### Claude Code
 
 You need the Claude Code command-line tool or its desktop app.
 
-1. Open your project in Claude Code.
-2. Unzip `magpie.zip` into a folder named `magpie` inside your project's
-   `.claude/skills/` folder, so you end up with
-   `.claude/skills/magpie/SKILL.md`. Create `.claude/skills/` if it isn't
-   there.
+1. Download `magpie.zip` and open Claude Code.
+2. Ask Claude Code to install it for you, for example: *"Unzip
+   ~/Downloads/magpie.zip into ~/.claude/skills/magpie/"*. That's your
+   personal skills folder, so Magpie works in all your projects on this
+   computer. You should end up with `~/.claude/skills/magpie/SKILL.md`.
 3. Start a conversation and ask for help with a study, or just say
    "magpie". Claude loads the skill on its own.
 
-If you open this repository itself in Claude Code, skip step 2; the skill is
-already in place.
+To share Magpie with a team through one project instead, put it in that
+project's `.claude/skills/magpie/` folder and commit it. If you open this
+repository itself in Claude Code, skip step 2; the skill is already in
+place.
+
+Folders that start with a dot are hidden. On a Mac, press Cmd+Shift+. in
+Finder to show them. On Windows, turn on **Hidden items** in File Explorer's
+**View** menu (under **Show** on Windows 11). Where these skill folders live, and what loads where, is
+in Claude Code's [skills docs](https://code.claude.com/docs/en/skills)
+(checked October 28, 2026).
 
 ### Claude.ai
 
@@ -299,7 +311,7 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
-- **Early results look good but aren't confirmed.** There are now 91
+- **Early results look good but aren't confirmed.** There are now 92
   test scenarios. Most of the first 36 passed, but that run didn't prove
   Magpie was loaded each time. Three later runs used the stricter rules: 6
   of 7 coaching scenarios and 7 of 8 HEARTS scenarios passed, with one

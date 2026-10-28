@@ -247,11 +247,21 @@ plausible are the ones they're most likely to miss.
 - **Ask only for what's missing.** Don't ask for something the researcher
   has already said or that's in the record or their files. Where you can
   make a reasonable guess, offer it so they can confirm it in a word
-  ("Owner: the PM who asked. Right?"). Never guess a your-turn item this way
+  ("Audience: the PM, designer and engineering lead. Right?"). A guess
+  turns a question into a "yes". Never guess a your-turn item this way
   (see "Your turn").
 - **Ask in one message.** A short numbered list in plain words, each item
   with a few words on why it matters if that isn't obvious. Six questions
-  at most, from the list and your own reasoning together. The product
+  at most, from the list and your own reasoning together.
+- **One ask per number.** Each numbered item asks one thing. Don't tuck
+  extra questions inside it ("Who are the users, how many, and how will
+  you reach them?" is three). If a question has parts, keep the part that
+  would change the output most and guess or drop the rest. The your-turn
+  ask is the one exception: it's a single fill-in (see "Your turn").
+- **Mark what can wait.** Put the questions the output can't be built
+  without first. Label the others "(optional)" and say once that skipping
+  them is fine: you'll mark the gap [assumption]. The researcher should be
+  able to see at a glance which answers matter most. The product
   offer ("Know the product") and the stage 8 reading check are among the
   six when they fall in this message. If more are missing, keep the
   minimum (below) and the your-turn ask, then the ones that would change
@@ -352,9 +362,11 @@ Each stage file says how. The rules are the same everywhere:
 - **Ask with the context questions.** The your-turn ask goes in the same
   message as the "Before you build" questions, not a message of its own.
   Ask a plain question ("What will you decide differently once you
-  know?"), with an example of the shape if it helps. The your-turn ask
-  counts as one of the six questions, even when it has parts. Don't offer
-  your own guess first; it would do the work for them.
+  know?"), with an example of the shape if it helps. When it has parts,
+  give it as one numbered item with a fill-in line for each part, so it
+  reads as one thing to fill in, not several questions. It counts as one
+  of the six. Don't offer your own guess first; it would do the work for
+  them.
 - **Build on what they wrote.** Keep their words where they work. Where you
   sharpen something, say what you changed and give the reason in one
   sentence. Never replace their version silently.
