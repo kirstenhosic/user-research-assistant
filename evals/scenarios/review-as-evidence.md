@@ -11,7 +11,7 @@
 ## Planted problem
 
 No users were involved. The issues are reviewers' predictions, and the
-headline states them as user behaviour.
+headline states them as user behavior.
 
 ## Pass
 

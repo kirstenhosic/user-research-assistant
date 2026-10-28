@@ -36,7 +36,7 @@ happened yet, leave that part as a prompt to fill in afterwards.
   them]
 - [Anything left unsaid in the room, and when to raise it]
 
-## One skill to practise
+## One skill to practice
 
 - [One skill this study showed is worth working on, with one small step
   for next time]

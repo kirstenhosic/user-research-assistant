@@ -118,7 +118,7 @@ to walk you through the last time they used it?"
 
 ## Red flags
 
-Always raise a leading, loaded or double-barrelled question, even at "light".
+Always raise a leading, loaded or double-barreled question, even at "light".
 
 ## Exit criteria
 
@@ -133,14 +133,14 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 - Moderator notes present.
 - The instrument given as a Word file as well as Markdown, or the
   researcher told how to get one, with its document details filled in or
-  labelled blank.
+  labeled blank.
 - Note-taking sheet given, for interviews, tests and diary studies.
 - Pilot planned or deliberately skipped (logged as a risk).
 
 ## Pitfalls
 
-- Asking people to predict their future behaviour ("would you use…?") when
-  you could ask about their past behaviour.
+- Asking people to predict their future behavior ("would you use…?") when
+  you could ask about their past behavior.
 - Questions that are really the product team's hopes with a question mark.
 - A guide so long the best material comes after the participant is tired.
 - No probes, so every answer stays at the surface.

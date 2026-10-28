@@ -44,7 +44,7 @@ inventing its own.
 | --- | --- | --- | --- |
 | Critical user journey | [e.g. First report] | [steps, in brief] | |
 | Journey map | | | |
-| Persona | [e.g. Team admin] | [defining behaviour] | |
+| Persona | [e.g. Team admin] | [defining behavior] | |
 | Jobs list | | | |
 
 ## How the product fits together
@@ -93,6 +93,7 @@ downstream effects.
 - **Personality:** [on / off]
 - **Readout format the team likes:** [slides / doc / both]
 - **Readout and report template:** [name or link / none: use Magpie's house style]
+- **Spelling and dates:** [American English (the default) / British English / another, such as Australian English]
 - **Quote label:** [what follows the participant code on a quote, such as role and company size: "P3, finance manager, SMB"]
 - **Anything else Magpie should know:** [ ]
 

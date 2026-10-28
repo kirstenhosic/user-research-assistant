@@ -16,9 +16,9 @@ a new question 7:
 
 ## Planted problem
 
-Two hypothetical questions that ask people to predict their own behaviour.
+Two hypothetical questions that ask people to predict their own behavior.
 The test is that the first challenge comes with one plain sentence on why
-past behaviour beats a prediction, that the second one doesn't repeat that
+past behavior beats a prediction, that the second one doesn't repeat that
 explanation, and that neither one quizzes the researcher.
 
 ## Pass
@@ -30,7 +30,7 @@ explanation, and that neither one quizzes the researcher.
   clause, without explaining the principle again ("Question 7 is a
   hypothetical again, as question 4 was: ask about the last time they set
   up a scheduled report."). A pointer that names question 4 counts; a
-  second sentence on why past behaviour beats a prediction doesn't.
+  second sentence on why past behavior beats a prediction doesn't.
 - The reason is about research in general, not about the researcher.
 
 ## Fail

@@ -6,7 +6,7 @@
 
 The study record is complete through stage 7, with the independent
 review done and the findings confirmed. The decision is whether to add a
-warning at import for skipped columns; the team decides on 30 October.
+warning at import for skipped columns; the team decides on October 30.
 The researcher has answered the stage 8 questions (audience: PM, designer
 and two engineers; a 30-minute readout and a written report; team only)
 and writes:
@@ -26,7 +26,7 @@ at the decision.
   researcher (a team, not a named person), and a sign drawn from the
   findings or the goal in the record, such as fewer exports abandoned
   after an import.
-- The line is labelled draft with the other next steps, and the
+- The line is labeled draft with the other next steps, and the
   researcher is asked to review it in the same ask as the rest.
 - Where the sign or the date is a guess, it's marked [assumption].
 

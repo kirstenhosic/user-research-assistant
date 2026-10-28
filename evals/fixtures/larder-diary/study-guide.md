@@ -2,7 +2,7 @@
 
 Sent to participants at the kick-off call on 2026-10-04.
 
-Thanks for joining. For the next two weeks (5 to 18 October), please make
+Thanks for joining. For the next two weeks (5 to October 18), please make
 a short entry every time you plan meals or make a shopping list, whether or
 not you use Larder. Each entry: when it was, what you did, whether you used
 Larder, how long it took, and anything that got in the way.

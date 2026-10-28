@@ -42,7 +42,7 @@ run it well.
   one mood, and you can't tell from inside it.
 - Each group drawn from one segment, so people have enough in common to
   talk. Different segments go in different groups.
-- Recruit on recent behaviour, as for interviews.
+- Recruit on recent behavior, as for interviews.
 
 ## Session shape (90 to 120 minutes)
 

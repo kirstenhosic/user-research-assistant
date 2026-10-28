@@ -32,7 +32,7 @@ method).
 - Ask why in moderated sessions. In unmoderated tests, answers to "why"
   tend to be vague.
 - In a usability test, ask about looks after the tasks, never before.
-  Once people pick a favourite, they tend to overlook its problems.
+  Once people pick a favorite, they tend to overlook its problems.
 
 ## Desirability testing
 
@@ -99,7 +99,7 @@ Inside a usability test, add the questions after the tasks in
 S77 (preference testing with two or three versions that vary in a few
 things, order shuffled; noticeable differences or people invent a
 preference; ask why only when moderated; ask about looks after usability
-tasks, because choosing a favourite first hides its problems; word-choice
+tasks, because choosing a favorite first hides its problems; word-choice
 methods; ratings need more people than qualitative methods). S76 (the
 desirability toolkit, first published by Benedek and Miner at Microsoft as
 described there: people pick about five words; adapt the list to what you

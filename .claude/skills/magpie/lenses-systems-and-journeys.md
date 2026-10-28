@@ -76,7 +76,7 @@ rather than reinventing them.
   step, which persona or user group. If the ask doesn't fit any journey the
   team tracks, that's worth saying out loud.
 - At recruiting (stage 5), the sample is described in the team's persona
-  or segment names where they exist, with the behaviour criteria that
+  or segment names where they exist, with the behavior criteria that
   define them.
 - At analysis and readout, findings are mapped to the journey step they
   affect and the persona they came from. A finding that lands on a CUJ gets
@@ -128,7 +128,7 @@ Under "Business context", three more lines:
 - **Job:** [what the user is trying to get done]
 - **Journey and step:** [which CUJ or journey, which step; "none tracked"
   is a valid answer]
-- **Persona or group:** [the team's name for them, with the behaviour that
+- **Persona or group:** [the team's name for them, with the behavior that
   defines them]
 
 And under "Assumptions and risks", any upstream or downstream dependency

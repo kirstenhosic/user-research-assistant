@@ -1,4 +1,4 @@
-# Double-barrelled research question
+# Double-barreled research question
 
 **Stage:** 3
 

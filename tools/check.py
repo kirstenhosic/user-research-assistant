@@ -13,7 +13,10 @@ Checks:
   5. Every eval scenario names standards that exist.
   6. The code checks pass their fixture tests, and the Word and Excel
      exports write valid files.
-  7. Size report for the generic prompts, with a rough token estimate.
+  7. Hand-written files use American English: no British spellings and
+     no day-before-month dates. Participant transcripts, docs/CHANGELOG.md
+     and evals/runs/ are left as written.
+  8. Size report for the generic prompts, with a rough token estimate.
 
 Exit 1 if any check fails. The size report never fails the run.
 """
@@ -168,6 +171,58 @@ def check_standards_and_evals() -> None:
                 fail(f"{path.relative_to(ROOT)}: tests unknown standard {sid}")
 
 
+# American English. Each pattern is a British form; the generated adapters
+# are rebuilt from core/ and are covered through it.
+BRITISH = re.compile(
+    r"\b(?:"
+    r"(?:behavio|colo|favo|flavo|hono|humo|labo|neighbo|rumo|harbo|savo|endeavo|armo|odo|rigo|vigo|clamo)ur\w*"
+    r"|\w+isations?"
+    r"|(?:organ|recogn|real|summar|priorit|critic|emphas|minim|maxim|optim|categor|anonym|visual|standard"
+    r"|apolog|custom|personal|synthes|final|util|familiar|general|character|special|author|memor|normal"
+    r"|contextual|verbal|scrutin|stabil|central|capital|local|initial|incentiv|harmon|item|summar|theor)is(?:e|ed|es|ing)"
+    r"|analys(?:e|ed|ing)"
+    r"|(?:label|travel|cancel|model|signal|level|fuel|counsel|total|channel|funnel|tunnel|marshal|barrel)l(?:ed|ing|er|ers)"
+    r"|jewellery|enrolment|fulfilment|skilful|wilful|instalments?"
+    r"|(?:cent|theat|met|lit|fib|calib|somb|spect|lust|meag)re[sd]?"
+    r"|grey|licence|defence|offence|pretence|practis(?:e|ed|es|ing)|artefacts?|catalogue[sd]?|programmes?"
+    r"|judgements?|ageing|cheques?|tyres?|aluminium|ploughs?|moulds?|whilst|amongst|learnt|spelt"
+    r"|sceptic\w*|manoeuvre\w*|paediatric\w*|analogue|full stops?|tick box(?:es)?"
+    r")\b",
+    re.IGNORECASE,
+)
+DAY_MONTH = re.compile(
+    r"\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\b"
+)
+# Titles and names kept as published, and the examples of other varieties
+# in the rule that lets a researcher choose one.
+KEEP_AS_PUBLISHED = ['"Analyse a research session"', "(analyse,", "behaviour, colour, 27 October 2026)",
+                     '"27 October 2026" in British English']
+# The scenario that tests this rule plants British spelling on purpose.
+SPELLING_EXEMPT = {"evals/scenarios/spelling-and-dates.md"}
+
+
+def english_files() -> list[Path]:
+    paths = [ROOT / "README.md", ROOT / "evals" / "README.md"]
+    paths += sorted(CORE.rglob("*.md"))
+    paths += sorted(p for p in (ROOT / "docs").rglob("*.md") if p.name != "CHANGELOG.md")
+    paths += sorted((ROOT / "evals" / "scenarios").glob("*.md"))
+    paths += sorted(p for p in (ROOT / "evals" / "fixtures").rglob("*.md")
+                    if not {"transcripts", "sessions"} & set(p.parts))
+    paths += sorted((ROOT / "adapters").glob("*/README.md"))
+    paths += sorted((ROOT / "tools").rglob("*.py"))
+    return [p for p in paths if p.exists() and p != Path(__file__).resolve()
+            and p.relative_to(ROOT).as_posix() not in SPELLING_EXEMPT]
+
+
+def check_american_english() -> None:
+    for path in english_files():
+        for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+            for keep in KEEP_AS_PUBLISHED:
+                line = line.replace(keep, "")
+            for m in list(BRITISH.finditer(line)) + list(DAY_MONTH.finditer(line)):
+                fail(f"{path.relative_to(ROOT)}:{n}: \"{m.group(0)}\" is not American English")
+
+
 def check_export() -> None:
     from xml.dom import minidom
     src = ROOT / "evals" / "fixtures" / "export-sample.md"
@@ -250,6 +305,7 @@ def main() -> int:
     check_standards_and_evals()
     check_fixtures()
     check_export()
+    check_american_english()
     size_report()
     if problems:
         print(f"\n{len(problems)} problem(s):")

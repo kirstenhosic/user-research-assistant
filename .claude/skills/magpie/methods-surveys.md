@@ -242,7 +242,7 @@ engaging items first, demographics late; ordinal scales kept in order,
 sometimes reversed for half the sample; nominal lists rotated; open pilot
 to build closed lists; pretesting with cognitive interviews). Also S6
 (ask only what the research questions need; neutral wording); S8 (past
-behavior over future intentions); S40 (word-labelled scales; acquiescence
+behavior over future intentions); S40 (word-labeled scales; acquiescence
 and social desirability bias). The survey as part of the product
 experience: S82 (people don't separate a survey from the brand; length,
 frequency, broken branching and media; test the built instrument; a

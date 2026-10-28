@@ -1,6 +1,6 @@
 # Draft findings: Larder meal-planning diary study
 
-Six participants kept a diary for two weeks, 5 to 18 October 2026, with an
+Six participants kept a diary for two weeks, 5 to October 18 2026, with an
 exit interview each. Research question: how does weekly meal planning fit
 into people's weeks, and what makes them stop? Draft by the researcher,
 before review.

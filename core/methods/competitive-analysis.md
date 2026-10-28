@@ -163,13 +163,13 @@ has the shape.
 >
 > **Fit assessment.** A's "start and end postcode" pattern would suit
 > Tally's field-sales persona (it removes typing); what it assumes (a
-> UK address format) doesn't hold for the US half of users. Labelled
+> UK address format) doesn't hold for the US half of users. Labeled
 > [assumption] until checked in sessions. "Both competitors do it" is
 > recorded as a reason to test, not to build.
 
 ## Pitfalls
 
-- A feature checklist with ticks. It tells you what exists, not what fits.
+- A feature checklist with checkmarks. It tells you what exists, not what fits.
 - Calling a marketing page or a demo video an observation of how the tool
   works for users. A demo shows the happy path.
 - Filling a cell from memory of how a tool used to work.

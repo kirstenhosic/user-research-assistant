@@ -29,9 +29,9 @@ reminder working, not a planning habit.
 | Repeated suggestions slowed one participant down. | P4 (E04, X02) | | single case |
 | Shared planning isn't supported, so planning with others moves off the app: P3's house uses a whiteboard (X04), P4 reads the plan aloud to the person who shops (X04, X06). | P3, P4 | P5 sent the list to a partner from the app (E02) | weak |
 | The shopping list is the most-used part for some: 5 of 6 used it. | P1, P2, P3, P5, P6 | P4 (X04) | moderate |
-| Single cases worth keeping, labelled as such: P6 wants price per meal (X04); P1 can't find recipes the whole family will eat (X08). | | | single case each |
+| Single cases worth keeping, labeled as such: P6 wants price per meal (X04); P1 can't find recipes the whole family will eat (X08). | | | single case each |
 
-P5 dropped out after 8 October with no exit interview (researcher note).
+P5 dropped out after October 8 with no exit interview (researcher note).
 Four days of entries can support what P5 did, never what P5 didn't do.
 
 ## Planted traps in `draft-findings.md`

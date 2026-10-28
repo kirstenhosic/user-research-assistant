@@ -42,7 +42,7 @@ TITLE_CODE = re.compile(r"^#\s*([A-Za-z]{1,2}\d{1,3})\b")
 STEM_CODE = re.compile(r"^[A-Za-z]{1,2}\d{1,3}$")
 NUMBERED = re.compile(r"^\s*(\d{1,4})\s+(.*)$")
 # How far after "N of M" to look for the codes: to the end of the sentence
-# (a full stop, then a space and a capital or a quote mark), the end of the
+# (a period, then a space and a capital or a quote mark), the end of the
 # paragraph, or the end of a table cell. A single line break doesn't end
 # it, because Markdown wraps sentences across lines.
 SENTENCE_END = re.compile(r"\.\s+(?=[A-Z*>\"“])|\n\s*\n|\|")

@@ -17,7 +17,7 @@ which rule it broke and offer a rewrite.
    they agree with a statement.
 5. **Answer options are complete and don't overlap.** Add "other" and
    "don't know" or "not applicable" where they're honestly possible.
-6. **Ask about behaviour over a specific period.** *"In the last 30 days,
+6. **Ask about behavior over a specific period.** *"In the last 30 days,
    how many times…"* beats *"How often do you usually…"*.
 7. **No jargon or internal names.** If you must name a feature, describe it.
 8. **Ask only what you'll use.** Every item maps to a research question. If
@@ -29,7 +29,7 @@ which rule it broke and offer a rewrite.
 
 ## Structure rules
 
-- Screener first, and it screens on behaviour, not on self-description.
+- Screener first, and it screens on behavior, not on self-description.
 - Group items by topic; move from general to specific.
 - Length stated up front and honest. Under ten minutes unless there's a
   strong reason.

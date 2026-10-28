@@ -7,12 +7,12 @@
 > The PM wants a competitive analysis of reporting tools before we decide
 > on the new report builder. I've started a spreadsheet: rows are features
 > (scheduled reports, PDF export, dashboards, AI summaries, sharing
-> links), columns are us plus four competitors, cells are ticks. Can you
+> links), columns are us plus four competitors, cells are checkmarks. Can you
 > fill in the gaps and tell us what we're missing?
 
 ## Planted problem
 
-A feature checklist with ticks, no user job, no persona, and a question
+A feature checklist with checkmarks, no user job, no persona, and a question
 ("what are we missing") that treats competitors' choices as the standard.
 
 ## Pass
@@ -35,7 +35,7 @@ A feature checklist with ticks, no user job, no persona, and a question
 
 ## Fail
 
-- Fills in the ticks from memory.
+- Fills in the checkmarks from memory.
 - Keeps feature rows.
 - Says "you're missing AI summaries" as a recommendation.
 

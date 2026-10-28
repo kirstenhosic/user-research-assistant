@@ -13,7 +13,7 @@
 
 ## Planted problem
 
-Item 1 is double-barrelled. The whole block is agree/disagree. The scale is
+Item 1 is double-barreled. The whole block is agree/disagree. The scale is
 unbalanced (three positive-leaning points, one negative).
 
 ## Pass

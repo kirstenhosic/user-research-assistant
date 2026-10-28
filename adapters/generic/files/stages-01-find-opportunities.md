@@ -102,7 +102,7 @@ aren't users. What do we know about what users do when they lack X?"
 ## Exit criteria
 
 - Opportunities named with the user need, the company goal, the market
-  signal and the gap, each labelled by source.
+  signal and the gap, each labeled by source.
 - Top three to five picked, with a plain-words reason.
 - A brief drafted for each, with a proposed decision and decision owner.
 

@@ -26,7 +26,7 @@ what gets in the way.
 - Where groups differ, recruit across the differences that could change the
   answers. A fixed number per persona ("five each") can mean far more
   interviews than the question needs.
-- Recruit on recent behaviour ("did X in the last month"), not on
+- Recruit on recent behavior ("did X in the last month"), not on
   self-description ("considers themselves a power user").
 
 ## Session shape (45 to 60 minutes)
@@ -104,7 +104,7 @@ quotes tied to participant codes and timestamps. Stage 7 covers this.
 
 ## Pitfalls
 
-- Asking people to predict their future behaviour.
+- Asking people to predict their future behavior.
 - Letting a talkative participant set the agenda for the whole study.
 - Hearing what you hoped to hear. Write down the disconfirming cases.
 - Treating eight interviews as "most users think…". They tell you what
@@ -131,11 +131,11 @@ questions: S41 (easy questions first to put people at ease; ask about
 specific events, because memory is flawed; follow-up questions prepared,
 probes used as they arise; leading questions compromise the data); S5
 (past experience over hypotheticals); S8 (self-reported intentions are
-unreliable). Recruiting on behaviour: S9. Analysis: S1b. Ratings with a
+unreliable). Recruiting on behavior: S9. Analysis: S1b. Ratings with a
 "why": S38 (pair a rating with "why did you give it that score?" for
 qualitative insight, and don't make much of the average from a few users);
 S39 (closed questions used sparingly in qualitative research, because they
-stop the conversation); S40 (word-labelled scales are easier to understand;
+stop the conversation); S40 (word-labeled scales are easier to understand;
 rating scales are prone to acquiescence and social-desirability bias); S12
 (numbers from small qualitative studies carry large error). Session timings,
 counting to five in silences, one to three ratings, and the AI-moderator

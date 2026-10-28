@@ -17,7 +17,7 @@ The Word and PowerPoint files open in Google Docs and Google Slides too:
 upload to Drive and open with the matching app.
 
 The deck is deliberately unbranded so any team can drop in its own logo and
-colours, or paste its content into the team's own template. It uses only
+colors, or paste its content into the team's own template. It uses only
 Office fonts (Cambria and Calibri), which Google Slides also has. Its
 design rules, in case you restyle it:
 
@@ -30,7 +30,7 @@ design rules, in case you restyle it:
 - One message per slide, with large type and room around it.
 - Each finding slide has a stat card, one quote, who didn't fit and what it
   means, with the evidence strength in words.
-- Colour never carries meaning alone: strength and the "serious" flag are
+- Color never carries meaning alone: strength and the "serious" flag are
   written out.
 - The recommendations are cards in priority order. They name the teams
   involved, not a person; who takes each one is for the teams to agree.
@@ -39,7 +39,7 @@ design rules, in case you restyle it:
 The Markdown files are what Magpie actually writes; the Word and PowerPoint
 versions were converted from them. They follow the house style
 (`core/templates/house-style.md`): headings and slide titles that state the
-finding, numerals for every count, quotes labelled with the participant's
+finding, numerals for every count, quotes labeled with the participant's
 role and company size ("P3, operations analyst, 120 seats"), a bracketed
 placeholder where a quote named someone, and a "How AI was used" section
 in the appendix.

@@ -37,7 +37,7 @@ paste-in format so Magpie can log it in one step. The partner asks are in
 | Customer success signals | Health scores, escalation logs, renewal risk lists, QBR notes | CS lead or account manager | Which accounts are affected, what they said, renewal or escalation context |
 | Market research | Marketing or strategy team, analyst subscriptions, buyer surveys, competitor teardowns | Marketing or strategy | Source, date, who was surveyed (buyers, users, market), the two or three findings that bear on the topic |
 | Company goals and bets | OKR docs, the all-hands deck, the planning doc for the quarter, the team profile | The PM or the team lead | Goal, metric, owner, in the company's own words |
-| Journeys, personas, jobs | Design team's files, the team profile, a service blueprint | Design lead | The names, the defining behaviour, a link |
+| Journeys, personas, jobs | Design team's files, the team profile, a service blueprint | Design lead | The names, the defining behavior, a link |
 
 ## Paste-in format
 

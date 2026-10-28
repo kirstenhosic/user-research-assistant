@@ -1,6 +1,6 @@
 # Design
 
-Version 0.1, 26 October 2026. This is the design the first build follows. It
+Version 0.1, October 26, 2026. This is the design the first build follows. It
 will change as real researchers use the tool; `docs/CHANGELOG.md` records what
 changed and why.
 
@@ -99,7 +99,7 @@ questions and the hypotheses.
 | 2. Frame the problem | Decision statement, business goal, hypotheses, research questions, assumptions | "If the answer came back the opposite way, what would the team do differently?" | No decision depends on the answer |
 | 3. Choose the approach | Method recommendation with trade-offs | "Why can't analytics or a quick test answer this?" | |
 | 4. Plan the study | Research plan, recruiting criteria, timeline | "Who is missing from this sample, and does that matter for the decision?" | |
-| 5. Draft the guide or instrument | Interview guide, test script, survey, diary prompts | Flags leading, double-barrelled or hypothetical questions | |
+| 5. Draft the guide or instrument | Interview guide, test script, survey, diary prompts | Flags leading, double-barreled or hypothetical questions | |
 | 6. Analyze | Coding frame, themes, findings with evidence strength | "Which participants contradict this theme?" | |
 | 7. Read out and report | Readout deck outline, final report | "What should the PM do on Monday because of this?" | |
 | Workshop branch | Agenda, activities, pre-reads, a workshop summary (both as Word files with document details) | "What decision should the room leave with?" | Runs after stage 3 to align on the problem, or after stage 8 to turn findings into ideas |
@@ -239,7 +239,7 @@ hallucination entirely, so the tool also says how confident it is.
 
 | Layer | What it does | What it catches | Where it runs |
 | --- | --- | --- | --- |
-| 1. Grounding rules | Every finding cites its evidence: participant, transcript line or timestamp, survey question. Claims without a source are labelled assumptions. | Invented findings, unsupported generalizations | Every stage |
+| 1. Grounding rules | Every finding cites its evidence: participant, transcript line or timestamp, survey question. Claims without a source are labeled assumptions. | Invented findings, unsupported generalizations | Every stage |
 | 2. Source labels | Each statement is tagged as coming from your data, from partner data, from general practice or from an assumption | General knowledge passed off as a study finding | Every stage |
 | 3. Checks done by code, not the model | Quotes are string-matched against transcripts. Counts and survey statistics are computed by code. | Altered or invented quotes, wrong counts, wrong percentages | Analysis, readout, report |
 | 4. Built-in checklists | Each stage ends with a short self-check against written criteria | Leading questions, missing consent plan, overclaiming | Every stage |
@@ -286,8 +286,8 @@ in a prompt. Each standard is a criterion the assistant applies, a check can
 verify and an eval can test.
 
 1. **Standards per stage.** Each stage file lists what "good" looks like as
-   concrete criteria. Example for a guide: questions ask about past behaviour
-   rather than hypothetical future behaviour, and none suggests an answer.
+   concrete criteria. Example for a guide: questions ask about past behavior
+   rather than hypothetical future behavior, and none suggests an answer.
 2. **Each standard names its basis.** A standard links to the public source it
    comes from. If no verifiable source exists, it's marked as practitioner
    judgment.
@@ -338,13 +338,13 @@ drafts. A reader should get the point on the first pass.
 
 ## Personality
 
-The assistant has a light, warm sense of humour. Research is serious, but the
+The assistant has a light, warm sense of humor. Research is serious, but the
 experience shouldn't feel like filling in a form.
 
-- **Where humour lives:** small asides, the way it reacts to a skipped
+- **Where humor lives:** small asides, the way it reacts to a skipped
   challenge, a dry comment when a stakeholder request is vague, the occasional
   self-aware line about being an assistant.
-- **Where humour never goes:** findings, numbers, quotes, confidence labels,
+- **Where humor never goes:** findings, numbers, quotes, confidence labels,
   risks, consent or ethics, and any moment the researcher is under pressure or
   something has gone wrong.
 - **Never at the researcher's expense.** It can tease a vague brief or a
@@ -367,9 +367,9 @@ consistent across platforms.
 | Contextual inquiry | Seeing real work in its setting | Workflow and breakdown mapping |
 | Moderated usability testing | Finding why people struggle with a design | Issue severity and frequency |
 | Unmoderated usability testing | Task success at larger sample sizes | Success rates, time on task, clips |
-| Surveys | Measuring how common an attitude or behaviour is | Descriptives, cross-tabs, open-end coding, cautions on significance claims |
+| Surveys | Measuring how common an attitude or behavior is | Descriptives, cross-tabs, open-end coding, cautions on significance claims |
 | Concept and value testing | Early direction before building | Reaction patterns, value and fit signals |
-| Diary studies | Behaviour over time | Longitudinal themes |
+| Diary studies | Behavior over time | Longitudinal themes |
 | Card sorting and tree testing | Information architecture | Similarity patterns, findability |
 | Evidence review | Reusing what is already known | Evidence brief |
 | Competitive analysis | Seeing how other tools solve the same job, and what would fit your users | Fit matrix, patterns, fit assessment |

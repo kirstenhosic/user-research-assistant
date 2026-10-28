@@ -5,7 +5,7 @@ weeks, as it happens rather than from memory.
 
 ## Use it when
 
-- The question is about behaviour over time: habits, frequency, triggers,
+- The question is about behavior over time: habits, frequency, triggers,
   how something fits into a day or a week.
 - The moments that matter are unpredictable or private, so you can't
   observe them.
@@ -15,7 +15,7 @@ weeks, as it happens rather than from memory.
 
 - The decision is due within a couple of weeks. A diary study takes time
   to run and to analyze.
-- You could get the behaviour from analytics and the "why" from a few
+- You could get the behavior from analytics and the "why" from a few
   interviews.
 - Participants won't have the time or the motivation to keep it up.
 
@@ -23,8 +23,8 @@ weeks, as it happens rather than from memory.
 
 - Five to twelve people for a small, focused study; twelve to thirty for a
   broad one. Expect some to drop out; recruit a few extra.
-- One to three weeks is typical, set by how often the behaviour happens.
-  Rare behaviour needs a longer window.
+- One to three weeks is typical, set by how often the behavior happens.
+  Rare behavior needs a longer window.
 
 ## Study shape
 
@@ -56,7 +56,7 @@ entry has, plus one richer way to add detail when it helps.
   the quickest to read and code. It's hard work for people who don't like
   writing or are typing on a phone, and answers tend to get shorter as the
   weeks go on.
-- **Ratings and choices.** A word-labelled rating (how it went, how hard
+- **Ratings and choices.** A word-labeled rating (how it went, how hard
   it was, how they felt) or a pick from a short list (where they were,
   which device). Takes seconds, and lets you compare one person's entries
   over time. It says nothing about why, so pair every rating with "What
@@ -91,7 +91,7 @@ build"). Offer a best guess with each one.
 - What the study needs to see or hear: the setting, the screen, the
   feeling, the order of steps. This decides whether pictures or
   recordings are worth their cost.
-- Where and when the behaviour happens: on the move, at a desk, at home,
+- Where and when the behavior happens: on the move, at a desk, at home,
   at work, in public, with other people around.
 - Participants' devices and habits: phone or computer, data allowance, the
   apps they already use.
@@ -199,7 +199,7 @@ coded with the rest.
 
 ## Pitfalls
 
-- Too many prompts, or prompts that change the behaviour being studied.
+- Too many prompts, or prompts that change the behavior being studied.
 - A minimum entry count so high that people log things they'd never
   normally do, or no maximum, so people invent entries for the money.
 - A sample entry in the instructions that people then copy.

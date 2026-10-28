@@ -26,7 +26,7 @@ instead of running a new study. Stage 2 in full.
 - Analytics and telemetry.
 - Survey archives.
 - Sales and customer success notes (indirect; label them).
-- Public research, labelled as general rather than about your users.
+- Public research, labeled as general rather than about your users.
 
 ## Shape
 

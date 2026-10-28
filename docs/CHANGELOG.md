@@ -53,7 +53,34 @@
   manager's quote is reported as credited to the wrong person.
 - Five new eval scenarios, none run live yet: `stakeholder-belief`,
   `survey-viability`, `cognitive-test-first`, `raw-difference`,
-  `persona-from-research`. 132 standards, 59 with a source.
+  `persona-from-research`. 133 standards, 59 with a source.
+- American English is now the default, not a fixed rule. Magpie uses the
+  researcher's English instead, such as British English with day-first
+  dates, when they ask for it, when the team profile names it, or when
+  their own messages are written in it, and keeps it the same across the
+  study. A team template in another variety is a reason to ask, not to
+  switch. The team profile and the study record's settings gain a
+  "Spelling and dates" line. Standard A.29 is rewritten and its scenario,
+  renamed `spelling-and-dates`, now tests an American and a British
+  researcher. The repository itself stays in American English, and
+  `tools/check.py` still checks it.
+- Magpie now writes in American English. A new core rule (`operating.md`,
+  "Write in American English", standard A.29, scenario `american-english`)
+  covers every output: American spelling, American words, and dates with
+  the month first ("October 28, 2026"), even when the researcher, their
+  material or the team's template uses another variety. Quotes stay word
+  for word, and titles and names stay as published. The house style says
+  the same. The repository was converted too: core files, docs, eval
+  scenarios, answer keys, the example report and deck, and the setup
+  notes. Two scenarios were renamed, `double-barreled-rq` and
+  `opinion-only-behavior`. Participant transcripts in the fixtures, this
+  changelog's earlier entries and the saved eval runs in `evals/runs/` are
+  left as written. `tools/check.py` now flags British spellings and
+  day-first dates in the files people write. The README was updated for
+  the drafting gate, the review state in the status line, the release
+  check, confidence and priority, and method choice, with current counts
+  and file sizes. The new debrief and look-back text from the entries
+  below was converted as well.
 - The next steps in every readout and report now end with "How we'll know
   it worked": when the team looks back, who looks with the researcher, and
   the sign that would show the change worked (standard 8.17). It's one

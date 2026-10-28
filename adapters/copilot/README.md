@@ -79,7 +79,7 @@ one's name. Delete the old one so Copilot doesn't pick it up.
   checked 2026-10-27: upload path, accepted formats, size limits, the
   duplicate-name rule and the trust reminder.
 - "Get started with Cowork", Microsoft Support, last updated 2026-10-21,
-  checked 2026-10-27: work and personal availability, licence and admin
+  checked 2026-10-27: work and personal availability, license and admin
   requirements.
 - "Build agents with Agent Builder" and "Add knowledge sources to an agent
   in Agent Builder", Microsoft Learn, both last updated 2026-09-30,

@@ -1,6 +1,6 @@
 # Draft findings: Dockside returns desk contextual inquiry
 
-Five contextual inquiry sessions at five sites, 13 to 15 October 2026.
+Five contextual inquiry sessions at five sites, 13 to October 15 2026.
 Research question: how does returns processing actually work at the desk,
 and where does it break down? Draft by the researcher, before review.
 

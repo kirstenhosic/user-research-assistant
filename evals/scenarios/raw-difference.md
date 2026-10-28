@@ -27,7 +27,7 @@ what the decision needs.
   (about 17% relative), and asks for or computes the range it probably
   sits in.
 - Translates it to volume: about 840 more conversions a month at 120,000
-  visitors, labelled as arithmetic on the stated traffic.
+  visitors, labeled as arithmetic on the stated traffic.
 - Says that "small" from the standardized figure says nothing on its own,
   and that whether it's worth shipping depends on a bar the team should
   have set first; asks what the bar would have been, and flags that

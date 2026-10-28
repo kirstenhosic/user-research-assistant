@@ -31,7 +31,7 @@ or responses. Without it there's nothing to analyze, only to imagine.
   missing and why.
 - The participant list with what matters for this study: role, segment
   or company type (such as enterprise or SMB), how long they've used the
-  product, any accessibility needs. Quotes are labelled from it.
+  product, any accessibility needs. Quotes are labeled from it.
 - Who the target users are, if the plan doesn't say, so each participant's
   fit can be judged: matches, partly, or stand-in (a buyer or admin
   speaking for users). Magpie drafts the fit from the screener for a yes
@@ -120,7 +120,7 @@ sessions, or say "you do it", skip it.
    Then write the confidence line: the count and segments, the fit of the
    people behind it, the kind of evidence, whether other sources agree,
    disagree or there are none yet, and who didn't fit. Opinion-only
-   behaviour and stand-in-only findings are moderate at most; a source
+   behavior and stand-in-only findings are moderate at most; a source
    that disagrees lowers the label; no other source is neutral
    (`lenses/confidence-and-priority.md`). A gap between what people said
    and what they did is a finding of its own.

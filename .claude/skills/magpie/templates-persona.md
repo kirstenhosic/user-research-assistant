@@ -10,7 +10,7 @@
 | Status | Draft |
 
 Status is Draft, Under review or Final (`operating.md`, "Files for the
-team"). A proto persona is labelled [assumption] throughout.
+team"). A proto persona is labeled [assumption] throughout.
 
 ## In a sentence
 

@@ -188,7 +188,7 @@ summarized, following stage 7's survey data rules.
 
 What a test is: S47 (a facilitator, realistic tasks, a realistic
 participant, thinking aloud; moderated and unmoderated, in person and
-remote; the facilitator must avoid influencing behaviour). Sample: S45
+remote; the facilitator must avoid influencing behavior). Sample: S45
 (five users find most problems; small rounds over one big one; three or
 four per group for two groups, three per group for three or more); S46
 (more than thirty for quantitative studies, forty or more for useful
