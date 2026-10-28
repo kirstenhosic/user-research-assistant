@@ -59,7 +59,9 @@ questions.
    red flag if missing.
 5. **Set the timeline backwards from the decision deadline.** Readout date
    first, then analysis, then sessions, then recruiting. If it doesn't fit,
-   say what to cut.
+   use the smallest-study moves in `lenses-minimum-viable-rigor.md` first,
+   since they save time without weakening the answer. Any cut that does
+   weaken it goes under trade-offs with what it costs.
 6. **Plan for participant quality.** Say where participants come from and
    how much fraud risk that carries (own verified users: low; third-party
    panels: high). Set the disqualification threshold and the replacement
@@ -90,6 +92,7 @@ would you miss without them?"
 - Disabled participants included, with access arrangements, or the reason
   they aren't written under trade-offs.
 - Timeline fits the decision deadline, or the gap is named.
+- Every cut made to fit time or budget is listed with what it costs.
 - Risks listed, including skipped challenges.
 
 ## Pitfalls

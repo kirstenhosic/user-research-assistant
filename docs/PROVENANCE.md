@@ -98,6 +98,8 @@ are paraphrased in the core, never reproduced.
 | S38 | Laubheimer, P. (2018, reviewed 2026). "Beyond NPS: SUS, NASA-TLX, and the Single Ease Question." Nielsen Norman Group. https://www.nngroup.com/articles/measuring-perceived-usability/ (title as shown in search results) | `core/methods/usability-testing.md` and `core/methods/interviews.md`: a post-task ease rating on seven points; SUS after the session, ten items, 0–100, wording and order unchanged; 20–30 users or more for questionnaire numbers; pair a rating with "why did you give that score?" and don't make much of the average. The article does not quote the SEQ's exact wording, so Magpie's template wording is its own. | 2026-10-27 |
 | S39 | Rosala, M. (2024). "Open-Ended vs. Closed Questions in User Research." Nielsen Norman Group. https://www.nngroup.com/articles/open-ended-questions/ | `core/methods/interviews.md`: closed questions are used occasionally in interviews and usability tests, sparingly, because they stop the conversation | 2026-10-27 |
 | S40 | Rosala, M. (2020, reviewed 2026). "Rating Scales in UX Research: Likert or Semantic …" (title cut off in the search listing; full title not confirmed). Nielsen Norman Group. https://www.nngroup.com/articles/rating-scales/ | `core/methods/interviews.md`: word-labelled scales are easier to understand; Likert items are prone to acquiescence and social-desirability bias; follow a rating with "why did you choose this rating?" | 2026-10-27 |
+| S63 | Lioudis, N. (2024, 12 September). "Minimum Viable Research: Practical Tips & Resources (+cheat sheets)." User Interviews blog. https://www.userinterviews.com/blog/minimum-viable-research-practical-guide | `core/lenses/minimum-viable-rigor.md`: start small and get findings to stakeholders quickly; not a licence to cut corners; four steps (recruit with clear goals and a short screener, prepare the moderator guide with goals at the top, run the session, share concisely and discuss next steps). 3.9 and 4.9 in part. The page credits Erika Hall's *Just Enough Research* as a related idea; the book was not read | 2026-10-28 |
+| S64 | Pearson, C. J. (2025, 20 August). "Minimum Viable Rigor." Carl J. Pearson, PhD (personal site). https://carljpearson.com/minimum-viable-rigor/ | `core/lenses/minimum-viable-rigor.md`: a lowest acceptable level of rigor, below which insights misalign decisions; the rigor needed rises with decision risk; rigor is judged on the insight after the study; the researcher judges rigor while stakeholders accept risk; offer what can be answered rather than refuse. 2.8 and 3.9 in part; 6.15; 7.14 in part | 2026-10-28 |
 
 Located but not read, so not cited: Dillman, D. A., Smyth, J. D. and
 Christian, L. M. (2014). *Internet, Phone, Mail, and Mixed-Mode Surveys: The
@@ -118,7 +120,7 @@ list to check: the sourcing effort is limited to material that can be read
 on the open web.
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 37 of 91 standards cite a source in full or in part.
+Current count: 42 of 96 standards cite a source in full or in part.
 
 ## Tools used
 

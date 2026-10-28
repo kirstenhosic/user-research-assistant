@@ -58,6 +58,7 @@ out, write "not added" and delete the lines below.
 
 - **Goal or metric this moves:** [The company goal or metric at stake]
 - **Cost of getting it wrong:** [What happens if the decision goes the wrong way]
+- **Decision risk:** [low / medium / high, because [can it be undone, how quickly, who and what it touches]; or [assumption]]
 - **Who else cares:** [Stakeholders beyond the owner]
 - **Job:** [what the user is trying to get done, in their terms]
 - **Journey and step:** [which CUJ or journey, which step; "none tracked" is fine]
@@ -104,6 +105,7 @@ Known assumptions, plus every challenge that was skipped and why.
 - **Method:** [Method chosen]
 - **Why this method:** [One or two sentences]
 - **Sample:** [Who, how many, how recruited]
+- **Rigor for this risk:** [why this study is enough for the decision risk; any floor problem and the smaller question offered]
 - **Trade-offs accepted:** [What this approach won't tell us]
 - **Partner data requested:** [Team, what, status]
 
@@ -134,9 +136,9 @@ Each finding is a claim with its evidence, including what cuts against it.
 Every count lists the participants and lines behind it: "3 of 8 (P1 06,
 P5 06, P7 06)".
 
-| Finding | Supporting evidence | Contradicting evidence | Strength |
-| --- | --- | --- | --- |
-| | | | strong / moderate / weak |
+| Finding | Supporting evidence | Contradicting evidence | Strength | Enough for the decision? |
+| --- | --- | --- | --- | --- |
+| | | | strong / moderate / weak | yes / with a caveat: [what] / no: [what would make it enough] |
 
 Strength: **strong** (consistent across most participants or statistically
 reliable), **moderate** (clear pattern with exceptions), **weak** (few

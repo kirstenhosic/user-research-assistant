@@ -16,6 +16,8 @@ users are. Who buys or sets it up, if different.]
 
 **Why it matters:** [goal or metric it moves; cost of getting it wrong]
 
+**Decision risk:** [low / medium / high, and why]
+
 ## What we already know
 
 [Two or three lines from the evidence log and gap summary. "No prior
@@ -38,6 +40,7 @@ What the team believes now, and what we'd need to see to change our minds.
 - **Method:** [method]
 - **Why:** [two sentences]
 - **What it won't tell us:** [trade-offs]
+- **Why this is enough for the risk:** [one line; any cut made for time or budget and what it costs]
 - **Partner data:** [team, what, status]
 
 ## Participants
