@@ -12,7 +12,8 @@
   cognitive test before every new survey goes out (S80, S81, standard
   6.11), and the survey as part of the product experience (S82). Concept
   testing gains the forms to show, past-not-future questions, a
-  small-commitment test and a fake-door section. Evidence review gains
+  small-commitment test and a fake-door section (S99, suggested by
+  Kirsten Hosic). Evidence review gains
   five questions for judging an old study, rules for research
   repositories and AI-written summaries, and a worked brief. Contextual
   inquiry gains a remote section and the same-day team interpretation.

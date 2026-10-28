@@ -3889,12 +3889,17 @@ clicked.
 - Write the question and the bar first: how many clicks, out of how many
   who saw it, would make the feature worth building? Agree the bar before
   the number arrives.
-- Keep it short and small. A dead-end button costs trust; run it for a
-  short, fixed time, to a slice of users, and never for something people
-  urgently need.
+- Keep it short and small. A dead-end button costs trust, and people who
+  meet unavailable features more than once, such as beta testers, get
+  frustrated; run it for a short, fixed time, to a slice of users, never
+  twice on the same people, and never for something they urgently need.
+- Count clicks on the call to action out of everyone who saw it, and
+  time on the page. In a remote test, a short survey after the message
+  adds the why; in a moderated session, agree beforehand how the
+  moderator handles the moment the door turns out to be fake.
 - Say what the number can't tell you. A click is curiosity; it isn't use.
   People who clicked once may not have the problem the way the team
-  thinks.
+  thinks. It isn't a method on its own; it sits next to the sessions.
 - The analytics or growth team usually runs it. Magpie drafts the question,
   the bar and the message (`methods/analytics-and-ab-tests.md`, "Who does
   it") and logs the result as [their data].
@@ -3959,10 +3964,14 @@ reactions don't predict adoption: S8 (self-reported future intentions are
 unreliable; observe behavior where you can); S27 (research should not stop
 at a yes or no); S5 (past experience over hypotheticals). Pairing reactions
 with behavioral data: S13. The forms to show, the past-not-future
-questions, the small-commitment test, the fake-door section (no
-published source checked; it is common practice in product teams, and
-the ethics of a dead-end button are Magpie's own rule), sample sizes,
-the session shape and the baseline-first rule: practitioner judgment.
+questions, the small-commitment test, sample sizes, the session shape and the
+baseline-first rule: practitioner judgment. Fake-door tests: S99 (a
+landing page or mockup with a call to action for a feature that doesn't
+exist; judge interest by what people do; clicks and time on page; a
+survey after the message in remote tests, agreed moderator guidance in
+person; repeated exposure frustrates people; not a standalone method).
+The honest message after the click, the fixed short run and the agreed
+bar: practitioner judgment; S99 does not cover them.
 
 <!-- core/methods/contextual-inquiry.md -->
 
