@@ -343,7 +343,7 @@ on most:
 - Virginia Braun and Victoria Clarke, for reflexive thematic analysis.
 - The UK Government Digital Service and NHS England, for their service
   manuals, and ICC/ESOMAR, for its research code.
-- C. Papas, for *AI-Powered UX Research*.
+- Constantine Papas, for *AI-Powered UX Research*.
 - Henri Lipmanowicz and Keith McCandless (Liberating Structures), IBM
   Enterprise Design Thinking, the Design Council, Pew Research Center,
   User Interviews and the W3C Web Accessibility Initiative.
