@@ -108,8 +108,10 @@ are paraphrased in the core, never reproduced.
 | S60 | Gibbons, S. (2016, reviewed 2026). "Design Thinking 101." Nielsen Norman Group. https://www.nngroup.com/articles/design-thinking/ | `docs/DESIGN.md`, "How Magpie relates to design thinking": six phases (empathize, define, ideate, prototype, test, implement), iterative | 2026-10-28 |
 | S61 | Meadows, D. H. (2008). *Thinking in Systems: A Primer*. Edited by D. Wright. Chelsea Green Publishing. | `core/lenses/systems-and-journeys.md`: a system's behaviour comes from its connections and feedback loops, and small changes in some places (leverage points) can shift it a lot. Publication details and these ideas were checked against the Wikipedia article on the book, not the book itself. | 2026-10-28 |
 | S62 | Lipmanowicz, H. and McCandless, K. "1-2-4-All." Liberating Structures. https://liberatingstructures.com/1-2-4-all | Workshop pattern B step 2: silent reflection, then pairs, then fours, then the whole group. Licensed CC BY-SA 4.0; Magpie describes the structure in its own words and credits the authors. | 2026-10-28 |
-| S63 | Krause, R. and Gibbons, S. "Empathy Mapping: The First Step in Design Thinking." Nielsen Norman Group (page dated 2 October 2026; earlier versions not checked). https://www.nngroup.com/articles/empathy-mapping/ | The empathy map activity and the understand-the-users workshop type: says, thinks, does and feels; built as a team, each person writing notes alone first, then clustering; empty areas show gaps in the research | 2026-10-28 |
-| S64 | Gibbons, S. (2016). "Design Critiques: Encourage a Positive Culture to Improve Products." Nielsen Norman Group. https://www.nngroup.com/articles/design-critiques/ | The critique activity: judge a design against agreed objectives, set the scope first, round robin, reframe opinion around the goals | 2026-10-28 |
+| S63 | Lioudis, N. (2024, 12 September). "Minimum Viable Research: Practical Tips & Resources (+cheat sheets)." User Interviews blog. https://www.userinterviews.com/blog/minimum-viable-research-practical-guide | `core/lenses/minimum-viable-rigor.md`: start small and get findings to stakeholders quickly; not a licence to cut corners; four steps (recruit with clear goals and a short screener, prepare the moderator guide with goals at the top, run the session, share concisely and discuss next steps). 3.9 and 4.9 in part. The page credits Erika Hall's *Just Enough Research* as a related idea; the book was not read | 2026-10-28 |
+| S64 | Pearson, C. J. (2025, 20 August). "Minimum Viable Rigor." Carl J. Pearson, PhD (personal site). https://carljpearson.com/minimum-viable-rigor/ | `core/lenses/minimum-viable-rigor.md`: a lowest acceptable level of rigor, below which insights misalign decisions; the rigor needed rises with decision risk; rigor is judged on the insight after the study; the researcher judges rigor while stakeholders accept risk; offer what can be answered rather than refuse. 2.8 and 3.9 in part; 6.15; 7.14 in part | 2026-10-28 |
+| S67 | Krause, R. and Gibbons, S. "Empathy Mapping: The First Step in Design Thinking." Nielsen Norman Group (page dated 2 October 2026; earlier versions not checked). https://www.nngroup.com/articles/empathy-mapping/ | The empathy map activity and the understand-the-users workshop type: says, thinks, does and feels; built as a team, each person writing notes alone first, then clustering; empty areas show gaps in the research | 2026-10-28 |
+| S68 | Gibbons, S. (2016). "Design Critiques: Encourage a Positive Culture to Improve Products." Nielsen Norman Group. https://www.nngroup.com/articles/design-critiques/ | The critique activity: judge a design against agreed objectives, set the scope first, round robin, reframe opinion around the goals | 2026-10-28 |
 
 Located but not read, so not cited: Dillman, D. A., Smyth, J. D. and
 Christian, L. M. (2014). *Internet, Phone, Mail, and Mixed-Mode Surveys: The
@@ -130,7 +132,7 @@ list to check: the sourcing effort is limited to material that can be read
 on the open web.
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 37 of 91 standards cite a source in full or in part.
+Current count: 42 of 96 standards cite a source in full or in part.
 
 ## Tools used
 

@@ -121,7 +121,7 @@ writing.
 - **Empathy map.** Four areas around one user group: what they say
   (quotes from the study), think, do and feel. Each person fills in notes
   alone first, then the room clusters them. Built from the findings, not
-  from guesses; an empty area is a gap in the research (S63).
+  from guesses; an empty area is a gap in the research (S67).
 - **How might we.** For the one or two findings with the most pull, each
   person writes "How might we..." questions, silently. The room picks two
   or three to work on (S55). A good one:
@@ -144,7 +144,7 @@ writing.
   design is judged against. Agree the scope first. Each person notes,
   silently, where the design meets or misses each finding; then a round
   robin, one point each. A comment of taste ("I don't like the blue") is
-  reframed around a finding or set aside (S64).
+  reframed around a finding or set aside (S68).
 - **Read-back.** Before anyone leaves: the decisions, the actions, the
   teams involved and the finding each rests on, and how progress gets
   checked.
@@ -281,8 +281,8 @@ Henri Lipmanowicz and Keith McCandless, Liberating Structures, CC BY-SA
 4.0); S55 ("How might we" questions after discovery, before ideas); S53
 (agree the decision rule); S54 (dot voting's choice overload, choice
 imbalance and social bias); S57 (remote workshops); S58 (hills, IBM
-Enterprise Design Thinking, described here in Magpie's own words); S63
-(empathy maps, built alone first, then clustered); S64 (critique against
+Enterprise Design Thinking, described here in Magpie's own words); S67
+(empathy maps, built alone first, then clustered); S68 (critique against
 agreed objectives, round robin). The "set the direction" type, the signals,
 assumption cards, the step timings, the private vote, the break and the
 access steps: practitioner judgment.

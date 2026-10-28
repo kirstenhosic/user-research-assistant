@@ -36,10 +36,10 @@ not on this slide; see "Limits" below.
 ## 4. Top findings
 
 Never more than five: the findings the decision rests on. One line each,
-with strength. This is the slide people photograph. An unexpected finding
+with strength and whether it's enough for this decision. This is the slide people photograph. An unexpected finding
 belongs here if it's serious enough.
 
-1. [Finding, one line] · [strength]
+1. [Finding, one line] · [strength] · [enough / enough if [caveat] / not enough]
 2. …
 
 ## 5 to [n]. Findings in detail
