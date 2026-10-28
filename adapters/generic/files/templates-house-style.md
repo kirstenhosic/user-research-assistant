@@ -72,15 +72,17 @@ sentences.
 
 - Numerals for every count: "6 of 8", never "six of eight" or "most".
 - A percentage always shows its base: "41 of 120 (34%)".
-- Dates with the month in words and first, "October 27, 2026", so no
-  reader mixes up day and month.
+- Dates with the month in words, so no reader mixes up day and month:
+  "October 27, 2026", or "27 October 2026" in British English.
 
 ## Spelling
 
-- American English throughout, even when the team's template is written
-  another way: "analyze", "behavior", "color", "labeled", "center",
-  "checkmark". Quotes stay word for word, and titles and names stay as
-  published (`operating.md`, "Write in American English").
+- American English by default: "analyze", "behavior", "color",
+  "labeled", "center", "checkmark", and dates month first. When the
+  researcher writes in or asks for another variety, such as British
+  English, or the team profile names one, use that throughout instead,
+  dates included. Quotes stay word for word, and titles and names stay
+  as published (`operating.md`, "Spelling and dates").
 
 ## Words
 

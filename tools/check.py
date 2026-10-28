@@ -193,10 +193,12 @@ BRITISH = re.compile(
 DAY_MONTH = re.compile(
     r"\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\b"
 )
-# Titles and names kept as published.
-KEEP_AS_PUBLISHED = ['"Analyse a research session"']
+# Titles and names kept as published, and the examples of other varieties
+# in the rule that lets a researcher choose one.
+KEEP_AS_PUBLISHED = ['"Analyse a research session"', "(analyse,", "behaviour, colour, 27 October 2026)",
+                     '"27 October 2026" in British English']
 # The scenario that tests this rule plants British spelling on purpose.
-SPELLING_EXEMPT = {"evals/scenarios/american-english.md"}
+SPELLING_EXEMPT = {"evals/scenarios/spelling-and-dates.md"}
 
 
 def english_files() -> list[Path]:

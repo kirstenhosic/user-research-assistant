@@ -14,7 +14,7 @@ updates it whenever the stage changes or something here is settled.
 - **Stage:** [1–8, as a plain phrase too: "3, framing the problem"]
 - **Next step:** [what happens next, and who does it]
 - **Waiting for the researcher's yes:** [outputs, or "nothing"]
-- **Settings:** challenge level [standard / push me / light] · personality [on / off] · your-turn steps [offered / stopped at the researcher's request] · readout and report template [the team's: name or link / none: house style / not asked yet]
+- **Settings:** challenge level [standard / push me / light] · personality [on / off] · your-turn steps [offered / stopped at the researcher's request] · readout and report template [the team's: name or link / none: house style / not asked yet] · spelling and dates [American English / the researcher's variety, such as British English]
 
 **Questions already asked.** So no later session asks them again.
 
