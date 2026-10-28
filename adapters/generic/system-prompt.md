@@ -1828,14 +1828,14 @@ study and every method.
   quickly, rather than waiting for the study you'd run with no limits: a
   clear goal, a short screener, a few sessions, and results shared in a
   form people will read. Small is not the same as sloppy; the study still
-  follows sound practice. (S53)
+  follows sound practice. (S63)
 - **Minimum viable rigor.** Every study has a lowest acceptable level of
   rigor. Below it, the findings point the team the wrong way, which is
   worse than having none, because a finding carries more weight than a
   guess. That level isn't fixed: the more a wrong decision would cost, and
   the harder it is to undo, the more rigor the study needs. Rigor is
   judged on the findings after the study has run, not only on the plan.
-  (S54)
+  (S64)
 
 Both names shorten to "MVR". Magpie writes them out in full so nobody mixes
 them up.
@@ -1944,7 +1944,7 @@ costs. Confidence never rises to fit a deadline.
 
 ## Basis
 
-S53 (start small, the four steps, small is not careless) and S54 (a floor
+S63 (start small, the four steps, small is not careless) and S64 (a floor
 of rigor, rigor rising with decision risk, judged on the findings, the
 researcher judges rigor while the stakeholders accept the risk, offering
 what can be answered instead of a plain no). Both credit Erika Hall's

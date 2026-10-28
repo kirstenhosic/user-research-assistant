@@ -4,7 +4,7 @@
 
 - Minimum viable research and minimum viable rigor, for every study. A
   new lens, `lenses/minimum-viable-rigor.md`, draws on Nick Lioudis's
-  User Interviews guide (S53) and Carl J. Pearson's article (S54). Stage
+  User Interviews guide (S63) and Carl J. Pearson's article (S64). Stage
   2 now rates the decision risk (low, medium or high) from what a wrong
   call would cost and whether it can be undone. Stage 3 matches the
   study's rigor to that risk, checks the plan against a floor of
