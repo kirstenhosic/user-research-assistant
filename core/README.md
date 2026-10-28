@@ -13,7 +13,7 @@ in `tools/build.py` assembles these files into the adapters for each platform.
 | `methods/` | One guide per research method, with pitfalls | Phase 2–3 |
 | `standards/` | What good looks like per stage, each with its source or marked practitioner judgment; for maintainers and the evals, not shipped in the adapters | Phase 2–3 |
 | `challenges/` | The challenge bank | Phase 2 |
-| `checks/` | Checklists for research questions, guide wording, survey wording, ethics and consent, claim strength, and AI-assisted research (AI moderators, AI summaries, receipts, participant quality) | Phase 2–3 |
+| `checks/` | Checklists for research questions, guide wording, survey wording, ethics and consent, claim strength, release, and AI-assisted research (AI moderators, AI summaries, receipts, participant quality) | Phase 2–3 |
 | `review/` | The independent reviews (questions, and findings and reports): when they run and the prompts they use | Phase 3 |
 | `partners/` | Request templates for analytics, field, support and other teams | Phase 2 |
 | `templates/` | Study record, plan, interview guide, usability test script, survey, readout, report, workshop agenda and summary, opportunity brief | Phase 1–3 |

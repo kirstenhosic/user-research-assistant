@@ -124,9 +124,10 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 
 - Every item maps to a research question.
 - Wording check run and fixes made.
-- Question review run and each point fixed or answered. If the researcher
-  is running it in another chat and hasn't brought it back, it's listed as
-  waiting in the record and the status line.
+- Question review run and each point fixed or answered, and the status
+  line shows it as done. If the researcher is running it in another chat
+  and hasn't brought it back, it's listed as waiting in the record and the
+  status line.
 - Everything the moderator says is written to be said aloud, with a spoken
   transition at each change of topic.
 - Moderator notes present.

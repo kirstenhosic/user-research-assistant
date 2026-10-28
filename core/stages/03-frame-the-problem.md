@@ -15,6 +15,8 @@ would recognize, and research questions that each serve the decision.
 - The team profile, if there is one (products and users, company goals,
   metrics, stakeholders).
 - The intake form, if a PM or designer filled one in.
+- Any PRD, brief, past research or other background the researcher
+  shares. Read it before you ask anything.
 
 ## Before you build
 
@@ -27,6 +29,8 @@ raises, within the same six.
 **Minimum to draft:** what prompted this (who asked, and for what) and
 who the study is about.
 
+- Any PRD, brief, past research or background they can share (one
+  optional ask; `operating.md`, "Ask for documents first").
 - What prompted this: who asked, and what they asked for, in their words.
 - Who makes the decision, and by when, only if the your-turn answer
   below leaves it out. (The decision itself is the researcher's turn.)
@@ -108,9 +112,12 @@ it in the record.
    you know the product has buyers or admins apart from its end users,
    say which group each question is about. Run
    `checks/research-questions.md` over them, the researcher's own
-   included, and say what you changed.
+   included, and show what you changed (`operating.md`, "Show what you
+   changed").
 5. **Write down the hypotheses.** What does the team already believe, and
-   what would change its mind? Write each one in the record's Hypotheses
+   what would change its mind? Run `checks/hypotheses.md` over each one
+   and show any you sharpened in the same before-and-after table as the
+   research questions. Write each one in the record's Hypotheses
    section, with who holds it. The study tests them; it doesn't set out to
    prove them. The assumptions the researcher named go under Assumptions
    and risks, in their words, plus any you see that they didn't; mark

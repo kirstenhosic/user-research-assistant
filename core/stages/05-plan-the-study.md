@@ -21,8 +21,8 @@ conversation or files you can reach, in one message, before you build
 This list is the floor: add the questions this particular study or task
 raises, within the same six.
 
-**Minimum to draft:** the decision the study serves and its research
-questions.
+**Minimum to draft:** the decision it serves and who the participants
+are.
 
 - The decision, its owner and deadline, and the business goal it serves.
 - The research questions and hypotheses.
@@ -31,6 +31,11 @@ questions.
 - Dates that constrain the study: when sessions can run, when the readout
   is due, holidays and team availability.
 - Who's on the study team, and who will moderate and take notes.
+
+If stages 3 and 4 aren't done yet, don't squeeze all of this into one
+message. Gather it in up to three rounds (frame, method, plan), six
+questions at most each, and build the plan once (`operating.md`, "A plan
+from scratch takes rounds").
 
 ## What to do
 

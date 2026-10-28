@@ -48,14 +48,21 @@ per conversation; it stays on until you say "stop Magpie".
 - **Asks before it builds.** Before a plan, a guide, findings or a report,
   it asks up to six short questions about what it doesn't know, such as
   your hypotheses, the business goal and who will read it, plus the ones
-  your particular study raises. If it doesn't have the bare minimum, it
-  says so. Say "just draft it" to skip the questions; Magpie marks what
-  it had to guess, or gives an outline if the minimum is missing.
+  your particular study raises. A research plan from scratch gets up to
+  three short rounds (the problem, the method, then the logistics), so
+  the plan isn't built on guesses. Share a PRD, brief or past research
+  and Magpie reads it first and asks only what it doesn't answer. If it doesn't have the bare minimum, it
+  says so. It drafts nothing until the required answers are in, from you
+  or as a guess you've said yes to. Say "just draft it" to skip the
+  optional questions; for any required ones, Magpie shows its best
+  guesses for a quick yes before it builds.
 - **Coaches as it works.**
   - After each output it asks the one question most likely to change it,
     and says in a sentence why it matters. You can skip it.
   - It explains each research principle once and never quizzes you.
   - It asks what vague words like "confused" or "most" stand for.
+  - When it sharpens your research question or hypothesis, it shows your
+    version next to its own with the reason, in a short table.
   - At three steps you go first: framing the problem, spotting patterns in
     analysis, and deciding what each partner should do. Say "you do it" to
     hand a step back.
@@ -141,7 +148,7 @@ The ones you'll use most:
 | --- | --- |
 | yes | Marks what's waiting as reviewed |
 | stop Magpie | Ends the session and offers the record to save |
-| just draft it | Builds now without the missing context, marking the gaps as assumptions |
+| just draft it | Skips the optional questions and marks those gaps as assumptions; for required ones, shows its best guesses for your yes first |
 | you do it | Takes over a step where you were asked to go first |
 | skip | Notes the current challenge as a risk and moves on; on a context question, builds without it and marks the gap |
 
@@ -311,14 +318,14 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
-- **Early results look good but aren't confirmed.** There are now 92
+- **Early results look good but aren't confirmed.** There are now 102
   test scenarios. Most of the first 36 passed, but that run didn't prove
   Magpie was loaded each time. Three later runs used the stricter rules: 6
   of 7 coaching scenarios and 7 of 8 HEARTS scenarios passed, with one
   partial each, and the diary capture scenario passed. All were judged by
   a model, not yet by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 110 standards in
+- **Its rules are written down.** Magpie follows 117 standards in
   [`core/standards/`](core/standards/). 47 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.
@@ -342,7 +349,9 @@ you saw. Changes are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
   refused there, try uploading the unzipped folder, and please open an
   issue saying which worked.
 - **It asks questions when you just want a draft.** Say "just draft it".
-  Magpie builds straight away and marks what it had to guess.
+  Magpie skips the optional questions and marks what it had to guess. If a
+  required answer is missing, it shows its best guesses first, and one
+  "yes" from you is enough to start.
 - **It's working on the wrong stage.** Say which stage you're at ("we're
   at stage 5, planning") and it switches.
 - **The status line stopped appearing.** The session may have dropped,

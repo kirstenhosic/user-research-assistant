@@ -20,7 +20,7 @@ updates it whenever the stage changes or something here is settled.
 
 | Question | Stage | Answer |
 | --- | --- | --- |
-| | | answered (see section) / declined / "you do it" / "just draft it" / not answered, marked [assumption] |
+| | | answered (see section) / guess confirmed / declined / "you do it" / "just draft it" / not answered, marked [assumption] (optional questions only) |
 
 **Your-turn steps and challenges.** Each is offered once per study.
 

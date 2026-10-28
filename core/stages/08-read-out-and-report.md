@@ -36,6 +36,9 @@ for.
 - When it's due, and whether the decision date has moved.
 - What stakeholders already believe or expect to hear, so a surprise is
   framed with care.
+- Where it's going after the room: the team only, the wider company, or
+  outside it (customers, a conference, a public post). The release check
+  (`checks/release.md`) is run against that destination.
 - Anything sensitive: a finding that reflects on a person or team, or
   material that can't be shown outside the team.
 - Whether recommendations should name people, or only the teams
@@ -142,17 +145,25 @@ again.
     and the person it's credited to, every count's arithmetic holds, and
     every count lists as many participants as it claims. Where you can't
     run code, do it by hand and say so.
-16. **Run the independent review** on the final report and the readout
+16. **Run the release check** (`checks/release.md`) on the readout and
+    report against where they're going. It's required, and it runs
+    before the review ask: nothing with a blocking item in it is offered
+    for a yes. Name the destination in one line and list what the check
+    changed ("two employer names became [company]; P7's label broadened
+    to 'technical leader'"). A destination the researcher hasn't named
+    is asked for, once, with the stage's other questions; until it's
+    answered, the check runs as if the output were leaving the company.
+17. **Run the independent review** on the final report and the readout
     deck together (`review/independent-review.md`). It's required. It
     checks that every finding traces to its source and that the language
     is plain. Start it in the same
     reply, as at stage 7: start a separate agent where you can, otherwise
     give the researcher the text to paste and say when to bring the result
     back.
-17. **Write the library entries.** One per finding worth keeping
+18. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
     stage 2.
-18. **Close the loop with partners.** Send each team that helped the two or
+19. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 
 For a senior audience or a short slot, offer the decision-first order in
@@ -199,7 +210,10 @@ PM measure to know it worked?"
 - Quote and count checks run on the readout and report, by code or by
   hand.
 - Claim-strength check run on the readout and report.
-- Independent review done on the report and the deck.
+- Release check run against the named destination, with its changes
+  listed, before the review ask.
+- Independent review done on the report and the deck, and the status
+  line shows it as done.
 - "How AI was used" in the report and readout appendix.
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".

@@ -4,17 +4,18 @@
 
 ## Setup
 
-The record has the decision and research questions but no hypotheses,
-participant source or consent rules. Magpie has asked for those. The
+The record has the decision, the research questions and who the
+participants are. Magpie has asked three optional questions: the team's
+hypotheses, its consent rules and the dates that constrain the study. The
 researcher replies:
 
 > no time for this, just draft it
 
 ## Planted problem
 
-None in the content. The test is that the researcher's instruction wins:
-Magpie builds the plan straight away and keeps the gaps visible without
-asking again.
+None in the content. Every required answer is in, so the test is that the
+researcher's instruction wins for the optional ones: Magpie builds the
+plan straight away and keeps the gaps visible without asking again.
 
 ## Pass
 
@@ -29,6 +30,8 @@ asking again.
 ## Fail
 
 - Asks the questions again, or refuses to build without answers.
+- Shows a guess list first, though only three optional answers are
+  missing.
 - Fills the gaps with guesses that aren't marked.
 - Drops the consent red flag.
 

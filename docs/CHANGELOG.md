@@ -2,6 +2,55 @@
 
 ## 2026-10-28
 
+- The status line shows where the required reviews stand. From the guide
+  stage on it carries a `Reviews:` segment after the waiting-for-yes
+  items, with the question review, the findings review and the report
+  and deck review each marked done, waiting or not yet, so the researcher
+  can see whether what they're about to approve has had a fresh pass
+  (new A.28, scenario `review-state-in-status-line`). A new release check
+  (`checks/release.md`, standard 8.15, scenario `release-check`) runs on
+  the readout and report against where they're going (team, company or
+  outside) before they're offered for a yes: names and employers out,
+  descriptors broadened where they'd point to one person, separate
+  consent for quotes beyond ordinary use, sensitive findings handled as
+  agreed. Stage 8 asks the destination with its other questions. The
+  "say each principle once" rule now says what to do when the same
+  mistake comes back: point to the first explanation in a clause naming
+  the item, with no second explanation (A.12; the `challenge-reason`
+  scenario accepts the pointer and fails a reworded repeat). This came
+  from the 27 October coaching eval run, where all three
+  `challenge-reason` runs re-explained.
+- Nothing is drafted until the required context is in. Every required
+  question (the your-turn ask, the stage's minimum and anything else not
+  marked optional) needs the researcher's answer or their yes to a guess
+  Magpie named. "Go ahead" or "just draft it" skips only the optional
+  questions; with a required answer missing, Magpie now shows its best
+  guesses for a quick yes instead of building a draft or an outline. A
+  blanket go-ahead never counts as confirming a guess. With more than
+  three optional answers missing, those guesses are shown first too. A
+  reply that asks a required question holds no draft and starts no
+  review (new A.24). At stage 7, a go-ahead on the context questions no
+  longer skips the theme review (7.13). At stage 3, Magpie's version of a
+  handed-back your-turn step needs a yes before it's built on (A.14).
+  The plan's minimum to draft now reads "the decision it serves and who
+  the participants are", matching the example in the core rules.
+  Standards A.11 and A.15 are rewritten; scenarios `just-draft-it` and
+  `below-minimum` are updated; new scenarios `go-ahead-is-not-a-yes`,
+  `go-ahead-keeps-theme-review`, `asks-then-stops` and `many-guesses`.
+  Magpie no longer builds on a guess the researcher hasn't seen, even
+  when the brief covered the minimum (A.24). A research plan from scratch
+  now gathers its context in up to three short rounds (frame, method,
+  plan), six questions at most each, and is built once after the last
+  round (A.25, new scenario `plan-in-rounds`). The first question
+  message of a study asks once for any PRD, brief or background, which
+  Magpie reads before asking more (A.26). A new hypothesis check
+  (`checks/hypotheses.md`, standard 3.10) joins the research-question
+  check. When Magpie rewrites the researcher's question, hypothesis or
+  decision line, it shows a short before-and-after table: only what
+  changed, at most three rows in full, each principle explained once
+  (A.27). New scenarios `background-doc`, `vague-hypothesis`,
+  `before-and-after`.
+  Run notes: `evals/runs/2026-10-28-drafting-gate.md`.
 - A lighter first reply: each numbered question asks one thing, questions
   the output can be built without come last marked "(optional)", a best
   guess is offered where there is one, and the stage 3 your-turn ask is
