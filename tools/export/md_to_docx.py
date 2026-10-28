@@ -63,18 +63,27 @@ def para(text: str, style: str | None = None, extra: str = "") -> str:
 # --- blocks --------------------------------------------------------------
 
 def table(rows: list[list[str]]) -> str:
+    # A header row with nothing in it (a label/value table) is left out.
+    has_header = any(c.strip() for c in rows[0])
+    if not has_header:
+        rows = rows[1:]
+    ncols = max(len(r) for r in rows) if rows else 1
+    # Two-column tables are label and value: give the label less room.
+    widths = [2800, 6560] if ncols == 2 else [9360 // ncols] * ncols
+    grid = "<w:tblGrid>" + "".join(f'<w:gridCol w:w="{w}"/>' for w in widths) + "</w:tblGrid>"
     cells_xml = []
     for i, row in enumerate(rows):
+        row = row + [""] * (ncols - len(row))
         cells = []
-        for cell in row:
-            text = f"**{cell}**" if i == 0 and cell and not cell.startswith("**") else cell
-            cells.append(f'<w:tc><w:tcPr><w:tcW w:w="0" w:type="auto"/></w:tcPr>{para(text)}</w:tc>')
-        header = "<w:trPr><w:tblHeader/></w:trPr>" if i == 0 else ""
+        for c, cell in enumerate(row):
+            text = f"**{cell}**" if i == 0 and has_header and cell and not cell.startswith("**") else cell
+            cells.append(f'<w:tc><w:tcPr><w:tcW w:w="{widths[c]}" w:type="dxa"/></w:tcPr>{para(text)}</w:tc>')
+        header = "<w:trPr><w:tblHeader/></w:trPr>" if i == 0 and has_header else ""
         cells_xml.append(f"<w:tr>{header}{''.join(cells)}</w:tr>")
     return ('<w:tbl><w:tblPr><w:tblStyle w:val="TableGrid"/><w:tblW w:w="5000" w:type="pct"/>'
             '<w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="0" '
             'w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr>'
-            f"{''.join(cells_xml)}</w:tbl>{para('')}")
+            f"{grid}{''.join(cells_xml)}</w:tbl>{para('')}")
 
 
 def split_row(line: str) -> list[str]:
