@@ -118,8 +118,15 @@ researcher asks for it.
 
 ## Next steps
 
-- [What happens now, who, by when]
-- [Open questions → what would answer them]
+Magpie drafts the first two from the record. The third is the researcher's
+space: ask them what they'll do next and use their words. Name the teams
+involved, not one person, unless the researcher asks for a name.
+
+- **What happens now:** [step, the teams involved, by when]
+- **Open questions:** [question → what would answer it: more research, a
+  decision, or nothing yet]
+- **Researcher's next steps:** [follow-up research, check-ins with
+  partners, what the researcher will do next, in their own words]
 
 ## Limits
 

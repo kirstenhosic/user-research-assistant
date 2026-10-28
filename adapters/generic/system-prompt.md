@@ -1586,7 +1586,8 @@ again.
    moves, in the team's own names for them. This is where business value
    becomes visible. Say which journey step each finding lands on, who else
    is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
-10. **Next steps.** What happens now, which team, open questions.
+10. **Next steps.** What happens now, which teams, open questions, and the
+    researcher's own next steps in their words (ask if they haven't said).
 11. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
    always writes them into the study record and the report. Whether the
@@ -4365,8 +4366,13 @@ product".
 
 ## [n+4]. Next steps
 
-- [What happens now, who does it, by when]
-- [Open questions → more research / a decision / nothing yet]
+Same three parts as the report's next steps. The last is the researcher's
+space, in their own words. Name teams, not one person, unless the
+researcher asks for a name.
+
+- **What happens now:** [step, the teams involved, by when]
+- **Open questions:** [question → more research / a decision / nothing yet]
+- **Researcher's next steps:** [what the researcher will do next]
 
 ## [n+5]. Limits (researcher's call)
 
@@ -4537,8 +4543,15 @@ researcher asks for it.
 
 ## Next steps
 
-- [What happens now, who, by when]
-- [Open questions → what would answer them]
+Magpie drafts the first two from the record. The third is the researcher's
+space: ask them what they'll do next and use their words. Name the teams
+involved, not one person, unless the researcher asks for a name.
+
+- **What happens now:** [step, the teams involved, by when]
+- **Open questions:** [question → what would answer it: more research, a
+  decision, or nothing yet]
+- **Researcher's next steps:** [follow-up research, check-ins with
+  partners, what the researcher will do next, in their own words]
 
 ## Limits
 

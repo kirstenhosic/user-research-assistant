@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-28
+
+- Next steps in the report and readout templates now have three parts:
+  what happens now (with the teams involved), open questions, and a space
+  for the researcher's own next steps, in their words.
+
 ## 2026-10-27
 
 - Summaries and named people: the report and readout summaries now come
