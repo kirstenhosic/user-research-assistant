@@ -75,7 +75,7 @@ per conversation; it stays on until you say "stop Magpie".
   transcripts and the draft. It's required at analysis and at the report.
 - **Writes for the people who act on it.** Readouts and reports lead with
   why the study was done and up to five top findings, keep every other
-  finding on one page, and give each recommendation an owner.
+  finding on one page, and say which teams each recommendation touches.
 
 The reasoning behind each of these is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
@@ -335,7 +335,7 @@ adapters/skill/magpie/   the skill folder you install (generated)
 adapters/generic/        one long prompt for any other assistant (generated)
 adapters/claude|chatgpt|gemini|copilot/   setup notes per platform, with what was checked and when
 core/                    everything Magpie knows, in plain Markdown (edit here)
-tools/                   the build script and the quote, count and evidence checks
+tools/                   the build script, the quote, count and evidence checks, and the example deck builder
 .github/workflows/       runs tools/check.py on every pull request
 evals/                   test scenarios with planted problems
 docs/                    design, provenance, contributing, prompt style, changelog

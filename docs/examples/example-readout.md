@@ -1,127 +1,141 @@
 # Readout: Why mid-size customers abandon export in Ledgerline
 
-**Fictional example.** 15 slides for a 30-minute slot with the product trio (PM, designer, engineering lead) and two engineers. Each heading is one slide, and each slide title is the slide's message.
+**Fictional example.** 16 slides for a 30-minute slot with the product trio (PM, designer, engineering lead) and two engineers. Each heading is one slide, and each slide title is the slide's message, on one line. The deck opens with the answer and a short summary drawn from the study's findings, then tells the story of how we know.
 
-## 1. Fix import before rebuilding the export dialog
+## 1. Export isn't the problem. Import is.
 
-Why mid-size customers abandon export · 14 October 2026 · Priya Nair, UX Research · Decision owner: Sam Okafor, PM Reporting
+Why new customers give up on export, and what to do about it · 14 October 2026 · Priya Nair, UX Research · For the Reporting team
 
-## 2. We studied export to decide where Q1 engineering time goes
+## 2. What we learned, in short
 
-- **The decision:** Sam decides by 30 October whether Q1 goes to a redesigned export dialog or to the import step.
-- **The business need:** "Weekly active sharers" is our H2 goal, and Support logged 212 export tickets in Q3 [Support].
-- **What we already knew:** Export is the second most-used admin feature [2025 survey], and nobody had studied why it fails.
-- **The question:** Why do mid-size customers abandon exports in their first 90 days?
-- **Where it sits:** Export, which report builders use weekly: step 3 of 4 of "Share a report", for the Report builder persona.
+We set out to learn why new customers give up on export. The answer points earlier in the journey than we expected.
 
-## 3. We watched 8 report builders try a real export on their own accounts
+- **Import is where it breaks.** For 5 of the 6 people who gave up, import had quietly skipped columns. A new export screen wouldn't have helped them.
+- **The problem is bigger than our numbers show.** 6 of 8 fix the file by emailing it to a colleague, so these exports count as successes.
+- **Finance teams are fully blocked.** Only 2 people, but neither could get a file their finance system accepts.
 
-We ran 8 remote sessions of 45 minutes, 6 to 10 October 2026. Participants were report builders at mid-size customers who had signed up under 90 days ago, recruited by CS. Each session was a short interview about their last export, then a live export task on their own account.
+So: fix import first, then decide whether the export screen still needs a rebuild.
 
-## 4. Four findings the decision rests on, ranked
+## 3. The team is choosing where Q1 effort goes
 
-1. For 5 of 8, export failed because import never mapped the columns · **Strong**
-2. Both finance-team participants couldn't get a file their finance system accepts · **Weak · serious case**
-3. 6 of 8 work around export by emailing the file to a colleague · **Strong**
-4. 7 of 8 couldn't say what "Include hidden fields" does · **Moderate**
+- **Option A:** Rebuild the export screen.
+- **Option B:** Fix the import step that feeds it.
+- **Decision by:** 30 October, by the Reporting team.
+- **Why it matters:** 212 export tickets last quarter, and more weekly sharing is the team's goal for the second half of the year.
+- **What we asked:** Why do new customers give up on export in their first 90 days?
+- **What we already knew:** Export is the second most-used admin feature (2025 survey). Field reps hear that "customers hate the export". Nobody had asked why it fails.
 
-## 5. For 5 of 8, export failed because import never mapped the columns
+## 4. We watched 8 customers try a real export
 
-**Finding 1 of 4 · Strong**
+8 customers, one at a time · 45 minutes each, by video call · under 90 days since they signed up · 6 to 10 October 2026.
 
-- 5 of 8 stopped when the preview showed empty columns, and in all 5 accounts import had skipped those columns.
-- Receipts: P1 line 13, P3 line 41, P4 08:15, P6 12:40, P8 06:02.
-- **What cuts against it:** P2 and P5 exported every column; both had CS run their import.
-- **What it means:** A new dialog wouldn't have helped 5 of the 6 who abandoned.
+Each person told us about the last export they tried, then exported last month's revenue report on their own account while we watched. They all build and share reports at companies with 50 to 500 Ledgerline seats, and our Customer Success team helped us find them.
+
+## 5. We expected the export screen to be the problem
+
+The study was set up to help plan a new export screen. Field reps said customers hate it. Watching people use it told a different story.
+
+## 6. The trouble starts before export
+
+The journey has four steps: import data, build a report, export the file, send to finance.
+
+- **Step 1, import data:** 5 of 8 had columns that import skipped. Nobody noticed until the export came out with gaps.
+- **Step 2, build a report:** no problems here.
+- **Step 3, export the file:** 7 of 8 didn't understand the "Include hidden fields" checkbox.
+- **Step 4, send to finance:** 2 of 8, both from finance teams, had the file rejected for its column order. 6 of 8 fixed the file by emailing it to a colleague.
+
+## 7. 5 of 8 hit columns that import had skipped
+
+**Finding 1 of 4 · Strong evidence · Heard from P1, P3, P4, P6, P8**
+
+When the export preview showed empty columns, they stopped. In every case, import had skipped those columns weeks earlier.
 
 > "I thought export was broken, but it's the import that never had them." — P3, operations analyst, 120 seats
 
-## 6. Both finance-team participants couldn't get a file their finance system accepts
+- **Who didn't fit:** P2 and P5 had no gaps. Customer Success had set up their import for them.
+- **What it means:** A new export screen wouldn't have helped 5 of the 6 people who gave up.
 
-**Finding 2 of 4 · Weak · serious case**
+## 8. Finance teams can't use the file at all
 
-- P5 and P7 reconcile against an external system that needs a fixed column order export can't produce.
-- Receipts: P5 18:05, P7 22:10.
-- **What cuts against it:** The other 6 had no column-order need.
-- **What it means:** A small group is fully blocked, so size it before deciding.
+**Finding 2 of 4 · Weak evidence · Serious: fully blocked · Heard from P5, P7**
+
+Both people from finance teams need columns in a fixed order for their finance system. Export can't do that, so the file is rejected.
 
 > "If the order's wrong the reconciliation tool rejects the whole file." — P7, finance controller, 450 seats
 
-## 7. 6 of 8 work around export by emailing the file to a colleague
+- **Who didn't fit:** The other 6 didn't need a fixed order. This may only affect finance teams.
+- **What it means:** A small group is completely stuck. Support can count how many customers this affects.
 
-**Finding 3 of 4 · Strong**
+## 9. 6 of 8 email the file to someone to fix
 
-- 6 of 8 had sent a raw file to a colleague to fix by hand, without being asked.
-- Receipts: P1 line 15, P3 line 48, P4 11:00, P6 14:20, P7 25:00, P8 07:30.
-- **What cuts against it:** P2 and P5 reported no workaround.
-- **What it means:** The funnel counts these exports as complete, so tickets understate the problem.
+**Finding 3 of 4 · Strong evidence · Heard from P1, P3, P4, P6, P7, P8**
+
+When the file is wrong, people send it to a colleague to fix by hand. They told us this without being asked.
 
 > "Sent the raw file to [name] and asked them to fix it." — P1, operations manager, 80 seats
 
-## 8. 7 of 8 couldn't say what "Include hidden fields" does
+- **Who didn't fit:** P2 and P5 didn't do this. P2 rarely exports.
+- **What it means:** Our numbers count these exports as successes, so the 212 tickets undercount the problem.
 
-**Finding 4 of 4 · Moderate**
+## 10. 7 of 8 didn't understand one checkbox
 
-- 7 of 8 skipped the checkbox or guessed what it did.
-- Receipts: P1 line 30, P2 line 22, P3 line 55, P4 09:30, P5 16:00, P6 15:10, P7 27:40.
-- **What cuts against it:** P8 used it correctly after reading the help article.
-- **What it means:** It's a cheap labelling fix, and not why people abandon.
+**Finding 4 of 4 · Moderate evidence · Heard from P1 to P7**
+
+Almost everyone skipped "Include hidden fields" or guessed what it does. Nobody could say what a hidden field is.
 
 > "Hidden from who?" — P4, reporting lead, 310 seats
 
-## 9. Three more findings, kept so nothing is lost
+- **Who didn't fit:** P8 used it correctly after reading the help article.
+- **What it means:** A quick wording fix on the export screen. It isn't why people give up.
 
-- 2 of 8 expected export to run on a monthly schedule by itself · **Weak** · unexpected
-- 3 of 8 re-selected the same columns every time, because the dialog doesn't remember them · **Weak**
-- 3 of 8 renamed the default filename, and nobody stopped because of it · **Weak**
+## 11. Three smaller things we noticed
 
-Every finding that met the evidence bar is in this deck. The full table is in the appendix.
+- 2 of 8 expected export to run every month by itself. We didn't ask about this; it's worth raising in roadmap planning.
+- 3 of 8 picked the same columns every time, because the export screen doesn't remember last time's choice.
+- 3 of 8 renamed the file before sending it. Nobody gave up over this, so it isn't a priority.
 
-## 10. Most exports fail at import, so fix import first
+All weak evidence. Every finding from the study is in this deck or the report's appendix.
 
-- We asked why people abandon export.
-- Mostly they fail at import and only notice it at export.
-- A smaller group, finance teams, is fully blocked by column order.
-- Confidence is moderate overall: 8 sessions, all recruited through CS.
+## 12. Four things to do, in this order
 
-## 11. Four actions, each with an owner
+1. Warn people at import when columns their reports use were skipped. Teams involved: Data Pipeline, Reporting. Fixes finding 1.
+2. Hold the export screen rebuild until the import warning is live and measured. Teams involved: Reporting. Based on findings 1 and 3.
+3. Count how many finance-team customers need a fixed column order. Teams involved: Support, Customer Success. Sizes finding 2.
+4. Rename "Include hidden fields" and add a one-line explanation. Teams involved: Design. Fixes finding 4.
 
-| Action | Owner | Rests on | Moves |
+Who takes each one is for the teams to agree together.
+
+## 13. The team decides by 30 October
+
+1. **24 October:** Support counts the finance-team customers, so we know how big finding 2 is.
+2. **30 October:** the team decides, using this deck and the report.
+3. **November:** 3 follow-up sessions with finance teams, if the import warning goes ahead.
+4. **Later:** one open question. Does the import problem affect scheduled reports too?
+
+## 14. What this study can't tell us
+
+- **Who we spoke to:** Customer Success helped find all 8 people. Customers who set up on their own may differ.
+- **Finance teams:** Only 2 of the 8, so finding 2 could be bigger or smaller than it looks.
+- **How many:** We didn't check the export numbers first, so we can't say what share of all customers hit finding 1.
+
+Magpie drafted this slide and the researcher chose to keep it. The limits are in the report either way.
+
+## 15. Who we spoke to
+
+| Code | Role | Seats | Team |
 | --- | --- | --- | --- |
-| 1. Warn at import when saved reports use unmapped columns | Data Pipeline (Lena) | Finding 1 | Weekly active sharers; export tickets |
-| 2. Defer the dialog rebuild until the import check ships and is measured | Sam | Findings 1 and 3 | Q1 capacity |
-| 3. Count finance-team customers who need a fixed column order | Support (Marco), with CS | Finding 2 | Whether column order goes in Q1 or later |
-| 4. Relabel "Include hidden fields" with a plain description | Design (Aisha) | Finding 4 | Export completion |
+| P1 | Operations manager | 80 | Operations |
+| P2 | Office manager | 60 | Operations |
+| P3 | Operations analyst | 120 | Operations |
+| P4 | Reporting lead | 310 | Reporting |
+| P5 | Finance analyst | 200 | Finance |
+| P6 | Account manager | 95 | Sales |
+| P7 | Finance controller | 450 | Finance |
+| P8 | Data analyst | 150 | Reporting |
 
-Action 2 is the uncomfortable one: the study was commissioned for a dialog rebuild, and the evidence says the rebuild would miss the cause.
+## 16. How AI was used
 
-## 12. Sam decides on 30 October, after Support sizes finding 2
-
-1. Marco returns the finance-team count by 24 October.
-2. Sam decides by 30 October, with this deck and the report as the inputs.
-3. If the import check is approved, Priya runs 3 follow-up sessions with finance-team customers in November.
-4. Whether the import gap also affects scheduled reports is an open question for the backlog.
-
-## 13. What this study can't tell us
-
-- All 8 participants were recruited through CS, so self-serve customers may differ.
-- Only 2 were from finance teams, so finding 2 could be bigger or smaller than it looks.
-- We didn't pull the export funnel before recruiting, so we can't say what share of customers hit finding 1.
-
-Magpie drafted this slide and the researcher chose to keep it in. The limits are in the report either way.
-
-## 14. Appendix: for the deeper dive
-
-- Participant profile, with role, seats and team for P1 to P8
-- Full findings with the coding frame and every quote
-- The interview guide and task script
-- Independent review: 11 points, 8 accepted, 3 answered
-- Links to the study record, the report and the recordings (access-controlled)
-
-## 15. Appendix: how AI was used
-
-- **Assistant:** Magpie, running in Claude Code.
-- **What it drafted:** the plan, the guide and task script, the themes and findings, the report and this deck.
-- **What the researcher did:** ran all 8 sessions, named her own patterns first, decided on each theme, wrote the recommendations, and reviewed the findings (12 October) and this deck (14 October).
-- **Checks:** quotes and counts checked by code; a separate AI reviewer raised 11 points, and 8 changed the findings. The reviewer is a model too and can be wrong.
-- **Other AI tools:** the video tool transcribed the sessions, and Priya corrected the transcripts.
+- **Magpie, an AI research assistant,** drafted the plan, the interview guide, the findings, the report and this deck.
+- **The researcher** ran every session, noted their own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. They reviewed the findings on 12 October and this deck on 14 October.
+- **Checks:** quotes and counts were checked by code against the transcripts. A separate AI reviewer raised 11 points, and 8 changed the findings. That reviewer can be wrong too.
+- **Transcripts** came from the video tool, and the researcher corrected them against the recordings.

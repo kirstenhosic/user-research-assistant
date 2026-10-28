@@ -827,7 +827,7 @@ researcher to write four things in their own words before you draft them.
 Together they count as one of the six questions.
 
 - The decision: "What will someone decide differently once you know the
-  answer?" Give the shape if it helps: *[Owner] will decide [what] by
+  answer?" Give the shape if it helps: *[The team or group] will decide [what] by
   [when], choosing between [options].*
 - The primary research question: "If you could ask one question to make
   that decision easier, what would it be?"
@@ -855,7 +855,7 @@ it in the record.
 2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
    or a feeling ("it's confusing"). Start from the researcher's own
    version (the your-turn ask above). Keep their words, and fill in what's
-   missing from the format: *[Owner] will decide [what] by [when], choosing
+   missing from the format: *[The team or group] will decide [what] by [when], choosing
    between [options].* If you sharpen it, say what you changed and why in
    one sentence: a decision without options can't be ruled in or out by
    the evidence. If they handed this back, draft it from what you've been
@@ -1524,7 +1524,8 @@ for.
   framed with care.
 - Anything sensitive: a finding that reflects on a person or team, or
   material that can't be shown outside the team.
-- Whether recommendations should name owners, and who they can be.
+- Whether recommendations should name people, or only the teams
+  involved (the default: who does what is often for the team to agree).
 
 **Your turn** (`operating.md`, "Your turn"). In the same message, ask the
 researcher to say, for each top finding, what the people who'll act on it
@@ -1574,15 +1575,18 @@ again.
    finding leaves is if its evidence doesn't hold, and then it goes in the
    appendix with the reason. The study record's findings table stays the
    full list; the top five are a selection from it.
-9. **Summarize, then recommend in detail.** A short summary slide, then
-   recommendations as actions with owners, built from the researcher's
-   your-turn answers where they gave them. Keep their words; where you
-   add an owner, a metric or a finding it rests on, say so. Each
+9. **Summarize, then recommend in detail.** A short summary slide, drawn
+   from this study's focus, goals and findings rather than fixed
+   headings, then recommendations as actions with the teams they touch,
+   built from the researcher's your-turn answers where they gave them.
+   Don't make one named person carry the decision or an action; say "the
+   team" unless the researcher asks for names. Keep their words; where
+   you add a team, a metric or a finding it rests on, say so. Each
    recommendation rests on a named finding and names the goal or metric it
    moves, in the team's own names for them. This is where business value
    becomes visible. Say which journey step each finding lands on, who else
    is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
-10. **Next steps.** What happens now, who does it, open questions.
+10. **Next steps.** What happens now, which team, open questions.
 11. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
    always writes them into the study record and the report. Whether the
@@ -1605,7 +1609,7 @@ again.
     recruiting mechanics and consent detail go in the appendix, not the
     body. `templates/report.md`.
 14. **Run the reader test.** For each reader the readout and report are
-    for (the decision owner, the PM, the designer, the engineer), read only
+    for (the PM, the designer, the engineer, the customer-facing teams), read only
     the summary and ask: can they tell what it means for them and what
     they'd do next? If a reader can't, add a line for them to the summary
     or the recommendations. If there's nothing for them, say so, so they
@@ -1655,7 +1659,7 @@ PM measure to know it worked?"
   summary, recommendations, next steps, in that story order.
 - Every finding that met the evidence bar is on a slide: in the top five
   or on the other-findings slide.
-- Every recommendation has an owner, a finding and a goal.
+- Every recommendation names the teams it touches, a finding and a goal.
 - Report at ten pages or fewer (images and appendix aside), with a linked
   contents list, method in one paragraph, admin detail in the appendix.
 - Limits drafted, shown to the researcher, and their decision recorded;

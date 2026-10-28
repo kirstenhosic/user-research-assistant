@@ -8,7 +8,7 @@ record:** [link] · **Researcher:** [name]
 How do people get [job] done in other tools, and what would fit our
 [persona or group]?
 
-- **Decision this serves:** [Owner] will decide [what] by [when]
+- **Decision this serves:** [The team or group] will decide [what] by [when]
 - **Persona and journey step:** [from the study record]
 - **What we know about our users here:** [from the evidence log; one or
   two lines; "nothing yet" is fine]

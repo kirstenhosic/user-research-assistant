@@ -827,7 +827,7 @@ researcher to write four things in their own words before you draft them.
 Together they count as one of the six questions.
 
 - The decision: "What will someone decide differently once you know the
-  answer?" Give the shape if it helps: *[Owner] will decide [what] by
+  answer?" Give the shape if it helps: *[The team or group] will decide [what] by
   [when], choosing between [options].*
 - The primary research question: "If you could ask one question to make
   that decision easier, what would it be?"
@@ -855,7 +855,7 @@ it in the record.
 2. **Find the decision.** Most asks arrive as a topic ("look into onboarding")
    or a feeling ("it's confusing"). Start from the researcher's own
    version (the your-turn ask above). Keep their words, and fill in what's
-   missing from the format: *[Owner] will decide [what] by [when], choosing
+   missing from the format: *[The team or group] will decide [what] by [when], choosing
    between [options].* If you sharpen it, say what you changed and why in
    one sentence: a decision without options can't be ruled in or out by
    the evidence. If they handed this back, draft it from what you've been
@@ -1524,7 +1524,8 @@ for.
   framed with care.
 - Anything sensitive: a finding that reflects on a person or team, or
   material that can't be shown outside the team.
-- Whether recommendations should name owners, and who they can be.
+- Whether recommendations should name people, or only the teams
+  involved (the default: who does what is often for the team to agree).
 
 **Your turn** (`operating.md`, "Your turn"). In the same message, ask the
 researcher to say, for each top finding, what the people who'll act on it
@@ -1574,15 +1575,18 @@ again.
    finding leaves is if its evidence doesn't hold, and then it goes in the
    appendix with the reason. The study record's findings table stays the
    full list; the top five are a selection from it.
-9. **Summarize, then recommend in detail.** A short summary slide, then
-   recommendations as actions with owners, built from the researcher's
-   your-turn answers where they gave them. Keep their words; where you
-   add an owner, a metric or a finding it rests on, say so. Each
+9. **Summarize, then recommend in detail.** A short summary slide, drawn
+   from this study's focus, goals and findings rather than fixed
+   headings, then recommendations as actions with the teams they touch,
+   built from the researcher's your-turn answers where they gave them.
+   Don't make one named person carry the decision or an action; say "the
+   team" unless the researcher asks for names. Keep their words; where
+   you add a team, a metric or a finding it rests on, say so. Each
    recommendation rests on a named finding and names the goal or metric it
    moves, in the team's own names for them. This is where business value
    becomes visible. Say which journey step each finding lands on, who else
    is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
-10. **Next steps.** What happens now, who does it, open questions.
+10. **Next steps.** What happens now, which team, open questions.
 11. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
    always writes them into the study record and the report. Whether the
@@ -1605,7 +1609,7 @@ again.
     recruiting mechanics and consent detail go in the appendix, not the
     body. `templates/report.md`.
 14. **Run the reader test.** For each reader the readout and report are
-    for (the decision owner, the PM, the designer, the engineer), read only
+    for (the PM, the designer, the engineer, the customer-facing teams), read only
     the summary and ask: can they tell what it means for them and what
     they'd do next? If a reader can't, add a line for them to the summary
     or the recommendations. If there's nothing for them, say so, so they
@@ -1655,7 +1659,7 @@ PM measure to know it worked?"
   summary, recommendations, next steps, in that story order.
 - Every finding that met the evidence bar is on a slide: in the top five
   or on the other-findings slide.
-- Every recommendation has an owner, a finding and a goal.
+- Every recommendation names the teams it touches, a finding and a goal.
 - Report at ten pages or fewer (images and appendix aside), with a linked
   contents list, method in one paragraph, admin detail in the appendix.
 - Limits drafted, shown to the researcher, and their decision recorded;
@@ -3971,7 +3975,7 @@ record:** [link] · **Researcher:** [name]
 How do people get [job] done in other tools, and what would fit our
 [persona or group]?
 
-- **Decision this serves:** [Owner] will decide [what] by [when]
+- **Decision this serves:** [The team or group] will decide [what] by [when]
 - **Persona and journey step:** [from the study record]
 - **What we know about our users here:** [from the evidence log; one or
   two lines; "nothing yet" is fine]
@@ -4077,7 +4081,7 @@ sentences.
 ## Tables
 
 - Use a table when several items share the same attributes:
-  recommendations (action, owner, finding, goal, confidence), a usability
+  recommendations (action, teams involved, finding, goal, confidence), a usability
   issue list, the participant profile.
 - Five columns at most, short cells, a header row. A table wider than a
   phone screen goes to the appendix with a short list in the body.
@@ -4218,7 +4222,7 @@ One page the researcher takes to a PM or a leadership team to propose a
 study. Plain words. Every claim labelled by where it came from.
 
 **Proposed by:** [researcher] · **Date:** [date] · **Would inform:**
-[decision and likely owner]
+[decision and the team likely to make it]
 
 ## The gap
 
@@ -4248,7 +4252,7 @@ yet".]
 
 ## The decision this would inform
 
-[Owner] could decide [what] by [when], choosing between [options].
+[The team or group] could decide [what] by [when], choosing between [options].
 
 ## What a study would look like
 
@@ -4279,14 +4283,14 @@ slide doesn't move the story, it goes to the appendix.
 
 ## 1. Title
 
-[Study name] · [date] · [researcher] · [decision owner]
+[Study name] · [date] · [researcher] · [the team or group it's for]
 
 ## 2. Why we did this
 
 The foundation. One slide, sometimes two.
 
 - **The product:** [optional: what it is, what it does, who uses it, in one line]
-- **The decision:** [Owner] will decide [what] by [when]
+- **The decision:** By [when], the team will decide [what]
 - **The business need:** [goal or metric at stake, in the team's own words]
 - **What we already knew:** [prior research, partner data, or "no prior
   evidence"]
@@ -4337,18 +4341,24 @@ the reason.
 
 ## [n+2]. Summary
 
-The story in three or four lines: what we asked, what we found, what it
-means for the decision, how confident we are.
+The story in three or four lines, drawn from this study's focus, goals
+and findings. Things to look for: what we asked, what we found, what it
+means for the product or the business, how confident we are. Use the
+ones this study speaks to. For an audience that wants the answer first,
+this slide can come second, right after the title.
 
 ## [n+3]. Recommendations
 
-Detailed. Each one is an action with an owner, the finding it rests on, and
-the goal or metric it moves. The "moves" column is where business value
-becomes visible: use the names the team already tracks.
+Detailed. Each one is an action, the teams it touches, the finding it
+rests on, and the goal or metric it moves. The "moves" column is where
+business value becomes visible: use the names the team already tracks.
+Name the teams each action touches, not a person. Who takes each action
+is often for the teams to agree together; name a person only when the
+researcher asks for it.
 
-| Action | Owner | Rests on | Moves |
+| Action | Teams involved | Rests on | Moves |
 | --- | --- | --- | --- |
-| [action] | [name] | Finding [n] | [goal or metric] |
+| [action] | [teams] | Finding [n] | [goal or metric] |
 
 If it helps the audience, split into "for design", "for engineering", "for
 product".
@@ -4390,7 +4400,7 @@ under fifteen minutes; otherwise the default above applies.
 
 1. The decision and the answer (decision, what the evidence supports, how
    sure we are, what we recommend)
-2. Recommendations with owners
+2. Recommendations, with the teams involved
 3. What we did, in one slide
 4. Top findings, then detail only where needed
 5. Other findings, one slide
@@ -4409,7 +4419,7 @@ under fifteen minutes; otherwise the default above applies.
 
 # Research report: [study name]
 
-**Author:** [researcher] · **Date:** [date] · **Decision owner:** [name] ·
+**Author:** [researcher] · **Date:** [date] · **For:** [the team or group] ·
 **Study record:** [link]
 
 A report is read by people who weren't in the readout and by people who come
@@ -4441,16 +4451,18 @@ Markdown links to the headings so it works in most tools.
 
 ## Summary
 
-Five to eight sentences. The decision, the answer the evidence supports, how
-confident we are, the top findings in a phrase each, the main
-recommendation. Someone with two minutes reads only this.
+Five to eight sentences, drawn from this study: its focus, its goals and
+what it found. Things to look for, where the study speaks to them: the
+answer the evidence supports, how confident we are, what it means for the
+product, what it means for the business, and the main recommendation. Not
+every summary needs all of them. Someone with two minutes reads only this.
 
 ## Why we did this
 
 - **The product:** [optional: what it is, what it does, the part studied, and who
   uses it; who buys or sets it up, if different]
-- **The decision:** [Owner] will decide [what] by [when], choosing between
-  [options].
+- **The decision:** By [when], the team will decide [what], choosing
+  between [options].
 - **The business need:** [goal or metric at stake; cost of getting it
   wrong]
 - **What we already knew:** [two or three lines; link to prior research or
@@ -4509,13 +4521,17 @@ finding whose evidence didn't hold is in the appendix with the reason.
 
 ## Recommendations
 
-Detailed. Each is an action with an owner, the finding it rests on, the
-goal or metric it moves, and how confident we are. Add a sentence or two
-under the table where an action needs explaining.
+Detailed. Each is an action, the teams it touches, the finding it rests
+on, the goal or metric it moves, and how confident we are. Number the
+actions in priority order. Add a sentence or two under the table where an
+action needs explaining.
+Name the teams each action touches, not a person. Who takes each action
+is often for the teams to agree together; name a person only when the
+researcher asks for it.
 
-| # | Action | Owner | Rests on | Moves | Confidence |
-| --- | --- | --- | --- | --- | --- |
-| 1 | | | Finding [n] | [goal or metric] | |
+| Action | Teams involved | Rests on | Moves | Confidence |
+| --- | --- | --- | --- | --- |
+| 1. [action] | [teams] | Finding [n] | [goal or metric] | |
 
 [Notes on any recommendation that needs them.]
 
@@ -4575,7 +4591,7 @@ facts, no reassurance.
 
 Two minutes to read. Everything here comes from the study record.
 
-**Owner:** [researcher] · **Decision owner:** [name] · **Decision due:** [date]
+**Owner:** [researcher] · **Who decides:** [team or group] · **Decision due:** [date]
 · **Readout:** [date]
 
 ## The product
@@ -4585,7 +4601,7 @@ users are. Who buys or sets it up, if different.]
 
 ## The decision
 
-[Owner] will decide [what] by [when], choosing between [options].
+[The team or group] will decide [what] by [when], choosing between [options].
 
 **Why it matters:** [goal or metric it moves; cost of getting it wrong]
 
@@ -5023,7 +5039,7 @@ someone else. If you're not sure, say so.]
 
 ## Who decides, and when?
 
-- **Decision owner:** [name]
+- **Who decides:** [team or group]
 - **Needed by:** [date] because [what happens then]
 
 ## What do you already believe?

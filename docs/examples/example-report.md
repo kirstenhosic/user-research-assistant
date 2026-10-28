@@ -1,6 +1,6 @@
 # Research report: Why mid-size customers abandon export in Ledgerline
 
-**Author:** Priya Nair · **Date:** 14 October 2026 · **Decision owner:** Sam Okafor (PM, Reporting) ·
+**Author:** Priya Nair · **Date:** 14 October 2026 · **For:** the Reporting team ·
 **Study record:** [link to study record]
 
 **Fictional example.** Ledgerline, its customers and its participants are made up to show what a Magpie report looks like when filled in.
@@ -21,13 +21,13 @@
 
 ## Summary
 
-Reporting has to decide by 30 October whether to rebuild the export dialog or fix the import step that feeds it. The evidence supports fixing import first. 6 of 8 participants abandoned an export during the session, and for 5 of those 6 the cause was columns that were never mapped at import, not the dialog itself. Both participants from finance teams could not get a file their finance system would accept. Confidence is moderate: 8 sessions, and all participants were recruited through Customer Success (CS). The main recommendation is a column-mapping check at import, owned by the Data Pipeline team, with the dialog rebuild deferred until that check ships.
+Reporting has to decide by 30 October whether to rebuild the export dialog or fix the import step that feeds it. The evidence supports fixing import first. 6 of 8 participants abandoned an export during the session, and for 5 of those 6 the cause was columns that were never mapped at import, not the dialog itself. Both participants from finance teams could not get a file their finance system would accept. Confidence is moderate: 8 sessions, and all participants were recruited through Customer Success (CS). The main recommendation is a check at import that warns about skipped columns, with the dialog rebuild held until that check ships.
 
 ## Why we did this
 
 - **The product:** Ledgerline is accounting software for mid-size businesses. This study covers export, where report builders send report data to other tools; report builders use it weekly, and the finance team receives what they send.
-- **The decision:** Sam Okafor will decide by 30 October whether Q1 engineering time goes to a redesigned export dialog, to the import step, or to neither.
-- **The business need:** "Weekly active sharers" is the Reporting team's goal metric for H2 [team profile]. Support logged 212 export-related tickets in Q3 [partner data, Support, 2 October 2026]. A rebuilt dialog would cost about one engineer-quarter [assumption, from Sam].
+- **The decision:** By 30 October, the Reporting team will decide whether Q1 engineering time goes to a redesigned export dialog, to the import step, or to neither.
+- **The business need:** "Weekly active sharers" is the Reporting team's goal metric for H2 [team profile]. Support logged 212 export-related tickets in Q3 [partner data, Support, 2 October 2026]. A rebuilt dialog would cost about one engineer-quarter [assumption, from the Reporting team].
 - **What we already knew:** A 2025 survey found export was the second most-used feature among admins [their data, evidence log E2]. There was no earlier research on why exports fail. Field reps report that "customers hate the export" [partner data, indirect].
 - **The questions:** The primary question was why mid-size customers abandon exports in their first 90 days. The secondary questions were where in the flow they abandon, and what they do instead.
 - **Where it sits:** The job is getting this month's numbers into the finance system, in step 3 of 4 of the "Share a report" journey, for the Report builder persona.
@@ -111,20 +111,22 @@ Everyone except P8 either skipped the checkbox, or ticked it and then unticked i
 
 ## Recommendations
 
-| Action | Owner | Rests on | Moves | Confidence |
+| Action | Teams involved | Rests on | Moves | Confidence |
 | --- | --- | --- | --- | --- |
-| 1. Add a check at import that warns when columns used by saved reports are unmapped | Data Pipeline (Lena Fischer) | Finding 1 | Weekly active sharers; export tickets | Strong |
-| 2. Defer the export dialog rebuild until recommendation 1 ships and is measured | Sam Okafor | Findings 1 and 3 | Q1 engineering capacity | Strong |
-| 3. Count the customers who need a fixed column order | Support (Marco Ruiz), with CS | Finding 2 | Whether a column-order option goes in Q1 or later | Moderate |
-| 4. Relabel "Include hidden fields" with a plain description and an example | Design (Aisha Bello) | Finding 4 | Export completion rate | Moderate |
+| 1. Add a check at import that warns when columns used by saved reports are unmapped | Data Pipeline, Reporting | Finding 1 | Weekly active sharers; export tickets | Strong |
+| 2. Hold the export dialog rebuild until recommendation 1 ships and is measured | Reporting | Findings 1 and 3 | Q1 engineering capacity | Strong |
+| 3. Count the customers who need a fixed column order | Support, Customer Success | Finding 2 | Whether a column-order option goes in Q1 or later | Moderate |
+| 4. Relabel "Include hidden fields" with a plain description and an example | Design | Finding 4 | Export completion rate | Moderate |
+
+Who takes each action is for the teams to agree together; the second column only names the teams whose work it touches.
 
 Recommendation 2 is the uncomfortable one, because the study was commissioned to inform a dialog rebuild and the evidence says the rebuild would miss the cause. If the rebuild goes ahead anyway, finding 1 should be in its brief, so the new dialog at least explains why columns are empty.
 
 ## Next steps
 
-1. Marco returns the count of finance-team customers by 24 October.
-2. Sam decides by 30 October, with this report and the readout deck as the inputs.
-3. If recommendation 1 is approved, Priya runs 3 follow-up sessions with finance-team customers in November to test the column-order need.
+1. Support counts the finance-team customers by 24 October.
+2. The Reporting team decides by 30 October, with this report and the readout deck as the inputs.
+3. If recommendation 1 goes ahead, the researcher runs 3 follow-up sessions with finance-team customers in November to test the column-order need.
 4. The open question is whether the same import gap affects scheduled reports. Nothing answers it yet, so it goes on the research backlog.
 
 ## Limits
@@ -168,6 +170,6 @@ Recommendation 2 is the uncomfortable one, because the study was commissioned to
 
 - **Assistant:** Magpie, running in Claude Code.
 - **What it drafted:** the research plan, the interview guide and task script, the candidate themes and findings, this report and the readout deck.
-- **What the researcher did:** Priya framed the decision and the research questions, ran all 8 sessions, named her own patterns before seeing Magpie's themes, kept, changed or dropped each theme, and wrote the recommendations with each owner. She reviewed the findings on 12 October 2026 and this report on 14 October 2026.
+- **What the researcher did:** Priya framed the decision and the research questions, ran all 8 sessions, named her own patterns before seeing Magpie's themes, kept, changed or dropped each theme, and wrote the recommendations. She reviewed the findings on 12 October 2026 and this report on 14 October 2026.
 - **Checks:** quotes and counts were checked by code against the transcripts. A separate AI reviewer saw only the transcripts and the draft findings, raised 11 points, and 8 changed the findings. The reviewer is a model too and can be wrong.
 - **Other AI tools in the study:** the sessions were transcribed by the video tool's built-in transcription, and Priya corrected the transcripts against the recordings.

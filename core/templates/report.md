@@ -1,6 +1,6 @@
 # Research report: [study name]
 
-**Author:** [researcher] · **Date:** [date] · **Decision owner:** [name] ·
+**Author:** [researcher] · **Date:** [date] · **For:** [the team or group] ·
 **Study record:** [link]
 
 A report is read by people who weren't in the readout and by people who come
@@ -32,16 +32,18 @@ Markdown links to the headings so it works in most tools.
 
 ## Summary
 
-Five to eight sentences. The decision, the answer the evidence supports, how
-confident we are, the top findings in a phrase each, the main
-recommendation. Someone with two minutes reads only this.
+Five to eight sentences, drawn from this study: its focus, its goals and
+what it found. Things to look for, where the study speaks to them: the
+answer the evidence supports, how confident we are, what it means for the
+product, what it means for the business, and the main recommendation. Not
+every summary needs all of them. Someone with two minutes reads only this.
 
 ## Why we did this
 
 - **The product:** [optional: what it is, what it does, the part studied, and who
   uses it; who buys or sets it up, if different]
-- **The decision:** [Owner] will decide [what] by [when], choosing between
-  [options].
+- **The decision:** By [when], the team will decide [what], choosing
+  between [options].
 - **The business need:** [goal or metric at stake; cost of getting it
   wrong]
 - **What we already knew:** [two or three lines; link to prior research or
@@ -100,13 +102,17 @@ finding whose evidence didn't hold is in the appendix with the reason.
 
 ## Recommendations
 
-Detailed. Each is an action with an owner, the finding it rests on, the
-goal or metric it moves, and how confident we are. Add a sentence or two
-under the table where an action needs explaining.
+Detailed. Each is an action, the teams it touches, the finding it rests
+on, the goal or metric it moves, and how confident we are. Number the
+actions in priority order. Add a sentence or two under the table where an
+action needs explaining.
+Name the teams each action touches, not a person. Who takes each action
+is often for the teams to agree together; name a person only when the
+researcher asks for it.
 
-| # | Action | Owner | Rests on | Moves | Confidence |
-| --- | --- | --- | --- | --- | --- |
-| 1 | | | Finding [n] | [goal or metric] | |
+| Action | Teams involved | Rests on | Moves | Confidence |
+| --- | --- | --- | --- | --- |
+| 1. [action] | [teams] | Finding [n] | [goal or metric] | |
 
 [Notes on any recommendation that needs them.]
 
