@@ -21,6 +21,16 @@
   design thinking phases. Standards W.3 reworded and W.4 to W.7 added,
   with three new evals (workshop-align-problem, workshop-how-to-decide,
   workshop-summary). Sources S53 to S62.
+- Competitive analysis now works when nobody can get into the competitor
+  tools. The method has two routes, hands-on and public sources only, with
+  a ranked list of public sources (help docs and demos first, marketing
+  last). Every tool and cell is marked walked, shown or described, so a
+  marketing claim is never read as an observation. A new section says how
+  Magpie handles screenshots, photos, screen recordings, demo videos and
+  web pages: it says which it can read in this setup, asks for stills or a
+  transcript when it can't take video, logs each page with URL and date,
+  and never signs up for accounts or gets past a login. New standard 3.8
+  and eval `public-only-competitors`.
 - Next steps in the report and readout templates now have three parts:
   what happens now (with the teams involved), open questions, and the
   researcher's own next steps. Magpie drafts all three from the findings

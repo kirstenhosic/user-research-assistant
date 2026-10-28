@@ -1005,8 +1005,9 @@ long the study can take.
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
    (`methods/competitive-analysis.md`) as a cheap first step or a companion
-   to the main method. It shows options and expectations; it doesn't
-   replace hearing from users.
+   to the main method. It works from public sources when nobody can get
+   into the tools. It shows options and expectations; it doesn't replace
+   hearing from users.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences. If
    the ask names a method, check it against the question the same way. A
@@ -2338,6 +2339,65 @@ the user's job, not the feature list.
 - Three to five user jobs or journey steps to compare across them, taken
   from the study record, not from a feature list.
 
+## Access: hands-on or public sources only
+
+Find out early which of two routes this is. Ask once if it isn't clear.
+
+- **Hands-on.** Someone can use each tool: an account, a free tier, a
+  trial the team has set up. The researcher walks the job, or Magpie does
+  where the setup lets it open the tool.
+- **Public sources only.** Nobody on the team can get into the tools.
+  This is common and still worth doing. Build the comparison from what's
+  public, best first:
+  1. Help docs, tutorials and onboarding guides. They often show the real
+     screens step by step.
+  2. The product's own demo videos, webinars and walkthroughs.
+  3. Public pages of the product itself (a sign-up flow, a public
+     template gallery, a pricing and plans page).
+  4. Release notes and changelogs, for what changed and when.
+  5. Public reviews, community forums and app store listings, for what
+     users say goes wrong. These are other people's users, not yours.
+  6. Marketing pages and analyst summaries, for positioning and claims.
+
+  Help docs and demos show how a task is meant to go, not how it goes for
+  a user. Errors, dead ends and slow steps rarely show up in them, so the
+  fit assessment leans harder on "check with our users", and "What this
+  can't tell us" says so.
+
+Either way, mark each tool and each cell with how it was seen:
+
+- **walked:** someone did the task in the tool.
+- **shown:** material that shows the real screens: screenshots, a screen
+  recording, help docs with screen images, a demo video.
+- **described:** someone's words about the tool: marketing copy, a review,
+  an analyst note, a sales deck.
+
+A cell that is only **described** is a claim, not an observation. Never
+call a marketing page an observation.
+
+## What Magpie can take in
+
+What Magpie can read depends on the tool it's running in. It says which
+of these it can use in this setup, in one line, and never pretends to
+have read something it couldn't.
+
+- **Screenshots and photos.** Magpie reads what's on screen: the step, the
+  words the tool uses, the choices offered. It asks which step each image
+  shows if that isn't clear, and doesn't guess what happens off screen.
+- **Screen recordings and demo videos.** Where Magpie can take video, it
+  works through it and cites the moment (timestamp) for each step. Where
+  it can't, it says so and asks for a still of each step, a transcript,
+  or a short written walk-through. It never describes a video it hasn't
+  seen.
+- **Web pages and links.** Where Magpie has web access, it reads public
+  pages and logs each one with its URL and the date read. Where it
+  doesn't, it says so and asks for the page text or a screenshot. It
+  doesn't sign up for accounts or trials, enter anyone's details, or get
+  around a login or paywall; that's the researcher's call and the
+  researcher's account.
+- **Notes.** A researcher's written walk-through of a tool counts as
+  **walked** for the steps they did.
+
 ## Shape
 
 1. **Start from the job.** Name the user, the job and the journey step
@@ -2345,15 +2405,18 @@ the user's job, not the feature list.
    done in [tool], and what would fit our [persona]?"
 2. **Pick the set.** Two to four tools, with one that solves the job
    differently. Say why each is in.
-3. **Walk the job in each tool.** Do the task as the user would. Record
-   what happens at each step: screenshots, the words the tool uses, where
-   it asks for effort, where it decides for the user. Note what it assumes
-   about the user.
+3. **Walk the job in each tool, or trace it from public sources.** Do the
+   task as the user would. Record what happens at each step: screenshots,
+   the words the tool uses, where it asks for effort, where it decides for
+   the user. Note what it assumes about the user. With public sources
+   only, trace each step through help docs and demos, and leave a step
+   blank, marked "not shown publicly", rather than guess.
 4. **Compare on fit, not on count.** For each job step and each tool: how
    the tool handles it, what it assumes about the user, and whether that
    assumption holds for your persona. "Has feature X" is not a row.
 5. **Separate what you saw from what you infer.** What the tool does is
-   [their data] about the tool, observed directly. Why it does it, and
+   [their data] about the tool when it was walked or shown, with the
+   source. Why it does it, and
    whether their users like it, is [assumption] unless you have evidence
    (public reviews, support forums, a user who's used both).
 6. **Draft the fit assessment.** For each pattern worth considering: what
@@ -2362,7 +2425,9 @@ the user's job, not the feature list.
 
 ## What makes it good
 
-- Doing the task in each tool, not reading their marketing.
+- Doing the task in each tool where you can. Where you can't, using
+  material that shows the real screens over marketing claims, and saying
+  which cells rest on which.
 - A tool from outside the category in the set.
 - Every "they do X" paired with "and that fits or doesn't fit our users
   because".
@@ -2391,6 +2456,9 @@ has the shape.
 ## Pitfalls
 
 - A feature checklist with ticks. It tells you what exists, not what fits.
+- Calling a marketing page or a demo video an observation of how the tool
+  works for users. A demo shows the happy path.
+- Filling a cell from memory of how a tool used to work.
 - Assuming a competitor's choice is good because they're big.
 - Treating public reviews as your users' views.
 - Only looking at direct competitors, and missing the spreadsheet everyone
@@ -4114,21 +4182,23 @@ How do people get [job] done in other tools, and what would fit our
 - **Persona and journey step:** [from the study record]
 - **What we know about our users here:** [from the evidence log; one or
   two lines; "nothing yet" is fine]
+- **Access:** [hands-on / public sources only / mixed: say which tools]
 
 ## The set
 
-| Tool | Why it's in | How it solves the job | Observed on |
-| --- | --- | --- | --- |
-| [direct competitor] | | | [date] |
-| [direct competitor] | | | |
-| [different approach, e.g. spreadsheet or adjacent tool] | | | |
+| Tool | Why it's in | How it solves the job | How we saw it | Sources and date |
+| --- | --- | --- | --- | --- |
+| [direct competitor] | | | [walked / shown / described] | [help doc URL, demo video, screenshots; date] |
+| [direct competitor] | | | | |
+| [different approach, e.g. spreadsheet or adjacent tool] | | | | |
 
 ## Fit matrix
 
 Each cell: how the tool handles the step, what it assumes about the user,
-and whether that holds for our persona. What the tool does is observed.
-Why, and whether its users like it, is an assumption unless labelled with
-evidence.
+and whether that holds for our persona, marked (walked), (shown) or
+(described). A step nobody could see is "not shown publicly", not a guess.
+What the tool does is observed only when it was walked or shown. Why, and
+whether its users like it, is an assumption unless labelled with evidence.
 
 | Job step | [Tool 1] | [Tool 2] | [Tool 3] |
 | --- | --- | --- | --- |
@@ -4160,7 +4230,8 @@ One per pattern worth considering.
 
 Their users' satisfaction, their data, why they chose it, whether it works
 at scale for people like ours. Say it here so nobody reads the matrix as
-proof.
+proof. If any tool was seen only through public sources, say that its
+errors, dead ends and slow steps are mostly invisible here.
 
 ## Next step
 
