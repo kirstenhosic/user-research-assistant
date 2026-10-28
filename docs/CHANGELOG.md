@@ -2,6 +2,31 @@
 
 ## 2026-10-28
 
+- Every finding now says how sure we are and how much it matters, as two
+  separate things (new `core/lenses/confidence-and-priority.md`).
+  **Confidence** keeps the strong, moderate or weak label and adds a
+  one-line reason: the count and segments, how well the people fit the
+  target users (matches, partly, stand-in, not known), whether it was seen,
+  described as a real past time, or an opinion, whether other sources
+  agree or disagree, and who didn't fit. Behaviour that rests only on
+  opinions or predictions, and findings that rest only on stand-ins
+  (buyers, admins, colleagues speaking for users), are moderate at most.
+  A gap between what people said and what they did is a finding of its
+  own. Having no other source yet, as in a first study on a topic, lowers
+  nothing and is said plainly. **Priority** comes from impact and reach,
+  read off a small grid, and confidence never changes it; a high-priority
+  finding with weak confidence is marked "check next". Magpie shows the
+  findings in priority order and asks whether the order matches the
+  researcher's. The top findings in the readout and report are now the
+  highest-priority ones, each with both labels and their reasons, and
+  recommendations follow the same order. Stage 7 asks who the target
+  users are and whether other sources exist, if the record doesn't say.
+  The study record gains a Participants table (with fit) and a Priority
+  table, and its Recommendations table names "Teams involved" instead of
+  an owner. Stage 7's duplicate step 16 is renumbered. New standards 7.17,
+  7.18, 7.19 and 8.16 (121 in all), sources S69 to S71, and scenarios
+  `first-study-no-sources`, `opinion-only-behaviour`, `stand-in-only` and
+  `rare-blocker-ranking`.
 - The status line shows where the required reviews stand. From the guide
   stage on it carries a `Reviews:` segment after the waiting-for-yes
   items, with the question review, the findings review and the report

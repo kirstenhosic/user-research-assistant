@@ -35,11 +35,14 @@ not on this slide; see "Limits" below.
 
 ## 4. Top findings
 
-Never more than five: the findings the decision rests on. One line each,
-with strength and whether it's enough for this decision. This is the slide people photograph. An unexpected finding
-belongs here if it's serious enough.
+Never more than five: the highest-priority findings for this decision,
+in priority order. One line each, with priority, confidence and whether
+it's enough for this decision. This is the slide people photograph. An
+unexpected finding belongs here when its priority puts it there.
+Priority and confidence sit side by side; neither changes the other
+(`lenses-confidence-and-priority.md`).
 
-1. [Finding, one line] · [strength] · [enough / enough if [caveat] / not enough]
+1. [Finding, one line] · Priority: [high / medium / low] ([impact], [reach]) · Confidence: [strong / moderate / weak] ([why, a few words]) · [enough / enough if [caveat] / not enough] [· check next]
 2. …
 
 ## 5 to [n]. Findings in detail
@@ -47,8 +50,10 @@ belongs here if it's serious enough.
 One finding per slide, in the same order as the top findings. Pitched for a
 PM and engineering audience: enough to believe it and act on it, no more.
 
-**Finding [n]: [claim in plain words]** · Strength: [label]
+**Finding [n]: [claim in plain words]**
 
+- **Priority:** [high / medium / low]. [Impact: what happens to people who hit it, and what it means for the decision.] [Reach: how many target users, how often; "how common it is across all users isn't known" without outside data.]
+- **Confidence:** [strong / moderate / weak]. [Count and segments; who they are against the target users; seen, past time or opinion; other sources agree, disagree, or "first study on this, no other sources".]
 - [Evidence with numbers: "6 of 8 participants…"]
 - [Receipts: at least two participant codes with locations, or "single case"]
 - [One quote with a participant code and descriptor, "— P3, finance manager, SMB"; two at most]

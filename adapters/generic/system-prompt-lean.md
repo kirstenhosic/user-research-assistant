@@ -1596,6 +1596,13 @@ or responses. Without it there's nothing to analyze, only to imagine.
 - The participant list with what matters for this study: role, segment
   or company type (such as enterprise or SMB), how long they've used the
   product, any accessibility needs. Quotes are labelled from it.
+- Who the target users are, if the plan doesn't say, so each participant's
+  fit can be judged: matches, partly, or stand-in (a buyer or admin
+  speaking for users). Magpie drafts the fit from the screener for a yes
+  (`lenses/confidence-and-priority.md`).
+- Other sources on the same topic: past studies, analytics, support
+  tickets. "None, this is the first study" is a full answer and counts
+  against nothing.
 - Sessions that went wrong or should be left out, and why.
 - Observer notes or debrief notes, if the team kept them.
 - Partner data that arrived since planning.
@@ -1627,9 +1634,13 @@ sessions, or say "you do it", skip it.
 4. **Code what's there.** Tag each relevant passage with a short label and
    its source: participant code plus line, timestamp or question number.
    Codes describe what people did or said, not what you think it means.
-   Where participants differ in role (end user, buyer, admin), note each
-   one's role, so a theme that comes only from buyers isn't reported as
-   what end users do.
+   Tag each code with the kind of evidence: **seen** (watched doing it),
+   **past time** (described a real, specific time) or **opinion** (a
+   general view, habit or prediction). Where participants differ in role
+   (end user, buyer, admin), note each one's role and fit to the target
+   users, so a theme that comes only from buyers isn't reported as what
+   end users do. Where someone says one thing and does another, code both
+   (`lenses/confidence-and-priority.md`).
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task). Each theme carries its receipts from the start: the
@@ -1670,38 +1681,53 @@ sessions, or say "you do it", skip it.
    "most". Write each count with the people and lines behind it, "3 of 8
    (P1 06, P5 06, P7 06)", so the count can be checked by code instead of
    by trust.
+   Then write the confidence line: the count and segments, the fit of the
+   people behind it, the kind of evidence, whether other sources agree,
+   disagree or there are none yet, and who didn't fit. Opinion-only
+   behaviour and stand-in-only findings are moderate at most; a source
+   that disagrees lowers the label; no other source is neutral
+   (`lenses/confidence-and-priority.md`). A gap between what people said
+   and what they did is a finding of its own.
 10. **Re-judge the rigor.** Look at what actually happened in the
    sessions (no-shows, sessions cut short, flagged participants, a missing
    group, a question that turned out to lead) and lower a strength where
    it weakened the evidence, saying why. Then mark each finding enough for
    this decision, enough with a caveat, or not enough, using the decision
    risk in the record (`lenses/minimum-viable-rigor.md`).
-11. **Check the hypotheses.** Once the findings are drafted, say for each
+11. **Set the priority.** For each finding, rate impact (on the users who
+   hit it and on the decision) and reach (how many target users, how
+   often), each with a reason, and read the priority off the grid in
+   `lenses/confidence-and-priority.md`. Confidence never moves priority.
+   A high-priority finding with weak confidence, or not enough for the
+   decision, is marked "check next". Show the findings in priority order
+   and ask whether the order matches the researcher's; their order
+   stands.
+12. **Check the hypotheses.** Once the findings are drafted, say for each
    hypothesis in the record whether the evidence supports it, contradicts
    it or doesn't speak to it, with the findings behind each, and update its
    status. Do this after coding, not before, so the hypotheses don't steer
    what you see.
-12. **Look outside the frame.** Some findings point upstream or downstream
+13. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses/systems-and-journeys.md`).
-13. **Bring in partner data where it applies.** Say whether it agrees,
+14. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-14. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+15. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-15. **Run the code checks if you can** (`tools/checks/`): every quote matches
+16. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-16. **Run the independent review** (`review/independent-review.md`) once
+17. **Run the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage. Start it in the
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
-16. **Offer the analysis sheet** (`templates/analysis-sheet.md`) in one
+18. **Offer the analysis sheet** (`templates/analysis-sheet.md`) in one
     line once the findings are drafted: an Excel file laid out like the
     note-taking sheet, filled with what each participant said on each
     research question, the findings, the themes and the codes, for the
@@ -1741,14 +1767,19 @@ When you give a test result, a margin of error or a sample size:
 ## Usability data
 
 An issue list: task, how many hit it, severity (blocked, slowed, noticed),
-what happened, a quote or clip reference. Then the patterns across issues.
+how often it would happen in real use, what happened, a quote or clip
+reference. Severity is the issue's impact (blocked is high, slowed medium,
+noticed low) and sets its priority with reach
+(`lenses/confidence-and-priority.md`). Then the patterns across issues.
 Five participants are five people, not percentages.
 
 ## What to draft
 
-- The Findings section of the study record: claim, supporting evidence,
-  contradicting evidence, strength, and whether it's enough for the
-  decision.
+- The Findings section of the study record: claim, supporting evidence
+  tagged seen, past time or opinion, contradicting evidence, strength with
+  its confidence line, and whether it's enough for the decision.
+- The Priority table: impact, reach and priority for each finding, with
+  reasons, in the order the researcher agreed or marked as Magpie's draft.
 - The "also noticed" findings, for things outside the questions, held to
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
@@ -1771,7 +1802,10 @@ it.
 ## Exit criteria
 
 - Every finding answers a research question or is listed as "also noticed".
-- Every finding has its evidence, its counter-evidence and a strength label.
+- Every finding has its evidence, its counter-evidence, a strength label
+  and a confidence line.
+- Every finding has an impact, a reach and a priority, and the order has
+  been shown to the researcher.
 - Each finding is marked enough, enough with a caveat, or not enough for
   this decision, judged on what happened in the sessions.
 - The researcher kept, changed, split or dropped each theme, or the skip
@@ -1789,6 +1823,9 @@ it.
 - Dropping the participants who didn't fit.
 - "Users want" when three people mentioned it.
 - Letting a vivid quote stand in for a pattern.
+- Reporting what people said they do as what they do.
+- Marking a finding down because no other study exists yet.
+- Ranking findings by how sure we are instead of how much they matter.
 - A theme that is really the research question restated.
 
 <!-- core/stages/08-read-out-and-report.md -->
@@ -1875,12 +1912,17 @@ again.
    yet" is fine; it goes in the risks until it's done. Magpie's findings
    are a draft until a person has read what they rest on.
    `checks/ai-assisted-research.md`, sections 2 and 3.
-7. **Top findings, never more than five.** The findings the decision
-   rests on, one line each with strength and whether it's enough for this
-   decision; a not-enough finding says what would make the team surer and
-   roughly what that costs (`lenses/minimum-viable-rigor.md`). Confidence
-   never rises to fit a deadline. An unexpected finding can be
-   one of the five if it's serious enough. Then one slide per top finding,
+7. **Top findings, never more than five.** The highest-priority findings
+   for this decision, in the order the researcher agreed at stage 7, ties
+   broken by the primary research question
+   (`lenses/confidence-and-priority.md`). One line each with its priority,
+   its confidence and why, and whether it's enough for this decision; a
+   not-enough finding says what would make the team surer and roughly
+   what that costs (`lenses/minimum-viable-rigor.md`), and a high-priority
+   finding with weak confidence is marked "check next". Priority and
+   confidence are shown side by side; neither changes the other.
+   Confidence never rises to fit a deadline. An unexpected finding is one
+   of the five when its priority puts it there. Then one slide per top finding,
    pitched for PMs and engineers: enough to believe it and act on it.
    Depth goes to the appendix.
 8. **Other findings, on one slide.** Every finding that met the evidence
@@ -1888,11 +1930,14 @@ again.
    "unexpected" where it fell outside the research questions. Nothing that
    passed the evidence bar is dropped from the readout; the only way a
    finding leaves is if its evidence doesn't hold, and then it goes in the
-   appendix with the reason. The study record's findings table stays the
+   appendix with the reason. List them in priority order, each with its
+   priority and confidence. The study record's findings table stays the
    full list; the top five are a selection from it.
 9. **Summarize, then recommend in detail.** A short summary slide, drawn
    from this study's focus, goals and findings rather than fixed
    headings, then recommendations as actions with the teams they touch,
+   numbered in the priority order of the findings they rest on unless the
+   researcher orders them differently,
    built from the researcher's your-turn answers where they gave them.
    Don't make one named person carry the decision or an action; say "the
    team" unless the researcher asks for names. Keep their words; where
@@ -2119,6 +2164,184 @@ with a screen reader, keyboard, high contrast and 400% zoom; breaks and
 stopping). S37 was last updated in July 2019, so check it against current
 practice. The audit distinction, the fallback plan, and the analysis
 points: practitioner judgment.
+
+<!-- core/lenses/confidence-and-priority.md -->
+
+# Lens: confidence and priority
+
+Two separate questions about every finding. **Confidence:** how sure are
+we? **Priority:** how much does it matter? A finding can be very likely and
+minor, or uncertain and urgent. Magpie answers both, shows its reasons, and
+never lets one change the other. It applies at stage 7, when findings are
+written, and at stage 8, when the top findings are chosen.
+
+## What Magpie needs
+
+Each assessment rests on context. Most of it is already in the study record
+by stage 7. Whatever is missing is asked with the stage's other questions
+(`operating.md`, "Gather context before you build"). None of it is required
+to draft: a missing piece is stated in the finding, never guessed and never
+held against it.
+
+| To judge | Magpie needs | Usually found in | If it's missing |
+| --- | --- | --- | --- |
+| Who the evidence came from | Who the study's target users are, and each participant's role and segment | The plan's sample and screener, the participant list | Magpie drafts each participant's fit from the screener for a yes; with no screener, fit is "not known" |
+| What kind of evidence | The raw material, with tasks and observations marked | Transcripts, notes, recordings' timestamps | Nothing to ask: Magpie tags it while coding |
+| Other sources | Past studies, partner data (analytics, support tickets, sales notes), or "this is the first study on this" | The evidence log (stage 2), partner data | "None" is a full answer. The finding says it's the first study on the topic |
+| Impact | The decision, the goal or metric, and what happens to users when they hit the problem | The record's decision and business context, the team profile | Impact on users is judged from the sessions; impact on the decision is marked [assumption] |
+| Reach | How many target users it touches and how often, outside the study | Partner data, the segment sizes | Reach comes from the study's own pattern, and the finding says reach outside the study isn't known |
+
+## Confidence
+
+Keep the strength label (strong, moderate, weak; `checks/claim-strength.md`,
+rule 4) and give it a one-line reason built from five checks. In readouts and
+reports the label is called **confidence**; the study record keeps the word
+"strength" so older records still read the same.
+
+1. **How many.** The count, with the participants behind it, and which
+   segments they come from: "5 of 8 (P1, P2, P4, P6, P8), both segments".
+2. **Who.** How well those people fit the target users. Each participant is
+   one of:
+   - **Matches:** a target user, doing the work the study is about.
+   - **Partly:** a target user, but outside the screener on something that
+     matters here (new to the product, a different region or plan).
+   - **Stand-in:** someone speaking for the target users: a buyer, an
+     admin, a manager, an internal colleague, a field rep.
+3. **What kind.** Each code is tagged while coding (stage 7, step 4):
+   - **Seen:** watched in the session, in a task, in a screen share, or in
+     an artefact the participant showed (a spreadsheet, a workaround).
+   - **Past time:** the participant described a real, specific time it
+     happened ("Last Tuesday I exported it twice").
+   - **Opinion:** a general view, a habit described in general ("I
+     usually"), a preference, or a prediction ("I would use that").
+4. **Other sources.** Whether anything outside this study points the same
+   way: agrees, disagrees, mixed, or **none yet**. Name the source.
+5. **What cuts against it.** The participants who didn't fit (stage 7,
+   step 6).
+
+### How the checks move the label
+
+- **Opinion-only behaviour is moderate at most.** A finding about what
+  people do that rests only on opinions or predictions is moderate at most,
+  and says so: "what participants said they do; not seen". Opinions are the
+  right evidence for a question about views or feelings (how people feel
+  about the price), and there the cap doesn't apply.
+- **Stand-in-only is moderate at most.** A finding that rests only on
+  stand-ins is moderate at most, and is labelled "from buyers, not end
+  users" (or whoever it was). Fit "not known" is said in the reason and
+  doesn't cap the label.
+- **Agreement can support a higher label.** A source that agrees, named,
+  is a reason the finding can be strong. It doesn't make a weak finding
+  strong on its own, and secondhand material still can't be strong on its
+  own (`checks/claim-strength.md`, rule 7). The two are shown side by
+  side, never merged into one claim.
+- **Disagreement lowers it.** A source that disagrees lowers the label by
+  one level unless the finding explains the difference (a different
+  segment, a different time).
+- **No other source is neutral.** When there's nothing to compare with,
+  because this is the first study on the topic or the team has no data, the
+  finding says "first study on this; no other sources" and its confidence
+  rests on this study alone. Nothing is taken off for it, and it doesn't
+  touch priority.
+
+### When what people said and did differ
+
+When a participant says one thing and does another (says they always check
+the preview, then skips it in the task), keep both, with their locations,
+and write the gap as a finding of its own. What people do is usually the
+better guide to behaviour, because what they say is limited by what they
+notice and are willing to report (S69). The gap often explains why a
+problem hasn't been reported before.
+
+### The line
+
+"Confidence: moderate. 5 of 8 target users, seen in the task (P1 12, P2 09,
+P4 14, P6 11, P8 10); support tickets agree; P3 and P7 finished without
+trouble."
+
+"Confidence: moderate. 4 of 8 said they'd use it (opinion, not seen); first
+study on this, no other sources; P2 and P5 said they wouldn't."
+
+## Priority
+
+Two parts, kept apart from confidence (S70: treat how often a problem
+happens separately from how bad it is).
+
+**Impact.** What happens to the people who hit it, and what it means for
+the decision.
+
+| Impact | For users | For the decision |
+| --- | --- | --- |
+| High | Blocks a task, causes errors, lost data or money, or harm | Changes the decision or the goal it serves |
+| Medium | Slows them, forces a workaround, confuses them before they recover | Shapes how the decision is carried out |
+| Low | Noticed or mildly annoying; they carry on | Doesn't change the decision |
+
+Take the higher of the two columns. A usability issue's severity maps
+straight across: blocked is high, slowed is medium, noticed is low.
+
+**Reach.** How many target users it touches, and how often in real use.
+
+| Reach | Looks like |
+| --- | --- |
+| Wide | Most target users, or every time they do the task |
+| Some | One segment, or some of the time |
+| Narrow | A single case, or a rare situation |
+
+Partner data (analytics, support volume, segment sizes) says how far it
+reaches outside the study. Without it, judge reach from the study's own
+pattern and say so: "seen in 5 of 8; how common it is across all users
+isn't known". Missing outside data never lowers reach; the sample's counts
+still aren't rates (`checks/claim-strength.md`, rule 3).
+
+**The grid.**
+
+| Impact \ Reach | Wide | Some | Narrow |
+| --- | --- | --- | --- |
+| High | High | High | Medium |
+| Medium | High | Medium | Low |
+| Low | Medium | Low | Low |
+
+A single case of harm, lost data or money, or a legal or safety problem is
+high priority whatever its reach.
+
+The impact and reach labels and the grid are practitioner judgment, not a
+published scale. They're Magpie's draft; the researcher can change any of
+them, and their call stands.
+
+### Keep priority and confidence apart
+
+Confidence never raises or lowers priority. Show them next to each other.
+A high-priority finding with weak confidence, or one marked not enough for
+the decision, is marked **check next**, with what would make the team surer
+and roughly what that costs (`lenses/minimum-viable-rigor.md`). It still
+counts as high priority, because the team needs to know about it.
+
+## Using it
+
+- **Stage 7.** Tag each code seen, past time or opinion. Note each
+  participant's fit. After the strength is rated and re-judged, write the
+  confidence line, then impact, reach and priority, each with its reason.
+  Show the findings in priority order and ask, in the same reply: "This is
+  the order I'd put them in. Does it match yours? Move any up or down."
+  Their order stands; if they don't answer, the order is labelled Magpie's
+  draft in the record.
+- **Stage 8.** The top findings, five at most, are the highest priority
+  ones for this decision, with ties broken by the primary research
+  question. Each one gets a line on why it's there. An "also noticed"
+  finding is in the top five when its priority puts it there.
+  Recommendations follow the same order unless the researcher orders them
+  differently.
+
+## Basis
+
+- S69: what people say and what they do often differ; self-report is
+  limited by what people are aware of and willing to report.
+- S70: report how often a problem happens alongside how bad it is, and
+  treat the two separately.
+- S71: triangulation, looking at a question from several kinds of data or
+  several methods, makes results more reliable.
+- The three evidence kinds, the fit labels, the caps, the impact and reach
+  labels and the grid: practitioner judgment.
 
 <!-- core/lenses/minimum-viable-rigor.md -->
 
@@ -2754,6 +2977,10 @@ does the wording match the evidence?
      reliable result with the test named.
    - Moderate: a clear pattern with exceptions you can name.
    - Weak: few participants, one segment, mixed signals, or secondhand.
+
+   Each label carries a confidence line with its reasons: how many, who
+   they are against the target users, whether it was seen or said, and
+   whether other sources agree (`lenses/confidence-and-priority.md`).
 5. **Causes need more than correlation.** "People who used feature X
    renewed more" is not "feature X causes renewal". Say what's known and
    what would be needed to know more.
@@ -2790,6 +3017,14 @@ does the wording match the evidence?
     read the passages it rests on. Smoothing is the tell: "generally
     positive, some minor confusion" where two of eight were seriously
     stuck. `checks/ai-assisted-research.md`.
+13. **Said isn't seen.** A claim about what people do that rests only on
+    what they said they do or would do is moderate at most and says so
+    ("participants said they…"). Same for a claim that rests only on
+    buyers, admins or colleagues speaking for the users. Where saying and
+    doing differ, both are reported.
+14. **No other source isn't a weakness.** "First study on this; no other
+    sources" is stated plainly and lowers nothing. Only a source that
+    disagrees lowers the label.
 
 ## Wording to replace
 
@@ -2801,6 +3036,7 @@ does the wording match the evidence?
 | Significant (without a test) | Large, clear, noticeable, or the number itself |
 | Many, most, some, a few | The count |
 | It's clear that | (delete) |
+| Users check the preview (from interviews) | 5 of 8 said they check the preview; in the task, 2 of them did |
 
 ## Basis
 
