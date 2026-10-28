@@ -2,6 +2,58 @@
 
 ## 2026-10-28
 
+- Every method guide now has a worked example: a decision, a research
+  question, a sample and a finding written the way Magpie reports it
+  (counts with participant codes, confidence, what it can't say). Five
+  thin guides are filled out. Surveys gains a viability sum (invites
+  available against invites needed, from Carl Pearson's survey viability
+  score, S79, standard 4.14), question types, wording and order rules
+  from the Pew Research Center's methods page (S88), weighting (S83), a
+  cognitive test before every new survey goes out (S80, S81, standard
+  6.11), and the survey as part of the product experience (S82). Concept
+  testing gains the forms to show, past-not-future questions, a
+  small-commitment test and a fake-door section. Evidence review gains
+  five questions for judging an old study, rules for research
+  repositories and AI-written summaries, and a worked brief. Contextual
+  inquiry gains a remote section and the same-day team interpretation.
+  Card sorting and tree testing becomes card sorting, tree testing and
+  first-click testing (S91).
+- Three new method guides: coding customer feedback (support tickets,
+  reviews and open-ends, with how it scales; S89, S90, both suggested by
+  Kirsten Hosic), stakeholder interviews (one to one, four topics,
+  beliefs about users logged as hypotheses; S92, standard 3.11, offered
+  from stage 3), and journey maps and personas built from research (the
+  five parts of a map, three kinds of persona, codes in every cell; S93,
+  S94, standard 8.19, offered from stage 7).
+- Five new templates: diary study, card sort and tree test (with
+  first-click), concept test guide, journey map and persona.
+- Measuring methods report differences in their own unit with a range
+  and what it means at volume, against a bar agreed before the data
+  arrived (S84, S85, standard 7.20); benchmarking and analytics gain the
+  HEART goals-signals-metrics process (S97), the intent gap that log data
+  can't see (S87) and the average SUS score of 68 (S96). Stage 4 notes
+  that some "why" questions have perceptual causes people can't report
+  on (S86). Usability testing gains a section on testing with assistive
+  technology (S98). Expert review names the ten heuristics (S95).
+- From PR #23, now merged into this change: eight older method guides
+  cite public sources (S41 to S52, read 2026-10-27): interviews,
+  usability testing, concept testing, contextual inquiry, diary studies,
+  card sorting and tree testing, competitive analysis and evidence
+  review. Reading them changed some guidance: interview samples start at
+  five or six and grow while new codes appear; usability samples per
+  group follow Nielsen's three-to-four rule, and unmoderated rates need
+  more than thirty people; severity uses frequency, impact and
+  persistence; contextual inquiry gains the transition step and the
+  wrap-up check; diary studies gain a pilot, signal-based logging, staged
+  incentives and three pitfalls; card sorts use thirty to fifty cards and
+  avoid hybrid sorts. Two fixture studies with answer keys, Larder
+  meal-planning diary (6 diaries, 12 traps) and Dockside returns desk (5
+  contextual inquiry sessions, 11 traps), now run in the check tests;
+  `quote_check.py` reads the speaker past a time stamp, so the Dockside
+  manager's quote is reported as credited to the wrong person.
+- Five new eval scenarios, none run live yet: `stakeholder-belief`,
+  `survey-viability`, `cognitive-test-first`, `raw-difference`,
+  `persona-from-research`. 132 standards, 59 with a source.
 - The next steps in every readout and report now end with "How we'll know
   it worked": when the team looks back, who looks with the researcher, and
   the sign that would show the change worked (standard 8.17). It's one

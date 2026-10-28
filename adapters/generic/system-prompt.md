@@ -1145,6 +1145,14 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
+## When stakeholder interviews would help
+
+If the brief is thin or came from one person, or the success measure and
+the constraints aren't agreed, offer stakeholder interviews in one line
+(`methods/stakeholder-interviews.md`): one-to-one, 30 to 45 minutes,
+before the plan is written. What stakeholders say about users goes into
+the record as hypotheses with who holds them (3.7), never as findings.
+
 ## When a workshop would help
 
 If the team disagrees about the decision, or about what users do, offer
@@ -1212,7 +1220,13 @@ long the study can take.
    list; none of them picks the method on its own.
    - **What kind of question.** *Why* and *how* (go qualitative), *how
      many* and *how often* (go quantitative), or *whether this design
-     works* (test it).
+     works* (test it). One caution: some *why* questions can't be
+     answered by asking. If the likely cause is something people don't
+     notice or can't report on (a button's size, a color, an order of
+     steps), the answer comes from varying it and measuring, not from an
+     interview. Qualitative work finds what matters; quantitative work
+     says how much or how often. Most studies go round that loop more
+     than once.
    - **What people say, or what they do.** Does the decision rest on what
      people think, want and say (attitudes), or on what they actually do
      (behaviour)? Lean on what they do: people can only report what they
@@ -1225,8 +1239,9 @@ long the study can take.
    - **Where the product stands.** Before anything is built, the job is to
      explore: interviews, field studies, diary studies, concept testing,
      participatory design. While it's being designed, the job is to test
-     and improve it: usability testing, card sorting and tree testing,
-     preference testing (`methods/preference-and-desirability.md`). Once
+     and improve it: usability testing, card sorting, tree testing and
+     first-click testing, preference testing
+     (`methods/preference-and-desirability.md`). Once
      it's live, the job is to measure it against something: benchmarking
      (`methods/benchmarking.md`), analytics and A/B tests
      (`methods/analytics-and-ab-tests.md`), surveys, unmoderated testing
@@ -1243,9 +1258,10 @@ long the study can take.
      somewhere specific or away from a screen (at the gym, in a shop, on
      a warehouse floor). If the setting changes what people do, go to it
      (`methods/field-studies.md`).
-2. **Check the cheap options first.** Could analytics, support tickets, a
-   quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger. What's
+2. **Check the cheap options first.** Could analytics, support tickets
+   and reviews coded by theme (`methods/customer-feedback-coding.md`), a
+   quick look at existing recordings, or five conversations answer it? Say
+   so if yes, even if the researcher wanted something bigger. What's
    available depends on where the product stands (Product section, if
    filled): a live
    product has analytics, support tickets and real use to watch; an idea
@@ -1781,6 +1797,12 @@ sessions, or say "you do it", skip it.
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
+17a. **Offer a journey map or personas where the findings are that
+    shape** (`methods/journey-maps-and-personas.md`): a sequence across
+    sessions, or two or three distinct kinds of participant. Offer in one
+    line, once; build it from the coded findings with the counts and
+    codes in every cell, mark what the study didn't cover, and say which
+    kind of persona it is.
 18. **Offer the analysis sheet** (`templates/analysis-sheet.md`) in one
     line once the findings are drafted: an Excel file laid out like the
     note-taking sheet, filled with what each participant said on each
@@ -2059,7 +2081,10 @@ again.
     back.
 18. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
-    stage 2.
+    stage 2. Write the entry you'd have wanted to find: the question, who
+    took part, the method, the date, the caveats, where the data lives.
+    If the study changed a journey map or a persona, one entry says what
+    changed and why.
 19. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 20. **Offer the researcher a debrief, once.** When the readout and report
@@ -2641,7 +2666,9 @@ rather than reinventing them.
   weight because the business already said that journey matters.
 - Personas are a starting point, not evidence. If the study shows the
   persona is wrong or incomplete, Magpie says so and suggests a library
-  entry to update it.
+  entry to update it. Where the team has no journey or personas and the
+  study could build one, `methods/journey-maps-and-personas.md` says how,
+  from coded findings with their counts.
 
 ## 5. Market needs and market research
 
@@ -3126,6 +3153,17 @@ A/B tests:
   first.
 - Read numbers as clues, in context. Long time on a page could mean
   interest or confusion; it isn't good or bad on its own.
+- Remember who the logs can't see. A funnel starts counting when
+  someone enters it. People who wanted to do the task and never found
+  the way in aren't in the data, so an 80% completion rate inside the
+  flow can hide a 40% success rate for everyone who tried. When the
+  question includes "can people find it", pair analytics with a
+  benchmark or a first-click test that starts from the top
+  (`methods/benchmarking.md`,
+  `methods/card-sorting-and-tree-testing.md`).
+- If the team has a metrics framework (`methods/benchmarking.md`, "What
+  to measure"), ask which goal and signal each number serves. A number
+  with no goal behind it is a chart, not an answer.
 
 **A/B tests**
 
@@ -3154,7 +3192,38 @@ partner data) and helps read the results. It doesn't run the test.
 - **A/B tests:** the result on the main measure and the guardrails, and
   whether the difference passed the test set in advance. Then whether
   it's big enough to matter to the business, which is a separate
-  question. "No clear winner" is a result: keep the current version.
+  question, answered against a bar agreed before the test. "No clear
+  winner" is a result: keep the current version.
+- **Report the difference in its own unit,** with the range it probably
+  sits in: "2.1 percentage points more sign-ups (likely between 0.8 and
+  3.4)", not a standardized effect size. Say what it means at volume:
+  2.1 points on 50,000 visitors a month is about 1,050 sign-ups. Small
+  differences add up when the thing happens often; a 17-second saving
+  on a task done a hundred times a day is weeks a year.
+
+## Worked example
+
+> **Decision.** Whether Harbor (team task board) shows the "invite your
+> team" step during setup or after the first board is built. Growth
+> decides in a month.
+>
+> **Analytics first.** Question: where in setup do new admins stop? The
+> funnel showed 61% of admins who started setup invited someone within a
+> week (data for September, 2,140 admins); it can't see admins who
+> wanted to invite and never found the button. Interviews earlier found
+> most admins build a board before inviting.
+>
+> **A/B test.** Hypothesis from research: moving the invite step to
+> after the first board is built will raise invites within a week,
+> because admins want something to show. Main measure: admins who
+> invited within seven days. Guardrails: boards created in the first
+> week; admins active at day 30. Run for two full weeks, size set from
+> September's rate and a smallest change worth detecting of 4 points.
+>
+> **Result, as reported.** 66.2% against 61.1%: 5.1 points more, likely
+> between 2.0 and 8.2; guardrails unchanged; at about 2,000 admins a
+> month, about 100 more teams invited a month. The agreed bar (4 points)
+> was met. Why it worked is from the interviews, not the test.
 
 ## Pitfalls
 
@@ -3183,8 +3252,14 @@ early; statistically significant is not the same as important; many tests
 find no winner; it shows
 how behaviour changes, not why; pair it with qualitative research). S11
 (analytics, clickstream and A/B testing as measuring methods for a live
-product). S13 (combine methods so one covers another's limits). Who does
-the work: practitioner judgment.
+product). S13 (combine methods so one covers another's limits). S87
+(analytics can't see users who never found the task's entry point; the
+80% inside the flow against 40% of those who tried; pair with
+benchmarking or a first-click test for navigation). S97 (goals, signals,
+metrics). S84 and S85 (raw differences with intervals over standardized
+effects; make them concrete at volume; small effects add up with
+repeated exposure; set the action threshold before collecting data).
+Who does the work: practitioner judgment.
 
 <!-- core/methods/benchmarking.md -->
 
@@ -3222,6 +3297,21 @@ better.
   Usability Scale), or something analytics records, such as how many
   people finish a form or come back after eight weeks. Support contacts
   about a task can count too.
+- If the team has a metrics framework, pick from it. One common one
+  names five kinds of measure: happiness (attitudes: satisfaction, ease),
+  engagement (how often and how deeply people use it), adoption (new
+  users in a period), retention (who's still there later) and task
+  success (completion, time, errors). Not every project needs all five;
+  a tool people must use at work may care about task success and
+  happiness and not engagement. For each goal the team names, decide
+  what people would do or say if it were met (the signal), then how to
+  count it as a rate or a per-user figure, not a raw count that grows
+  with the user base (the metric).
+- Start tasks from the home screen, not inside the flow. Analytics only
+  sees people who got into a flow; it can't count the ones who wanted to
+  and never found the way in. A benchmark that starts each task from
+  the top catches them, and failing to find the start is often the
+  biggest problem.
 - Choose what you'll compare against before you measure. A number on its
   own means nothing. In the first round there is no earlier version, so
   compare with a competitor, a published figure or a goal the team agrees
@@ -3258,6 +3348,40 @@ compared with. Test the difference before calling it a change (stage 7).
 Say what else changed between rounds besides the design (a new kind of
 customer, a price change, a season).
 
+Report a change in its own unit ("12 points higher completion", "20
+seconds faster"), with the range it probably sits in, and say what it
+means at the product's volume ("about 400 more completed orders a
+month"). Agree before the round what size of change would count as
+worth acting on; deciding afterwards makes any result look like the
+one the team wanted.
+
+A SUS score is not a percentage. Across about 500 studies the average
+is 68; above 68 is better than average, and a 74 is only a little
+above it. Report it against that average, or as a percentile, so the
+team doesn't read 68 as "a D".
+
+## Worked example
+
+> **Decision.** Whether the BrightPay (payroll) pay-run redesign, live
+> since March, is better than the old one, and whether to roll it out to
+> the remaining accounts.
+>
+> **Measures, chosen before March.** Task success and time for "run this
+> month's payroll for 12 employees with one new starter", from the home
+> screen; an ease rating after the task; SUS after the session; from
+> analytics, pay runs completed in one sitting. Comparison: the same
+> study run on the old version in January.
+>
+> **Sample.** 42 payroll admins per round, unmoderated, same screener,
+> same tasks and wording.
+>
+> **Result, as reported.** Success 31 of 42 (74%) against 22 of 40 (55%)
+> in January: 19 points higher, likely between 1 and 36. Median time 11
+> minutes against 16. SUS 71 against 62 (both reported against the
+> 68 average, not as percentages). What else changed: a pricing change
+> in February. The agreed bar was 10 points on success; met, with a wide
+> range, so the readout says "better, by how much is uncertain".
+
 ## Pitfalls
 
 - A number with nothing to compare it to.
@@ -3282,16 +3406,28 @@ as the usual ways to collect; how often is the team's call). S11
 (benchmarking as tightly scripted and summative, at the launch and assess
 phase). S38 (the Single Ease Question, the System Usability Scale, twenty
 or more people for questionnaire numbers). S12 (report the interval;
-test before claiming a difference). Keeping every round the same and
-naming what else changed: practitioner judgment.
+test before claiming a difference). S97 (the HEART
+categories happiness, engagement, adoption, retention and task success;
+goals, signals and metrics; not every category fits every project;
+normalize counts into rates or per-user figures; define terms before
+tracking). S87 (log data misses people who wanted to start a task and
+never found it; a behavioral benchmark that starts from the home page
+captures intent and shows navigation failures). S96 (the average SUS
+score across about 500 studies is 68; a score isn't a percentage; report
+it as a percentile against that average). S84 and S85 (report raw
+differences in their own units with intervals; make them concrete at
+the product's volume; set the "big enough" bar before the data arrives).
+Keeping every round the same and naming what else changed: practitioner
+judgment.
 
 <!-- core/methods/card-sorting-and-tree-testing.md -->
 
-# Method: card sorting and tree testing
+# Method: card sorting, tree testing and first-click testing
 
-Two methods for information architecture. Card sorting shows how people
+Three methods for information architecture. Card sorting shows how people
 group and name things. Tree testing shows whether people can find things in
-a proposed structure.
+a proposed structure. First-click testing shows where people go first on
+a real page or design, and whether that first move is the right one.
 
 ## Use them when
 
@@ -3300,6 +3436,9 @@ a proposed structure.
 - Card sorting: you're designing or rethinking a structure.
 - Tree testing: you have a structure (or two) and want to know if it
   works, before building any screens.
+- First-click testing: there's a page or a design (a wireframe, a mockup,
+  a live site) and the question is whether people start in the right
+  place for a task.
 
 ## Don't use them when
 
@@ -3339,6 +3478,31 @@ a proposed structure.
   only one).
 - Run it before any layouts or content exist.
 
+## First-click testing shape
+
+- Show a page (a screenshot, a wireframe or the live site) and give one
+  task at a time: "Where would you click to find out how much a
+  subscription costs?" Start every task from the same home or base
+  screen.
+- Write the correct first click (or clicks) for each task before the
+  test, so observers compare against it.
+- Record where each person clicked first and how long they took to click.
+  A long pause before the first click is a finding too.
+- After each task, ask how confident they are that they went the right
+  way, and how easy it was (`methods/usability-testing.md`, "Follow-up
+  questions").
+- Usually unmoderated, in a tool that collects clicks and draws a heat
+  map; a few moderated sessions add the why. Don't tell people it's a
+  first-click test.
+- Thirty or more per design for rates you can compare, as for tree
+  testing. Pilot it first.
+
+The first click predicts the rest: people whose first click was right
+finished the task far more often (about 87% against 46% in the figures
+the source cites). Analyze it as success per task, plus where the wrong
+clicks went; a cluster of wrong first clicks on one element names the
+label or layout to fix.
+
 ## What makes it good
 
 - Cards and tasks in participants' language.
@@ -3350,7 +3514,33 @@ a proposed structure.
 Card sorting: a similarity matrix (which cards are grouped together how
 often), the group names people chose, and the cards that went everywhere
 (the ambiguous ones). Tree testing: success and directness per task, the
-first-click paths, and the tasks that failed. Stage 7 covers this.
+first-click paths, and the tasks that failed. First-click testing: right
+first click per task, time to first click, where the wrong clicks went,
+and the confidence ratings next to the result (confident and wrong is the
+worst case). Stage 7 covers this.
+
+## Worked example
+
+> **Decision.** How BrightPay (payroll) organizes a settings area that
+> has grown to 42 pages. Design decides the structure in a month.
+>
+> **Research questions.** How do payroll admins group these settings?
+> Can they find the eight most-visited ones in the proposed structure?
+>
+> **Card sort.** 38 cards in admins' words ("who gets paid on which
+> day", not "pay schedule config"), open sort, unmoderated, 22
+> participants, plus three moderated sessions for the why.
+>
+> **Result.** Three stable groups (people, money, the company) in 18 of
+> 22 sorts; "approvals" went everywhere (placed in five different
+> groups). The moderated sessions said why: approvals are about people
+> *and* money.
+>
+> **Tree test.** Two trees (approvals under People; approvals as its own
+> top-level item), 40 participants each, ten tasks. "Where would you go
+> to let a manager sign off overtime?" Tree B: 34 of 40 succeeded, 29
+> directly. Tree A: 21 of 40. Reported as counts with the difference and
+> its range; Tree B recommended, with approvals' own section.
 
 ## Pitfalls
 
@@ -3359,10 +3549,14 @@ first-click paths, and the tasks that failed. Stage 7 covers this.
   often several.
 - Tree tasks that give away the answer.
 - Building screens before tree-testing the structure.
+- A first-click task that starts mid-flow, so the navigation never gets
+  tested.
 
 ## Template
 
-A card list and a task list. Analysis templates depend on the tool used.
+`templates/card-sort-and-tree-test.md`: the card list, the structure and
+task list for a tree test, the task list and correct clicks for a
+first-click test, and the analysis sheets.
 
 ## Basis
 
@@ -3373,8 +3567,15 @@ moderated for the why, unmoderated for numbers; similarity matrix; limits
 of the method). Tree testing: S51 (a text-only tree before layouts or
 content; tasks that don't give away the answer; success, directness and
 first click; one tree per participant when comparing). Definitions: S52.
-The tree-testing sample (thirty to fifty) follows S46's thirty-plus for
-rates; the eight-to-twelve task range is practitioner judgment.
+First-click testing: S91 (what it is; works on a live site, prototype or
+wireframe; tasks written as problems; document the correct path; record
+the click and the time to it; don't tell people it's a first-click test;
+pilot; start each task from the base screen; confidence and ease ratings
+after each task; the 87% against 46% figures, credited there to Jeff
+Sauro). The tree-testing sample (thirty to fifty) follows S46's
+thirty-plus for rates, applied to first-click tests too; the
+eight-to-twelve task range and the moderated-for-why line are
+practitioner judgment.
 
 <!-- core/methods/competitive-analysis.md -->
 
@@ -3524,6 +3725,29 @@ has the shape.
   fit us", as context for a recommendation, never as the recommendation's
   evidence on its own.
 
+## Worked example
+
+> **Decision.** Whether Tally (expense tracking) builds mileage claims,
+> which two competitors offer. Product decides next quarter.
+>
+> **Set.** Two direct competitors, plus the spreadsheet template the
+> finance team already emails people. Public sources only: nobody on
+> the team can get into the competitors' tools.
+>
+> **Job.** "Claim the miles from a client visit." Five steps, from the
+> study record.
+>
+> **Matrix, as recorded.** Competitor A: steps 1 to 4 **shown** (help
+> docs with screenshots, dated 2026-09), step 5 (approval) "not shown
+> publicly". Competitor B: steps 1 to 3 **described** (marketing page),
+> rest blank. The spreadsheet: all five **walked** by the researcher.
+>
+> **Fit assessment.** A's "start and end postcode" pattern would suit
+> Tally's field-sales persona (it removes typing); what it assumes (a
+> UK address format) doesn't hold for the US half of users. Labelled
+> [assumption] until checked in sessions. "Both competitors do it" is
+> recorded as a reason to test, not to build.
+
 ## Pitfalls
 
 - A feature checklist with ticks. It tells you what exists, not what fits.
@@ -3568,9 +3792,27 @@ they have, how they'd fit it into their work, and what would stop them.
 
 - You want to know whether people can use it. That's a usability test.
 - You want to know how many would buy or adopt. Reactions in a session
-  don't predict that; combine with behavioural data or a pricing method.
+  don't predict that; combine with behavioral data or a pricing method,
+  or run a fake-door test (below).
 - The concept is so vague participants would be reacting to the drawing,
   not the idea.
+
+## What to show
+
+Pick the lightest form that carries the idea, and show every concept at
+the same level of polish so polish isn't the variable.
+
+| Form | Shows | Good for |
+| --- | --- | --- |
+| One-paragraph description | The promise in words | Early, many ideas, cheap to change |
+| Storyboard (four to six frames) | A person, a situation, the idea in use, the outcome | Ideas that only make sense in a situation |
+| Sketch or wireframe | What it might look like | Ideas where the shape matters |
+| Clickable mock | A few screens that respond | Ideas people need to try to understand |
+| Fake landing page | The promise as the market would meet it | Measuring interest at scale (see fake-door tests) |
+
+Words first where you can. A polished screen makes people react to the
+screen. Leave out the brand, prices and a name unless they're part of
+what's being tested.
 
 ## Sample
 
@@ -3580,7 +3822,9 @@ they have, how they'd fit it into their work, and what would stop them.
 ## Session shape (30 to 45 minutes)
 
 1. Context first: how they handle the problem today, before they see
-   anything. This is the baseline.
+   anything. Ask for the last time, not the usual: "Tell me about the last
+   time you [did the thing]. What did you do? What did it cost you?" This
+   is the baseline.
 2. Show the concept. Let them read or explore it. Ask what they think it
    is and who it's for, before you explain.
 3. Value: "Where in your week would this fit?", "What would you stop doing?",
@@ -3588,6 +3832,49 @@ they have, how they'd fit it into their work, and what would stop them.
 4. If several concepts: the same questions for each, then "If you could
    only have one…" and why.
 5. Close: what's missing, what they'd want to know before using it.
+
+## Ask about the past, not the future
+
+"Would you use this?" gets a kind yes from almost everyone. Replace it
+with questions that have a true answer:
+
+- **Have they tried to solve it?** "What have you tried?" "What do you do
+  now instead?" Someone who has never tried to solve the problem doesn't
+  have it badly enough to change.
+- **What has it cost them?** Time, money, workarounds, a tool they bought
+  and dropped. Past spend is a better signal than stated interest.
+- **What would they give up?** "What would this replace?" A concept that
+  replaces nothing fits nowhere.
+- **A small commitment.** "Can I show you the next version?" "Would you
+  join a pilot?" "Who else here should see this?" A yes that costs
+  something means more than a compliment.
+
+Write down the compliments and set them aside. A session full of "that's
+great" and no stories is a polite no.
+
+## Fake-door and smoke tests
+
+The behavioral check. Put the promise of the feature in front of real
+users before it exists (a button, a menu entry, a landing page with a
+sign-up) and count who acts on it. Those who click see a short, honest
+message: it isn't ready, thanks for telling us you're interested, and an
+optional "tell us why". Pair it with a few interviews of the people who
+clicked.
+
+- Use it when sessions show interest and the team needs to know how wide
+  the interest is before building.
+- Write the question and the bar first: how many clicks, out of how many
+  who saw it, would make the feature worth building? Agree the bar before
+  the number arrives.
+- Keep it short and small. A dead-end button costs trust; run it for a
+  short, fixed time, to a slice of users, and never for something people
+  urgently need.
+- Say what the number can't tell you. A click is curiosity; it isn't use.
+  People who clicked once may not have the problem the way the team
+  thinks.
+- The analytics or growth team usually runs it. Magpie drafts the question,
+  the bar and the message (`methods/analytics-and-ab-tests.md`, "Who does
+  it") and logs the result as [their data].
 
 ## What makes it good
 
@@ -3601,7 +3888,33 @@ they have, how they'd fit it into their work, and what would stop them.
 
 For each concept: how participants understood it, where they saw value and
 for what, what would block adoption, and how it compares to how they cope
-today. Reaction patterns, not votes. Stage 7 covers this.
+today. Reaction patterns, not votes. Stage 7 covers this. Keep the
+baseline stories next to the reactions: someone who described a painful
+workaround and then shrugged at the concept is a finding.
+
+## Worked example
+
+> **Decision.** Which of two directions Sparrow (team messaging) takes
+> for "catch up after time away": a digest, or a per-channel summary.
+>
+> **Research question.** When people come back after a day or more away,
+> what do they do now, and which direction fits that?
+>
+> **Sample.** Eight people who were away from work for two or more days
+> in the last month, 40 minutes each, both concepts as four-frame
+> storyboards at the same polish, order rotated.
+>
+> **Baseline.** "Tell me about the last time you came back after a few
+> days." 6 of 8 described scrolling each channel from the top (P1, P2,
+> P4, P5, P7, P8); two asked a colleague what they'd missed.
+>
+> **Reactions, as reported.** All eight said both ideas were "great".
+> Asked what each would replace: 5 of 8 said the digest would replace
+> the scroll (P1, P2, P4, P5, P8); 2 of 8 said the per-channel summary
+> would replace anything. 3 of 8 asked to see the next version of the
+> digest unprompted. Reported as patterns in reasons, not a vote;
+> recommendation: a fake-door digest entry for two weeks to size
+> interest before building.
 
 ## Pitfalls
 
@@ -3609,19 +3922,23 @@ today. Reaction patterns, not votes. Stage 7 covers this.
 - Selling the concept instead of testing it.
 - Reading politeness as enthusiasm.
 - Treating a preference between two mock-ups as a market signal.
+- A fake door left up for weeks, or on something people need now.
 
 ## Template
 
-Adapt `templates/interview-guide.md`: baseline questions, then one block
-per concept with the same questions.
+`templates/concept-test.md`
 
 ## Basis
 
 Definition: S52 (an attitudinal method that collects people's thoughts
 and attitudes about a product idea). Why "would you use it?" misleads and
 reactions don't predict adoption: S8 (self-reported future intentions are
-unreliable; observe behaviour where you can); S27 (research should not stop
-at a yes or no). Pairing reactions with behavioural data: S13. Sample sizes,
+unreliable; observe behavior where you can); S27 (research should not stop
+at a yes or no); S5 (past experience over hypotheticals). Pairing reactions
+with behavioral data: S13. The forms to show, the past-not-future
+questions, the small-commitment test, the fake-door section (no
+published source checked; it is common practice in product teams, and
+the ethics of a dead-end button are Magpie's own rule), sample sizes,
 the session shape and the baseline-first rule: practitioner judgment.
 
 <!-- core/methods/contextual-inquiry.md -->
@@ -3675,6 +3992,35 @@ how to choose between them.
    let them correct you. Their corrections are often the best data of the
    session.
 
+## Remote contextual inquiry
+
+When you can't be there, the participant shares their screen and, where
+the work leaves the screen, points a phone camera at it. The session shape
+holds. Ask for what the camera misses: "What's on the desk?", "Who else is
+in the room?", "What did you just look at?" Expect to see the happy path
+more than you would on site, because the participant chooses what to
+show; say so in the findings. `methods/field-studies.md` covers remote
+sessions and their limits.
+
+## After each session: the team interpretation
+
+Within a day, the people who were in the session (and one or two who
+weren't) go through the notes together, in order, and build three
+things:
+
+- **The sequence.** The steps as they actually ran, with the triggers,
+  the waits and the handoffs between people and tools.
+- **The artifacts.** Everything the person used or made: the sticky
+  note, the spreadsheet on the side, the printed list. What each one is
+  for, and what in the product it stands in for.
+- **The breakdowns.** Each moment where the work stalled or the person
+  improvised, with what caused it as far as you saw.
+
+Keep what you saw apart from what you think it means. Questions that
+come up go on a list for the next session. After the last session, lay
+the sequences side by side and look for the steps everyone has, the
+steps only some have, and the breakdowns that repeat (stage 7).
+
 ## What makes it good
 
 - You're an apprentice, not an interviewer. They're the expert, and either
@@ -3689,6 +4035,31 @@ how to choose between them.
 
 Map the workflow as it actually runs, with the tools and people involved
 and the breakdowns marked. Then themes across sessions. Stage 7 covers this.
+
+## Worked example
+
+> **Decision.** Whether Dockside (warehouse returns) replaces the paper
+> returns log with in-app steps. Operations decides this quarter.
+>
+> **Research question.** How do returns clerks process a return today,
+> and where does the work leave the system?
+>
+> **Sample.** Five clerks at five sites, 90 minutes each, on a normal
+> shift.
+>
+> **Session.** Primer and consent for screen photos; the transition said
+> aloud; watched ten returns; asked "what's the notepad for?" when it
+> appeared; wrap-up where the researcher's reading ("you don't trust the
+> screen") was corrected by the participant ("only the refund bit, it
+> resets").
+>
+> **Interpretation, same day.** Sequence: scan, search, refund, confirm.
+> Artifacts: a sticky-note SKU list on the drawer (3 of 5 sites), a
+> notepad for refund amounts (P3). Breakdowns: search times out on
+> unlabelled items (P1, P3, P5); refund screen resets (P3, P5). Finding,
+> as reported: the paper exists because of two system failures, not a
+> preference for paper; removing it without fixing them removes the
+> workaround.
 
 ## Pitfalls
 
@@ -3715,7 +4086,166 @@ interpretations for the end and letting the participant correct them;
 pitfalls of interview mode, complaint sessions and researcher reactions;
 a small sample of people qualified in the work); S52 (definition); S33
 (contextual inquiry as one kind of field study). The sample range, the
-session length and the observation-sheet columns: practitioner judgment.
+session length, the remote section, the team interpretation and the
+observation-sheet columns: practitioner judgment.
+
+<!-- core/methods/customer-feedback-coding.md -->
+
+# Method: coding customer feedback
+
+Turn the feedback the organization already collects (support tickets,
+app store reviews, survey open-ends, chat logs, sales and success notes,
+community posts) into counted themes the team can act on. It's evidence
+review's biggest raw source, and the same coding rules as stage 7, applied
+at volume.
+
+## Use it when
+
+- The question is what people complain about, ask for, or praise, and
+  how that is changing.
+- A score has moved (satisfaction, NPS, ratings) and the team wants to
+  know why. The score is the smoke alarm; the comments behind it are the
+  diagnosis.
+- Something seen in a few sessions needs sizing, and the feedback archive
+  is large enough to size it.
+- The team wants to check whether a finding from interviews or tests
+  shows up in what customers write unprompted.
+
+## Don't use it when
+
+- The question is about people who don't write in. Feedback comes from
+  the people who chose to send it: the angriest, the most engaged, the
+  ones with time. It describes them, not the user base.
+- The question is why something happens at the level of a single
+  workflow. A ticket says "export failed"; it rarely says what the person
+  was trying to do. Interview or watch.
+- There's no question. A pile of feedback with no question produces
+  interesting charts and no decision.
+
+## Where it comes from
+
+Gather it into one place with its context: the date, the channel, the
+product area, the customer's plan or segment where you can, and the
+whole comment. "Pricing" on its own can be praise or a complaint; the
+sentence around it says which. Keep the link back to the original so a
+quote can be checked.
+
+Channels differ in who writes and why. Support tickets are problems;
+reviews are extremes; survey open-ends follow a question that shaped
+them; sales notes are secondhand. Say in the readout which channels were
+used and what each leaves out.
+
+## How to code it
+
+1. **Write the question first.** "What stops people finishing setup?"
+   gets a different code frame from "What do people praise?"
+2. **Read a sample before coding anything.** A hundred comments, or
+   enough to see the shape. Build the code frame from what's there
+   (inductive), not from the team's list of features. Add codes as they
+   appear; merge them as the frame settles.
+3. **Keep the frame small at the top and specific underneath.** Fewer
+   than about twenty top-level themes ("getting data in", "billing"), each
+   with specific, actionable codes under it ("import fails on files over
+   10 MB"). The specific codes are what the team can fix.
+4. **A comment can carry several codes.** Don't force each comment into
+   one bucket; most say more than one thing, and the second thing is
+   often the useful one.
+5. **Note the feeling as well as the theme.** The same theme can be
+   praise or a complaint. Record which, per code, not per comment.
+6. **Two spreadsheets or one tool.** By hand: one sheet for the code
+   frame (code, definition, an example comment), one for the comments
+   with a column per code. Tools that suggest themes do the first pass
+   faster; the frame still needs a person to merge and name it.
+7. **Check it.** Have a colleague code a sample blind and compare. Where
+   you disagree, tighten the definition. For an automated pass, compare
+   its top themes with a hand-coded sample before trusting it.
+
+## Counting and reading
+
+- Report each theme as a count out of the base ("412 of 3,100 tickets in
+  Q3 mention import"), with the period and the channels. Per comment,
+  not per customer, unless you can de-duplicate; one customer can write
+  ten tickets.
+- Trend over time, per theme, is often the finding: a theme that doubled
+  since a release matters more than the biggest theme.
+- Cross by segment where the data allows (plan, platform, tenure). A
+  theme that is small overall and large in one segment is a finding.
+- Where a score exists (satisfaction, NPS), look at which themes the low
+  scorers mention most. That's "why the score moved", as far as feedback
+  can say it.
+- A theme's size says how often people wrote about it, not how often it
+  happens or how much it matters. Weight it with what else is known
+  (analytics, sessions) before it becomes a priority.
+
+## At scale
+
+Pick the way that fits the volume and the stakes.
+
+| Volume | Way | Watch for |
+| --- | --- | --- |
+| Hundreds | Code by hand, as above | Drift: coders apply the frame differently over time; recheck a sample monthly |
+| Thousands, a few channels | A tool for the first pass (keyword or topic extraction), a person to merge and name the themes | The tool finds what it was set to look for; new themes arrive late |
+| Tens of thousands, many channels | A tool that builds and updates the frame from the feedback itself | Themes nobody can define; check a sample against the raw comments each round |
+
+Whatever the volume, the readout quotes real comments, with the channel
+and date, and `checks/claim-strength.md` applies: a count of mentions is
+a count of mentions.
+
+## Worked example
+
+> **Decision.** Why Sparrow's (team messaging) app store rating fell
+> from 4.4 to 3.9 over the summer, and what to fix first.
+>
+> **Question and frame.** "What do people complain about since June, and
+> what's new?" Read 150 reviews first; built a frame of 14 top-level
+> themes with specific codes under them; coded 1,210 reviews from June
+> to September by hand with a tool's suggestions for the first pass; a
+> colleague coded 60 blind, agreement checked, two definitions
+> tightened.
+>
+> **Result, as reported.** "Notifications arrive late" rose from 4% of
+> reviews in June (9 of 220) to 31% in September (104 of 335), nearly
+> all on Android (97 of 104), and 1-star reviews mention it most (71 of
+> 118). Per review, not per customer. Reported with what it can't say:
+> how many users are affected (reviews come from people who chose to
+> write), and why it happens (engineering's logs and three sessions
+> with affected users were the next step).
+
+## Pitfalls
+
+- Treating the writers as the users. Say who writes in and who doesn't.
+- A code frame made from the feature list, so the data can only confirm
+  the team's map of the product.
+- One code per comment.
+- A percentage of comments reported as a percentage of customers.
+- A theme that is really the channel: "can't reach support" from support
+  tickets.
+- Quoting a comment without the original to check it against.
+- Letting a tool's themes stand without reading a sample of what's inside
+  each.
+
+## Template
+
+The code frame and the comment sheet above, kept with the study record.
+Report counts with `templates/analysis-sheet.md`.
+
+## Basis
+
+S89 (gather feedback in one place with its context; a single word's
+meaning depends on the comment around it; inductive coding; several
+themes per comment, each with its own sentiment; a hierarchy from broad
+themes to specific, actionable ones, under about twenty at the top; the
+two-spreadsheet method; keyword extraction produces phrases that still
+need merging; have a colleague check a coded sample and compare
+automated themes with a hand-coded sample; quantify and visualize by
+theme; explain the approach so stakeholders trust it). S90 (methods
+ranked by volume: manual coding is flexible but drifts; scores show the
+trend but not the cause, "a smoke alarm, not a diagnosis"; sentiment and
+topic tools find what they were set to look for; adaptive tools for the
+largest volumes. The source is a vendor's guide; its claims about its own
+kind of tool were not checked). S1b (coding and themes as in stage 7).
+Who writes in and who doesn't, per-customer de-duplication, trend and
+segment reading, and the pitfalls: practitioner judgment.
 
 <!-- core/methods/diary-studies.md -->
 
@@ -3894,6 +4424,30 @@ entry and timestamp for each quote. Describe what a photo or screenshot
 shows in words, next to the participant's own caption, so it can be
 coded with the rest.
 
+## Worked example
+
+> **Decision.** Whether Larder (meal planning) adds a "what's in the
+> fridge" prompt, or improves the weekly plan. Product decides in six
+> weeks.
+>
+> **Research question.** When and why do people change the plan during
+> the week, and what do they do instead?
+>
+> **Sample.** Nine people who planned meals in the app in the last two
+> weeks (six finished), two weeks, entries triggered by the event: "each
+> time you cook something other than the plan, or skip a planned meal".
+>
+> **Capture.** Text or voice note as the core; optional photo of what
+> was cooked. Check-ins on day 2, day 7 and after three silent days.
+>
+> **Finding, as reported.** 5 of 6 completers changed the plan at least
+> three times in two weeks (P1, P2, P3, P4, P6; 31 entries); the most
+> common reason, in 14 of 31 entries, was an ingredient missing or gone
+> off. P5 left after day 4; their four entries are reported as four
+> entries, not as "P5 never changed the plan". Entries clustered around
+> 6pm because the reminder went out at 6pm; the study design shaped the
+> timing, and the readout says so.
+
 ## Pitfalls
 
 - Too many prompts, or prompts that change the behaviour being studied.
@@ -3912,7 +4466,9 @@ coded with the rest.
 
 ## Template
 
-Entry prompt, the core for every entry, typed or spoken: *When did this
+`templates/diary-study.md`: welcome, kick-off call, entry prompt,
+check-ins, exit interview and team notes. The entry prompt there is the
+core for every entry, typed or spoken: *When did this
 happen? What were you trying to do? What did you do? How did it go (very
 badly, badly, okay, well, very well)? What made you pick that? Anything
 else?* Optional, when it helps the research question: *Add a photo,
@@ -3967,7 +4523,8 @@ instead of running a new study. Stage 2 in full.
 
 - The research library, if there is one.
 - Past reports, decks and study records.
-- Support ticket themes.
+- Support ticket themes (`methods/customer-feedback-coding.md` says how to
+  code them).
 - Analytics and telemetry.
 - Survey archives.
 - Sales and customer success notes (indirect; label them).
@@ -3984,6 +4541,60 @@ instead of running a new study. Stage 2 in full.
 5. Say what a new study would add, if anything, and whether it's worth it
    for this decision.
 
+## Judging an old study
+
+Rate each item before it counts. Five questions, in order:
+
+1. **Can you see the data?** A deck's conclusions are not evidence until
+   you've seen what they rest on: the transcripts, the counts, the
+   survey export. A study with no methods section and no data is a claim.
+2. **Who took part, and how many?** Were they the people this decision is
+   about? Five interviews with admins say nothing about end users. A
+   survey of whoever answered describes the people who answered.
+3. **What was done?** Did people do the thing or talk about it? Was the
+   question asked neutrally? Did the method fit the question (stage 4's
+   rules)?
+4. **When, and what's changed since?** Date every item. A finding about a
+   flow that has been redesigned since is history. Market and competitor
+   facts age faster than findings about how people work.
+5. **Who ran it, and why?** A study run to justify a decision already made
+   reads differently from one run to make it. Vendor and analyst reports
+   have a product to sell; label them.
+
+The item's confidence is the lowest answer, not the average. Record it in
+the evidence log in one line: "2025-03 usability test, 6 admins, moderated,
+saw the data: high for admins, nothing for end users."
+
+## Using a research repository
+
+- Search by the user's job and the journey step, not by the feature
+  name. Past studies were filed under the name the feature had then.
+- Read the study, not the entry. A library entry is a summary written for
+  reuse; it loses the caveats. Open the source before quoting it.
+- Note who the past participants were. Repositories mix studies of
+  different groups, and a theme that looks strong across five entries may
+  be five different audiences.
+- Look for what disagrees. Search for the opposite claim before concluding
+  that the library agrees.
+- When Magpie writes the library entry for this study (stage 8), it writes
+  the one it wished it had found: the question, who took part, the
+  method, the date, the caveats, and where the data lives.
+
+## Summaries written by AI
+
+Teams increasingly search their research with an AI tool, or get a
+summary of past studies from one. Treat such a summary as a lead, not a
+source.
+
+- Ask for the source of every claim in it, and open that source.
+- Check that each study it cites exists and says what the summary says.
+  A summary can blend two studies, invent a number from "most", or
+  attribute a quote to the wrong study.
+- Count how many studies a "theme across our research" rests on, and who
+  took part in each.
+- Log the summary itself in the evidence log as a tool output, with the
+  date and the prompt, never as a finding.
+
 ## The evidence brief (one page)
 
 - The question and the decision.
@@ -3992,6 +4603,39 @@ instead of running a new study. Stage 2 in full.
 - What's still unknown.
 - What the team should do: act, or run [specific study] to close [specific
   gap].
+
+### Worked example
+
+> **Question.** Should the mobile app get an offline mode? Decision due in
+> three weeks; mobile team's planning.
+>
+> **What the evidence says.**
+> - Support tickets, last 6 months (coded 2026-10, 312 tickets): 41
+>   mention losing work with no signal; 29 of those from field
+>   technicians. *Their data, coded by us: high for "it happens", says
+>   nothing about how often per user.*
+> - Diary study, 2025-11, 9 field technicians, 2 weeks: 7 of 9 logged at
+>   least one day with no signal; 4 described re-entering a job on return.
+>   *Saw the entries: high for this group; the app has changed since but
+>   not the sync.*
+> - Analytics, 2026-09: 6% of mobile sessions end in a failed sync.
+>   *Partner data; counts sessions, not people.*
+> - Sales notes, 2026: "customers ask for offline all the time."
+>   *Anecdote; label indirect.*
+>
+> **Confidence.** High that losing work with no signal is real and painful
+> for field technicians. Low on how many users beyond that group are
+> affected, and none on whether an offline mode is what they'd want over,
+> say, a draft that survives a failed sync.
+>
+> **Unknown.** Scale outside field technicians; what "offline" would need
+> to cover.
+>
+> **Recommendation.** Act for field technicians: the problem is established.
+> Before scoping the full feature, run five contextual inquiry sessions
+> with technicians on a day in the field to see what work needs to
+> survive (two weeks, fits the deadline). Don't run a survey; the
+> question is what, not how many.
 
 ## What makes it good
 
@@ -4006,6 +4650,7 @@ instead of running a new study. Stage 2 in full.
 - Treating a deck's conclusion as evidence without seeing its data.
 - Stitching three weak sources into one strong claim.
 - Skipping the brief and just saying "we already know this".
+- Quoting a library entry or an AI summary without opening the study.
 
 ## Basis
 
@@ -4013,8 +4658,11 @@ S18 (secondary research as a standard first step; judge each source's
 validity and limitations; a missing methods section is a red flag); S13
 (one source's limits are offset by another); S14 (when sources disagree,
 examine how each was done; quantitative data doesn't automatically
-overrule qualitative). The evidence brief's shape and the confidence rule
-(no higher than the weakest load-bearing source): practitioner judgment.
+overrule qualitative); S10 (where AI tools break: blended sources,
+invented specifics, confident summaries). The five judging questions, the
+repository rules, the AI-summary rules, the evidence brief's shape, the
+worked example and the confidence rule (no higher than the weakest
+load-bearing source): practitioner judgment.
 
 <!-- core/methods/expert-review.md -->
 
@@ -4054,7 +4702,11 @@ and shape what to test; it can't stand behind a recommendation on its own.
 ## Heuristic evaluation
 
 1. **Prepare.** Pick the heuristics (Nielsen's ten usability heuristics
-   are the common set; add domain-specific ones if needed). Narrow the
+   are the common set, S95: visibility of system status, match with the
+   real world, user control and freedom, consistency and standards, error
+   prevention, recognition over recall, flexibility and efficiency,
+   aesthetic and minimalist design, help with errors, help and
+   documentation; add domain-specific ones if needed). Narrow the
    scope to a task, a section, a user group or a device. Agree how issues
    will be recorded.
 2. **Review alone.** Three to five reviewers, each working independently
@@ -4096,6 +4748,26 @@ reviewers found it, and a note on whether users need to confirm it. Then
 the short list of tasks to put in front of users. Keep it separate from
 findings from users, in the record and in any readout.
 
+## Worked example
+
+> **Decision.** Which tasks to put in next month's usability test of
+> Tally's (expense tracking) new approvals flow, and what to fix before
+> it.
+>
+> **Review.** Heuristic evaluation, four reviewers (two designers, a
+> content designer, a support lead), independently, 90 minutes each, on
+> the approvals flow only, against Nielsen's ten heuristics.
+>
+> **Combined list.** 23 issues; 6 found by three or more reviewers.
+> Top: no confirmation after "Approve" (visibility of system status,
+> 4 of 4 reviewers); "Reject" and "Return for changes" look the same
+> (error prevention, 3 of 4).
+>
+> **As recorded.** Every issue is [assumption] in the evidence log:
+> "Reviewers predict people won't know an approval went through." The
+> two top issues become test tasks; three cheap fixes (labels) go in
+> before the test. Nothing from the review appears as a finding.
+
 ## Pitfalls
 
 - Presenting review issues as "users struggle with…".
@@ -4116,7 +4788,7 @@ hours each, narrow scope, consolidate afterwards, heuristics are
 guidelines, it can't replace user research); S35 (cognitive walkthrough:
 the four questions, a cross-functional group, a facilitator and a recorder,
 best for new or unfamiliar systems, to be combined with usability
-testing). The [assumption] label and keeping results apart from user
+testing); S95 (the ten heuristics by name). The [assumption] label and keeping results apart from user
 findings follow `operating.md`. Avoiding self-review, the pitfalls and
 the issue-list columns: practitioner judgment.
 
@@ -4196,6 +4868,30 @@ As for contextual inquiry: map the work as it actually runs, mark the
 breakdowns and workarounds, then themes across sites (stage 7). Note the
 setting for every finding, since a problem that appears only at one site
 may be about that site.
+
+## Worked example
+
+> **Decision.** Whether Dockside (warehouse returns) builds a mobile
+> scanning app or improves the desk screens. Operations decides next
+> quarter.
+>
+> **Research question.** Where does a return physically go between the
+> loading bay and the desk, and who touches it?
+>
+> **Kind.** Direct observation, then a site visit led by the floor
+> manager, at four sites across two regions; two observers, one shared
+> observation guide.
+>
+> **Access.** Permission from the site manager and the clerks; consent
+> for photos of the floor with no faces; agreed not to record the
+> loading bay cameras' area.
+>
+> **Finding, as reported.** At 3 of 4 sites a return is handled by three
+> people before it reaches the desk (bay, sorting, desk), and the paper
+> slip travels with it; the desk screen is the first place it's typed.
+> Site D (the smallest) has one person doing all three. Reported per
+> site, with the setting next to each finding, since a problem seen at
+> one site may be about that site.
 
 ## Pitfalls
 
@@ -4305,6 +5001,27 @@ the discussion. Agreement in a group is not a count: "the room agreed" may
 mean two people spoke and six nodded. Never turn group agreement into a
 percentage.
 
+## Worked example
+
+> **Ask.** "Can we run a focus group to see if admins would use the new
+> billing dashboard?" (BrightPay, payroll.)
+>
+> **Fit check.** "Would use" is a behavior question; a group would give
+> opinions. Offered a usability test of the dashboard with five admins
+> instead. The PM also wanted to know the words admins use for billing
+> problems, before the dashboard's copy is written. A group fits that.
+>
+> **Plan.** Two groups of seven, each from one segment (small firms;
+> accountants running payroll for clients), 90 minutes, a written
+> exercise before the main discussion: "Write the last billing problem
+> you had, in a sentence."
+>
+> **Finding, as reported.** The written exercise produced 14 problems,
+> 9 about "I can't tell what we were charged for" in those words; the
+> discussion that followed was led by two voices in group 1 and the
+> written answers are reported separately from it. Not reported: "the
+> room agreed". Next: the usability test with the dashboard's new copy.
+
 ## Pitfalls
 
 - Using it to test usability.
@@ -4410,6 +5127,29 @@ Thematic analysis: read everything, code what's there, group codes into
 themes, check each theme against the participants who don't fit it. Keep
 quotes tied to participant codes and timestamps. Stage 7 covers this.
 
+## Worked example
+
+> **Decision.** Whether Harbor (a team task board) should build a guided
+> setup for new admins, or leave setup as it is. Product leads decide in
+> five weeks.
+>
+> **Research question.** How do new admins set up a workspace in their
+> first week, and where does it stall?
+>
+> **Sample.** Six admins who created a workspace in the last 30 days, then
+> two more when the sixth session still brought a new code (eight in all).
+>
+> **Guide, main block.** "Tell me about the first day you set up Harbor.
+> What did you do first? When did you invite someone, and what made that
+> the moment?" Probes ready: "What did you do instead?", "Can you show
+> me?"
+>
+> **Finding, as reported.** 6 of 8 admins built one full board before
+> inviting anyone (P1 06, P2 09, P3 04, P5 11, P6 07, P8 05); P4 and P7
+> invited on day one. The reason given by five of the six: "something to
+> show" (P1 10, P2 12, P3 08, P6 09, P8 07). Confidence: moderate; past
+> behavior, told not seen; one study.
+
 ## Pitfalls
 
 - Asking people to predict their future behaviour.
@@ -4449,6 +5189,176 @@ rating scales are prone to acquiescence and social-desirability bias); S12
 counting to five in silences, one to three ratings, and the AI-moderator
 section's reading rule: practitioner judgment (the AI-moderator risks
 themselves: S10).
+
+<!-- core/methods/journey-maps-and-personas.md -->
+
+# Method: journey maps and personas from research
+
+Two ways to turn findings into something the team keeps using after the
+readout. A journey map shows the steps one kind of person takes to reach
+a goal, with what they do, think and feel at each step, and where it goes
+wrong. A persona describes one kind of user: their goals, how they work,
+what gets in their way. Both are outputs of research, built from
+findings; neither is research.
+
+## Use them when
+
+- The study covered a whole journey (a diary study, field work, a round
+  of interviews about a process) and the findings are a sequence, not a
+  list.
+- The team keeps arguing about "the user" and the research found two or
+  three distinct kinds.
+- The team already has journeys or personas and the study contradicts or
+  extends them (`lenses/systems-and-journeys.md`).
+- A map would show where the problems cluster better than a findings list
+  would.
+
+## Don't use them when
+
+- The research didn't cover the journey. A map drawn from one touchpoint
+  is a guess about the rest; label the guessed parts.
+- The team wants a persona to settle an argument, with no research
+  behind it. That's a proto persona: a written-down assumption. It can be
+  useful for aligning a team, as long as it says so on its face.
+- The deliverable would be the end of the work. A map or a persona is a
+  tool for the next decision, not a poster.
+
+## Journey maps
+
+A map has five parts. Leave out what the research can't fill, and mark
+what's inferred.
+
+1. **The actor.** One persona or one kind of user. A map with two actors
+   is two maps.
+2. **The scenario and the expectation.** What they're trying to do, and
+   what they expect it to be like. From the baseline questions in
+   sessions.
+3. **The phases.** Three to seven, in the user's words, from what people
+   did, not from the product's screens.
+4. **In each phase: actions, thoughts, feelings.** What they did; what
+   they said they were thinking; how it felt, from what they said and
+   did. Each cell carries a participant count or a code ("P2, P5, P7"),
+   as any finding does.
+5. **Opportunities.** Where it stalled, where they improvised, where
+   they gave up. Each one points to a finding, and from there to a
+   recommendation (stage 8).
+
+How to build it from findings:
+
+- Lay the sessions side by side (the sequences from contextual inquiry,
+  the entries from a diary, the "last time" stories from interviews).
+  Where did each person start, and what happened next?
+- Name the phases from the steps most people had. Steps only some had
+  go in as branches or notes.
+- Fill each cell from coded findings, with the counts. A cell with one
+  participant behind it says so.
+- Mark the breakdowns, and how many hit each.
+- Mark the parts the study didn't cover, so the map doesn't claim them.
+- Draft it, then check it with two or three participants, or against two
+  sessions you held back. A map nobody who lived it recognizes is wrong.
+
+Related things the team may ask for: an experience map (the same, for a
+whole activity, not tied to a product), a service blueprint (the same
+journey from the organization's side: the people, systems and steps
+behind each phase), and a user story map (the journey as a backlog, for
+planning). The journey map is for understanding; the others come after.
+
+## Personas
+
+Three kinds, by what they rest on. Say which kind any persona is.
+
+| Kind | Built from | Good for | Can't say |
+| --- | --- | --- | --- |
+| Proto persona | The team's assumptions, written down in a workshop | Aligning a team quickly; naming assumptions to test | Anything about real users; label it [assumption] |
+| Qualitative persona | Interviews, field work, tests: a small sample, grouped by shared goals, attitudes and pain points | Most teams, most decisions; design and prioritization | How many users each one stands for |
+| Statistical persona | A survey of a large sample (hundreds, often 500 or more) clustered by attitudes and behaviors, with qualitative research first | Sizing each group; big investment decisions | Much, without the qualitative work behind it |
+
+How to build qualitative personas from findings:
+
+- Group participants by what they're trying to do and how, not by who
+  they are. Two people with the same job title can be different personas;
+  two with different titles can be the same one.
+- Look for the differences that changed the findings: the goal, the
+  frequency, the setting, what they're measured on, what they fear.
+  Those are the dividing lines. Demographics go in only where they
+  changed behavior.
+- Two to four personas. More than that and nobody remembers them.
+- Each persona gets: a name and a one-line description; what they're
+  trying to do; how they do it now, including the workarounds; what gets
+  in the way; what they'd never do; a quote from a real participant; and
+  the participant codes it's built from ("P1, P4, P6, P8").
+- Say what the study can't say: how many users are each persona, and
+  whether the groups hold outside the sample.
+- Every persona is memorable, actionable and different from the others.
+  If two personas would make the same decision in every scenario the team
+  cares about, merge them.
+
+## What makes it good
+
+- Every cell and every trait traceable to findings, with counts or codes.
+- Gaps marked, not filled in.
+- Checked against people who lived it.
+- Dated, and owned by someone who'll update it after the next study.
+- Used: it appears in the next stage 3, when the team places a new
+  question on the journey and names the persona it's about.
+
+## Analysis
+
+They are analysis outputs. Build them in stage 7 after the themes are
+settled, and present them in stage 8 next to the findings they rest on,
+never instead of them. The readout says what kind of persona it is and
+how many sessions the map rests on.
+
+## Worked example
+
+> **Study.** Dockside (warehouse returns): five contextual inquiry
+> sessions and a two-week diary with six clerks.
+>
+> **Journey map.** Actor: a returns clerk at a multi-person site.
+> Scenario: "get a return off the floor and refunded." Five phases from
+> the sequences laid side by side: receive, sort, find the order,
+> refund, close. "Where it breaks" cells: search times out on unlabelled
+> items (receive, 3 of 5 sessions); refund screen resets (refund, 2 of
+> 5 sessions, 9 diary entries). The "close" phase was seen in only two
+> sessions and is marked so. Checked with two clerks, who moved "sort"
+> before "receive" for bulk deliveries; the map now shows that branch.
+>
+> **Personas.** Qualitative, two: the desk clerk (P1, P2, P3, P5; works
+> the screen, keeps paper for the two failures) and the all-in-one clerk
+> at a small site (P4; does bay, sort and desk alone, scanner-less).
+> Each carries its codes, a real quote, and "can't say how many sites
+> are like this". The team's existing persona, "warehouse operative",
+> covered both; a library entry says why they're now two.
+
+## Pitfalls
+
+- A map drawn from the product's screens, not from what people did.
+- A persona built from a demographic, a role or a plan tier.
+- Filling the gaps with plausible guesses, unmarked.
+- One participant's journey presented as the journey.
+- Personas that live in a slide and never appear in a decision.
+- Updating the poster, not the persona, after new research.
+
+## Template
+
+`templates/journey-map.md` for the map and `templates/persona.md` for
+each persona. Both carry the participant codes column.
+
+## Basis
+
+S93 (a journey map as a visualization of the process a person goes
+through to accomplish a goal; the five parts: actor, scenario and
+expectations, phases, actions, mindsets and emotions, opportunities; how
+it differs from experience maps, service blueprints and user story maps).
+S94 (the three persona kinds: proto personas from assumptions, qualitative
+personas from small-sample research grouped by attitudes, goals and pain
+points, statistical personas from a large survey, ideally 500 or more,
+with clustering and prior qualitative work; qualitative as the best fit
+for most teams; personas rest on qualitative understanding, not
+demographics or analytics correlations alone; good personas are
+memorable, actionable and distinct). Building from coded findings with
+counts, the two-to-four range, checking with participants, and the
+pitfalls: practitioner judgment.
 
 <!-- core/methods/participatory-design.md -->
 
@@ -4528,6 +5438,29 @@ for interviews (stage 7), with photos of the artifacts as context. Look for
 what people put first, what they repeated, what they left out, and the
 reasons they gave. A pattern across people is a finding; one person's
 design is a single case.
+
+## Worked example
+
+> **Decision.** What a "my week" view in Sparrow (team messaging) should
+> be for, before design starts.
+>
+> **Research question.** What do people want to see at the start of a
+> working day, and what do they want to keep out of it?
+>
+> **Sample.** Three making sessions of five people, recruited and paid
+> as participants, 100 minutes each. Kit: cards for things Sparrow
+> already shows (unread, mentions, meetings), blank cards, and a large
+> sheet marked "morning", "midday", "end of day".
+>
+> **Prompt.** "Make the start of a day that would let you get to your
+> real work faster." Not "design our home screen".
+>
+> **Finding, as reported.** From the "tell" step, coded like interviews:
+> 11 of 15 put "what's waiting on me" first and left unread counts off
+> the sheet entirely (P1 to P4, P6, P7, P9 to P11, P13, P14); the reason
+> given by eight was "counts make me feel behind". One participant's
+> layout (a calendar-first view) is reported as a single case. The
+> participants heard back what the team did with it.
 
 ## Pitfalls
 
@@ -4619,6 +5552,24 @@ many more, and stage 7's survey data rules apply.
 - **Preference:** the reasons matter more than the tally. Group the
   reasons and say which parts of the design they point to.
 
+## Worked example
+
+> **Decision.** Which of two visual directions Larder (meal planning)
+> takes for its recipe pages; the brand goal is "calm, not a food blog".
+>
+> **Setup.** Inside a usability test of the recipe page (eight people,
+> moderated), both directions shown after the tasks, order switched
+> between people. Then a 24-word list, half negative, shuffled: pick
+> five that describe the page.
+>
+> **Result, as reported.** 6 of 8 preferred direction B (P1, P2, P4,
+> P5, P6, P8), with the reasons grouped: "less to read" (4), "the photo
+> is smaller" (3). Words picked for B: "calm" 5 of 8, "plain" 4 of 8,
+> "cluttered" 0; for A: "busy" 5 of 8, "appetizing" 4 of 8. Counts, not
+> percentages. Reported next to the task results: two of the six who
+> preferred B had failed the "add to plan" task on B, so preference is
+> reported as preference, not as "B works better".
+
 ## Pitfalls
 
 - Reporting preference as which version works better.
@@ -4648,12 +5599,156 @@ groups and versions; count people who chose a brand word). S11
 five to eight per group, and counts instead of percentages for small
 samples: practitioner judgment.
 
+<!-- core/methods/stakeholder-interviews.md -->
+
+# Method: stakeholder interviews
+
+One-to-one conversations with the people who have a stake in the work or
+whose cooperation it needs: product, engineering, design, support, sales,
+leadership, a partner team. Not user research. They tell you what the
+project is for, what it has to deliver, what has been tried, and who
+needs to be on board.
+
+## Use it when
+
+- A project is starting and the brief is thin, contested, or written by
+  one person.
+- A new stakeholder has joined, or the project needs a reset.
+- Stage 3 keeps stalling because the decision, the success measure or the
+  constraints aren't agreed.
+- The team is about to run research and nobody has asked what the
+  stakeholders would do with each possible answer.
+
+## Don't use it when
+
+- You need to know what users do or want. Stakeholders can tell you what
+  they believe about users; that's an [assumption] until users confirm
+  it.
+- A single agreed brief exists and the stakeholders wrote it together. A
+  workshop to align on the problem (`workshops/stakeholder-workshops.md`)
+  may fit better when the group needs to decide something together.
+
+## Who, and when
+
+Anyone who has an interest in the outcome or whose help the project
+needs, inside the organization or outside it. Ask each one at the end,
+"Who else should I talk to?", and follow the chain until the names
+repeat. Early is best: at kickoff, before the research is planned, so
+what you hear shapes the plan.
+
+## Session shape (30 to 45 minutes)
+
+One at a time, not in a group; people say in private what they won't say
+in front of their peers or their manager. An informal setting ("a coffee
+about the project") helps.
+
+1. **Open (3 min).** Who you are, what the project is, why you're asking,
+   what will happen to what they say (summarized, not attributed, unless
+   they agree).
+2. **Success (10 min).** "What would make this project a success for
+   you?" "How will you know?" "What number would you look at?" Push for
+   something that could be measured, and note when there isn't one.
+3. **Priorities (10 min).** "If we could only fix one thing, what?"
+   "What's not worth doing?" "What's the decision this research feeds,
+   and what are the options on the table?"
+4. **History and expertise (10 min).** "What's been tried?" "What do you
+   already know about these users, and how do you know it?" "What went
+   wrong last time?" Their knowledge of the domain is often deep; their
+   knowledge of users is often secondhand. Ask which it is.
+5. **Process (5 min).** "Who decides?" "When?" "What's in the way?" "What
+   do you need from research, and in what form?"
+6. **Close (2 min).** "Who else should I talk to?" "Anything I should
+   have asked?" Thanks, and when they'll hear back.
+
+Stay neutral. Don't argue with a wrong belief about users; note it as
+something the research can check. Ask open follow-ups ("Say more about
+that") and let them finish.
+
+## What makes it good
+
+- A goal for each interview, written before it: what this person can
+  tell you that nobody else can.
+- A short guide, used loosely. The four topics (success, priorities,
+  history, process) and a few probes.
+- Beliefs about users written down as beliefs, with who holds them.
+  These become hypotheses for the study, and some become the most useful
+  findings when the research contradicts them.
+- A thank-you afterwards that says what you heard and what happens next.
+  It keeps the channel open for the readout.
+
+## Analysis
+
+With five or fewer stakeholders, summarize informally: the success
+measures each named, where they agree and disagree, the beliefs about
+users to check, the constraints. With more, code the notes as for
+interviews (stage 7) and report the themes. Then feed stage 3: the
+decision, the success measure, the audience, the hypotheses, the
+constraints and the "what would you do with each answer" lines come
+from here, each attributed to the stakeholders who said it.
+
+Disagreement between stakeholders is a finding. Put it in the study
+record and raise it before the research is planned, because the research
+can't settle a disagreement nobody has named.
+
+## Worked example
+
+> **Project.** A research round on BrightPay's (payroll) onboarding,
+> asked for by the product lead with a two-line brief.
+>
+> **Interviews.** Six, one-to-one, 30 minutes each: the product lead,
+> the design lead, the support manager, the sales lead, an engineer who
+> built the current onboarding, and, named by three of them, the finance
+> partnerships manager.
+>
+> **What they said.** Success: "fewer onboarding support tickets"
+> (support), "more accounts live within a week" (product, sales), "no
+> number" (design). Beliefs about users: "small firms give up at the
+> HMRC step" (sales, from calls), "accountants don't read the setup
+> guide" (support, from tickets). History: a guided setup was tried in
+> 2024 and dropped, nobody could say why; the engineer found the
+> retrospective.
+>
+> **Into stage 3.** Decision: whether to rebuild guided setup, product
+> lead, end of quarter. Success measure: accounts live in seven days
+> (two stakeholders), with support tickets as a second measure.
+> Hypotheses H1 and H2 from the beliefs above, each with who holds it.
+> Disagreement logged: sales wants small firms first, support wants
+> accountants; raised before the plan was written.
+
+## Pitfalls
+
+- Treating a stakeholder's belief about users as a finding.
+- Interviewing only the sponsor.
+- Letting the interview become a pitch for the research, or a complaint
+  session about another team.
+- Attributing something said in confidence.
+- Writing the plan before the stakeholder with veto power has been heard.
+
+## Template
+
+Adapt `templates/interview-guide.md`: the four topic blocks above with
+two or three probes each, and a closing "who else" question. Record the
+answers in the study record under context, with the stakeholder named
+as the source.
+
+## Basis
+
+S92 (who to interview: anyone with an interest in the project or whose
+cooperation it needs, internal or external; when: kickoff, a new
+stakeholder, a reset; a concrete goal and a semistructured guide; one on
+one, framed informally; neutral, active listening, open follow-ups; the
+four topics success metrics, priorities, history and expertise, process
+and workflow; closing with "who else should I speak to?"; a thank-you
+afterwards; informal summary for five or fewer, thematic analysis for
+more). Session timings, the belief-as-hypothesis rule, feeding stage 3,
+and the pitfalls: practitioner judgment.
+
 <!-- core/methods/surveys.md -->
 
 # Method: surveys
 
 Ask many people the same questions to measure how common an attitude,
-behaviour or need is.
+behavior or need is.
 
 ## Use it when
 
@@ -4667,39 +5762,198 @@ behaviour or need is.
 - The question is *why*. Surveys get thin answers to why.
 - You'd be surveying whoever's easiest to reach and calling it "users".
 - A number already exists in analytics.
+- You can't get enough answers to analyze. Check this first; see "Can it
+  get enough answers?" below.
+
+## Can it get enough answers?
+
+Before writing a single item, do this sum. It's the first question in
+survey planning, and it can be done on a phone calculator.
+
+1. **Responses needed.** How many answers the analysis needs. For an
+   overall picture of one group, a few hundred. To compare groups, enough
+   in each group that a difference would show; the smaller the difference
+   you need to see, the more you need. Stage 7 has the sample size rules.
+2. **Response rate.** What share of invited people answer. Use the rate
+   from a past survey to a similar group; otherwise guess low, and say
+   it's a guess.
+3. **Invites needed** = responses needed ÷ response rate.
+4. **Invites available.** How many of the right people the tool can reach,
+   after removing anyone who can't be contacted or was surveyed recently.
+5. **Viability** = invites available ÷ invites needed.
+
+Above 1, the survey can get what it needs (at exactly 1 it uses every
+invite, leaving none for other surveys). A little below 1 means weaker
+results the team may accept. Well below 1, the survey isn't viable as
+planned. To raise the number: shorten the survey, add an incentive or a
+reminder, target better, cut the number of groups to compare, or widen who
+is eligible. Don't lower the bar for how sure you need to be.
+
+Example: a team wants 390 answers, past surveys to this group got 1.5%,
+so they need 26,000 invites. They can reach 100,000 people. Viability is
+about 3.9. Go ahead.
 
 ## Sample
 
 - Who answers matters more than how many. A self-selected sample describes
-  the people who chose to answer.
+  the people who chose to answer. Engaged users answer more than others,
+  so the answers lean their way.
 - Rough guide: a few hundred responses for an overall picture; enough in
   each group you want to compare that the comparison means something. Plan
   the cross-tabs before you send.
+- Where the team knows the make-up of the whole user base (from logs:
+  tenure, plan, usage, country), the answers can be weighted so each
+  group counts in proportion to its real size. This needs an analyst and
+  a larger sample; say in the readout whether it was done. Don't weight
+  an experiment where people were assigned at random; that already
+  handles it.
 - Say the response rate and who answered in the readout.
+
+## Question types
+
+- **Closed, one answer.** The workhorse. Keep lists short, four or five
+  options where you can; more only for factual items such as role or
+  country. Lists must cover every real answer and not overlap; add "other"
+  and "don't know" where they're honestly possible.
+- **Closed, pick all that apply.** People pick fewer than they would if
+  asked one by one. Where the list is short, ask each as its own yes/no
+  (forced choice); answers are more accurate, especially on sensitive
+  topics.
+- **Rating scale.** Five or seven points, words on every point or at least
+  both ends, as many positive as negative points, and the same scale
+  throughout. Keep the order of the scale fixed; its order carries
+  meaning. If you worry the first option draws answers, show half the
+  people the scale reversed.
+- **Agree/disagree.** Use sparingly. People lean toward agreeing, more so
+  with less schooling and with an interviewer present. Ask the thing
+  directly instead ("How often do you…", "How would you rate…"), or offer
+  a choice between two statements.
+- **Open-ended.** One or two, where a story helps, never required. An open
+  item early in a survey can find the answers a closed list should offer
+  later; run a small open pilot, then build the closed list from what
+  people said.
+- **Validated questionnaires.** For common things (perceived usability, task
+  ease), use a published scale as written (`methods/usability-testing.md`,
+  "Follow-up questions"). The wording has already been tested, and the
+  score can be compared with published figures.
+
+## Wording
+
+Small changes move answers a lot, so every item goes through
+`checks/survey-wording.md`. The rules that matter most:
+
+- One idea per item. No double-barreled questions.
+- Plain words for the audience. No jargon, internal names or double
+  negatives.
+- Behavior over a specific period: "In the last 30 days…" beats "usually".
+  The past, not the future: "Would you use…?" gets kind answers, not true
+  ones.
+- Watch loaded words. The same policy gets different support under two
+  names.
+- People under-report what looks bad and over-report what looks good.
+  Soften the frame ("Some people don't get round to X; in the last month,
+  did you…?") and make the less flattering answer easy to give.
+- Trend surveys keep wording, order and channel the same every wave.
+  Change any of them and the trend breaks.
+- Not sure between two wordings? Give each to half the sample at random.
+  If the answers differ, the wording did it.
+
+## Order
+
+Earlier questions change later answers.
+
+- General before specific. A specific question first ("How is the export
+  feature?") pulls the general one ("How is the product?") toward it.
+- Open-ended questions about problems or priorities go early, before
+  closed items plant ideas.
+- Start with easy, interesting items. Don't stack hard ones. Demographics
+  last, unless needed to route people.
+- Rotate the order of options in lists with no natural order (brands,
+  features). It doesn't remove the order effect; it spreads it evenly.
+  Don't rotate a scale.
 
 ## Survey shape (under ten minutes)
 
 1. Intro: what it's for, how long, what's done with answers.
-2. Screener: behaviour-based.
+2. Screener: behavior-based.
 3. Main sections, general to specific, one topic each.
 4. One or two optional open-ends where a story helps.
 5. Demographics last, each with "prefer not to say".
 6. Thanks, and what happens next.
 
-## What makes it good
+The survey is part of the product experience. People don't separate "the
+survey" from the company that sent it. Too long, too often, broken
+branching, an image that doesn't load, or a question that makes no sense
+all cost goodwill, and a mistake reaches thousands of people at once.
+Match length to what people are motivated to give, watch how often the
+same people are invited, and test the built survey, not only the
+question list.
 
-- Every item maps to a research question.
-- Run `checks/survey-wording.md` before sending.
-- Pilot with five people, watch them fill it in, and fix what confuses them.
-- Decide the analysis plan before the data arrives.
+## Test it before sending
+
+Every new survey gets a cognitive test: a few people answer it while
+thinking aloud, then say what each question meant to them, why they chose
+their answer, and where the words or the options were unclear. It
+catches four kinds of failure: the question isn't understood, the event
+can't be recalled, the answer is shaped by an earlier item or by what
+looks good, or the options don't fit.
+
+- **Fast way (one to two days).** Put the survey link in an unmoderated
+  testing tool with instructions to flag unclear words, missing options
+  and confusing questions. Four or five people from one group find most
+  of the problems; with several groups, two or three from each. Save the
+  test as a template and rerun it after changes.
+- **Moderated way.** Worth it for a complex survey, a tracking survey
+  (bad wording compounds every wave and can't be changed later without
+  breaking the trend), a survey in more than one language (test each
+  language, or at least have a native speaker who didn't translate it
+  read it), or a decision too big to get wrong.
+- **Skip or shorten it** only for items taken from a published, validated
+  questionnaire.
+
+Have colleagues click through the built survey too. Branching that leads
+nowhere and text that fails to fill in show up only in the real thing.
 
 ## Analysis
 
 Descriptives first: counts and percentages with the base shown. Cross-tabs
-only where groups are big enough. Open-ends coded like interview data. Say
-what the numbers can and can't support; don't claim significance without a
+only where groups are big enough. Open-ends coded like interview data
+(`methods/customer-feedback-coding.md` covers coding at volume). Say what
+the numbers can and can't support; don't claim significance without a
 test, and even with one explain it in plain words. Stage 7 covers this,
 including how to state a test result, a margin of error or a sample size.
+
+Report differences in their own units: "9 percentage points more
+completed", "17 seconds faster", "0.4 points higher on a 7-point scale",
+with the range the true difference probably sits in. A standardized
+effect size on its own ("d = 0.3") means nothing to the team. Whether a
+difference is big enough to act on is a separate question from whether it
+is real; agree the bar before the data arrives, not after.
+
+## Worked example
+
+> **Decision.** Whether Larder (meal planning) builds a shared household
+> plan, or keeps plans personal. Decision in eight weeks.
+>
+> **Research question.** How many Larder users plan meals with someone
+> else in their household, and does that differ by household size?
+>
+> **Viability.** Needed: 400 responses to see a 10-point difference
+> between one-adult and two-adult households. Past response rate to this
+> list: 2%. Invites needed: 20,000. Reachable, excluding anyone surveyed
+> in the last 90 days: 64,000. Viability 3.2. Go.
+>
+> **Items.** Behavior over a period ("In the last 30 days, how many times
+> did someone else in your household change your meal plan?"), one
+> rating with labels on every point, demographics last. Cognitive test
+> with five users in an unmoderated tool: "change your meal plan" read
+> three ways; reworded to "add, remove or swap a meal".
+>
+> **Result, as reported.** 441 responses (2.2% of 20,000 invited;
+> respondents skewed to weekly users). 38% of two-adult households
+> (112 of 295) said someone else changed the plan in the last 30 days,
+> against 9% of one-adult households (13 of 146); a difference of 29
+> points, likely between 21 and 37. Agreed bar before fielding: 15 points.
 
 ## Pitfalls
 
@@ -4707,6 +5961,10 @@ including how to state a test result, a margin of error or a sample size.
 - Agree/disagree batteries that people agree their way through.
 - A 25-item survey that gets ten honest answers and fifteen fast ones.
 - Reporting percentages from forty responses as if they were the market.
+- Sending without a cognitive test, then finding out from the open-ends
+  that a question was read three ways.
+- A viability sum done after the survey is written, when the team has
+  already promised the result.
 
 ## Template
 
@@ -4714,8 +5972,37 @@ including how to state a test result, a margin of error or a sample size.
 
 ## Basis
 
-Practitioner judgment, consistent with widely published survey design
-guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+Viability: S79 (invites needed = target responses ÷ response rate;
+viability = invites available ÷ invites needed; above 1 proceed, at 1 no
+invites left for other surveys, well below 1 not viable; ways to raise it;
+don't lower alpha or power; the worked example). Weighting: S83
+(respondents rarely mirror the user base; engaged users respond more;
+in-house teams can weight on log variables such as tenure and usage;
+don't weight a randomized experiment; weighting needs a larger sample and
+expert tools). Question types, wording and order: S88 (closed lists of
+four or five options; forced choice over select-all; agree/disagree
+invites acquiescence, stronger among less-educated respondents and with
+an interviewer; loaded words; social desirability and softening the
+frame; identical wording and mode for trends; split-sample wording tests;
+contrast and assimilation effects; open before closed on the same topic;
+engaging items first, demographics late; ordinal scales kept in order,
+sometimes reversed for half the sample; nominal lists rotated; open pilot
+to build closed lists; pretesting with cognitive interviews). Also S6
+(ask only what the research questions need; neutral wording); S8 (past
+behavior over future intentions); S40 (word-labelled scales; acquiescence
+and social desirability bias). The survey as part of the product
+experience: S82 (people don't separate a survey from the brand; length,
+frequency, broken branching and media; test the built instrument; a
+colleague click-through). Cognitive testing: S80 (the four stages
+comprehension, retrieval, judgment, response; when it's needed most:
+tracking surveys, high-stakes decisions, multiple languages; validated
+scales need less); S81 (the unmoderated fast way, one to two days; four
+or five from one group, two or three per segment; save as a template).
+Reporting differences: S84 (raw, unstandardized differences with
+intervals; standardized effects hide the unit and distort near a scale
+ceiling); S85 (set the "big enough" bar before collecting data; make
+effects concrete). Sample size rule of thumb ("a few hundred"), the
+ten-minute limit and the survey shape: practitioner judgment.
 
 <!-- core/methods/usability-testing.md -->
 
@@ -4787,6 +6074,35 @@ reaches people who can't travel. It takes more preparation.
   can do it.
 - At the start, ask permission to record and confirm the end time.
 
+## Testing with assistive technology
+
+Some sessions, in most studies, should be with people who use a screen
+reader, magnification, speech input, switch access or the keyboard
+alone. `lenses/accessibility.md` covers recruiting and running them; the
+points that change the test itself:
+
+- **Clear the obvious first.** Have someone who knows accessibility check
+  the design against a standard (WCAG) before the sessions, and fix what
+  that finds. Then the sessions find what only users can show.
+- **Match the participant to the audience.** An expert screen-reader user
+  suits a tool for specialists; a public service needs people who are
+  new to their assistive technology too. Recruit a range; one person's
+  experience doesn't stand for everyone with that disability.
+- **Their own setup.** Their device, their software, their settings.
+  Check in the tech check that the prototype works with it at all; if it
+  doesn't, that's a finding, not a session.
+- **Think-aloud, with more help from the moderator.** Ask what they hear
+  and what they're trying to do, and point tasks at the parts of the
+  design the team is unsure about.
+- **Analyze the cause, not only the failure.** An error can come from the
+  content, the browser, the assistive technology, the person's
+  familiarity with it, or plain bad design. Record which, with the
+  technology and settings next to each issue, and report what blocked
+  people ahead of time on task.
+- **Don't generalize from a few.** Say in the report who took part, with
+  what technology, and that the sessions were not a conformance check.
+  The team needs both.
+
 ## What makes it good
 
 - Tasks have a written success criterion before the session.
@@ -4841,6 +6157,28 @@ average five ratings or report them as a percentage; the reasons are the
 finding. With more than thirty unmoderated participants, ratings can be
 summarized, following stage 7's survey data rules.
 
+## Worked example
+
+> **Decision.** Whether Tally (expense tracking) ships the redesigned
+> receipt capture flow next month or holds it for another round.
+>
+> **Research question.** Can people photograph a receipt and file it to
+> the right expense claim without help, and where do they get stuck?
+>
+> **Sample.** Five people who filed an expense claim in the last month,
+> moderated, remote, 45 minutes.
+>
+> **Tasks.** "You've just paid for a client lunch and have the receipt.
+> Add it to this month's claim." Success: receipt attached to the March
+> claim with the amount matching. Then the ease rating and "why that
+> number?"
+>
+> **Issue, as reported.** 4 of 5 attached the receipt to a new claim
+> instead of the existing one (P1, P2, P4, P5), because the "Add to
+> claim" sheet opens on "New claim". Severity: high (frequent, blocked
+> the task, would happen every time). Ease ratings 3, 4, 6, 2, 5 of 7,
+> each next to its reason; no average reported.
+
 ## Pitfalls
 
 - Leading tasks that name the feature or the button.
@@ -4873,8 +6211,16 @@ extra preparation; choosing a call tool; how tasks reach the participant,
 with the moderator reading them as the weakest choice; a tech check the
 day before on something else; reminders; observers; recruiting extra and
 spare time; a pilot that tests the test; recording consent at the start).
-Background: S7. Session timings, probing after rather than during the
-task, the debrief, and the pitfalls: practitioner judgment.
+Background: S7. Testing with assistive technology: S98 (an expert
+review for obvious barriers first; match assistive technology experience
+to the audience; a range of participants, since one person doesn't stand
+for all; think-aloud with high facilitator interaction and tasks aimed at
+areas of concern; errors can come from content, browser, assistive
+technology, unfamiliarity or poor design; focus on barriers over time on
+task; combine with a conformance evaluation; don't generalize from a few;
+report scope, methods and participants). Session timings, probing after
+rather than during the task, the debrief, and the pitfalls: practitioner
+judgment.
 
 <!-- core/challenges/challenge-bank.md -->
 
@@ -5931,6 +7277,148 @@ The sheet is a working copy for review. The study record holds the
 findings; if the researcher changes a cell, Magpie updates the record to
 match and says what changed.
 
+<!-- core/templates/card-sort-and-tree-test.md -->
+
+# Card sort, tree test or first-click test: [study name]
+
+| Document details | |
+| --- | --- |
+| Team | [team running the study] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
+
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## About this study
+
+| | |
+| --- | --- |
+| Method | [open card sort / closed card sort / tree test / first-click test] |
+| Tool | [name, and whether moderated sessions are added] |
+| Who takes part | [participants, in a line; N per structure or design] |
+| What's being tested | [the item set / the structure(s) / the page or design] |
+
+### Research questions
+
+1. [RQ1, in plain words]
+2. [RQ2]
+
+### How to use it
+
+Fill in the section for the method chosen and delete the others. Cards,
+tasks and labels are in participants' words, never internal names. Run
+the question review (`review/question-review.md`) on the tasks before
+fielding: a task that contains the label it tests gives away the answer.
+Pilot with two people.
+
+## Participant instructions
+
+> [Card sort] Group these cards in whatever way makes sense to you. There
+> are no right answers. When you're done, give each group a name you'd
+> use.
+>
+> [Tree test] For each question, click through the menu to where you'd
+> expect to find it. You can go back. Pick the place you'd try first.
+>
+> [First-click test] For each question, click once on the screen where
+> you'd go first. Then tell us how sure you are.
+
+## Card sort
+
+### Cards ([30 to 50])
+
+| # | Card (participants' words) | What it is (team only) |
+| --- | --- | --- |
+| 1 | [card] | [the thing it stands for] |
+| 2 | [card] | |
+
+*Team only: no two cards share a distinctive word; people group on the
+word. Open sort: no group names given. Closed sort: list the group names
+below, and consider a tree test instead.*
+
+### Group names (closed sort only)
+
+- [group]
+- [group]
+
+### Analysis sheet
+
+| Card | Most common group | Grouped with (top 3 cards) | Went everywhere? |
+| --- | --- | --- | --- |
+| [card] | [name, N of M] | [cards] | [yes/no] |
+
+Plus the names people gave the groups, counted, and the similarity matrix
+from the tool.
+
+## Tree test
+
+### Structure(s)
+
+Plain text, no design. One tree per participant when comparing.
+
+```
+Home
+  [Section]
+    [Subsection]
+    [Subsection]
+  [Section]
+```
+
+### Tasks ([8 to 12])
+
+| # | Task (as shown) | Correct location(s) | Serves |
+| --- | --- | --- | --- |
+| T1 | "Where would you go to [goal, without the label]?" | [path] | RQ1 |
+
+### Analysis sheet
+
+| Task | Success | Direct success | Time (median) | First click went to | Note |
+| --- | --- | --- | --- | --- | --- |
+| T1 | [N of M] | [N of M] | | [top wrong paths] | |
+
+## First-click test
+
+### Screens and tasks
+
+| # | Screen shown | Task (as shown) | Correct first click(s) | Serves |
+| --- | --- | --- | --- | --- |
+| T1 | [home / base screen] | "Where would you click to [goal]?" | [element] | RQ1 |
+
+*Team only: every task starts from the base screen. Don't tell people it's
+a first-click test.*
+
+### After each task
+
+1. How sure are you that you went the right way? ○ Not at all ○ A
+   little ○ Fairly ○ Very
+2. How easy or difficult was that? [1 very difficult to 7 very easy]
+
+### Analysis sheet
+
+| Task | Right first click | Time to first click (median) | Wrong clicks went to | Sure and wrong |
+| --- | --- | --- | --- | --- |
+| T1 | [N of M] | | [element, N] | [N] |
+
+## Notes for the team
+
+Not shown to participants.
+
+### Assumptions in this draft
+
+- [assumption] [Each guess, and where it shows up.]
+
+### Fix before fielding
+
+- [Anything that has to change before it goes live.]
+
+### Waiting on
+
+- [Pilot with two people; tool checked with a screen reader and the
+  keyboard alone.]
+
 <!-- core/templates/competitive-analysis.md -->
 
 # Competitive analysis: [job or problem]
@@ -6001,6 +7489,266 @@ errors, dead ends and slow steps are mostly invisible here.
 ## Next step
 
 [Concept test / usability test of a pattern / nothing, with the reason.]
+
+<!-- core/templates/concept-test.md -->
+
+# Concept test guide: [study name]
+
+| Document details | |
+| --- | --- |
+| Team | [team running the study] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
+
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## About this guide
+
+| | |
+| --- | --- |
+| Length | [30–45] minutes |
+| Format | [remote or in person; who moderates] |
+| Who we're talking to | [participants, in a line] |
+| What they'll see | [the concepts, their form, and their level of polish] |
+| Order | [concepts rotated between participants: A-B-C, B-C-A, C-A-B] |
+
+### Research questions
+
+1. [RQ1, in plain words]
+2. [RQ2]
+
+### How to use it
+
+Read the quoted lines aloud as written. The baseline comes before anyone
+sees a concept, and the same questions are asked for each concept. Letters
+under a question are follow-ups: use one at a time, only when needed.
+Shaded notes in italics are for the moderator and are never read aloud.
+Run `checks/guide-wording.md` and the question review
+(`review/question-review.md`) before using.
+
+## Opening (2 min)
+
+> Thanks for making time. We're exploring some early ideas and want your
+> honest reaction, including the critical parts; that's the most useful
+> thing you can give us. Nothing's built yet, and nothing you say will be
+> shared with your name on it. I'd like to record this; only [who] will
+> see it. You can stop at any time. OK to start?
+
+## Baseline, before anything is shown (8 min)
+
+> First I'd like to hear how this goes for you today.
+
+1. Tell me about the last time you [did the thing]. → RQ1
+   a. What did you do first?
+   b. What took the longest?
+   c. What did it cost you: time, money, something else?
+2. What have you tried to make that easier?
+   a. What happened to it?
+3. If nothing changed, what would you keep doing?
+
+*Moderator: this is the data the reactions get compared with. Don't skip
+it to save time.*
+
+## Concept [A] (8 min each)
+
+> I'm going to show you an idea. Take your time with it, and tell me what
+> you think it is before I explain anything.
+
+*Show concept [A] at the agreed polish. Say nothing for a minute.*
+
+4. What do you think this is? Who is it for?
+5. Where in your [week / day / job] would it fit, if anywhere? → RQ2
+   a. What would you stop doing, or do instead?
+6. What would make you not bother with it?
+7. What questions do you have about it?
+
+*Moderator: write down the questions they ask; they show the gaps. Don't
+answer "would you use it?" if they ask whether they should say yes; ask
+what they'd give up for it instead.*
+
+## Concept [B], Concept [C]
+
+*The same questions 4 to 7, in the rotated order.*
+
+## Comparing (5 min)
+
+8. If you could only have one of these, which, and why?
+9. What's missing from all of them?
+
+## Close (3 min)
+
+10. What would you want to know before using something like this?
+11. Can I show you the next version when there is one? *[A yes here is
+    a small commitment; note it.]*
+
+> Thank you. [What happens next.]
+
+## Moderator notes
+
+Not read aloud.
+
+### What each question serves
+
+| Question | Serves | Why it sits here |
+| --- | --- | --- |
+| 1–3 | RQ1 | Baseline before exposure |
+| 5 | RQ2 | Value in their terms, not "do you like it" |
+
+### Concepts
+
+| Concept | Form | Polish | What it's testing |
+| --- | --- | --- | --- |
+| A | [storyboard / description / mock] | [sketch-level] | [the idea in a line] |
+
+### Assumptions in this draft
+
+- [assumption] [Each guess, and where it shows up.]
+
+### Fix before sessions
+
+- [Anything that has to change before the first session.]
+
+### Waiting on
+
+- [Concepts at the same polish; pilot with a colleague.]
+
+<!-- core/templates/diary-study.md -->
+
+# Diary study: [study name]
+
+| Document details | |
+| --- | --- |
+| Team | [team running the study] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
+
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## About this study
+
+| | |
+| --- | --- |
+| Length | [N] days or weeks, from [date] to [date] |
+| Who takes part | [participants, in a line; N people, plus [N] extra for dropout] |
+| What triggers an entry | [each time they X / each evening / when we prompt] |
+| How entries are made | [the tool; the formats offered: text, rating, photo, voice, video] |
+| Where entries go | [storage, who sees them, deletion date] |
+
+### Research questions
+
+1. [RQ1, in plain words]
+2. [RQ2]
+
+### How to use it
+
+Everything from the welcome to the thank-you is what participants see,
+written as if to one person. The entry prompt is kept short enough to
+answer in about two minutes. Notes for the team are at the end. Run
+`checks/guide-wording.md` on the prompts and the question review
+(`review/question-review.md`) before the kick-off. Pilot the whole thing
+with one person for two days first.
+
+## Welcome (sent before the kick-off call)
+
+Thanks for joining. For the next [N weeks] we'd like you to tell us about
+[the thing], as it happens, in your own words. It takes about two minutes
+each time. There are no right answers, and nothing you tell us will be
+shared with your name on it. [Who] will see your entries, and we'll delete
+them by [date]. You can stop at any time.
+
+## Kick-off call (20 min)
+
+1. What the study is for, in a sentence.
+2. What counts as an entry: [the trigger, with two examples of moments
+   that count and one that doesn't].
+3. The tool: install it together, make a practice entry, check the
+   formats work on their device.
+4. Consent, including for photos, screenshots, voice or video, and for
+   anyone else who might appear in them.
+5. When they'll hear from us, and the incentive: [amount] for at least
+   [N] entries, [amount] more for [N] or more.
+
+## Entry prompt
+
+Sent or shown [when]. The same every time.
+
+1. What were you trying to do?
+2. What happened? [A few words, a photo, or a voice note, whichever is
+   easiest right now.]
+3. How did it go? ○ Much worse than usual ○ Worse ○ About usual ○ Better
+   ○ Much better than usual
+4. Anything else? (optional)
+
+*Team only: never show a sample entry; people copy it. If a format is
+required, keep it to the lightest one, and let the others be optional.*
+
+## Check-in messages
+
+- Day [2]: "Thanks for your first entries. A reminder that an entry can
+  be as short as a sentence. Anything unclear about what to log?"
+- Day [N]: "Halfway. You've logged [N] so far. [Specific thanks.]"
+- No entries for [3] days: "Just checking in. If nothing has happened,
+  that's useful to know too; reply 'nothing yet' and we'll count it."
+
+*Team only: reminders change behavior. Keep them neutral and don't tie
+them to a time of day you want to study.*
+
+## Exit interview (30 to 45 min)
+
+> Thanks for keeping this up. I'd like to go through your entries with
+> you and ask about a few of them.
+
+1. [Walk through the entries in order.] Tell me about this one. What
+   happened just before? What did you do next?
+2. [For the gaps.] There's nothing between [date] and [date]. What was
+   going on then?
+3. [For the surprises.] You rated this one "much worse". What made it
+   that bad?
+4. Looking back over the [N weeks], what would you say changed, if
+   anything?
+5. Anything that happened that you didn't log, and why not?
+6. Anything we should have asked?
+
+## Thank-you
+
+Thank you for [N weeks] of entries. [What happens next; the incentive and
+when it arrives.]
+
+## Notes for the team
+
+Not shown to participants.
+
+### What each part serves
+
+| Part | Serves | Why it sits here |
+| --- | --- | --- |
+| Entry prompt Q1 | RQ1 | [reason] |
+| Exit interview Q2 | RQ2 | [the gaps are where the behavior isn't happening] |
+
+### Formats and why
+
+[Which formats are offered, which are required, and what in the setup or
+the participants made that the right choice. See
+`methods/diary-studies.md`, "Ways to capture entries".]
+
+### Assumptions in this draft
+
+- [assumption] [Each guess, and where it shows up.]
+
+### Fix before launch
+
+- [Anything that has to change before the kick-off.]
+
+### Waiting on
+
+- [Pilot with one person for two days; tool checked with a screen
+  reader; consent form sent.]
 
 <!-- core/templates/house-style.md -->
 
@@ -6266,6 +8014,69 @@ Never said to participants.
 Take notes in the note-taking sheet (`templates/notes-sheet.md`): one row
 per participant, one column per research question.
 
+<!-- core/templates/journey-map.md -->
+
+# Journey map: [actor] [doing the goal]
+
+| Document details | |
+| --- | --- |
+| Team | [team that owns the journey] |
+| Date | [date of this version] |
+| Built from | [study name(s), N sessions, method, dates] |
+| Author(s) | [names] |
+| Reviewers | [names; participants who checked it] |
+| Status | Draft |
+
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## Who and what
+
+| | |
+| --- | --- |
+| Actor | [one persona or user group; link to the persona] |
+| Scenario | [what they're trying to do, in their words] |
+| What they expect | [from the baseline questions] |
+| Covered by the research | [which phases the sessions actually showed] |
+| Not covered | [phases filled from other sources or left blank] |
+
+## The journey
+
+One column per phase. Every cell carries the participants behind it.
+
+| | Phase 1: [name] | Phase 2: [name] | Phase 3: [name] | Phase 4: [name] |
+| --- | --- | --- | --- | --- |
+| **What they do** | [action] (P1, P3, P5) | | | |
+| **What they think** | "[quote]" (P3 14) | | | |
+| **How it feels** | [from what they said and did] (P1, P5) | | | |
+| **Tools and people** | [what they use, who they ask] | | | |
+| **Where it breaks** | [breakdown] (N of M) | | | |
+| **Finding** | [F2] | | | |
+
+*Team only: a cell with one participant behind it says so. A phase the
+research didn't cover is marked [not covered] or [assumption], not filled
+in.*
+
+## Opportunities
+
+| Where | What goes wrong | How many | Finding | What it points to |
+| --- | --- | --- | --- | --- |
+| Phase 2 | [breakdown] | [N of M] | [F2] | [recommendation or question] |
+
+## How it was built
+
+- Sessions laid side by side: [method, N sessions, dates].
+- Phases named from the steps most participants had; steps only some had:
+  [listed as branches or notes].
+- Checked with [N participants / against N held-back sessions] on [date].
+- Differs from the team's existing journey in: [what changed, and the
+  library entry that records it].
+
+## Limits
+
+- [Who wasn't in the sample; which phases rest on one or two people;
+  what's inferred.]
+
 <!-- core/templates/notes-sheet.md -->
 
 # Note-taking sheet: [study name]
@@ -6370,6 +8181,71 @@ how we'd know it made a difference. The team agrees the wording.]
 ## What happens if we don't
 
 [One or two lines.]
+
+<!-- core/templates/persona.md -->
+
+# Persona: [name], [one-line description]
+
+| Document details | |
+| --- | --- |
+| Team | [team that uses it] |
+| Date | [date of this version] |
+| Kind | [qualitative, from research / statistical, from a survey / proto persona, from assumptions] |
+| Built from | [study name(s), method, dates; participant codes P1, P4, P6, P8] |
+| Author(s) | [names] |
+| Status | Draft |
+
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team"). A proto persona is labelled [assumption] throughout.
+
+## In a sentence
+
+[Who they are by what they're trying to do, not by job title or
+demographics.]
+
+> "[A real quote from a participant in this group]" (P4 22)
+
+## What they're trying to do
+
+- [Goal, in their words] (P1, P4, P8)
+- [What they're measured on, or what success looks like to them]
+
+## How they do it now
+
+- [Steps, tools, the workarounds] (P4, P6)
+- [How often, in what setting]
+
+## What gets in the way
+
+- [Pain point, with the breakdown it causes] (3 of 4: P1, P4, P6)
+- [Pain point]
+
+## What they'd never do
+
+- [The thing the team assumed they'd do and they don't] (P1, P8)
+
+## How they differ from [other persona]
+
+[The dividing line: the goal, frequency, setting or constraint that made
+the findings different. If the two would make the same decision in every
+scenario the team cares about, merge them.]
+
+## Where they appear in the journey
+
+[Link to the journey map; the phases where this persona's breakdowns
+cluster.]
+
+## What this persona can't say
+
+- How many users are like this. [The study was N people; sizing needs a
+  survey.]
+- [Whether the group holds outside the sample: who wasn't included.]
+
+## Keep it current
+
+| Study | Date | What changed |
+| --- | --- | --- |
+| [study] | [date] | [built / confirmed / changed: what] |
 
 <!-- core/templates/readout.md -->
 

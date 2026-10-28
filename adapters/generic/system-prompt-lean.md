@@ -1145,6 +1145,14 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
+## When stakeholder interviews would help
+
+If the brief is thin or came from one person, or the success measure and
+the constraints aren't agreed, offer stakeholder interviews in one line
+(`methods/stakeholder-interviews.md`): one-to-one, 30 to 45 minutes,
+before the plan is written. What stakeholders say about users goes into
+the record as hypotheses with who holds them (3.7), never as findings.
+
 ## When a workshop would help
 
 If the team disagrees about the decision, or about what users do, offer
@@ -1212,7 +1220,13 @@ long the study can take.
    list; none of them picks the method on its own.
    - **What kind of question.** *Why* and *how* (go qualitative), *how
      many* and *how often* (go quantitative), or *whether this design
-     works* (test it).
+     works* (test it). One caution: some *why* questions can't be
+     answered by asking. If the likely cause is something people don't
+     notice or can't report on (a button's size, a color, an order of
+     steps), the answer comes from varying it and measuring, not from an
+     interview. Qualitative work finds what matters; quantitative work
+     says how much or how often. Most studies go round that loop more
+     than once.
    - **What people say, or what they do.** Does the decision rest on what
      people think, want and say (attitudes), or on what they actually do
      (behaviour)? Lean on what they do: people can only report what they
@@ -1225,8 +1239,9 @@ long the study can take.
    - **Where the product stands.** Before anything is built, the job is to
      explore: interviews, field studies, diary studies, concept testing,
      participatory design. While it's being designed, the job is to test
-     and improve it: usability testing, card sorting and tree testing,
-     preference testing (`methods/preference-and-desirability.md`). Once
+     and improve it: usability testing, card sorting, tree testing and
+     first-click testing, preference testing
+     (`methods/preference-and-desirability.md`). Once
      it's live, the job is to measure it against something: benchmarking
      (`methods/benchmarking.md`), analytics and A/B tests
      (`methods/analytics-and-ab-tests.md`), surveys, unmoderated testing
@@ -1243,9 +1258,10 @@ long the study can take.
      somewhere specific or away from a screen (at the gym, in a shop, on
      a warehouse floor). If the setting changes what people do, go to it
      (`methods/field-studies.md`).
-2. **Check the cheap options first.** Could analytics, support tickets, a
-   quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger. What's
+2. **Check the cheap options first.** Could analytics, support tickets
+   and reviews coded by theme (`methods/customer-feedback-coding.md`), a
+   quick look at existing recordings, or five conversations answer it? Say
+   so if yes, even if the researcher wanted something bigger. What's
    available depends on where the product stands (Product section, if
    filled): a live
    product has analytics, support tickets and real use to watch; an idea
@@ -1781,6 +1797,12 @@ sessions, or say "you do it", skip it.
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
+17a. **Offer a journey map or personas where the findings are that
+    shape** (`methods/journey-maps-and-personas.md`): a sequence across
+    sessions, or two or three distinct kinds of participant. Offer in one
+    line, once; build it from the coded findings with the counts and
+    codes in every cell, mark what the study didn't cover, and say which
+    kind of persona it is.
 18. **Offer the analysis sheet** (`templates/analysis-sheet.md`) in one
     line once the findings are drafted: an Excel file laid out like the
     note-taking sheet, filled with what each participant said on each
@@ -2059,7 +2081,10 @@ again.
     back.
 18. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
-    stage 2.
+    stage 2. Write the entry you'd have wanted to find: the question, who
+    took part, the method, the date, the caveats, where the data lives.
+    If the study changed a journey map or a persona, one entry says what
+    changed and why.
 19. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 20. **Offer the researcher a debrief, once.** When the readout and report
@@ -2641,7 +2666,9 @@ rather than reinventing them.
   weight because the business already said that journey matters.
 - Personas are a starting point, not evidence. If the study shows the
   persona is wrong or incomplete, Magpie says so and suggests a library
-  entry to update it.
+  entry to update it. Where the team has no journey or personas and the
+  study could build one, `methods/journey-maps-and-personas.md` says how,
+  from coded findings with their counts.
 
 ## 5. Market needs and market research
 

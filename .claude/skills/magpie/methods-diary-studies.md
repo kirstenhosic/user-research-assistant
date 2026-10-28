@@ -173,6 +173,30 @@ entry and timestamp for each quote. Describe what a photo or screenshot
 shows in words, next to the participant's own caption, so it can be
 coded with the rest.
 
+## Worked example
+
+> **Decision.** Whether Larder (meal planning) adds a "what's in the
+> fridge" prompt, or improves the weekly plan. Product decides in six
+> weeks.
+>
+> **Research question.** When and why do people change the plan during
+> the week, and what do they do instead?
+>
+> **Sample.** Nine people who planned meals in the app in the last two
+> weeks (six finished), two weeks, entries triggered by the event: "each
+> time you cook something other than the plan, or skip a planned meal".
+>
+> **Capture.** Text or voice note as the core; optional photo of what
+> was cooked. Check-ins on day 2, day 7 and after three silent days.
+>
+> **Finding, as reported.** 5 of 6 completers changed the plan at least
+> three times in two weeks (P1, P2, P3, P4, P6; 31 entries); the most
+> common reason, in 14 of 31 entries, was an ingredient missing or gone
+> off. P5 left after day 4; their four entries are reported as four
+> entries, not as "P5 never changed the plan". Entries clustered around
+> 6pm because the reminder went out at 6pm; the study design shaped the
+> timing, and the readout says so.
+
 ## Pitfalls
 
 - Too many prompts, or prompts that change the behaviour being studied.
@@ -191,7 +215,9 @@ coded with the rest.
 
 ## Template
 
-Entry prompt, the core for every entry, typed or spoken: *When did this
+`templates-diary-study.md`: welcome, kick-off call, entry prompt,
+check-ins, exit interview and team notes. The entry prompt there is the
+core for every entry, typed or spoken: *When did this
 happen? What were you trying to do? What did you do? How did it go (very
 badly, badly, okay, well, very well)? What made you pick that? Anything
 else?* Optional, when it helps the research question: *Add a photo,

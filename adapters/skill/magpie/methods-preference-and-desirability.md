@@ -63,6 +63,24 @@ many more, and stage 7's survey data rules apply.
 - **Preference:** the reasons matter more than the tally. Group the
   reasons and say which parts of the design they point to.
 
+## Worked example
+
+> **Decision.** Which of two visual directions Larder (meal planning)
+> takes for its recipe pages; the brand goal is "calm, not a food blog".
+>
+> **Setup.** Inside a usability test of the recipe page (eight people,
+> moderated), both directions shown after the tasks, order switched
+> between people. Then a 24-word list, half negative, shuffled: pick
+> five that describe the page.
+>
+> **Result, as reported.** 6 of 8 preferred direction B (P1, P2, P4,
+> P5, P6, P8), with the reasons grouped: "less to read" (4), "the photo
+> is smaller" (3). Words picked for B: "calm" 5 of 8, "plain" 4 of 8,
+> "cluttered" 0; for A: "busy" 5 of 8, "appetizing" 4 of 8. Counts, not
+> percentages. Reported next to the task results: two of the six who
+> preferred B had failed the "add to plan" task on B, so preference is
+> reported as preference, not as "B works better".
+
 ## Pitfalls
 
 - Reporting preference as which version works better.

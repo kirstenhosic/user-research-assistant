@@ -173,7 +173,10 @@ again.
     back.
 18. **Write the library entries.** One per finding worth keeping
     (`team-research-library-entry.md`), so the next study finds them at
-    stage 2.
+    stage 2. Write the entry you'd have wanted to find: the question, who
+    took part, the method, the date, the caveats, where the data lives.
+    If the study changed a journey map or a persona, one entry says what
+    changed and why.
 19. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 20. **Offer the researcher a debrief, once.** When the readout and report

@@ -40,19 +40,22 @@ team"). Run them with Python when you can and say so when you can't.
 - `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers.
 - `methods-analytics-and-ab-tests.md`: Learn from records of what people do in a live product.
 - `methods-benchmarking.md`: Measure how well a product works with a few set numbers, then compare them with something: an earlier version, a competitor, a published figure or a goal the team set.
-- `methods-card-sorting-and-tree-testing.md`: Two methods for information architecture.
+- `methods-card-sorting-and-tree-testing.md`: Three methods for information architecture.
 - `methods-competitive-analysis.md`: Look at how other tools solve the same problem your users have, and work out what would fit your users and what wouldn't.
 - `methods-concept-testing.md`: Show people an idea before it's built and learn whether it solves a problem they have, how they'd fit it into their work, and what would stop them.
 - `methods-contextual-inquiry.md`: Watch people do their real work in their real setting, and ask about it as it happens.
+- `methods-customer-feedback-coding.md`: Turn the feedback the organization already collects (support tickets, app store reviews, survey open-ends, chat logs, sales and success notes, community posts) into counted themes the team can act on.
 - `methods-diary-studies.md`: Ask people to record what they do, when, and how it felt, over days or weeks, as it happens rather than from memory.
 - `methods-evidence-review.md`: Answer a question from research and data the organization already has, instead of running a new study.
 - `methods-expert-review.md`: Reviewers, not users, inspect a design for likely problems.
 - `methods-field-studies.md`: Go where people actually do the thing, at work, at home or out in the world, and see it happen.
 - `methods-focus-groups.md`: A moderated discussion with a small group of people about a set of topics, to hear what they want, how they talk about it, and where they agree and disagree.
 - `methods-interviews.md`: One-to-one conversations to understand how people do something, why, and what gets in the way.
+- `methods-journey-maps-and-personas.md`: Two ways to turn findings into something the team keeps using after the readout.
 - `methods-participatory-design.md`: Give participants materials and let them make their ideal version of an experience, then ask them to explain what they made.
 - `methods-preference-and-desirability.md`: Learn how people react to how a design looks and feels.
-- `methods-surveys.md`: Ask many people the same questions to measure how common an attitude, behaviour or need is.
+- `methods-stakeholder-interviews.md`: One-to-one conversations with the people who have a stake in the work or whose cooperation it needs: product, engineering, design, support, sales, leadership, a partner team.
+- `methods-surveys.md`: Ask many people the same questions to measure how common an attitude, behavior or need is.
 - `methods-usability-testing.md`: Watch people try to do real tasks with a design, and learn where and why they struggle.
 - `challenges-challenge-bank.md`: The questions Magpie puts to a draft.
 - `checks-ai-assisted-research.md`: What to do when an AI tool moderates sessions, summarizes transcripts, recruits participants, or is Magpie itself drafting findings.
@@ -67,11 +70,16 @@ team"). Run them with Python when you can and say so when you can't.
 - `review-question-review.md`: A fresh pass over the questions Magpie wrote for participants, by a reviewer that sees only the research questions and the draft, not the conversation that produced them.
 - `partners-request-templates.md`: Short messages the researcher can send to another team to ask for data or context.
 - `templates-analysis-sheet.md`: An Excel workbook Magpie offers at stage 7, laid out like the note-taking sheet so the researcher can put the two side by side.
+- `templates-card-sort-and-tree-test.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
 - `templates-competitive-analysis.md`: **Date:** [date] (competitors change; this has a shelf life) · **Study record:** [link] · **Researcher:** [name]
+- `templates-concept-test.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-diary-study.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
 - `templates-house-style.md`: How Magpie formats anything written for the people who act on research: the readout, the report, opportunity briefs and notes to partners.
 - `templates-interview-guide.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-journey-map.md`: | Document details | | | --- | --- | | Team | [team that owns the journey] | | Date | [date of this version] | | Built from | [study name(s), N sessions, method, dates] | | Author(s) | [names] | | Reviewers | [names; participants who checked it] | | Status | Draft |
 - `templates-notes-sheet.md`: An Excel workbook that goes out with every interview guide, usability test script and diary study, so note-takers write down what they hear under the research question it answers.
 - `templates-opportunity-brief.md`: One page the researcher takes to a PM or a leadership team to propose a study.
+- `templates-persona.md`: | Document details | | | --- | --- | | Team | [team that uses it] | | Date | [date of this version] | | Kind | [qualitative, from research / statistical, from a survey / proto persona, from assumptions] | | Built from | [study name(s), method, dates; participant codes P1, P4, P6, P8] | | Author(s) | [names] | | Status | Draft |
 - `templates-readout.md`: Slide-by-slide outline.
 - `templates-report.md`: **Author:** [researcher] · **Date:** [date] · **For:** [the team or group] · **Study record:** [link]
 - `templates-research-plan.md`: Two minutes to read.

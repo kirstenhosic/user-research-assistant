@@ -41,7 +41,13 @@ long the study can take.
    list; none of them picks the method on its own.
    - **What kind of question.** *Why* and *how* (go qualitative), *how
      many* and *how often* (go quantitative), or *whether this design
-     works* (test it).
+     works* (test it). One caution: some *why* questions can't be
+     answered by asking. If the likely cause is something people don't
+     notice or can't report on (a button's size, a color, an order of
+     steps), the answer comes from varying it and measuring, not from an
+     interview. Qualitative work finds what matters; quantitative work
+     says how much or how often. Most studies go round that loop more
+     than once.
    - **What people say, or what they do.** Does the decision rest on what
      people think, want and say (attitudes), or on what they actually do
      (behaviour)? Lean on what they do: people can only report what they
@@ -54,8 +60,9 @@ long the study can take.
    - **Where the product stands.** Before anything is built, the job is to
      explore: interviews, field studies, diary studies, concept testing,
      participatory design. While it's being designed, the job is to test
-     and improve it: usability testing, card sorting and tree testing,
-     preference testing (`methods-preference-and-desirability.md`). Once
+     and improve it: usability testing, card sorting, tree testing and
+     first-click testing, preference testing
+     (`methods-preference-and-desirability.md`). Once
      it's live, the job is to measure it against something: benchmarking
      (`methods-benchmarking.md`), analytics and A/B tests
      (`methods-analytics-and-ab-tests.md`), surveys, unmoderated testing
@@ -72,9 +79,10 @@ long the study can take.
      somewhere specific or away from a screen (at the gym, in a shop, on
      a warehouse floor). If the setting changes what people do, go to it
      (`methods-field-studies.md`).
-2. **Check the cheap options first.** Could analytics, support tickets, a
-   quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger. What's
+2. **Check the cheap options first.** Could analytics, support tickets
+   and reviews coded by theme (`methods-customer-feedback-coding.md`), a
+   quick look at existing recordings, or five conversations answer it? Say
+   so if yes, even if the researcher wanted something bigger. What's
    available depends on where the product stands (Product section, if
    filled): a live
    product has analytics, support tickets and real use to watch; an idea

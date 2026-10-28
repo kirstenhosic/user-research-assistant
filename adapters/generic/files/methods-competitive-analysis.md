@@ -144,6 +144,29 @@ has the shape.
   fit us", as context for a recommendation, never as the recommendation's
   evidence on its own.
 
+## Worked example
+
+> **Decision.** Whether Tally (expense tracking) builds mileage claims,
+> which two competitors offer. Product decides next quarter.
+>
+> **Set.** Two direct competitors, plus the spreadsheet template the
+> finance team already emails people. Public sources only: nobody on
+> the team can get into the competitors' tools.
+>
+> **Job.** "Claim the miles from a client visit." Five steps, from the
+> study record.
+>
+> **Matrix, as recorded.** Competitor A: steps 1 to 4 **shown** (help
+> docs with screenshots, dated 2026-09), step 5 (approval) "not shown
+> publicly". Competitor B: steps 1 to 3 **described** (marketing page),
+> rest blank. The spreadsheet: all five **walked** by the researcher.
+>
+> **Fit assessment.** A's "start and end postcode" pattern would suit
+> Tally's field-sales persona (it removes typing); what it assumes (a
+> UK address format) doesn't hold for the US half of users. Labelled
+> [assumption] until checked in sessions. "Both competitors do it" is
+> recorded as a reason to test, not to build.
+
 ## Pitfalls
 
 - A feature checklist with ticks. It tells you what exists, not what fits.

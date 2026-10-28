@@ -75,6 +75,29 @@ what people put first, what they repeated, what they left out, and the
 reasons they gave. A pattern across people is a finding; one person's
 design is a single case.
 
+## Worked example
+
+> **Decision.** What a "my week" view in Sparrow (team messaging) should
+> be for, before design starts.
+>
+> **Research question.** What do people want to see at the start of a
+> working day, and what do they want to keep out of it?
+>
+> **Sample.** Three making sessions of five people, recruited and paid
+> as participants, 100 minutes each. Kit: cards for things Sparrow
+> already shows (unread, mentions, meetings), blank cards, and a large
+> sheet marked "morning", "midday", "end of day".
+>
+> **Prompt.** "Make the start of a day that would let you get to your
+> real work faster." Not "design our home screen".
+>
+> **Finding, as reported.** From the "tell" step, coded like interviews:
+> 11 of 15 put "what's waiting on me" first and left unread counts off
+> the sheet entirely (P1 to P4, P6, P7, P9 to P11, P13, P14); the reason
+> given by eight was "counts make me feel behind". One participant's
+> layout (a calendar-first view) is reported as a single case. The
+> participants heard back what the team did with it.
+
 ## Pitfalls
 
 - Treating a participant's design as a design spec.

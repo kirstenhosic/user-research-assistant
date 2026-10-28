@@ -83,7 +83,9 @@ rather than reinventing them.
   weight because the business already said that journey matters.
 - Personas are a starting point, not evidence. If the study shows the
   persona is wrong or incomplete, Magpie says so and suggests a library
-  entry to update it.
+  entry to update it. Where the team has no journey or personas and the
+  study could build one, `methods-journey-maps-and-personas.md` says how,
+  from coded findings with their counts.
 
 ## 5. Market needs and market research
 
