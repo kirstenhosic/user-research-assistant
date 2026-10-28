@@ -3475,7 +3475,24 @@ noise; give the interval. SUS also tracks the likelihood-to-recommend
 question: a rough rule is recommend score ≈ SUS ÷ 10, and in one large
 set people who would recommend averaged a SUS of about 81 against
 about 52 for those who wouldn't, so a SUS above 80 is a fair "people
-would recommend it" bar.
+would recommend it" bar. If the team wants a letter, use the curved
+grading scale built on those percentiles rather than a school scale:
+68 is a C (about the 50th percentile), roughly 72.6 to 74 is a B−,
+78.9 to 84 is an A, 84.1 and above is an A+, and below 51.7 is an F.
+Averages also differ by kind of product: in the same data, enterprise
+software averaged about 68, public consumer software about 74,
+websites about 67 and phone-and-speech systems about 60, so compare
+against the closest kind where one exists, and say which was used.
+
+Net Promoter Score (NPS) is a single likelihood-to-recommend item on
+0 to 10, promoters (9 or 10) minus detractors (0 to 6) as percentages.
+Collapsing eleven points to three loses sensitivity, and there is no
+agreed interval for it. If the team tracks it, keep the raw 0 to 10
+answers, report their mean with a t-interval, and when a range on the
+NPS itself is needed, recode each answer to −1, 0 or +1 and compute a
+t-interval on that; the book calls this an untested but reasonable
+approach. Ask why alongside it; the number alone says nothing about
+what to change.
 
 ## Worked example
 
@@ -3543,7 +3560,15 @@ two-sample t for different users, paired for the same users. pp.
 of 70.14 and standard deviation 21.71, and the Lewis and Sauro set of 324
 with a mean of 62.10 and standard deviation 22.24; p. 236: SUS against
 likelihood to recommend across 2,201 users, correlation 0.623, LTR ≈
-SUS/10, promoters averaging 81 and detractors 52.5).
+SUS/10, promoters averaging 81 and detractors 52.5; pp. 203–205: raw SUS
+scores converted to percentile ranks, the curved grading scale (C at
+68, A from 78.9, A+ from 84.1, F below 51.7), and Table 8.6 means by
+interface type (global 68.0, business-to-business 67.6,
+business-to-consumer 74.0, web 67.0, cell phone 64.7, internal software
+76.7, voice response 79.9, web plus voice 59.2); p. 235: NPS defined
+as promoters minus detractors, loss of sensitivity from collapsing the
+scale, no well-defined interval, the −1/0/+1 recoding as an untested
+way to get one).
 Keeping every round the same and naming what else changed: practitioner
 judgment.
 
@@ -5985,7 +6010,11 @@ about 3.9. Go ahead.
   product feels rather than how usable it is; the TAM's two six-item
   scales for perceived usefulness and ease of use. Use one as
   published; small wording swaps ("website" for "system") don't change
-  what it measures.
+  what it measures. When space allows only two items, the UMUX-LITE
+  stands in for the SUS (`methods/usability-testing.md`, "Debrief").
+  If the survey carries a Net Promoter question, keep the 0 to 10
+  answers and report their mean with a range, not only the net score
+  (`methods/benchmarking.md`).
 
 ## Wording
 
@@ -6155,7 +6184,8 @@ effects concrete). The other standardized questionnaires: S100 (pp. 226–237: W
 SUPR-Q and their norms databases and licensing; CSUQ as a PSSUQ
 variant with the same scoring; USE; hedonic quality, AttrakDiff and
 the UEQ; the TAM's two scales; minor wording changes don't change the
-factor structure).
+factor structure; pp. 211–214: the UMUX-LITE as a two-item stand-in
+where survey space is short; p. 235: the NPS and its lost sensitivity).
 The four-times rule for halving a margin of error: S100 (pp. 19–24:
 a confidence interval is set by the confidence level, the variability
 and the sample size; to cut the margin in half you need about four
@@ -6324,7 +6354,25 @@ them after the task, not during it, so you don't change what happens.
   multiply by 2.5. Swapping "system" for "website" or "product", or
   "awkward" for the original "cumbersome", doesn't change the result.
   It measures perceived usability as one number; it says nothing about
-  which part of the product caused it.
+  which part of the product caused it. The alternating positive and
+  negative items don't measurably reduce agreement bias, and they
+  cause mistakes: about one SUS dataset in ten has been found miscoded
+  because someone forgot to reverse the even items. A team starting
+  fresh can use the all-positive version (same odd items; even items
+  reworded positive; every item scored as position minus 1, summed,
+  times 2.5), and scores come out the same. A team already using the
+  standard version keeps it and checks the coding every time. Either
+  way, in a moderated session check the form for a reversed answer
+  before the participant leaves.
+- Among post-study questionnaires compared head to head, the SUS
+  settled on the right answer fastest: with twelve people it agreed
+  with the full-sample result every time, where other instruments were
+  still wrong a quarter of the time at fourteen. That is the case for
+  the SUS over home-made satisfaction items. Where there's room for
+  only two items (a survey with many measures), the UMUX-LITE ("this
+  system's capabilities meet my requirements", "this system is easy to
+  use", seven points) tracks the SUS closely once rescaled; the book
+  doesn't recommend it on its own yet, so collect both the first time.
 
 A participant's rating and what they did can disagree. Someone who failed
 the task may still rate it easy. Report both; what they did comes first.
@@ -6401,7 +6449,17 @@ at the same rate as others; Sauro's review of 24 tests giving p of about
 websites; p. 162: no reliable link between problem frequency and
 severity. pp. 198–199: the SUS items, response rules, scoring and the
 wording substitutions that make no difference; a single-number measure
-that doesn't locate the cause).
+that doesn't locate the cause. pp. 206–210: the all-positive SUS, its
+scoring, no difference in scores, agreement bias or extreme responses
+from the standard version; 3 of 27 SUS datasets miscoded, most likely
+about 10%; researchers on the standard version should verify coding and
+include a debrief step to catch reversed answers. pp. 214–215: Tullis
+and Stetson's comparison of five questionnaires, the SUS reaching 100%
+agreement with the full-sample conclusion at n = 12 and the CSUQ 90%,
+the others in the low to mid 70s at n = 14. pp. 211–214: UMUX and
+UMUX-LITE, the two items, the regression adjustment, and the authors'
+advice not to use the UMUX-LITE independently of the SUS until validated
+more widely).
 Remote, moderated: S78 (advantages and the
 extra preparation; choosing a call tool; how tasks reach the participant,
 with the moderator reading them as the weakest choice; a tech check the

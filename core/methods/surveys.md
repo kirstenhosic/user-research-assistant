@@ -99,7 +99,11 @@ about 3.9. Go ahead.
   product feels rather than how usable it is; the TAM's two six-item
   scales for perceived usefulness and ease of use. Use one as
   published; small wording swaps ("website" for "system") don't change
-  what it measures.
+  what it measures. When space allows only two items, the UMUX-LITE
+  stands in for the SUS (`methods/usability-testing.md`, "Debrief").
+  If the survey carries a Net Promoter question, keep the 0 to 10
+  answers and report their mean with a range, not only the net score
+  (`methods/benchmarking.md`).
 
 ## Wording
 
@@ -269,7 +273,8 @@ effects concrete). The other standardized questionnaires: S100 (pp. 226–237: W
 SUPR-Q and their norms databases and licensing; CSUQ as a PSSUQ
 variant with the same scoring; USE; hedonic quality, AttrakDiff and
 the UEQ; the TAM's two scales; minor wording changes don't change the
-factor structure).
+factor structure; pp. 211–214: the UMUX-LITE as a two-item stand-in
+where survey space is short; p. 235: the NPS and its lost sensitivity).
 The four-times rule for halving a margin of error: S100 (pp. 19–24:
 a confidence interval is set by the confidence level, the variability
 and the sample size; to cut the margin in half you need about four

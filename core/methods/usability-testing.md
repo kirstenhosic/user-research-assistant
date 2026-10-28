@@ -158,7 +158,25 @@ them after the task, not during it, so you don't change what happens.
   multiply by 2.5. Swapping "system" for "website" or "product", or
   "awkward" for the original "cumbersome", doesn't change the result.
   It measures perceived usability as one number; it says nothing about
-  which part of the product caused it.
+  which part of the product caused it. The alternating positive and
+  negative items don't measurably reduce agreement bias, and they
+  cause mistakes: about one SUS dataset in ten has been found miscoded
+  because someone forgot to reverse the even items. A team starting
+  fresh can use the all-positive version (same odd items; even items
+  reworded positive; every item scored as position minus 1, summed,
+  times 2.5), and scores come out the same. A team already using the
+  standard version keeps it and checks the coding every time. Either
+  way, in a moderated session check the form for a reversed answer
+  before the participant leaves.
+- Among post-study questionnaires compared head to head, the SUS
+  settled on the right answer fastest: with twelve people it agreed
+  with the full-sample result every time, where other instruments were
+  still wrong a quarter of the time at fourteen. That is the case for
+  the SUS over home-made satisfaction items. Where there's room for
+  only two items (a survey with many measures), the UMUX-LITE ("this
+  system's capabilities meet my requirements", "this system is easy to
+  use", seven points) tracks the SUS closely once rescaled; the book
+  doesn't recommend it on its own yet, so collect both the first time.
 
 A participant's rating and what they did can disagree. Someone who failed
 the task may still rate it easy. Report both; what they did comes first.
@@ -235,7 +253,17 @@ at the same rate as others; Sauro's review of 24 tests giving p of about
 websites; p. 162: no reliable link between problem frequency and
 severity. pp. 198–199: the SUS items, response rules, scoring and the
 wording substitutions that make no difference; a single-number measure
-that doesn't locate the cause).
+that doesn't locate the cause. pp. 206–210: the all-positive SUS, its
+scoring, no difference in scores, agreement bias or extreme responses
+from the standard version; 3 of 27 SUS datasets miscoded, most likely
+about 10%; researchers on the standard version should verify coding and
+include a debrief step to catch reversed answers. pp. 214–215: Tullis
+and Stetson's comparison of five questionnaires, the SUS reaching 100%
+agreement with the full-sample conclusion at n = 12 and the CSUQ 90%,
+the others in the low to mid 70s at n = 14. pp. 211–214: UMUX and
+UMUX-LITE, the two items, the regression adjustment, and the authors'
+advice not to use the UMUX-LITE independently of the SUS until validated
+more widely).
 Remote, moderated: S78 (advantages and the
 extra preparation; choosing a call tool; how tasks reach the participant,
 with the moderator reading them as the weakest choice; a tech check the

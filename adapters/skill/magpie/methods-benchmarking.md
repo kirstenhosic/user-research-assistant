@@ -107,7 +107,24 @@ noise; give the interval. SUS also tracks the likelihood-to-recommend
 question: a rough rule is recommend score ≈ SUS ÷ 10, and in one large
 set people who would recommend averaged a SUS of about 81 against
 about 52 for those who wouldn't, so a SUS above 80 is a fair "people
-would recommend it" bar.
+would recommend it" bar. If the team wants a letter, use the curved
+grading scale built on those percentiles rather than a school scale:
+68 is a C (about the 50th percentile), roughly 72.6 to 74 is a B−,
+78.9 to 84 is an A, 84.1 and above is an A+, and below 51.7 is an F.
+Averages also differ by kind of product: in the same data, enterprise
+software averaged about 68, public consumer software about 74,
+websites about 67 and phone-and-speech systems about 60, so compare
+against the closest kind where one exists, and say which was used.
+
+Net Promoter Score (NPS) is a single likelihood-to-recommend item on
+0 to 10, promoters (9 or 10) minus detractors (0 to 6) as percentages.
+Collapsing eleven points to three loses sensitivity, and there is no
+agreed interval for it. If the team tracks it, keep the raw 0 to 10
+answers, report their mean with a t-interval, and when a range on the
+NPS itself is needed, recode each answer to −1, 0 or +1 and compute a
+t-interval on that; the book calls this an untested but reasonable
+approach. Ask why alongside it; the number alone says nothing about
+what to change.
 
 ## Worked example
 
@@ -175,7 +192,15 @@ two-sample t for different users, paired for the same users. pp.
 of 70.14 and standard deviation 21.71, and the Lewis and Sauro set of 324
 with a mean of 62.10 and standard deviation 22.24; p. 236: SUS against
 likelihood to recommend across 2,201 users, correlation 0.623, LTR ≈
-SUS/10, promoters averaging 81 and detractors 52.5).
+SUS/10, promoters averaging 81 and detractors 52.5; pp. 203–205: raw SUS
+scores converted to percentile ranks, the curved grading scale (C at
+68, A from 78.9, A+ from 84.1, F below 51.7), and Table 8.6 means by
+interface type (global 68.0, business-to-business 67.6,
+business-to-consumer 74.0, web 67.0, cell phone 64.7, internal software
+76.7, voice response 79.9, web plus voice 59.2); p. 235: NPS defined
+as promoters minus detractors, loss of sensitivity from collapsing the
+scale, no well-defined interval, the −1/0/+1 recoding as an untested
+way to get one).
 Keeping every round the same and naming what else changed: practitioner
 judgment.
 

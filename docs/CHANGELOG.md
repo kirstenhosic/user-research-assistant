@@ -15,8 +15,11 @@
   nothing about severity, and how the SUS is scored. Benchmarking,
   surveys, preference testing and analytics gain the four-times rule for
   halving a margin of error, SUS norms, the SUS-to-recommend
-  relationship, a short list of other standardized questionnaires, and
-  the interval around a difference.
+  relationship, the curved SUS grading scale and averages by kind of
+  product, the all-positive SUS and the miscoding risk, the UMUX-LITE
+  as a two-item stand-in, how to report a Net Promoter question, a
+  short list of other standardized questionnaires, and the interval
+  around a difference.
 - Every method guide now has a worked example: a decision, a research
   question, a sample and a finding written the way Magpie reports it
   (counts with participant codes, confidence, what it can't say). Five
