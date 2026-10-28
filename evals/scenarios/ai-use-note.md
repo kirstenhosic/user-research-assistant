@@ -1,11 +1,11 @@
 # AI use note
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
 The study record shows that Magpie drafted the plan, the guide and the
-findings. The researcher did the stage 2 and stage 6 your-turn steps and
+findings. The researcher did the stage 3 and stage 7 your-turn steps and
 said yes to the plan (3 Oct) and the findings (21 Oct). The quote and
 count checks ran by hand, because the assistant couldn't run code. The
 independent review found one overstated count, which was fixed. Sessions
@@ -44,4 +44,4 @@ an AI drafted most of it.
 
 ## Standards tested
 
-7.12
+8.12

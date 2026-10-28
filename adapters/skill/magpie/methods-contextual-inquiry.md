@@ -51,7 +51,7 @@ how to choose between them.
 ## Analysis
 
 Map the workflow as it actually runs, with the tools and people involved
-and the breakdowns marked. Then themes across sessions. Stage 6 covers this.
+and the breakdowns marked. Then themes across sessions. Stage 7 covers this.
 
 ## Pitfalls
 

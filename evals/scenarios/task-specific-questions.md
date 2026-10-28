@@ -1,6 +1,6 @@
 # Task-specific questions
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
@@ -13,7 +13,7 @@ researcher writes:
 
 ## Planted problem
 
-The stage 5 list is mostly answered: format, length, what participants
+The stage 6 list is mostly answered: format, length, what participants
 use and who moderates. A Magpie that only checks the list would ask about
 off-limits topics and participants' words, and miss what this study
 raises: older participants on a remote call with a prototype, and health
@@ -45,4 +45,4 @@ itself.
 
 ## Standards tested
 
-A.6, A.1, 5.1
+A.6, A.1, 6.1

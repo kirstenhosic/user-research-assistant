@@ -98,7 +98,7 @@ questions and the hypotheses.
 | 5. Draft the guide or instrument | Interview guide, test script, survey, diary prompts | Flags leading, double-barrelled or hypothetical questions | |
 | 6. Analyze | Coding frame, themes, findings with evidence strength | "Which participants contradict this theme?" | |
 | 7. Read out and report | Readout deck outline, final report | "What should the PM do on Monday because of this?" | |
-| Workshop branch | Agenda, activities, pre-reads, a workshop summary (both as Word files with document details) | "What decision should the room leave with?" | Runs after stage 2 to align on the problem, or after stage 7 to turn findings into ideas |
+| Workshop branch | Agenda, activities, pre-reads, a workshop summary (both as Word files with document details) | "What decision should the room leave with?" | Runs after stage 3 to align on the problem, or after stage 8 to turn findings into ideas |
 
 Framing is the anchor. The decision named there carries through to the
 report, and a workshop can loop back into it before the study is designed.
@@ -112,14 +112,14 @@ readers who know those models, not a rule Magpie follows.
 
 | Magpie | Double Diamond (S59) | NN/g's design thinking phases (S60) |
 | --- | --- | --- |
-| Stages 0 to 2: find the opportunity, check what's known, frame the decision | The start of Discover: deciding what to find out | Before Empathize |
+| Stages 1 to 3: find the opportunity, check what's known, frame the decision | The start of Discover: deciding what to find out | Before Empathize |
 | Align-on-the-problem workshop | Agreeing the problem before Discover | (none) |
-| Stages 3 to 6: plan, run and analyze the study | Discover, moving into Define as findings form | Empathize, then Define |
-| Stage 7: readout and report | Define: the challenge stated from the evidence | Define |
+| Stages 4 to 7: plan, run and analyze the study | Discover, moving into Define as findings form | Empathize, then Define |
+| Stage 8: readout and report | Define: the challenge stated from the evidence | Define |
 | Understand-the-users workshop | The end of Define: a shared picture of users | Empathize, shared with the team |
 | Ideas-from-findings and prioritization workshops, with "How might we" questions | The start of Develop | Ideate |
 | Critique workshop | Develop: checking a design against the findings | Prototype and Test |
-| Concept and usability testing (stages 3 to 7 again) | Develop and Deliver: testing ideas | Prototype and Test |
+| Concept and usability testing (stages 4 to 8 again) | Develop and Deliver: testing ideas | Prototype and Test |
 
 Both models say the work loops back rather than running in a straight line
 (S59, S60), and so does Magpie: "back to stage N" exists for that reason.
@@ -199,7 +199,7 @@ Researchers rarely have all the evidence themselves. The assistant treats
 partner teams as sources to bring in on purpose, and treats "we have nothing"
 as a normal starting point.
 
-**When to bring in partners.** At stages 1, 3 and 6 the assistant asks whether
+**When to bring in partners.** At stages 2, 4 and 7 the assistant asks whether
 another team holds evidence that would sharpen the question or strengthen a
 finding. If one does, it drafts the request for the researcher to send.
 
@@ -218,7 +218,7 @@ recruiting, never presented as user findings on their own. In analysis, the
 assistant shows where qualitative and quantitative signals agree or conflict.
 It doesn't merge them into one claim.
 
-**No prior research is fine.** If the researcher has nothing, stage 1 takes
+**No prior research is fine.** If the researcher has nothing, stage 2 takes
 under a minute. The assistant suggests two or three quick places to look, such
 as a teammate, the support queue or a dashboard. It records "no prior evidence
 found" and moves on, and it doesn't challenge the researcher for having
@@ -239,7 +239,7 @@ hallucination entirely, so the tool also says how confident it is.
 | 2. Source labels | Each statement is tagged as coming from your data, from partner data, from general practice or from an assumption | General knowledge passed off as a study finding | Every stage |
 | 3. Checks done by code, not the model | Quotes are string-matched against transcripts. Counts and survey statistics are computed by code. | Altered or invented quotes, wrong counts, wrong percentages | Analysis, readout, report |
 | 4. Built-in checklists | Each stage ends with a short self-check against written criteria | Leading questions, missing consent plan, overclaiming | Every stage |
-| 5. Independent review | A fresh pass that sees only the source material and the output, not the conversation that produced it | Errors the drafting pass is blind to, such as a theme that ignores contradicting participants | Analysis and final report, and on request |
+| 5. Independent review | A fresh pass that sees only the source material and the output, not the conversation that produced it | Errors the drafting pass is blind to, such as a theme that ignores contradicting participants | Guide or survey, analysis, and final report and readout, and on request |
 | 6. Evals | Test scenarios with known traps run before every release | Regressions when the prompts change | Repo, before release |
 
 Layers 3 and 5 depend on the platform. Claude Code can run the scripts and
@@ -264,10 +264,10 @@ team keeps in a shared drive, wiki or repo.
    teammates can pick up, review or continue each other's studies.
 3. **Research library.** At the end of each study, the assistant pulls its key
    findings into short, dated library entries (finding, evidence, strength,
-   study link). Stage 1 of the next study searches those entries first.
+   study link). Stage 2 of the next study searches those entries first.
 4. **Intake for partners.** A short request template PMs and designers fill
    in: the decision, the deadline, what they already believe. It feeds
-   straight into stage 2.
+   straight into stage 3.
 
 Two more choices follow from team use. A teammate or lead can review a plan or
 report using the same checklists the assistant uses, so the team shares one
@@ -418,10 +418,10 @@ setup note records what was checked and when.
 
 1. **Foundation.** README, this design, the provenance record, the license,
    the study record template and the build script.
-2. **Plan the study.** Stages 1 to 5, the challenge bank, the checks, guides
+2. **Plan the study.** Stages 2 to 6, the challenge bank, the checks, guides
    for interviews, usability testing and surveys, the voice, the generic
    adapter and the Claude adapter. Includes eval scenarios.
-3. **Analysis and reporting.** Stages 6 and 7, the independent review, the
+3. **Analysis and reporting.** Stages 7 and 8, the independent review, the
    workshop branch and the remaining methods.
 4. **Other platforms.** One skill package for Claude, ChatGPT and Gemini,
    with setup notes per platform. Test runs on ChatGPT and Gemini are still

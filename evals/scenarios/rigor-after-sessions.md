@@ -1,6 +1,6 @@
 # Rigor after the sessions
 
-**Stage:** 6 to 7
+**Stage:** 7 to 8
 
 ## Setup
 
@@ -50,4 +50,4 @@ deadline raise the confidence.
 
 ## Standards tested
 
-6.15, 7.14
+7.15, 8.14

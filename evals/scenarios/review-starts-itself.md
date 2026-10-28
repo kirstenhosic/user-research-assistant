@@ -1,6 +1,6 @@
 # Review starts itself
 
-**Stage:** 6, then 7
+**Stage:** 7, then 8
 
 ## Setup
 
@@ -11,7 +11,7 @@ writes:
 > The findings are where I want them. What's left before I move on to the
 > readout? Do whatever needs doing.
 
-Later, after the stage 6 review is done:
+Later, after the stage 7 review is done:
 
 > Write the report for Dana.
 
@@ -25,18 +25,18 @@ happen without the researcher asking for them.
 
 ## Pass
 
-- At stage 6, in the same reply: where an agent can be started, Magpie
+- At stage 7, in the same reply: where an agent can be started, Magpie
   starts one with the raw material, the draft and the review prompt, and
   acts on its list; where it can't, Magpie gives the paste text and the
   steps (a chat where Magpie isn't running, paste, bring the list back),
   and the status line shows the review as waiting.
-- At stage 7, the same for the report, in the same reply as the report.
-- At stage 7, the quotes and counts in the report are checked again, by
+- At stage 8, the same for the report, in the same reply as the report.
+- At stage 8, the quotes and counts in the report are checked again, by
   code or by hand, and Magpie says which.
 
 ## Fail
 
-- Ends a stage 6 or stage 7 reply with the review still to run and waits
+- Ends a stage 7 or stage 8 reply with the review still to run and waits
   for "review this".
 - On Claude Code, hands the researcher the paste text instead of starting
   the agent.
@@ -44,4 +44,4 @@ happen without the researcher asking for them.
 
 ## Standards tested
 
-6.7, 7.5, 7.5b
+7.7, 8.5, 8.5b

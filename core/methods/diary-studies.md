@@ -142,7 +142,7 @@ for your participants or your team, say why and I'll rework it."
   storage, limit who can see them, and blur personal details in
   screenshots and clips before sharing.
 - If a transcription or AI tool will process the recordings, the consent
-  says so (standard 4.8).
+  says so (standard 5.8).
 - Recordings made at home, about health, or with children nearby need the
   extra care in `checks/ethics-and-consent.md`.
 
@@ -158,7 +158,7 @@ for your participants or your team, say why and I'll rework it."
 
 Timeline per participant, then patterns across: triggers, frequency,
 sequences, how experience changed over the period. Entries plus exit
-interviews together. Stage 6 covers this.
+interviews together. Stage 7 covers this.
 
 Each format needs its own handling. Read ratings per person over time,
 next to their "why". Transcribe voice notes and video, and cite the

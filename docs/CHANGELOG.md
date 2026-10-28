@@ -2,6 +2,68 @@
 
 ## 2026-10-28
 
+- Stages are now numbered 1 to 8 instead of 0 to 7, everywhere: the stage
+  files (`core/stages/01-find-opportunities.md` to
+  `08-read-out-and-report.md`), their headings, every "stage N" reference,
+  the eval scenarios, the README and the standards. Standard numbers move
+  with their stage (old 6.4 is now 7.4; A. and W. numbers are unchanged),
+  and the standards files are now `stages-1-to-6.md` and
+  `stages-7-to-8.md`. Entries below this one and the files in
+  `evals/runs/` keep the old numbers, because they record what was true
+  then.
+- One look throughout each file (A.23).
+  - The Word converter gives team notes a shaded Note style, turns
+    `[ ]` and `( )` answer options into ☐ and ○, shades table headers,
+    sizes columns to their content, shows a Document details table as a
+    titled block, and adds a footer with title, status and page number.
+    A wrapped line that starts with a number now stays in its paragraph
+    instead of breaking the question numbering.
+  - Sheets get a document details block, taller note rows and extra
+    small tables (such as merged and dropped codes).
+  - The survey template keeps every team note in one section at the end;
+    guide moderator notes get subheadings; the usability script's opening
+    and questions are spoken lines and numbered like the guide.
+- Independent checks on questions, and on the deck as well as the report.
+  - New question review (`core/review/question-review.md`), required at
+    stage 5 for every guide, script, survey and set of prompts, run the
+    same way as the findings review: a separate agent where one can be
+    started, a fresh-chat paste otherwise. It checks leading,
+    double-barrelled, hypothetical and closed questions, survey item
+    rules, conversation order, spoken style, coverage of the research
+    questions, and the research questions themselves.
+  - New research-question check (`core/checks/research-questions.md`) at
+    stage 2.
+  - Scripts are written the way a person speaks: the opening, the warm-up,
+    every question and a spoken transition at each change of topic. The
+    guide wording check gains a conversation-flow section and now covers
+    focus groups, concept tests and diary prompts. The interview,
+    usability and survey templates carry example transitions.
+  - Stage 7: the independent review sees the readout deck as well as the
+    report, and gains two questions: can every finding be traced to its
+    source, and is the language plain. The claim-strength check is now a
+    named step on the deck and report.
+  - Standards 2.9, 5.8 and 5.9 added, 7.5 extended. Four new eval
+    scenarios (not yet run).
+  - Word files: guides, surveys, plans and reports come as .docx as well
+    as Markdown, so colleagues can edit together. New
+    `tools/export/md_to_docx.py` (standard library only, copied into the
+    skill's `scripts/`) makes them; `tools/check.py` checks its output on
+    a fixture. Where code can't run, Magpie uses the platform's own export
+    or says to copy the draft into Word. Standard A.21, scenario
+    `word-file.md`.
+  - Guides, scripts and surveys open with document details (team, date,
+    authors, reviewers, status: Draft, Under review or Final) and a short
+    "About this guide" table in place of the dense preamble. Questions
+    are numbered in one run with lettered follow-ups; survey items keep
+    Q1, S1, D1. `md_to_docx.py` writes these in Word's own numbering.
+  - Note-taking sheet with every interview, usability test and diary
+    study (`templates/notes-sheet.md`): one row per participant, one
+    column per research question, a summary row. At stage 6 Magpie offers
+    a matching analysis sheet (`templates/analysis-sheet.md`) with
+    evidence per participant, findings, themes and codes; "make the sheet"
+    builds it. New `tools/export/make_sheet.py` writes .xlsx with the
+    standard library. Standards A.22, 5.10, 6.16; A.21 extended; three new
+    scenarios.
 - Diary studies now suggest and support more than one way to make an
   entry: open text, word-labelled ratings, photos and screenshots, voice
   notes, video, or a mix. A new section in the diary method guide says

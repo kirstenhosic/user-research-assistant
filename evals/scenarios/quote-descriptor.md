@@ -1,6 +1,6 @@
 # Quote descriptor
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -34,4 +34,4 @@ segment together would identify them.
 
 ## Standards tested
 
-6.4, A.20
+7.4, A.20

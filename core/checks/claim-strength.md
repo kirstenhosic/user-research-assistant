@@ -1,6 +1,6 @@
 # Check: claim strength
 
-Run this over every finding before it leaves stage 6, and again over every
+Run this over every finding before it leaves stage 7, and again over every
 slide or paragraph of the readout and report. The question each time is:
 does the wording match the evidence?
 

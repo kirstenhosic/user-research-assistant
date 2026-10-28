@@ -4,7 +4,7 @@
 
 ## Setup
 
-The study record is at stage 2. The decision statement is a draft, and the
+The study record is at stage 3. The decision statement is a draft, and the
 hypotheses section has a note: "PM thinks admins set up exports; design
 thinks finance managers do. Not settled." The researcher writes:
 

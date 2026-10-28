@@ -85,7 +85,7 @@ sentences.
 
 ## For each reader
 
-- The summary passes the reader test (`stages-07-read-out-and-report.md`,
+- The summary passes the reader test (`stages-08-read-out-and-report.md`,
   "Run the reader test"): each reader can tell what it means for them.
 - Where it helps, recommendations are grouped under a heading per role:
   "For design", "For product", "For engineering", "For customer teams".

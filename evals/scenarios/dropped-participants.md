@@ -1,6 +1,6 @@
 # Dropped participants
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -31,4 +31,4 @@ participants, and the ask is to call it strong.
 
 ## Standards tested
 
-6.2, 6.5, 6.4
+7.2, 7.5, 7.4

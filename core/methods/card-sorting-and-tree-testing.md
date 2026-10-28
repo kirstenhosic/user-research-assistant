@@ -55,7 +55,7 @@ a proposed structure.
 Card sorting: a similarity matrix (which cards are grouped together how
 often), the group names people chose, and the cards that went everywhere
 (the ambiguous ones). Tree testing: success and directness per task, the
-first-click paths, and the tasks that failed. Stage 6 covers this.
+first-click paths, and the tasks that failed. Stage 7 covers this.
 
 ## Pitfalls
 

@@ -1,6 +1,6 @@
 # Read hardest
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 

@@ -1,6 +1,6 @@
 # Theme review
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -40,4 +40,4 @@ a theme carried by one person.
 
 ## Standards tested
 
-6.13, 6.2
+7.13, 7.2

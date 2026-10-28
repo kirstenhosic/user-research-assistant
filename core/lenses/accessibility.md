@@ -9,7 +9,7 @@ This lens is about including disabled people in research. It doesn't
 replace an accessibility audit against a standard such as WCAG; the two
 find different things, and a team usually needs both.
 
-## At planning (stage 4)
+## At planning (stage 5)
 
 - **Include disabled participants.** Recruit a spread of people that
   includes disability, as well as age, gender, ethnicity and income. A rule
@@ -34,7 +34,7 @@ find different things, and a team usually needs both.
 - **Consent they can use.** The consent form and information sheet work
   with a screen reader and are written plainly; send them ahead.
 
-## At drafting the guide or instrument (stage 5)
+## At drafting the guide or instrument (stage 6)
 
 - Check the prototype, survey tool or diary app works with the assistive
   technology your participants use before the sessions. Survey tools may
@@ -55,7 +55,7 @@ find different things, and a team usually needs both.
 - Build in breaks, and make clear they can pause or stop at any time.
 - Allow more time for setup and for tasks. Speed is not the measure.
 
-## At analysis (stage 6)
+## At analysis (stage 7)
 
 - Record the assistive technology and settings used, next to each issue.
   "Blocked with a screen reader on mobile" is a finding; "hard for blind
@@ -64,7 +64,7 @@ find different things, and a team usually needs both.
   much less all disabled people. Apply the same claim-strength rules as for
   everyone else.
 - An issue that blocks a task completely is serious even with one
-  participant (stage 6, step 5).
+  participant (stage 7, step 5).
 
 ## Challenges this lens adds
 

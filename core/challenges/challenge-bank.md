@@ -21,7 +21,7 @@ first. At "light", ask none unless it's a red flag (see `operating.md`).
 
 ## The bank
 
-### Decision test (stages 2, 3, 7)
+### Decision test (stages 3, 4, 8)
 
 Would a different answer change what the team does?
 
@@ -31,7 +31,7 @@ Would a different answer change what the team does?
 - "Which result from this study would nobody act on, and what would that
   mean for running it?"
 
-### Evidence test (stages 1, 2, 6)
+### Evidence test (stages 2, 3, 7)
 
 What do we already know, and how fresh is it?
 
@@ -41,7 +41,7 @@ What do we already know, and how fresh is it?
   them first?"
 - "What number might support or analytics already have for this?"
 
-### Riskiest assumption (stages 2, 3)
+### Riskiest assumption (stages 3, 4)
 
 Which belief, if wrong, costs the most?
 
@@ -49,7 +49,7 @@ Which belief, if wrong, costs the most?
   study?"
 - "What would you have to believe for this to be the wrong problem?"
 
-### Method fit (stage 3)
+### Method fit (stage 4)
 
 Is this the cheapest method that can answer the question?
 
@@ -60,7 +60,7 @@ Is this the cheapest method that can answer the question?
 - "What can't this method tell you, and how much does that matter for the
   decision?"
 
-### Sample blind spot (stage 4)
+### Sample blind spot (stage 5)
 
 Who is missing, and does it matter?
 
@@ -70,7 +70,7 @@ Who is missing, and does it matter?
   or because they're easy?"
 - "Where are the people who tried it and left?"
 
-### System view (stages 2, 6, 7)
+### System view (stages 3, 7, 8)
 
 Where does this piece sit, and what else moves?
 
@@ -82,7 +82,7 @@ Where does this piece sit, and what else moves?
   got it done without ever opening the product?"
 - "If the PM ships this, which other team's metric moves?"
 
-### Guide pressure test (stage 5)
+### Guide pressure test (stage 6)
 
 Will the questions get at what you need?
 
@@ -92,7 +92,7 @@ Will the questions get at what you need?
   Why is it in there?"
 - "What do you do if a participant says 'it's fine' to everything?"
 
-### Claim strength (stage 6)
+### Claim strength (stage 7)
 
 How strong is the evidence under the claim?
 
@@ -102,7 +102,7 @@ How strong is the evidence under the claim?
 - "If the PM reads this as 'users want X', what does the evidence actually
   say?"
 
-### So what (stage 7)
+### So what (stage 8)
 
 What should each partner do differently?
 

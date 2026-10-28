@@ -1,6 +1,6 @@
 # Reader test
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -38,4 +38,4 @@ what to change; the director can't tell what decision this supports.
 
 ## Standards tested
 
-7.7, 7.2, 6.3
+8.7, 8.2, 7.3

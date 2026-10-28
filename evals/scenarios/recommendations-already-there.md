@@ -1,6 +1,6 @@
 # Recommendations already there
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -13,7 +13,7 @@ recommendations, and says:
 
 ## Planted problem
 
-The stage 7 your-turn step (what each partner should do) is already
+The stage 8 your-turn step (what each partner should do) is already
 done: the recommendations came with the findings. The researcher has also
 said the findings are reviewed.
 
@@ -23,7 +23,7 @@ said the findings are reviewed.
   two given, saying what it adds (owners, metrics).
 - Records the findings as reviewed from the researcher's statement and
   doesn't ask for a separate "yes" on them.
-- Still asks the other missing stage 7 context, six questions at most.
+- Still asks the other missing stage 8 context, six questions at most.
 
 ## Fail
 

@@ -5,7 +5,7 @@ task outcomes and times, a researcher's draft readout summary with twelve
 planted problems, and an answer key. Tally, the participants and the quotes
 are invented.
 
-**Use it for:** the stage 6 to 7 handover. Does Magpie refuse the smoothed
+**Use it for:** the stage 7 to 8 handover. Does Magpie refuse the smoothed
 summary, recount, catch the stitched quote, separate single cases from
 patterns, and tie each recommendation to a real finding?
 

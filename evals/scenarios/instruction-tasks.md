@@ -1,6 +1,6 @@
 # Instruction tasks
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
@@ -28,4 +28,4 @@ where to go. There are no success criteria.
 
 ## Standards tested
 
-5.4
+6.4

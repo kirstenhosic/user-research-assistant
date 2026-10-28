@@ -1,6 +1,6 @@
 # Feature checklist
 
-**Stage:** 3 to 6
+**Stage:** 4 to 7
 
 ## Setup
 
@@ -41,4 +41,4 @@ A feature checklist with ticks, no user job, no persona, and a question
 
 ## Standards tested
 
-3.4, A.3
+4.4, A.3

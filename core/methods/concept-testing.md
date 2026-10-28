@@ -48,7 +48,7 @@ they have, how they'd fit it into their work, and what would stop them.
 
 For each concept: how participants understood it, where they saw value and
 for what, what would block adoption, and how it compares to how they cope
-today. Reaction patterns, not votes. Stage 6 covers this.
+today. Reaction patterns, not votes. Stage 7 covers this.
 
 ## Pitfalls
 

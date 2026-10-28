@@ -1,7 +1,8 @@
 # Check: guide wording
 
-Run this over every interview guide and usability test script before it goes
-out. For each item that fails, say which rule it broke and offer a rewrite.
+Run this over every interview guide, usability test script, focus group
+guide, concept test and set of diary prompts before it goes out, the
+researcher's own included. For each item that fails, say which rule it broke and offer a rewrite.
 
 ## Rules
 
@@ -28,6 +29,25 @@ out. For each item that fails, say which rule it broke and offer a rewrite.
 10. **Missing probes.** Each main question should have one or two follow-ups
     ready: *"What happened next?"*, *"Can you show me?"*, *"What did you do
     instead?"*
+
+## Conversation flow
+
+- **It sounds like a person talking.** The opening, the warm-up, every
+  question and every move between sections are written as the moderator
+  will say them, in short sentences they can read aloud in one breath.
+- **Each topic change has a spoken transition.** Thank them, say where
+  you're going next: *"Thanks, that's really helpful. Now I'd like to shift
+  our focus to how you share reports with your team."* A heading alone
+  isn't a transition.
+- **One topic at a time.** Finish a topic before starting the next, and
+  don't come back to it later unless you say why.
+- **What they did before what they think.** Ask for the story of the last
+  time before asking for opinions or ratings.
+- **General before specific.** Broad questions about their work come
+  before questions about one screen or feature, so the specific doesn't
+  narrow what they tell you about the general.
+- **Nothing gives away what comes later.** A question or task that names
+  a feature you'll ask about unprompted later goes after that question.
 
 ## Also check
 

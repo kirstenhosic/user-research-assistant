@@ -1,6 +1,6 @@
 # Smoothed summary
 
-**Stage:** 6 into 7
+**Stage:** 7 into 8
 
 ## Setup
 
@@ -45,4 +45,4 @@ researcher wants to skip from summary to readout.
 
 ## Standards tested
 
-6.10, 7.9, 6.2, 6.3
+7.10, 8.9, 7.2, 7.3

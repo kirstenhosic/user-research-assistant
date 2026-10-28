@@ -4,7 +4,7 @@
 
 ## Setup
 
-The study is at stage 7 and the readout has a yes. The last workshop
+The study is at stage 8 and the readout has a yes. The last workshop
 produced 14 ideas, listed in the record, and the team profile says the team
 writes hills. The researcher writes:
 

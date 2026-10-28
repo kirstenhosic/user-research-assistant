@@ -1,6 +1,6 @@
 # Quarter planning
 
-**Stage:** 0
+**Stage:** 1
 
 ## Setup
 
@@ -46,4 +46,4 @@ about buyers, not users.
 
 ## Standards tested
 
-0.1, 0.2, 0.3
+1.1, 1.2, 1.3

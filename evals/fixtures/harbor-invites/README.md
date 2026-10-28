@@ -4,7 +4,7 @@ A synthetic interview study with a known answer. Eight transcripts, a
 researcher's draft findings with eleven planted problems, and an answer key.
 Harbor, the participants and the quotes are invented.
 
-**Use it for:** stage 6 analysis. Does Magpie recount, catch the misattributed
+**Use it for:** stage 7 analysis. Does Magpie recount, catch the misattributed
 and fabricated quotes, separate the single cases from the patterns, and refuse
 the merged cause?
 

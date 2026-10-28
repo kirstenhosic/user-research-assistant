@@ -69,10 +69,22 @@ per conversation; it stays on until you say "stop Magpie".
   (if you want to add them), the decision, questions, method, participants,
   findings and risks. Save it and you can continue in
   any assistant, any day.
+- **Gives you files your team can edit.** Guides, surveys, plans and
+  reports come as a Word file as well as Markdown, with the team, authors,
+  reviewers and status at the top and numbered questions, so colleagues
+  can comment and edit together. Guides come with an Excel note-taking
+  sheet, one column per research question, and analysis offers a
+  matching sheet of findings, themes and codes. In Claude Code this is automatic. Elsewhere
+  Magpie uses the assistant's own way to make a Word file, or tells you
+  to copy the draft into Word.
 - **Waits for your yes.** Nothing Magpie drafts is final until you reply
   "yes" to say you've reviewed it. Before analysis or a report reaches
   stakeholders, Magpie runs an independent review that sees only the
-  transcripts and the draft. It's required at analysis and at the report.
+  transcripts and the draft. It's required at analysis and at the report
+  and readout, and checks that every finding traces to its source and the
+  language is plain. Interview guides and surveys get their own
+  independent review for leading, double-barrelled or out-of-order
+  questions.
 - **Writes for the people who act on it.** Readouts and reports lead with
   why the study was done and up to five top findings, keep every other
   finding on one page, and say which teams each recommendation touches.
@@ -83,15 +95,15 @@ The reasoning behind each of these is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
 Magpie follows eight stages. You can start at any of them.
 
-0. [Find the opportunities](core/stages/00-find-opportunities.md), when
+1. [Find the opportunities](core/stages/01-find-opportunities.md), when
    nobody has asked for research yet
-1. [Check existing evidence](core/stages/01-check-existing-evidence.md)
-2. [Frame the problem](core/stages/02-frame-the-problem.md)
-3. [Choose the approach](core/stages/03-choose-the-approach.md)
-4. [Plan the study](core/stages/04-plan-the-study.md)
-5. [Draft the guide or survey](core/stages/05-draft-the-guide.md)
-6. [Analyze](core/stages/06-analyze.md)
-7. [Read out and report](core/stages/07-read-out-and-report.md)
+2. [Check existing evidence](core/stages/02-check-existing-evidence.md)
+3. [Frame the problem](core/stages/03-frame-the-problem.md)
+4. [Choose the approach](core/stages/04-choose-the-approach.md)
+5. [Plan the study](core/stages/05-plan-the-study.md)
+6. [Draft the guide or survey](core/stages/06-draft-the-guide.md)
+7. [Analyze](core/stages/07-analyze.md)
+8. [Read out and report](core/stages/08-read-out-and-report.md)
 
 ## Methods it covers
 
@@ -114,7 +126,7 @@ name one yourself. Each method has a guide Magpie reads when you choose it.
 | [Evidence review](core/methods/evidence-review.md) | What the organization already knows | Evidence log, gaps, one-page brief |
 | [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job | Comparison built around the user's job |
 | [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings | Agenda, actions with the teams involved, summary |
-| [Finding opportunities](core/stages/00-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and the team that would make it |
+| [Finding opportunities](core/stages/01-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and the team that would make it |
 
 Every study ends the same way: findings with counts and participant
 references, a readout, a report, and research library entries, drafted
@@ -144,8 +156,9 @@ More:
 | standard | Goes back to one question per stage |
 | just the work | Turns off the personality for the session |
 | show the record | Shows the full study record |
-| review this | Runs an independent review of your findings or report |
-| back to stage 3 | Returns to that stage and says what depends on it |
+| make the sheet | Builds the analysis spreadsheet, laid out like the note-taking sheet |
+| review this | Runs an independent review of your guide, survey, findings or report |
+| back to stage 4 | Returns to that stage and says what depends on it |
 
 **Save your study record.** Say "show the record" and paste it into a
 document. Magpie suggests a good moment at the end of each stage; in
@@ -286,20 +299,20 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
-- **Early results look good but aren't confirmed.** There are now 82
+- **Early results look good but aren't confirmed.** There are now 91
   test scenarios. Most of the first 36 passed, but that run didn't prove
   Magpie was loaded each time. Three later runs used the stricter rules: 6
   of 7 coaching scenarios and 7 of 8 HEARTS scenarios passed, with one
   partial each, and the diary capture scenario passed. All were judged by
   a model, not yet by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 99 standards in
-  [`core/standards/`](core/standards/). 46 cite a public source, at least
+- **Its rules are written down.** Magpie follows 110 standards in
+  [`core/standards/`](core/standards/). 47 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.
   Every source is listed in [`docs/PROVENANCE.md`](docs/PROVENANCE.md).
 - **It can be wrong.** Like any AI assistant, Magpie makes mistakes, and
-  its independent review is done by an AI too. The study record and the
+  its independent reviews are done by an AI too. The study record and the
   participant references are there so you can check its work. Please do.
 
 Found a problem? Open an issue with the tool you used, the step, and what
@@ -319,7 +332,7 @@ you saw. Changes are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 - **It asks questions when you just want a draft.** Say "just draft it".
   Magpie builds straight away and marks what it had to guess.
 - **It's working on the wrong stage.** Say which stage you're at ("we're
-  at stage 4, planning") and it switches.
+  at stage 5, planning") and it switches.
 - **The status line stopped appearing.** The session may have dropped,
   which can happen in a very long conversation. Say "Magpie, pick up where
   we were" (or paste your study record) and it starts again. A new

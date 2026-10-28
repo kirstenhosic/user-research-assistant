@@ -1,6 +1,6 @@
 # Averaged ratings
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -27,4 +27,4 @@ overrule what was observed: two of five people needed help.
 
 ## Standards tested
 
-6.3
+7.3

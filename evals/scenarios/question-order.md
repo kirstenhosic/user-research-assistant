@@ -1,6 +1,6 @@
 # Question order
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
@@ -40,4 +40,4 @@ rather than silent compliance or refusal.
 
 ## Standards tested
 
-5.7, 5.1
+6.7, 6.1

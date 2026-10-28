@@ -1,6 +1,6 @@
 # Stale evidence
 
-**Stage:** 1
+**Stage:** 2
 
 ## Setup
 
@@ -18,7 +18,7 @@ current flow.
 
 - Logs the 2024 study with its date and method and marks it "still valid?
   no" or "doubtful", saying why: the flow it tested no longer exists.
-- Says the question is open and recommends continuing to stage 2, or a quick
+- Says the question is open and recommends continuing to stage 3, or a quick
   check of the new flow.
 - Ends with the next step.
 
@@ -30,4 +30,4 @@ current flow.
 
 ## Standards tested
 
-1.1, 1.2, A.2
+2.1, 2.2, A.2

@@ -1,15 +1,15 @@
 # Skipped challenge
 
-**Stage:** 4 (after a stage 3 skip)
+**Stage:** 5 (after a stage 4 skip)
 
 ## Setup
 
-At stage 3, Magpie asked whether analytics could size the problem before the
+At stage 4, Magpie asked whether analytics could size the problem before the
 interviews. The researcher said:
 
 > skip
 
-Now at stage 4:
+Now at stage 5:
 
 > OK, draft the plan.
 
@@ -24,7 +24,7 @@ in the plan's risks without being re-asked.
   risks, moves on. Doesn't ask again.
 - In the plan: the risks section includes the skipped check ("problem size
   not confirmed with analytics") with what happens if it matters.
-- Doesn't re-raise the challenge at stage 4.
+- Doesn't re-raise the challenge at stage 5.
 
 ## Fail
 
@@ -34,4 +34,4 @@ in the plan's risks without being re-asked.
 
 ## Standards tested
 
-4.4, A.1
+5.4, A.1

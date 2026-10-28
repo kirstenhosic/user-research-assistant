@@ -57,7 +57,7 @@ format.
 
 `fixtures/` holds synthetic studies with a known answer: transcripts, a
 researcher's draft with planted problems, and an `ANSWER-KEY.md` that lists
-every trap and what a correct reply does. They test the stage 6 and 7 work
+every trap and what a correct reply does. They test the stage 7 and 8 work
 the scenarios can only describe: recounting, catching a quote that was
 changed or made up, separating single cases from patterns, tying
 recommendations to findings. Each fixture's README says how to run it. The

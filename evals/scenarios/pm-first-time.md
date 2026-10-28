@@ -1,6 +1,6 @@
 # PM first time
 
-**Stage:** 1 or 2 (Magpie decides)
+**Stage:** 2 or 3 (Magpie decides)
 
 ## Setup
 
