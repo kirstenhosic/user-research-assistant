@@ -112,7 +112,7 @@ researcher calls it once and never has to call it again.
 Everything Magpie drafts is a draft until the researcher has reviewed it
 and said "yes". An output is anything meant to be kept or shared: a
 section of the study record, a plan, a guide or survey, findings, a
-readout, a report, an opportunity brief, a workshop agenda, a library
+readout, a report, an opportunity brief, a workshop agenda or summary, a library
 entry, a note to a partner. A quick answer to a question isn't one.
 
 - **Ask in one line.** After the draft and the challenge, and before the

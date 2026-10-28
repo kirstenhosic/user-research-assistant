@@ -45,6 +45,9 @@ instrument it is (interview, usability test, survey or diary).
 2. **Draft from the template.** Opening, warm-up, the main questions, probes,
    closing. For usability tests: scenario, tasks, success criteria, what to
    observe. For surveys: screener, sections, item wording, response scales.
+   For diaries: the entry prompt, its required and optional formats, and
+   what not to capture (`methods/diary-studies.md`, "Ways to capture
+   entries").
 3. **Fit it to the product.** Base tasks and scenarios on what the
    product does and the part under study (Product section, if filled, or
    what the researcher has told you), so they match what participants can

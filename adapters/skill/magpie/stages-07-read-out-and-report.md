@@ -78,7 +78,10 @@ again.
    are a draft until a person has read what they rest on.
    `checks-ai-assisted-research.md`, sections 2 and 3.
 7. **Top findings, never more than five.** The findings the decision
-   rests on, one line each with strength. An unexpected finding can be
+   rests on, one line each with strength and whether it's enough for this
+   decision; a not-enough finding says what would make the team surer and
+   roughly what that costs (`lenses-minimum-viable-rigor.md`). Confidence
+   never rises to fit a deadline. An unexpected finding can be
    one of the five if it's serious enough. Then one slide per top finding,
    pitched for PMs and engineers: enough to believe it and act on it.
    Depth goes to the appendix.
@@ -151,6 +154,14 @@ again.
 
 For a senior audience or a short slot, offer the decision-first order in
 `templates-readout.md`.
+
+If the findings leave choices the team has to make together, offer a
+workshop in one line, naming the type that fits what the room needs
+(`workshops-stakeholder-workshops.md`, "Choose the type from what the room
+needs"): often ideas from findings, then prioritization. Where the team will go
+on to generate ideas, the next steps can end with two or three "How might
+we" questions drawn from the top findings, written the way that file
+describes.
 
 ## What to draft
 

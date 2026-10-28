@@ -2,6 +2,72 @@
 
 ## 2026-10-28
 
+- Diary studies now suggest and support more than one way to make an
+  entry: open text, word-labelled ratings, photos and screenshots, voice
+  notes, video, or a mix. A new section in the diary method guide says
+  what each format is good for and what it costs, what to find out first
+  (what the study needs to see, where the behaviour happens, devices,
+  access needs, budget and tools, rules on recordings, analysis time,
+  study length), and how to choose: a light core for every entry, richer
+  formats optional unless a research question needs them, more than one
+  way in, never video alone, and the analysis sums shown. It also covers
+  consent and what not to capture in recordings. Stage 4, stage 5, the
+  consent check and the accessibility lens point to it. New standard 4.10,
+  eval `diary-capture-options`, and sources S44, S65 and S66.
+- Stakeholder workshops reworked against published workshop practice.
+  Actions now name the teams involved, not one owner, and the room agrees
+  its next steps. The agenda says how the room will decide, and votes are
+  cast privately and shown together. The findings-to-action pattern adds
+  a "How might we" step before ideas, a break, a "what else moves" check
+  when picking, and an optional hills step for teams that use IBM's
+  Enterprise Design Thinking (described in Magpie's own words, with a
+  link). The align-on-the-problem pattern adds a short system-mapping
+  step. New sections cover remote and hybrid sessions and access needs,
+  and the guide cites its sources inline. The agenda template is redone
+  with a document details table and numbered steps, and a new workshop
+  summary template follows the house style; both are offered as Word
+  files. Stages 2 and 7 now offer a workshop in one line when it would
+  help, and stage 7 can end with "How might we" questions. The opportunity
+  brief has an optional hill. The systems lens cites Meadows, and
+  `docs/DESIGN.md` maps Magpie's stages to the Double Diamond and NN/g's
+  design thinking phases. Standards W.3 reworded and W.4 to W.7 added,
+  with three new evals (workshop-align-problem, workshop-how-to-decide,
+  workshop-summary). Sources S53 to S62.
+- Magpie now chooses the workshop type from what the room needs to leave
+  with, instead of two fixed patterns. It works out the outcome, what's in
+  hand and where the team is stuck, names one of six types (align on the
+  problem, understand the users, ideas from findings, prioritization, set
+  the direction, critique) and says why. A format the researcher names,
+  such as hills, is checked against the need. The agenda is built from a
+  set of activities, including "How might we", hills, empathy maps and
+  critique against the findings; the two old patterns stay as example
+  agendas. New standard W.8 and eval `workshop-choose-type`. Sources S67
+  and S68.
+- Minimum viable research and minimum viable rigor, for every study. A
+  new lens, `lenses/minimum-viable-rigor.md`, draws on Nick Lioudis's
+  User Interviews guide (S63) and Carl J. Pearson's article (S64). Stage
+  2 now rates the decision risk (low, medium or high) from what a wrong
+  call would cost and whether it can be undone. Stage 3 matches the
+  study's rigor to that risk, checks the plan against a floor of
+  shortcuts that break the answer, and, when the budget can't reach the
+  floor, offers the smaller question that can be answered. Stage 4 tries
+  time-saving moves that keep rigor before any cut, and lists what each
+  cut costs. Stage 6 re-judges each finding on what actually happened in
+  the sessions and marks it enough, enough with a caveat, or not enough
+  for the decision; stage 7 and the report and readout templates carry
+  that line. The team, not one named person, decides how much risk to
+  accept. New standards 2.8, 3.9, 4.9, 6.15 and 7.14, and evals
+  `quick-low-risk`, `below-the-floor` and `rigor-after-sessions`.
+- Competitive analysis now works when nobody can get into the competitor
+  tools. The method has two routes, hands-on and public sources only, with
+  a ranked list of public sources (help docs and demos first, marketing
+  last). Every tool and cell is marked walked, shown or described, so a
+  marketing claim is never read as an observation. A new section says how
+  Magpie handles screenshots, photos, screen recordings, demo videos and
+  web pages: it says which it can read in this setup, asks for stills or a
+  transcript when it can't take video, logs each page with URL and date,
+  and never signs up for accounts or gets past a login. New standard 3.8
+  and eval `public-only-competitors`.
 - Next steps in the report and readout templates now have three parts:
   what happens now (with the teams involved), open questions, and the
   researcher's own next steps. Magpie drafts all three from the findings

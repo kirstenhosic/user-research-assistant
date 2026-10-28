@@ -43,6 +43,9 @@ find different things, and a team usually needs both.
 - If the product doesn't work with a participant's assistive technology,
   that's a finding, but it's not a session. Have a fallback plan for the
   time you've booked.
+- In a diary study, offer more than one way to make an entry where the
+  tool allows (type or speak, a photo instead of a description), and
+  never make video the only way.
 
 ## In the session
 

@@ -128,7 +128,7 @@ researcher calls it once and never has to call it again.
 Everything Magpie drafts is a draft until the researcher has reviewed it
 and said "yes". An output is anything meant to be kept or shared: a
 section of the study record, a plan, a guide or survey, findings, a
-readout, a report, an opportunity brief, a workshop agenda, a library
+readout, a report, an opportunity brief, a workshop agenda or summary, a library
 entry, a note to a partner. A quick answer to a question isn't one.
 
 - **Ask in one line.** After the draft and the challenge, and before the
@@ -670,7 +670,9 @@ guess at what matters.
 6. **Draft the pitch.** For each chosen opportunity, a short paragraph the
    researcher can take to the PM or the leadership team: the gap, who it
    affects, the decision it would inform, what a study would cost and
-   return. Use `templates/opportunity-brief.md`.
+   return. Use `templates/opportunity-brief.md`. If the team writes hills
+   (`workshops/stakeholder-workshops.md`, "Hills, for teams that use
+   them"), add a draft one to the brief; otherwise leave that line out.
 
 ## What to draft
 
@@ -816,7 +818,8 @@ who the study is about.
 - What prompted this: who asked, and what they asked for, in their words.
 - Who makes the decision, and by when. (The decision itself is the
   researcher's turn, below.)
-- The business goal or metric it's meant to move.
+- The business goal or metric it's meant to move, and what a wrong call
+  would cost: can it be undone, and how quickly?
 - The hypotheses: what the team believes now, and what would change its
   mind.
 - Who the study is about: which users or customers.
@@ -865,7 +868,10 @@ it in the record.
    you have them, and note any market signal that bears on it (a competitor
    move, a segment the company is chasing), labelled as partner data. If
    the researcher doesn't know, that's fine: write "[assumption]" and move
-   on. Don't invent a metric or a market claim.
+   on. Don't invent a metric or a market claim. From the cost and whether
+   the decision can be undone, draft the decision risk (low, medium or
+   high) with a one-line reason (`lenses/minimum-viable-rigor.md`). It
+   sets how much rigor the study needs at stage 3.
 4. **Write the research questions.** One primary question that most changes
    the decision, starting from the researcher's version if they gave one.
    Fold in the questions the team already had: keep the ones that serve
@@ -919,11 +925,20 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
   researcher's choice.
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
+- Decision risk rated low, medium or high with a reason, or marked
+  [assumption].
 - A primary research question tied to the decision.
 - Hypotheses and assumptions listed, or a note that the team has none.
 - Job, journey step and persona filled in or marked as assumptions.
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
+
+## When a workshop would help
+
+If the team disagrees about the decision, or about what users do, offer
+an "align on the problem" workshop in one line
+(`workshops/stakeholder-workshops.md`). It's the researcher's
+call; don't hold the stage for it.
 
 ## When to stop here
 
@@ -996,8 +1011,9 @@ long the study can take.
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
    (`methods/competitive-analysis.md`) as a cheap first step or a companion
-   to the main method. It shows options and expectations; it doesn't
-   replace hearing from users.
+   to the main method. It works from public sources when nobody can get
+   into the tools. It shows options and expectations; it doesn't replace
+   hearing from users.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences. If
    the ask names a method, check it against the question the same way. A
@@ -1016,7 +1032,15 @@ long the study can take.
 7. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
-8. **Ask about partner data.** Would telemetry help choose who to recruit, or
+8. **Match the rigor to the decision risk** (`lenses/minimum-viable-rigor.md`).
+   Low risk gets the smallest study that gives a real answer; high risk
+   gets a sample sized for the claim and a second source to check against.
+   Say in a line how the recommendation fits the risk from stage 2. Check
+   the plan against the floor in the lens, whatever the budget. If the
+   time and money can't reach the floor, say so now: offer the smaller
+   question they can answer well and what the original would take, and
+   let the researcher and the team choose.
+9. **Ask about partner data.** Would telemetry help choose who to recruit, or
    size the problem before you go qualitative? Draft the request if so.
 
 ## What to draft
@@ -1038,6 +1062,8 @@ watching them do step 3 tell you that the survey can't?"
 
 - One method chosen, with the reason written down.
 - Sample sized and described.
+- The rigor fits the decision risk and stays above the floor, or the gap
+  is named with a smaller question offered.
 - Trade-offs written.
 - Partner data requests drafted or marked not needed.
 
@@ -1049,6 +1075,9 @@ watching them do step 3 tell you that the survey can't?"
 - An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.
+- A large study for a decision that's cheap to undo.
+- Cutting below the floor to hit a deadline, and finding out at the
+  readout.
 
 <!-- core/stages/04-plan-the-study.md -->
 
@@ -1105,15 +1134,19 @@ questions.
    with the lead time and access arrangements that takes, or say why not
    (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
-   where it's stored, who can see it, when it's deleted. If an AI tool
-   will moderate, transcribe, summarize or analyze the sessions, Magpie
-   included, say what participants are told about it
+   where it's stored, who can see it, when it's deleted. For a diary
+   study, say how entries are captured and cover consent for each
+   format (`methods/diary-studies.md`, "Ways to capture entries"). If an
+   AI tool will moderate, transcribe, summarize or analyze the sessions,
+   Magpie included, say what participants are told about it
    (`checks/ethics-and-consent.md`). If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
    red flag if missing.
 5. **Set the timeline backwards from the decision deadline.** Readout date
    first, then analysis, then sessions, then recruiting. If it doesn't fit,
-   say what to cut.
+   use the smallest-study moves in `lenses/minimum-viable-rigor.md` first,
+   since they save time without weakening the answer. Any cut that does
+   weaken it goes under trade-offs with what it costs.
 6. **Plan for participant quality.** Say where participants come from and
    how much fraud risk that carries (own verified users: low; third-party
    panels: high). Set the disqualification threshold and the replacement
@@ -1144,6 +1177,7 @@ would you miss without them?"
 - Disabled participants included, with access arrangements, or the reason
   they aren't written under trade-offs.
 - Timeline fits the decision deadline, or the gap is named.
+- Every cut made to fit time or budget is listed with what it costs.
 - Risks listed, including skipped challenges.
 
 ## Pitfalls
@@ -1205,6 +1239,9 @@ instrument it is (interview, usability test, survey or diary).
 2. **Draft from the template.** Opening, warm-up, the main questions, probes,
    closing. For usability tests: scenario, tasks, success criteria, what to
    observe. For surveys: screener, sections, item wording, response scales.
+   For diaries: the entry prompt, its required and optional formats, and
+   what not to capture (`methods/diary-studies.md`, "Ways to capture
+   entries").
 3. **Fit it to the product.** Base tasks and scenarios on what the
    product does and the part under study (Product section, if filled, or
    what the researcher has told you), so they match what participants can
@@ -1380,27 +1417,33 @@ sessions, or say "you do it", skip it.
    "most". Write each count with the people and lines behind it, "3 of 8
    (P1 06, P5 06, P7 06)", so the count can be checked by code instead of
    by trust.
-10. **Check the hypotheses.** Once the findings are drafted, say for each
+10. **Re-judge the rigor.** Look at what actually happened in the
+   sessions (no-shows, sessions cut short, flagged participants, a missing
+   group, a question that turned out to lead) and lower a strength where
+   it weakened the evidence, saying why. Then mark each finding enough for
+   this decision, enough with a caveat, or not enough, using the decision
+   risk in the record (`lenses/minimum-viable-rigor.md`).
+11. **Check the hypotheses.** Once the findings are drafted, say for each
    hypothesis in the record whether the evidence supports it, contradicts
    it or doesn't speak to it, with the findings behind each, and update its
    status. Do this after coding, not before, so the hypotheses don't steer
    what you see.
-11. **Look outside the frame.** Some findings point upstream or downstream
+12. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses/systems-and-journeys.md`).
-12. **Bring in partner data where it applies.** Say whether it agrees,
+13. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-13. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+14. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-14. **Run the code checks if you can** (`tools/checks/`): every quote matches
+15. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-15. **Run the independent review** (`review/independent-review.md`) once
+16. **Run the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage. Start it in the
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
@@ -1443,7 +1486,8 @@ Five participants are five people, not percentages.
 ## What to draft
 
 - The Findings section of the study record: claim, supporting evidence,
-  contradicting evidence, strength.
+  contradicting evidence, strength, and whether it's enough for the
+  decision.
 - The "also noticed" findings, for things outside the questions, held to
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
@@ -1466,6 +1510,8 @@ it.
 
 - Every finding answers a research question or is listed as "also noticed".
 - Every finding has its evidence, its counter-evidence and a strength label.
+- Each finding is marked enough, enough with a caveat, or not enough for
+  this decision, judged on what happened in the sessions.
 - The researcher kept, changed, split or dropped each theme, or the skip
   is logged as a risk.
 - Claim-strength check run.
@@ -1564,7 +1610,10 @@ again.
    are a draft until a person has read what they rest on.
    `checks/ai-assisted-research.md`, sections 2 and 3.
 7. **Top findings, never more than five.** The findings the decision
-   rests on, one line each with strength. An unexpected finding can be
+   rests on, one line each with strength and whether it's enough for this
+   decision; a not-enough finding says what would make the team surer and
+   roughly what that costs (`lenses/minimum-viable-rigor.md`). Confidence
+   never rises to fit a deadline. An unexpected finding can be
    one of the five if it's serious enough. Then one slide per top finding,
    pitched for PMs and engineers: enough to believe it and act on it.
    Depth goes to the appendix.
@@ -1637,6 +1686,14 @@ again.
 
 For a senior audience or a short slot, offer the decision-first order in
 `templates/readout.md`.
+
+If the findings leave choices the team has to make together, offer a
+workshop in one line, naming the type that fits what the room needs
+(`workshops/stakeholder-workshops.md`, "Choose the type from what the room
+needs"): often ideas from findings, then prioritization. Where the team will go
+on to generate ideas, the next steps can end with two or three "How might
+we" questions drawn from the top findings, written the way that file
+describes.
 
 ## What to draft
 
@@ -1736,6 +1793,9 @@ find different things, and a team usually needs both.
 - If the product doesn't work with a participant's assistive technology,
   that's a finding, but it's not a session. Have a fallback plan for the
   time you've booked.
+- In a diary study, offer more than one way to make an entry where the
+  tool allows (type or speak, a photo instead of a description), and
+  never make video the only way.
 
 ## In the session
 
@@ -1778,6 +1838,145 @@ stopping). S37 was last updated in July 2019, so check it against current
 practice. The audit distinction, the fallback plan, and the analysis
 points: practitioner judgment.
 
+<!-- core/lenses/minimum-viable-rigor.md -->
+
+# Lens: minimum viable research and minimum viable rigor
+
+Most studies run short of time or money. This lens helps Magpie find the
+smallest study that is still good enough for the decision, and shows where
+cutting further would make the answer mislead the team. It applies to every
+study and every method.
+
+## Two ideas
+
+- **Minimum viable research.** Start small and get findings to the team
+  quickly, rather than waiting for the study you'd run with no limits: a
+  clear goal, a short screener, a few sessions, and results shared in a
+  form people will read. Small is not the same as sloppy; the study still
+  follows sound practice. (S63)
+- **Minimum viable rigor.** Every study has a lowest acceptable level of
+  rigor. Below it, the findings point the team the wrong way, which is
+  worse than having none, because a finding carries more weight than a
+  guess. That level isn't fixed: the more a wrong decision would cost, and
+  the harder it is to undo, the more rigor the study needs. Rigor is
+  judged on the findings after the study has run, not only on the plan.
+  (S64)
+
+Both names shorten to "MVR". Magpie writes them out in full so nobody mixes
+them up.
+
+## Decision risk (stage 2)
+
+Ask what happens if the decision turns out wrong, and whether it can be
+undone, and how quickly. Then draft a rating with a one-line reason:
+
+| Risk | What it usually looks like |
+| --- | --- |
+| Low | Easy and quick to undo; affects few people or little money. A wording change, an early concept, a design that can be changed after launch. |
+| Medium | Can be undone, but at real cost or after real users have met it. Most feature and flow decisions. |
+| High | Hard or slow to undo, or touches a lot of revenue, people's safety, legal duties, or many users at once. |
+
+The rating is Magpie's draft; the researcher can change it, and their call
+stands. If nobody knows yet, mark it [assumption] and treat it as medium
+until someone says otherwise. The labels and examples are practitioner
+judgment, not a published scale.
+
+## Matching rigor to risk (stage 3)
+
+Pick the smallest study that can answer the primary question for this
+level of risk, and say why in a line.
+
+- **Low risk:** the cheapest option that gives a real answer: existing
+  data, a handful of sessions, a quick unmoderated test. Results in days.
+  Spending more than the decision is worth is its own mistake.
+- **Medium risk:** a method that fits the question, a sample that covers
+  the groups the decision affects, and one other source to check against
+  (analytics, support tickets, a second round) where it's cheap.
+- **High risk:** a sample sized for the claim the team needs to make,
+  measures that are known to work (an established scale, tasks with a
+  right answer), and a second method or source to cross-check. If the
+  budget can't reach that, say so before the study runs, not at the
+  readout.
+
+## The floor: shortcuts that break the answer
+
+Whatever the risk or budget, these make findings mislead rather than
+inform. If the plan relies on one, name it and offer the fix.
+
+- **Asking people to judge their own understanding or ease** when you
+  could watch them try. Give a task with a right answer and see whether
+  they get it.
+- **Asking what people want or would do** instead of what they did
+  (`checks/guide-wording.md`).
+- **Comparing rating-scale scores across countries or cultures** as if
+  the scale meant the same everywhere. People in some groups tend to agree
+  or rate higher whatever the question; compare rankings or behaviour
+  instead.
+- **A sample with none of the people the decision is about.**
+- **A method that can't answer the kind of question asked:** a survey for
+  "why", a handful of sessions for "how many".
+- **Findings from a tool's summary** that nobody checked against the
+  transcripts (`checks/ai-assisted-research.md`).
+
+## When the budget can't reach the floor
+
+Don't run the study anyway, and don't simply refuse. Say what the time and
+money available *can* answer well, as a smaller or different question, and
+what it would take to answer the original one. Put both to the researcher;
+they and the team choose. Whichever way it goes, write the gap under
+Assumptions and risks.
+
+## Who decides
+
+Magpie and the researcher judge how sure the evidence can make the team.
+How much risk to accept is the team's call. Name the team or group, not one
+person. Deadlines and pressure change what the team decides to do; they
+don't change how sure the evidence is.
+
+## The smallest study (stage 4)
+
+Moves that save time without lowering rigor:
+
+- One primary question; the rest go under "nice to know".
+- A short screener based on behaviour, aimed at users the team can reach
+  quickly.
+- Sessions close together, with a short debrief after each, so analysis
+  starts during fieldwork.
+- A guide with the goals at the top and the opening and closing written
+  out, so anyone on the team can run a session.
+- A note-taker, so the moderator can listen.
+- Findings shared in a short form within days, then discussed with the
+  team.
+
+A cut that does lower rigor (fewer sessions, a missing group, no pilot)
+goes under trade-offs with what it costs: "six sessions, not ten: fine for
+spotting problems, too few to say which segment has them more".
+
+## After the sessions (stage 6)
+
+Judge each finding against what actually happened, not what was planned:
+no-shows, sessions cut short, participants flagged for quality, a group
+that didn't turn up, questions that turned out to lead. Lower a strength
+label where that weakened the evidence, and say why. Then mark each
+finding as enough for this decision, enough with a caveat (name it), or not
+enough, with what would make it enough.
+
+## In the readout and report (stage 7)
+
+Each top finding says whether it's enough for this decision, and the
+not-enough ones say what would make the team surer and roughly what that
+costs. Confidence never rises to fit a deadline.
+
+## Basis
+
+S63 (start small, the four steps, small is not careless) and S64 (a floor
+of rigor, rigor rising with decision risk, judged on the findings, the
+researcher judges rigor while the stakeholders accept the risk, offering
+what can be answered instead of a plain no). Both credit Erika Hall's
+*Just Enough Research* as related work; Magpie hasn't read it. The risk
+labels, the floor list as written and the stage steps are practitioner
+judgment.
+
 <!-- core/lenses/systems-and-journeys.md -->
 
 # Lens: the larger system
@@ -1792,7 +1991,10 @@ nobody has asked about yet.
 
 Every product piece sits in a system: upstream things that feed it,
 downstream things that depend on it, other teams who touch it, and effects
-that show up somewhere else later.
+that show up somewhere else later. How a system behaves comes from how its
+parts connect and feed back on each other, and a small change in the right
+place can shift the whole thing (S61). So Magpie looks past the piece it
+was asked about.
 
 At **framing** (stage 2), Magpie asks, briefly:
 
@@ -1924,7 +2126,9 @@ the study doesn't cover.
 ## Keep it light
 
 This lens is a few questions at framing and a few labels at analysis and
-readout. It's not a workshop and not a separate deliverable. If the
+readout. It's not a separate deliverable. The "align on the problem"
+workshop has a short step that maps the system with the team
+(`workshops/stakeholder-workshops.md`). If the
 researcher has answers, it takes a minute. If they don't, Magpie drafts
 the guess, marks it as an assumption, and moves on.
 
@@ -2004,79 +2208,257 @@ than the decision needs.
 
 # Stakeholder workshops
 
-A working session with PMs, designers and engineers, used either to agree on
-the problem before a study is designed (after stage 2) or to turn findings
-into ideas and decisions (after stage 7). Not a readout; people make things.
+A working session with PMs, designers and engineers. Most often it agrees
+the problem before a study is designed (after stage 2) or turns findings
+into ideas and decisions (after stage 7), but the type depends on what the
+room needs. Not a readout; people make things.
 
 ## Use one when
 
-- The team can't agree on what the decision is, or who owns it.
+- The team can't agree on what the decision is, or who makes it.
 - Stakeholders hold different beliefs about users and nobody's written them
   down.
 - Findings are in and the team needs to decide what to do, together.
 - The research needs buy-in that a slide deck won't earn.
 
+Stages 2 and 7 offer a workshop in one line when they see one of these.
+The researcher can also start one at any time by typing "workshop".
+
 ## Don't use one when
 
 - You want the people the decision is about to shape the design. That's
   research with users: `methods/participatory-design.md`.
-- The decision owner has already decided. Run a readout and move on.
+- The team that decides has already decided. Run a readout and move on.
 - The point is to inform, not to make something. A workshop that could have
   been a document wastes the room's time.
 - You can't get the people who'll act on the output into the room.
 
-## Two patterns
+## Before the workshop
 
-### Pattern A: align on the problem (after stage 2, 60 to 90 minutes)
+Settle these with the researcher before drafting the agenda. Ask for what
+the record doesn't already hold, with the other questions in one message.
 
-Outcome: one decision statement, a written list of what the team believes
-and what it doesn't know, and agreement on what the study has to answer.
+- **The outcome and the type.** One sentence: what the room leaves with.
+  This is the ideal end state, written first (S17). It decides the type
+  (see "Choose the type from what the room needs").
+- **How the room will decide.** For example: the room votes and the top
+  three go ahead; or the room shortlists and the product team decides
+  within a week. Write it on the agenda and say it at the start, so the
+  room knows the rule before it starts choosing (S53).
+- **In person, remote or hybrid.** See "Remote or hybrid" below.
+- **Access needs.** The invite asks each attendee whether they need
+  anything to take part fully. See "Access" below.
+- **The pre-read.** One page: the decision, and the findings or the ask.
+  Sent ahead and assumed read.
 
-1. **Frame (10 min).** The ask as it arrived. The draft decision statement.
-2. **What we believe (20 min).** Each person writes assumptions about users
-   on cards, silently. Cluster them. Mark each as known (evidence exists),
-   believed (no evidence) or disputed.
-3. **What would change our minds (15 min).** For each disputed or believed
-   item: what evidence would settle it? That list becomes the research
-   questions.
-4. **The decision, again (15 min).** Rewrite the decision statement with
-   the room. Name the owner and the deadline out loud.
-5. **Close (10 min).** Read back the decision, the questions, and who does
-   what next.
+## Choose the type from what the room needs
 
-### Pattern B: from findings to action (after stage 7, 90 to 120 minutes)
+Don't start from a format, even one the researcher names. Start from what
+the room needs to leave with, then pick the type of workshop that produces
+it. Each type is defined by its outcome (S30).
 
-Outcome: a short list of actions with owners, each tied to a finding and a
-goal.
+Work out three things first, from the record where it has them and by
+asking where it doesn't:
 
-1. **Findings in brief (15 min).** The three to five findings, one slide
-   each, with strength. Questions for clarity only.
-2. **What this means for me (20 min).** Each person writes, silently: what
-   they'd do differently because of each finding. Share round the room.
-3. **Ideas (25 min).** For the one or two findings with the most pull:
-   generate options. Quantity first, then group.
-4. **Pick (20 min).** Rate options on how much they move the goal and how
-   much they cost. Choose a few. Give each an owner.
-5. **Commit (10 min).** Read back the actions, owners and the finding each
-   rests on. Agree how progress gets checked.
+- **What the room must leave with.** A decision, a shared picture of
+  users, a set of ideas, a short list, a direction, or a verdict on a
+  design.
+- **What's already in hand.** A draft decision, findings, a design or
+  concept, or a list of options.
+- **Where the team is stuck.** Disagreeing about the problem, not knowing
+  the users, jumping to one solution, too many options, or no agreed
+  direction.
+
+Then name the type in one line and say why: "This looks like a
+prioritization workshop: you have 14 ideas and room for 3." Lay out the
+activities you'd use. The researcher can change the type or swap any
+activity, and Magpie builds on their choice. If the need spans two types,
+run them in order and say so (ideas, then prioritization, is common). If
+none fits, say that, build the session from the activities below, or
+suggest a meeting or a document instead.
+
+| The room needs to... | Type | Usually when | Core activities | Leaves with |
+| --- | --- | --- | --- | --- |
+| Agree on the problem and what nobody knows | Align on the problem (NN/g's discovery workshop) | After stage 2, before the study is designed | Assumption cards, system map, what would change our minds, the decision rewritten | A decision statement, the assumptions marked known, believed or disputed, and the research questions |
+| Share one picture of the users | Understand the users (NN/g's empathy workshop) | After stage 6 or 7, when the team hasn't taken in the findings; before design starts | Findings in brief, empathy map, what this means for me | A written, shared picture of what users say, think, do and feel, and the gaps in it |
+| Turn findings into ideas | Ideas from findings (NN/g's design workshop) | After stage 7 | How might we, silent ideas, cluster | Options, each tied to the finding it answers |
+| Choose among options | Prioritization | When there are more options than the team can do | Rate on goal and cost, private vote, what else moves | A short list with the teams involved and the finding each rests on |
+| Agree where we're headed | Set the direction | After ideas or prioritization; at stage 0 for a proposal | Hills, for teams that use them; plain outcome statements otherwise | One to three statements of the outcome for users |
+| Check a design against what we learned | Critique (NN/g's critique workshop) | When a concept or design exists | Critique against the findings | Agreement on what the next version changes |
+
+Signals that point to a type:
+
+- "We can't agree who we're even designing for." Align on the problem.
+- "The engineers have never met a customer." Understand the users.
+- "The PM already wants a confirmation email." Ideas from findings, so
+  the email becomes one option among several; or a critique of that idea
+  against the findings.
+- "We have 14 ideas and room for 3." Prioritization.
+- "Leadership wants our goals as hills." Set the direction.
+- "Design has mocks; does it fix what we found?" Critique.
+
+Asked for a format by name, such as "a hills workshop", check it against
+the need. If the need is different (the team still has 14 ideas to choose
+from), say so in one line, suggest the type that fits, and keep the named
+format where it helps (a hill for the 3 chosen ideas). The researcher
+decides.
+
+## Activities
+
+Build each agenda from these. Every generative step starts with silent
+writing.
+
+- **Silent writing, then clustering.** Each person writes on their own
+  first, one idea per note, so the loudest voice doesn't set the agenda.
+  Then the room groups the notes and names each group (S15, S16, S56).
+- **1-2-4-All.** Silent reflection, then pairs, then fours, then the room
+  hears what stood out. Good for hearing everyone in a large group
+  (S62).
+- **Assumption cards.** Each person writes what they believe about users.
+  The room marks each card known (evidence exists), believed (no evidence)
+  or disputed.
+- **System map.** One board: what comes before this in the user's flow,
+  what comes after, which other teams and products touch it, and what else
+  moves if it changes (`lenses/systems-and-journeys.md`, S61).
+- **What would change our minds.** For each believed or disputed card,
+  what evidence would settle it. The list becomes research questions.
+- **Findings in brief.** Three to five findings, one slide each, with
+  strength. Questions for clarity only. Fifteen minutes at most.
+- **What this means for me.** Each person writes what they'd do
+  differently because of each finding, then shares.
+- **Empathy map.** Four areas around one user group: what they say
+  (quotes from the study), think, do and feel. Each person fills in notes
+  alone first, then the room clusters them. Built from the findings, not
+  from guesses; an empty area is a gap in the research (S67).
+- **How might we.** For the one or two findings with the most pull, each
+  person writes "How might we..." questions, silently. The room picks two
+  or three to work on (S55). A good one:
+  - Grows out of a finding, not out of an idea someone already has.
+  - Doesn't build in a solution: "How might we help managers trust that a
+    swap went through?", not "How might we add a confirmation email?"
+  - Is wide enough for many answers and narrow enough to start on.
+  - Names the outcome people want, not the symptom the team wants gone.
+- **Silent ideas.** For each chosen question, ideas written alone first,
+  quantity before quality. Then share and group them.
+- **Rate on goal and cost.** Each option rated on how much it moves the
+  goal and how much it costs. For each option picked: what else moves if
+  we do this, and who else is affected?
+- **Private vote.** Everyone votes before seeing anyone else's votes, then
+  the votes are shown together, so nobody follows the loudest or most
+  senior person (S54). The room decides the way it agreed at the start
+  (S53).
+- **Hills.** See "Hills, for teams that use them" below.
+- **Critique against the findings.** The findings are the objectives the
+  design is judged against. Agree the scope first. Each person notes,
+  silently, where the design meets or misses each finding; then a round
+  robin, one point each. A comment of taste ("I don't like the blue") is
+  reframed around a finding or set aside (S68).
+- **Read-back.** Before anyone leaves: the decisions, the actions, the
+  teams involved and the finding each rests on, and how progress gets
+  checked.
+
+Teams decide among themselves who takes each action. Magpie names one
+person only when the researcher asks for names.
+
+### Hills, for teams that use them
+
+Some teams, especially those trained in IBM's Enterprise Design Thinking
+framework, write their intended outcomes as hills. In IBM's framework a
+hill is a statement of intent written as an outcome for users, in three
+parts: who it's for, what they'll be able to do, and the "wow" that sets
+it apart and shows it worked. It says where to go, not how to build it
+(S58).
+
+- Use hills only if the researcher or the team profile says the team uses
+  them. Otherwise write plain outcome statements: who, what they'll be
+  able to do, and how we'd know.
+- Write the hill in the room's own words. Don't copy IBM's materials or
+  templates; link to IBM's framework page if the team wants the background.
+- The room agrees the hill together. Don't name a single person as its
+  owner.
+
+## Two example agendas
+
+Starting points, not fixed scripts. Change the activities to fit the type
+chosen above.
+
+### Align on the problem (80 to 90 minutes)
+
+1. **Frame (10 min).** The ask as it arrived, the draft decision statement,
+   and how the room will decide.
+2. **Assumption cards (20 min).** Silent writing, then clustering, then
+   known, believed or disputed.
+3. **System map (10 min).** Anything the room isn't sure of becomes a
+   believed or disputed card.
+4. **What would change our minds (15 min).**
+5. **The decision, again (15 min).** Rewrite the decision statement with
+   the room. Say the deadline and the teams involved out loud.
+6. **Close (10 min).** Read back the decision, the questions and the next
+   steps the room agrees on.
+
+### Ideas from findings, then prioritization (120 minutes)
+
+1. **Findings in brief (15 min).**
+2. **What this means for me (15 min),** shared with 1-2-4-All.
+3. **How might we (15 min).**
+4. **Silent ideas (20 min).**
+5. **Break (10 min).**
+6. **Rate on goal and cost, then a private vote (20 min).**
+7. **Hills or outcome statements (10 min, optional).**
+8. **Read-back (15 min).** Agree how progress gets checked and when the
+   room looks at it again.
 
 ## Running it well
 
-- Pre-read sent two days ahead: one page, the decision and the findings.
-  Say that it will be assumed read.
 - Silent writing before discussion, so the loudest voice doesn't set the
-  agenda.
+  agenda (S15, S16).
 - One facilitator, one note-taker. The researcher facilitates; a teammate
   takes notes.
 - Everything written on cards or a shared board, so the output exists
   without anyone's memory.
-- Decisions and owners read back before anyone leaves.
+- A break in anything longer than 90 minutes.
+- Decisions, actions and the teams involved read back before anyone
+  leaves.
+
+## Remote or hybrid
+
+Online, the same activities take longer, so leave more time, not less
+(S57).
+
+- If even one person joins remotely, consider running the whole session
+  remotely, so everyone takes part the same way (S57).
+- Use a board tool the team already knows. Test it beforehand: access,
+  permissions, and how many people can edit at once (S57).
+- Change activity every 15 to 20 minutes (S57).
+- With more than 10 people, use breakout groups of three to five, with
+  written instructions for each (S57).
+
+## Access
+
+- Ask about access needs in the invite, and plan for them before the day
+  (`lenses/accessibility.md`).
+- Every activity has another way to take part: typing into a shared
+  document instead of placing sticky notes, saying a vote instead of
+  dragging a dot, a screen-reader-friendly copy of the board.
+- Read out what's on the board when the room moves on, for anyone who
+  can't see it.
+- Send the pre-read in a format people can read with their own tools.
 
 ## After
 
-Magpie drafts a one-page synthesis from the notes: the decision or actions,
-owners, the assumptions list or the ideas not chosen, and what's next. It goes
-in the study record's change log and to everyone who attended.
+Magpie drafts the summary from the notes with
+`templates/workshop-summary.md`: the decision or the actions with the
+teams involved, the finding each rests on, the assumptions or the ideas
+not chosen, and the next steps the room agreed. It goes in the study
+record's change log and to everyone who attended, once the researcher has
+reviewed it.
+
+The agenda and the summary are documents the team shares, so give each as
+a Word file (.docx) as well as Markdown, the same as a plan or report. Each
+opens with a document details table (team, date, author(s), reviewers and
+status). Status starts as Draft and changes only when the researcher says
+so. The agenda steps are numbered in Word's own numbering, so people can
+say "step 3". Both follow `templates/house-style.md`.
 
 ## Challenge
 
@@ -2085,14 +2467,33 @@ sentence, the workshop isn't ready."
 
 ## Pitfalls
 
-- A workshop as a substitute for a decision the owner should just make.
+- A workshop as a substitute for a decision the team should just make.
 - Presenting for 40 minutes and calling the last 20 a workshop.
-- Ideas with no owners.
+- Picking the format first ("let's do hills") and fitting the need to it.
+- Going from findings straight to solutions, with no "How might we" step.
+- Open dot voting, where people follow the first or most senior votes.
+- Actions with no team, or one person named for everything.
 - Output that lives only in photos of sticky notes.
 
 ## Templates
 
-`templates/workshop-agenda.md`
+`templates/workshop-agenda.md`, `templates/workshop-summary.md`
+
+## Basis
+
+S17 and S30 (an outcome first; each workshop type has a defined outcome,
+and the discovery, empathy, design, prioritization and critique types);
+S15 and S16 (silent writing and brainwriting before discussion); S56
+(individual notes, then clustering as a team); S62 (1-2-4-All, credit
+Henri Lipmanowicz and Keith McCandless, Liberating Structures, CC BY-SA
+4.0); S55 ("How might we" questions after discovery, before ideas); S53
+(agree the decision rule); S54 (dot voting's choice overload, choice
+imbalance and social bias); S57 (remote workshops); S58 (hills, IBM
+Enterprise Design Thinking, described here in Magpie's own words); S67
+(empathy maps, built alone first, then clustered); S68 (critique against
+agreed objectives, round robin). The "set the direction" type, the signals,
+assumption cards, the step timings, the private vote, the break and the
+access steps: practitioner judgment.
 
 <!-- core/methods/card-sorting-and-tree-testing.md -->
 
@@ -2206,6 +2607,65 @@ the user's job, not the feature list.
 - Three to five user jobs or journey steps to compare across them, taken
   from the study record, not from a feature list.
 
+## Access: hands-on or public sources only
+
+Find out early which of two routes this is. Ask once if it isn't clear.
+
+- **Hands-on.** Someone can use each tool: an account, a free tier, a
+  trial the team has set up. The researcher walks the job, or Magpie does
+  where the setup lets it open the tool.
+- **Public sources only.** Nobody on the team can get into the tools.
+  This is common and still worth doing. Build the comparison from what's
+  public, best first:
+  1. Help docs, tutorials and onboarding guides. They often show the real
+     screens step by step.
+  2. The product's own demo videos, webinars and walkthroughs.
+  3. Public pages of the product itself (a sign-up flow, a public
+     template gallery, a pricing and plans page).
+  4. Release notes and changelogs, for what changed and when.
+  5. Public reviews, community forums and app store listings, for what
+     users say goes wrong. These are other people's users, not yours.
+  6. Marketing pages and analyst summaries, for positioning and claims.
+
+  Help docs and demos show how a task is meant to go, not how it goes for
+  a user. Errors, dead ends and slow steps rarely show up in them, so the
+  fit assessment leans harder on "check with our users", and "What this
+  can't tell us" says so.
+
+Either way, mark each tool and each cell with how it was seen:
+
+- **walked:** someone did the task in the tool.
+- **shown:** material that shows the real screens: screenshots, a screen
+  recording, help docs with screen images, a demo video.
+- **described:** someone's words about the tool: marketing copy, a review,
+  an analyst note, a sales deck.
+
+A cell that is only **described** is a claim, not an observation. Never
+call a marketing page an observation.
+
+## What Magpie can take in
+
+What Magpie can read depends on the tool it's running in. It says which
+of these it can use in this setup, in one line, and never pretends to
+have read something it couldn't.
+
+- **Screenshots and photos.** Magpie reads what's on screen: the step, the
+  words the tool uses, the choices offered. It asks which step each image
+  shows if that isn't clear, and doesn't guess what happens off screen.
+- **Screen recordings and demo videos.** Where Magpie can take video, it
+  works through it and cites the moment (timestamp) for each step. Where
+  it can't, it says so and asks for a still of each step, a transcript,
+  or a short written walk-through. It never describes a video it hasn't
+  seen.
+- **Web pages and links.** Where Magpie has web access, it reads public
+  pages and logs each one with its URL and the date read. Where it
+  doesn't, it says so and asks for the page text or a screenshot. It
+  doesn't sign up for accounts or trials, enter anyone's details, or get
+  around a login or paywall; that's the researcher's call and the
+  researcher's account.
+- **Notes.** A researcher's written walk-through of a tool counts as
+  **walked** for the steps they did.
+
 ## Shape
 
 1. **Start from the job.** Name the user, the job and the journey step
@@ -2213,15 +2673,18 @@ the user's job, not the feature list.
    done in [tool], and what would fit our [persona]?"
 2. **Pick the set.** Two to four tools, with one that solves the job
    differently. Say why each is in.
-3. **Walk the job in each tool.** Do the task as the user would. Record
-   what happens at each step: screenshots, the words the tool uses, where
-   it asks for effort, where it decides for the user. Note what it assumes
-   about the user.
+3. **Walk the job in each tool, or trace it from public sources.** Do the
+   task as the user would. Record what happens at each step: screenshots,
+   the words the tool uses, where it asks for effort, where it decides for
+   the user. Note what it assumes about the user. With public sources
+   only, trace each step through help docs and demos, and leave a step
+   blank, marked "not shown publicly", rather than guess.
 4. **Compare on fit, not on count.** For each job step and each tool: how
    the tool handles it, what it assumes about the user, and whether that
    assumption holds for your persona. "Has feature X" is not a row.
 5. **Separate what you saw from what you infer.** What the tool does is
-   [their data] about the tool, observed directly. Why it does it, and
+   [their data] about the tool when it was walked or shown, with the
+   source. Why it does it, and
    whether their users like it, is [assumption] unless you have evidence
    (public reviews, support forums, a user who's used both).
 6. **Draft the fit assessment.** For each pattern worth considering: what
@@ -2230,7 +2693,9 @@ the user's job, not the feature list.
 
 ## What makes it good
 
-- Doing the task in each tool, not reading their marketing.
+- Doing the task in each tool where you can. Where you can't, using
+  material that shows the real screens over marketing claims, and saying
+  which cells rest on which.
 - A tool from outside the category in the set.
 - Every "they do X" paired with "and that fits or doesn't fit our users
   because".
@@ -2259,6 +2724,9 @@ has the shape.
 ## Pitfalls
 
 - A feature checklist with ticks. It tells you what exists, not what fits.
+- Calling a marketing page or a demo video an observation of how the tool
+  works for users. A demo shows the happy path.
+- Filling a cell from memory of how a tool used to work.
 - Assuming a competitor's choice is good because they're big.
 - Treating public reviews as your users' views.
 - Only looking at direct competitors, and missing the spreadsheet everyone
@@ -2464,6 +2932,113 @@ weeks, as it happens rather than from memory.
    Ask about the gaps and the surprises. This is where most of the depth
    comes from.
 
+## Ways to capture entries
+
+People can make an entry in more than one way. Choose by what the study
+needs to see and what participants can really do, not by what the tool
+happens to offer. Most studies work best with a short core that every
+entry has, plus one richer way to add detail when it helps.
+
+- **Open text.** A typed answer to a specific prompt. Good for what
+  happened and why, in their own words. Works in almost any tool, and is
+  the quickest to read and code. It's hard work for people who don't like
+  writing or are typing on a phone, and answers tend to get shorter as the
+  weeks go on.
+- **Ratings and choices.** A word-labelled rating (how it went, how hard
+  it was, how they felt) or a pick from a short list (where they were,
+  which device). Takes seconds, and lets you compare one person's entries
+  over time. It says nothing about why, so pair every rating with "What
+  made you pick that?" A rating trend in fifteen diaries describes those
+  fifteen people, not the population.
+- **Photos and screenshots.** Good for showing the setting, the object or
+  the screen at that moment, and they make strong prompts in the exit
+  interview. They can catch other people, the inside of someone's home,
+  or personal details on screen, so participants need clear rules on what
+  not to capture. Some form and document tools handle images badly.
+- **Voice notes.** Quick to record on the move, and easier for people who
+  find typing hard or who say more when they talk. They need transcribing
+  before analysis, which costs time or money, and they're slow to skim.
+  They can pick up people nearby, and they don't work where participants
+  can't speak aloud: at a desk in an open office, on a bus.
+- **Video.** A selfie video for the setting and how something felt, or a
+  screen recording for a task on a computer or phone. It shows the most,
+  and costs the most: effort for the participant, time to watch and
+  transcribe, large files, and the highest privacy risk (faces, other
+  people, homes, screens). Some people won't go on camera at all.
+- **A mix.** For example, a rating and one line of text in every entry,
+  with a photo or voice note when there's something words can't show.
+  Keep the core questions the same whatever the format, so entries can be
+  compared.
+
+### What to find out first
+
+Ask for whatever the record and conversation don't already say, within
+the stage's six questions (`operating.md`, "Gather context before you
+build"). Offer a best guess with each one.
+
+- What the study needs to see or hear: the setting, the screen, the
+  feeling, the order of steps. This decides whether pictures or
+  recordings are worth their cost.
+- Where and when the behaviour happens: on the move, at a desk, at home,
+  at work, in public, with other people around.
+- Participants' devices and habits: phone or computer, data allowance, the
+  apps they already use.
+- Access needs: screen readers, voice control, dyslexia, limited hand
+  movement, hearing or speech differences (`lenses/accessibility.md`).
+- Budget and tools: a free form or messaging app, or a paid diary
+  platform, and which tools the team is allowed to use for personal data.
+- The team's rules on photos, audio and video: allowed or not, where
+  they're stored, who can see them, when they're deleted.
+- Analysis time: who will review entries, and how many there will be.
+- How long the study runs and how often people make an entry.
+
+### How to choose
+
+1. **Start from the research question.** Use photos, audio or video only
+   when seeing or hearing it answers a research question that text
+   can't. Say which question each one serves.
+2. **Make the core light.** The format every entry needs should be the
+   quickest one that answers the question. Richer formats are optional
+   unless the question depends on them.
+3. **Match the effort to how often.** Several entries a day: a rating, a
+   pick and one line. Once a week: there's room for a voice note or a
+   short video.
+4. **Offer more than one way in.** Where the tool allows, let people type
+   or speak the same answer. Some people say more in writing, others on
+   video or out loud. This is also an access choice. Never make video the
+   only way to make an entry.
+5. **Do the analysis sums.** Participants × days × entries a day, then the
+   time to read, watch, listen and transcribe. Give the number, and say if
+   it doesn't fit the time before the readout.
+6. **Check the tool handles each format.** Messaging apps suit short
+   text and quick replies, but entries are harder to export. Forms and
+   shared documents suit longer written answers but handle images and
+   video badly. Paid diary platforms take video, photos and
+   questionnaires and help with transcription and tagging, at a cost.
+7. **Try every format in the pilot,** on the devices and assistive
+   technology participants will use.
+
+Show the choice as a short table: each format, required or optional, the
+research question it serves, why it fits these participants, and what it
+costs. Mark guesses [assumption]. Then one line: "If a format won't work
+for your participants or your team, say why and I'll rework it."
+
+### Recordings, photos and consent
+
+- Consent covers each format used: what may be captured, where it's
+  stored, who sees it, and when it's deleted. Showing a clip or photo
+  beyond the study team is a separate ask (`checks/ethics-and-consent.md`).
+- Tell participants what not to capture: other people's faces or voices,
+  children, ID documents, bank details, other people's messages on
+  screen. Tell them how to delete an entry they regret.
+- Photos, audio and video are personal data. Move them to approved
+  storage, limit who can see them, and blur personal details in
+  screenshots and clips before sharing.
+- If a transcription or AI tool will process the recordings, the consent
+  says so (standard 4.8).
+- Recordings made at home, about health, or with children nearby need the
+  extra care in `checks/ethics-and-consent.md`.
+
 ## What makes it good
 
 - Entries take under two minutes. Anything longer, people stop.
@@ -2478,23 +3053,49 @@ Timeline per participant, then patterns across: triggers, frequency,
 sequences, how experience changed over the period. Entries plus exit
 interviews together. Stage 6 covers this.
 
+Each format needs its own handling. Read ratings per person over time,
+next to their "why". Transcribe voice notes and video, and cite the
+entry and timestamp for each quote. Describe what a photo or screenshot
+shows in words, next to the participant's own caption, so it can be
+coded with the rest.
+
 ## Pitfalls
 
 - Too many prompts, or prompts that change the behaviour being studied.
 - Losing half the participants by week two because nobody checked in.
 - Analyzing entries without the exit interview.
 - Treating fifteen diaries as frequency data for the population.
+- Video or photos required in every entry when text would answer the
+  question. People drop out, and the analysis takes weeks.
+- One format only, so people who can't type easily or can't be on camera
+  stop making entries.
+- Recordings with nothing on what not to capture, so other people end up
+  in the data without consenting.
 
 ## Template
 
-Entry prompt: *When did this happen? What were you trying to do? What did
-you do? How did it go (one word)? Anything else?* Exit interview: adapt
-`templates/interview-guide.md`.
+Entry prompt, the core for every entry, typed or spoken: *When did this
+happen? What were you trying to do? What did you do? How did it go (very
+badly, badly, okay, well, very well)? What made you pick that? Anything
+else?* Optional, when it helps the research question: *Add a photo,
+screenshot, voice note or short video if it shows something words
+don't. Leave out other people and personal details.* Exit interview:
+adapt `templates/interview-guide.md`, and bring up the participant's own
+photos and recordings as prompts.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+Practitioner judgment, except "Ways to capture entries": S65 (choose the
+tool by budget, the data needed, and participants' devices and
+familiarity; some people express themselves better in writing, others on
+video; voice notes and video as entry formats; keep entries small and
+questions to what the research needs; pilot first); S44 (messaging apps,
+forms and documents, and diary platforms, with what each handles well and
+badly; data security and participant convenience in choosing a tool);
+S66 (photos, audio and video are personal data; consent covers what's
+collected, stored and shared; approved storage, limited access, blurring
+personal data in screenshots and clips). The format descriptions, the
+choosing steps and the analysis sums: practitioner judgment.
 
 <!-- core/methods/evidence-review.md -->
 
@@ -3621,6 +4222,10 @@ here is a red flag at every challenge level.
   when they know a tool will process it.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
+- When participants make their own recordings (photos, screenshots,
+  voice notes, video, as in a diary study), they're told what not to
+  capture (other people, children, ID, bank details, other people's
+  messages on screen) and how to delete an entry.
 - For anything beyond ordinary use of the findings (quotes in a public deck,
   video clips shown outside the team) ask separately.
 
@@ -3982,21 +4587,23 @@ How do people get [job] done in other tools, and what would fit our
 - **Persona and journey step:** [from the study record]
 - **What we know about our users here:** [from the evidence log; one or
   two lines; "nothing yet" is fine]
+- **Access:** [hands-on / public sources only / mixed: say which tools]
 
 ## The set
 
-| Tool | Why it's in | How it solves the job | Observed on |
-| --- | --- | --- | --- |
-| [direct competitor] | | | [date] |
-| [direct competitor] | | | |
-| [different approach, e.g. spreadsheet or adjacent tool] | | | |
+| Tool | Why it's in | How it solves the job | How we saw it | Sources and date |
+| --- | --- | --- | --- | --- |
+| [direct competitor] | | | [walked / shown / described] | [help doc URL, demo video, screenshots; date] |
+| [direct competitor] | | | | |
+| [different approach, e.g. spreadsheet or adjacent tool] | | | | |
 
 ## Fit matrix
 
 Each cell: how the tool handles the step, what it assumes about the user,
-and whether that holds for our persona. What the tool does is observed.
-Why, and whether its users like it, is an assumption unless labelled with
-evidence.
+and whether that holds for our persona, marked (walked), (shown) or
+(described). A step nobody could see is "not shown publicly", not a guess.
+What the tool does is observed only when it was walked or shown. Why, and
+whether its users like it, is an assumption unless labelled with evidence.
 
 | Job step | [Tool 1] | [Tool 2] | [Tool 3] |
 | --- | --- | --- | --- |
@@ -4028,7 +4635,8 @@ One per pattern worth considering.
 
 Their users' satisfaction, their data, why they chose it, whether it works
 at scale for people like ours. Say it here so nobody reads the matrix as
-proof.
+proof. If any tool was seen only through public sources, say that its
+errors, dead ends and slow steps are mostly invisible here.
 
 ## Next step
 
@@ -4253,6 +4861,12 @@ surveys. Dated and labelled; these are indirect evidence about users.]
 [Library entries, past studies, support themes, analytics. Or "nothing
 yet".]
 
+## Where we'd want users to get to
+
+[Optional. Leave this section out unless the team writes hills. One draft
+hill in the team's own words: who it's for, what they'd be able to do, and
+how we'd know it made a difference. The team agrees the wording.]
+
 ## The decision this would inform
 
 [The team or group] could decide [what] by [when], choosing between [options].
@@ -4309,10 +4923,10 @@ not on this slide; see "Limits" below.
 ## 4. Top findings
 
 Never more than five: the findings the decision rests on. One line each,
-with strength. This is the slide people photograph. An unexpected finding
+with strength and whether it's enough for this decision. This is the slide people photograph. An unexpected finding
 belongs here if it's serious enough.
 
-1. [Finding, one line] · [strength]
+1. [Finding, one line] · [strength] · [enough / enough if [caveat] / not enough]
 2. …
 
 ## 5 to [n]. Findings in detail
@@ -4489,9 +5103,11 @@ here; those live in the study record and the appendix.
 
 ## Top findings
 
-Never more than five. One or two lines each, with strength.
+Never more than five. One or two lines each, with strength and whether it's
+enough for this decision. A not-enough finding says what would make us
+surer and roughly what that costs.
 
-1. **[Finding]** · [strength]
+1. **[Finding]** · [strength] · [enough / enough if [caveat] / not enough: [what would make us surer]]
 2. …
 
 ## Findings in detail
@@ -4622,6 +5238,8 @@ users are. Who buys or sets it up, if different.]
 
 **Why it matters:** [goal or metric it moves; cost of getting it wrong]
 
+**Decision risk:** [low / medium / high, and why]
+
 ## What we already know
 
 [Two or three lines from the evidence log and gap summary. "No prior
@@ -4644,6 +5262,7 @@ What the team believes now, and what we'd need to see to change our minds.
 - **Method:** [method]
 - **Why:** [two sentences]
 - **What it won't tell us:** [trade-offs]
+- **Why this is enough for the risk:** [one line; any cut made for time or budget and what it costs]
 - **Partner data:** [team, what, status]
 
 ## Participants
@@ -4750,6 +5369,7 @@ out, write "not added" and delete the lines below.
 
 - **Goal or metric this moves:** [The company goal or metric at stake]
 - **Cost of getting it wrong:** [What happens if the decision goes the wrong way]
+- **Decision risk:** [low / medium / high, because [can it be undone, how quickly, who and what it touches]; or [assumption]]
 - **Who else cares:** [Stakeholders beyond the owner]
 - **Job:** [what the user is trying to get done, in their terms]
 - **Journey and step:** [which CUJ or journey, which step; "none tracked" is fine]
@@ -4796,6 +5416,7 @@ Known assumptions, plus every challenge that was skipped and why.
 - **Method:** [Method chosen]
 - **Why this method:** [One or two sentences]
 - **Sample:** [Who, how many, how recruited]
+- **Rigor for this risk:** [why this study is enough for the decision risk; any floor problem and the smaller question offered]
 - **Trade-offs accepted:** [What this approach won't tell us]
 - **Partner data requested:** [Team, what, status]
 
@@ -4826,9 +5447,9 @@ Each finding is a claim with its evidence, including what cuts against it.
 Every count lists the participants and lines behind it: "3 of 8 (P1 06,
 P5 06, P7 06)".
 
-| Finding | Supporting evidence | Contradicting evidence | Strength |
-| --- | --- | --- | --- |
-| | | | strong / moderate / weak |
+| Finding | Supporting evidence | Contradicting evidence | Strength | Enough for the decision? |
+| --- | --- | --- | --- | --- |
+| | | | strong / moderate / weak | yes / with a caveat: [what] / no: [what would make it enough] |
 
 Strength: **strong** (consistent across most participants or statistically
 reliable), **moderate** (clear pattern with exceptions), **weak** (few
@@ -4994,44 +5615,116 @@ difficult, to 7, very easy? Why that rating? What did you expect to happen?
 
 # Workshop agenda: [study name]
 
-**Purpose:** [align on the problem / turn findings into action]
-**Outcome the room leaves with:** [one sentence]
-**When:** [date, time, length] · **Where:** [room or link]
-**Facilitator:** [researcher] · **Note-taker:** [name]
-**Attendees:** [names and roles; the people who will act on the output]
+| Document details | |
+| --- | --- |
+| Team | [team running the workshop] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
 
-## Pre-read (sent [date], assumed read)
+Status is Draft, Under review or Final. It changes only when the
+researcher says so.
 
-[One page: the decision, and the findings or the ask.]
+## About this workshop
+
+| | |
+| --- | --- |
+| Type | [Align on the problem / understand the users / ideas from findings / prioritization / set the direction / critique, or a mix; and why] |
+| Outcome | [One sentence: what the room leaves with] |
+| How we'll decide | [For example: private vote, top three go ahead] |
+| When | [Day, date with the month in words, time, length] |
+| Where | [Room, link, or both; remote if anyone joins remotely] |
+| Facilitator and note-taker | [Researcher] and [teammate] |
+| Attendees | [Roles and teams; the people who will act on the output] |
+
+## Before the day
+
+- The pre-read goes out on [date] and will be assumed read. It's one page:
+  [the decision, and the findings or the ask].
+- The invite asks each attendee whether they need anything to take part
+  fully.
+- The board is set up and tested: everyone can open and edit it.
 
 ## Agenda
 
-| Time | Step | What happens | Output |
-| --- | --- | --- | --- |
-| 0:00 | Frame | [ ] | |
-| 0:10 | [ ] | Silent writing, then cluster | Cards on the board |
-| 0:30 | [ ] | | |
-| 0:45 | [ ] | | |
-| 1:05 | Close | Read back decisions and owners | Action list |
+1. **Frame ([time], 10 min).** The outcome, the agenda, and how we'll
+   decide. Output: everyone knows what we're here to leave with.
+2. **[Step] ([time], [length]).** [Silent writing, then cluster.] Output:
+   [cards on the board].
+3. **[Step] ([time], [length]).** [What happens.] Output: [what exists
+   afterwards].
+4. **[Step] ([time], [length]).** [What happens.] Output: [what exists
+   afterwards].
+5. **Close ([time], 10 to 15 min).** Read back the decisions, the actions,
+   the teams involved and the next steps. Output: the action list.
 
 ## Materials
 
-- [Shared board or cards and pens]
+- [Shared board, or cards and pens, plus a typed alternative]
 - [The findings, one per slide]
 - [The draft decision statement]
 
 ## Ground rules (said at the start)
 
-- Silent writing before discussion.
+- Silent writing comes before discussion.
 - Everything goes on the board, not in someone's memory.
-- Nobody leaves without the actions and owners being read back.
+- Votes are cast privately and shown together.
+- Nobody leaves until the actions and the teams involved have been read
+  back.
 
-## Synthesis (filled in after)
+<!-- core/templates/workshop-summary.md -->
 
-- **Decision or actions:** [ ]
-- **Owners:** [ ]
-- **Assumptions recorded / ideas not chosen:** [ ]
-- **Next check-in:** [date]
+# Workshop summary: [study name]
+
+| Document details | |
+| --- | --- |
+| Team | [team that ran the workshop] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
+
+Status is Draft, Under review or Final. It changes only when the
+researcher says so.
+
+[One or two sentences that lead with the result: what the room decided or
+agreed to do. Name the workshop, its date with the month in words, and who
+took part by role or team.]
+
+## What we decided
+
+[What the room decided, in the terms of the workshop type: the decision
+statement as rewritten, the picture of users it agreed, the direction it
+chose, the short list, or what the next version of the design changes.
+Add the deadline and the teams involved.]
+
+[If the team writes hills: the hill the room agreed, in its own words.
+Leave this out otherwise.]
+
+## Actions
+
+| Action | Teams involved | Rests on | Moves |
+| --- | --- | --- | --- |
+| [Specific action] | [Teams] | [Finding number] | [Goal or metric, in the team's names] |
+
+Teams agree among themselves who takes each action.
+
+## What we're still unsure of
+
+[The believed and disputed assumptions and the research questions they
+became, the gaps in the empathy map, or the "How might we" questions the
+room didn't get to.]
+
+## Ideas we didn't choose
+
+[Each idea in a full sentence, with one line on why it wasn't picked, so
+nobody has to rerun the session to find it.]
+
+## Next steps
+
+[The next steps the room agreed, with the teams involved and dates. When
+the room meets again to check progress.]
 
 <!-- core/team/intake-form.md -->
 
