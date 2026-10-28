@@ -2,7 +2,7 @@
 
 Magpie is a free, open-source research helper for user researchers. You
 run it inside the AI assistant you already use (Claude, ChatGPT, Gemini, or
-Microsoft 365 Copilot).
+Copilot).
 It works with you on a study from the first question, "Do we already know
 this?", to a report your product manager, designer, and engineer can act
 on. It's built for researchers, and for PMs and designers doing their own
