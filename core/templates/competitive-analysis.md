@@ -12,21 +12,23 @@ How do people get [job] done in other tools, and what would fit our
 - **Persona and journey step:** [from the study record]
 - **What we know about our users here:** [from the evidence log; one or
   two lines; "nothing yet" is fine]
+- **Access:** [hands-on / public sources only / mixed: say which tools]
 
 ## The set
 
-| Tool | Why it's in | How it solves the job | Observed on |
-| --- | --- | --- | --- |
-| [direct competitor] | | | [date] |
-| [direct competitor] | | | |
-| [different approach, e.g. spreadsheet or adjacent tool] | | | |
+| Tool | Why it's in | How it solves the job | How we saw it | Sources and date |
+| --- | --- | --- | --- | --- |
+| [direct competitor] | | | [walked / shown / described] | [help doc URL, demo video, screenshots; date] |
+| [direct competitor] | | | | |
+| [different approach, e.g. spreadsheet or adjacent tool] | | | | |
 
 ## Fit matrix
 
 Each cell: how the tool handles the step, what it assumes about the user,
-and whether that holds for our persona. What the tool does is observed.
-Why, and whether its users like it, is an assumption unless labelled with
-evidence.
+and whether that holds for our persona, marked (walked), (shown) or
+(described). A step nobody could see is "not shown publicly", not a guess.
+What the tool does is observed only when it was walked or shown. Why, and
+whether its users like it, is an assumption unless labelled with evidence.
 
 | Job step | [Tool 1] | [Tool 2] | [Tool 3] |
 | --- | --- | --- | --- |
@@ -58,7 +60,8 @@ One per pattern worth considering.
 
 Their users' satisfaction, their data, why they chose it, whether it works
 at scale for people like ours. Say it here so nobody reads the matrix as
-proof.
+proof. If any tool was seen only through public sources, say that its
+errors, dead ends and slow steps are mostly invisible here.
 
 ## Next step
 
