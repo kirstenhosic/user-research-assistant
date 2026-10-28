@@ -222,6 +222,15 @@ completion rate, an ease rating, a task time. Report each with the range
 it could sit in, computed by a method that works at that sample size.
 Textbook methods built for large samples go wrong here.
 
+Most researchers doing this work have a tool that reports these numbers
+for them (an unmoderated testing platform, a survey tool, a published
+calculator). When it does, Magpie's job is to read what the tool
+produced, not to redo it: ask which method and confidence level it
+used and on what sample, check that the method suits the sample size
+(a plain interval on ten people is the common weak spot), and put the
+result into plain words for the readout. The rules below are for when
+the tool gives no range, or gives one that doesn't fit the sample.
+
 - **Decide what kind of number it is first.** A pass/fail count (a rate)
   and a measurement (a time, a rating) take different methods. Then
   decide what the question is: how sure we are of this number (an

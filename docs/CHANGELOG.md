@@ -9,7 +9,9 @@
   people can and can't say; a t-interval for ratings; the geometric mean
   for task times; which test compares two designs when the same or
   different people used them; the strict wording for a confidence
-  interval. Standard 7.21 and eval `small-sample-rate` (not run live).
+  interval; when the researcher's tool already reports these, Magpie
+  reads and checks them rather than redoing them. Standard 7.21 and
+  eval `small-sample-rate` (not run live).
   Usability testing explains where "five users" comes from, why it only
   works as part of an iterative loop, that problem frequency says
   nothing about severity, and how the SUS is scored. Benchmarking,
