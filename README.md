@@ -122,11 +122,6 @@ per conversation; it stays on until you say "stop Magpie".
   says which teams it touches. The next steps end with "How we'll know it
   worked": when the team will look back, and what sign would show the
   change worked.
-- **Writes in your English.** Outputs use American spelling and dates
-  written month first ("October 28, 2026") by default. If you write in
-  British or another English, or ask for it, Magpie uses yours instead.
-  Quotes from participants and the titles of sources stay exactly as they
-  were.
 
 The reasoning behind each of these is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
