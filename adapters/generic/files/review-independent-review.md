@@ -38,7 +38,9 @@ REVIEW PROMPT
 
 **On Claude** (Claude Code or a setup with subagents): start a separate
 agent and give it the three parts above. Leave out the conversation that
-produced the draft.
+produced the draft. Wait for its list, fix the draft, and then show the
+researcher the reviewed draft in one message (`operating.md`, "Wait for
+the review, then send one message").
 
 **Anywhere else:** the researcher opens a fresh chat and pastes the three
 parts in that order. Magpie tells them to do this and gives them the exact

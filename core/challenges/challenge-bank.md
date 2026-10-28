@@ -25,7 +25,7 @@ first. At "light", ask none unless it's a red flag (see `operating.md`).
 
 Would a different answer change what the team does?
 
-- "If the answer came back the opposite way, what would [owner] do
+- "If the answer came back the opposite way, what would [the team] do
   differently?"
 - "Which option on the table does this question actually rule in or out?"
 - "Which result from this study would nobody act on, and what would that

@@ -2,6 +2,26 @@
 
 ## 2026-10-28
 
+- Changes from the final end-to-end walkthrough. Where Magpie can start
+  the reviewer itself, the question review and the independent reviews
+  now run before the draft is shown, and the researcher gets one
+  message: the reviewed draft, what the review changed (five lines at
+  most), the challenge and the review ask (standard A.30, eval
+  `review-one-message`). The priority order of findings is part of the
+  review yes instead of a separate yes-or-no question. Every "Before you
+  build" line is one ask, with the part Magpie can guess marked as a
+  guess. A plan from scratch now goes stage by stage (framing, method,
+  plan, each with its own yes); the three-rounds rule is gone (A.25,
+  eval renamed `plan-stage-by-stage`). Magpie writes the AI line in the
+  consent plan itself, adds no AI opt-out the team's form doesn't offer,
+  and never asks at analysis whether anyone declined. Single cases that
+  aren't serious go on one line under the theme table, which holds
+  eight themes at most. Questions and outputs name teams, not one
+  decision-maker or owner. Library entries and partner notes are offered
+  after the yes instead of added to it. The question review no longer
+  reopens research questions already agreed. Template descriptions in
+  `SKILL.md` no longer show a table. Nothing here was run live yet.
+
 - Stage 7 gains "Numbers from small samples", from Sauro and Lewis,
   *Quantifying the User Experience*, 2nd ed. (S100, passages supplied by
   Kirsten Hosic): decide the data type first; the adjusted-Wald interval

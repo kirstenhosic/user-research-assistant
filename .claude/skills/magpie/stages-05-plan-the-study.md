@@ -24,18 +24,21 @@ raises, within the same six.
 **Minimum to draft:** the decision it serves and who the participants
 are.
 
-- The decision, its owner and deadline, and the business goal it serves.
+- The decision it serves, with its date.
 - The research questions and hypotheses.
-- Who the participants are, how many, and where they'll come from.
-- The team's rules on consent, recording, data storage and incentives.
-- Dates that constrain the study: when sessions can run, when the readout
-  is due, holidays and team availability.
-- Who's on the study team, and who will moderate and take notes.
+- Who the participants are. Propose how many from the method rather
+  than asking.
+- Where participants will come from.
+- The team's rules for consent and recordings (for example a standard
+  form, where recordings are kept, for how long).
+- Incentives, if stage 4 didn't settle them.
+- Dates when sessions can't run (holidays, team time off).
+- Who moderates and takes notes.
 
 If stages 3 and 4 aren't done yet, don't squeeze all of this into one
-message. Gather it in up to three rounds (frame, method, plan), six
-questions at most each, and build the plan once (`operating.md`, "A plan
-from scratch takes rounds").
+message. Frame the study and choose the method first, each with its own
+questions and its own yes, then ask this list (`operating.md`, "A plan
+from scratch goes stage by stage").
 
 ## What to do
 
@@ -60,8 +63,9 @@ from scratch takes rounds").
    study, say how entries are captured and cover consent for each
    format (`methods-diary-studies.md`, "Ways to capture entries"). If an
    AI tool will moderate, transcribe, summarize or analyze the sessions,
-   Magpie included, say what participants are told about it
-   (`checks-ethics-and-consent.md`). If the study touches
+   Magpie included, write the plain line participants are told about it
+   (`checks-ethics-and-consent.md`), without asking whether their form
+   has one. If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
    red flag if missing.
 5. **Set the timeline backwards from the decision deadline.** Readout date

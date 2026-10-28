@@ -33,8 +33,8 @@ down, or lower their priority.
   5 of 8), and reach says how common it is across all users isn't known.
 - Color coding is low priority and weak or moderate (2 of 8, opinion).
 - Priority and confidence are shown side by side; the findings are in
-  priority order, and the researcher is asked whether the order matches
-  theirs.
+  priority order, and the researcher can move any up or down; the review
+  yes covers the order, with no separate yes-or-no question about it.
 
 ## Fail
 

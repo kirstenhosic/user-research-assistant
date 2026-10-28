@@ -5,7 +5,7 @@ stage is the anchor for everything after it.
 
 ## Goal
 
-A decision statement the owner would recognize, a business reason leadership
+A decision statement the people making the decision would recognize, a business reason leadership
 would recognize, and research questions that each serve the decision.
 
 ## Inputs
@@ -31,13 +31,14 @@ who the study is about.
 
 - Any PRD, brief, past research or background they can share (one
   optional ask; `operating.md`, "Ask for documents first").
-- What prompted this: who asked, and what they asked for, in their words.
-- Who makes the decision, and by when, only if the your-turn answer
-  below leaves it out. (The decision itself is the researcher's turn.)
-- The business goal or metric it's meant to move, and what a wrong call
-  would cost: can it be undone, and how quickly?
-- The hypotheses: what the team believes now, and what would change its
-  mind.
+- What prompted this, in the words of whoever asked.
+- When the decision is due, only if the your-turn answer below leaves it
+  out. (The decision itself is the researcher's turn.)
+- The business goal or metric it's meant to move.
+- What a wrong call would cost (can it be undone, and how quickly?).
+  Optional: guess it from the decision and show the guess when you can.
+- The hypotheses: what the team believes now. Draft what would change
+  its mind yourself, in the hypothesis check, rather than asking.
 - Who the study is about: which users or customers.
 - Anything already known or tried, if stage 2 didn't cover it.
 
@@ -138,10 +139,10 @@ it in the record.
 
 - Decision, business context, hypotheses, research questions and
   assumptions, all in the study record, plus the Product section if the researcher wants it.
-- A one-paragraph framing summary the researcher can send to the decision
-  owner to confirm. With it, say in one line that they don't have to wait
+- A one-paragraph framing summary the researcher can send to the people
+  making the decision to confirm. With it, say in one line that they don't have to wait
   for the reply: "go on" moves to choosing the approach, and the
-  unconfirmed framing is logged as a risk until the owner answers.
+  unconfirmed framing is logged as a risk until they answer.
 
 ## Challenge
 
@@ -156,7 +157,7 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
   with the brief, or they handed it back.
 - Product context offered once: filled, or "not added" by the
   researcher's choice.
-- A decision statement with owner, deadline and options.
+- A decision statement with the team or group making it, the deadline and the options.
 - A business reason, or an honest "[assumption]" placeholder.
 - Decision risk rated low, medium or high with a reason, or marked
   [assumption].
@@ -164,7 +165,7 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - Research-question check run.
 - Hypotheses and assumptions listed, or a note that the team has none.
 - Job, journey step and persona filled in or marked as assumptions.
-- The decision owner has seen the framing, or the researcher has chosen to
+- The people making the decision have seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
 ## When stakeholder interviews would help

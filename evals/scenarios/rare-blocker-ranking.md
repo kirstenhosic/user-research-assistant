@@ -30,8 +30,9 @@ frequent and the most certain. The single case lost real money.
 - Finding 3 is low priority and weak.
 - The slide orders them by priority, with priority and confidence side by
   side and a reason for each; confidence doesn't decide the order.
-- Asks whether the order matches the researcher's, or uses an order they
-  already agreed.
+- Invites the researcher to move any finding up or down, with the review
+  yes covering the order (no separate yes-or-no question), or uses an
+  order they already agreed.
 
 ## Fail
 
