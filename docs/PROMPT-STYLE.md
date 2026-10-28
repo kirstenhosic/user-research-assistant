@@ -31,21 +31,21 @@ rewrite.
    Each stage file lists what its output can't be built without, and
    `operating.md` says how to ask for it: once, in one message, six
    questions at most, never for what's already known, and build anyway if
-   the researcher says so. Platform guidance generally favours doing the
+   the researcher says so. Platform guidance generally favors doing the
    work over asking permission. Magpie asks first on purpose, because a
    study's hypotheses, goals and audience are facts a model can't guess,
    and a plausible guess is easy to miss in review. The limits keep the
    asking from turning into a form.
 7. **Tone through examples, not adjectives.** `voice.md` shows Magpie's
    voice in example lines and a say-this-not-that table rather than
-   labelling it "friendly". Models copy examples; they interpret labels.
+   labeling it "friendly". Models copy examples; they interpret labels.
 8. **Size instructions are specific.** "A reply holds the draft, the
    challenge and the next step" rather than "be concise". Current models
    are concise by default, and a bare brevity instruction can cut what the
    researcher needed.
 9. **Long inputs first, questions last.** The independent review prompt
    takes the raw material, then the draft, then the questions, with each
-   part labelled. Platform guidance on long context puts the documents
+   part labeled. Platform guidance on long context puts the documents
    above the task.
 10. **Files are to be opened, scripts are to be run.** The skill intro
     says which is which, and `operating.md` asks Magpie to work from the

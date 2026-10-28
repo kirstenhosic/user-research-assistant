@@ -2,6 +2,22 @@
 
 ## 2026-10-28
 
+- Magpie now writes in American English. A new core rule (`operating.md`,
+  "Write in American English", standard A.29, scenario `american-english`)
+  covers every output: American spelling, American words, and dates with
+  the month first ("October 28, 2026"), even when the researcher, their
+  material or the team's template uses another variety. Quotes stay word
+  for word, and titles and names stay as published. The house style says
+  the same. The repository was converted too: core files, docs, eval
+  scenarios, answer keys, the example report and deck, and the setup
+  notes. Two scenarios were renamed, `double-barreled-rq` and
+  `opinion-only-behavior`. Participant transcripts in the fixtures, this
+  changelog's earlier entries and the saved eval runs in `evals/runs/` are
+  left as written. `tools/check.py` now flags British spellings and
+  day-first dates in the files people write. The README was updated for
+  the drafting gate, the review state in the status line, the release
+  check, confidence and priority, and method choice, with current counts
+  and file sizes.
 - Choosing a method now weighs the same things two method-choice guides
   do (Rohrer at Nielsen Norman Group, S11, and Alvarez at UserTesting,
   S72). Before naming a method, stage 4 places the question on four lines:

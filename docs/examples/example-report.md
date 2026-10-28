@@ -1,6 +1,6 @@
 # Research report: Why mid-size customers abandon export in Ledgerline
 
-**Author:** Priya Nair · **Date:** 14 October 2026 · **For:** the Reporting team ·
+**Author:** Priya Nair · **Date:** October 14, 2026 · **For:** the Reporting team ·
 **Study record:** [link to study record]
 
 **Fictional example.** Ledgerline, its customers and its participants are made up to show what a Magpie report looks like when filled in.
@@ -21,27 +21,27 @@
 
 ## Summary
 
-Reporting has to decide by 30 October whether to rebuild the export dialog or fix the import step that feeds it. The evidence supports fixing import first. 6 of 8 participants abandoned an export during the session, and for 5 of those 6 the cause was columns that were never mapped at import, not the dialog itself. Both participants from finance teams could not get a file their finance system would accept. Confidence is moderate: 8 sessions, and all participants were recruited through Customer Success (CS). The main recommendation is a check at import that warns about skipped columns, with the dialog rebuild held until that check ships.
+Reporting has to decide by October 30 whether to rebuild the export dialog or fix the import step that feeds it. The evidence supports fixing import first. 6 of 8 participants abandoned an export during the session, and for 5 of those 6 the cause was columns that were never mapped at import, not the dialog itself. Both participants from finance teams could not get a file their finance system would accept. Confidence is moderate: 8 sessions, and all participants were recruited through Customer Success (CS). The main recommendation is a check at import that warns about skipped columns, with the dialog rebuild held until that check ships.
 
 ## Why we did this
 
 - **The product:** Ledgerline is accounting software for mid-size businesses. This study covers export, where report builders send report data to other tools; report builders use it weekly, and the finance team receives what they send.
-- **The decision:** By 30 October, the Reporting team will decide whether Q1 engineering time goes to a redesigned export dialog, to the import step, or to neither.
-- **The business need:** "Weekly active sharers" is the Reporting team's goal metric for H2 [team profile]. Support logged 212 export-related tickets in Q3 [partner data, Support, 2 October 2026]. A rebuilt dialog would cost about one engineer-quarter [assumption, from the Reporting team].
+- **The decision:** By October 30, the Reporting team will decide whether Q1 engineering time goes to a redesigned export dialog, to the import step, or to neither.
+- **The business need:** "Weekly active sharers" is the Reporting team's goal metric for H2 [team profile]. Support logged 212 export-related tickets in Q3 [partner data, Support, October 2, 2026]. A rebuilt dialog would cost about one engineer-quarter [assumption, from the Reporting team].
 - **What we already knew:** A 2025 survey found export was the second most-used feature among admins [their data, evidence log E2]. There was no earlier research on why exports fail. Field reps report that "customers hate the export" [partner data, indirect].
 - **The questions:** The primary question was why mid-size customers abandon exports in their first 90 days. The secondary questions were where in the flow they abandon, and what they do instead.
 - **Where it sits:** The job is getting this month's numbers into the finance system, in step 3 of 4 of the "Share a report" journey, for the Report builder persona.
 
 ## What we did
 
-We ran 8 remote sessions of 45 minutes between 6 and 10 October 2026. Each was a short interview about the participant's last export, then a usability task on their own account: export last month's revenue report to CSV. Participants were report builders at mid-size customers (50 to 500 seats) who had used Ledgerline for under 90 days, recruited from our own customers by the CS team. We chose sessions over a survey because the question was why, and over analytics alone because the funnel shows where people stop but not what they were trying to do. The plan and guide are in appendix C.
+We ran 8 remote sessions of 45 minutes between October 6 and 10, 2026. Each was a short interview about the participant's last export, then a usability task on their own account: export last month's revenue report to CSV. Participants were report builders at mid-size customers (50 to 500 seats) who had used Ledgerline for under 90 days, recruited from our own customers by the CS team. We chose sessions over a survey because the question was why, and over analytics alone because the funnel shows where people stop but not what they were trying to do. The plan and guide are in appendix C.
 
 ## Top findings
 
 1. **For 5 of 8, export failed because import never mapped the columns.** The dialog wasn't the cause. · Strong
 2. **Both finance-team participants could not get a file their finance system accepts.** Their reconciliation tools need a column order export can't produce. · Weak · serious case
 3. **6 of 8 work around export by emailing the file to a colleague.** The export funnel counts these as completed. · Strong
-4. **7 of 8 couldn't say what "Include hidden fields" does.** It's a labelling problem, not a reason to abandon. · Moderate
+4. **7 of 8 couldn't say what "Include hidden fields" does.** It's a labeling problem, not a reason to abandon. · Moderate
 
 ## Findings in detail
 
@@ -95,13 +95,13 @@ P1, P3, P4, P6, P7 and P8 had each sent a raw export to a colleague to fix by ha
 
 **Strength:** Moderate, because 7 of 8 is a clear pattern, but we didn't test other labels.
 
-Everyone except P8 either skipped the checkbox, or ticked it and then unticked it when the preview changed. None of the 7 could say what a hidden field was.
+Everyone except P8 either skipped the checkbox, or checked it and then unchecked it when the preview changed. None of the 7 could say what a hidden field was.
 
 > "Hidden from who?" — P4, reporting lead, 310 seats
 
 **What cuts against it:** P8 used the option correctly after reading the help article.
 
-**What it means:** This is a cheap labelling fix inside the dialog. It isn't why people abandon, but it costs little to fix.
+**What it means:** This is a cheap labeling fix inside the dialog. It isn't why people abandon, but it costs little to fix.
 
 ## Other findings
 
@@ -124,8 +124,8 @@ Recommendation 2 is the uncomfortable one, because the study was commissioned to
 
 ## Next steps
 
-1. Support counts the finance-team customers by 24 October.
-2. The Reporting team decides by 30 October, with this report and the readout deck as the inputs.
+1. Support counts the finance-team customers by October 24.
+2. The Reporting team decides by October 30, with this report and the readout deck as the inputs.
 3. If recommendation 1 goes ahead, the researcher runs 3 follow-up sessions with finance-team customers in November to test the column-order need.
 4. The open question is whether the same import gap affects scheduled reports. Nothing answers it yet, so it goes on the research backlog.
 
@@ -134,7 +134,7 @@ Recommendation 2 is the uncomfortable one, because the study was commissioned to
 - **Recruiting:** All 8 participants were recruited through CS, so they're customers CS already knows. Self-serve customers may differ.
 - **Finance teams:** Only 2 of 8 were from finance teams, so finding 2 could be bigger or smaller than it looks.
 - **Own accounts:** Sessions used participants' own accounts, so we saw their real data but couldn't control how recently they had imported.
-- **Skipped challenge:** We didn't pull the export funnel from analytics before recruiting, so we can't say what share of all customers hit finding 1. This was logged as a risk on 3 October 2026.
+- **Skipped challenge:** We didn't pull the export funnel from analytics before recruiting, so we can't say what share of all customers hit finding 1. This was logged as a risk on October 3, 2026.
 
 ## Glossary
 
@@ -146,8 +146,8 @@ Recommendation 2 is the uncomfortable one, because the study was commissioned to
 - [A. Participant profile](#a-participant-profile)
 - B. Full findings with coding frame and all supporting quotes
 - C. Research plan, interview guide and usability task script
-- D. Partner data used: Support ticket export (2 October 2026), field rep summary (29 September 2026), 2025 admin survey (E2)
-- E. Consent, recording, storage and retention: standard notice v3, which tells participants an AI assistant helps analyse the sessions; recordings deleted 14 January 2027
+- D. Partner data used: Support ticket export (October 2, 2026), field rep summary (September 29, 2026), 2025 admin survey (E2)
+- E. Consent, recording, storage and retention: standard notice v3, which tells participants an AI assistant helps analyze the sessions; recordings deleted January 14, 2027
 - F. Independent review: 11 points raised, 8 accepted, 3 answered (see the record's change log)
 - [G. How AI was used](#g-how-ai-was-used)
 - H. Library entries: three, one per strong finding
@@ -170,6 +170,6 @@ Recommendation 2 is the uncomfortable one, because the study was commissioned to
 
 - **Assistant:** Magpie, running in Claude Code.
 - **What it drafted:** the research plan, the interview guide and task script, the candidate themes and findings, this report and the readout deck.
-- **What the researcher did:** Priya framed the decision and the research questions, ran all 8 sessions, named her own patterns before seeing Magpie's themes, kept, changed or dropped each theme, and wrote the recommendations. She reviewed the findings on 12 October 2026 and this report on 14 October 2026.
+- **What the researcher did:** Priya framed the decision and the research questions, ran all 8 sessions, named her own patterns before seeing Magpie's themes, kept, changed or dropped each theme, and wrote the recommendations. She reviewed the findings on October 12, 2026 and this report on October 14, 2026.
 - **Checks:** quotes and counts were checked by code against the transcripts. A separate AI reviewer saw only the transcripts and the draft findings, raised 11 points, and 8 changed the findings. The reviewer is a model too and can be wrong.
 - **Other AI tools in the study:** the sessions were transcribed by the video tool's built-in transcription, and Priya corrected the transcripts against the recordings.

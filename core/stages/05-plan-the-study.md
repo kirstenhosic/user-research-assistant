@@ -43,10 +43,10 @@ from scratch takes rounds").
    from the record. Where something is unknown, follow `operating.md`,
    "Gather context before you build": a guess the researcher let stand is
    marked [assumption], and anything that can't be guessed (a date, a
-   name, a budget) is a labelled blank such as "[recruiting start date]".
+   name, a budget) is a labeled blank such as "[recruiting start date]".
 2. **Write the recruiting criteria.** Who's in, who's out, and why each
    criterion matters for the decision. Use the team's persona or segment
-   names where they exist, always with the behaviour that defines them.
+   names where they exist, always with the behavior that defines them.
    If the Product section names end users, start from them, and recruit
    buyers or admins only when the decision is about them, saying so. Include the
    people who tried and left if the decision depends on them.

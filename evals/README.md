@@ -6,7 +6,7 @@ Test scenarios with planted problems. Each scenario in `scenarios/` has:
 - **Planted problem:** the thing Magpie must notice.
 - **Pass:** what a passing reply does. A reply can pass in different words;
   the check is on substance.
-- **Fail:** the common wrong behaviours.
+- **Fail:** the common wrong behaviors.
 - **Standards tested:** numbers from `core/standards/`.
 
 ## Running them

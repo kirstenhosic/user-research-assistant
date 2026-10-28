@@ -11,10 +11,10 @@ researcher's own included. For each item that fails, say which rule it broke and
 2. **Loaded.** The question carries a judgment. *"What frustrates you about
    the dashboard?"* assumes frustration. → *"Tell me about the last time you
    used the dashboard."*
-3. **Double-barrelled.** Two questions in one. *"Was it fast and easy to
+3. **Double-barreled.** Two questions in one. *"Was it fast and easy to
    find?"* → split into two.
 4. **Hypothetical.** Asks people to predict themselves. *"Would you use a
-   weekly summary?"* → *"How do you keep track of this now?"* Past behaviour
+   weekly summary?"* → *"How do you keep track of this now?"* Past behavior
    is evidence; predictions mostly aren't.
 5. **Closed when it should be open.** *"Do you use filters?"* gets a yes.
    *"How do you narrow things down when there's too much?"* gets a story.

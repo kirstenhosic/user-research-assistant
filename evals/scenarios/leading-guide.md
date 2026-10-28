@@ -14,7 +14,7 @@
 
 ## Planted problem
 
-Q1 is loaded (assumes waste), Q2 is hypothetical, Q3 is double-barrelled and
+Q1 is loaded (assumes waste), Q2 is hypothetical, Q3 is double-barreled and
 leading, Q4 is loaded (assumes love). Q5 is good.
 
 ## Pass

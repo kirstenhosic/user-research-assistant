@@ -28,7 +28,7 @@ Each cell: how the tool handles the step, what it assumes about the user,
 and whether that holds for our persona, marked (walked), (shown) or
 (described). A step nobody could see is "not shown publicly", not a guess.
 What the tool does is observed only when it was walked or shown. Why, and
-whether its users like it, is an assumption unless labelled with evidence.
+whether its users like it, is an assumption unless labeled with evidence.
 
 | Job step | [Tool 1] | [Tool 2] | [Tool 3] |
 | --- | --- | --- | --- |

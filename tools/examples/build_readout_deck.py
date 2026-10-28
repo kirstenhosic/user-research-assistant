@@ -84,7 +84,7 @@ s = slide(dark=True); n += 1; TITLES.append("Export isn't the problem. Import is
 text(s, M, Inches(2.3), Inches(11), Inches(0.35), "UX RESEARCH READOUT · LEDGERLINE", size=13, bold=True, color=LEAF)
 text(s, M, Inches(2.75), Inches(12), Inches(1.0), "Export isn't the problem. Import is.", size=48, font=SERIF, bold=True, color=WHITE)
 text(s, M, Inches(3.95), Inches(11), Inches(1.2), ["Why new customers give up on export, and what to do about it",
-     [("14 October 2026 · Priya Nair, UX Research · For the Reporting team", {"size": 16, "color": LEAF})]], size=22, color=WHITE)
+     [("October 14, 2026 · Priya Nair, UX Research · For the Reporting team", {"size": 16, "color": LEAF})]], size=22, color=WHITE)
 text(s, M, Inches(7.0), Inches(6), Inches(0.25), "Fictional example · made with Magpie", size=10, color=LEAF)
 notes(s, "Open with the answer. The rest of the deck shows how we know.")
 
@@ -111,7 +111,7 @@ for i, (h, b) in enumerate([("Option A", "Rebuild the export screen"), ("Option 
     text(s, x + Inches(0.35), Inches(2.3), Inches(3.3), Inches(0.35), h.upper(), size=12, bold=True, color=SLATE)
     text(s, x + Inches(0.35), Inches(2.7), Inches(3.3), Inches(1.0), b, size=24, font=SERIF, bold=True, color=GREEN)
 text(s, M, Inches(4.35), Inches(8.0), Inches(2.4), [
-    [("Decision by: ", {"bold": True}), ("30 October, by the Reporting team.", {})],
+    [("Decision by: ", {"bold": True}), ("October 30, by the Reporting team.", {})],
     [("Why it matters: ", {"bold": True}), ("212 export tickets last quarter, and more weekly sharing is the team's goal for the second half of the year.", {})],
     [("What we asked: ", {"bold": True}), ("Why do new customers give up on export in their first 90 days?", {})]], size=17, spacing=1.15)
 box(s, Inches(9.25), Inches(2.0), Inches(3.4), Inches(2.9), fill=MIST, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.05)
@@ -234,7 +234,7 @@ for i, (num, act, owner, why) in enumerate(recs):
 text(s, M, Inches(6.55), Inches(11.9), Inches(0.35), "Who takes each one is for the teams to agree together.", size=14, color=MUTED)
 
 # 13 Next
-s = slide(); n += 1; header(s, "What happens next", "The team decides by 30 October", n=n)
+s = slide(); n += 1; header(s, "What happens next", "The team decides by October 30", n=n)
 steps = [("24 Oct", "Support counts the finance-team customers", "So we know how big finding 2 is."),
          ("30 Oct", "The team decides", "Using this deck and the report."),
          ("November", "3 follow-up sessions", "With finance teams, if the import warning goes ahead."),
@@ -275,7 +275,7 @@ for i, row in enumerate(rows):
 s = slide(); n += 1; header(s, "Appendix", "How AI was used", n=n)
 text(s, M, Inches(2.0), Inches(11.5), Inches(4.6), [
     [("Magpie, an AI research assistant, ", {"bold": True}), ("drafted the plan, the interview guide, the findings, the report and this deck.", {})],
-    [("The researcher ", {"bold": True}), ("ran every session, noted their own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. They reviewed the findings on 12 October and this deck on 14 October.", {})],
+    [("The researcher ", {"bold": True}), ("ran every session, noted their own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. They reviewed the findings on October 12 and this deck on October 14.", {})],
     [("Checks: ", {"bold": True}), ("quotes and counts were checked by code against the transcripts. A separate AI reviewer raised 11 points, and 8 changed the findings. That reviewer can be wrong too.", {})],
     [("Transcripts ", {"bold": True}), ("came from the video tool, and the researcher corrected them against the recordings.", {})]], size=18, spacing=1.2)
 

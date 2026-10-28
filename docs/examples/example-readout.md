@@ -4,7 +4,7 @@
 
 ## 1. Export isn't the problem. Import is.
 
-Why new customers give up on export, and what to do about it · 14 October 2026 · Priya Nair, UX Research · For the Reporting team
+Why new customers give up on export, and what to do about it · October 14, 2026 · Priya Nair, UX Research · For the Reporting team
 
 ## 2. What we learned, in short
 
@@ -20,14 +20,14 @@ So: fix import first, then decide whether the export screen still needs a rebuil
 
 - **Option A:** Rebuild the export screen.
 - **Option B:** Fix the import step that feeds it.
-- **Decision by:** 30 October, by the Reporting team.
+- **Decision by:** October 30, by the Reporting team.
 - **Why it matters:** 212 export tickets last quarter, and more weekly sharing is the team's goal for the second half of the year.
 - **What we asked:** Why do new customers give up on export in their first 90 days?
 - **What we already knew:** Export is the second most-used admin feature (2025 survey). Field reps hear that "customers hate the export". Nobody had asked why it fails.
 
 ## 4. We watched 8 customers try a real export
 
-8 customers, one at a time · 45 minutes each, by video call · under 90 days since they signed up · 6 to 10 October 2026.
+8 customers, one at a time · 45 minutes each, by video call · under 90 days since they signed up · October 6 to 10, 2026.
 
 Each person told us about the last export they tried, then exported last month's revenue report on their own account while we watched. They all build and share reports at companies with 50 to 500 Ledgerline seats, and our Customer Success team helped us find them.
 
@@ -105,10 +105,10 @@ All weak evidence. Every finding from the study is in this deck or the report's 
 
 Who takes each one is for the teams to agree together.
 
-## 13. The team decides by 30 October
+## 13. The team decides by October 30
 
-1. **24 October:** Support counts the finance-team customers, so we know how big finding 2 is.
-2. **30 October:** the team decides, using this deck and the report.
+1. **October 24:** Support counts the finance-team customers, so we know how big finding 2 is.
+2. **October 30:** the team decides, using this deck and the report.
 3. **November:** 3 follow-up sessions with finance teams, if the import warning goes ahead.
 4. **Later:** one open question. Does the import problem affect scheduled reports too?
 
@@ -136,6 +136,6 @@ Magpie drafted this slide and the researcher chose to keep it. The limits are in
 ## 16. How AI was used
 
 - **Magpie, an AI research assistant,** drafted the plan, the interview guide, the findings, the report and this deck.
-- **The researcher** ran every session, noted their own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. They reviewed the findings on 12 October and this deck on 14 October.
+- **The researcher** ran every session, noted their own patterns before seeing Magpie's, decided on each finding, and wrote the recommendations. They reviewed the findings on October 12 and this deck on October 14.
 - **Checks:** quotes and counts were checked by code against the transcripts. A separate AI reviewer raised 11 points, and 8 changed the findings. That reviewer can be wrong too.
 - **Transcripts** came from the video tool, and the researcher corrected them against the recordings.

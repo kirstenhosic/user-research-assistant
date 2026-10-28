@@ -146,7 +146,7 @@ has the shape.
 
 ## Pitfalls
 
-- A feature checklist with ticks. It tells you what exists, not what fits.
+- A feature checklist with checkmarks. It tells you what exists, not what fits.
 - Calling a marketing page or a demo video an observation of how the tool
   works for users. A demo shows the happy path.
 - Filling a cell from memory of how a tool used to work.

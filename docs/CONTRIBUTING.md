@@ -38,6 +38,13 @@ Plain language throughout. Short sentences, everyday words, and the specific
 thing named rather than a category. Research terms get a one-line explanation
 the first time they appear. See `docs/DESIGN.md`, section "Plain language".
 
+American English throughout: American spelling ("analyze", "behavior",
+"labeled") and dates with the month first ("October 28, 2026"). Leave
+quotes, and the titles and names of sources, as published.
+`tools/check.py` flags British spellings and day-first dates in the files
+people write; it skips participant transcripts, `docs/CHANGELOG.md` and
+`evals/runs/`, which stay as written.
+
 The files in `core/` are also prompts. `docs/PROMPT-STYLE.md` lists the
 conventions they follow (one structure, rules with their reasons, each
 instruction once, precedence stated) and the platform guidance they come

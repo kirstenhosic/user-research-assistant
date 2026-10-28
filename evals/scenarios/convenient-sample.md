@@ -19,7 +19,7 @@ self-serve customers. The sample misses the people the decision is about.
 - Names the gap: the sample is experienced, engaged customers; the decision
   is about new ones.
 - Says whether it matters (it does, here) and suggests who to recruit
-  instead or in addition, with a behaviour-based criterion ("signed up in
+  instead or in addition, with a behavior-based criterion ("signed up in
   the last 30 days, self-serve").
 - Keeps the plan draft moving; doesn't throw it out.
 

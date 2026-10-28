@@ -30,7 +30,7 @@ RAW MATERIAL
 (transcripts, notes, survey export, with participant codes)
 
 DRAFT
-(the findings; at stage 8, the report and the readout deck, each labelled)
+(the findings; at stage 8, the report and the readout deck, each labeled)
 
 REVIEW PROMPT
 (the text below)

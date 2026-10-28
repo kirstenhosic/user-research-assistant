@@ -74,7 +74,7 @@ again.
    weaknesses on this slide.
 6. **Receipts and the reading check.** Before the top findings are
    chosen: every finding going in has at least two participant references
-   with locations, or is labelled a single case; and Magpie asks, once,
+   with locations, or is labeled a single case; and Magpie asks, once,
    whether the researcher has read the passages behind each of them. Ask
    it with the "Before you build" questions, as one of the six. "Not
    yet" is fine; it goes in the risks until it's done. Magpie's findings
@@ -224,7 +224,7 @@ PM measure to know it worked?"
   line shows it as done.
 - "How AI was used" in the report and readout appendix.
 - The readout, the report and the findings they rest on have the
-  researcher's yes, or are labelled "draft".
+  researcher's yes, or are labeled "draft".
 - Library entries written.
 
 ## Pitfalls

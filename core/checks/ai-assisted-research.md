@@ -59,7 +59,7 @@ unless the researcher keeps it on purpose.
 - Raw transcripts are stored alongside any summaries.
 - **No finding goes into a stakeholder-facing document without receipts:**
   at least two traceable participant references (code and location) per
-  directional claim, or a single case labelled as one.
+  directional claim, or a single case labeled as one.
 - Where the tool links summary claims to timestamped quotes, use that; the
   feature only helps if someone actually follows the links.
 

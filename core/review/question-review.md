@@ -21,7 +21,7 @@ Run it after the wording check (`checks/guide-wording.md` or
 `checks/survey-wording.md`) and in the same reply as the draft, without
 waiting to be asked.
 
-The reviewer gets three things, in this order, each labelled:
+The reviewer gets three things, in this order, each labeled:
 
 ```
 RESEARCH QUESTIONS
@@ -62,7 +62,7 @@ change log. The researcher's call stands on any point.
 > the item, say what's wrong in a sentence, and offer a rewrite.
 >
 > 1. **Does any question lead?** It hints at the answer, praises or
->    criticises the product, or assumes a feeling ("what frustrates you
+>    criticizes the product, or assumes a feeling ("what frustrates you
 >    about…").
 > 2. **Does any question ask two things?** "Fast and easy", "how and why",
 >    "this or that". Split it.
@@ -74,7 +74,7 @@ change log. The researcher's call stands on any point.
 >    specific time would get a real answer.
 > 5. **Is any wording unfamiliar to participants?** Internal feature
 >    names, acronyms, research terms.
-> 6. **For surveys:** one idea per item, balanced and labelled scales,
+> 6. **For surveys:** one idea per item, balanced and labeled scales,
 >    answer options that cover every case without overlapping, a specific
 >    time period, sensitive items late and optional.
 > 7. **Does the order make sense as a conversation?** Easy before hard;

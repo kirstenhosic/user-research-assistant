@@ -40,7 +40,7 @@ reports the label is called **confidence**; the study record keeps the word
      admin, a manager, an internal colleague, a field rep.
 3. **What kind.** Each code is tagged while coding (stage 7, step 4):
    - **Seen:** watched in the session, in a task, in a screen share, or in
-     an artefact the participant showed (a spreadsheet, a workaround).
+     an artifact the participant showed (a spreadsheet, a workaround).
    - **Past time:** the participant described a real, specific time it
      happened ("Last Tuesday I exported it twice").
    - **Opinion:** a general view, a habit described in general ("I
@@ -52,13 +52,13 @@ reports the label is called **confidence**; the study record keeps the word
 
 ### How the checks move the label
 
-- **Opinion-only behaviour is moderate at most.** A finding about what
+- **Opinion-only behavior is moderate at most.** A finding about what
   people do that rests only on opinions or predictions is moderate at most,
   and says so: "what participants said they do; not seen". Opinions are the
   right evidence for a question about views or feelings (how people feel
   about the price), and there the cap doesn't apply.
 - **Stand-in-only is moderate at most.** A finding that rests only on
-  stand-ins is moderate at most, and is labelled "from buyers, not end
+  stand-ins is moderate at most, and is labeled "from buyers, not end
   users" (or whoever it was). Fit "not known" is said in the reason and
   doesn't cap the label.
 - **Agreement can support a higher label.** A source that agrees, named,
@@ -80,7 +80,7 @@ reports the label is called **confidence**; the study record keeps the word
 When a participant says one thing and does another (says they always check
 the preview, then skips it in the task), keep both, with their locations,
 and write the gap as a finding of its own. What people do is usually the
-better guide to behaviour, because what they say is limited by what they
+better guide to behavior, because what they say is limited by what they
 notice and are willing to report (S69). The gap often explains why a
 problem hasn't been reported before.
 
@@ -154,7 +154,7 @@ counts as high priority, because the team needs to know about it.
   confidence line, then impact, reach and priority, each with its reason.
   Show the findings in priority order and ask, in the same reply: "This is
   the order I'd put them in. Does it match yours? Move any up or down."
-  Their order stands; if they don't answer, the order is labelled Magpie's
+  Their order stands; if they don't answer, the order is labeled Magpie's
   draft in the record.
 - **Stage 8.** The top findings, five at most, are the highest priority
   ones for this decision, with ties broken by the primary research

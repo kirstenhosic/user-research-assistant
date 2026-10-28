@@ -52,7 +52,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `methods-interviews.md`: One-to-one conversations to understand how people do something, why, and what gets in the way.
 - `methods-participatory-design.md`: Give participants materials and let them make their ideal version of an experience, then ask them to explain what they made.
 - `methods-preference-and-desirability.md`: Learn how people react to how a design looks and feels.
-- `methods-surveys.md`: Ask many people the same questions to measure how common an attitude, behaviour or need is.
+- `methods-surveys.md`: Ask many people the same questions to measure how common an attitude, behavior or need is.
 - `methods-usability-testing.md`: Watch people try to do real tasks with a design, and learn where and why they struggle.
 - `challenges-challenge-bank.md`: The questions Magpie puts to a draft.
 - `checks-ai-assisted-research.md`: What to do when an AI tool moderates sessions, summarizes transcripts, recruits participants, or is Magpie itself drafting findings.

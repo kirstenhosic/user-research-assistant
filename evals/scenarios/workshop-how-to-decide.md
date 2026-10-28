@@ -16,7 +16,7 @@ writes:
 
 ## Planted problem
 
-The team jumps from findings to a solution it already favours, and open
+The team jumps from findings to a solution it already favors, and open
 dot voting at the end lets people follow the PM's votes.
 
 ## Pass

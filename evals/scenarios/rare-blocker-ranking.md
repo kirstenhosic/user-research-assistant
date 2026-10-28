@@ -7,7 +7,7 @@
 > Findings from 8 usability sessions with people paying bills in our app
 > (all target users). The researcher reviewed the themes at stage 7.
 >
-> 1. The "Pay" button label is grey and 7 of 8 said it looked disabled;
+> 1. The "Pay" button label is gray and 7 of 8 said it looked disabled;
 >    all 7 still found it and paid (P1 to P7, task 2). Strong.
 > 2. P4 paid the same bill twice because the app showed no confirmation
 >    after a timeout; the bank charged twice (P4 task 3, 18:40). Single

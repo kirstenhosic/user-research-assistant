@@ -12,7 +12,7 @@
 >   calendar during the session (P1 08, P2 11, P4 07, P5 12, P7 09). P3, P6
 >   and P8 hadn't had one. P2 and P5 said a double booking meant a client
 >   meeting had to move.
-> - Colour coding: P3 and P6 said they'd like more colours.
+> - Color coding: P3 and P6 said they'd like more colors.
 >
 > Write up the findings with confidence and priority.
 
@@ -31,7 +31,7 @@ down, or lower their priority.
 - Says having no other sources lowers nothing.
 - Priority for double booking is high (it forces client meetings to move;
   5 of 8), and reach says how common it is across all users isn't known.
-- Colour coding is low priority and weak or moderate (2 of 8, opinion).
+- Color coding is low priority and weak or moderate (2 of 8, opinion).
 - Priority and confidence are shown side by side; the findings are in
   priority order, and the researcher is asked whether the order matches
   theirs.

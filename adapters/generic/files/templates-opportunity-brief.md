@@ -1,7 +1,7 @@
 # Research opportunity: [name]
 
 One page the researcher takes to a PM or a leadership team to propose a
-study. Plain words. Every claim labelled by where it came from.
+study. Plain words. Every claim labeled by where it came from.
 
 **Proposed by:** [researcher] · **Date:** [date] · **Would inform:**
 [decision and the team likely to make it]
@@ -24,7 +24,7 @@ names. What it costs to keep not knowing.] [team profile / assumption]
 ## What the market is saying
 
 [One or two lines. Market research, competitor moves, win/loss, buyer
-surveys. Dated and labelled; these are indirect evidence about users.]
+surveys. Dated and labeled; these are indirect evidence about users.]
 [partner data]
 
 ## What we already know

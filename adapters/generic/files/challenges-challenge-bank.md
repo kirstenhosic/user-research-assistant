@@ -121,7 +121,7 @@ What should each partner do differently?
   next "yes" ambiguous.
 - No lecture before it. The question comes first; the reason comes after,
   in one sentence.
-- The reason is about research, not about the researcher: "Past behaviour
+- The reason is about research, not about the researcher: "Past behavior
   is a better guide than a prediction, because people are poor judges of
   what they'll do", not "You should know that...".
 - Skippable, and say so the first time: "Skip this if it's already handled."

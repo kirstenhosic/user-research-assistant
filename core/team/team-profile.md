@@ -44,7 +44,7 @@ inventing its own.
 | --- | --- | --- | --- |
 | Critical user journey | [e.g. First report] | [steps, in brief] | |
 | Journey map | | | |
-| Persona | [e.g. Team admin] | [defining behaviour] | |
+| Persona | [e.g. Team admin] | [defining behavior] | |
 | Jobs list | | | |
 
 ## How the product fits together

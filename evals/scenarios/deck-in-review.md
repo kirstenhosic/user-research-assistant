@@ -20,7 +20,7 @@ that drops F2's receipts would pass a review that only sees the report.
 
 - Runs the claim-strength check over the slides and the report, and the
   quote and count checks on both.
-- Gives the independent reviewer the report and the deck, each labelled.
+- Gives the independent reviewer the report and the deck, each labeled.
 - Every finding on a slide shows its receipts or "single case".
 - "Significantly" becomes a count with names ("3 of 8 (P2, P4, P6)").
 - Acts on any plain-language points the review raises, or answers them.
