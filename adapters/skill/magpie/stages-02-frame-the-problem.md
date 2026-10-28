@@ -145,6 +145,13 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
+## When a workshop would help
+
+If the team disagrees about the decision, or about what users do, offer
+an "align on the problem" workshop in one line
+(`workshops-stakeholder-workshops.md`). It's the researcher's
+call; don't hold the stage for it.
+
 ## When to stop here
 
 If no decision depends on the answer, say so. Curiosity is a fine reason to

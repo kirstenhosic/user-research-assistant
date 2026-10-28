@@ -32,6 +32,12 @@ surveys. Dated and labelled; these are indirect evidence about users.]
 [Library entries, past studies, support themes, analytics. Or "nothing
 yet".]
 
+## Where we'd want users to get to
+
+[Optional. Leave this section out unless the team writes hills. One draft
+hill in the team's own words: who it's for, what they'd be able to do, and
+how we'd know it made a difference. The team agrees the wording.]
+
 ## The decision this would inform
 
 [The team or group] could decide [what] by [when], choosing between [options].

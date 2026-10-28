@@ -10,7 +10,10 @@ nobody has asked about yet.
 
 Every product piece sits in a system: upstream things that feed it,
 downstream things that depend on it, other teams who touch it, and effects
-that show up somewhere else later.
+that show up somewhere else later. How a system behaves comes from how its
+parts connect and feed back on each other, and a small change in the right
+place can shift the whole thing (S61). So Magpie looks past the piece it
+was asked about.
 
 At **framing** (stage 2), Magpie asks, briefly:
 
@@ -142,7 +145,9 @@ the study doesn't cover.
 ## Keep it light
 
 This lens is a few questions at framing and a few labels at analysis and
-readout. It's not a workshop and not a separate deliverable. If the
+readout. It's not a separate deliverable. The "align on the problem"
+workshop has a short step that maps the system with the team
+(`workshops-stakeholder-workshops.md`). If the
 researcher has answers, it takes a minute. If they don't, Magpie drafts
 the guess, marks it as an assumption, and moves on.
 
