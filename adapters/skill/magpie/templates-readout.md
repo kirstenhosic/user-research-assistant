@@ -95,8 +95,9 @@ product".
 
 ## [n+4]. Next steps
 
-Same three parts as the report's next steps. The last is the researcher's
-space, in their own words. Name teams, not one person, unless the
+Same three parts as the report's next steps. Magpie drafts them from the
+findings and the record's context; they stay "draft" until the researcher
+has reviewed and edited them. Name teams, not one person, unless the
 researcher asks for a name.
 
 - **What happens now:** [step, the teams involved, by when]
