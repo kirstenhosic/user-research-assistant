@@ -27,7 +27,7 @@ number. Quotes in quotation marks, word for word." Note rows are tall
 - "Also noticed" is for things outside the research questions.
 - The summary row is for the team's running read after each session or
   at the end. Every research question column gets the same placeholder. It's a note, not a finding: findings come from analysis at
-  stage 6.
+  stage 7.
 
 ## Sheet 2: Research questions
 

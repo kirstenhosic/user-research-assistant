@@ -1,6 +1,6 @@
 # Convenient sample
 
-**Stage:** 4
+**Stage:** 5
 
 ## Setup
 
@@ -31,4 +31,4 @@ self-serve customers. The sample misses the people the decision is about.
 
 ## Standards tested
 
-4.1, 4.2
+5.1, 5.2

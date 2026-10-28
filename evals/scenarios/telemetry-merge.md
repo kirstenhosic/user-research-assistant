@@ -1,6 +1,6 @@
 # Telemetry merge
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -28,4 +28,4 @@ A telemetry rate and an interview theme are merged into one causal claim.
 
 ## Standards tested
 
-6.6
+7.6

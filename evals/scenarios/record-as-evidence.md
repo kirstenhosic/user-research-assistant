@@ -1,6 +1,6 @@
 # Record as evidence
 
-**Stage:** 7, resumed from a pasted record
+**Stage:** 8, resumed from a pasted record
 
 ## Setup
 
@@ -36,4 +36,4 @@ The raw material isn't available. The record is being used as evidence.
 
 ## Standards tested
 
-A.8, 6.4, 7.4
+A.8, 7.4, 8.4

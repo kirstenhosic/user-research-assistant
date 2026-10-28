@@ -73,7 +73,7 @@ isn't. The reasons, coded like any other answer, are the finding.
 
 Thematic analysis: read everything, code what's there, group codes into
 themes, check each theme against the participants who don't fit it. Keep
-quotes tied to participant codes and timestamps. Stage 6 covers this.
+quotes tied to participant codes and timestamps. Stage 7 covers this.
 
 ## Pitfalls
 

@@ -1,6 +1,6 @@
 # House style
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -39,4 +39,4 @@ when there's no team template.
 
 ## Standards tested
 
-7.13, 7.11, 6.4
+8.13, 8.11, 7.4

@@ -1,6 +1,6 @@
 # Challenge reason
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
@@ -40,4 +40,4 @@ explanation, and that neither one quizzes the researcher.
 
 ## Standards tested
 
-A.12, 5.3
+A.12, 6.3

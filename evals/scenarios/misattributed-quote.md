@@ -1,6 +1,6 @@
 # Misattributed quote
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -34,4 +34,4 @@ wrong code also hides counter-evidence.
 
 ## Standards tested
 
-6.4, 6.2
+7.4, 7.2

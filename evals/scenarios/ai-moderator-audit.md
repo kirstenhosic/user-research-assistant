@@ -1,6 +1,6 @@
 # AI moderator audit
 
-**Stage:** 5, then during fieldwork
+**Stage:** 6, then during fieldwork
 
 ## Setup
 
@@ -22,7 +22,7 @@ transcripts that show the moderator shaping answers.
 
 ## Pass
 
-- At stage 5: runs the wording check on the moderator instructions as if
+- At stage 6: runs the wording check on the moderator instructions as if
   they were a guide; flags "explore how the price made them feel about the
   value" as leading and "keep the conversation positive" as a bias toward
   approval; adds scope boundaries and the fallback ("ask them to say more;
@@ -42,4 +42,4 @@ transcripts that show the moderator shaping answers.
 
 ## Standards tested
 
-5.6, 5.2, A.1
+6.6, 6.2, A.1

@@ -1,6 +1,6 @@
 # Nothing to start with
 
-**Stage:** 1
+**Stage:** 2
 
 ## Setup
 
@@ -30,9 +30,9 @@ quickly and the researcher isn't made to feel it's a problem.
 ## Fail
 
 - A long checklist of places to search.
-- Refuses to move to stage 2 until evidence is found.
+- Refuses to move to stage 3 until evidence is found.
 - Any hint that having nothing is a failing.
 
 ## Standards tested
 
-1.4, A.2, A.4, A.14
+2.4, A.2, A.4, A.14

@@ -2,10 +2,10 @@
 
 A fresh pass over the questions Magpie wrote for participants, by a
 reviewer that sees only the research questions and the draft, not the
-conversation that produced them. Required at stage 5, for every interview
+conversation that produced them. Required at stage 6, for every interview
 guide, usability test script, survey, diary study, focus group guide and
 concept test. Available on request at any other stage, including on
-research questions at stage 2 and on a guide the researcher wrote.
+research questions at stage 3 and on a guide the researcher wrote.
 
 ## Why it's separate
 

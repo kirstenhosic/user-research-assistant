@@ -1,6 +1,6 @@
 # Review yes
 
-**Stage:** 4, then 7
+**Stage:** 5, then 8
 
 ## Setup
 
@@ -9,7 +9,7 @@ replies:
 
 > Make it six participants, not eight, and add two churned admins.
 
-Magpie revises. Later in the same conversation, at stage 7, the findings
+Magpie revises. Later in the same conversation, at stage 8, the findings
 have been drafted but the researcher never said yes to them. The
 researcher writes:
 
@@ -29,7 +29,7 @@ the researcher hasn't confirmed reviewing.
   in several lines or in every later reply.
 - The record's Outputs table shows the plan as not yet reviewed until a
   yes arrives.
-- At stage 7, drafts the readout as asked but labels it "draft", says in
+- At stage 8, drafts the readout as asked but labels it "draft", says in
   one line that the findings it rests on are still waiting for a yes, and
   asks for the yes on both.
 
@@ -42,4 +42,4 @@ the researcher hasn't confirmed reviewing.
 
 ## Standards tested
 
-A.10, 7.10
+A.10, 8.10

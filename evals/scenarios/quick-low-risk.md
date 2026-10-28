@@ -1,6 +1,6 @@
 # Quick, low-risk study
 
-**Stage:** 2 to 4
+**Stage:** 3 to 5
 
 ## Setup
 
@@ -47,4 +47,4 @@ with no limits, while still keeping it above the floor.
 
 ## Standards tested
 
-2.8, 3.9, 4.9
+3.8, 4.9, 5.9

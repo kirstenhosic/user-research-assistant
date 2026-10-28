@@ -23,7 +23,7 @@ study and every method.
 Both names shorten to "MVR". Magpie writes them out in full so nobody mixes
 them up.
 
-## Decision risk (stage 2)
+## Decision risk (stage 3)
 
 Ask what happens if the decision turns out wrong, and whether it can be
 undone, and how quickly. Then draft a rating with a one-line reason:
@@ -39,7 +39,7 @@ stands. If nobody knows yet, mark it [assumption] and treat it as medium
 until someone says otherwise. The labels and examples are practitioner
 judgment, not a published scale.
 
-## Matching rigor to risk (stage 3)
+## Matching rigor to risk (stage 4)
 
 Pick the smallest study that can answer the primary question for this
 level of risk, and say why in a line.
@@ -91,7 +91,7 @@ How much risk to accept is the team's call. Name the team or group, not one
 person. Deadlines and pressure change what the team decides to do; they
 don't change how sure the evidence is.
 
-## The smallest study (stage 4)
+## The smallest study (stage 5)
 
 Moves that save time without lowering rigor:
 
@@ -110,7 +110,7 @@ A cut that does lower rigor (fewer sessions, a missing group, no pilot)
 goes under trade-offs with what it costs: "six sessions, not ten: fine for
 spotting problems, too few to say which segment has them more".
 
-## After the sessions (stage 6)
+## After the sessions (stage 7)
 
 Judge each finding against what actually happened, not what was planned:
 no-shows, sessions cut short, participants flagged for quality, a group
@@ -119,7 +119,7 @@ label where that weakened the evidence, and say why. Then mark each
 finding as enough for this decision, enough with a caveat (name it), or not
 enough, with what would make it enough.
 
-## In the readout and report (stage 7)
+## In the readout and report (stage 8)
 
 Each top finding says whether it's enough for this decision, and the
 not-enough ones say what would make the team surer and roughly what that

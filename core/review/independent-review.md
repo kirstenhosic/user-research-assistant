@@ -2,10 +2,10 @@
 
 A fresh pass over the findings, or the report and readout deck, by a
 reviewer that sees only the source material and the output, not the
-conversation that produced them. Required at stage 6 (findings) and stage 7
+conversation that produced them. Required at stage 7 (findings) and stage 8
 (the report and the deck together). Available on request at any other
 stage. The questions Magpie writes for participants get their own review at
-stage 5 (`review/question-review.md`).
+stage 6 (`review/question-review.md`).
 
 ## Why it's separate
 
@@ -30,7 +30,7 @@ RAW MATERIAL
 (transcripts, notes, survey export, with participant codes)
 
 DRAFT
-(the findings; at stage 7, the report and the readout deck, each labelled)
+(the findings; at stage 8, the report and the readout deck, each labelled)
 
 REVIEW PROMPT
 (the text below)

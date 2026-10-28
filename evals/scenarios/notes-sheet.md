@@ -1,10 +1,10 @@
 # Note-taking sheet
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
-The study record through stage 4 is pasted: three research questions,
+The study record through stage 5 is pasted: three research questions,
 eight participants P1 to P8 with a descriptor each. The researcher writes:
 
 > Draft the interview guide. Two of us will take notes.
@@ -31,4 +31,4 @@ the research questions.
 
 ## Standards tested
 
-5.10, A.21
+6.10, A.21

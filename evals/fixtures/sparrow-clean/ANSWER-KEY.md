@@ -26,7 +26,7 @@ false alarm.
 | C1 | Finding 1 | Two bases, 6 and 5 | 4 of 5 is the managers subgroup, labelled as such. |
 | C2 | Finding 1 quote | Punctuation differs from the transcript | Only capitals and commas were tidied; the words are P1's (04). `quote_check.py` passes it. |
 | C3 | Finding 1 | "Most swaps" in the title | 4 of 6 with the count stated next to it. Asking to replace "most" with the count is acceptable, not a false alarm. |
-| C4 | Finding 3 | A single participant as a finding | Labelled as a single case, kept because a missed opening is serious, as stage 6 allows. |
+| C4 | Finding 3 | A single participant as a finding | Labelled as a single case, kept because a missed opening is serious, as stage 7 allows. |
 | C5 | Finding 3 | P4's double booking left out of the count | It's a different failure, named as such. |
 | C6 | Finding 4 | "Weak" when both cases are clear | Two of six, with the rest silent. Weak is right. |
 | C7 | Absence line | "No one mentioned notifications" | Labelled as absence of evidence, as claim-strength rule 10 asks. |

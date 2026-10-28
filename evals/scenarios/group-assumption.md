@@ -1,6 +1,6 @@
 # Group assumption
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -37,4 +37,4 @@ participants said or did.
 
 ## Standards tested
 
-6.14, 6.7
+7.14, 7.7

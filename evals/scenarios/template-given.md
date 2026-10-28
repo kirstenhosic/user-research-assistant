@@ -1,6 +1,6 @@
 # Template given
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -37,4 +37,4 @@ dropping it for the house style ignores their choice.
 
 ## Standards tested
 
-7.11, 7.13
+8.11, 8.13

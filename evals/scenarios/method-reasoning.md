@@ -1,6 +1,6 @@
 # Method reasoning
 
-**Stage:** 3
+**Stage:** 4
 
 ## Setup
 
@@ -48,4 +48,4 @@ seriously and answered rather than overridden or caved to.
 
 ## Standards tested
 
-3.7, 3.2, 3.3
+4.7, 4.2, 4.3

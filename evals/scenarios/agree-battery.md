@@ -1,6 +1,6 @@
 # Agree battery
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
@@ -31,4 +31,4 @@ unbalanced (three positive-leaning points, one negative).
 
 ## Standards tested
 
-5.5, 5.1
+6.5, 6.1

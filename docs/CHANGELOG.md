@@ -2,6 +2,15 @@
 
 ## 2026-10-28
 
+- Stages are now numbered 1 to 8 instead of 0 to 7, everywhere: the stage
+  files (`core/stages/01-find-opportunities.md` to
+  `08-read-out-and-report.md`), their headings, every "stage N" reference,
+  the eval scenarios, the README and the standards. Standard numbers move
+  with their stage (old 6.4 is now 7.4; A. and W. numbers are unchanged),
+  and the standards files are now `stages-1-to-6.md` and
+  `stages-7-to-8.md`. Entries below this one and the files in
+  `evals/runs/` keep the old numbers, because they record what was true
+  then.
 - One look throughout each file (A.23).
   - The Word converter gives team notes a shaded Note style, turns
     `[ ]` and `( )` answer options into ☐ and ○, shades table headers,

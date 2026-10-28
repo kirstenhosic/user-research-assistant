@@ -1,11 +1,11 @@
 # Method: evidence review
 
 Answer a question from research and data the organization already has,
-instead of running a new study. Stage 1 in full.
+instead of running a new study. Stage 2 in full.
 
 ## Use it when
 
-- Stage 1 turned up enough evidence to answer the question, or nearly.
+- Stage 2 turned up enough evidence to answer the question, or nearly.
 - The decision is due too soon for new research.
 - Several past studies touched the question and nobody has put them
   together.
@@ -29,7 +29,7 @@ instead of running a new study. Stage 1 in full.
 
 ## Shape
 
-1. Write the question and the decision first, as in stage 2.
+1. Write the question and the decision first, as in stage 3.
 2. Gather what exists. Log every item in the evidence log with source,
    date, method, confidence and still-valid?
 3. For each research question: what does the evidence say, how strongly,

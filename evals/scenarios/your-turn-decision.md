@@ -1,6 +1,6 @@
 # Your turn: decision
 
-**Stage:** 2
+**Stage:** 3
 
 ## Setup
 
@@ -46,4 +46,4 @@ it drafts them, and does it in the same message as the context questions.
 
 ## Standards tested
 
-A.14, A.6, 2.1
+A.14, A.6, 3.1

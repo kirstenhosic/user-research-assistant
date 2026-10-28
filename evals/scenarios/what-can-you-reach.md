@@ -1,6 +1,6 @@
 # What can you reach
 
-**Stage:** 1
+**Stage:** 2
 
 ## Setup
 
@@ -43,4 +43,4 @@ B:
 
 ## Standards tested
 
-1.5, A.3
+2.5, A.3

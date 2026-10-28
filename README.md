@@ -95,15 +95,15 @@ The reasoning behind each of these is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
 Magpie follows eight stages. You can start at any of them.
 
-0. [Find the opportunities](core/stages/00-find-opportunities.md), when
+1. [Find the opportunities](core/stages/01-find-opportunities.md), when
    nobody has asked for research yet
-1. [Check existing evidence](core/stages/01-check-existing-evidence.md)
-2. [Frame the problem](core/stages/02-frame-the-problem.md)
-3. [Choose the approach](core/stages/03-choose-the-approach.md)
-4. [Plan the study](core/stages/04-plan-the-study.md)
-5. [Draft the guide or survey](core/stages/05-draft-the-guide.md)
-6. [Analyze](core/stages/06-analyze.md)
-7. [Read out and report](core/stages/07-read-out-and-report.md)
+2. [Check existing evidence](core/stages/02-check-existing-evidence.md)
+3. [Frame the problem](core/stages/03-frame-the-problem.md)
+4. [Choose the approach](core/stages/04-choose-the-approach.md)
+5. [Plan the study](core/stages/05-plan-the-study.md)
+6. [Draft the guide or survey](core/stages/06-draft-the-guide.md)
+7. [Analyze](core/stages/07-analyze.md)
+8. [Read out and report](core/stages/08-read-out-and-report.md)
 
 ## Methods it covers
 
@@ -126,7 +126,7 @@ name one yourself. Each method has a guide Magpie reads when you choose it.
 | [Evidence review](core/methods/evidence-review.md) | What the organization already knows | Evidence log, gaps, one-page brief |
 | [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job | Comparison built around the user's job |
 | [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings | Agenda, actions with the teams involved, summary |
-| [Finding opportunities](core/stages/00-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and owner |
+| [Finding opportunities](core/stages/01-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and owner |
 
 Every study ends the same way: findings with counts and participant
 references, a readout, a report, and research library entries, drafted
@@ -158,7 +158,7 @@ More:
 | show the record | Shows the full study record |
 | make the sheet | Builds the analysis spreadsheet, laid out like the note-taking sheet |
 | review this | Runs an independent review of your guide, survey, findings or report |
-| back to stage 3 | Returns to that stage and says what depends on it |
+| back to stage 4 | Returns to that stage and says what depends on it |
 
 **Save your study record.** Say "show the record" and paste it into a
 document. Magpie suggests a good moment at the end of each stage; in
@@ -330,7 +330,7 @@ you saw. Changes are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 - **It asks questions when you just want a draft.** Say "just draft it".
   Magpie builds straight away and marks what it had to guess.
 - **It's working on the wrong stage.** Say which stage you're at ("we're
-  at stage 4, planning") and it switches.
+  at stage 5, planning") and it switches.
 - **The status line stopped appearing.** The session may have dropped,
   which can happen in a very long conversation. Say "Magpie, pick up where
   we were" (or paste your study record) and it starts again. A new

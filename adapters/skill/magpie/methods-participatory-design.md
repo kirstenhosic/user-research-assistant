@@ -70,7 +70,7 @@ what they say.
 ## Analysis
 
 Analyze the explanations, not the objects. Code the "tell" transcripts as
-for interviews (stage 6), with photos of the artifacts as context. Look for
+for interviews (stage 7), with photos of the artifacts as context. Look for
 what people put first, what they repeated, what they left out, and the
 reasons they gave. A pattern across people is a finding; one person's
 design is a single case.

@@ -1,6 +1,6 @@
 # Expert review as evidence
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -31,4 +31,4 @@ headline states them as user behaviour.
 
 ## Standards tested
 
-3.6, A.3
+4.6, A.3

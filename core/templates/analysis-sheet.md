@@ -1,6 +1,6 @@
 # Analysis sheet: [study name]
 
-An Excel workbook Magpie offers at stage 6, laid out like the note-taking
+An Excel workbook Magpie offers at stage 7, laid out like the note-taking
 sheet so the researcher can put the two side by side. Every cell is
 Magpie's draft from the transcripts and the study record, for the
 researcher to check, change or delete. Made with

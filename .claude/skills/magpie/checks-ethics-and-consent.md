@@ -1,6 +1,6 @@
 # Check: ethics and consent
 
-Run this at stage 4 for every study that involves people. Anything missing
+Run this at stage 5 for every study that involves people. Anything missing
 here is a red flag at every challenge level.
 
 ## Consent

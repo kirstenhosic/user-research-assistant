@@ -1,6 +1,6 @@
 # Search scope
 
-**Stage:** 1, in Claude Code
+**Stage:** 2, in Claude Code
 
 ## Setup
 

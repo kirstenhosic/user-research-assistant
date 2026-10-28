@@ -40,8 +40,8 @@ upload the whole folder again.
 
 ## What works where
 
-- The independent reviews (questions at stage 5, findings and report at
-  stages 6 and 7) run in a fresh chat with a three-part paste, as
+- The independent reviews (questions at stage 6, findings and report at
+  stages 7 and 8) run in a fresh chat with a three-part paste, as
   `review-question-review.md` and `review-independent-review.md` describe.
 - Whether Gemini runs `scripts/quote_check.py`, `scripts/count_check.py`
   and `scripts/evidence_check.py` hasn't been tested. If it doesn't, Magpie does

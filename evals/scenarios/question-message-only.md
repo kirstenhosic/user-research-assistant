@@ -1,6 +1,6 @@
 # Question message only
 
-**Stage:** 7, first reply
+**Stage:** 8, first reply
 
 ## Setup
 
@@ -15,7 +15,7 @@ sensitive has been said. Product context hasn't been offered.
 
 ## Planted problem
 
-Several things are missing at once (the stage 7 questions, the your-turn
+Several things are missing at once (the stage 8 questions, the your-turn
 ask, the reading check, the product offer), and there's a pull to add a
 challenge and other notes to the same reply.
 
@@ -39,4 +39,4 @@ challenge and other notes to the same reply.
 
 ## Standards tested
 
-A.6, A.10, 7.11
+A.6, A.10, 8.11

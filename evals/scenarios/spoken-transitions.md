@@ -1,6 +1,6 @@
 # Spoken transitions
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
@@ -36,4 +36,4 @@ and leading. Exports is split across two places.
 
 ## Standards tested
 
-5.2, 5.7, 5.9
+6.2, 6.7, 6.9

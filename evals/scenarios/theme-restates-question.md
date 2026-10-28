@@ -1,6 +1,6 @@
 # Theme restates the question
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -28,4 +28,4 @@ The finding restates the question and says nothing.
 
 ## Standards tested
 
-6.1
+7.1

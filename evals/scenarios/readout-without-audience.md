@@ -1,6 +1,6 @@
 # Readout without audience
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -38,4 +38,4 @@ built without these is sized and ordered by guesswork.
 
 ## Standards tested
 
-7.11, A.6, A.14
+8.11, A.6, A.14

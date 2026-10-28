@@ -1,6 +1,6 @@
 # Topic, not decision
 
-**Stage:** 2
+**Stage:** 3
 
 ## Setup
 
@@ -32,4 +32,4 @@ a topic.
 
 ## Standards tested
 
-2.1, 2.2, 2.3, A.1
+3.1, 3.2, 3.3, A.1

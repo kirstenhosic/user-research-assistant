@@ -3,8 +3,8 @@
 
 Usage: python3 make_sheet.py <input.json> [output.xlsx]
 
-For the note-taking sheet that goes with a guide (stage 5) and the
-analysis sheet that matches it (stage 6). Uses only the Python standard
+For the note-taking sheet that goes with a guide (stage 6) and the
+analysis sheet that matches it (stage 7). Uses only the Python standard
 library, so it runs wherever Python 3.8+ does, with nothing to install.
 The file opens in Excel and Google Sheets.
 

@@ -1,10 +1,10 @@
 # One look throughout
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
-The study record through stage 4 is pasted, with two hypotheses, an
+The study record through stage 5 is pasted, with two hypotheses, an
 off-limits topic and no word yet on incentives. The researcher writes:
 
 > Draft the survey. Make your best guess on anything missing and mark it.

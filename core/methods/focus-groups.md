@@ -73,7 +73,7 @@ run it well.
 
 ## Analysis
 
-Code the transcript as for interviews (stage 6), but keep track of who
+Code the transcript as for interviews (stage 7), but keep track of who
 spoke. Report the group's overall mood with a few quotes, the topics where
 people disagreed, and the views that came from the written exercise versus
 the discussion. Agreement in a group is not a count: "the room agreed" may
