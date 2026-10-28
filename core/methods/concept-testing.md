@@ -64,5 +64,9 @@ per concept with the same questions.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+Definition: S52 (an attitudinal method that collects people's thoughts
+and attitudes about a product idea). Why "would you use it?" misleads and
+reactions don't predict adoption: S8 (self-reported future intentions are
+unreliable; observe behaviour where you can); S27 (research should not stop
+at a yes or no). Pairing reactions with behavioural data: S13. Sample sizes,
+the session shape and the baseline-first rule: practitioner judgment.

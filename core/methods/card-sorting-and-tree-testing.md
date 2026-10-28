@@ -20,8 +20,8 @@ a proposed structure.
 
 ## Sample
 
-- Card sorting: fifteen to thirty participants gives stable groupings. More
-  helps if groups differ.
+- Card sorting: at least fifteen participants. Thirty adds a little
+  stability for twice the cost; it's worth it on large projects.
 - Tree testing: thirty to fifty per structure for findability rates you can
   compare.
 - Recruit people who'd actually use the structure.
@@ -30,9 +30,13 @@ a proposed structure.
 
 - **Open sort:** participants group cards and name the groups. Use it to
   discover the mental model.
-- **Closed sort:** you give the group names; participants place cards. Use
-  it to check a proposed structure.
-- Thirty to sixty cards, written in the users' words, not internal names.
+- **Closed sort:** you give the group names; participants place cards. A
+  tree test usually checks a proposed structure better.
+- Avoid hybrid sorts (some groups given, some made); the given groups steer
+  people.
+- Thirty to fifty cards, written in the users' words, not internal names.
+  More than fifty and people tire, and the "miscellaneous" pile grows.
+  Don't repeat the same word across cards; people group on the word.
 - Usually remote and unmoderated with a sorting tool; a few moderated
   sessions add the "why".
 
@@ -42,7 +46,9 @@ a proposed structure.
 - Eight to twelve tasks: "Where would you go to change your password?"
 - Record success, directness (did they go straight there), time, and
   where they went first.
-- Test two structures with different people to compare.
+- Test two structures with different people to compare (each person sees
+  only one).
+- Run it before any layouts or content exist.
 
 ## What makes it good
 
@@ -71,5 +77,12 @@ A card list and a task list. Analysis templates depend on the tool used.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+Card sorting: S49 (at least fifteen participants, from correlations of
+0.75 at five, 0.90 at fifteen and 0.95 at thirty); S50 (open, closed and
+hybrid sorts and when to use each; thirty to fifty cards; repeated words;
+moderated for the why, unmoderated for numbers; similarity matrix; limits
+of the method). Tree testing: S51 (a text-only tree before layouts or
+content; tasks that don't give away the answer; success, directness and
+first click; one tree per participant when comparing). Definitions: S52.
+The tree-testing sample (thirty to fifty) follows S46's thirty-plus for
+rates; the eight-to-twelve task range is practitioner judgment.

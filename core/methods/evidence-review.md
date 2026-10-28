@@ -63,5 +63,9 @@ instead of running a new study. Stage 2 in full.
 
 ## Basis
 
-Practitioner judgment. Sources will be added to `docs/PROVENANCE.md` as they
-are checked.
+S18 (secondary research as a standard first step; judge each source's
+validity and limitations; a missing methods section is a red flag); S13
+(one source's limits are offset by another); S14 (when sources disagree,
+examine how each was done; quantitative data doesn't automatically
+overrule qualitative). The evidence brief's shape and the confidence rule
+(no higher than the weakest load-bearing source): practitioner judgment.
