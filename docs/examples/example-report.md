@@ -127,7 +127,8 @@ Recommendation 2 is the uncomfortable one, because the study was commissioned to
 1. Support counts the finance-team customers by 24 October.
 2. The Reporting team decides by 30 October, with this report and the readout deck as the inputs.
 3. If recommendation 1 goes ahead, the researcher runs 3 follow-up sessions with finance-team customers in November to test the column-order need.
-4. The open question is whether the same import gap affects scheduled reports. Nothing answers it yet, so it goes on the research backlog.
+4. How we'll know it worked: if the import check ships, the researcher and the Reporting team look at abandoned exports together in January. The sign it worked is fewer exports abandoned after a recent import.
+5. The open question is whether the same import gap affects scheduled reports. Nothing answers it yet, so it goes on the research backlog.
 
 ## Limits
 

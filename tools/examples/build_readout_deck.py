@@ -238,15 +238,16 @@ s = slide(); n += 1; header(s, "What happens next", "The team decides by 30 Octo
 steps = [("24 Oct", "Support counts the finance-team customers", "So we know how big finding 2 is."),
          ("30 Oct", "The team decides", "Using this deck and the report."),
          ("November", "3 follow-up sessions", "With finance teams, if the import warning goes ahead."),
+         ("January", "Check it worked", "Fewer exports abandoned after a recent import."),
          ("Later", "One open question", "Does the import problem affect scheduled reports too?")]
-lw = Inches(2.85)
+lw = Inches(2.25)
 box(s, M + Inches(0.2), Inches(2.42), Inches(11.6), Emu(19050), fill=LINE)
 for i, (when, what, sub) in enumerate(steps):
     x = M + i * (lw + Inches(0.17))
     box(s, x, Inches(2.25), Inches(0.38), Inches(0.38), fill=LEAF if i else GREEN, shape=MSO_SHAPE.OVAL)
     text(s, x, Inches(2.9), lw, Inches(0.5), when, size=24, font=SERIF, bold=True, color=GREEN)
     text(s, x, Inches(3.5), lw - Inches(0.2), Inches(0.9), what, size=17, bold=True, spacing=1.1)
-    text(s, x, Inches(4.45), lw - Inches(0.2), Inches(1.2), sub, size=15, color=MUTED, spacing=1.15)
+    text(s, x, Inches(4.6), lw - Inches(0.2), Inches(1.2), sub, size=15, color=MUTED, spacing=1.15)
 
 # 14 Limits
 s = slide(); n += 1; header(s, "Read with care", "What this study can't tell us", n=n)
