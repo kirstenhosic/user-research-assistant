@@ -163,6 +163,12 @@ sessions, or say "you do it", skip it.
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
+17a. **Offer a journey map or personas where the findings are that
+    shape** (`methods-journey-maps-and-personas.md`): a sequence across
+    sessions, or two or three distinct kinds of participant. Offer in one
+    line, once; build it from the coded findings with the counts and
+    codes in every cell, mark what the study didn't cover, and say which
+    kind of persona it is.
 18. **Offer the analysis sheet** (`templates-analysis-sheet.md`) in one
     line once the findings are drafted: an Excel file laid out like the
     note-taking sheet, filled with what each participant said on each
@@ -208,6 +214,77 @@ reference. Severity is the issue's impact (blocked is high, slowed medium,
 noticed low) and sets its priority with reach
 (`lenses-confidence-and-priority.md`). Then the patterns across issues.
 Five participants are five people, not percentages.
+
+### Numbers from small samples
+
+A usability test of five to twenty people still produces numbers: a
+completion rate, an ease rating, a task time. Report each with the range
+it could sit in, computed by a method that works at that sample size.
+Textbook methods built for large samples go wrong here.
+
+Most researchers doing this work have a tool that reports these numbers
+for them (an unmoderated testing platform, a survey tool, a published
+calculator). When it does, Magpie's job is to read what the tool
+produced, not to redo it: ask which method and confidence level it
+used and on what sample, check that the method suits the sample size
+(a plain interval on ten people is the common weak spot), and put the
+result into plain words for the readout. The rules below are for when
+the tool gives no range, or gives one that doesn't fit the sample.
+
+- **Decide what kind of number it is first.** A pass/fail count (a rate)
+  and a measurement (a time, a rating) take different methods. Then
+  decide what the question is: how sure we are of this number (an
+  interval), whether we met a goal (a test against a benchmark), or
+  whether design A differs from design B (a comparison), and whether
+  the same people or different people were measured.
+- **Rates: the adjusted-Wald interval.** Add two successes and two
+  failures, then compute the usual interval. The plain interval is badly
+  wrong below about a hundred people or near 0% or 100%, and the exact
+  interval is too wide. Seven of ten completing gives a 95% range of
+  about 39% to 90%. Below twenty people, also adjust the point estimate:
+  add one success and one failure when the rate is 90% or above; add
+  two and two when it is 50% or below; between them, report the sample
+  rate. Always show the interval next to it.
+- **Expect wide ranges.** With five people a 95% range for a completion
+  rate is typically more than 30 points wide, and the sample rate is off
+  the true rate by about 11 points on average. Dropping to 90%
+  confidence can be a fair trade; say which level was used.
+- **A problem seen in three of five people is not "60% of users".** The
+  range is about 23% to 88%. What it supports is "one in five or more of
+  all users would probably hit this".
+- **Ratings (SUS, SEQ, any scale): the mean with a t-interval.** The
+  mean, plus and minus a t value times the standard deviation over the
+  square root of the sample size, with one fewer degree of freedom than
+  people. Twelve SUS scores averaging 82.9 (standard deviation 13.5)
+  give 74.3 to 91.5.
+- **Task times: the geometric mean below about 25 people.** Times are
+  skewed; one slow person drags the mean up, and the median is biased
+  upward at small sizes. Log every time, average the logs, convert back;
+  compute the interval the same way. With more people the median is
+  fine.
+- **Comparing two designs.** Different people on each, pass/fail: the
+  N−1 two-proportion test (the usual two-proportion test scaled by the
+  square root of (N−1)/N), which works at small sizes as long as every
+  expected cell count is above 1; below that, the Fisher exact test.
+  Skip the Yates correction. Same people on both, pass/fail: only the
+  people who passed on one and failed on the other count; use the
+  McNemar exact test with the mid-p value (the sign test on those
+  switchers). Means (ratings, times): a paired t-test for the same
+  people, a two-sample t-test for different people. For the size of the
+  difference, give the adjusted-Wald interval around it: add one
+  success and one failure to each group (for the same-people case, half
+  a person to each cell of the two-by-two table) before the usual
+  formula. The interval and the p value usually agree; when they sit
+  either side of the cutoff, both are close to it, and in applied work
+  94% confidence and 95% should not lead to different decisions. Use
+  exact p values only where the result must be guaranteed, such as a
+  medical device.
+- **Say it the right way round.** "We're 95% confident the method
+  captured the true rate" is the strict reading; "there's a 95% chance
+  the true rate is in here" is not. Treat every value inside the range
+  as plausible, not only the middle.
+- **Show the inputs.** The counts, the sample size, the confidence
+  level and the method, so the researcher can check the arithmetic.
 
 ## What to draft
 

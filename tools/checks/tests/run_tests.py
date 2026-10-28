@@ -21,6 +21,8 @@ FIXTURES = HERE.parent.parent.parent / "evals" / "fixtures"
 HARBOR = FIXTURES / "harbor-invites"
 TALLY = FIXTURES / "tally-receipts"
 SPARROW = FIXTURES / "sparrow-clean"
+LARDER = FIXTURES / "larder-diary"
+DOCKSIDE = FIXTURES / "dockside-returns"
 
 CASES = [
     # (name, command, expected exit code, substrings expected in output)
@@ -53,6 +55,16 @@ CASES = [
      ["MISSING", "read the four as a one", "2 of 3 quotes found"]),
     ("count_check tally-receipts", [PY, str(CHECKS / "count_check.py"), str(TALLY / "draft-readout-summary.md")], 1,
      ["a percentage from a base of 6"]),
+    ("quote_check larder-diary", [PY, str(CHECKS / "quote_check.py"), str(LARDER / "draft-findings.md"),
+                                  str(LARDER / "entries")], 1,
+     ["MISSING", "chickpea curry", "2 of 3 quotes found"]),
+    ("count_check larder-diary", [PY, str(CHECKS / "count_check.py"), str(LARDER / "draft-findings.md")], 1,
+     ["4/6 is 67%, not 75%", "a percentage from a base of 6"]),
+    ("quote_check dockside-returns", [PY, str(CHECKS / "quote_check.py"), str(DOCKSIDE / "draft-findings.md"),
+                                      str(DOCKSIDE / "sessions")], 1,
+     ["MISSING", "fights me on every return", "credited to P3, but spoken by M)", "2 of 3 quotes found"]),
+    ("count_check dockside-returns", [PY, str(CHECKS / "count_check.py"), str(DOCKSIDE / "draft-findings.md")], 1,
+     ["4/5 is 80%, not 90%", "a percentage from a base of 5"]),
     ("evidence_check harbor-invites", [PY, str(CHECKS / "evidence_check.py"), str(HARBOR / "draft-findings.md"),
                                        str(HARBOR / "transcripts")], 1,
      ["7 of 8: no participant codes listed", "6 of 8: no participant codes listed"]),

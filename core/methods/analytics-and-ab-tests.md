@@ -49,6 +49,17 @@ A/B tests:
   first.
 - Read numbers as clues, in context. Long time on a page could mean
   interest or confusion; it isn't good or bad on its own.
+- Remember who the logs can't see. A funnel starts counting when
+  someone enters it. People who wanted to do the task and never found
+  the way in aren't in the data, so an 80% completion rate inside the
+  flow can hide a 40% success rate for everyone who tried. When the
+  question includes "can people find it", pair analytics with a
+  benchmark or a first-click test that starts from the top
+  (`methods/benchmarking.md`,
+  `methods/card-sorting-and-tree-testing.md`).
+- If the team has a metrics framework (`methods/benchmarking.md`, "What
+  to measure"), ask which goal and signal each number serves. A number
+  with no goal behind it is a chart, not an answer.
 
 **A/B tests**
 
@@ -77,7 +88,47 @@ partner data) and helps read the results. It doesn't run the test.
 - **A/B tests:** the result on the main measure and the guardrails, and
   whether the difference passed the test set in advance. Then whether
   it's big enough to matter to the business, which is a separate
-  question. "No clear winner" is a result: keep the current version.
+  question, answered against a bar agreed before the test. "No clear
+  winner" is a result: keep the current version.
+- **Report the difference in its own unit,** with the range it probably
+  sits in: "2.1 percentage points more sign-ups (likely between 0.8 and
+  3.4)", not a standardized effect size. Say what it means at volume:
+  2.1 points on 50,000 visitors a month is about 1,050 sign-ups. Small
+  differences add up when the thing happens often; a 17-second saving
+  on a task done a hundred times a day is weeks a year.
+- **The range and the p value usually agree.** When one says
+  "different" and the other doesn't, both are sitting near the cutoff.
+  Treat a result at 94% confidence like one at 95% unless the setting
+  demands a guarantee; a rigid cutoff is for publication, not product
+  decisions. For two conversion rates, the test is the N−1
+  two-proportion test and the range is the adjusted-Wald interval
+  around the difference (stage 7, "Numbers from small samples"). Read
+  the low end of the range at volume too: a small lower limit can still
+  be a lot of orders.
+
+## Worked example
+
+> **Decision.** Whether Harbor (team task board) shows the "invite your
+> team" step during setup or after the first board is built. Growth
+> decides in a month.
+>
+> **Analytics first.** Question: where in setup do new admins stop? The
+> funnel showed 61% of admins who started setup invited someone within a
+> week (data for September, 2,140 admins); it can't see admins who
+> wanted to invite and never found the button. Interviews earlier found
+> most admins build a board before inviting.
+>
+> **A/B test.** Hypothesis from research: moving the invite step to
+> after the first board is built will raise invites within a week,
+> because admins want something to show. Main measure: admins who
+> invited within seven days. Guardrails: boards created in the first
+> week; admins active at day 30. Run for two full weeks, size set from
+> September's rate and a smallest change worth detecting of 4 points.
+>
+> **Result, as reported.** 66.2% against 61.1%: 5.1 points more, likely
+> between 2.0 and 8.2; guardrails unchanged; at about 2,000 admins a
+> month, about 100 more teams invited a month. The agreed bar (4 points)
+> was met. Why it worked is from the interviews, not the test.
 
 ## Pitfalls
 
@@ -106,5 +157,20 @@ early; statistically significant is not the same as important; many tests
 find no winner; it shows
 how behavior changes, not why; pair it with qualitative research). S11
 (analytics, clickstream and A/B testing as measuring methods for a live
-product). S13 (combine methods so one covers another's limits). Who does
-the work: practitioner judgment.
+product). S13 (combine methods so one covers another's limits). S87
+(analytics can't see users who never found the task's entry point; the
+80% inside the flow against 40% of those who tried; pair with
+benchmarking or a first-click test for navigation). S97 (goals, signals,
+metrics). S84 and S85 (raw differences with intervals over standardized
+effects; make them concrete at volume; small effects add up with
+repeated exposure; set the action threshold before collecting data).
+S100 (pp. 73–93: the N−1 two-proportion test for two groups of
+different users, recommended when every expected cell count is above 1,
+Fisher exact otherwise; the adjusted-Wald interval around the difference
+between two proportions, adding one success and one failure to each
+group; an A/B example at 90% confidence where even the low end of the
+range meant a lot of revenue at volume; p values fluctuate by a few
+points with the method chosen; a confidence interval and a p value usually point the
+same way, and 94% against 95% confidence shouldn't change an applied
+decision; a rigid 0.05 cutoff for publication). Who does the work:
+practitioner judgment.

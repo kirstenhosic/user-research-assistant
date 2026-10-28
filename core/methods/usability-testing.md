@@ -19,10 +19,30 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
 
 ## Sample
 
-- Moderated: five per distinct user group finds most of the serious problems.
-  Run another round after fixes rather than a bigger first round.
-- Unmoderated: twenty or more per group if you want task-success rates you
-  can compare.
+- Moderated: five people from one user group find most of the problems.
+  With two distinct groups, three or four from each; with three or more,
+  three from each. Run another small round after fixes rather than one big
+  first round.
+- Why five: across many studies the average chance that one person hits
+  any given problem in one round is about 0.31, so five people reveal
+  about 85% of the problems that round can show. It was never 85% of
+  the product's problems. Nielsen's own account is fishing in ponds: a
+  round empties the easy problems from one pond, and the next round,
+  with the fixes and often new tasks or a new group, fishes a new one.
+  Five only works as part of that loop. A mature website with the easy
+  problems already removed, or loosely structured tasks, can have a
+  per-person chance near 0.03, where five people show about 14% and
+  85% takes about 65. If late participants keep finding new problems,
+  the round isn't done.
+- How often a problem appears says nothing about how severe it is;
+  plan as if the two are unrelated, and expect serious problems from
+  late participants too.
+- Rates from a small test (completion, time) follow stage 7's "Numbers
+  from small samples": an adjusted-Wald interval, the geometric mean for
+  times.
+- Unmoderated, for rates (task success, time on task): more than thirty
+  people, and forty or more if you want ranges narrow enough to compare.
+  Five people can show problems but can't give you a rate.
 - Recruit people who would actually do these tasks.
 
 ## Session shape (moderated, 30 to 60 minutes)
@@ -63,14 +83,44 @@ reaches people who can't travel. It takes more preparation.
   can do it.
 - At the start, ask permission to record and confirm the end time.
 
+## Testing with assistive technology
+
+Some sessions, in most studies, should be with people who use a screen
+reader, magnification, speech input, switch access or the keyboard
+alone. `lenses/accessibility.md` covers recruiting and running them; the
+points that change the test itself:
+
+- **Clear the obvious first.** Have someone who knows accessibility check
+  the design against a standard (WCAG) before the sessions, and fix what
+  that finds. Then the sessions find what only users can show.
+- **Match the participant to the audience.** An expert screen-reader user
+  suits a tool for specialists; a public service needs people who are
+  new to their assistive technology too. Recruit a range; one person's
+  experience doesn't stand for everyone with that disability.
+- **Their own setup.** Their device, their software, their settings.
+  Check in the tech check that the prototype works with it at all; if it
+  doesn't, that's a finding, not a session.
+- **Think-aloud, with more help from the moderator.** Ask what they hear
+  and what they're trying to do, and point tasks at the parts of the
+  design the team is unsure about.
+- **Analyze the cause, not only the failure.** An error can come from the
+  content, the browser, the assistive technology, the person's
+  familiarity with it, or plain bad design. Record which, with the
+  technology and settings next to each issue, and report what blocked
+  people ahead of time on task.
+- **Don't generalize from a few.** Say in the report who took part, with
+  what technology, and that the sessions were not a conformance check.
+  The team needs both.
+
 ## What makes it good
 
 - Tasks have a written success criterion before the session.
 - Tasks are realistic and in a realistic order.
 - The moderator doesn't help. "What would you do if I weren't here?"
 - Observers take notes against the tasks, not freeform.
-- Severity is rated per issue: how many hit it, how badly it blocked them,
-  how often it would happen in real use.
+- Severity is rated per issue on three things: how many hit it (frequency),
+  how hard it was to get past (impact), and whether it would keep bothering
+  people or only the first time (persistence).
 
 ## Follow-up questions
 
@@ -98,8 +148,35 @@ them after the task, not during it, so you don't change what happens.
 - If you're tracking perceived usability across releases, a standard
   questionnaire such as the System Usability Scale (SUS: ten fixed items,
   a score from 0 to 100) goes here, with the wording and order unchanged.
-  It needs twenty or more people per round to mean much; with five, use
-  it as a conversation starter, not a score.
+  It needs twenty to thirty or more people per round to mean much; with
+  five, use it as a conversation starter, not a score.
+- SUS details: ten items on a five-point agree scale, odd items worded
+  positively and even items negatively; people answer all ten right
+  after using the product and before any debrief, picking the middle
+  point if they can't answer one. Score each odd item as its position
+  minus 1, each even item as 5 minus its position, add the ten and
+  multiply by 2.5. Swapping "system" for "website" or "product", or
+  "awkward" for the original "cumbersome", doesn't change the result.
+  It measures perceived usability as one number; it says nothing about
+  which part of the product caused it. The alternating positive and
+  negative items don't measurably reduce agreement bias, and they
+  cause mistakes: about one SUS dataset in ten has been found miscoded
+  because someone forgot to reverse the even items. A team starting
+  fresh can use the all-positive version (same odd items; even items
+  reworded positive; every item scored as position minus 1, summed,
+  times 2.5), and scores come out the same. A team already using the
+  standard version keeps it and checks the coding every time. Either
+  way, in a moderated session check the form for a reversed answer
+  before the participant leaves.
+- Among post-study questionnaires compared head to head, the SUS
+  settled on the right answer fastest: with twelve people it agreed
+  with the full-sample result every time, where other instruments were
+  still wrong a quarter of the time at fourteen. That is the case for
+  the SUS over home-made satisfaction items. Where there's room for
+  only two items (a survey with many measures), the UMUX-LITE ("this
+  system's capabilities meet my requirements", "this system is easy to
+  use", seven points) tracks the SUS closely once rescaled; the book
+  doesn't recommend it on its own yet, so collect both the first time.
 
 A participant's rating and what they did can disagree. Someone who failed
 the task may still rate it easy. Report both; what they did comes first.
@@ -113,8 +190,30 @@ unmoderated studies: success rate, time on task, and clips of the failures.
 Ease ratings from a moderated study go next to each participant's result
 and reason ("P2: failed, rated 5 of 7, 'I assumed it saved'"). Don't
 average five ratings or report them as a percentage; the reasons are the
-finding. With twenty or more unmoderated participants, ratings can be
+finding. With more than thirty unmoderated participants, ratings can be
 summarized, following stage 7's survey data rules.
+
+## Worked example
+
+> **Decision.** Whether Tally (expense tracking) ships the redesigned
+> receipt capture flow next month or holds it for another round.
+>
+> **Research question.** Can people photograph a receipt and file it to
+> the right expense claim without help, and where do they get stuck?
+>
+> **Sample.** Five people who filed an expense claim in the last month,
+> moderated, remote, 45 minutes.
+>
+> **Tasks.** "You've just paid for a client lunch and have the receipt.
+> Add it to this month's claim." Success: receipt attached to the March
+> claim with the amount matching. Then the ease rating and "why that
+> number?"
+>
+> **Issue, as reported.** 4 of 5 attached the receipt to a new claim
+> instead of the existing one (P1, P2, P4, P5), because the "Add to
+> claim" sheet opens on "New claim". Severity: high (frequent, blocked
+> the task, would happen every time). Ease ratings 3, 4, 6, 2, 5 of 7,
+> each next to its reason; no average reported.
 
 ## Pitfalls
 
@@ -131,17 +230,52 @@ summarized, following stage 7's survey data rules.
 
 ## Basis
 
-Follow-up questions: S38 (the Single Ease Question after each task, on
-seven points, while the task is fresh; SUS after the session with wording
-and order unchanged, ten items, a 0 to 100 score that isn't a percentage;
-twenty to thirty users or more for questionnaire numbers; pair a rating
-with "why"); S12 (numbers from small qualitative studies carry large
-error). Probing after rather than during the task, and the debrief:
-practitioner judgment. Remote, moderated: S78 (advantages and the
+What a test is: S47 (a facilitator, realistic tasks, a realistic
+participant, thinking aloud; moderated and unmoderated, in person and
+remote; the facilitator must avoid influencing behavior). Sample: S45
+(five users find most problems; small rounds over one big one; three or
+four per group for two groups, three per group for three or more); S46
+(more than thirty for quantitative studies, forty or more for useful
+ranges; five can't give rates). Tasks: S3. Severity: S48 (frequency,
+impact, persistence). Follow-up questions: S38 (a post-task ease rating on
+seven points while the task is fresh; SUS after the session, wording and
+order unchanged, ten items, a 0 to 100 score that isn't a percentage; 20
+to 30 or more users for questionnaire numbers; pair a rating with "why");
+S12 (numbers from small qualitative studies carry large error). S100
+(pp. 162–166: average problem-occurrence rate of 0.31 and the
+1 − (1 − p)^n arithmetic behind "five users find 85%"; the guideline
+misread as 85% of a product's problems; Nielsen's fishing analogy, five
+being contingent on iteration with changed tasks or groups; the Spool
+and Schroeder "eight is not enough" study reconciled as p near 0.029,
+where five users find about 14% and 85% takes 65; serious problems found
+at the same rate as others; Sauro's review of 24 tests giving p of about
+0.37 for business applications, 0.23 for consumer software and 0.04 for
+websites; p. 162: no reliable link between problem frequency and
+severity. pp. 198–199: the SUS items, response rules, scoring and the
+wording substitutions that make no difference; a single-number measure
+that doesn't locate the cause. pp. 206–210: the all-positive SUS, its
+scoring, no difference in scores, agreement bias or extreme responses
+from the standard version; 3 of 27 SUS datasets miscoded, most likely
+about 10%; researchers on the standard version should verify coding and
+include a debrief step to catch reversed answers. pp. 214–215: Tullis
+and Stetson's comparison of five questionnaires, the SUS reaching 100%
+agreement with the full-sample conclusion at n = 12 and the CSUQ 90%,
+the others in the low to mid 70s at n = 14. pp. 211–214: UMUX and
+UMUX-LITE, the two items, the regression adjustment, and the authors'
+advice not to use the UMUX-LITE independently of the SUS until validated
+more widely).
+Remote, moderated: S78 (advantages and the
 extra preparation; choosing a call tool; how tasks reach the participant,
 with the moderator reading them as the weakest choice; a tech check the
 day before on something else; reminders; observers; recruiting extra and
 spare time; a pilot that tests the test; recording consent at the start).
-Background: S7. The rest of this guide:
-practitioner judgment, consistent with widely published usability testing
-guidance.
+Background: S7. Testing with assistive technology: S98 (an expert
+review for obvious barriers first; match assistive technology experience
+to the audience; a range of participants, since one person doesn't stand
+for all; think-aloud with high facilitator interaction and tasks aimed at
+areas of concern; errors can come from content, browser, assistive
+technology, unfamiliarity or poor design; focus on barriers over time on
+task; combine with a conformance evaluation; don't generalize from a few;
+report scope, methods and participants). Session timings, probing after
+rather than during the task, the debrief, and the pitfalls: practitioner
+judgment.

@@ -42,6 +42,7 @@ MIN_WORDS = 4
 TITLE_CODE = re.compile(r"^#\s*([A-Za-z]{1,2}\d{1,3})\b")
 STEM_CODE = re.compile(r"^[A-Za-z]{1,2}\d{1,3}$")
 NUMBERED = re.compile(r"^\s*\d{1,4}\s+(.*)$")
+TIME_PREFIX = re.compile(r"^\d{1,2}:\d{2}(?::\d{2})?\s+")
 PLACEHOLDER = re.compile(r"\[[^\]]*\]")
 MAX_GAP = 40  # characters a placeholder may stand for, after normalizing
 
@@ -105,7 +106,8 @@ def speakers(text: str, key: str) -> set[str]:
     for line in text.splitlines():
         m = NUMBERED.match(line)
         if m and key in normalize(m.group(1)):
-            who.add(m.group(1).split(":", 1)[0].strip().lstrip("[").split()[0])
+            rest = TIME_PREFIX.sub("", m.group(1), count=1)  # "10:19 P3: ..." -> "P3: ..."
+            who.add(rest.split(":", 1)[0].strip().lstrip("[").split()[0].rstrip(",.;"))
     return who
 
 

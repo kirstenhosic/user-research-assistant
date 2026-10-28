@@ -167,6 +167,14 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
+## When stakeholder interviews would help
+
+If the brief is thin or came from one person, or the success measure and
+the constraints aren't agreed, offer stakeholder interviews in one line
+(`methods-stakeholder-interviews.md`): one-to-one, 30 to 45 minutes,
+before the plan is written. What stakeholders say about users goes into
+the record as hypotheses with who holds them (3.7), never as findings.
+
 ## When a workshop would help
 
 If the team disagrees about the decision, or about what users do, offer

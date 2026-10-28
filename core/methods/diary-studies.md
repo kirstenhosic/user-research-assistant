@@ -21,21 +21,26 @@ weeks, as it happens rather than from memory.
 
 ## Sample
 
-- Eight to fifteen people. Expect some to drop out; recruit a few extra.
-- One to four weeks, depending on how often the behavior happens. Rare
-  behavior needs a longer window.
+- Five to twelve people for a small, focused study; twelve to thirty for a
+  broad one. Expect some to drop out; recruit a few extra.
+- One to three weeks is typical, set by how often the behavior happens.
+  Rare behavior needs a longer window.
 
 ## Study shape
 
-1. **Kick-off call (20 min).** Explain the task, the tool (a form, a
+1. **Pilot.** Run the study with one or two people for a couple of days to
+   test the prompts, the tool and the instructions.
+2. **Kick-off call (20 min).** Explain the task, the tool (a form, a
    messaging app, a diary app), what counts as an entry, and consent for
    anything they might capture (photos, screenshots).
-2. **Entries.** Short and structured: what happened, when, what you were
+3. **Entries.** Short and structured: what happened, when, what you were
    trying to do, how it went, a photo if useful. Triggered by the event
-   ("every time you…") or by time ("each evening").
-3. **Check-ins.** A short message every few days. Answers questions, keeps
+   ("every time you…"), by time ("each evening"), or by a prompt you send
+   at varied times. Use events for things that happen a few times a week,
+   time or prompts for things that happen all day.
+4. **Check-ins.** A short message every few days. Answers questions, keeps
    people going, notices drop-off early.
-4. **Exit interview (30 to 45 min).** Walk through their entries together.
+5. **Exit interview (30 to 45 min).** Walk through their entries together.
    Ask about the gaps and the surprises. This is where most of the depth
    comes from.
 
@@ -150,7 +155,9 @@ for your participants or your team, say why and I'll rework it."
 
 - Entries take under two minutes. Anything longer, people stop.
 - The entry prompt is specific. "Tell us about your day" gets nothing.
-- Incentive paid per week or at the end, with a bonus for completion.
+- Incentive paid in stages for longer studies, at a higher rate than a
+  single session, with a realistic minimum number of entries and a maximum
+  if more entries earn more.
 - The researcher reads entries as they arrive and adjusts prompts if
   they're not working.
 
@@ -166,9 +173,36 @@ entry and timestamp for each quote. Describe what a photo or screenshot
 shows in words, next to the participant's own caption, so it can be
 coded with the rest.
 
+## Worked example
+
+> **Decision.** Whether Larder (meal planning) adds a "what's in the
+> fridge" prompt, or improves the weekly plan. Product decides in six
+> weeks.
+>
+> **Research question.** When and why do people change the plan during
+> the week, and what do they do instead?
+>
+> **Sample.** Nine people who planned meals in the app in the last two
+> weeks (six finished), two weeks, entries triggered by the event: "each
+> time you cook something other than the plan, or skip a planned meal".
+>
+> **Capture.** Text or voice note as the core; optional photo of what
+> was cooked. Check-ins on day 2, day 7 and after three silent days.
+>
+> **Finding, as reported.** 5 of 6 completers changed the plan at least
+> three times in two weeks (P1, P2, P3, P4, P6; 31 entries); the most
+> common reason, in 14 of 31 entries, was an ingredient missing or gone
+> off. P5 left after day 4; their four entries are reported as four
+> entries, not as "P5 never changed the plan". Entries clustered around
+> 6pm because the reminder went out at 6pm; the study design shaped the
+> timing, and the readout says so.
+
 ## Pitfalls
 
 - Too many prompts, or prompts that change the behavior being studied.
+- A minimum entry count so high that people log things they'd never
+  normally do, or no maximum, so people invent entries for the money.
+- A sample entry in the instructions that people then copy.
 - Losing half the participants by week two because nobody checked in.
 - Analyzing entries without the exit interview.
 - Treating fifteen diaries as frequency data for the population.
@@ -181,7 +215,9 @@ coded with the rest.
 
 ## Template
 
-Entry prompt, the core for every entry, typed or spoken: *When did this
+`templates/diary-study.md`: welcome, kick-off call, entry prompt,
+check-ins, exit interview and team notes. The entry prompt there is the
+core for every entry, typed or spoken: *When did this
 happen? What were you trying to do? What did you do? How did it go (very
 badly, badly, okay, well, very well)? What made you pick that? Anything
 else?* Optional, when it helps the research question: *Add a photo,
@@ -192,14 +228,21 @@ photos and recordings as prompts.
 
 ## Basis
 
-Practitioner judgment, except "Ways to capture entries": S65 (choose the
-tool by budget, the data needed, and participants' devices and
-familiarity; some people express themselves better in writing, others on
-video; voice notes and video as entry formats; keep entries small and
-questions to what the research needs; pilot first); S44 (messaging apps,
-forms and documents, and diary platforms, with what each handles well and
-badly; data security and participant convenience in choosing a tool);
-S66 (photos, audio and video are personal data; consent covers what's
-collected, stored and shared; approved storage, limited access, blurring
-personal data in screenshots and clips). The format descriptions, the
-choosing steps and the analysis sums: practitioner judgment.
+S44 (when to use diary studies; event, interval and signal logging and
+when each fits; one to three weeks in its examples; five to twelve and
+twelve to thirty for saturation; over-recruiting; the pilot and kick-off;
+reading entries as they arrive and sending reminders; staged and higher
+incentives with a minimum and maximum; the exit interview; pitfalls of
+minimums, invented entries and sample entries); S52 (definition). The
+two-minute entry limit and the entry prompt: practitioner judgment.
+"Ways to capture entries": S65 (choose the tool by budget, the data
+needed, and participants' devices and familiarity; some people express
+themselves better in writing, others on video; voice notes and video as
+entry formats; keep entries small and questions to what the research
+needs; pilot first); S44 (messaging apps, forms and documents, and diary
+platforms, with what each handles well and badly; data security and
+participant convenience in choosing a tool); S66 (photos, audio and video
+are personal data; consent covers what's collected, stored and shared;
+approved storage, limited access, blurring personal data in screenshots
+and clips). The format descriptions, the choosing steps and the analysis
+sums: practitioner judgment.

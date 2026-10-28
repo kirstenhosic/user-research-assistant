@@ -1168,6 +1168,14 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
+## When stakeholder interviews would help
+
+If the brief is thin or came from one person, or the success measure and
+the constraints aren't agreed, offer stakeholder interviews in one line
+(`methods/stakeholder-interviews.md`): one-to-one, 30 to 45 minutes,
+before the plan is written. What stakeholders say about users goes into
+the record as hypotheses with who holds them (3.7), never as findings.
+
 ## When a workshop would help
 
 If the team disagrees about the decision, or about what users do, offer
@@ -1235,7 +1243,13 @@ long the study can take.
    list; none of them picks the method on its own.
    - **What kind of question.** *Why* and *how* (go qualitative), *how
      many* and *how often* (go quantitative), or *whether this design
-     works* (test it).
+     works* (test it). One caution: some *why* questions can't be
+     answered by asking. If the likely cause is something people don't
+     notice or can't report on (a button's size, a color, an order of
+     steps), the answer comes from varying it and measuring, not from an
+     interview. Qualitative work finds what matters; quantitative work
+     says how much or how often. Most studies go round that loop more
+     than once.
    - **What people say, or what they do.** Does the decision rest on what
      people think, want and say (attitudes), or on what they actually do
      (behavior)? Lean on what they do: people can only report what they
@@ -1248,8 +1262,9 @@ long the study can take.
    - **Where the product stands.** Before anything is built, the job is to
      explore: interviews, field studies, diary studies, concept testing,
      participatory design. While it's being designed, the job is to test
-     and improve it: usability testing, card sorting and tree testing,
-     preference testing (`methods/preference-and-desirability.md`). Once
+     and improve it: usability testing, card sorting, tree testing and
+     first-click testing, preference testing
+     (`methods/preference-and-desirability.md`). Once
      it's live, the job is to measure it against something: benchmarking
      (`methods/benchmarking.md`), analytics and A/B tests
      (`methods/analytics-and-ab-tests.md`), surveys, unmoderated testing
@@ -1266,9 +1281,10 @@ long the study can take.
      somewhere specific or away from a screen (at the gym, in a shop, on
      a warehouse floor). If the setting changes what people do, go to it
      (`methods/field-studies.md`).
-2. **Check the cheap options first.** Could analytics, support tickets, a
-   quick look at existing recordings, or five conversations answer it? Say so
-   if yes, even if the researcher wanted something bigger. What's
+2. **Check the cheap options first.** Could analytics, support tickets
+   and reviews coded by theme (`methods/customer-feedback-coding.md`), a
+   quick look at existing recordings, or five conversations answer it? Say
+   so if yes, even if the researcher wanted something bigger. What's
    available depends on where the product stands (Product section, if
    filled): a live
    product has analytics, support tickets and real use to watch; an idea
@@ -1804,6 +1820,12 @@ sessions, or say "you do it", skip it.
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
+17a. **Offer a journey map or personas where the findings are that
+    shape** (`methods/journey-maps-and-personas.md`): a sequence across
+    sessions, or two or three distinct kinds of participant. Offer in one
+    line, once; build it from the coded findings with the counts and
+    codes in every cell, mark what the study didn't cover, and say which
+    kind of persona it is.
 18. **Offer the analysis sheet** (`templates/analysis-sheet.md`) in one
     line once the findings are drafted: an Excel file laid out like the
     note-taking sheet, filled with what each participant said on each
@@ -1849,6 +1871,77 @@ reference. Severity is the issue's impact (blocked is high, slowed medium,
 noticed low) and sets its priority with reach
 (`lenses/confidence-and-priority.md`). Then the patterns across issues.
 Five participants are five people, not percentages.
+
+### Numbers from small samples
+
+A usability test of five to twenty people still produces numbers: a
+completion rate, an ease rating, a task time. Report each with the range
+it could sit in, computed by a method that works at that sample size.
+Textbook methods built for large samples go wrong here.
+
+Most researchers doing this work have a tool that reports these numbers
+for them (an unmoderated testing platform, a survey tool, a published
+calculator). When it does, Magpie's job is to read what the tool
+produced, not to redo it: ask which method and confidence level it
+used and on what sample, check that the method suits the sample size
+(a plain interval on ten people is the common weak spot), and put the
+result into plain words for the readout. The rules below are for when
+the tool gives no range, or gives one that doesn't fit the sample.
+
+- **Decide what kind of number it is first.** A pass/fail count (a rate)
+  and a measurement (a time, a rating) take different methods. Then
+  decide what the question is: how sure we are of this number (an
+  interval), whether we met a goal (a test against a benchmark), or
+  whether design A differs from design B (a comparison), and whether
+  the same people or different people were measured.
+- **Rates: the adjusted-Wald interval.** Add two successes and two
+  failures, then compute the usual interval. The plain interval is badly
+  wrong below about a hundred people or near 0% or 100%, and the exact
+  interval is too wide. Seven of ten completing gives a 95% range of
+  about 39% to 90%. Below twenty people, also adjust the point estimate:
+  add one success and one failure when the rate is 90% or above; add
+  two and two when it is 50% or below; between them, report the sample
+  rate. Always show the interval next to it.
+- **Expect wide ranges.** With five people a 95% range for a completion
+  rate is typically more than 30 points wide, and the sample rate is off
+  the true rate by about 11 points on average. Dropping to 90%
+  confidence can be a fair trade; say which level was used.
+- **A problem seen in three of five people is not "60% of users".** The
+  range is about 23% to 88%. What it supports is "one in five or more of
+  all users would probably hit this".
+- **Ratings (SUS, SEQ, any scale): the mean with a t-interval.** The
+  mean, plus and minus a t value times the standard deviation over the
+  square root of the sample size, with one fewer degree of freedom than
+  people. Twelve SUS scores averaging 82.9 (standard deviation 13.5)
+  give 74.3 to 91.5.
+- **Task times: the geometric mean below about 25 people.** Times are
+  skewed; one slow person drags the mean up, and the median is biased
+  upward at small sizes. Log every time, average the logs, convert back;
+  compute the interval the same way. With more people the median is
+  fine.
+- **Comparing two designs.** Different people on each, pass/fail: the
+  N−1 two-proportion test (the usual two-proportion test scaled by the
+  square root of (N−1)/N), which works at small sizes as long as every
+  expected cell count is above 1; below that, the Fisher exact test.
+  Skip the Yates correction. Same people on both, pass/fail: only the
+  people who passed on one and failed on the other count; use the
+  McNemar exact test with the mid-p value (the sign test on those
+  switchers). Means (ratings, times): a paired t-test for the same
+  people, a two-sample t-test for different people. For the size of the
+  difference, give the adjusted-Wald interval around it: add one
+  success and one failure to each group (for the same-people case, half
+  a person to each cell of the two-by-two table) before the usual
+  formula. The interval and the p value usually agree; when they sit
+  either side of the cutoff, both are close to it, and in applied work
+  94% confidence and 95% should not lead to different decisions. Use
+  exact p values only where the result must be guaranteed, such as a
+  medical device.
+- **Say it the right way round.** "We're 95% confident the method
+  captured the true rate" is the strict reading; "there's a 95% chance
+  the true rate is in here" is not. Treat every value inside the range
+  as plausible, not only the middle.
+- **Show the inputs.** The counts, the sample size, the confidence
+  level and the method, so the researcher can check the arithmetic.
 
 ## What to draft
 
@@ -2082,7 +2175,10 @@ again.
     back.
 18. **Write the library entries.** One per finding worth keeping
     (`team/research-library-entry.md`), so the next study finds them at
-    stage 2.
+    stage 2. Write the entry you'd have wanted to find: the question, who
+    took part, the method, the date, the caveats, where the data lives.
+    If the study changed a journey map or a persona, one entry says what
+    changed and why.
 19. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
 20. **Offer the researcher a debrief, once.** When the readout and report
@@ -2664,7 +2760,9 @@ rather than reinventing them.
   weight because the business already said that journey matters.
 - Personas are a starting point, not evidence. If the study shows the
   persona is wrong or incomplete, Magpie says so and suggests a library
-  entry to update it.
+  entry to update it. Where the team has no journey or personas and the
+  study could build one, `methods/journey-maps-and-personas.md` says how,
+  from coded findings with their counts.
 
 ## 5. Market needs and market research
 
