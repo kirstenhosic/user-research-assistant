@@ -192,14 +192,14 @@ photos and recordings as prompts.
 
 ## Basis
 
-Practitioner judgment, except "Ways to capture entries": S53 (choose the
+Practitioner judgment, except "Ways to capture entries": S65 (choose the
 tool by budget, the data needed, and participants' devices and
 familiarity; some people express themselves better in writing, others on
 video; voice notes and video as entry formats; keep entries small and
 questions to what the research needs; pilot first); S44 (messaging apps,
 forms and documents, and diary platforms, with what each handles well and
 badly; data security and participant convenience in choosing a tool);
-S54 (photos, audio and video are personal data; consent covers what's
+S66 (photos, audio and video are personal data; consent covers what's
 collected, stored and shared; approved storage, limited access, blurring
 personal data in screenshots and clips). The format descriptions, the
 choosing steps and the analysis sums: practitioner judgment.

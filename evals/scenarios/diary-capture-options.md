@@ -55,4 +55,4 @@ single required format also shuts out people who can't easily use it.
 
 ## Standards tested
 
-4.9, 4.3, 4.6, A.6, A.4
+4.10, 4.3, 4.6, A.6, A.4
