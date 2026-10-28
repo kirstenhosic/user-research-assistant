@@ -7,7 +7,7 @@ a proposed structure.
 ## Use them when
 
 - The question is about structure: navigation, categories, menu labels, how
-  a settings area or a help centre should be organized.
+  a settings area or a help center should be organized.
 - Card sorting: you're designing or rethinking a structure.
 - Tree testing: you have a structure (or two) and want to know if it
   works, before building any screens.

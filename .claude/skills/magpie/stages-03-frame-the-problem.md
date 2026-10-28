@@ -94,7 +94,7 @@ it in the record.
 3. **Tie it to the business.** Which goal or metric does it move? What does it
    cost to get it wrong? Use the team profile's goals and current bets if
    you have them, and note any market signal that bears on it (a competitor
-   move, a segment the company is chasing), labelled as partner data. If
+   move, a segment the company is chasing), labeled as partner data. If
    the researcher doesn't know, that's fine: write "[assumption]" and move
    on. Don't invent a metric or a market claim. From the cost and whether
    the decision can be undone, draft the decision risk (low, medium or

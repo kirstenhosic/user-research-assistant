@@ -37,6 +37,12 @@ ends with a status line, so you can see Magpie is still running:
 
 > Magpie · Planning the study · Waiting for your yes: research plan · Next: send me the recruiting criteria
 
+From the guide stage on, the status line also shows whether each required
+review is done, waiting or not yet, so you know what has had a fresh look
+before you say yes:
+
+> Magpie · Analyzing the sessions · Waiting for your yes: findings · Reviews: questions done · findings waiting · Next: paste the review
+
 If it guesses the stage wrong, say so and it adjusts. You call Magpie once
 per conversation; it stays on until you say "stop Magpie".
 
@@ -48,14 +54,15 @@ per conversation; it stays on until you say "stop Magpie".
 - **Asks before it builds.** Before a plan, a guide, findings or a report,
   it asks up to six short questions about what it doesn't know, such as
   your hypotheses, the business goal and who will read it, plus the ones
-  your particular study raises. A research plan from scratch gets up to
-  three short rounds (the problem, the method, then the logistics), so
-  the plan isn't built on guesses. Share a PRD, brief or past research
-  and Magpie reads it first and asks only what it doesn't answer. If it doesn't have the bare minimum, it
-  says so. It drafts nothing until the required answers are in, from you
-  or as a guess you've said yes to. Say "just draft it" to skip the
-  optional questions; for any required ones, Magpie shows its best
-  guesses for a quick yes before it builds.
+  your study raises. A research plan from scratch gets up to three short
+  rounds: the problem, then the method, then the logistics. Share a PRD,
+  brief or past research and Magpie reads it first and asks only what it
+  doesn't answer.
+- **Drafts nothing on guesses you haven't seen.** Some questions are
+  required. Magpie drafts nothing until each one has your answer, or a
+  guess from Magpie that you've said yes to. Say "just draft it" to skip
+  the optional questions. If a required answer is still missing, Magpie
+  shows its best guesses first, and one "yes" from you is enough.
 - **Coaches as it works.**
   - After each output it asks the one question most likely to change it,
     and says in a sentence why it matters. You can skip it.
@@ -68,10 +75,23 @@ per conversation; it stays on until you say "stop Magpie".
     hand a step back.
   - It shows why it chose a method and why the guide's questions sit in
     that order, and you can push back.
+  - Before it picks a method, it checks four things: the kind of
+    question, whether you need what people say or what they do (it leans
+    on what they do), where the product stands, and the setting. If your
+    question has two halves, such as "how many" and "why", it may suggest
+    a second method for the other half. It always says what you'll have
+    at the end.
   - In analysis, you keep, change, split or drop each theme it proposes.
 - **Says where every claim comes from.** Your data, a partner team's data,
   general practice, or an assumption. It never makes up a quote, a number,
   or a participant, and every count names the participants behind it.
+- **Says how sure it is, and how much each finding matters.** These are
+  two separate labels. Confidence (strong, moderate or weak) comes with a
+  one-line reason: how many people, how well they match your users, and
+  whether the behavior was seen, told as a real past event, or only an
+  opinion. Priority comes from impact and reach. A finding that matters a
+  lot but rests on weak evidence is marked "check next". Findings are
+  shown in priority order, and Magpie asks if the order matches yours.
 - **Keeps a study record.** One document holds the product and its users
   (if you want to add them), the decision, questions, method, participants,
   findings and risks. Save it and you can continue in
@@ -90,11 +110,21 @@ per conversation; it stays on until you say "stop Magpie".
   transcripts and the draft. It's required at analysis and at the report
   and readout, and checks that every finding traces to its source and the
   language is plain. Interview guides and surveys get their own
-  independent review for leading, double-barrelled or out-of-order
-  questions.
+  independent review for leading, double-barreled or out-of-order
+  questions. Before a readout or report goes out, a release check matches
+  it to where it's going (your team, the wider company, or outside): names
+  and employers removed, descriptions broad enough that no one can be
+  picked out, quotes used only as participants agreed, and sensitive
+  findings handled as agreed.
 - **Writes for the people who act on it.** Readouts and reports lead with
-  why the study was done and up to five top findings, keep every other
-  finding on one page, and say which teams each recommendation touches.
+  why the study was done and up to five top findings, the most important
+  first. Every other finding stays on one page, and each recommendation
+  says which teams it touches. The next steps end with "How we'll know it
+  worked": when the team will look back, and what sign would show the
+  change worked.
+- **Writes in American English.** Every output uses American spelling
+  and dates written month first ("October 28, 2026"). Quotes from
+  participants and the titles of sources stay exactly as they were.
 
 The reasoning behind each of these is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
@@ -142,8 +172,7 @@ Every study ends the same way: findings with counts and participant
 references, a readout, a report, and research library entries, drafted
 from the templates in [`core/templates/`](core/templates/). Magpie also
 offers you, once, a short private debrief that stays out of what the team
-sees. A finished
-example is in [`docs/examples/`](docs/examples/).
+sees. A finished example is in [`docs/examples/`](docs/examples/).
 
 ## Words that steer it
 
@@ -191,7 +220,7 @@ designers who ask you for research; Magpie can start from a filled one.
 ## Get started
 
 First, download Magpie: **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**
-(about 120 KB). It holds all of Magpie: a `SKILL.md` file that tells the
+(about 180 KB). It holds all of Magpie: a `SKILL.md` file that tells the
 assistant how to behave, the files it reads at each stage, and three small
 scripts that check quotes, counts and the people behind each count. The
 same files are in the folder `adapters/skill/magpie/` in this repository,
@@ -244,10 +273,10 @@ You need a Claude.ai account with Projects.
    the `.md` files; the scripts are optional, since Claude.ai can't run
    them).
 3. Open the project's instructions and paste the contents of
-   `operating.md` from the zip (about 22,000 characters). That's
+   `operating.md` from the zip (about 39,000 characters). That's
    the rulebook; the rest are reference files Claude reads when it needs
    them. Don't paste `adapters/generic/system-prompt.md` here; at about
-   200 KB it repeats every file you just added.
+   330 KB it repeats every file you just added.
 4. Start a chat in the project and describe your study.
 
 ### ChatGPT
@@ -307,13 +336,13 @@ More detail, and why Magpie isn't set up as an Agent Builder agent, is in
 Upload `magpie.zip` if the assistant takes skills; it's the easiest route.
 If it doesn't, but it has projects or knowledge files, set it up like
 Claude.ai above: paste `operating.md` from the zip as the
-instructions (about 22,000 characters) and add the other `.md` files from
+instructions (about 39,000 characters) and add the other `.md` files from
 the folder as files.
 
 `adapters/generic/system-prompt.md` holds all of Magpie in one file, for
 tools that take one very long system prompt, such as some API setups. It's
-about 200 KB, and the lean version, `system-prompt-lean.md`, is about
-120 KB. Most custom-instruction boxes in chat apps are far smaller, so
+about 330 KB, and the lean version, `system-prompt-lean.md`, is about
+180 KB. Most custom-instruction boxes in chat apps are far smaller, so
 expect them to refuse both.
 
 ## Where it stands
@@ -323,14 +352,18 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
-- **Early results look good but aren't confirmed.** There are now 111
+- **Early results look good but aren't confirmed.** There are now 112
   test scenarios. Most of the first 36 passed, but that run didn't prove
-  Magpie was loaded each time. Three later runs used the stricter rules: 6
-  of 7 coaching scenarios and 7 of 8 HEARTS scenarios passed, with one
-  partial each, and the diary capture scenario passed. All were judged by
-  a model, not yet by a person. The details are in
+  Magpie was loaded each time. Later runs used stricter rules. 6 of 7
+  coaching scenarios and 7 of 8 HEARTS scenarios passed, with one partial
+  each, and the diary capture scenario passed. In a test of drafting too
+  early, none of the 12 runs after the fix drafted before the required
+  answers were in. Many newer scenarios haven't been run live yet,
+  including the ones for confidence and priority, choosing a method, and
+  American English. All results so far were judged by a model, not yet
+  by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 127 standards in
+- **Its rules are written down.** Magpie follows 128 standards in
   [`core/standards/`](core/standards/). 54 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.
@@ -384,7 +417,8 @@ docs/examples/           a filled-in report and readout (Markdown, Word, PowerPo
 ```
 
 To change Magpie, edit `core/` and run `python3 tools/build.py`; the
-adapters are rebuilt from it. [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
+adapters are rebuilt from it. Write in plain words and American English;
+`python3 tools/check.py` flags British spellings and day-first dates. [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
 has the rest, and [`docs/DESIGN.md`](docs/DESIGN.md) explains how Magpie is
 built and why.
 

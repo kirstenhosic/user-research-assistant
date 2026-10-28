@@ -1,7 +1,7 @@
 # Method: surveys
 
 Ask many people the same questions to measure how common an attitude,
-behaviour or need is.
+behavior or need is.
 
 ## Use it when
 
@@ -28,7 +28,7 @@ behaviour or need is.
 ## Survey shape (under ten minutes)
 
 1. Intro: what it's for, how long, what's done with answers.
-2. Screener: behaviour-based.
+2. Screener: behavior-based.
 3. Main sections, general to specific, one topic each.
 4. One or two optional open-ends where a story helps.
 5. Demographics last, each with "prefer not to say".

@@ -63,7 +63,7 @@ out, write "not added" and delete the lines below.
 - **Who else cares:** [Stakeholders beyond the owner]
 - **Job:** [what the user is trying to get done, in their terms]
 - **Journey and step:** [which CUJ or journey, which step; "none tracked" is fine]
-- **Persona or group:** [the team's name, with the behaviour that defines them]
+- **Persona or group:** [the team's name, with the behavior that defines them]
 - **Upstream and downstream:** [what feeds this piece, what depends on it, who else touches it]
 
 ## Hypotheses
@@ -154,7 +154,7 @@ P5 06, P7 06)".
 
 Strength: **strong** (consistent across most participants or statistically
 reliable), **moderate** (clear pattern with exceptions), **weak** (few
-participants or mixed signals). Behaviour that rests only on opinions, or
+participants or mixed signals). Behavior that rests only on opinions, or
 a finding that rests only on stand-ins, is moderate at most. "No other
 sources yet" lowers nothing (`lenses/confidence-and-priority.md`).
 

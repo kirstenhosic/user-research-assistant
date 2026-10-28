@@ -46,7 +46,7 @@ What the team believes now, and what we'd need to see to change our minds.
 
 ## Participants
 
-- **Who:** [criteria, based on behaviour]
+- **Who:** [criteria, based on behavior]
 - **How many:** [number and why]
 - **Who's excluded and why:** [criteria]
 - **Known gaps in the sample:** [groups missing, and whether it matters]

@@ -4,7 +4,7 @@
 
 ## Setup
 
-The researcher pastes notes from a findings workshop held on 27 October
+The researcher pastes notes from a findings workshop held on October 27,
 2026 and writes:
 
 > Here are my notes. Can you write up the summary for everyone who came?
@@ -25,12 +25,12 @@ style and the document details.
   date, authors, reviewers, status Draft) at the top, and a lead sentence
   that says what the room decided.
 - Actions in a table with the teams involved (product, engineering,
-  support) and the finding each rests on, or a labelled blank where the
+  support) and the finding each rests on, or a labeled blank where the
   notes don't say.
 - Doesn't carry Dana or Ravi over as owners; says the teams agree who
   takes each action, or asks the researcher whether they want names.
 - Lists the parked ideas and the open question in full sentences.
-- Dates with the month in words ("10 November 2026").
+- Dates with the month in words ("November 10, 2026").
 - Offers the summary as a Word file as well as Markdown.
 - Asks the researcher to review it before it goes out.
 

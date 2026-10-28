@@ -1,6 +1,6 @@
 # Draft readout summary: Tally receipt capture usability test
 
-Six moderated sessions, 1 to 3 October 2026. Two tasks: capture and submit a
+Six moderated sessions, October 1 to 3, 2026. Two tasks: capture and submit a
 paper receipt; find last month's expenses and check approvals. Draft by the
 researcher, before review.
 

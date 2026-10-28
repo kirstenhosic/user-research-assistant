@@ -46,7 +46,7 @@ skip any question.
 
 ## Screener
 
-S1. In the last 30 days, have you [behaviour]?
+S1. In the last 30 days, have you [behavior]?
 - ( ) Yes
 - ( ) No (end the survey)
 
@@ -54,7 +54,7 @@ S1. In the last 30 days, have you [behaviour]?
 
 First, a few questions about [topic, in their words].
 
-Q1. In the last 30 days, how many times did you [behaviour]?
+Q1. In the last 30 days, how many times did you [behavior]?
 - ( ) 0
 - ( ) 1–2
 - ( ) 3–5
@@ -67,7 +67,7 @@ Q2. The last time you [did it], which of these did you use? Select all
 - [ ] [option]
 - [ ] Other (please say):
 
-Q3. Have you ever [behaviour]?
+Q3. Have you ever [behavior]?
 - ( ) Yes
 - ( ) No (go to Q5)
 

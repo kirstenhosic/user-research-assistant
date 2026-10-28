@@ -17,7 +17,7 @@ beside it, and the code checks in `scripts/`.
   `adapters/skill/magpie/` there.
 
 Locations checked against https://code.claude.com/docs/en/skills on
-28 October 2026. Personal skills load in every project on that computer,
+October 28, 2026. Personal skills load in every project on that computer,
 but not in Cowork or cloud sessions.
 
 Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and

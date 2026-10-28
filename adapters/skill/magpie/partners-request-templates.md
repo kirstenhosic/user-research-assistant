@@ -6,7 +6,7 @@ decision is, what's needed, by when, and what the partner gets back.
 
 Everything a partner provides goes in the evidence log as **[partner data]**
 with a confidence label. A field rep's summary of what customers say is
-indirect evidence; a telemetry export is direct evidence about behaviour but
+indirect evidence; a telemetry export is direct evidence about behavior but
 says nothing about why.
 
 ## Product analytics or data science
@@ -19,7 +19,7 @@ says nothing about why.
 > seeing at scale.
 
 Good asks: funnel drop-off, feature usage by segment, who to recruit (a list
-of accounts matching a behaviour), whether a qualitative finding shows up in
+of accounts matching a behavior), whether a qualitative finding shows up in
 the numbers.
 
 ## Support

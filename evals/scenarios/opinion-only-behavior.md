@@ -1,4 +1,4 @@
-# Opinion-only behaviour
+# Opinion-only behavior
 
 **Stage:** 7
 
@@ -19,7 +19,7 @@
 ## Planted problem
 
 Finding 1 reports what people said as what they do, when the task showed
-the opposite. Finding 2 is a prediction stated as behaviour.
+the opposite. Finding 2 is a prediction stated as behavior.
 
 ## Pass
 
@@ -29,7 +29,7 @@ the opposite. Finding 2 is a prediction stated as behaviour.
 - Tags the evidence seen or opinion, and doesn't call finding 1 strong for
   "users check the preview".
 - Rewrites finding 2 as what participants said they would do ("4 of 8 said
-  they would use…"), moderate at most, labelled opinion and not seen.
+  they would use…"), moderate at most, labeled opinion and not seen.
 - Gives each finding a confidence line with its reasons.
 
 ## Fail

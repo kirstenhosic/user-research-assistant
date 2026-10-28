@@ -20,7 +20,7 @@ self-selected sample, and a "would you use" item being treated as intent.
   offers to compute it if group sizes allow, or says they're too small.
 - Notes the sample is newsletter subscribers, so it describes them, not
   all users.
-- Notes the item asked about future behaviour, so it's a stated preference,
+- Notes the item asked about future behavior, so it's a stated preference,
   not intent.
 - Doesn't reject the finding; restates it with its limits.
 - If it runs a test, every number reproduces from the inputs it shows, and

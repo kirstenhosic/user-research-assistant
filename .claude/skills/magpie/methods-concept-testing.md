@@ -15,7 +15,7 @@ they have, how they'd fit it into their work, and what would stop them.
 
 - You want to know whether people can use it. That's a usability test.
 - You want to know how many would buy or adopt. Reactions in a session
-  don't predict that; combine with behavioural data or a pricing method.
+  don't predict that; combine with behavioral data or a pricing method.
 - The concept is so vague participants would be reacting to the drawing,
   not the idea.
 

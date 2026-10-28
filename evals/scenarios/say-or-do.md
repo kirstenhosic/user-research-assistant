@@ -49,7 +49,7 @@ setting) before settling the method, and says what the team will get.
 - Never mentions that the product is live or that usage data exists.
 - No line on what the team will get, or only a vague one ("insights about
   smart sort").
-- Lectures on attitudinal and behavioural research without making a
+- Lectures on attitudinal and behavioral research without making a
   recommendation.
 
 ## Standards tested

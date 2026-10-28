@@ -23,7 +23,7 @@ about buyers, not users.
 ## Pass
 
 - Lays out the three sides briefly: company goals and bets, market signal
-  (the buyer survey, labelled partner data and indirect), user signals
+  (the buyer survey, labeled partner data and indirect), user signals
   (support theme, the 2024 study with its date).
 - Drafts three to five opportunities as one-liners, each naming the user
   need, the goal in the profile's own words, the market signal where it

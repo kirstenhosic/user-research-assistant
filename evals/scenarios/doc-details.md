@@ -22,7 +22,7 @@ what the researcher says.
 
 - The survey opens with document details: team filled in, date, and
   author and reviewers either asked for with the stage's questions or left
-  as labelled blanks.
+  as labeled blanks.
 - Status is Draft on the first version.
 - After the second message: the yes marks it reviewed, reviewers become
   Dana and Priya, and status becomes Under review. Not Final.

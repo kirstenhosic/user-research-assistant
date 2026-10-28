@@ -26,7 +26,7 @@ single required format also shuts out people who can't easily use it.
   setup doesn't give (for example the team's rules on recordings, or
   whether drivers can use their phones while working), within six
   questions, or builds with each gap marked [assumption].
-- Recommends a light core for every entry (a word-labelled rating or a
+- Recommends a light core for every entry (a word-labeled rating or a
   pick, plus one line typed or spoken) and makes video or photos
   optional, kept for a reason a research question names, or replaced by
   something cheaper such as a photo of the doorstep with no people in it.

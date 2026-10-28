@@ -60,7 +60,7 @@ A/B tests:
 - Set how long it runs before it starts, from how often the thing happens
   now, the smallest change worth detecting, and how sure you need to be
   (usually 95%). Run at least one to two full weeks so weekday and weekend
-  behaviour are both in. Don't stop early because B looks ahead.
+  behavior are both in. Don't stop early because B looks ahead.
 - With a new testing tool, run both groups on the same version first. If
   the tool shows a winner, the tool is wrong.
 
@@ -104,7 +104,7 @@ hypothesis from research; main and guardrail measures; duration set in
 advance, at least one to two weeks; an A/A test of a new tool; don't stop
 early; statistically significant is not the same as important; many tests
 find no winner; it shows
-how behaviour changes, not why; pair it with qualitative research). S11
+how behavior changes, not why; pair it with qualitative research). S11
 (analytics, clickstream and A/B testing as measuring methods for a live
 product). S13 (combine methods so one covers another's limits). Who does
 the work: practitioner judgment.

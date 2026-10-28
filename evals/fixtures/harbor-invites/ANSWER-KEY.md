@@ -11,7 +11,7 @@ Do not show this file to the assistant under test.
 | Most invite prompts were ignored, but not by everyone. Ignored or closed: P1 (12), P2 (14), P3 (14), P7 (16). | | P6 used the banner to find the button (16). P8 would have used it (12). P4 found it nagging but kept going (10, 12). | moderate |
 | At least one invite failed to arrive for 3 of 8 admins, for three different reasons: P5 a typo (12), P6 an email not received (12), P7 university mail filtering two invites, with the invite page showing only "pending" (12, 14). | | P1 (14), P8 (06) had no delivery problem. | weak as a single cause; the three causes are different |
 | Moving existing work in was the delay for 2 of 8: P1 copied cards by hand (04, 20), P5's import lost its columns (02, 04, 18). | | P3 (04), P6 (04), P8 (18) were set up within an hour. | weak |
-| Single cases worth keeping, labelled as such: P7 wanted to invite people to one board rather than the workspace (18, 20). P4 could not find the solo plan (16, 18). P8 and cofounder made two workspaces with no way to merge (04, 16, 20). | | | single case each |
+| Single cases worth keeping, labeled as such: P7 wanted to invite people to one board rather than the workspace (18, 20). P4 could not find the solo plan (16, 18). P8 and cofounder made two workspaces with no way to merge (04, 16, 20). | | | single case each |
 
 Invite timing per participant: P1 day 3; P2 last day; P3 day 4 or 5; P4
 never (solo); P5 day 2; P6 day 1; P7 day 6; P8 was invited by a cofounder

@@ -37,7 +37,7 @@ does the wording match the evidence?
    person (the only CTO in the study), use a broader label and say so
    once (`operating.md`, "Personal details in the material").
 7. **Secondhand stays secondhand.** A finding that rests on partner data or
-   a stakeholder's account is labelled that way and can't be "strong" on
+   a stakeholder's account is labeled that way and can't be "strong" on
    its own.
 8. **Confidence doesn't drift.** The strength on the slide is the strength
    in the record. Check every finding against the record before the
@@ -45,10 +45,10 @@ does the wording match the evidence?
 9. **Recommendations stay inside the findings.** A recommendation that
    needs a fact the study didn't establish says so and marks that fact as
    an assumption.
-10. **Absence of evidence is labelled.** "No participant mentioned X" is a
+10. **Absence of evidence is labeled.** "No participant mentioned X" is a
     finding about the sessions, not proof that X doesn't matter.
 11. **Every finding has receipts.** At least two participant references
-    with locations per directional claim, or a single case labelled as
+    with locations per directional claim, or a single case labeled as
     one. No receipts, no slide. Each count carries its own: "3 of 8 (P1 06,
     P5 06, P7 06)", one code per person counted, so a script can confirm
     the count matches the list and every line exists. The record and the

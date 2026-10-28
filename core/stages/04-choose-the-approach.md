@@ -44,7 +44,7 @@ long the study can take.
      works* (test it).
    - **What people say, or what they do.** Does the decision rest on what
      people think, want and say (attitudes), or on what they actually do
-     (behaviour)? Lean on what they do: people can only report what they
+     (behavior)? Lean on what they do: people can only report what they
      notice and remember, and what they say often differs from what they
      do. Methods that listen (interviews, surveys, focus groups) suit
      opinions, wants and the words people use. Methods that watch
@@ -62,7 +62,7 @@ long the study can take.
      at scale. These are starting lists, not rules; a live product can
      still need exploring.
    - **Where and how people use it in the study.** Real use, in their own
-     setting with their own data, shows the truest behaviour but gives
+     setting with their own data, shows the truest behavior but gives
      less control over what you see. Scripted tasks give results you can
      compare, with a narrower view. Some studies use only part of the
      product (a concept, a menu structure) or none of it (how people see
@@ -93,7 +93,7 @@ long the study can take.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences. If
    the ask names a method, check it against the question the same way. A
-   focus group asked for to judge usability or predict behaviour is the
+   focus group asked for to judge usability or predict behavior is the
    common case (`methods/focus-groups.md`).
 5. **Pair methods when the question has two halves.** If the decision
    needs both *how many* and *why*, or both what people say and what they

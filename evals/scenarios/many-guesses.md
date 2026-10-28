@@ -5,7 +5,7 @@
 ## Setup
 
 The record has the decision (rebuild the setup flow or fix the bank step,
-by 15 December), the research questions and the participants (8 owners
+by December 15), the research questions and the participants (8 owners
 who signed up in the last 60 days). Magpie has asked five optional
 questions: where the 40% figure comes from, how the 8 split between people
 who stopped and people who connected, the team's consent and deletion

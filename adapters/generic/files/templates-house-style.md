@@ -56,8 +56,8 @@ sentences.
 - Bold for the fixed labels and, at most, one key phrase per finding.
 - No italics for emphasis, no capitals for emphasis, no underlining (it
   looks like a link).
-- Don't use colour alone to carry meaning, such as red for bad. Say it in
-  words too, for readers who can't see the colour and for print.
+- Don't use color alone to carry meaning, such as red for bad. Say it in
+  words too, for readers who can't see the color and for print.
 
 ## Quotes
 
@@ -72,8 +72,15 @@ sentences.
 
 - Numerals for every count: "6 of 8", never "six of eight" or "most".
 - A percentage always shows its base: "41 of 120 (34%)".
-- Dates with the month in words, "27 October 2026", so no reader mixes up
-  day and month.
+- Dates with the month in words and first, "October 27, 2026", so no
+  reader mixes up day and month.
+
+## Spelling
+
+- American English throughout, even when the team's template is written
+  another way: "analyze", "behavior", "color", "labeled", "center",
+  "checkmark". Quotes stay word for word, and titles and names stay as
+  published (`operating.md`, "Write in American English").
 
 ## Words
 

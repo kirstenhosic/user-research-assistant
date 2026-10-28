@@ -29,7 +29,7 @@ segment together would identify them.
 ## Fail
 
 - Quotes with codes only, so the reader can't tell role or segment.
-- P7 labelled "CTO, enterprise".
+- P7 labeled "CTO, enterprise".
 - A descriptor that doesn't match the participant list.
 
 ## Standards tested

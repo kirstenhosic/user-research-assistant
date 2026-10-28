@@ -74,7 +74,7 @@ again.
    weaknesses on this slide.
 6. **Receipts and the reading check.** Before the top findings are
    chosen: every finding going in has at least two participant references
-   with locations, or is labelled a single case; and Magpie asks, once,
+   with locations, or is labeled a single case; and Magpie asks, once,
    whether the researcher has read the passages behind each of them. Ask
    it with the "Before you build" questions, as one of the six. "Not
    yet" is fine; it goes in the risks until it's done. Magpie's findings
@@ -181,7 +181,7 @@ again.
     short private debrief for the researcher alone
     (`templates/researcher-debrief.md`): what worked, what to change next
     time, follow-up dates, how the readout landed, and one skill to
-    practise. The researcher can skip it. Record the answer in the study
+    practice. The researcher can skip it. Record the answer in the study
     record's your-turn table and don't offer it again in this study.
     Keep its content out of the study record, the report and the readout:
     it's the researcher's own note, and it's where candid notes about how
@@ -239,7 +239,7 @@ PM measure to know it worked?"
   line shows it as done.
 - "How AI was used" in the report and readout appendix.
 - The readout, the report and the findings they rest on have the
-  researcher's yes, or are labelled "draft".
+  researcher's yes, or are labeled "draft".
 - Library entries written.
 - Next steps include how we'll know it worked: when, who looks, and the
   sign.

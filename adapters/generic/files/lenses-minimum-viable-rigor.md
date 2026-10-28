@@ -68,7 +68,7 @@ inform. If the plan relies on one, name it and offer the fix.
   (`checks-guide-wording.md`).
 - **Comparing rating-scale scores across countries or cultures** as if
   the scale meant the same everywhere. People in some groups tend to agree
-  or rate higher whatever the question; compare rankings or behaviour
+  or rate higher whatever the question; compare rankings or behavior
   instead.
 - **A sample with none of the people the decision is about.**
 - **A method that can't answer the kind of question asked:** a survey for
@@ -96,7 +96,7 @@ don't change how sure the evidence is.
 Moves that save time without lowering rigor:
 
 - One primary question; the rest go under "nice to know".
-- A short screener based on behaviour, aimed at users the team can reach
+- A short screener based on behavior, aimed at users the team can reach
   quickly.
 - Sessions close together, with a short debrief after each, so analysis
   starts during fieldwork.
