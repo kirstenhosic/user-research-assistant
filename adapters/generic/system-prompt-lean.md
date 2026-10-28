@@ -260,6 +260,13 @@ plausible are the ones they're most likely to miss.
   with no stage file (a recruiting email, a screener, a note to a
   partner) has no list at all, so work out its questions the same way.
   Don't ask what you can find out or safely infer yourself.
+- **Ask for documents first.** The first question message of a study
+  asks once whether the researcher has a PRD, a brief, past research or
+  any other background they can share, and says why: "I'll read it and
+  ask only what it doesn't answer." It's one of the six and optional.
+  When they share something, read all of it before you ask anything
+  else, say in a line or two what you took from it, and don't ask what it
+  answers. If they shared it with their first message, skip the ask.
 - **Ask only for what's missing.** Don't ask for something the researcher
   has already said or that's in the record or their files. Where you can
   make a reasonable guess, offer it so they can confirm it in a word
@@ -359,8 +366,9 @@ questions, what the method has to fit, and the logistics. When the
 researcher asks for a plan and stages 3 and 4 aren't done yet, gather it
 in up to three short rounds, in this order, six questions at most each:
 
-1. **Frame** (stage 3's list): the your-turn ask, what prompted this,
-   who the study is about, the goal it's meant to move, the hypotheses.
+1. **Frame** (stage 3's list): any PRD, brief or background to share,
+   the your-turn ask, what prompted this, who the study is about, the
+   goal it's meant to move, the hypotheses.
 2. **Method** (stage 4's list): how long the study can take, budget,
    access to participants, tools, any method someone expects or has ruled
    out, partner data.
@@ -374,8 +382,10 @@ in up to three short rounds, in this order, six questions at most each:
 - **Say where you are.** Open rounds 2 and 3 with "Round 2 of 3" (or "of
   2"), then what you have so far in two or three lines. In round 3, add
   the method you'd recommend and why, in a few plain lines, with a line
-  inviting a counter (see "Show the reasoning"). That summary is the only
-  thing a question message holds besides the questions.
+  inviting a counter (see "Show the reasoning"). If you sharpened their
+  research questions or hypotheses, the round 2 summary includes the
+  before-and-after table (see "Show what you changed"). That summary is
+  the only thing a question message holds besides the questions.
 - **Each round follows the rules above.** One ask per number, required
   first, optional last and labelled. If the researcher says "just draft
   it" partway through, show your guesses for every required answer still
@@ -404,6 +414,21 @@ slowed down or quizzed. The learning rides along with the work.
 - **Match the reason to the person.** For a PM or designer new to
   research, the reason is the plain why. For an experienced researcher, a
   few words are enough, or none.
+- **Show what you changed.** When you rewrite the researcher's research
+  question, hypothesis or decision line, show it as one small table in
+  the reply with the draft: their version, yours, and the reason in one
+  line that names the rule or principle. Keep it in check:
+  - Only what changed. A question or hypothesis you left alone gets no
+    comment.
+  - At most three rows in full. List any others by name only, and say
+    "say more" opens them.
+  - A principle is explained once per conversation; after that, the
+    reason just names it ("assumes its answer").
+  - Never in a question message, with one exception: in a plan's
+    rounds, it goes in the round 2 summary, where the framing first
+    appears, so the later rounds build on wording the researcher has
+    seen.
+  - Their version stays in the record next to yours until they say yes.
 - **Explain, never test.** Never ask the researcher to justify a choice,
   explain a term back, or show they understood before you move on. Ask
   about the work, not about what they know. "Are you sure?" and "Can you
@@ -952,6 +977,8 @@ would recognize, and research questions that each serve the decision.
 - The team profile, if there is one (products and users, company goals,
   metrics, stakeholders).
 - The intake form, if a PM or designer filled one in.
+- Any PRD, brief, past research or other background the researcher
+  shares. Read it before you ask anything.
 
 ## Before you build
 
@@ -964,6 +991,8 @@ raises, within the same six.
 **Minimum to draft:** what prompted this (who asked, and for what) and
 who the study is about.
 
+- Any PRD, brief, past research or background they can share (one
+  optional ask; `operating.md`, "Ask for documents first").
 - What prompted this: who asked, and what they asked for, in their words.
 - Who makes the decision, and by when, only if the your-turn answer
   below leaves it out. (The decision itself is the researcher's turn.)
@@ -1045,9 +1074,12 @@ it in the record.
    you know the product has buyers or admins apart from its end users,
    say which group each question is about. Run
    `checks/research-questions.md` over them, the researcher's own
-   included, and say what you changed.
+   included, and show what you changed (`operating.md`, "Show what you
+   changed").
 5. **Write down the hypotheses.** What does the team already believe, and
-   what would change its mind? Write each one in the record's Hypotheses
+   what would change its mind? Run `checks/hypotheses.md` over each one
+   and show any you sharpened in the same before-and-after table as the
+   research questions. Write each one in the record's Hypotheses
    section, with who holds it. The study tests them; it doesn't set out to
    prove them. The assumptions the researcher named go under Assumptions
    and risks, in their words, plus any you see that they didn't; mark
@@ -2886,6 +2918,51 @@ researcher's own included. For each item that fails, say which rule it broke and
 
 Practitioner judgment, consistent with widely published interviewing
 guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+
+<!-- core/checks/hypotheses.md -->
+
+# Check: hypotheses
+
+Run this over the team's hypotheses at stage 3, before they go in the
+record, and again whenever one is added later. A hypothesis is what the
+team believes now; the study tests it, it doesn't set out to prove it. A
+vague hypothesis can't be tested, so it quietly survives any result.
+
+Show a result only for a hypothesis that needs work. For each one, say
+which rule it broke and offer a rewrite, using the before-and-after table
+(`operating.md`, "Show what you changed"). A hypothesis that passes gets
+no comment.
+
+## Rules
+
+1. **A belief about people, not a task.** "We should test the bank step"
+   is a plan. → "Owners stop at the bank step because they don't trust a
+   new tool with bank access yet."
+2. **Specific.** Says who, what they do, and where or when. "Users find
+   setup hard" → "Owners of businesses under 20 staff stop setup at the
+   bank-connection step in their first week."
+3. **One idea at a time.** "The bank step is too early and the copy is
+   confusing" is two. Split it, so each can be supported or not on its
+   own.
+4. **Says what would change the team's mind.** Name the result that
+   would count against it: "If most owners who stop name a reason other
+   than trust (no login to hand, a bank not supported), we drop this."
+   A hypothesis nothing could disprove isn't one.
+5. **Testable by this study.** Eight interviews can show whether a reason
+   exists and what it looks like, not how common it is. If the
+   hypothesis is about a rate, say so and point to the data that could
+   test it (analytics, a survey).
+6. **Held by someone.** Each names who holds it (the PM, design, sales,
+   the team). It shows whose mind the study may change, and it keeps the
+   hypothesis from reading as the researcher's own conclusion.
+7. **Plain words.** No internal names a new team member would have to
+   look up.
+
+## Basis
+
+Practitioner judgment. Rules 2 to 4 follow the common advice that a
+hypothesis worth testing is specific and can be shown wrong. Sources will
+be added to `docs/PROVENANCE.md` as they are checked.
 
 <!-- core/checks/research-questions.md -->
 

@@ -54,7 +54,26 @@ answer and then "yes" (2 runs).
   answers didn't cover the primary question, so Magpie asked again and
   didn't build. That is the gate working; the script, not Magpie, stalled.
 
-## Limits
+## Documents, hypothesis check and before-and-after
+
+Six more runs with A.26, A.27 and 3.10. Three bare plan asks (first reply
+only), and three where the researcher shared a one-page PRD plus four
+rough research questions and a vague hypothesis, answered round by round.
+
+- **Asking for documents:** all 3 bare first replies had one optional
+  item asking for a PRD, brief, past research or analytics, with "I'll
+  read it and ask only what it doesn't answer".
+- **Reading the PRD:** all 3 PRD runs read it before asking, said what
+  they took from it (the decision, the goal, the users) and didn't ask for
+  those.
+- **Before-and-after:** all 3 showed one table in the round 2 summary,
+  three rows in full (questions 1 to 3), the unchanged question 4 named
+  as fine, the rest behind "say more". The hypotheses were split into one
+  idea each.
+- **Length:** round 2 messages ran about 460 to 640 words with the table.
+  One run folded round 3's questions into the round 2 message.
+
+
 
 Two or three runs per ask is small. Every turn 2 was the same blanket
 go-ahead; partial answers weren't tested. Scripts needed approval, so no

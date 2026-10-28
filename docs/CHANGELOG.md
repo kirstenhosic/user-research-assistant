@@ -23,7 +23,15 @@
   when the brief covered the minimum (A.24). A research plan from scratch
   now gathers its context in up to three short rounds (frame, method,
   plan), six questions at most each, and is built once after the last
-  round (A.25, new scenario `plan-in-rounds`).
+  round (A.25, new scenario `plan-in-rounds`). The first question
+  message of a study asks once for any PRD, brief or background, which
+  Magpie reads before asking more (A.26). A new hypothesis check
+  (`checks/hypotheses.md`, standard 3.10) joins the research-question
+  check. When Magpie rewrites the researcher's question, hypothesis or
+  decision line, it shows a short before-and-after table: only what
+  changed, at most three rows in full, each principle explained once
+  (A.27). New scenarios `background-doc`, `vague-hypothesis`,
+  `before-and-after`.
   Run notes: `evals/runs/2026-10-28-drafting-gate.md`.
 - A lighter first reply: each numbered question asks one thing, questions
   the output can be built without come last marked "(optional)", a best
