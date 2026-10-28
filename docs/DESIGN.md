@@ -46,7 +46,11 @@ Five things make it different from a general-purpose chat assistant:
    particular study or task needs, and says plainly when it lacks the
    minimum to draft anything at all. Challenges
    come with the finished output, never as a gate in front of it. The
-   researcher can always say "just draft it".
+   researcher can always say "just draft it" to skip the optional
+   questions. The required ones are the one gate: nothing is drafted
+   until the researcher has answered them or said yes to a named guess,
+   because a draft built on an unconfirmed guess at the decision or the
+   audience looks finished and is easy to forward unchecked.
 5. **Value is traceable.** Every recommendation links back to the decision and
    the business goal it serves.
 6. **Confidence is explicit.** Findings carry an evidence-strength label. The

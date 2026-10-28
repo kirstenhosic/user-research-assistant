@@ -93,10 +93,13 @@ sessions, or say "you do it", skip it.
    answer." Every theme needs its own answer. If the reply is a blanket
    "looks good", ask which, if any, they'd change. Write each decision in
    the record's Theme review table. Don't carry a dropped theme into the
-   findings, and re-check the evidence for a split one. If they say "skip"
-   or "just draft it", build the findings, log "themes not reviewed by
-   the researcher" under Assumptions and risks, and say so in the
-   findings.
+   findings, and re-check the evidence for a split one. The review is
+   skipped only when the researcher says so about the themes themselves,
+   after seeing them ("skip the review", "just write the findings"). A
+   "go ahead" or "just draft it" given earlier, to the context questions,
+   doesn't skip it. When they do skip it, build the findings, log "themes
+   not reviewed by the researcher" under Assumptions and risks, and say so
+   in the findings.
 9. **Rate strength.** Strong: consistent across most participants or
    statistically reliable. Moderate: a clear pattern with exceptions. Weak:
    few participants or mixed signals. Say the numbers: "6 of 8", never

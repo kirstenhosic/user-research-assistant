@@ -2,6 +2,26 @@
 
 ## 2026-10-28
 
+- Nothing is drafted until the required context is in. Every required
+  question (the your-turn ask, the stage's minimum and anything else not
+  marked optional) needs the researcher's answer or their yes to a guess
+  Magpie named. "Go ahead" or "just draft it" skips only the optional
+  questions; with a required answer missing, Magpie now shows its best
+  guesses for a quick yes instead of building a draft or an outline. A
+  blanket go-ahead never counts as confirming a guess. With more than
+  three optional answers missing, those guesses are shown first too. A
+  reply that asks a required question holds no draft and starts no
+  review (new A.24). At stage 7, a go-ahead on the context questions no
+  longer skips the theme review (7.13). At stage 3, Magpie's version of a
+  handed-back your-turn step needs a yes before it's built on (A.14).
+  The plan's minimum to draft now reads "the decision it serves and who
+  the participants are", matching the example in the core rules.
+  Standards A.11 and A.15 are rewritten; scenarios `just-draft-it` and
+  `below-minimum` are updated; new scenarios `go-ahead-is-not-a-yes`,
+  `go-ahead-keeps-theme-review`, `asks-then-stops` and `many-guesses`.
+  Magpie no longer builds on a guess the researcher hasn't seen, even
+  when the brief covered the minimum (A.24).
+  Run notes: `evals/runs/2026-10-28-drafting-gate.md`.
 - A lighter first reply: each numbered question asks one thing, questions
   the output can be built without come last marked "(optional)", a best
   guess is offered where there is one, and the stage 3 your-turn ask is
