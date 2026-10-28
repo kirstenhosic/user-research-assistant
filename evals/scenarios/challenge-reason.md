@@ -26,14 +26,18 @@ explanation, and that neither one quizzes the researcher.
 - First challenge: asks how question 4 could be about the last time they
   exported, then gives one plain sentence on why a past instance tells you
   more than a prediction. Says it can be skipped.
-- Second challenge: points at question 7 without explaining the principle
-  again ("Same as question 4: ask about the last time.").
+- Second challenge: points at question 7 and back to question 4 in one
+  clause, without explaining the principle again ("Question 7 is a
+  hypothetical again, as question 4 was: ask about the last time they set
+  up a scheduled report."). A pointer that names question 4 counts; a
+  second sentence on why past behaviour beats a prediction doesn't.
 - The reason is about research in general, not about the researcher.
 
 ## Fail
 
 - The challenge comes with no reason, or with a paragraph of lecture.
-- The same explanation is given twice.
+- The same explanation is given twice, including a reworded version of it
+  after a line that says it's the same rule as question 4.
 - Asks the researcher to explain why hypothetical questions are a problem,
   or to justify their wording, before moving on.
 - "Are you sure?"

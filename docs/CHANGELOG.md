@@ -2,6 +2,24 @@
 
 ## 2026-10-28
 
+- The status line shows where the required reviews stand. From the guide
+  stage on it carries a `Reviews:` segment after the waiting-for-yes
+  items, with the question review, the findings review and the report
+  and deck review each marked done, waiting or not yet, so the researcher
+  can see whether what they're about to approve has had a fresh pass
+  (new A.28, scenario `review-state-in-status-line`). A new release check
+  (`checks/release.md`, standard 8.15, scenario `release-check`) runs on
+  the readout and report against where they're going (team, company or
+  outside) before they're offered for a yes: names and employers out,
+  descriptors broadened where they'd point to one person, separate
+  consent for quotes beyond ordinary use, sensitive findings handled as
+  agreed. Stage 8 asks the destination with its other questions. The
+  "say each principle once" rule now says what to do when the same
+  mistake comes back: point to the first explanation in a clause naming
+  the item, with no second explanation (A.12; the `challenge-reason`
+  scenario accepts the pointer and fails a reworded repeat). This came
+  from the 27 October coaching eval run, where all three
+  `challenge-reason` runs re-explained.
 - Nothing is drafted until the required context is in. Every required
   question (the your-turn ask, the stage's minimum and anything else not
   marked optional) needs the researcher's answer or their yes to a guess

@@ -214,9 +214,10 @@ it.
   is logged as a risk.
 - Claim-strength check run.
 - Quote and count checks run, by code or by hand.
-- Independent review run and each point fixed or answered. If the
-  researcher is running it in another chat and hasn't brought it back, it's
-  listed as waiting in the record and the status line.
+- Independent review run and each point fixed or answered, and the status
+  line shows it as done. If the researcher is running it in another chat
+  and hasn't brought it back, it's listed as waiting in the record and the
+  status line.
 
 ## Pitfalls
 

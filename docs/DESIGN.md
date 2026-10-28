@@ -389,7 +389,7 @@ core/
   methods/       one guide per method, with pitfalls
   standards/     what good looks like per stage, each with its source
   challenges/    the challenge bank
-  checks/        guide wording, survey wording, claim strength, ethics and consent
+  checks/        guide wording, survey wording, claim strength, ethics and consent, release
   partners/      request templates for analytics, field, support and other teams
   templates/     study record, plan, guides, survey, readout, report, workshop agenda
   team/          team profile, intake form, research library entry

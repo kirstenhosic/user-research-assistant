@@ -56,6 +56,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `checks-ethics-and-consent.md`: Run this at stage 5 for every study that involves people.
 - `checks-guide-wording.md`: Run this over every interview guide, usability test script, focus group guide, concept test and set of diary prompts before it goes out, the researcher's own included.
 - `checks-hypotheses.md`: Run this over the team's hypotheses at stage 3, before they go in the record, and again whenever one is added later.
+- `checks-release.md`: Run this at stage 8 on the readout and the report, before either is offered for the researcher's yes, and again if the destination changes.
 - `checks-research-questions.md`: Run this over the research questions at stage 3, the researcher's own included, before they go in the record.
 - `checks-survey-wording.md`: Run this over every survey before it goes out.
 - `review-independent-review.md`: A fresh pass over the findings, or the report and readout deck, by a reviewer that sees only the source material and the output, not the conversation that produced them.
