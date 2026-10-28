@@ -1106,9 +1106,11 @@ questions.
    with the lead time and access arrangements that takes, or say why not
    (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
-   where it's stored, who can see it, when it's deleted. If an AI tool
-   will moderate, transcribe, summarize or analyze the sessions, Magpie
-   included, say what participants are told about it
+   where it's stored, who can see it, when it's deleted. For a diary
+   study, say how entries are captured and cover consent for each
+   format (`methods/diary-studies.md`, "Ways to capture entries"). If an
+   AI tool will moderate, transcribe, summarize or analyze the sessions,
+   Magpie included, say what participants are told about it
    (`checks/ethics-and-consent.md`). If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
    red flag if missing.
@@ -1206,6 +1208,9 @@ instrument it is (interview, usability test, survey or diary).
 2. **Draft from the template.** Opening, warm-up, the main questions, probes,
    closing. For usability tests: scenario, tasks, success criteria, what to
    observe. For surveys: screener, sections, item wording, response scales.
+   For diaries: the entry prompt, its required and optional formats, and
+   what not to capture (`methods/diary-studies.md`, "Ways to capture
+   entries").
 3. **Fit it to the product.** Base tasks and scenarios on what the
    product does and the part under study (Product section, if filled, or
    what the researcher has told you), so they match what participants can
@@ -1737,6 +1742,9 @@ find different things, and a team usually needs both.
 - If the product doesn't work with a participant's assistive technology,
   that's a finding, but it's not a session. Have a fallback plan for the
   time you've booked.
+- In a diary study, offer more than one way to make an entry where the
+  tool allows (type or speak, a photo instead of a description), and
+  never make video the only way.
 
 ## In the session
 
@@ -2343,6 +2351,10 @@ here is a red flag at every challenge level.
   when they know a tool will process it.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
+- When participants make their own recordings (photos, screenshots,
+  voice notes, video, as in a diary study), they're told what not to
+  capture (other people, children, ID, bank details, other people's
+  messages on screen) and how to delete an entry.
 - For anything beyond ordinary use of the findings (quotes in a public deck,
   video clips shown outside the team) ask separately.
 

@@ -2,6 +2,18 @@
 
 ## 2026-10-28
 
+- Diary studies now suggest and support more than one way to make an
+  entry: open text, word-labelled ratings, photos and screenshots, voice
+  notes, video, or a mix. A new section in the diary method guide says
+  what each format is good for and what it costs, what to find out first
+  (what the study needs to see, where the behaviour happens, devices,
+  access needs, budget and tools, rules on recordings, analysis time,
+  study length), and how to choose: a light core for every entry, richer
+  formats optional unless a research question needs them, more than one
+  way in, never video alone, and the analysis sums shown. It also covers
+  consent and what not to capture in recordings. Stage 4, stage 5, the
+  consent check and the accessibility lens point to it. New standard 4.9,
+  eval `diary-capture-options`, and sources S44, S53 and S54.
 - Competitive analysis now works when nobody can get into the competitor
   tools. The method has two routes, hands-on and public sources only, with
   a ranked list of public sources (help docs and demos first, marketing

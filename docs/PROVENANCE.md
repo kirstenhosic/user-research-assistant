@@ -98,8 +98,17 @@ are paraphrased in the core, never reproduced.
 | S38 | Laubheimer, P. (2018, reviewed 2026). "Beyond NPS: SUS, NASA-TLX, and the Single Ease Question." Nielsen Norman Group. https://www.nngroup.com/articles/measuring-perceived-usability/ (title as shown in search results) | `core/methods/usability-testing.md` and `core/methods/interviews.md`: a post-task ease rating on seven points; SUS after the session, ten items, 0–100, wording and order unchanged; 20–30 users or more for questionnaire numbers; pair a rating with "why did you give that score?" and don't make much of the average. The article does not quote the SEQ's exact wording, so Magpie's template wording is its own. | 2026-10-27 |
 | S39 | Rosala, M. (2024). "Open-Ended vs. Closed Questions in User Research." Nielsen Norman Group. https://www.nngroup.com/articles/open-ended-questions/ | `core/methods/interviews.md`: closed questions are used occasionally in interviews and usability tests, sparingly, because they stop the conversation | 2026-10-27 |
 | S40 | Rosala, M. (2020, reviewed 2026). "Rating Scales in UX Research: Likert or Semantic …" (title cut off in the search listing; full title not confirmed). Nielsen Norman Group. https://www.nngroup.com/articles/rating-scales/ | `core/methods/interviews.md`: word-labelled scales are easier to understand; Likert items are prone to acquiescence and social-desirability bias; follow a rating with "why did you choose this rating?" | 2026-10-27 |
+| S44 | Flaherty, K. (2024). "Diary Studies: Understanding Long-Term User Behavior and Experiences." Nielsen Norman Group. https://www.nngroup.com/articles/diary-studies/ | 4.9; `core/methods/diary-studies.md`, "Ways to capture entries": messaging apps suit simple text and dialogue but are harder to export; survey and document tools suit long written answers but handle images and video badly; diary platforms take video, photos and questionnaires and help with tagging and transcription, at a cost; data security and participant convenience in choosing a tool. The same article is S44 in open PR #23, which cites it for the rest of the method guide; S41 to S43 and S45 to S52 are that PR's. | 2026-10-28 |
+| S53 | Rosala, M. (2023). "6 Tips for Better Participant Engagement in Diary Studies." Nielsen Norman Group. https://www.nngroup.com/articles/better-diary-studies/ | 4.9; `core/methods/diary-studies.md`, "Ways to capture entries": choose the tool by budget, the data needed, and participants' devices and familiarity; some people express themselves better in writing, others on video; voice notes and video as easier ways to make an entry; keep entries small and questions to what the research needs; pilot the study | 2026-10-28 |
+| S54 | Government Digital Service. "Managing user research data and participant privacy." GOV.UK Service Manual, published 5 November 2018; page metadata gives an update on 18 September 2026. https://www.gov.uk/service-manual/user-research/managing-user-research-data-participant-privacy | 4.9; `core/methods/diary-studies.md`, "Recordings, photos and consent": photos, audio and video are personal data; consent covers what's collected, how it's stored and used and who it's shared with; approved storage and limited access; blur personal data in screenshots and video before sharing | 2026-10-28 |
 
-Located but not read, so not cited: Dillman, D. A., Smyth, J. D. and
+Located but not read, so not cited: Carter, S. and Mankoff, J. (2005).
+"When participants do the capturing: the role of media in diary studies."
+*Proceedings of CHI 2005*, 899–908. doi:10.1145/1054972.1055098 (record
+confirmed in the CMU repository and researchr; only a summary of the
+abstract was read, and it frames photos, audio, location and objects as
+open questions rather than giving findings, so nothing in Magpie rests on
+it). Dillman, D. A., Smyth, J. D. and
 Christian, L. M. (2014). *Internet, Phone, Mail, and Mixed-Mode Surveys: The
 Tailored Design Method*, 4th ed., Wiley (record confirmed in WorldCat; the
 chapters on question writing would likely support 5.2 and 5.5 but have not
@@ -118,7 +127,7 @@ list to check: the sourcing effort is limited to material that can be read
 on the open web.
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 37 of 91 standards cite a source in full or in part.
+Current count: 38 of 92 standards cite a source in full or in part.
 
 ## Tools used
 
