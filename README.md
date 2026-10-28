@@ -72,6 +72,11 @@ conversation; it stays on until you say "stop Magpie".
   data, another team's data, general practice, or an assumption. Magpie
   never makes up a quote, a number or a participant, and every count names
   the participants behind it.
+- **Careful with numbers from small samples.** When you have ratings,
+  completion rates, task times or survey results, Magpie gives a range,
+  not just one number, and says what a result from a handful of people
+  can and can't tell you. If your tool already reports the statistics,
+  Magpie checks them instead of redoing them.
 - **Findings ranked by how sure and how important.** Each finding is
   labeled strong, moderate or weak, with a one-line reason, and ranked by
   how much it matters. An important finding with weak evidence is marked
@@ -110,7 +115,8 @@ Magpie works in eight stages. You can start at any of them.
 ## Methods it covers
 
 Tell Magpie what you're trying to learn and it will suggest a method, or
-name one yourself.
+name one yourself. Each method guide includes a worked example, so you
+can see what good looks like.
 
 | Method | Use it to learn | What you get |
 | --- | --- | --- |
@@ -127,8 +133,11 @@ name one yourself.
 | [Benchmarking](core/methods/benchmarking.md) | Whether the experience is getting better, against a set point | Measures, comparison point, a plan you can repeat |
 | [Analytics and A/B tests](core/methods/analytics-and-ab-tests.md) | What people do in a live product, and which version does better | Data request, test plan with guardrails, what it can't say |
 | [Preference and desirability testing](core/methods/preference-and-desirability.md) | How a design looks and feels to people | Versions or word list, questions, counts with reasons |
-| [Card sorting and tree testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, and whether they can find them | Card and task lists, findings |
+| [Card sorting, tree testing and first-click testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, whether they can find them, and where they go first | Card and task lists, findings |
 | [Evidence review](core/methods/evidence-review.md) | What the organization already knows | Evidence log, gaps, one-page brief |
+| [Coding customer feedback](core/methods/customer-feedback-coding.md) | What people write in about, and how that's changing | Code frame, counted themes with their limits |
+| [Stakeholder interviews](core/methods/stakeholder-interviews.md) | What the project is for and what stakeholders believe, before research is planned | Interview guide, success measures, beliefs logged as hypotheses |
+| [Journey maps and personas](core/methods/journey-maps-and-personas.md) | The shape of a journey, or the kinds of user, built from findings | Map and personas with participant codes in every cell |
 | [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job | Comparison built around the user's job |
 | [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings | Agenda, actions with the teams involved, summary |
 | [Finding opportunities](core/stages/01-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and the team that would make it |

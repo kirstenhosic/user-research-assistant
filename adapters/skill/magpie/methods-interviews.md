@@ -19,9 +19,13 @@ what gets in the way.
 
 ## Sample
 
-- Start at six to eight for a single, fairly uniform group. Add people if
-  the last sessions are still bringing new things.
-- Several distinct groups need several small samples, not one big one.
+- Start at five or six for a single, fairly uniform group, and analyze as
+  you go. Add people while sessions still bring new codes; stop when they
+  add little. Five is often not enough for interviews, and a broad question
+  across varied people can need twenty or more.
+- Where groups differ, recruit across the differences that could change the
+  answers. A fixed number per persona ("five each") can mean far more
+  interviews than the question needs.
 - Recruit on recent behavior ("did X in the last month"), not on
   self-description ("considers themselves a power user").
 
@@ -75,6 +79,29 @@ Thematic analysis: read everything, code what's there, group codes into
 themes, check each theme against the participants who don't fit it. Keep
 quotes tied to participant codes and timestamps. Stage 7 covers this.
 
+## Worked example
+
+> **Decision.** Whether Harbor (a team task board) should build a guided
+> setup for new admins, or leave setup as it is. Product leads decide in
+> five weeks.
+>
+> **Research question.** How do new admins set up a workspace in their
+> first week, and where does it stall?
+>
+> **Sample.** Six admins who created a workspace in the last 30 days, then
+> two more when the sixth session still brought a new code (eight in all).
+>
+> **Guide, main block.** "Tell me about the first day you set up Harbor.
+> What did you do first? When did you invite someone, and what made that
+> the moment?" Probes ready: "What did you do instead?", "Can you show
+> me?"
+>
+> **Finding, as reported.** 6 of 8 admins built one full board before
+> inviting anyone (P1 06, P2 09, P3 04, P5 11, P6 07, P8 05); P4 and P7
+> invited on day one. The reason given by five of the six: "something to
+> show" (P1 10, P2 12, P3 08, P6 09, P8 07). Confidence: moderate; past
+> behavior, told not seen; one study.
+
 ## Pitfalls
 
 - Asking people to predict their future behavior.
@@ -97,16 +124,23 @@ transcripts in full before the rest run. `checks-ai-assisted-research.md`.
 
 ## Basis
 
-Ratings with a "why": S38 (pair a rating with "why did you give it that
-score?" for qualitative insight, and don't make much of the average from a
-few users); S39 (closed questions used sparingly in qualitative research,
-because they stop the conversation); S40 (word-labeled scales are easier to
-understand; rating scales are prone to acquiescence and social-desirability
-bias); S12 (numbers from small qualitative studies carry large error). The
-limit of one to three ratings and asking about a specific moment:
-practitioner judgment. The rest of this guide: practitioner judgment,
-consistent with widely published interviewing guidance. Sources will be
-added to `docs/PROVENANCE.md` as they are checked.
+Sample: S42 (no fixed number; start with five or six and add while new
+codes appear; five is often not enough; broad, varied studies can need 20
+to 30 or more; a fixed number per persona can mean too many). Session and
+questions: S41 (easy questions first to put people at ease; ask about
+specific events, because memory is flawed; follow-up questions prepared,
+probes used as they arise; leading questions compromise the data); S5
+(past experience over hypotheticals); S8 (self-reported intentions are
+unreliable). Recruiting on behavior: S9. Analysis: S1b. Ratings with a
+"why": S38 (pair a rating with "why did you give it that score?" for
+qualitative insight, and don't make much of the average from a few users);
+S39 (closed questions used sparingly in qualitative research, because they
+stop the conversation); S40 (word-labeled scales are easier to understand;
+rating scales are prone to acquiescence and social-desirability bias); S12
+(numbers from small qualitative studies carry large error). Session timings,
+counting to five in silences, one to three ratings, and the AI-moderator
+section's reading rule: practitioner judgment (the AI-moderator risks
+themselves: S10).
 
 ---
 

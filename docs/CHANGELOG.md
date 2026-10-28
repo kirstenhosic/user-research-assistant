@@ -2,6 +2,79 @@
 
 ## 2026-10-28
 
+- Stage 7 gains "Numbers from small samples", from Sauro and Lewis,
+  *Quantifying the User Experience*, 2nd ed. (S100, passages supplied by
+  Kirsten Hosic): decide the data type first; the adjusted-Wald interval
+  and best point estimate for completion rates; what a rate from five
+  people can and can't say; a t-interval for ratings; the geometric mean
+  for task times; which test compares two designs when the same or
+  different people used them; the strict wording for a confidence
+  interval; when the researcher's tool already reports these, Magpie
+  reads and checks them rather than redoing them. Standard 7.21 and
+  eval `small-sample-rate` (not run live).
+  Usability testing explains where "five users" comes from, why it only
+  works as part of an iterative loop, that problem frequency says
+  nothing about severity, and how the SUS is scored. Benchmarking,
+  surveys, preference testing and analytics gain the four-times rule for
+  halving a margin of error, SUS norms, the SUS-to-recommend
+  relationship, the curved SUS grading scale and averages by kind of
+  product, the all-positive SUS and the miscoding risk, the UMUX-LITE
+  as a two-item stand-in, how to report a Net Promoter question, a
+  short list of other standardized questionnaires, and the interval
+  around a difference.
+- Every method guide now has a worked example: a decision, a research
+  question, a sample and a finding written the way Magpie reports it
+  (counts with participant codes, confidence, what it can't say). Five
+  thin guides are filled out. Surveys gains a viability sum (invites
+  available against invites needed, from Carl Pearson's survey viability
+  score, S79, standard 4.14), question types, wording and order rules
+  from the Pew Research Center's methods page (S88), weighting (S83), a
+  cognitive test before every new survey goes out (S80, S81, standard
+  6.11), and the survey as part of the product experience (S82). Concept
+  testing gains the forms to show, past-not-future questions, a
+  small-commitment test and a fake-door section (S99, suggested by
+  Kirsten Hosic). Evidence review gains
+  five questions for judging an old study, rules for research
+  repositories and AI-written summaries, and a worked brief. Contextual
+  inquiry gains a remote section and the same-day team interpretation.
+  Card sorting and tree testing becomes card sorting, tree testing and
+  first-click testing (S91).
+- Three new method guides: coding customer feedback (support tickets,
+  reviews and open-ends, with how it scales; S89, S90, both suggested by
+  Kirsten Hosic), stakeholder interviews (one to one, four topics,
+  beliefs about users logged as hypotheses; S92, standard 3.11, offered
+  from stage 3), and journey maps and personas built from research (the
+  five parts of a map, three kinds of persona, codes in every cell; S93,
+  S94, standard 8.19, offered from stage 7).
+- Five new templates: diary study, card sort and tree test (with
+  first-click), concept test guide, journey map and persona.
+- Measuring methods report differences in their own unit with a range
+  and what it means at volume, against a bar agreed before the data
+  arrived (S84, S85, standard 7.20); benchmarking and analytics gain the
+  HEART goals-signals-metrics process (S97), the intent gap that log data
+  can't see (S87) and the average SUS score of 68 (S96). Stage 4 notes
+  that some "why" questions have perceptual causes people can't report
+  on (S86). Usability testing gains a section on testing with assistive
+  technology (S98). Expert review names the ten heuristics (S95).
+- From PR #23, now merged into this change: eight older method guides
+  cite public sources (S41 to S52, read 2026-10-27): interviews,
+  usability testing, concept testing, contextual inquiry, diary studies,
+  card sorting and tree testing, competitive analysis and evidence
+  review. Reading them changed some guidance: interview samples start at
+  five or six and grow while new codes appear; usability samples per
+  group follow Nielsen's three-to-four rule, and unmoderated rates need
+  more than thirty people; severity uses frequency, impact and
+  persistence; contextual inquiry gains the transition step and the
+  wrap-up check; diary studies gain a pilot, signal-based logging, staged
+  incentives and three pitfalls; card sorts use thirty to fifty cards and
+  avoid hybrid sorts. Two fixture studies with answer keys, Larder
+  meal-planning diary (6 diaries, 12 traps) and Dockside returns desk (5
+  contextual inquiry sessions, 11 traps), now run in the check tests;
+  `quote_check.py` reads the speaker past a time stamp, so the Dockside
+  manager's quote is reported as credited to the wrong person.
+- Five new eval scenarios, none run live yet: `stakeholder-belief`,
+  `survey-viability`, `cognitive-test-first`, `raw-difference`,
+  `persona-from-research`. 133 standards, 59 with a source.
 - American English is now the default, not a fixed rule. Magpie uses the
   researcher's English instead, such as British English with day-first
   dates, when they ask for it, when the team profile names it, or when

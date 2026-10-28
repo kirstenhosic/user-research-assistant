@@ -80,6 +80,27 @@ the discussion. Agreement in a group is not a count: "the room agreed" may
 mean two people spoke and six nodded. Never turn group agreement into a
 percentage.
 
+## Worked example
+
+> **Ask.** "Can we run a focus group to see if admins would use the new
+> billing dashboard?" (BrightPay, payroll.)
+>
+> **Fit check.** "Would use" is a behavior question; a group would give
+> opinions. Offered a usability test of the dashboard with five admins
+> instead. The PM also wanted to know the words admins use for billing
+> problems, before the dashboard's copy is written. A group fits that.
+>
+> **Plan.** Two groups of seven, each from one segment (small firms;
+> accountants running payroll for clients), 90 minutes, a written
+> exercise before the main discussion: "Write the last billing problem
+> you had, in a sentence."
+>
+> **Finding, as reported.** The written exercise produced 14 problems,
+> 9 about "I can't tell what we were charged for" in those words; the
+> discussion that followed was led by two voices in group 1 and the
+> written answers are reported separately from it. Not reported: "the
+> room agreed". Next: the usability test with the dashboard's new copy.
+
 ## Pitfalls
 
 - Using it to test usability.
