@@ -20,15 +20,18 @@ team").
 | Who we're talking to | [participants, in a line] |
 | What they'll see | [nothing / the live product / a prototype] |
 
-**Research questions**
+### Research questions
 
 1. [RQ1, in plain words]
 2. [RQ2]
 
-**How to use it.** Read the shaded lines aloud as written; they carry you
-from one section to the next. Questions are numbered so the team can refer
-to them ("question 7b"). Letters under a question are follow-ups: use one
-at a time, only when you need it.
+### How to use it
+
+Read the quoted lines (with a bar beside them in Word) aloud as written;
+they carry you from one section to the next. Questions are numbered so the
+team can refer to them ("question 7b"). Letters under a question are
+follow-ups: use one at a time, only when you need it. Shaded notes in
+italics are for the moderator and are never read aloud.
 
 Notes for the team (what the guide is testing, timing, what to cut) are in
 the moderator notes at the end. Run `checks/guide-wording.md` and the
@@ -69,6 +72,9 @@ question review (`review/question-review.md`) before using.
 4. [Question] → RQ1
    a. [Follow-up]
 
+*Moderator only: [a routing or timing note, on its own line, for example
+"if they say yes, ask question 5; if no, skip to question 6"].*
+
 ### [Topic 2] → RQ2
 
 > Thanks, that gives me a clear picture. Now I'd like to shift our focus
@@ -108,15 +114,32 @@ deeper.
 
 ## Moderator notes
 
-- **What this guide is testing:** [the hypotheses, in a line each; never
-  said to participants].
-- **Timing:** [which research questions are covered by when].
-- If they say "it's fine" to everything: ask for the last time it wasn't,
-  or ask them to show you.
+Short subheadings so the moderator can find a note mid-session.
+
+### What this guide is testing
+
+Never said to participants.
+
+- [H1, in a line, and the questions that speak to it]
+- [H2]
+
+### Timing
+
+- [Which research questions are covered by when.]
 - If running short: skip [question numbers], keep [question numbers].
 - If running long: the must-haves are [question numbers].
+
+### If things get hard
+
+- If they say "it's fine" to everything: ask for the last time it wasn't,
+  or ask them to show you.
 - If they get upset or uncomfortable: pause, offer to skip or stop, don't
   push.
+- [Off-limits topics and the line to steer back.]
+
+### Running the session
+
+- [Note-takers, screen sharing, access needs, anything else practical.]
 
 ## Nice to have (only if time)
 

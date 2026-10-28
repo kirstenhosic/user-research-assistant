@@ -2,6 +2,18 @@
 
 ## 2026-10-28
 
+- One look throughout each file (A.23).
+  - The Word converter gives team notes a shaded Note style, turns
+    `[ ]` and `( )` answer options into ☐ and ○, shades table headers,
+    sizes columns to their content, shows a Document details table as a
+    titled block, and adds a footer with title, status and page number.
+    A wrapped line that starts with a number now stays in its paragraph
+    instead of breaking the question numbering.
+  - Sheets get a document details block, taller note rows and extra
+    small tables (such as merged and dropped codes).
+  - The survey template keeps every team note in one section at the end;
+    guide moderator notes get subheadings; the usability script's opening
+    and questions are spoken lines and numbered like the guide.
 - Independent checks on questions, and on the deck as well as the report.
   - New question review (`core/review/question-review.md`), required at
     stage 5 for every guide, script, survey and set of prompts, run the

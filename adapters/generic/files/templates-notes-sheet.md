@@ -7,36 +7,41 @@ research question it answers. Made with `tools/export/make_sheet.py`
 
 ## Sheet 1: Notes
 
-Above the table, two lines: the study name, then "One row per participant.
-Write what you heard under the research question it answers, with the time
-or question number. Quotes in quotation marks, word for word."
+Above the table: the study name as the title, the document details
+block (below), then one line: "One row per participant. Write what you
+heard under the research question it answers, with the time or question
+number. Quotes in quotation marks, word for word." Note rows are tall
+(about 120 points) so there's room to type.
 
 | Participant | Session date | Who they are | Note-taker | RQ1: [question] | RQ2: [question] | Also noticed | Quotes worth keeping | Top takeaway |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | P1 | | [role, segment] | | | | | | |
 | P2 | | | | | | | | |
-| **Summary across participants** | | | | [what we're hearing so far] | | | | |
+| **Summary across participants** | | | | [what we're hearing so far] | [what we're hearing so far] | | | |
 
 - One row per planned participant, with their code and a short
-  descriptor filled in from the plan. No names.
+  descriptor filled in from the plan for every row, not just the first.
+  No names.
 - One column per research question, headed with its number and the
   question in plain words, in the order of the record.
 - "Also noticed" is for things outside the research questions.
 - The summary row is for the team's running read after each session or
-  at the end. It's a note, not a finding: findings come from analysis at
+  at the end. Every research question column gets the same placeholder. It's a note, not a finding: findings come from analysis at
   stage 6.
 
 ## Sheet 2: Research questions
 
-| # | Research question | Decision it serves | Guide questions that cover it |
-| --- | --- | --- | --- |
-| RQ1 | [question] | [decision] | [question numbers from the guide] |
+| # | Research question | Priority | Decision it serves | Guide questions that cover it |
+| --- | --- | --- | --- | --- |
+| RQ1 | [question] | [Priority or blank] | [decision] | [question numbers from the guide] |
+
+Priority has its own column, never folded into the number.
 
 ## Document details
 
-Above the table on sheet 1, after the two intro lines, or on its own
-sheet if the team prefers: team, date, authors, reviewers and status, as
-on the guide.
+A small two-column block under the title on every sheet: Team, Date,
+Author(s), Reviewers and Status, as on the guide. In the JSON for
+`tools/export/make_sheet.py` it's the sheet's `"details"` list.
 
 ---
 

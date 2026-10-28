@@ -187,13 +187,22 @@ def check_export() -> None:
                         fail(f"md_to_docx.py wrote invalid XML in {name}: {e}")
             doc = z.read("word/document.xml").decode("utf-8")
             numbering = z.read("word/numbering.xml").decode("utf-8")
+            footer = z.read("word/footer1.xml").decode("utf-8")
         for needle in ('w:val="Heading2"', 'w:val="Quote"', 'w:val="ListBullet"', 'w:val="ListNumber"',
                        "<w:tbl>", "<w:b/>", "shift our focus"):
             if needle not in doc:
                 fail(f"md_to_docx.py output is missing {needle}")
+        if "ask question 10. This wrapped line" not in doc.replace("</w:t></w:r><w:r><w:t xml:space=\"preserve\">", ""):
+            fail("md_to_docx.py split a paragraph at a wrapped line starting with a number")
         for needle in ('w:val="lowerLetter"', 'w:val="Q%1."'):
             if needle not in numbering:
                 fail(f"md_to_docx.py numbering is missing {needle}")
+        for needle in ('w:val="Note"', 'w:val="Option"', "\u2610", "\u25cb", "<w:gridSpan", 'w:fill="DCE9E3"',
+                       'w:val="Heading3"', "footerReference"):
+            if needle not in doc:
+                fail(f"md_to_docx.py output is missing {needle}")
+        if "Status: Draft" not in footer or "PAGE" not in footer:
+            fail("md_to_docx.py footer is missing the status or page number")
         sheet = Path(tmp) / "sample.xlsx"
         run = subprocess.run([sys.executable, str(ROOT / "tools" / "export" / "make_sheet.py"),
                               str(ROOT / "evals" / "fixtures" / "export-sample.json"), str(sheet)],
@@ -210,6 +219,8 @@ def check_export() -> None:
             first = z.read("xl/worksheets/sheet1.xml").decode("utf-8")
             if "RQ1" not in first or 'state="frozen"' not in first or "xl/worksheets/sheet2.xml" not in z.namelist():
                 fail("make_sheet.py output is missing its header row, frozen pane or second sheet")
+            if 'customHeight="1"' not in first or "Merged and dropped codes" not in first or ">Team<" not in first:
+                fail("make_sheet.py output is missing its row height, details block or extra table")
 
 
 def check_fixtures() -> None:

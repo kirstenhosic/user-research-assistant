@@ -177,6 +177,31 @@ analysis sheets are Excel files (.xlsx).
   under each (7a, 7b), and survey items Q1, Q2 (S for screener, D for
   questions about the person). The Word file keeps the same numbers, in
   Word's own numbering.
+- **One look throughout each file.** The Word converter turns these into
+  matching styles, so write them the same way every time:
+  - Section labels are headings (`###`), never a line of bold text.
+  - A note for the team (a moderator note, survey routing, a success
+    criterion) is a line of its own in italics, starting "Moderator
+    only:" in a guide. Word shows it shaded, so nobody reads it aloud.
+  - Survey answer options go one per line, scale points too: `- [ ]` for
+    pick all that apply, `- ( )` for pick one.
+  - Routing is written one way. On an option: "No (go to Q9)" or "No
+    (end the survey)". On its own line: "*If Yes, go to Q4. Otherwise,
+    go to Q6.*" or "*After Q8, go to Q10.*"
+  - Counts are "4 of 8". Transcript references are written as in the
+    study record, "P1 06" (participant 1, line 6), everywhere in the
+    file, because the evidence check reads that form.
+  - In a survey, everything for the team (hypotheses, what to fix before
+    fielding, off-limits topics, assumptions, fielding notes, the
+    question map, what it's waiting on) goes in one "Notes for the team"
+    section at the end. What respondents see (intro, questions, thanks)
+    carries no team notes and no "[assumption]" explanations; a short
+    "[to confirm]" blank at most.
+  - In a guide, the moderator notes at the end are grouped under short
+    subheadings, so a moderator can find one mid-session.
+  - In a sheet, the document details sit in their own block under the
+    title, every participant row has the same columns filled from the
+    plan, and note rows are tall enough to type in.
 
 - **Where you can run code,** write the Markdown file, then turn it into
   Word with `tools/export/md_to_docx.py`

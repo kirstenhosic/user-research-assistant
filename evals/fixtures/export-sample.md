@@ -1,5 +1,10 @@
 # Interview guide: export sample
 
+| Document details | |
+| --- | --- |
+| Team | Reports |
+| Status | Draft |
+
 **Length:** 30 minutes · **Research questions served:** RQ1
 
 A fixture for `tools/export/md_to_docx.py`. `tools/check.py` turns it into
@@ -30,8 +35,15 @@ Thanks for making time today. You can stop at any time.
 3. A third, continuing the count
    a. A lettered follow-up
 
-Q1. A survey item, numbered in Word as Q1.
-- Yes
-- No
+**Research questions**
 
-Q2. A second item.
+Q1. A survey item, numbered in Word as Q1. Select all that apply.
+- [ ] Pick-all option
+- [ ] Another
+
+Q2. A pick-one item.
+- ( ) Yes
+- ( ) No (go to Q3)
+
+*Moderator only: if they say yes, ask question 3. If they say no, ask question
+10. This wrapped line must stay in the paragraph.*

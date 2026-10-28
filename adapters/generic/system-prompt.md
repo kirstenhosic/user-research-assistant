@@ -193,6 +193,31 @@ analysis sheets are Excel files (.xlsx).
   under each (7a, 7b), and survey items Q1, Q2 (S for screener, D for
   questions about the person). The Word file keeps the same numbers, in
   Word's own numbering.
+- **One look throughout each file.** The Word converter turns these into
+  matching styles, so write them the same way every time:
+  - Section labels are headings (`###`), never a line of bold text.
+  - A note for the team (a moderator note, survey routing, a success
+    criterion) is a line of its own in italics, starting "Moderator
+    only:" in a guide. Word shows it shaded, so nobody reads it aloud.
+  - Survey answer options go one per line, scale points too: `- [ ]` for
+    pick all that apply, `- ( )` for pick one.
+  - Routing is written one way. On an option: "No (go to Q9)" or "No
+    (end the survey)". On its own line: "*If Yes, go to Q4. Otherwise,
+    go to Q6.*" or "*After Q8, go to Q10.*"
+  - Counts are "4 of 8". Transcript references are written as in the
+    study record, "P1 06" (participant 1, line 6), everywhere in the
+    file, because the evidence check reads that form.
+  - In a survey, everything for the team (hypotheses, what to fix before
+    fielding, off-limits topics, assumptions, fielding notes, the
+    question map, what it's waiting on) goes in one "Notes for the team"
+    section at the end. What respondents see (intro, questions, thanks)
+    carries no team notes and no "[assumption]" explanations; a short
+    "[to confirm]" blank at most.
+  - In a guide, the moderator notes at the end are grouped under short
+    subheadings, so a moderator can find one mid-session.
+  - In a sheet, the document details sit in their own block under the
+    title, every participant row has the same columns filled from the
+    plan, and note rows are tall enough to type in.
 
 - **Where you can run code,** write the Markdown file, then turn it into
   Word with `tools/export/md_to_docx.py`
@@ -4248,6 +4273,11 @@ Magpie's draft from the transcripts and the study record, for the
 researcher to check, change or delete. Made with
 `tools/export/make_sheet.py` (`operating.md`, "Files for the team").
 
+Every sheet opens the same way: the study name as the title, the
+document details block (Team, Date, Author(s), Reviewers, Status; Status
+starts as Draft), then one line saying what the sheet is for. Keep that
+line to one or two sentences on every sheet.
+
 ## Sheet 1: By participant
 
 The same rows and research-question columns as the note-taking sheet.
@@ -4258,20 +4288,26 @@ The same rows and research-question columns as the note-taking sheet.
 | **Findings** | | [each finding for this question: claim, N of M with codes, strength] | | |
 
 - Each cell says what that participant said or did on that question,
-  with transcript line numbers ("Invited after locations were done (06)
-  [waits-for-setup]"). "Not covered" where the session didn't reach it.
+  with transcript references written as in the study record ("Invited
+  after locations were done (P1 06) [waits-for-setup]"). The intro line
+  says once that "P1 06" means participant 1, line 6. "Not covered" where
+  the session didn't reach it.
 - The Findings row holds the findings for each research question, in the
   same words as the study record, with counts and the participants behind
   them.
 
 ## Sheet 2: Themes
 
-| Theme | Research question | Codes in it | Participants (lines) | Count | Who didn't fit | Strength | Researcher decision | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [theme] | RQ1 | [codes] | P1 06, P3 06 | 2 of 8 | P2, P5 | moderate | [keep, change, split or drop] | |
+| Theme | Finding | Research question | Count | Participants (lines) | Codes in it | Who didn't fit | Strength | Researcher decision | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [short plain name, a few words] | F[n] | RQ1 | 2 of 8 | P1 06, P3 06 | [codes] | P2, P5 | moderate | [keep, change, split or drop] | |
 
-Riskiest theme first, as in the theme review. "Researcher decision" stays
-blank until the researcher fills it in; Magpie never fills it.
+Sorted by research question, then by count, most shared first, so the
+strongest themes are on top. Single cases go last. The theme name is a
+short plain label; the finding number links it to the study record.
+Counts are always "N of M". "Researcher decision" stays blank until the
+researcher fills it in; Magpie never fills it. Flag the riskiest theme in
+its Notes cell.
 
 ## Sheet 3: Codes
 
@@ -4280,7 +4316,8 @@ blank until the researcher fills it in; Magpie never fills it.
 | [code] | [one-line definition] | RQ1 | P1, P3 |
 
 The coding frame, so a teammate can check the work. Merged and dropped
-codes are listed at the bottom with the reason.
+codes go in a second small table below it (Code, What happened, Why), not
+as rows of the coding frame.
 
 ## What it is not
 
@@ -4491,15 +4528,18 @@ team").
 | Who we're talking to | [participants, in a line] |
 | What they'll see | [nothing / the live product / a prototype] |
 
-**Research questions**
+### Research questions
 
 1. [RQ1, in plain words]
 2. [RQ2]
 
-**How to use it.** Read the shaded lines aloud as written; they carry you
-from one section to the next. Questions are numbered so the team can refer
-to them ("question 7b"). Letters under a question are follow-ups: use one
-at a time, only when you need it.
+### How to use it
+
+Read the quoted lines (with a bar beside them in Word) aloud as written;
+they carry you from one section to the next. Questions are numbered so the
+team can refer to them ("question 7b"). Letters under a question are
+follow-ups: use one at a time, only when you need it. Shaded notes in
+italics are for the moderator and are never read aloud.
 
 Notes for the team (what the guide is testing, timing, what to cut) are in
 the moderator notes at the end. Run `checks/guide-wording.md` and the
@@ -4540,6 +4580,9 @@ question review (`review/question-review.md`) before using.
 4. [Question] → RQ1
    a. [Follow-up]
 
+*Moderator only: [a routing or timing note, on its own line, for example
+"if they say yes, ask question 5; if no, skip to question 6"].*
+
 ### [Topic 2] → RQ2
 
 > Thanks, that gives me a clear picture. Now I'd like to shift our focus
@@ -4579,15 +4622,32 @@ deeper.
 
 ## Moderator notes
 
-- **What this guide is testing:** [the hypotheses, in a line each; never
-  said to participants].
-- **Timing:** [which research questions are covered by when].
-- If they say "it's fine" to everything: ask for the last time it wasn't,
-  or ask them to show you.
+Short subheadings so the moderator can find a note mid-session.
+
+### What this guide is testing
+
+Never said to participants.
+
+- [H1, in a line, and the questions that speak to it]
+- [H2]
+
+### Timing
+
+- [Which research questions are covered by when.]
 - If running short: skip [question numbers], keep [question numbers].
 - If running long: the must-haves are [question numbers].
+
+### If things get hard
+
+- If they say "it's fine" to everything: ask for the last time it wasn't,
+  or ask them to show you.
 - If they get upset or uncomfortable: pause, offer to skip or stop, don't
   push.
+- [Off-limits topics and the line to steer back.]
+
+### Running the session
+
+- [Note-takers, screen sharing, access needs, anything else practical.]
 
 ## Nice to have (only if time)
 
@@ -4608,36 +4668,41 @@ research question it answers. Made with `tools/export/make_sheet.py`
 
 ## Sheet 1: Notes
 
-Above the table, two lines: the study name, then "One row per participant.
-Write what you heard under the research question it answers, with the time
-or question number. Quotes in quotation marks, word for word."
+Above the table: the study name as the title, the document details
+block (below), then one line: "One row per participant. Write what you
+heard under the research question it answers, with the time or question
+number. Quotes in quotation marks, word for word." Note rows are tall
+(about 120 points) so there's room to type.
 
 | Participant | Session date | Who they are | Note-taker | RQ1: [question] | RQ2: [question] | Also noticed | Quotes worth keeping | Top takeaway |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | P1 | | [role, segment] | | | | | | |
 | P2 | | | | | | | | |
-| **Summary across participants** | | | | [what we're hearing so far] | | | | |
+| **Summary across participants** | | | | [what we're hearing so far] | [what we're hearing so far] | | | |
 
 - One row per planned participant, with their code and a short
-  descriptor filled in from the plan. No names.
+  descriptor filled in from the plan for every row, not just the first.
+  No names.
 - One column per research question, headed with its number and the
   question in plain words, in the order of the record.
 - "Also noticed" is for things outside the research questions.
 - The summary row is for the team's running read after each session or
-  at the end. It's a note, not a finding: findings come from analysis at
+  at the end. Every research question column gets the same placeholder. It's a note, not a finding: findings come from analysis at
   stage 6.
 
 ## Sheet 2: Research questions
 
-| # | Research question | Decision it serves | Guide questions that cover it |
-| --- | --- | --- | --- |
-| RQ1 | [question] | [decision] | [question numbers from the guide] |
+| # | Research question | Priority | Decision it serves | Guide questions that cover it |
+| --- | --- | --- | --- | --- |
+| RQ1 | [question] | [Priority or blank] | [decision] | [question numbers from the guide] |
+
+Priority has its own column, never folded into the number.
 
 ## Document details
 
-Above the table on sheet 1, after the two intro lines, or on its own
-sheet if the team prefers: team, date, authors, reviewers and status, as
-on the guide.
+A small two-column block under the title on every sheet: Team, Date,
+Author(s), Reviewers and Status, as on the guide. In the JSON for
+`tools/export/make_sheet.py` it's the sheet's `"details"` list.
 
 <!-- core/templates/opportunity-brief.md -->
 
@@ -5300,17 +5365,24 @@ team").
 | Who gets it | [who, and how it reaches them] |
 | Analysis plan | [which groups to compare, and which must be big enough] |
 
-**Research questions**
+### Research questions
 
 1. [RQ1, in plain words]
 2. [RQ2]
 
-Questions are numbered Q1, Q2 and so on (S for the screener, D for the
-optional questions about the person), so the team can refer to them.
-Every item names the research question it serves. The intro and the line
-that opens each section are written in a plain, friendly voice, as if to
-one person. Run `checks/survey-wording.md` and the question review
-(`review/question-review.md`) before fielding. Pilot with five people first.
+### How to read it
+
+Everything from the intro to the thanks is what respondents see, written
+in a plain, friendly voice, as if to one person. Notes for the team
+(hypotheses, what to fix before fielding, assumptions) are at the end, so
+the survey reads as respondents will meet it.
+
+Items are numbered Q1, Q2 and so on (S for the screener, D for the
+optional questions about the person), and each section names the
+research question it serves. ☐ means pick all that apply, ○ means pick
+one. Shaded lines in italics are routing for whoever builds the survey,
+never shown to respondents. Run `checks/survey-wording.md` and the
+question review (`review/question-review.md`) before fielding.
 
 ## Intro
 
@@ -5321,46 +5393,94 @@ skip any question.
 ## Screener
 
 S1. In the last 30 days, have you [behaviour]?
-- Yes
-- No → end survey, thank you
+- ( ) Yes
+- ( ) No (end the survey)
 
 ## Section 1: [topic] → RQ1
 
 First, a few questions about [topic, in their words].
 
 Q1. In the last 30 days, how many times did you [behaviour]?
-- 0 · 1–2 · 3–5 · 6–10 · More than 10
+- ( ) 0
+- ( ) 1–2
+- ( ) 3–5
+- ( ) 6–10
+- ( ) More than 10
 
-Q2. The last time you [did it], how did you do it? (choose one)
-- [option]
-- [option]
-- Other (please say):
+Q2. The last time you [did it], which of these did you use? Select all
+    that apply.
+- [ ] [option]
+- [ ] [option]
+- [ ] Other (please say):
 
-Q3. How would you rate [thing] overall?
-- Very poor · Poor · Fair · Good · Very good
+Q3. Have you ever [behaviour]?
+- ( ) Yes
+- ( ) No (go to Q5)
+
+Q4. How would you rate [thing] overall?
+- ( ) Very poor
+- ( ) Poor
+- ( ) Fair
+- ( ) Good
+- ( ) Very good
+
+*After Q4, go to Q6.*
 
 ## Section 2: [topic] → RQ2
 
 Thanks. Next, we'd like to ask about [topic, in their words].
 
-Q4. [item]
-
 Q5. [item]
+
+*If [answer], go to Q7. Otherwise, go to Q6.*
+
+Q6. [item]
 
 ## Open-end (optional)
 
-Q6. Is there anything about [topic] you'd want us to know?
+Q7. Is there anything about [topic] you'd want us to know?
 
 ## About you (optional)
 
 D1. Which best describes your role?
-- [options] · Prefer not to say
-
-D2. [one more if needed] · Prefer not to say
+- ( ) [option]
+- ( ) Prefer not to say
 
 ## Thanks
 
 Thank you. [What happens next, incentive if any.]
+
+## Notes for the team
+
+Not shown to respondents.
+
+### Hypotheses it can speak to
+
+- [H1, in a line, and the items that speak to it]
+
+### Fix before fielding
+
+- [Anything that has to change before it goes live.]
+
+### Assumptions in this draft
+
+- [assumption] [Each guess, and where it shows up. Respondent-facing text
+  carries a short "[to confirm]" blank at most, never the explanation.]
+
+### Fielding notes
+
+- [Where and when it's shown, accessibility checks, what comes from logs
+  rather than questions.]
+
+### Question map
+
+| Item | Serves | Why it sits here |
+| --- | --- | --- |
+| Q1 | RQ1 | [reason] |
+
+### Waiting on
+
+- [Pilot with five people first, and what to watch for.]
 
 <!-- core/templates/usability-test-script.md -->
 
@@ -5385,81 +5505,97 @@ team").
 | What's being tested | [prototype / live product, version] |
 | Who we're testing with | [participants, in a line] |
 
-**Research questions**
+### Research questions
 
 1. [RQ1, in plain words]
 2. [RQ2]
 
-**How to use it.** Read the shaded lines aloud as written; they carry you
-from one task to the next. Tasks are scenarios, not instructions, and each
-has a success criterion written before the session. Run
-`checks/guide-wording.md` and the question review
+### How to use it
+
+Read the quoted lines (with a bar beside them in Word) aloud as written;
+they carry you from one task to the next. Tasks are scenarios, not
+instructions, and each has a success criterion written before the session.
+Shaded notes in italics are for the moderator and are never read aloud.
+Run `checks/guide-wording.md` and the question review
 (`review/question-review.md`) before using.
 
 ## Opening (3 min)
 
-Thanks for coming. We're testing [the design], not you; if something's
-confusing, that's useful for us to see. Please think out loud as you go. I
-won't be able to help much, because I want to see what you'd do on your own.
-I'd like to record the screen and audio; only [who] will see it, and we'll
-delete it by [date]. You can stop at any time. OK to start?
+> Thanks for coming. We're testing [the design], not you. If something's
+> confusing, that's useful for us to see.
+>
+> Please think out loud as you go. I won't be able to help much, because I
+> want to see what you'd do on your own.
+>
+> I'd like to record the screen and audio. Only [who] will see it, and
+> we'll delete it by [date]. You can stop at any time. Is it OK to start?
 
 ## Context (5 min)
 
-- How do you do [the task area] today?
-- When did you last do it?
+> Before we start, I'd love to hear a little about how you do this today.
+
+1. How do you do [the task area] today?
+2. When did you last do it?
 
 ## Tasks
 
-For each task, record: completed / completed with difficulty / failed, time,
-ease rating and why, what happened, and what they said. Ask follow-ups after
-the task, not during it.
+*Moderator only: for each task, record completed / completed with
+difficulty / failed, time, ease rating and why, what happened, and what
+they said. Ask follow-ups after the task, not during it.*
 
 ### Task 1 → RQ[n]
 
 > Thanks, that's helpful. Now I'm going to ask you to try a few things.
 > There's no rush, and remember to think out loud.
 
-**Scenario:** You want to [goal, in the participant's terms, no feature
-names]. Show me how you'd do that.
+> You want to [goal, in the participant's terms, no feature names]. Show
+> me how you'd do that.
 
-**Success:** [what done looks like]
-**Watch for:** [the thing we're worried about]
-**After:** Overall, how easy or difficult was that task, from 1, very
-difficult, to 7, very easy? Why that rating? What did you expect to happen?
+*Success: [what done looks like]. Watch for: [the thing we're worried
+about].*
+
+3. Overall, how easy or difficult was that task, from 1, very difficult,
+   to 7, very easy?
+   a. Why that rating?
+   b. What did you expect to happen?
 
 ### Task 2 → RQ[n]
 
-> Great, thank you. Let's move on to the next one.
+> Great, thank you. Let's move on to the next one. [Scenario.]
 
-**Scenario:**
-**Success:**
-**Watch for:**
-**After:** Ease rating (1–7), why that rating, what they expected.
+*Success: [ ]. Watch for: [ ].*
+
+4. Overall, how easy or difficult was that task, from 1 to 7?
+   a. Why that rating?
+   b. What did you expect to happen?
 
 ### Task 3 → RQ[n]
 
-> Thanks. Here's the next one.
+> Thanks. Here's the next one. [Scenario.]
 
-**Scenario:**
-**Success:**
-**Watch for:**
-**After:** Ease rating (1–7), why that rating, what they expected.
+*Success: [ ]. Watch for: [ ].*
+
+5. Overall, how easy or difficult was that task, from 1 to 7?
+   a. Why that rating?
+   b. What did you expect to happen?
 
 ## Debrief and close (5–10 min)
 
 > That's all the tasks, thank you. I've just got a few questions about how
 > that went overall.
 
-- When you [something they did, described neutrally], what were you
-  looking for?
-- What was the hardest part?
-- Was anything different from what you expected?
-- Overall, how was that compared to how you do it now?
-- Anything you expected to find and didn't?
-- Thanks. Here's what happens next: [incentive, findings].
+6. When you [something they did, described neutrally], what were you
+   looking for?
+7. What was the hardest part?
+8. Was anything different from what you expected?
+9. Overall, how was that compared to how you do it now?
+10. Anything you expected to find and didn't?
+
+> Thank you. Here's what happens next: [incentive, findings].
 
 ## Moderator notes
+
+### If things get hard
 
 - If they ask for help: "What would you do if I weren't here?"
 - If they're stuck for more than [2] minutes: note it, then move them on.
@@ -5467,6 +5603,9 @@ difficult, to 7, very easy? Why that rating? What did you expect to happen?
   on.
 - Don't change the prototype between sessions without noting it in the
   record.
+
+Take notes in the note-taking sheet (`templates/notes-sheet.md`), or the
+observer sheet below for task results.
 
 ## Observer sheet
 

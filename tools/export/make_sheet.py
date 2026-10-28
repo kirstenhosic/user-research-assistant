@@ -16,19 +16,33 @@ The JSON looks like this:
           "name": "Notes",
           "intro": ["Ledgerline first-week setup: interview notes",
                     "One row per participant. Notes under the research question they answer."],
+          "details": [["Team", "Admin Experience"], ["Date", "28 Oct 2026"],
+                      ["Author(s)", "Sam Rivera"], ["Reviewers", "Dana Lee"],
+                      ["Status", "Draft"]],
+          "row_height": 120,
           "columns": [
             {"header": "Participant", "width": 14},
             {"header": "RQ1: Why do new admins stall during first-week setup?", "width": 45}
           ],
           "rows": [["P1", ""], ["P2", ""]],
-          "summary": ["Summary across participants", ""]
+          "summary": ["Summary across participants", ""],
+          "tables": [
+            {"title": "Merged and dropped codes",
+             "columns": [{"header": "Code"}, {"header": "What happened"}],
+             "rows": [["too-many-steps", "Merged into lost-the-path"]]}
+          ]
         }
       ]
     }
 
-"intro" lines sit above the table, the header row is bold, shaded and
+The first "intro" line is the title. "details" (optional) is the
+document details block, shown under the title with bold, shaded labels;
+the remaining intro lines follow it. The header row is bold, shaded and
 frozen, every cell wraps its text, and the "summary" row (optional) is
-bold and shaded at the bottom. Widths are in Excel's character units.
+bold and shaded at the bottom. "row_height" (optional, in points) makes
+the body rows tall enough to type notes in. "tables" (optional) adds more
+small tables below the main one, each with an optional title. Widths are
+in Excel's character units.
 """
 
 from __future__ import annotations
@@ -43,7 +57,7 @@ NS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
 REL = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 
 # Cell styles (index into cellXfs below): 0 plain, 1 wrapped, 2 header,
-# 3 summary, 4 title, 5 intro note.
+# 3 summary, 4 title, 5 intro note, 6 details label, 7 small table title.
 STYLES = f"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <styleSheet xmlns="{NS}">
 <fonts count="4">
@@ -63,13 +77,15 @@ STYLES = f"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <border><left style="thin"><color rgb="FFBFBFBF"/></left><right style="thin"><color rgb="FFBFBFBF"/></right><top style="thin"><color rgb="FFBFBFBF"/></top><bottom style="thin"><color rgb="FFBFBFBF"/></bottom><diagonal/></border>
 </borders>
 <cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>
-<cellXfs count="6">
+<cellXfs count="8">
 <xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>
 <xf numFmtId="0" fontId="0" fillId="0" borderId="1" xfId="0" applyBorder="1" applyAlignment="1"><alignment vertical="top" wrapText="1"/></xf>
 <xf numFmtId="0" fontId="1" fillId="2" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment vertical="top" wrapText="1"/></xf>
 <xf numFmtId="0" fontId="1" fillId="3" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment vertical="top" wrapText="1"/></xf>
 <xf numFmtId="0" fontId="2" fillId="0" borderId="0" xfId="0" applyFont="1"/>
 <xf numFmtId="0" fontId="3" fillId="0" borderId="0" xfId="0" applyFont="1"/>
+<xf numFmtId="0" fontId="1" fillId="3" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment vertical="top" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"/>
 </cellXfs>
 <cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>
 </styleSheet>"""
@@ -97,26 +113,38 @@ def sheet_xml(sheet: dict) -> str:
     intro = sheet.get("intro", [])
     rows_xml = []
     r = 0
-    for k, line in enumerate(intro):
+
+    def add(cells: list[tuple[object, int]], height: float | None = None) -> None:
+        nonlocal r
         r += 1
-        rows_xml.append(f'<row r="{r}">{cell(f"A{r}", line, 4 if k == 0 else 5)}</row>')
+        ht = f' ht="{height}" customHeight="1"' if height else ""
+        rows_xml.append(f'<row r="{r}"{ht}>' + "".join(
+            cell(f"{col_name(c)}{r}", v, st) for c, (v, st) in enumerate(cells)) + "</row>")
+
+    def table(cols: list[dict], rows: list[list], summary: list | None, height: float | None) -> int:
+        add([(col.get("header", ""), 2) for col in cols])
+        header = r
+        for row in rows:
+            add([(row[c] if c < len(row) else "", 1) for c in range(len(cols))], height)
+        if summary:
+            add([(summary[c] if c < len(summary) else "", 3) for c in range(len(cols))], height)
+        return header
+
     if intro:
+        add([(intro[0], 4)])
+    # Kept compact: everything above the header row stays frozen on screen.
+    for label, value in sheet.get("details") or []:
+        add([(label, 6), (value, 1)])
+    for line in intro[1:]:
+        add([(line, 5)])
+    if intro or sheet.get("details"):
         r += 1  # blank row before the table
-    r += 1
-    header_row = r
-    rows_xml.append(f'<row r="{r}">' + "".join(
-        cell(f"{col_name(c)}{r}", col.get("header", ""), 2) for c, col in enumerate(columns)) + "</row>")
-    body = list(sheet.get("rows", []))
-    for row in body:
+    header_row = table(columns, list(sheet.get("rows", [])), sheet.get("summary"), sheet.get("row_height"))
+    for extra in sheet.get("tables", []):
         r += 1
-        rows_xml.append(f'<row r="{r}">' + "".join(
-            cell(f"{col_name(c)}{r}", row[c] if c < len(row) else "", 1) for c in range(len(columns))) + "</row>")
-    if sheet.get("summary"):
-        r += 1
-        summary = sheet["summary"]
-        rows_xml.append(f'<row r="{r}">' + "".join(
-            cell(f"{col_name(c)}{r}", summary[c] if c < len(summary) else "", 3) for c in range(len(columns)))
-            + "</row>")
+        if extra.get("title"):
+            add([(extra["title"], 7)])
+        table(extra.get("columns", []), extra.get("rows", []), extra.get("summary"), None)
     cols = "".join(f'<col min="{c + 1}" max="{c + 1}" width="{col.get("width", 30)}" customWidth="1"/>'
                    for c, col in enumerate(columns))
     pane = (f'<sheetViews><sheetView workbookViewId="0"><pane ySplit="{header_row}" '
