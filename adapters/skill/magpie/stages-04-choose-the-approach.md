@@ -31,12 +31,47 @@ long the study can take.
 - Tools available for sessions, surveys or analysis.
 - Any method a stakeholder expects or has ruled out, and why.
 - Partner data the team can get (analytics, support, sales), and how fast.
+- Where the product stands (an idea, being designed, or live) and where
+  people use it, if the Product section doesn't already say.
 
 ## What to do
 
-1. **Start from the question, not the method.** Is the primary question about
-   *why* and *how* (go qualitative), *how many* and *how often* (go
-   quantitative), or *whether this design works* (test it)?
+1. **Start from the question, not the method.** Answer four things about
+   the primary question before naming a method. Together they narrow the
+   list; none of them picks the method on its own.
+   - **What kind of question.** *Why* and *how* (go qualitative), *how
+     many* and *how often* (go quantitative), or *whether this design
+     works* (test it).
+   - **What people say, or what they do.** Does the decision rest on what
+     people think, want and say (attitudes), or on what they actually do
+     (behaviour)? Lean on what they do: people can only report what they
+     notice and remember, and what they say often differs from what they
+     do. Methods that listen (interviews, surveys, focus groups) suit
+     opinions, wants and the words people use. Methods that watch
+     (usability tests, field studies, analytics) suit what happens. When
+     the decision needs both, plan to compare them; a gap between what
+     people say and what they do is often a finding in itself.
+   - **Where the product stands.** Before anything is built, the job is to
+     explore: interviews, field studies, diary studies, concept testing,
+     participatory design. While it's being designed, the job is to test
+     and improve it: usability testing, card sorting and tree testing,
+     preference testing (`methods-preference-and-desirability.md`). Once
+     it's live, the job is to measure it against something: benchmarking
+     (`methods-benchmarking.md`), analytics and A/B tests
+     (`methods-analytics-and-ab-tests.md`), surveys, unmoderated testing
+     at scale. These are starting lists, not rules; a live product can
+     still need exploring.
+   - **Where and how people use it in the study.** Real use, in their own
+     setting with their own data, shows the truest behaviour but gives
+     less control over what you see. Scripted tasks give results you can
+     compare, with a narrower view. Some studies use only part of the
+     product (a concept, a menu structure) or none of it (how people see
+     a brand). Decide too whether sessions are in person or remote
+     (remote reaches more people in less time; in person suits long
+     sessions and physical tasks), and whether the study has to happen
+     somewhere specific or away from a screen (at the gym, in a shop, on
+     a warehouse floor). If the setting changes what people do, go to it
+     (`methods-field-studies.md`).
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
    if yes, even if the researcher wanted something bigger. What's
@@ -60,20 +95,32 @@ long the study can take.
    the ask names a method, check it against the question the same way. A
    focus group asked for to judge usability or predict behaviour is the
    common case (`methods-focus-groups.md`).
-5. **Name what it can't tell you.** Every method has a blind spot. Write it
+5. **Pair methods when the question has two halves.** If the decision
+   needs both *how many* and *why*, or both what people say and what they
+   do, suggest a companion method for the other half and say in a line
+   what it adds. For example: analytics or a short survey to find where
+   people drop off, then sessions to learn why; or interviews about what
+   people want, checked against what they did in a usability test. Only
+   suggest a companion the time and the rigor allow (step 9); one method
+   done well beats two done thinly. The researcher decides.
+6. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
-6. **Show the reasoning and invite a counter** (`operating.md`, "Show the
-   reasoning"). Under the recommendation, in a few plain lines: the kind
-   of question (why, how many, does it work) and why that points to this
-   method family; the cheaper options you ruled out and why; what the
-   method can't tell them; why the backup is second. Then one line: "If
+7. **Show the reasoning and invite a counter** (`operating.md`, "Show the
+   reasoning"). Under the recommendation, in a few plain lines: how the
+   four answers from step 1 point to this method; the cheaper options you
+   ruled out and why; what the method can't tell them; why the backup is
+   second. Add one line on what the team will have at the end, in words
+   they could repeat to someone else (for example, "the four or five
+   places people get stuck and why, with clips", not "insights about the
+   flow"). If someone outside the study asked for a different method,
+   these lines are what to share with them. Then one line: "If
    you'd pick differently, say why and I'll rework it." A counter is new
    input: rework the choice with their reasoning, or say in a line or two
    why you'd keep it. Their call stands.
-7. **Size the sample roughly.** Enough to see a pattern for the decision at
+8. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
-8. **Match the rigor to the decision risk** (`lenses-minimum-viable-rigor.md`).
+9. **Match the rigor to the decision risk** (`lenses-minimum-viable-rigor.md`).
    Low risk gets the smallest study that gives a real answer; high risk
    gets a sample sized for the claim and a second source to check against.
    Say in a line how the recommendation fits the risk from stage 3. Check
@@ -81,13 +128,13 @@ long the study can take.
    time and money can't reach the floor, say so now: offer the smaller
    question they can answer well and what the original would take, and
    let the researcher and the team choose.
-9. **Ask about partner data.** Would telemetry help choose who to recruit, or
+10. **Ask about partner data.** Would telemetry help choose who to recruit, or
    size the problem before you go qualitative? Draft the request if so.
 
 ## What to draft
 
-- The Approach section of the study record: method, why, sample, trade-offs,
-  partner data requested.
+- The Approach section of the study record: method, why, what the team
+  will get, sample, trade-offs, partner data requested.
 - The reasoning behind the choice, shown with the recommendation, and the
   line inviting a counter.
 - A short comparison of the recommended method against the backup, if the
@@ -101,7 +148,11 @@ watching them do step 3 tell you that the survey can't?"
 
 ## Exit criteria
 
-- One method chosen, with the reason written down.
+- The question is placed: what kind, say or do, where the product
+  stands, and the setting.
+- One method chosen, with the reason written down, and a companion
+  suggested or not needed.
+- What the team will get is written in a line.
 - Sample sized and described.
 - The rigor fits the decision risk and stays above the floor, or the gap
   is named with a smaller question offered.
@@ -113,6 +164,9 @@ watching them do step 3 tell you that the survey can't?"
 - Choosing the method the team is used to, not the one the question needs.
 - A survey to answer a "why" question.
 - A focus group to answer "can they use it?".
+- Asking people what they would do when you could watch what they do.
+- Asking which design people prefer and reporting it as which one works.
+- An A/B test on a page with too little traffic to give an answer.
 - An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.

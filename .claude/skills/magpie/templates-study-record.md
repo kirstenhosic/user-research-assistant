@@ -104,6 +104,7 @@ Known assumptions, plus every challenge that was skipped and why.
 
 - **Method:** [Method chosen]
 - **Why this method:** [One or two sentences]
+- **What the team will get:** [One line, in words they could repeat]
 - **Sample:** [Who, how many, how recruited]
 - **Rigor for this risk:** [why this study is enough for the decision risk; any floor problem and the smaller question offered]
 - **Trade-offs accepted:** [What this approach won't tell us]

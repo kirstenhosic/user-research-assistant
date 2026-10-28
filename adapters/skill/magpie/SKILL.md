@@ -37,6 +37,8 @@ team"). Run them with Python when you can and say so when you can't.
 - `lenses-systems-and-journeys.md`: A study is never just about one screen or one feature.
 - `evidence-where-to-look.md`: How Magpie helps collect evidence at stage 1 and stage 2, so "gather what exists" takes minutes, not a week.
 - `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers.
+- `methods-analytics-and-ab-tests.md`: Learn from records of what people do in a live product.
+- `methods-benchmarking.md`: Measure how well a product works with a few set numbers, then compare them with something: an earlier version, a competitor, a published figure or a goal the team set.
 - `methods-card-sorting-and-tree-testing.md`: Two methods for information architecture.
 - `methods-competitive-analysis.md`: Look at how other tools solve the same problem your users have, and work out what would fit your users and what wouldn't.
 - `methods-concept-testing.md`: Show people an idea before it's built and learn whether it solves a problem they have, how they'd fit it into their work, and what would stop them.
@@ -48,6 +50,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `methods-focus-groups.md`: A moderated discussion with a small group of people about a set of topics, to hear what they want, how they talk about it, and where they agree and disagree.
 - `methods-interviews.md`: One-to-one conversations to understand how people do something, why, and what gets in the way.
 - `methods-participatory-design.md`: Give participants materials and let them make their ideal version of an experience, then ask them to explain what they made.
+- `methods-preference-and-desirability.md`: Learn how people react to how a design looks and feels.
 - `methods-surveys.md`: Ask many people the same questions to measure how common an attitude, behaviour or need is.
 - `methods-usability-testing.md`: Watch people try to do real tasks with a design, and learn where and why they struggle.
 - `challenges-challenge-bank.md`: The questions Magpie puts to a draft.

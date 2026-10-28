@@ -1202,12 +1202,47 @@ long the study can take.
 - Tools available for sessions, surveys or analysis.
 - Any method a stakeholder expects or has ruled out, and why.
 - Partner data the team can get (analytics, support, sales), and how fast.
+- Where the product stands (an idea, being designed, or live) and where
+  people use it, if the Product section doesn't already say.
 
 ## What to do
 
-1. **Start from the question, not the method.** Is the primary question about
-   *why* and *how* (go qualitative), *how many* and *how often* (go
-   quantitative), or *whether this design works* (test it)?
+1. **Start from the question, not the method.** Answer four things about
+   the primary question before naming a method. Together they narrow the
+   list; none of them picks the method on its own.
+   - **What kind of question.** *Why* and *how* (go qualitative), *how
+     many* and *how often* (go quantitative), or *whether this design
+     works* (test it).
+   - **What people say, or what they do.** Does the decision rest on what
+     people think, want and say (attitudes), or on what they actually do
+     (behaviour)? Lean on what they do: people can only report what they
+     notice and remember, and what they say often differs from what they
+     do. Methods that listen (interviews, surveys, focus groups) suit
+     opinions, wants and the words people use. Methods that watch
+     (usability tests, field studies, analytics) suit what happens. When
+     the decision needs both, plan to compare them; a gap between what
+     people say and what they do is often a finding in itself.
+   - **Where the product stands.** Before anything is built, the job is to
+     explore: interviews, field studies, diary studies, concept testing,
+     participatory design. While it's being designed, the job is to test
+     and improve it: usability testing, card sorting and tree testing,
+     preference testing (`methods/preference-and-desirability.md`). Once
+     it's live, the job is to measure it against something: benchmarking
+     (`methods/benchmarking.md`), analytics and A/B tests
+     (`methods/analytics-and-ab-tests.md`), surveys, unmoderated testing
+     at scale. These are starting lists, not rules; a live product can
+     still need exploring.
+   - **Where and how people use it in the study.** Real use, in their own
+     setting with their own data, shows the truest behaviour but gives
+     less control over what you see. Scripted tasks give results you can
+     compare, with a narrower view. Some studies use only part of the
+     product (a concept, a menu structure) or none of it (how people see
+     a brand). Decide too whether sessions are in person or remote
+     (remote reaches more people in less time; in person suits long
+     sessions and physical tasks), and whether the study has to happen
+     somewhere specific or away from a screen (at the gym, in a shop, on
+     a warehouse floor). If the setting changes what people do, go to it
+     (`methods/field-studies.md`).
 2. **Check the cheap options first.** Could analytics, support tickets, a
    quick look at existing recordings, or five conversations answer it? Say so
    if yes, even if the researcher wanted something bigger. What's
@@ -1231,20 +1266,32 @@ long the study can take.
    the ask names a method, check it against the question the same way. A
    focus group asked for to judge usability or predict behaviour is the
    common case (`methods/focus-groups.md`).
-5. **Name what it can't tell you.** Every method has a blind spot. Write it
+5. **Pair methods when the question has two halves.** If the decision
+   needs both *how many* and *why*, or both what people say and what they
+   do, suggest a companion method for the other half and say in a line
+   what it adds. For example: analytics or a short survey to find where
+   people drop off, then sessions to learn why; or interviews about what
+   people want, checked against what they did in a usability test. Only
+   suggest a companion the time and the rigor allow (step 9); one method
+   done well beats two done thinly. The researcher decides.
+6. **Name what it can't tell you.** Every method has a blind spot. Write it
    under trade-offs so nobody is surprised at the readout.
-6. **Show the reasoning and invite a counter** (`operating.md`, "Show the
-   reasoning"). Under the recommendation, in a few plain lines: the kind
-   of question (why, how many, does it work) and why that points to this
-   method family; the cheaper options you ruled out and why; what the
-   method can't tell them; why the backup is second. Then one line: "If
+7. **Show the reasoning and invite a counter** (`operating.md`, "Show the
+   reasoning"). Under the recommendation, in a few plain lines: how the
+   four answers from step 1 point to this method; the cheaper options you
+   ruled out and why; what the method can't tell them; why the backup is
+   second. Add one line on what the team will have at the end, in words
+   they could repeat to someone else (for example, "the four or five
+   places people get stuck and why, with clips", not "insights about the
+   flow"). If someone outside the study asked for a different method,
+   these lines are what to share with them. Then one line: "If
    you'd pick differently, say why and I'll rework it." A counter is new
    input: rework the choice with their reasoning, or say in a line or two
    why you'd keep it. Their call stands.
-7. **Size the sample roughly.** Enough to see a pattern for the decision at
+8. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
-8. **Match the rigor to the decision risk** (`lenses/minimum-viable-rigor.md`).
+9. **Match the rigor to the decision risk** (`lenses/minimum-viable-rigor.md`).
    Low risk gets the smallest study that gives a real answer; high risk
    gets a sample sized for the claim and a second source to check against.
    Say in a line how the recommendation fits the risk from stage 3. Check
@@ -1252,13 +1299,13 @@ long the study can take.
    time and money can't reach the floor, say so now: offer the smaller
    question they can answer well and what the original would take, and
    let the researcher and the team choose.
-9. **Ask about partner data.** Would telemetry help choose who to recruit, or
+10. **Ask about partner data.** Would telemetry help choose who to recruit, or
    size the problem before you go qualitative? Draft the request if so.
 
 ## What to draft
 
-- The Approach section of the study record: method, why, sample, trade-offs,
-  partner data requested.
+- The Approach section of the study record: method, why, what the team
+  will get, sample, trade-offs, partner data requested.
 - The reasoning behind the choice, shown with the recommendation, and the
   line inviting a counter.
 - A short comparison of the recommended method against the backup, if the
@@ -1272,7 +1319,11 @@ watching them do step 3 tell you that the survey can't?"
 
 ## Exit criteria
 
-- One method chosen, with the reason written down.
+- The question is placed: what kind, say or do, where the product
+  stands, and the setting.
+- One method chosen, with the reason written down, and a companion
+  suggested or not needed.
+- What the team will get is written in a line.
 - Sample sized and described.
 - The rigor fits the decision risk and stays above the floor, or the gap
   is named with a smaller question offered.
@@ -1284,6 +1335,9 @@ watching them do step 3 tell you that the survey can't?"
 - Choosing the method the team is used to, not the one the question needs.
 - A survey to answer a "why" question.
 - A focus group to answer "can they use it?".
+- Asking people what they would do when you could watch what they do.
+- Asking which design people prefer and reporting it as which one works.
+- An A/B test on a page with too little traffic to give an answer.
 - An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.
@@ -2778,6 +2832,218 @@ agreed objectives, round robin). The "set the direction" type, the signals,
 assumption cards, the step timings, the private vote, the break and the
 access steps: practitioner judgment.
 
+<!-- core/methods/analytics-and-ab-tests.md -->
+
+# Method: analytics and A/B tests
+
+Learn from records of what people do in a live product. Analytics shows
+what happens and where: which pages people reach, what they search for,
+where they leave a form. An A/B test splits live traffic between the
+current version (A) and a changed one (B) to see which does better on a
+measure chosen in advance. Both show what people do, at scale. Neither
+shows why.
+
+## Use it when
+
+Analytics:
+
+- You need to know where to look: where people drop off, what they search
+  for, which paths they take. Use it before choosing whom to talk to or
+  what to test.
+- You saw a problem in a few sessions and want to know how big it is. A
+  small test finds the spot; analytics on that spot gives thousands of
+  data points.
+- You want to check whether something heard in interviews or seen in
+  tests shows up in real use.
+
+A/B tests:
+
+- The team is choosing between two versions of a live page or flow, the
+  versions differ in one thing, and the result can be judged on a measure
+  the business already tracks (sign-ups, completed orders, people still
+  using it after a month).
+- The page gets enough traffic. A reliable answer often takes thousands
+  of people.
+
+## Don't use it when
+
+- The question is why. Pair it with interviews or usability sessions.
+- Nothing is live yet. There's no data.
+- For an A/B test: the page gets little traffic; the versions differ in
+  many things at once, so you couldn't tell which change mattered
+  (testing several changes together needs even more traffic); or there's
+  no idea from research about why B should do better.
+- For analytics: there's no question yet. Without one, it's easy to spend
+  days in interesting numbers that lead nowhere.
+
+## Before you start
+
+**Analytics**
+
+- Write the question, and which numbers would answer it.
+- Check that the step you care about is tracked. Some need setting up
+  first.
+- Read numbers as clues, in context. Long time on a page could mean
+  interest or confusion; it isn't good or bad on its own.
+
+**A/B tests**
+
+- One hypothesis, based on research: "Showing the delivery date on the
+  basket page will mean fewer people leave at shipping, because in
+  sessions people left to look for it."
+- One main measure, plus a few guardrail measures: things that mustn't
+  get worse, such as returns or people coming back.
+- Set how long it runs before it starts, from how often the thing happens
+  now, the smallest change worth detecting, and how sure you need to be
+  (usually 95%). Run at least one to two full weeks so weekday and weekend
+  behaviour are both in. Don't stop early because B looks ahead.
+- With a new testing tool, run both groups on the same version first. If
+  the tool shows a winner, the tool is wrong.
+
+## Who does it
+
+Usually a partner team (analytics, growth or engineering) owns the tools
+and the data. Magpie drafts the question and the request (stage 4,
+partner data) and helps read the results. It doesn't run the test.
+
+## Analysis
+
+- **Analytics:** each number with its time period, what it counts and
+  what it doesn't track. Say what it suggests and what it can't tell you.
+- **A/B tests:** the result on the main measure and the guardrails, and
+  whether the difference passed the test set in advance. Then whether
+  it's big enough to matter to the business, which is a separate
+  question. "No clear winner" is a result: keep the current version.
+
+## Pitfalls
+
+- Reading why from what. The numbers show people left; sessions show why.
+- Stopping an A/B test the day it looks like a win.
+- Judging on one measure and missing harm somewhere else.
+- Calling a statistically significant difference an important one.
+- Treating a test with no winner as a failure. Many tests end that way,
+  which is why the hypothesis should come from research.
+
+## Template
+
+No template. Draft the request in the study record under partner data:
+the question, the numbers, the time period and when they're needed.
+
+## Basis
+
+S72 (three uses of analytics: spotting issues, investigating them, and
+checking findings from qualitative research; numbers as clues read in
+context; a small test finds the spot and analytics sizes it; the risk of
+data with no question). S71 (what an A/B test is; live product and
+enough traffic, often thousands of users; one change at a time; a
+hypothesis from research; main and guardrail measures; duration set in
+advance, at least one to two weeks; an A/A test of a new tool; don't stop
+early; statistically significant is not the same as important; many tests
+find no winner; it shows
+how behaviour changes, not why; pair it with qualitative research). S11
+(analytics, clickstream and A/B testing as measuring methods for a live
+product). S13 (combine methods so one covers another's limits). Who does
+the work: practitioner judgment.
+
+<!-- core/methods/benchmarking.md -->
+
+# Method: benchmarking
+
+Measure how well a product works with a few set numbers, then compare
+them with something: an earlier version, a competitor, a published figure
+or a goal the team set. Repeat it to see whether the experience is getting
+better.
+
+## Use it when
+
+- A version of the product is finished or live, and the question is "is
+  it better than before?", "did the redesign work?" or "how do we compare
+  with X?".
+- The team wants a few numbers to track from release to release, or to
+  show what design work changed.
+- A redesign is about to start. Measure now, so there is a starting point
+  (a baseline) to compare against later.
+
+## Don't use it when
+
+- You need to know why something is hard. A benchmark says how much, not
+  why. Pair it with moderated usability testing, before or after.
+- The design is still changing every week. A benchmark is a snapshot of
+  one version; measure a version that will hold still.
+- You can only get five or six people. That's a usability test, not a
+  benchmark; numbers from it carry too much error to compare.
+
+## What to measure
+
+- A few numbers tied to what the product is for. Common ones: task
+  success rate, time on task, an ease rating after each task (the Single
+  Ease Question), a questionnaire score after the session (the System
+  Usability Scale), or something analytics records, such as how many
+  people finish a form or come back after eight weeks. Support contacts
+  about a task can count too.
+- Choose what you'll compare against before you measure. A number on its
+  own means nothing. In the first round there is no earlier version, so
+  compare with a competitor, a published figure or a goal the team agrees
+  on.
+
+## How to collect
+
+Quantitative usability testing (fixed tasks, many people, usually
+unmoderated), analytics, or a survey. Analytics is quick to repeat;
+testing rounds take longer and cost more.
+
+## Sample
+
+- Twenty or more people per user group for task numbers or questionnaire
+  scores, and the same kind of people each round.
+- Recruit people who would really do these tasks.
+
+## Keep it comparable
+
+Use the same tasks, wording, order, success criteria, kind of participant
+and way of collecting every round. Write them in the study record so the
+next round can repeat them exactly. If one has to change, say so in the
+report; the comparison is weaker for it.
+
+## How often
+
+The team decides. Testing rounds might run once a year or after a major
+release; analytics can be checked after every change.
+
+## Analysis
+
+Each number with its sample size and margin of error, next to what it's
+compared with. Test the difference before calling it a change (stage 7).
+Say what else changed between rounds besides the design (a new kind of
+customer, a price change, a season).
+
+## Pitfalls
+
+- A number with nothing to compare it to.
+- Changing the tasks or their wording between rounds.
+- Calling a difference an improvement when it sits inside the margin of
+  error.
+- Measuring, then never finding out why the number moved.
+
+## Template
+
+Adapt `templates/usability-test-script.md`: fixed tasks with written
+success criteria, the ease rating after each task, the questionnaire at
+the end, and no probing during tasks.
+
+## Basis
+
+S70 (what benchmarking is; a summative snapshot of one version, run at
+the end of a design cycle; example measures, including support data;
+comparison with an earlier version, a competitor, an industry figure or a
+stakeholder goal; analytics, surveys and quantitative usability testing
+as the usual ways to collect; how often is the team's call). S11
+(benchmarking as tightly scripted and summative, at the launch and assess
+phase). S38 (the Single Ease Question, the System Usability Scale, twenty
+or more people for questionnaire numbers). S12 (report the interval;
+test before claiming a difference). Keeping every round the same and
+naming what else changed: practitioner judgment.
+
 <!-- core/methods/card-sorting-and-tree-testing.md -->
 
 # Method: card sorting and tree testing
@@ -3975,6 +4241,102 @@ design); S11 (definition: participants construct their ideal experience
 from design elements or creative materials). Sample sizes, timings and the
 session shape: practitioner judgment.
 
+<!-- core/methods/preference-and-desirability.md -->
+
+# Method: preference and desirability testing
+
+Learn how people react to how a design looks and feels. A preference test
+shows two or three versions and asks which one people prefer, and why. A
+desirability test gives people a list of words and asks them to pick the
+ones that describe the design (sometimes called the reaction card
+method).
+
+## Use it when
+
+- The question is about look, feel, tone or brand fit, not whether people
+  can use it.
+- The team is choosing between two or three visual directions that differ
+  enough for someone who isn't a designer to notice.
+- The team wants to check that a design comes across the way the brand
+  intends ("trustworthy", "simple", "friendly").
+
+## Don't use it when
+
+- The question is whether people can use it. Preference isn't
+  performance; people may prefer the version they struggle with. Run a
+  usability test.
+- The versions differ in small details. People will invent a preference
+  rather than say they can't tell.
+- You need to know what people will do. This is what they say.
+
+## Preference testing
+
+- Show two or three versions. Vary only a few things, so you can tell
+  what caused the reaction.
+- Change the order the versions are shown in from one person to the next.
+- Ask why in moderated sessions. In unmoderated tests, answers to "why"
+  tend to be vague.
+- In a usability test, ask about looks after the tasks, never before.
+  Once people pick a favourite, they tend to overlook its problems.
+
+## Desirability testing
+
+- Build the word list from the traits the team wants, their opposites,
+  and some unrelated words. About as many negative words as positive
+  ones; a list of only flattering words tells you nothing.
+- Keep it short: about 25 words or fewer in a survey.
+- Drop words about features or content if you're testing looks.
+- Shuffle the order for each person.
+- People pick about five words that describe the design. A screenshot or
+  mockup is enough; they don't need to use it.
+- In a moderated session, ask about each word chosen: "What made you pick
+  'cluttered'?" The reasons tell you what to change.
+
+## Sample
+
+The sources checked give no number. For reasons to explore, five to eight
+people per group in moderated sessions is a common size. For shares you
+want to compare (how many picked each word or each version), you need
+many more, and stage 7's survey data rules apply.
+
+## Analysis
+
+- **Desirability:** for each word, how many people chose it, ranked.
+  Compare user groups or versions on their words, and count how many
+  people chose at least one of the traits the team was aiming for. With a
+  small sample, give counts ("4 of 8"), not percentages.
+- **Preference:** the reasons matter more than the tally. Group the
+  reasons and say which parts of the design they point to.
+
+## Pitfalls
+
+- Reporting preference as which version works better.
+- Versions too alike to tell apart.
+- Asking which one they like before they've tried to use it.
+- A word list that's long, unshuffled or all positive.
+
+## Template
+
+Inside a usability test, add the questions after the tasks in
+`templates/usability-test-script.md`. On its own at scale, use
+`templates/survey.md`.
+
+## Basis
+
+S74 (preference testing with two or three versions that vary in a few
+things, order shuffled; noticeable differences or people invent a
+preference; ask why only when moderated; ask about looks after usability
+tasks, because choosing a favourite first hides its problems; word-choice
+methods; ratings need more people than qualitative methods). S73 (the
+desirability toolkit, first published by Benedek and Miner at Microsoft as
+described there: people pick about five words; adapt the list to what you
+measure; about 25 words or fewer in surveys; shuffle; mix negative,
+positive and neutral words; a screenshot is enough; rank by share; compare
+groups and versions; count people who chose a brand word). S11
+(desirability studies as a method). Asking about each chosen word, the
+five to eight per group, and counts instead of percentages for small
+samples: practitioner judgment.
+
 <!-- core/methods/surveys.md -->
 
 # Method: surveys
@@ -4085,6 +4447,32 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
 5. Debrief: go back to the moments that mattered, then overall
    impressions, anything missing, thanks.
 
+## Remote, moderated
+
+The same session over a video call with screen sharing. It's often
+cheaper and quicker than meeting in person, easier for participants, and
+reaches people who can't travel. It takes more preparation.
+
+- Pick a call tool that participants, observers and the moderator can all
+  use. Check it works on the participant's device and browser while
+  screening.
+- Decide how tasks reach the participant: a document with one task per
+  page that they don't read ahead in, or one task at a time in the chat,
+  read aloud by the participant. Reading tasks aloud yourself is the
+  weakest choice.
+- Hold a short tech check the day before (about 15 minutes), using
+  something other than the design you're testing: install the tool,
+  check sound and screen sharing, and do the consent form.
+- Remind participants the day before: charged device, headset, a strong
+  connection, somewhere quiet and private.
+- Keep observers muted, keep team chat where the participant can't see
+  it, and give observers the task list and what to watch for.
+- Recruit a few extra people, leave spare time in each session for tech
+  trouble, and have a backup plan.
+- Run a pilot first. It tests the test, not the design, so a colleague
+  can do it.
+- At the start, ask permission to record and confirm the end time.
+
 ## What makes it good
 
 - Tasks have a written success criterion before the session.
@@ -4159,7 +4547,12 @@ and order unchanged, ten items, a 0 to 100 score that isn't a percentage;
 twenty to thirty users or more for questionnaire numbers; pair a rating
 with "why"); S12 (numbers from small qualitative studies carry large
 error). Probing after rather than during the task, and the debrief:
-practitioner judgment. Background: S7. The rest of this guide:
+practitioner judgment. Remote, moderated: S75 (advantages and the
+extra preparation; choosing a call tool; how tasks reach the participant,
+with the moderator reading them as the weakest choice; a tech check the
+day before on something else; reminders; observers; recruiting extra and
+spare time; a pilot that tests the test; recording consent at the start).
+Background: S7. The rest of this guide:
 practitioner judgment, consistent with widely published usability testing
 guidance.
 
@@ -6023,6 +6416,7 @@ What the team believes now, and what we'd need to see to change our minds.
 
 - **Method:** [method]
 - **Why:** [two sentences]
+- **What we will have at the end:** [one line, in words anyone could repeat]
 - **What it won't tell us:** [trade-offs]
 - **Why this is enough for the risk:** [one line; any cut made for time or budget and what it costs]
 - **Partner data:** [team, what, status]
@@ -6177,6 +6571,7 @@ Known assumptions, plus every challenge that was skipped and why.
 
 - **Method:** [Method chosen]
 - **Why this method:** [One or two sentences]
+- **What the team will get:** [One line, in words they could repeat]
 - **Sample:** [Who, how many, how recruited]
 - **Rigor for this risk:** [why this study is enough for the decision risk; any floor problem and the smaller question offered]
 - **Trade-offs accepted:** [What this approach won't tell us]
