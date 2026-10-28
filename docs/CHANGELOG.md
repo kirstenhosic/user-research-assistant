@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-28
+
+- Next steps in the report and readout templates now have three parts:
+  what happens now (with the teams involved), open questions, and the
+  researcher's own next steps. Magpie drafts all three from the findings
+  and the record's context, and they stay "draft" until the researcher has
+  reviewed and edited them.
+
 ## 2026-10-27
 
 - Summaries and named people: the report and readout summaries now come

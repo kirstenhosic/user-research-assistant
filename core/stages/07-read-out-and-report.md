@@ -100,7 +100,10 @@ again.
    moves, in the team's own names for them. This is where business value
    becomes visible. Say which journey step each finding lands on, who else
    is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
-10. **Next steps.** What happens now, which team, open questions.
+10. **Next steps.** Draft what happens now (which teams), the open
+    questions, and the researcher's own next steps, from the findings and
+    any relevant context in the record. Mark them "draft" and ask the
+    researcher to review and edit them; they're final only with their yes.
 11. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
    always writes them into the study record and the report. Whether the

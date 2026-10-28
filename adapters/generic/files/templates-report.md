@@ -118,8 +118,16 @@ researcher asks for it.
 
 ## Next steps
 
-- [What happens now, who, by when]
-- [Open questions → what would answer them]
+Magpie drafts all three from the findings and any relevant context in the
+record (the decision and its date, partners, open risks), and labels them
+"draft" until the researcher has reviewed and edited them. Name the teams
+involved, not one person, unless the researcher asks for a name.
+
+- **What happens now:** [step, the teams involved, by when]
+- **Open questions:** [question → what would answer it: more research, a
+  decision, or nothing yet]
+- **Researcher's next steps:** [follow-up research, check-ins with
+  partners, what the researcher will do next]
 
 ## Limits
 
