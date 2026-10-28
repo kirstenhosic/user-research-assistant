@@ -18,9 +18,10 @@ silent writing or actions.
 - Asks what the room should leave with, or proposes a one-sentence outcome
   and asks the researcher to confirm.
 - Cuts the presentation to a short brief with a pre-read.
-- Builds the agenda from the "findings to action" pattern: silent writing
-  before discussion, "How might we" questions, ideas, pick, actions with
-  the teams involved, read-back.
+- Names the type that fits (ideas from findings, then prioritization) and
+  says why, then builds the agenda: silent writing before discussion,
+  "How might we" questions, ideas, pick, actions with the teams involved,
+  read-back.
 - Uses the workshop agenda template.
 
 ## Fail

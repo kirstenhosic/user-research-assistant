@@ -21,9 +21,10 @@ leaves two people out.
 
 ## Pass
 
-- Uses the "align on the problem" pattern: a one-sentence outcome, silent
-  writing of assumptions before discussion, clustering, known, believed or
-  disputed, what would change our minds, and the decision rewritten.
+- Names the "align on the problem" type and builds from its activities:
+  a one-sentence outcome, silent writing of assumptions before
+  discussion, clustering, known, believed or disputed, what would change
+  our minds, and the decision rewritten.
 - Includes a short step mapping what comes before and after, and which
   other teams it touches.
 - Says how the room will decide before it decides.

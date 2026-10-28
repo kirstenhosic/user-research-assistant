@@ -21,7 +21,8 @@ dot voting at the end lets people follow the PM's votes.
 
 ## Pass
 
-- Adds a "How might we" step before ideas, with questions that grow out of
+- Names the type (ideas from findings, then prioritization) and adds a
+  "How might we" step before ideas, with questions that grow out of
   F1 or F2 and don't build in the confirmation email ("How might we help
   managers trust a swap went through?", not "How might we add a
   confirmation email?").

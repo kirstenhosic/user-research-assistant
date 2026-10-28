@@ -142,8 +142,8 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 ## When a workshop would help
 
 If the team disagrees about the decision, or about what users do, offer
-the "align on the problem" workshop in one line
-(`workshops/stakeholder-workshops.md`, pattern A). It's the researcher's
+an "align on the problem" workshop in one line
+(`workshops/stakeholder-workshops.md`). It's the researcher's
 call; don't hold the stage for it.
 
 ## When to stop here

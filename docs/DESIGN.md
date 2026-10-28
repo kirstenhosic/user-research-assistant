@@ -113,10 +113,12 @@ readers who know those models, not a rule Magpie follows.
 | Magpie | Double Diamond (S59) | NN/g's design thinking phases (S60) |
 | --- | --- | --- |
 | Stages 0 to 2: find the opportunity, check what's known, frame the decision | The start of Discover: deciding what to find out | Before Empathize |
-| Workshop pattern A | Agreeing the problem before Discover | (none) |
+| Align-on-the-problem workshop | Agreeing the problem before Discover | (none) |
 | Stages 3 to 6: plan, run and analyze the study | Discover, moving into Define as findings form | Empathize, then Define |
 | Stage 7: readout and report | Define: the challenge stated from the evidence | Define |
-| Workshop pattern B, with "How might we" questions | The start of Develop | Ideate |
+| Understand-the-users workshop | The end of Define: a shared picture of users | Empathize, shared with the team |
+| Ideas-from-findings and prioritization workshops, with "How might we" questions | The start of Develop | Ideate |
+| Critique workshop | Develop: checking a design against the findings | Prototype and Test |
 | Concept and usability testing (stages 3 to 7 again) | Develop and Deliver: testing ideas | Prototype and Test |
 
 Both models say the work loops back rather than running in a straight line
@@ -379,7 +381,7 @@ separate review agents.
 ```
 core/
   stages/        one file per stage: goal, inputs, what to draft, challenges, exit criteria
-  workshops/     agenda patterns and activities
+  workshops/     choosing a workshop type, and the activities
   methods/       one guide per method, with pitfalls
   standards/     what good looks like per stage, each with its source
   challenges/    the challenge bank

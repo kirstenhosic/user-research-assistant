@@ -21,6 +21,16 @@
   design thinking phases. Standards W.3 reworded and W.4 to W.7 added,
   with three new evals (workshop-align-problem, workshop-how-to-decide,
   workshop-summary). Sources S53 to S62.
+- Magpie now chooses the workshop type from what the room needs to leave
+  with, instead of two fixed patterns. It works out the outcome, what's in
+  hand and where the team is stuck, names one of six types (align on the
+  problem, understand the users, ideas from findings, prioritization, set
+  the direction, critique) and says why. A format the researcher names,
+  such as hills, is checked against the need. The agenda is built from a
+  set of activities, including "How might we", hills, empathy maps and
+  critique against the findings; the two old patterns stay as example
+  agendas. New standard W.8 and eval `workshop-choose-type`. Sources S63
+  and S64.
 - Competitive analysis now works when nobody can get into the competitor
   tools. The method has two routes, hands-on and public sources only, with
   a ranked list of public sources (help docs and demos first, marketing

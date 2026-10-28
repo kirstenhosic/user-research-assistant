@@ -930,8 +930,8 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 ## When a workshop would help
 
 If the team disagrees about the decision, or about what users do, offer
-the "align on the problem" workshop in one line
-(`workshops/stakeholder-workshops.md`, pattern A). It's the researcher's
+an "align on the problem" workshop in one line
+(`workshops/stakeholder-workshops.md`). It's the researcher's
 call; don't hold the stage for it.
 
 ## When to stop here
@@ -1648,9 +1648,10 @@ again.
 For a senior audience or a short slot, offer the decision-first order in
 `templates/readout.md`.
 
-If the findings leave choices the team has to make together, offer the
-"findings to action" workshop in one line
-(`workshops/stakeholder-workshops.md`, pattern B). Where the team will go
+If the findings leave choices the team has to make together, offer a
+workshop in one line, naming the type that fits what the room needs
+(`workshops/stakeholder-workshops.md`, "Choose the type from what the room
+needs"): often ideas from findings, then prioritization. Where the team will go
 on to generate ideas, the next steps can end with two or three "How might
 we" questions drawn from the top findings, written the way that file
 describes.

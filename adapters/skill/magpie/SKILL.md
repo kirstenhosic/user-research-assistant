@@ -32,7 +32,7 @@ Python when you can and say so when you can't.
 - `lenses-accessibility.md`: Disabled people are among the users of almost every product, and a study that leaves them out will miss problems that block them completely.
 - `lenses-systems-and-journeys.md`: A study is never just about one screen or one feature.
 - `evidence-where-to-look.md`: How Magpie helps collect evidence at stage 0 and stage 1, so "gather what exists" takes minutes, not a week.
-- `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers, used either to agree on the problem before a study is designed (after stage 2) or to turn findings into ideas and decisions (after stage 7).
+- `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers.
 - `methods-card-sorting-and-tree-testing.md`: Two methods for information architecture.
 - `methods-competitive-analysis.md`: Look at how other tools solve the same problem your users have, and work out what would fit your users and what wouldn't.
 - `methods-concept-testing.md`: Show people an idea before it's built and learn whether it solves a problem they have, how they'd fit it into their work, and what would stop them.

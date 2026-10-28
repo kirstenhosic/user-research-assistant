@@ -17,9 +17,10 @@ took part by role or team.]
 
 ## What we decided
 
-[Pattern A: the decision statement as the room rewrote it, the deadline,
-and the teams involved. Pattern B: one line on the direction the room
-chose.]
+[What the room decided, in the terms of the workshop type: the decision
+statement as rewritten, the picture of users it agreed, the direction it
+chose, the short list, or what the next version of the design changes.
+Add the deadline and the teams involved.]
 
 [If the team writes hills: the hill the room agreed, in its own words.
 Leave this out otherwise.]
@@ -34,9 +35,9 @@ Teams agree among themselves who takes each action.
 
 ## What we're still unsure of
 
-[Pattern A: the believed and disputed assumptions, and the research
-questions they became. Pattern B: the "How might we" questions the room
-didn't get to.]
+[The believed and disputed assumptions and the research questions they
+became, the gaps in the empathy map, or the "How might we" questions the
+room didn't get to.]
 
 ## Ideas we didn't choose
 

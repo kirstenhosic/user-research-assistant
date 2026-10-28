@@ -15,7 +15,7 @@ researcher says so.
 
 | | |
 | --- | --- |
-| Purpose | [Align on the problem / turn findings into action] |
+| Type | [Align on the problem / understand the users / ideas from findings / prioritization / set the direction / critique, or a mix; and why] |
 | Outcome | [One sentence: what the room leaves with] |
 | How we'll decide | [For example: private vote, top three go ahead] |
 | When | [Day, date with the month in words, time, length] |
