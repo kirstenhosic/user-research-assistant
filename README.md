@@ -325,7 +325,7 @@ As of October 28, 2026.
   partial each, and the diary capture scenario passed. All were judged by
   a model, not yet by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 114 standards in
+- **Its rules are written down.** Magpie follows 117 standards in
   [`core/standards/`](core/standards/). 47 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.
