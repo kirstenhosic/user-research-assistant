@@ -61,9 +61,11 @@ here; those live in the study record and the appendix.
 
 ## Top findings
 
-Never more than five. One or two lines each, with strength.
+Never more than five. One or two lines each, with strength and whether it's
+enough for this decision. A not-enough finding says what would make us
+surer and roughly what that costs.
 
-1. **[Finding]** · [strength]
+1. **[Finding]** · [strength] · [enough / enough if [caveat] / not enough: [what would make us surer]]
 2. …
 
 ## Findings in detail

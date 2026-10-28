@@ -2,6 +2,21 @@
 
 ## 2026-10-28
 
+- Minimum viable research and minimum viable rigor, for every study. A
+  new lens, `lenses/minimum-viable-rigor.md`, draws on Nick Lioudis's
+  User Interviews guide (S53) and Carl J. Pearson's article (S54). Stage
+  2 now rates the decision risk (low, medium or high) from what a wrong
+  call would cost and whether it can be undone. Stage 3 matches the
+  study's rigor to that risk, checks the plan against a floor of
+  shortcuts that break the answer, and, when the budget can't reach the
+  floor, offers the smaller question that can be answered. Stage 4 tries
+  time-saving moves that keep rigor before any cut, and lists what each
+  cut costs. Stage 6 re-judges each finding on what actually happened in
+  the sessions and marks it enough, enough with a caveat, or not enough
+  for the decision; stage 7 and the report and readout templates carry
+  that line. The team, not one named person, decides how much risk to
+  accept. New standards 2.8, 3.9, 4.9, 6.15 and 7.14, and evals
+  `quick-low-risk`, `below-the-floor` and `rigor-after-sessions`.
 - Competitive analysis now works when nobody can get into the competitor
   tools. The method has two routes, hands-on and public sources only, with
   a ranked list of public sources (help docs and demos first, marketing
