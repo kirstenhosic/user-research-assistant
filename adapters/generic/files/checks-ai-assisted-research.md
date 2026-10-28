@@ -81,7 +81,7 @@ high with third-party panels, whose incentive economics reward fraud.
 
 ## Basis
 
-S10 (see `docs/PROVENANCE.md`): the five failure modes and their
+S10 (see `sources.md`): the five failure modes and their
 mitigations, including the first-three-transcript audit, the human
 synthesis step, receipts, and the fraud signals, come from the passage
 recorded there. The wording and the fit to Magpie's stages are this

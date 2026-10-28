@@ -73,7 +73,7 @@ study at all.
 ## Basis
 
 Practitioner judgment, consistent with published research ethics codes.
-Sources will be added to `docs/PROVENANCE.md` as they are checked. Local law
+Sources will be added to `sources.md` as they are checked. Local law
 and company policy take precedence over anything here.
 
 ---

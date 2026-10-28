@@ -16,7 +16,12 @@ Checks:
   7. Hand-written files use American English: no British spellings and
      no day-before-month dates. Participant transcripts, docs/CHANGELOG.md
      and evals/runs/ are left as written.
-  8. Size report for the generic prompts, with a rough token estimate.
+  8. Every source in docs/PROVENANCE.md names a year (or n.d.) and a link
+     (or is a book or journal with its title in italics); every source code
+     used in core/ or docs/DESIGN.md is in the list and not retired; the
+     standards count line is right; and every paragraph that mentions
+     HEARTS gives the full citation.
+  9. Size report for the generic prompts, with a rough token estimate.
 
 Exit 1 if any check fails. The size report never fails the run.
 """
@@ -171,6 +176,58 @@ def check_standards_and_evals() -> None:
                 fail(f"{path.relative_to(ROOT)}: tests unknown standard {sid}")
 
 
+SOURCE_ROW = re.compile(r"^\|\s*(S\d+[a-z]?)\s*\|\s*(.*?)\s*\|", re.M)
+RETIRED = "Same source as"
+HEARTS_CITATION = (
+    "Loosbrock, K. (2025). The HEARTS Framework: Six lenses for evaluating AI-assisted UX research. "
+    "Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework"
+)
+COUNT_LINE = re.compile(r"Current count: (\d+) of (\d+) standards cite a source")
+
+
+def check_sources() -> None:
+    provenance = (ROOT / "docs" / "PROVENANCE.md").read_text(encoding="utf-8")
+    rows = dict(SOURCE_ROW.findall(provenance))
+    for sid, source in rows.items():
+        if source.startswith(RETIRED):
+            continue
+        if not re.search(r"\b(?:19|20)\d\d\b|n\.d\.", source):
+            fail(f"docs/PROVENANCE.md: {sid} has no year (write n.d. for an undated page)")
+        if not re.search(r"https?://|doi:", source) and not re.search(r"\*[^*]+\*", source):
+            fail(f"docs/PROVENANCE.md: {sid} has no link")
+    retired = {sid for sid, source in rows.items() if source.startswith(RETIRED)}
+    for path in sorted(CORE.rglob("*.md")) + [ROOT / "docs" / "DESIGN.md"]:
+        for src in sorted(set(SRC.findall(path.read_text(encoding="utf-8")))):
+            if src not in rows:
+                fail(f"{path.relative_to(ROOT)}: cites {src}, not in docs/PROVENANCE.md")
+            elif src in retired:
+                fail(f"{path.relative_to(ROOT)}: cites {src}, which is retired; cite the source it points to")
+
+    total = cited = 0
+    for path in sorted((CORE / "standards").glob("*.md")):
+        for line in path.read_text(encoding="utf-8").splitlines():
+            m = ROW.match(line)
+            if m:
+                total += 1
+                cited += bool(SRC.search(m.group(3)))
+    m = COUNT_LINE.search(provenance)
+    if not m:
+        fail("docs/PROVENANCE.md: no 'Current count' line")
+    elif (int(m.group(1)), int(m.group(2))) != (cited, total):
+        fail(f"docs/PROVENANCE.md: count line says {m.group(1)} of {m.group(2)}; it's {cited} of {total}")
+
+    # Kirsten Hosic's rule: any mention of HEARTS credits it in full.
+    # Headings are exempt; the paragraph under them carries the citation.
+    hand_written = [ROOT / "README.md"] + sorted((ROOT / "docs").glob("*.md"))
+    hand_written += sorted(CORE.rglob("*.md")) + sorted((ROOT / "evals").rglob("*.md"))
+    for path in hand_written:
+        for block in re.split(r"\n\s*\n", path.read_text(encoding="utf-8")):
+            if "HEARTS" not in block or block.lstrip().startswith("#"):
+                continue
+            if HEARTS_CITATION not in re.sub(r"\s+", " ", block):
+                fail(f"{path.relative_to(ROOT)}: mentions HEARTS without the full citation")
+
+
 # American English. Each pattern is a British form; the generated adapters
 # are rebuilt from core/ and are covered through it.
 BRITISH = re.compile(
@@ -303,6 +360,7 @@ def main() -> int:
     check_titles()
     check_refs()
     check_standards_and_evals()
+    check_sources()
     check_fixtures()
     check_export()
     check_american_english()

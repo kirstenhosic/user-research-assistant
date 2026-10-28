@@ -48,7 +48,7 @@ long the study can take.
      steps), the answer comes from varying it and measuring, not from an
      interview. Qualitative work finds what matters; quantitative work
      says how much or how often. Most studies go round that loop more
-     than once.
+     than once (S86).
    - **What people say, or what they do.** Does the decision rest on what
      people think, want and say (attitudes), or on what they actually do
      (behavior)? Lean on what they do: people can only report what they

@@ -28,7 +28,7 @@ question produces a flawed guide.
 ## Basis
 
 Practitioner judgment, consistent with widely published guidance on
-framing research questions. Sources will be added to `docs/PROVENANCE.md`
+framing research questions. Sources will be added to `sources.md`
 as they are checked.
 
 ---

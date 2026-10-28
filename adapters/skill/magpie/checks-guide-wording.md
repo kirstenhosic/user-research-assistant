@@ -63,7 +63,7 @@ researcher's own included. For each item that fails, say which rule it broke and
 ## Basis
 
 Practitioner judgment, consistent with widely published interviewing
-guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+guidance. Sources will be added to `sources.md` as they are checked.
 
 ---
 

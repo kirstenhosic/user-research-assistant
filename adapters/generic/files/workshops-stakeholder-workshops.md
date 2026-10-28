@@ -165,7 +165,9 @@ it apart and shows it worked. It says where to go, not how to build it
   them. Otherwise write plain outcome statements: who, what they'll be
   able to do, and how we'd know.
 - Write the hill in the room's own words. Don't copy IBM's materials or
-  templates; link to IBM's framework page if the team wants the background.
+  templates; link to IBM's framework page
+  (https://www.ibm.com/training/enterprise-design-thinking/framework) if
+  the team wants the background.
 - The room agrees the hill together. Don't name a single person as its
   owner.
 

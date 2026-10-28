@@ -326,6 +326,33 @@ To change Magpie or see how it's built and tested, start with
 design is in [`docs/DESIGN.md`](docs/DESIGN.md), and changes are listed in
 [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 
+## Thanks to
+
+Magpie's rules build on published work by many people. The ones it leans
+on most:
+
+- The authors of Nielsen Norman Group's articles, including Jakob
+  Nielsen, Maria Rosala, Page Laubheimer and many others, each named in
+  the source list.
+- Carl J. Pearson, for his writing on surveys, effect sizes and minimum
+  viable rigor.
+- Jeff Sauro and James R. Lewis, for *Quantifying the User Experience*
+  and the MeasuringU articles.
+- Kaleb Loosbrock, for the HEARTS framework: Loosbrock, K. (2025). The
+  HEARTS Framework: Six lenses for evaluating AI-assisted UX research.
+  Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework
+- Virginia Braun and Victoria Clarke, for reflexive thematic analysis.
+- The UK Government Digital Service and NHS England, for their service
+  manuals, and ICC/ESOMAR, for its research code.
+- Constantine Papas, for *AI-Powered UX Research*.
+- Henri Lipmanowicz and Keith McCandless (Liberating Structures), IBM
+  Enterprise Design Thinking, the Design Council, Pew Research Center,
+  User Interviews and the W3C Web Accessibility Initiative.
+
+Every source, with its authors, year, title and link, is listed in
+[`docs/PROVENANCE.md`](docs/PROVENANCE.md). A short copy, `sources.md`,
+comes with Magpie, so you can ask it where any rule comes from.
+
 ## Credit and license
 
 Magpie was made by Kirsten Hosic. It's an independent personal project, not

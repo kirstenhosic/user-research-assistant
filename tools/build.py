@@ -99,8 +99,9 @@ LEAN_HEADER = f"""# Magpie
 You are Magpie, a research companion for user researchers working in industry
 with product managers, designers and engineers. This prompt holds your rules
 and the stage-by-stage method. The method guides, templates, workshop
-patterns, partner request templates and team files are uploaded as separate
-files named like `methods-interviews.md` and `templates-study-record.md`;
+patterns, partner request templates, team files and the source list
+(`sources.md`) are uploaded as separate files named like
+`methods-interviews.md` and `templates-study-record.md`;
 open the one a stage points to before drafting from it. The first section,
 "How Magpie works", is the set of rules you follow in every conversation,
 including which of them the researcher can override.
@@ -133,6 +134,31 @@ files, for the team to edit together (`operating.md`, "Files for the
 team"). Run them with Python when you can and say so when you can't.
 
 """
+
+
+# The source codes in core files (S42) point to rows in docs/PROVENANCE.md,
+# which isn't part of what people download. The build turns that table into
+# sources.md (code, authors, year, title, link) and points the files at it,
+# so the people behind each rule are credited wherever Magpie runs.
+PROVENANCE = ROOT / "docs" / "PROVENANCE.md"
+SOURCE_ROW = re.compile(r"^\|\s*(S\d+[a-z]?)\s*\|\s*(.*?)\s*\|", re.M)
+PROVENANCE_REF = "`docs/PROVENANCE.md`"
+SOURCES_REF = "`sources.md`"
+
+
+def sources_text() -> str:
+    """The source list from docs/PROVENANCE.md, one line per source."""
+    rows = SOURCE_ROW.findall(PROVENANCE.read_text(encoding="utf-8"))
+    lines = [f"- **{sid}**: {source}" for sid, source in rows]
+    return (
+        "# Sources\n\n"
+        "The published work Magpie's rules draw on, with the people who wrote it. "
+        "A code such as S42 in any Magpie file points to a line here. When you "
+        "pass a rule on, credit the authors named here. The full record, with "
+        "what each source supports and when it was checked, is "
+        f"docs/PROVENANCE.md in the Magpie repository ({REPO_URL}).\n\n"
+        + "\n".join(lines)
+    )
 
 
 def core_files(order: list[str] | None = None) -> list[Path]:
@@ -192,7 +218,7 @@ def flatten_refs(text: str, scripts: bool) -> str:
             return f"`{folder}-{name}`"
         return match.group(0)
 
-    text = FILE_REF.sub(file_ref, text)
+    text = FILE_REF.sub(file_ref, text).replace(PROVENANCE_REF, SOURCES_REF)
     text = FOLDER_REF.sub(lambda m: f"the `{m.group(1)}-*.md` files", text)
     if scripts:
         text = text.replace("`tools/checks/`", "`scripts/`")
@@ -221,16 +247,19 @@ def build_generic(files: list[Path]) -> None:
     parts = [GENERIC_HEADER]
     for path in files:
         rel = path.relative_to(CORE)
-        text = path.read_text(encoding="utf-8").strip()
+        text = path.read_text(encoding="utf-8").strip().replace(PROVENANCE_REF, SOURCES_REF)
         parts.append(f"<!-- core/{rel} -->\n\n{text}\n")
         copy_with_credit(path, files_dir / flat_name(path))
+    sources = sources_text()
+    parts.append(f"<!-- sources.md -->\n\n{sources}\n")
+    (files_dir / "sources.md").write_text(sources + FOOTER, encoding="utf-8")
 
     (GENERIC / "system-prompt.md").write_text("\n".join(parts), encoding="utf-8")
 
     lean = [LEAN_HEADER]
     for path in core_files([e for e in ORDER if e in LEAN]):
         rel = path.relative_to(CORE)
-        text = path.read_text(encoding="utf-8").strip()
+        text = path.read_text(encoding="utf-8").strip().replace(PROVENANCE_REF, SOURCES_REF)
         lean.append(f"<!-- core/{rel} -->\n\n{text}\n")
     (GENERIC / "system-prompt-lean.md").write_text("\n".join(lean), encoding="utf-8")
     shutil.copyfile(ROOT / "LICENSE", GENERIC / "LICENSE")
@@ -244,6 +273,8 @@ def build_skill(files: list[Path]) -> None:
         name = flat_name(path)
         copy_with_credit(path, SKILL / name, scripts=True)
         index.append(f"- `{name}`: {first_line_after_title(path)}")
+    (SKILL / "sources.md").write_text(sources_text() + FOOTER, encoding="utf-8")
+    index.append("- `sources.md`: The published work Magpie's rules draw on, by code (S42), with authors, year, title and link.")
 
     skill = SKILL_FRONTMATTER + "\n" + SKILL_INTRO + "\n".join(index) + "\n"
     (SKILL / "SKILL.md").write_text(skill, encoding="utf-8")

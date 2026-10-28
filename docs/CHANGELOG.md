@@ -2,6 +2,23 @@
 
 ## 2026-10-28
 
+- Credit for sources. Magpie now ships `sources.md` (built from
+  `docs/PROVENANCE.md`) in the skill folder, `magpie.zip` and both
+  generic prompts, so codes like S42 resolve to authors, year, title and
+  link wherever Magpie runs, and `operating.md` says to look sources up
+  there and never guess. The HEARTS framework (Loosbrock, K. (2025). The
+  HEARTS Framework: Six lenses for evaluating AI-assisted UX research.
+  Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework) is now S101
+  and credited on the five rules that came from it (5.8, 7.14, 8.12,
+  A.19, A.20). S69 was the same article as S11 and is retired into it.
+  Stage 4 credits S86 for the "why" questions people can't report on.
+  The workshop guide gives IBM's framework link. Source rows gain years
+  or n.d., links and confirmed titles (S1b, S31, S38, S40, S48, S58, S59,
+  S62, S67, S88, S99, S100); the Liberating Structures and Design Council
+  licenses are corrected to 4.0. The README gains a "Thanks to" section.
+  `tools/check.py` checks every source row has a year and a link, every
+  code used exists and isn't retired, the count line, and that every
+  mention of HEARTS gives the full citation.
 - Changes from the final end-to-end walkthrough. Where Magpie can start
   the reviewer itself, the question review and the independent reviews
   now run before the draft is shown, and the researcher gets one
@@ -403,7 +420,10 @@
   `tools/build.py` and checked by `tools/check.py`. The setup steps for
   every tool now start from it, so nobody has to find a folder or zip
   one themselves.
-- Eval run of the eight HEARTS scenarios, three runs each, judged by the
+- Eval run of the eight HEARTS scenarios (Loosbrock, K. (2025). The
+  HEARTS Framework: Six lenses for evaluating AI-assisted UX research.
+  Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework), three runs
+  each, judged by the
   model (`evals/runs/2026-10-27-hearts.md`): 7 pass in all three runs;
   read-hardest is partial in all three because Magpie changed parts of a
   clean draft that needed no change. A person still has to judge them.
