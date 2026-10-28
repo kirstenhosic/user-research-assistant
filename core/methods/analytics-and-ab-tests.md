@@ -164,7 +164,7 @@ benchmarking or a first-click test for navigation). S97 (goals, signals,
 metrics). S84 and S85 (raw differences with intervals over standardized
 effects; make them concrete at volume; small effects add up with
 repeated exposure; set the action threshold before collecting data).
-S100 (pp. 78–93: the N−1 two-proportion test for two groups of
+S100 (pp. 73–93: the N−1 two-proportion test for two groups of
 different users, recommended when every expected cell count is above 1,
 Fisher exact otherwise; the adjusted-Wald interval around the difference
 between two proportions, adding one success and one failure to each
