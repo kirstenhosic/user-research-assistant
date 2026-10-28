@@ -39,7 +39,7 @@ no comment.
 
 Practitioner judgment. Rules 2 to 4 follow the common advice that a
 hypothesis worth testing is specific and can be shown wrong. Sources will
-be added to `docs/PROVENANCE.md` as they are checked.
+be added to `sources.md` as they are checked.
 
 ---
 

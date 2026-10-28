@@ -49,7 +49,7 @@ Say these to the researcher before the survey goes out, not after:
 ## Basis
 
 Practitioner judgment, consistent with widely published survey design
-guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+guidance. Sources will be added to `sources.md` as they are checked.
 
 ---
 

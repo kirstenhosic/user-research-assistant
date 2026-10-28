@@ -37,7 +37,10 @@ As of October 28, 2026.
 - **Evals.** There are 118 test scenarios in `evals/scenarios/`. Most of
   the first 36 passed, but that run didn't prove Magpie was loaded each
   time. Later runs used stricter rules: 6 of 7 coaching scenarios and 7 of
-  8 HEARTS scenarios passed, with one partial each, and the diary capture
+  8 HEARTS scenarios (Loosbrock, K. (2025). The HEARTS Framework: Six
+  lenses for evaluating AI-assisted UX research. Hey Kaleb & Co.
+  https://www.heykaleb.com/hearts-framework) passed, with one partial
+  each, and the diary capture
   scenario passed. In a test of drafting too early, none of the 12 runs
   after the fix drafted before the required answers were in. Many newer
   scenarios haven't been run live yet, including the ones for confidence
@@ -76,6 +79,15 @@ file, and the top of each script, and copies `LICENSE` into
 `adapters/skill/magpie/` and `adapters/generic/`. Keep this when changing
 the build.
 
+The people behind Magpie's rules get credit too. The build turns the
+source table in `docs/PROVENANCE.md` into `sources.md` (code, authors,
+year, title, link), ships it in the skill folder, `magpie.zip` and both
+generic prompts, and points every mention of `docs/PROVENANCE.md` in the
+built files at it, so a code like S42 can be looked up wherever Magpie
+runs. Any mention of HEARTS gives the full citation: Loosbrock, K.
+(2025). The HEARTS Framework: Six lenses for evaluating AI-assisted UX
+research. Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework
+
 ## Making a change
 
 1. Edit the files in `core/`.
@@ -94,6 +106,13 @@ If you add or change a standard in `core/standards/`, link it to a public
 source and add that source to the table in `docs/PROVENANCE.md`. If there's no
 verifiable source, mark the standard as practitioner judgment. Don't cite a
 source you haven't checked.
+
+Each source row names its authors, a year (or n.d. for an undated page,
+with the date it was read) and a link, unless it's a book or journal with
+its title in italics. If a source turns out to be listed twice, keep the
+later number as a "Same source as" row so old references still make
+sense, and cite the first. `tools/check.py` checks all of this, the count
+line, and the citation rule in "Credit lines".
 
 ## Writing style
 

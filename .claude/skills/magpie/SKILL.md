@@ -92,3 +92,4 @@ team"). Run them with Python when you can and say so when you can't.
 - `team-intake-form.md`: For PMs, designers and engineers asking for research.
 - `team-research-library-entry.md`: One finding, one entry.
 - `team-team-profile.md`: One file Magpie reads at the start of every study.
+- `sources.md`: The published work Magpie's rules draw on, by code (S42), with authors, year, title and link.

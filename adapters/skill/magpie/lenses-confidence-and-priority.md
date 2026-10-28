@@ -81,7 +81,7 @@ When a participant says one thing and does another (says they always check
 the preview, then skips it in the task), keep both, with their locations,
 and write the gap as a finding of its own. What people do is usually the
 better guide to behavior, because what they say is limited by what they
-notice and are willing to report (S69). The gap often explains why a
+notice and are willing to report (S11). The gap often explains why a
 problem hasn't been reported before.
 
 ### The line
@@ -165,7 +165,7 @@ counts as high priority, because the team needs to know about it.
 
 ## Basis
 
-- S69: what people say and what they do often differ; self-report is
+- S11: what people say and what they do often differ; self-report is
   limited by what people are aware of and willing to report.
 - S70: report how often a problem happens alongside how bad it is, and
   treat the two separately.
