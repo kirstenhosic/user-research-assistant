@@ -51,7 +51,7 @@ out, write "not added" and delete the lines below.
 ## Decision
 
 - **Decision:** [What will be decided, in one sentence]
-- **Owner:** [Who makes the call]
+- **Who decides:** [the team or group that makes the call]
 - **Deadline:** [When it has to be made]
 - **Options on the table:** [The choices being weighed]
 
@@ -60,7 +60,7 @@ out, write "not added" and delete the lines below.
 - **Goal or metric this moves:** [The company goal or metric at stake]
 - **Cost of getting it wrong:** [What happens if the decision goes the wrong way]
 - **Decision risk:** [low / medium / high, because [can it be undone, how quickly, who and what it touches]; or [assumption]]
-- **Who else cares:** [Stakeholders beyond the owner]
+- **Who else cares:** [Stakeholders beyond the team that decides]
 - **Job:** [what the user is trying to get done, in their terms]
 - **Journey and step:** [which CUJ or journey, which step; "none tracked" is fine]
 - **Persona or group:** [the team's name, with the behavior that defines them]

@@ -11,7 +11,7 @@ says nothing about why.
 
 ## Product analytics or data science
 
-> Hi [name]. I'm running a study to help [owner] decide [decision] by
+> Hi [name]. I'm running a study to help [team] decide [decision] by
 > [date]. Before I talk to users I want to size the problem. Could you pull:
 > [what, e.g. "how many accounts reach step 3 of setup and how many finish
 > it, last 90 days, split by plan"]? A rough number by [date] is enough. I'll

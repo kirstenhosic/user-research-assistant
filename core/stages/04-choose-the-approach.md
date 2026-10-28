@@ -6,7 +6,7 @@ for the decision.
 ## Goal
 
 A method, a rough sample, and the trade-offs accepted, written so the
-decision owner could understand why.
+people making the decision could understand why.
 
 ## Inputs
 
@@ -25,14 +25,15 @@ raises, within the same six.
 **Minimum to draft:** the primary research question, and roughly how
 long the study can take.
 
-- The deadline for the decision, and how much time the study can take.
+- When findings are due (the decision date is in the record from stage
+  3; the study needs to end before it).
 - Budget, including incentives and tools.
-- Access to participants: who the team can reach, and how.
+- How the team can reach participants.
 - Tools available for sessions, surveys or analysis.
-- Any method a stakeholder expects or has ruled out, and why.
-- Partner data the team can get (analytics, support, sales), and how fast.
-- Where the product stands (an idea, being designed, or live) and where
-  people use it, if the Product section doesn't already say.
+- Any method someone expects or has ruled out.
+- Partner data the team can get (analytics, support, sales).
+- Where the product stands (an idea, being designed, or live), if the
+  Product section doesn't already say.
 
 ## What to do
 

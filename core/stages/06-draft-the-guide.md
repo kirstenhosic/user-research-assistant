@@ -26,12 +26,12 @@ raises, within the same six.
 **Minimum to draft:** the research questions, and what kind of
 instrument it is (interview, usability test, survey or diary).
 
-- The format: moderated or not, remote or in person, and how long each
-  session runs.
+- How long each session runs. Take the format (moderated or not, remote
+  or in person) from the plan, or guess it and show the guess.
 - What participants will see or use: a prototype, the live product, a
   concept, or nothing.
-- Which hypotheses the sessions need to test, and which topics are the
-  priority if time runs short.
+- Which topic must not be lost if a session runs short. Take the
+  hypotheses to test from the record; ask only if there are none.
 - The words participants use for the product and its features, if they
   differ from the team's.
 - Anything off limits: topics, unreleased features, legal or brand rules.
@@ -75,10 +75,12 @@ instrument it is (interview, usability test, survey or diary).
    `checks/survey-wording.md` for surveys. Fix what it catches and say what
    you fixed.
 6. **Run the question review** (`review/question-review.md`). It's
-   required. Start it in the same reply, without waiting to be asked: start
-   a separate agent where you can, otherwise give the researcher the text
-   to paste and say when to bring the result back. Fix what it got right
-   and say why you disagree with the rest.
+   required. Start it without waiting to be asked. Where you can start a
+   separate agent, run it before you show the draft and wait for it, so
+   the researcher sees one reviewed draft (`operating.md`, "Wait for the
+   review, then send one message"). Otherwise give the researcher the
+   text to paste and say when to bring the result back. Fix what it got
+   right and say why you disagree with the rest.
 7. **Add the moderator notes.** What to do if a participant says "it's fine"
    to everything, runs short, runs long, or gets upset.
 8. **Time it.** Estimate the length. If it runs over, say what to cut and

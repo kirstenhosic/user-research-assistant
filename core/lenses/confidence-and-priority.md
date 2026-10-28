@@ -152,10 +152,12 @@ counts as high priority, because the team needs to know about it.
 - **Stage 7.** Tag each code seen, past time or opinion. Note each
   participant's fit. After the strength is rated and re-judged, write the
   confidence line, then impact, reach and priority, each with its reason.
-  Show the findings in priority order and ask, in the same reply: "This is
-  the order I'd put them in. Does it match yours? Move any up or down."
-  Their order stands; if they don't answer, the order is labeled Magpie's
-  draft in the record.
+  Show the findings in priority order and make the order part of the
+  review ask, so it needs no answer of its own: "This is the order I'd
+  put them in. Move any up or down if you'd rank them differently; your
+  yes on the findings covers the order too." Don't ask a yes-or-no
+  question about the order: it would compete with the review yes. Their
+  order stands; a yes keeps Magpie's order and records it as agreed.
 - **Stage 8.** The top findings, five at most, are the highest priority
   ones for this decision, with ties broken by the primary research
   question. Each one gets a line on why it's there. An "also noticed"

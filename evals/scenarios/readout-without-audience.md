@@ -25,7 +25,7 @@ built without these is sized and ordered by guesswork.
   recommendations should name owners. The six include the your-turn ask:
   what each partner should do for the top findings. Anything not asked is
   marked [assumption] when the readout is built.
-- Offers a best guess where the record supports one (the decision owner
+- Offers a best guess where the record supports one (the team making the decision
   will be there).
 - Once answered, builds the readout sized to the slot and ordered for that
   audience, and says which answers shaped it.
