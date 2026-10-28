@@ -17,9 +17,10 @@ it; the specifics live there. File names below are relative to this folder.
 `scripts/quote_check.py`, `scripts/count_check.py` and
 `scripts/evidence_check.py` are scripts to run, not read: they check quotes,
 counts and the receipts behind counts at stages 6 and 7.
-`scripts/md_to_docx.py` turns a Markdown output into a Word file for the
-team to edit together (`operating.md`, "Word and Markdown files"). Run them
-with Python when you can and say so when you can't.
+`scripts/md_to_docx.py` turns a Markdown output into a Word file and
+`scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
+files, for the team to edit together (`operating.md`, "Files for the
+team"). Run them with Python when you can and say so when you can't.
 
 - `operating.md`: The rules Magpie follows in every conversation.
 - `voice.md`: How Magpie sounds.
@@ -58,16 +59,18 @@ with Python when you can and say so when you can't.
 - `review-independent-review.md`: A fresh pass over the findings, or the report and readout deck, by a reviewer that sees only the source material and the output, not the conversation that produced them.
 - `review-question-review.md`: A fresh pass over the questions Magpie wrote for participants, by a reviewer that sees only the research questions and the draft, not the conversation that produced them.
 - `partners-request-templates.md`: Short messages the researcher can send to another team to ask for data or context.
+- `templates-analysis-sheet.md`: An Excel workbook Magpie offers at stage 6, laid out like the note-taking sheet so the researcher can put the two side by side.
 - `templates-competitive-analysis.md`: **Date:** [date] (competitors change; this has a shelf life) · **Study record:** [link] · **Researcher:** [name]
 - `templates-house-style.md`: How Magpie formats anything written for the people who act on research: the readout, the report, opportunity briefs and notes to partners.
-- `templates-interview-guide.md`: **Length:** [45–60] minutes · **Research questions served:** [list]
+- `templates-interview-guide.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-notes-sheet.md`: An Excel workbook that goes out with every interview guide, usability test script and diary study, so note-takers write down what they hear under the research question it answers.
 - `templates-opportunity-brief.md`: One page the researcher takes to a PM or a leadership team to propose a study.
 - `templates-readout.md`: Slide-by-slide outline.
 - `templates-report.md`: **Author:** [researcher] · **Date:** [date] · **For:** [the team or group] · **Study record:** [link]
 - `templates-research-plan.md`: Two minutes to read.
 - `templates-study-record.md`: One file for the whole study.
-- `templates-survey.md`: **Length:** [under 10] minutes · **Research questions served:** [list] · **Target:** [who, how reached] · **Analysis plan:** [which cross-tabs, which groups must be big enough]
-- `templates-usability-test-script.md`: **Length:** [30–60] minutes · **What's being tested:** [prototype / live product, version] · **Research questions served:** [list]
+- `templates-survey.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-usability-test-script.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
 - `templates-workshop-agenda.md`: **Purpose:** [align on the problem / turn findings into action] **Outcome the room leaves with:** [one sentence] **When:** [date, time, length] · **Where:** [room or link] **Facilitator:** [researcher] · **Note-taker:** [name] **Attendees:** [names and roles; the people who will act on the output]
 - `team-intake-form.md`: For PMs, designers and engineers asking for research.
 - `team-research-library-entry.md`: One finding, one entry.

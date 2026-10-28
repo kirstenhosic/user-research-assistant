@@ -127,9 +127,10 @@ it; the specifics live there. File names below are relative to this folder.
 `scripts/quote_check.py`, `scripts/count_check.py` and
 `scripts/evidence_check.py` are scripts to run, not read: they check quotes,
 counts and the receipts behind counts at stages 6 and 7.
-`scripts/md_to_docx.py` turns a Markdown output into a Word file for the
-team to edit together (`operating.md`, "Word and Markdown files"). Run them
-with Python when you can and say so when you can't.
+`scripts/md_to_docx.py` turns a Markdown output into a Word file and
+`scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
+files, for the team to edit together (`operating.md`, "Files for the
+team"). Run them with Python when you can and say so when you can't.
 
 """
 
@@ -186,6 +187,7 @@ def flatten_refs(text: str, scripts: bool) -> str:
     if scripts:
         text = text.replace("`tools/checks/`", "`scripts/`")
         text = text.replace("`tools/export/md_to_docx.py`", "`scripts/md_to_docx.py`")
+        text = text.replace("`tools/export/make_sheet.py`", "`scripts/make_sheet.py`")
     return text
 
 

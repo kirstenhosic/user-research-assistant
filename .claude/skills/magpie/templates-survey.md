@@ -1,9 +1,31 @@
 # Survey: [study name]
 
-**Length:** [under 10] minutes · **Research questions served:** [list] ·
-**Target:** [who, how reached] · **Analysis plan:** [which cross-tabs,
-which groups must be big enough]
+| Document details | |
+| --- | --- |
+| Team | [team running the study] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
 
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## About this survey
+
+| | |
+| --- | --- |
+| Length | [under 10] minutes |
+| Who gets it | [who, and how it reaches them] |
+| Analysis plan | [which groups to compare, and which must be big enough] |
+
+**Research questions**
+
+1. [RQ1, in plain words]
+2. [RQ2]
+
+Questions are numbered Q1, Q2 and so on (S for the screener, D for the
+optional questions about the person), so the team can refer to them.
 Every item names the research question it serves. The intro and the line
 that opens each section are written in a plain, friendly voice, as if to
 one person. Run `checks-survey-wording.md` and the question review

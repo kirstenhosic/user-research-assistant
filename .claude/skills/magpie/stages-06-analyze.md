@@ -128,6 +128,14 @@ sessions, or say "you do it", skip it.
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
+16. **Offer the analysis sheet** (`templates-analysis-sheet.md`) in one
+    line once the findings are drafted: an Excel file laid out like the
+    note-taking sheet, filled with what each participant said on each
+    research question, the findings, the themes and the codes, for the
+    researcher to review. Word the offer so a "yes" can't be mistaken for
+    the review yes: "Say 'make the sheet' and I'll build it." Every cell
+    is a draft; the researcher's decisions on themes stay theirs to fill
+    in.
 
 ## Survey data
 
@@ -171,6 +179,7 @@ Five participants are five people, not percentages.
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
+- The analysis sheet, if the researcher wants it.
 - The theme review: the themes riskiest first, the merged and dropped
   codes, and the researcher's decision on each theme, in the record.
 

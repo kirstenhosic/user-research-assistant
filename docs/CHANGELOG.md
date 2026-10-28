@@ -30,6 +30,19 @@
     a fixture. Where code can't run, Magpie uses the platform's own export
     or says to copy the draft into Word. Standard A.21, scenario
     `word-file.md`.
+  - Guides, scripts and surveys open with document details (team, date,
+    authors, reviewers, status: Draft, Under review or Final) and a short
+    "About this guide" table in place of the dense preamble. Questions
+    are numbered in one run with lettered follow-ups; survey items keep
+    Q1, S1, D1. `md_to_docx.py` writes these in Word's own numbering.
+  - Note-taking sheet with every interview, usability test and diary
+    study (`templates/notes-sheet.md`): one row per participant, one
+    column per research question, a summary row. At stage 6 Magpie offers
+    a matching analysis sheet (`templates/analysis-sheet.md`) with
+    evidence per participant, findings, themes and codes; "make the sheet"
+    builds it. New `tools/export/make_sheet.py` writes .xlsx with the
+    standard library. Standards A.22, 5.10, 6.14; A.21 extended; three new
+    scenarios.
 - Next steps in the report and readout templates now have three parts:
   what happens now (with the teams involved), open questions, and the
   researcher's own next steps. Magpie drafts all three from the findings

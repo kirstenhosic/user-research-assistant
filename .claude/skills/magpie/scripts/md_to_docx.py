@@ -8,7 +8,9 @@ together in Word or Google Docs. Uses only the Python standard library, so
 it runs wherever Python 3.8+ does, with nothing to install.
 
 Handles the Markdown Magpie writes: headings (# to ####), paragraphs,
-bulleted and numbered lists (nested by indent), block quotes (the spoken
+bulleted and numbered lists (nested by indent; "a." under a numbered item
+becomes a lettered sub-item), survey items written "Q1.", "S1.", "D1."
+(kept as Q1, S1, D1 in Word's own numbering), block quotes (the spoken
 lines in a guide), tables, horizontal rules, and **bold**, *italic* and
 `code` inside a line. Anything else comes through as plain text.
 
@@ -79,10 +81,72 @@ def split_row(line: str) -> list[str]:
     return [c.strip() for c in line.strip().strip("|").split("|")]
 
 
-LIST = re.compile(r"^(\s*)([-*+]|\d+[.)])\s+(.*)$")
+LIST = re.compile(r"^(\s*)([-*+]|\d+[.)]|[a-z][.)])\s+(.*)$")
+# Survey-style items: "Q1. ...", "S2. ...", "D1. ..." at the start of a line.
+PREFIXED = re.compile(r"^([A-Z])(\d+)\.\s+(.*)$")
 
 
-def convert(md: str) -> str:
+class Numbering:
+    """Real Word numbering, so the numbers colleagues see in Word match the
+    Markdown: a list that carries on from the last one keeps counting, one
+    that starts elsewhere restarts at its own first number."""
+
+    def __init__(self) -> None:
+        self.abstract: dict[str, int] = {"bullet": 0, "dec": 1}
+        self.nums: list[tuple[int, int, int | None]] = [(1, 0, None)]  # (numId, abstractId, start)
+        self.current: dict[str, int] = {}
+        self.last: dict[str, int] = {}
+
+    def _new(self, family: str, start: int | None) -> int:
+        if family not in self.abstract:
+            self.abstract[family] = len(self.abstract)
+        num_id = len(self.nums) + 1
+        self.nums.append((num_id, self.abstract[family], start))
+        self.current[family] = num_id
+        return num_id
+
+    def item(self, family: str, n: int) -> int:
+        if family in self.current and n == self.last[family] + 1:
+            num_id = self.current[family]
+        else:
+            num_id = self._new(family, n)
+        self.last[family] = n
+        return num_id
+
+    def sub(self) -> int:
+        return self.current.get("dec") or self._new("dec", 1)
+
+    def xml(self) -> str:
+        parts = [f'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:numbering xmlns:w="{W}">']
+        for family, aid in sorted(self.abstract.items(), key=lambda kv: kv[1]):
+            if family == "bullet":
+                lv = [("bullet", "\u2022"), ("bullet", "\u2013"), ("bullet", "\u25e6")]
+            elif family == "dec":
+                lv = [("decimal", "%1."), ("lowerLetter", "%2."), ("lowerRoman", "%3.")]
+            else:
+                lv = [("decimal", f"{family}%1.")]
+            parts.append(f'<w:abstractNum w:abstractNumId="{aid}"><w:multiLevelType w:val="hybridMultilevel"/>')
+            for lvl, (fmt, text) in enumerate(lv):
+                left = 360 * (lvl + 1) + (180 if family not in ("bullet", "dec") else 0)
+                hang = 360 + (180 if family not in ("bullet", "dec") else 0)
+                parts.append(f'<w:lvl w:ilvl="{lvl}"><w:start w:val="1"/><w:numFmt w:val="{fmt}"/>'
+                             f'<w:lvlText w:val="{text}"/><w:lvlJc w:val="left"/>'
+                             f'<w:pPr><w:ind w:left="{left}" w:hanging="{hang}"/></w:pPr></w:lvl>')
+            parts.append("</w:abstractNum>")
+        for num_id, aid, start in self.nums:
+            over = (f'<w:lvlOverride w:ilvl="0"><w:startOverride w:val="{start}"/></w:lvlOverride>'
+                    if start is not None else "")
+            parts.append(f'<w:num w:numId="{num_id}"><w:abstractNumId w:val="{aid}"/>{over}</w:num>')
+        parts.append("</w:numbering>")
+        return "".join(parts)
+
+
+def numbered(text: str, num_id: int, level: int) -> str:
+    extra = f'<w:numPr><w:ilvl w:val="{level}"/><w:numId w:val="{num_id}"/></w:numPr>'
+    return para(text, "ListNumber" if level == 0 else "ListNumber2", extra)
+
+
+def convert(md: str, num: Numbering) -> str:
     lines = md.replace("\r\n", "\n").split("\n")
     body: list[str] = []
     buf: list[str] = []
@@ -131,20 +195,35 @@ def convert(md: str) -> str:
                 if chunk.strip():
                     body.append(para(chunk.strip(), "Quote"))
             continue
+        m = PREFIXED.match(line)
+        if m:
+            flush()
+            text = m.group(3)
+            while (i + 1 < len(lines) and lines[i + 1].strip() and lines[i + 1].startswith("  ")
+                   and not LIST.match(lines[i + 1])):
+                i += 1
+                text += " " + lines[i].strip()
+            body.append(numbered(text, num.item(m.group(1), int(m.group(2))), 0))
+            i += 1
+            continue
         m = LIST.match(line)
+        if m and m.group(2)[0].isalpha() and not m.group(1):
+            m = None  # "a. ..." at the margin is a sentence, not a list
         if m:
             flush()
             indent = len(m.group(1).expandtabs(4))
             level = min(indent // 2, 2)
-            numbered = m.group(2)[0].isdigit()
+            marker = m.group(2)
             text = m.group(3)
             # A wrapped list item continues on the next indented line.
             while (i + 1 < len(lines) and lines[i + 1].strip()
                    and not LIST.match(lines[i + 1]) and lines[i + 1].startswith(" " * (indent + 2))):
                 i += 1
                 text += " " + lines[i].strip()
-            if numbered:
-                body.append(para(f"{m.group(2)} {text}", "ListNumber" if level == 0 else "ListNumber2"))
+            if marker[0].isdigit() and level == 0:
+                body.append(numbered(text, num.item("dec", int(marker[:-1])), 0))
+            elif marker[0].isdigit() or marker[0].isalpha():
+                body.append(numbered(text, num.sub(), 1))
             else:
                 style = ["ListBullet", "ListBullet2", "ListBullet3"][level]
                 body.append(para(text, style))
@@ -177,22 +256,12 @@ STYLES = f"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 {style("ListBullet", "List Bullet", '<w:numPr><w:numId w:val="1"/></w:numPr><w:spacing w:after="60"/>')}
 {style("ListBullet2", "List Bullet 2", '<w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr><w:spacing w:after="60"/>')}
 {style("ListBullet3", "List Bullet 3", '<w:numPr><w:ilvl w:val="2"/><w:numId w:val="1"/></w:numPr><w:spacing w:after="60"/>')}
-{style("ListNumber", "List Number", '<w:spacing w:after="60"/><w:ind w:left="360" w:hanging="360"/>')}
-{style("ListNumber2", "List Number 2", '<w:spacing w:after="60"/><w:ind w:left="720" w:hanging="360"/>')}
+{style("ListNumber", "List Number", '<w:spacing w:before="60" w:after="60"/>')}
+{style("ListNumber2", "List Number 2", '<w:spacing w:after="60"/>')}
 <w:style w:type="table" w:styleId="TableGrid"><w:name w:val="Table Grid"/><w:tblPr><w:tblBorders>
 <w:top w:val="single" w:sz="4" w:color="BFBFBF"/><w:left w:val="single" w:sz="4" w:color="BFBFBF"/><w:bottom w:val="single" w:sz="4" w:color="BFBFBF"/><w:right w:val="single" w:sz="4" w:color="BFBFBF"/><w:insideH w:val="single" w:sz="4" w:color="BFBFBF"/><w:insideV w:val="single" w:sz="4" w:color="BFBFBF"/>
 </w:tblBorders><w:tblCellMar><w:top w:w="60" w:type="dxa"/><w:left w:w="100" w:type="dxa"/><w:bottom w:w="60" w:type="dxa"/><w:right w:w="100" w:type="dxa"/></w:tblCellMar></w:tblPr></w:style>
 </w:styles>"""
-
-NUMBERING = f"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<w:numbering xmlns:w="{W}">
-<w:abstractNum w:abstractNumId="0"><w:multiLevelType w:val="hybridMultilevel"/>
-<w:lvl w:ilvl="0"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="•"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="360" w:hanging="360"/></w:pPr></w:lvl>
-<w:lvl w:ilvl="1"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="–"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="720" w:hanging="360"/></w:pPr></w:lvl>
-<w:lvl w:ilvl="2"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="◦"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="1080" w:hanging="360"/></w:pPr></w:lvl>
-</w:abstractNum>
-<w:num w:numId="1"><w:abstractNumId w:val="0"/></w:num>
-</w:numbering>"""
 
 CONTENT_TYPES = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
@@ -226,8 +295,9 @@ def core(title: str) -> str:
 
 def write_docx(md: str, out: Path) -> None:
     first = next((l.lstrip("# ").strip() for l in md.splitlines() if l.startswith("#")), out.stem)
+    num = Numbering()
     document = (f'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="{W}"><w:body>'
-                f"{convert(md)}"
+                f"{convert(md, num)}"
                 '<w:sectPr><w:pgSz w:w="12240" w:h="15840"/>'
                 '<w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/>'
                 "</w:sectPr></w:body></w:document>")
@@ -237,7 +307,7 @@ def write_docx(md: str, out: Path) -> None:
         z.writestr("word/_rels/document.xml.rels", DOC_RELS)
         z.writestr("word/document.xml", document)
         z.writestr("word/styles.xml", STYLES)
-        z.writestr("word/numbering.xml", NUMBERING)
+        z.writestr("word/numbering.xml", num.xml())
         z.writestr("docProps/core.xml", core(first))
 
 

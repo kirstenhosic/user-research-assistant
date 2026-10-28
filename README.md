@@ -70,8 +70,11 @@ per conversation; it stays on until you say "stop Magpie".
   findings and risks. Save it and you can continue in
   any assistant, any day.
 - **Gives you files your team can edit.** Guides, surveys, plans and
-  reports come as a Word file as well as Markdown, so colleagues can
-  comment and edit together. In Claude Code this is automatic. Elsewhere
+  reports come as a Word file as well as Markdown, with the team, authors,
+  reviewers and status at the top and numbered questions, so colleagues
+  can comment and edit together. Guides come with an Excel note-taking
+  sheet, one column per research question, and analysis offers a
+  matching sheet of findings, themes and codes. In Claude Code this is automatic. Elsewhere
   Magpie uses the assistant's own way to make a Word file, or tells you
   to copy the draft into Word.
 - **Waits for your yes.** Nothing Magpie drafts is final until you reply
@@ -153,6 +156,7 @@ More:
 | standard | Goes back to one question per stage |
 | just the work | Turns off the personality for the session |
 | show the record | Shows the full study record |
+| make the sheet | Builds the analysis spreadsheet, laid out like the note-taking sheet |
 | review this | Runs an independent review of your guide, survey, findings or report |
 | back to stage 3 | Returns to that stage and says what depends on it |
 
@@ -300,7 +304,7 @@ As of October 27, 2026.
   time. The details, and the stricter rules for the next run, are in
   [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md) and
   [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 94 standards in
+- **Its rules are written down.** Magpie follows 97 standards in
   [`core/standards/`](core/standards/). 37 cite a public source, such as
   the ICC/ESOMAR code, Braun and Clarke, or Nielsen Norman Group. The
   others are based on professional judgment and say so. Every source is

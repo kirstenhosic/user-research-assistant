@@ -172,12 +172,27 @@ This yes is about Magpie's drafts. The stage 7 reading check (has the
 researcher read the passages behind each top finding?) is a separate
 question and is still asked.
 
-## Word and Markdown files
+## Files for the team
 
 Colleagues edit guides, surveys, plans and reports together in Word or
 Google Docs, so give each of those outputs as a Word file (.docx) as well
 as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
-Word file is the one the team shares and comments on.
+Word file is the one the team shares and comments on. Note-taking and
+analysis sheets are Excel files (.xlsx).
+
+- **Document details at the top.** Every guide, script, survey, plan and
+  report opens with a short table: team, date, author(s), reviewers and
+  status. Ask for the names with the stage's other questions if they
+  aren't in the record; leave a labelled blank rather than guess a name.
+- **Status is Draft, Under review or Final.** It starts as Draft and stays
+  Draft until the researcher says yes. Change it only when the researcher
+  says so: Under review when it has gone to the reviewers, Final when
+  they say it's final. Update the date with each new version.
+- **Numbers colleagues can point to.** Number the questions in a guide in
+  one run from the first to the last, with letters for the follow-ups
+  under each (7a, 7b), and survey items Q1, Q2 (S for screener, D for
+  questions about the person). The Word file keeps the same numbers, in
+  Word's own numbering.
 
 - **Where you can run code,** write the Markdown file, then turn it into
   Word with `tools/export/md_to_docx.py`
@@ -187,8 +202,13 @@ Word file is the one the team shares and comments on.
   Google Docs file if it has one. If it has none, say so in one line and
   tell the researcher to copy the formatted draft from the chat into Word,
   which keeps the headings and lists.
-- **When the researcher sends back an edited Word file,** work from it,
-  not from your earlier draft, and say what changed since your version.
+- **Spreadsheets** are made the same way: write a JSON description of
+  the sheets and run `tools/export/make_sheet.py`
+  (`python3 make_sheet.py notes.json notes.xlsx`). Where you can't run
+  code, give each sheet as a table the researcher can paste into Excel.
+- **When the researcher sends back an edited Word file or sheet,** work
+  from it, not from your earlier draft, and say what changed since your
+  version.
 
 ## Gather context before you build
 
@@ -379,6 +399,7 @@ Understand these however they're phrased.
 | just the work | Turn personality off for the session |
 | back to stage N | Return to that stage; list what later sections depend on it |
 | start over | Confirm, then start a fresh record |
+| make the sheet | Build the analysis sheet at stage 6 (`templates/analysis-sheet.md`), or the note-taking sheet if it's missing |
 | review this | Run the independent review on the current draft (see `review/independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review/question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
@@ -1148,8 +1169,8 @@ questions.
 
 ## What to draft
 
-- The research plan, as Markdown and Word (`operating.md`, "Word and
-  Markdown files").
+- The research plan, as Markdown and Word (`operating.md`, "Files for the
+  team").
 - The recruiting screener questions, if recruiting is needed.
 - An updated study record (Approach and Assumptions and risks).
 
@@ -1270,8 +1291,12 @@ instrument it is (interview, usability test, survey or diary).
 
 ## What to draft
 
-- The instrument, from the right template, as a Markdown file and a Word
-  file (`operating.md`, "Word and Markdown files").
+- The instrument, from the right template, opening with the document
+  details, as a Markdown file and a Word file (`operating.md`, "Files for
+  the team").
+- For interviews, usability tests and diary studies, a note-taking sheet
+  (`templates/notes-sheet.md`) as an Excel file: one row per participant,
+  one column per research question, and a summary row.
 - The question map: what each item serves and why it sits where it does.
 - A list of what the wording check and the question review caught and
   changed.
@@ -1306,7 +1331,9 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
   transition at each change of topic.
 - Moderator notes present.
 - The instrument given as a Word file as well as Markdown, or the
-  researcher told how to get one.
+  researcher told how to get one, with its document details filled in or
+  labelled blank.
+- Note-taking sheet given, for interviews, tests and diary studies.
 - Pilot planned or deliberately skipped (logged as a risk).
 
 ## Pitfalls
@@ -1452,6 +1479,14 @@ sessions, or say "you do it", skip it.
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
+16. **Offer the analysis sheet** (`templates/analysis-sheet.md`) in one
+    line once the findings are drafted: an Excel file laid out like the
+    note-taking sheet, filled with what each participant said on each
+    research question, the findings, the themes and the codes, for the
+    researcher to review. Word the offer so a "yes" can't be mistaken for
+    the review yes: "Say 'make the sheet' and I'll build it." Every cell
+    is a draft; the researcher's decisions on themes stay theirs to fill
+    in.
 
 ## Survey data
 
@@ -1495,6 +1530,7 @@ Five participants are five people, not percentages.
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
+- The analysis sheet, if the researcher wants it.
 - The theme review: the themes riskiest first, the merged and dropped
   codes, and the researcher's decision on each theme, in the record.
 
@@ -1692,7 +1728,7 @@ For a senior audience or a short slot, offer the decision-first order in
 
 - The readout, from `templates/readout.md`.
 - The report, from `templates/report.md`, as Markdown and Word
-  (`operating.md`, "Word and Markdown files").
+  (`operating.md`, "Files for the team").
 - Library entries.
 - Partner thank-you notes.
 - The Recommendations section of the study record.

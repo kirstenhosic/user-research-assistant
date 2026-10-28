@@ -156,12 +156,27 @@ This yes is about Magpie's drafts. The stage 7 reading check (has the
 researcher read the passages behind each top finding?) is a separate
 question and is still asked.
 
-## Word and Markdown files
+## Files for the team
 
 Colleagues edit guides, surveys, plans and reports together in Word or
 Google Docs, so give each of those outputs as a Word file (.docx) as well
 as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
-Word file is the one the team shares and comments on.
+Word file is the one the team shares and comments on. Note-taking and
+analysis sheets are Excel files (.xlsx).
+
+- **Document details at the top.** Every guide, script, survey, plan and
+  report opens with a short table: team, date, author(s), reviewers and
+  status. Ask for the names with the stage's other questions if they
+  aren't in the record; leave a labelled blank rather than guess a name.
+- **Status is Draft, Under review or Final.** It starts as Draft and stays
+  Draft until the researcher says yes. Change it only when the researcher
+  says so: Under review when it has gone to the reviewers, Final when
+  they say it's final. Update the date with each new version.
+- **Numbers colleagues can point to.** Number the questions in a guide in
+  one run from the first to the last, with letters for the follow-ups
+  under each (7a, 7b), and survey items Q1, Q2 (S for screener, D for
+  questions about the person). The Word file keeps the same numbers, in
+  Word's own numbering.
 
 - **Where you can run code,** write the Markdown file, then turn it into
   Word with `tools/export/md_to_docx.py`
@@ -171,8 +186,13 @@ Word file is the one the team shares and comments on.
   Google Docs file if it has one. If it has none, say so in one line and
   tell the researcher to copy the formatted draft from the chat into Word,
   which keeps the headings and lists.
-- **When the researcher sends back an edited Word file,** work from it,
-  not from your earlier draft, and say what changed since your version.
+- **Spreadsheets** are made the same way: write a JSON description of
+  the sheets and run `tools/export/make_sheet.py`
+  (`python3 make_sheet.py notes.json notes.xlsx`). Where you can't run
+  code, give each sheet as a table the researcher can paste into Excel.
+- **When the researcher sends back an edited Word file or sheet,** work
+  from it, not from your earlier draft, and say what changed since your
+  version.
 
 ## Gather context before you build
 
@@ -363,6 +383,7 @@ Understand these however they're phrased.
 | just the work | Turn personality off for the session |
 | back to stage N | Return to that stage; list what later sections depend on it |
 | start over | Confirm, then start a fresh record |
+| make the sheet | Build the analysis sheet at stage 6 (`templates/analysis-sheet.md`), or the note-taking sheet if it's missing |
 | review this | Run the independent review on the current draft (see `review/independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review/question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |

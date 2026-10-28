@@ -172,12 +172,27 @@ This yes is about Magpie's drafts. The stage 7 reading check (has the
 researcher read the passages behind each top finding?) is a separate
 question and is still asked.
 
-## Word and Markdown files
+## Files for the team
 
 Colleagues edit guides, surveys, plans and reports together in Word or
 Google Docs, so give each of those outputs as a Word file (.docx) as well
 as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
-Word file is the one the team shares and comments on.
+Word file is the one the team shares and comments on. Note-taking and
+analysis sheets are Excel files (.xlsx).
+
+- **Document details at the top.** Every guide, script, survey, plan and
+  report opens with a short table: team, date, author(s), reviewers and
+  status. Ask for the names with the stage's other questions if they
+  aren't in the record; leave a labelled blank rather than guess a name.
+- **Status is Draft, Under review or Final.** It starts as Draft and stays
+  Draft until the researcher says yes. Change it only when the researcher
+  says so: Under review when it has gone to the reviewers, Final when
+  they say it's final. Update the date with each new version.
+- **Numbers colleagues can point to.** Number the questions in a guide in
+  one run from the first to the last, with letters for the follow-ups
+  under each (7a, 7b), and survey items Q1, Q2 (S for screener, D for
+  questions about the person). The Word file keeps the same numbers, in
+  Word's own numbering.
 
 - **Where you can run code,** write the Markdown file, then turn it into
   Word with `tools/export/md_to_docx.py`
@@ -187,8 +202,13 @@ Word file is the one the team shares and comments on.
   Google Docs file if it has one. If it has none, say so in one line and
   tell the researcher to copy the formatted draft from the chat into Word,
   which keeps the headings and lists.
-- **When the researcher sends back an edited Word file,** work from it,
-  not from your earlier draft, and say what changed since your version.
+- **Spreadsheets** are made the same way: write a JSON description of
+  the sheets and run `tools/export/make_sheet.py`
+  (`python3 make_sheet.py notes.json notes.xlsx`). Where you can't run
+  code, give each sheet as a table the researcher can paste into Excel.
+- **When the researcher sends back an edited Word file or sheet,** work
+  from it, not from your earlier draft, and say what changed since your
+  version.
 
 ## Gather context before you build
 
@@ -379,6 +399,7 @@ Understand these however they're phrased.
 | just the work | Turn personality off for the session |
 | back to stage N | Return to that stage; list what later sections depend on it |
 | start over | Confirm, then start a fresh record |
+| make the sheet | Build the analysis sheet at stage 6 (`templates/analysis-sheet.md`), or the note-taking sheet if it's missing |
 | review this | Run the independent review on the current draft (see `review/independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review/question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
@@ -1148,8 +1169,8 @@ questions.
 
 ## What to draft
 
-- The research plan, as Markdown and Word (`operating.md`, "Word and
-  Markdown files").
+- The research plan, as Markdown and Word (`operating.md`, "Files for the
+  team").
 - The recruiting screener questions, if recruiting is needed.
 - An updated study record (Approach and Assumptions and risks).
 
@@ -1270,8 +1291,12 @@ instrument it is (interview, usability test, survey or diary).
 
 ## What to draft
 
-- The instrument, from the right template, as a Markdown file and a Word
-  file (`operating.md`, "Word and Markdown files").
+- The instrument, from the right template, opening with the document
+  details, as a Markdown file and a Word file (`operating.md`, "Files for
+  the team").
+- For interviews, usability tests and diary studies, a note-taking sheet
+  (`templates/notes-sheet.md`) as an Excel file: one row per participant,
+  one column per research question, and a summary row.
 - The question map: what each item serves and why it sits where it does.
 - A list of what the wording check and the question review caught and
   changed.
@@ -1306,7 +1331,9 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
   transition at each change of topic.
 - Moderator notes present.
 - The instrument given as a Word file as well as Markdown, or the
-  researcher told how to get one.
+  researcher told how to get one, with its document details filled in or
+  labelled blank.
+- Note-taking sheet given, for interviews, tests and diary studies.
 - Pilot planned or deliberately skipped (logged as a risk).
 
 ## Pitfalls
@@ -1452,6 +1479,14 @@ sessions, or say "you do it", skip it.
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
+16. **Offer the analysis sheet** (`templates/analysis-sheet.md`) in one
+    line once the findings are drafted: an Excel file laid out like the
+    note-taking sheet, filled with what each participant said on each
+    research question, the findings, the themes and the codes, for the
+    researcher to review. Word the offer so a "yes" can't be mistaken for
+    the review yes: "Say 'make the sheet' and I'll build it." Every cell
+    is a draft; the researcher's decisions on themes stay theirs to fill
+    in.
 
 ## Survey data
 
@@ -1495,6 +1530,7 @@ Five participants are five people, not percentages.
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
+- The analysis sheet, if the researcher wants it.
 - The theme review: the themes riskiest first, the merged and dropped
   codes, and the researcher's decision on each theme, in the record.
 
@@ -1692,7 +1728,7 @@ For a senior audience or a short slot, offer the decision-first order in
 
 - The readout, from `templates/readout.md`.
 - The report, from `templates/report.md`, as Markdown and Word
-  (`operating.md`, "Word and Markdown files").
+  (`operating.md`, "Files for the team").
 - Library entries.
 - Partner thank-you notes.
 - The Recommendations section of the study record.
@@ -4202,6 +4238,56 @@ Every template promises findings in return. Keep the promise: a short note
 with the two or three findings most relevant to that team, when the study is
 done.
 
+<!-- core/templates/analysis-sheet.md -->
+
+# Analysis sheet: [study name]
+
+An Excel workbook Magpie offers at stage 6, laid out like the note-taking
+sheet so the researcher can put the two side by side. Every cell is
+Magpie's draft from the transcripts and the study record, for the
+researcher to check, change or delete. Made with
+`tools/export/make_sheet.py` (`operating.md`, "Files for the team").
+
+## Sheet 1: By participant
+
+The same rows and research-question columns as the note-taking sheet.
+
+| Participant | Who they are | RQ1: [question] | RQ2: [question] | Also noticed |
+| --- | --- | --- | --- | --- |
+| P1 | [role, segment] | [what they said or did, with line numbers, and the codes applied in brackets] | | |
+| **Findings** | | [each finding for this question: claim, N of M with codes, strength] | | |
+
+- Each cell says what that participant said or did on that question,
+  with transcript line numbers ("Invited after locations were done (06)
+  [waits-for-setup]"). "Not covered" where the session didn't reach it.
+- The Findings row holds the findings for each research question, in the
+  same words as the study record, with counts and the participants behind
+  them.
+
+## Sheet 2: Themes
+
+| Theme | Research question | Codes in it | Participants (lines) | Count | Who didn't fit | Strength | Researcher decision | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [theme] | RQ1 | [codes] | P1 06, P3 06 | 2 of 8 | P2, P5 | moderate | [keep, change, split or drop] | |
+
+Riskiest theme first, as in the theme review. "Researcher decision" stays
+blank until the researcher fills it in; Magpie never fills it.
+
+## Sheet 3: Codes
+
+| Code | What it means | Research question | Participants |
+| --- | --- | --- | --- |
+| [code] | [one-line definition] | RQ1 | P1, P3 |
+
+The coding frame, so a teammate can check the work. Merged and dropped
+codes are listed at the bottom with the reason.
+
+## What it is not
+
+The sheet is a working copy for review. The study record holds the
+findings; if the researcher changes a cell, Magpie updates the record to
+match and says what changed.
+
 <!-- core/templates/competitive-analysis.md -->
 
 # Competitive analysis: [job or problem]
@@ -4385,28 +4471,59 @@ The same rules, plus:
 
 # Interview guide: [study name]
 
-**Length:** [45–60] minutes · **Research questions served:** [list]
+| Document details | |
+| --- | --- |
+| Team | [team running the study] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
 
-Every main question names the research question it serves (RQ1, RQ2…).
-Everything here is written to be said aloud as it stands, including the
-move from one section to the next. Run `checks/guide-wording.md` and the
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## About this guide
+
+| | |
+| --- | --- |
+| Length | [45–60] minutes |
+| Format | [remote or in person; who moderates] |
+| Who we're talking to | [participants, in a line] |
+| What they'll see | [nothing / the live product / a prototype] |
+
+**Research questions**
+
+1. [RQ1, in plain words]
+2. [RQ2]
+
+**How to use it.** Read the shaded lines aloud as written; they carry you
+from one section to the next. Questions are numbered so the team can refer
+to them ("question 7b"). Letters under a question are follow-ups: use one
+at a time, only when you need it.
+
+Notes for the team (what the guide is testing, timing, what to cut) are in
+the moderator notes at the end. Run `checks/guide-wording.md` and the
 question review (`review/question-review.md`) before using.
 
 ## Opening (2 min)
 
-Thanks for making time. I'm [name], and I'm trying to understand [topic in
-plain words]. There are no right or wrong answers; I want to hear how things
-actually work for you. I'd like to record so I don't have to scribble. Only
-[who] will see it, and we'll delete it by [date]. You can skip anything or
-stop at any time. OK to start recording?
+> Thanks for making time. I'm [name], and I'm trying to understand [topic
+> in plain words].
+>
+> There are no right or wrong answers. I want to hear how things actually
+> work for you.
+>
+> I'd like to record so I don't have to scribble. Only [who] will see it,
+> and we'll delete it by [date]. You can skip anything or stop at any time.
+> Is it OK if I start recording?
 
 ## Warm-up (5 min)
 
 > Great, thanks. Before we get into [topic], I'd love to hear a little
 > about you.
 
-- Tell me a bit about what you do and how [area] fits into your week.
-- [One more easy question about them, not the product.]
+1. Tell me a bit about what you do and how [area] fits into your week.
+2. [One more easy question about them, not the product.]
 
 ## Main questions (30 min)
 
@@ -4415,30 +4532,32 @@ stop at any time. OK to start recording?
 > That's really helpful, thank you. Now I'd like to talk about [topic 1,
 > in their words].
 
-- Tell me about the last time you [did the thing]. Walk me through it from
-  the start.
-  - Probe: What happened next? What did you do instead? Can you show me?
-- [Question] → RQ1
-  - Probe:
+3. Tell me about the last time you [did the thing]. Walk me through it
+   from the start.
+   a. What happened next?
+   b. What did you do instead?
+   c. Can you show me?
+4. [Question] → RQ1
+   a. [Follow-up]
 
 ### [Topic 2] → RQ2
 
 > Thanks, that gives me a clear picture. Now I'd like to shift our focus
 > to [topic 2, in their words].
 
-- [Question]
-  - Probe:
-- [Question]
-  - Probe:
+5. [Question]
+   a. [Follow-up]
+6. [Question]
+   a. [Follow-up]
 
 ### Rating with a why (optional, one to three per session) → RQ[n]
 
 > I've got a quick one now that I'm asking everyone.
 
-- Thinking about the last time you [did the thing], how easy or hard was
-  it, from 1, very hard, to 7, very easy?
-  - Why that number?
-  - Probe: What happened that made it a [number]?
+7. Thinking about the last time you [did the thing], how easy or hard was
+   it, from 1, very hard, to 7, very easy?
+   a. Why that number?
+   b. What happened that made it a [number]?
 
 ## Deep dive (10 min)
 
@@ -4447,30 +4566,78 @@ deeper.
 
 > I'd like to go back to something you said earlier, about [thing].
 
-Prepared prompts:
-
-- You mentioned [thing]. Say more about that.
-- What would have to be true for that to go differently?
+8. You mentioned [thing]. Say more about that.
+9. What would have to be true for that to go differently?
 
 ## Close (3 min)
 
 > We're almost out of time. This has been really useful.
 
-- Is there anything about [topic] I should have asked and didn't?
-- Thanks. Here's what happens next: [incentive, findings, follow-up].
+10. Is there anything about [topic] I should have asked and didn't?
+
+> Thank you. Here's what happens next: [incentive, findings, follow-up].
 
 ## Moderator notes
 
+- **What this guide is testing:** [the hypotheses, in a line each; never
+  said to participants].
+- **Timing:** [which research questions are covered by when].
 - If they say "it's fine" to everything: ask for the last time it wasn't,
   or ask them to show you.
-- If running short: skip [items], keep [items].
-- If running long: the must-haves are [items].
+- If running short: skip [question numbers], keep [question numbers].
+- If running long: the must-haves are [question numbers].
 - If they get upset or uncomfortable: pause, offer to skip or stop, don't
   push.
 
 ## Nice to have (only if time)
 
-- [Questions that didn't map to a research question but might be useful.]
+11. [Questions that didn't map to a research question but might be
+    useful.]
+
+Take notes in the note-taking sheet (`templates/notes-sheet.md`): one row
+per participant, one column per research question.
+
+<!-- core/templates/notes-sheet.md -->
+
+# Note-taking sheet: [study name]
+
+An Excel workbook that goes out with every interview guide, usability test
+script and diary study, so note-takers write down what they hear under the
+research question it answers. Made with `tools/export/make_sheet.py`
+(`operating.md`, "Files for the team").
+
+## Sheet 1: Notes
+
+Above the table, two lines: the study name, then "One row per participant.
+Write what you heard under the research question it answers, with the time
+or question number. Quotes in quotation marks, word for word."
+
+| Participant | Session date | Who they are | Note-taker | RQ1: [question] | RQ2: [question] | Also noticed | Quotes worth keeping | Top takeaway |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| P1 | | [role, segment] | | | | | | |
+| P2 | | | | | | | | |
+| **Summary across participants** | | | | [what we're hearing so far] | | | | |
+
+- One row per planned participant, with their code and a short
+  descriptor filled in from the plan. No names.
+- One column per research question, headed with its number and the
+  question in plain words, in the order of the record.
+- "Also noticed" is for things outside the research questions.
+- The summary row is for the team's running read after each session or
+  at the end. It's a note, not a finding: findings come from analysis at
+  stage 6.
+
+## Sheet 2: Research questions
+
+| # | Research question | Decision it serves | Guide questions that cover it |
+| --- | --- | --- | --- |
+| RQ1 | [question] | [decision] | [question numbers from the guide] |
+
+## Document details
+
+Above the table on sheet 1, after the two intro lines, or on its own
+sheet if the team prefers: team, date, authors, reviewers and status, as
+on the guide.
 
 <!-- core/templates/opportunity-brief.md -->
 
@@ -5114,10 +5281,32 @@ reviewed it. An output stays "not yet" until the researcher says yes.
 
 # Survey: [study name]
 
-**Length:** [under 10] minutes · **Research questions served:** [list] ·
-**Target:** [who, how reached] · **Analysis plan:** [which cross-tabs,
-which groups must be big enough]
+| Document details | |
+| --- | --- |
+| Team | [team running the study] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
 
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## About this survey
+
+| | |
+| --- | --- |
+| Length | [under 10] minutes |
+| Who gets it | [who, and how it reaches them] |
+| Analysis plan | [which groups to compare, and which must be big enough] |
+
+**Research questions**
+
+1. [RQ1, in plain words]
+2. [RQ2]
+
+Questions are numbered Q1, Q2 and so on (S for the screener, D for the
+optional questions about the person), so the team can refer to them.
 Every item names the research question it serves. The intro and the line
 that opens each section are written in a plain, friendly voice, as if to
 one person. Run `checks/survey-wording.md` and the question review
@@ -5177,14 +5366,35 @@ Thank you. [What happens next, incentive if any.]
 
 # Usability test script: [study name]
 
-**Length:** [30–60] minutes · **What's being tested:** [prototype / live
-product, version] · **Research questions served:** [list]
+| Document details | |
+| --- | --- |
+| Team | [team running the study] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
 
-Run `checks/guide-wording.md` and the question review
-(`review/question-review.md`) before using. Tasks are scenarios, not
-instructions, and each has a success criterion written before the session.
-Everything the moderator says is written to be said aloud as it stands,
-including the line that moves from one task to the next.
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## About this script
+
+| | |
+| --- | --- |
+| Length | [30–60] minutes |
+| What's being tested | [prototype / live product, version] |
+| Who we're testing with | [participants, in a line] |
+
+**Research questions**
+
+1. [RQ1, in plain words]
+2. [RQ2]
+
+**How to use it.** Read the shaded lines aloud as written; they carry you
+from one task to the next. Tasks are scenarios, not instructions, and each
+has a success criterion written before the session. Run
+`checks/guide-wording.md` and the question review
+(`review/question-review.md`) before using.
 
 ## Opening (3 min)
 

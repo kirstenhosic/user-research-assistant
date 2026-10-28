@@ -159,7 +159,7 @@ For a senior audience or a short slot, offer the decision-first order in
 
 - The readout, from `templates-readout.md`.
 - The report, from `templates-report.md`, as Markdown and Word
-  (`operating.md`, "Word and Markdown files").
+  (`operating.md`, "Files for the team").
 - Library entries.
 - Partner thank-you notes.
 - The Recommendations section of the study record.

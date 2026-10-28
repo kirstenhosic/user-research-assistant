@@ -1,13 +1,34 @@
 # Usability test script: [study name]
 
-**Length:** [30–60] minutes · **What's being tested:** [prototype / live
-product, version] · **Research questions served:** [list]
+| Document details | |
+| --- | --- |
+| Team | [team running the study] |
+| Date | [date of this version] |
+| Author(s) | [names] |
+| Reviewers | [names] |
+| Status | Draft |
 
-Run `checks-guide-wording.md` and the question review
-(`review-question-review.md`) before using. Tasks are scenarios, not
-instructions, and each has a success criterion written before the session.
-Everything the moderator says is written to be said aloud as it stands,
-including the line that moves from one task to the next.
+Status is Draft, Under review or Final (`operating.md`, "Files for the
+team").
+
+## About this script
+
+| | |
+| --- | --- |
+| Length | [30–60] minutes |
+| What's being tested | [prototype / live product, version] |
+| Who we're testing with | [participants, in a line] |
+
+**Research questions**
+
+1. [RQ1, in plain words]
+2. [RQ2]
+
+**How to use it.** Read the shaded lines aloud as written; they carry you
+from one task to the next. Tasks are scenarios, not instructions, and each
+has a success criterion written before the session. Run
+`checks-guide-wording.md` and the question review
+(`review-question-review.md`) before using.
 
 ## Opening (3 min)
 

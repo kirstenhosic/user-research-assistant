@@ -1,0 +1,20 @@
+{
+  "sheets": [
+    {
+      "name": "Notes",
+      "intro": ["Export sample: interview notes", "One row per participant."],
+      "columns": [
+        {"header": "Participant", "width": 12},
+        {"header": "RQ1: How do people export reports?", "width": 40},
+        {"header": "Also noticed", "width": 30}
+      ],
+      "rows": [["P1", "", ""], ["P2", "", ""]],
+      "summary": ["Summary across participants", "", ""]
+    },
+    {
+      "name": "Research questions",
+      "columns": [{"header": "#", "width": 6}, {"header": "Research question", "width": 50}],
+      "rows": [["RQ1", "How do people export reports?"]]
+    }
+  ]
+}

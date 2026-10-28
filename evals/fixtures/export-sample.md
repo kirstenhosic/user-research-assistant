@@ -26,3 +26,12 @@ Thanks for making time today. You can stop at any time.
 | Question | Serves | Why here |
 | --- | --- | --- |
 | Last export | RQ1 | Story before opinion |
+
+3. A third, continuing the count
+   a. A lettered follow-up
+
+Q1. A survey item, numbered in Word as Q1.
+- Yes
+- No
+
+Q2. A second item.
