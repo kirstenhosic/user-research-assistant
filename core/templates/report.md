@@ -124,7 +124,7 @@ researcher asks for it.
 
 ## Next steps
 
-Magpie drafts all three from the findings and any relevant context in the
+Magpie drafts all four from the findings and any relevant context in the
 record (the decision and its date, partners, open risks), and labels them
 "draft" until the researcher has reviewed and edited them. Name the teams
 involved, not one person, unless the researcher asks for a name.
@@ -134,6 +134,8 @@ involved, not one person, unless the researcher asks for a name.
   decision, or nothing yet]
 - **Researcher's next steps:** [follow-up research, check-ins with
   partners, what the researcher will do next]
+- **How we'll know it worked:** [when the team looks back, who looks with
+  the researcher, and the sign that would show the change worked]
 
 ## Limits
 

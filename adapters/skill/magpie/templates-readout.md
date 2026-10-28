@@ -100,7 +100,7 @@ product".
 
 ## [n+4]. Next steps
 
-Same three parts as the report's next steps. Magpie drafts them from the
+Same four parts as the report's next steps. Magpie drafts them from the
 findings and the record's context; they stay "draft" until the researcher
 has reviewed and edited them. Name teams, not one person, unless the
 researcher asks for a name.
@@ -108,6 +108,7 @@ researcher asks for a name.
 - **What happens now:** [step, the teams involved, by when]
 - **Open questions:** [question → more research / a decision / nothing yet]
 - **Researcher's next steps:** [what the researcher will do next]
+- **How we'll know it worked:** [when the team looks back, and the sign that would show it worked]
 
 ## [n+5]. Limits (researcher's call)
 

@@ -2001,8 +2001,11 @@ again.
    becomes visible. Say which journey step each finding lands on, who else
    is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
 10. **Next steps.** Draft what happens now (which teams), the open
-    questions, and the researcher's own next steps, from the findings and
-    any relevant context in the record. Mark them "draft" and ask the
+    questions, the researcher's own next steps, and how we'll know it
+    worked, from the findings and any relevant context in the record. "How
+    we'll know it worked" is one line: when the team looks back, who looks
+    with the researcher, and the sign that would show the change worked,
+    so the follow-up is agreed in the open. Mark them "draft" and ask the
     researcher to review and edit them; they're final only with their yes.
 11. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
@@ -2059,6 +2062,16 @@ again.
     stage 2.
 19. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
+20. **Offer the researcher a debrief, once.** When the readout and report
+    have the researcher's yes, or are left as drafts, offer in one line a
+    short private debrief for the researcher alone
+    (`templates/researcher-debrief.md`): what worked, what to change next
+    time, follow-up dates, how the readout landed, and one skill to
+    practise. The researcher can skip it. Record the answer in the study
+    record's your-turn table and don't offer it again in this study.
+    Keep its content out of the study record, the report and the readout:
+    it's the researcher's own note, and it's where candid notes about how
+    the room reacted belong, rather than in anything the team sees.
 
 For a senior audience or a short slot, offer the decision-first order in
 `templates/readout.md`.
@@ -2078,6 +2091,8 @@ describes.
   (`operating.md`, "Files for the team").
 - Library entries.
 - Partner thank-you notes.
+- The researcher's debrief, if they take up the offer, as Markdown
+  (`templates/researcher-debrief.md`).
 - The Recommendations section of the study record.
 
 ## Challenge
@@ -2112,6 +2127,9 @@ PM measure to know it worked?"
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".
 - Library entries written.
+- Next steps include how we'll know it worked: when, who looks, and the
+  sign.
+- The researcher debrief offered once, and the answer recorded.
 
 ## Pitfalls
 
@@ -6378,7 +6396,7 @@ product".
 
 ## [n+4]. Next steps
 
-Same three parts as the report's next steps. Magpie drafts them from the
+Same four parts as the report's next steps. Magpie drafts them from the
 findings and the record's context; they stay "draft" until the researcher
 has reviewed and edited them. Name teams, not one person, unless the
 researcher asks for a name.
@@ -6386,6 +6404,7 @@ researcher asks for a name.
 - **What happens now:** [step, the teams involved, by when]
 - **Open questions:** [question → more research / a decision / nothing yet]
 - **Researcher's next steps:** [what the researcher will do next]
+- **How we'll know it worked:** [when the team looks back, and the sign that would show it worked]
 
 ## [n+5]. Limits (researcher's call)
 
@@ -6562,7 +6581,7 @@ researcher asks for it.
 
 ## Next steps
 
-Magpie drafts all three from the findings and any relevant context in the
+Magpie drafts all four from the findings and any relevant context in the
 record (the decision and its date, partners, open risks), and labels them
 "draft" until the researcher has reviewed and edited them. Name the teams
 involved, not one person, unless the researcher asks for a name.
@@ -6572,6 +6591,8 @@ involved, not one person, unless the researcher asks for a name.
   decision, or nothing yet]
 - **Researcher's next steps:** [follow-up research, check-ins with
   partners, what the researcher will do next]
+- **How we'll know it worked:** [when the team looks back, who looks with
+  the researcher, and the sign that would show the change worked]
 
 ## Limits
 
@@ -6708,6 +6729,51 @@ Includes every skipped challenge from the study record.
 - [Readout on [date]: findings, confidence, recommendations]
 - [Report, library entries, partner summaries]
 
+<!-- core/templates/researcher-debrief.md -->
+
+# Debrief: [study name]
+
+A short private note for the researcher at the end of a study: what to keep,
+what to change next time, and when to follow up. It isn't shared with the
+team and isn't part of the study record or the report.
+
+**For:** the researcher only · **Date:** [date] · **Status:** draft until
+the researcher edits it
+
+Magpie offers this once, at the end of stage 8, and the researcher can skip
+it. Keep it to one screen: two or three lines per part, and leave out a
+part with nothing in it. Draft it from the study record and the
+conversation. Anything Magpie guessed, such as how the readout landed, is
+marked [assumption] until the researcher fills it in. If the readout hasn't
+happened yet, leave that part as a prompt to fill in afterwards.
+
+## What worked
+
+- [A choice in the plan, guide or sessions that paid off, and why]
+
+## What I'd change next time
+
+- [A step skipped or done late, from the record's risks and skipped
+  challenges, and what it cost]
+- [A question, task or recruiting choice that didn't work, and the better
+  version]
+
+## Follow-up dates
+
+- [Date: what to check, and which team to check with. Include the "How
+  we'll know it worked" date from the report's next steps]
+
+## How the readout landed
+
+- [Pushback or questions to expect again, and the finding that answers
+  them]
+- [Anything left unsaid in the room, and when to raise it]
+
+## One skill to practise
+
+- [One skill this study showed is worth working on, with one small step
+  for next time]
+
 <!-- core/templates/study-record.md -->
 
 # Study record: [study name]
@@ -6741,6 +6807,7 @@ updates it whenever the stage changes or something here is settled.
 | Stage 3 your turn: decision, primary question, team's questions, assumptions | not yet / done by the researcher / handed back |
 | Stage 7 your turn: the researcher's patterns | not yet / done / handed back / not needed |
 | Stage 8 your turn: what each partner should do | not yet / done / handed back / already in the material |
+| Stage 8 researcher debrief | not yet / offered and made / offered and skipped |
 | Challenges given | [stage: the challenge in a few words, and answered / skipped / handled] |
 
 ## Product

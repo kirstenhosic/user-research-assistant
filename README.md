@@ -140,7 +140,9 @@ name one yourself. Each method has a guide Magpie reads when you choose it.
 
 Every study ends the same way: findings with counts and participant
 references, a readout, a report, and research library entries, drafted
-from the templates in [`core/templates/`](core/templates/). A finished
+from the templates in [`core/templates/`](core/templates/). Magpie also
+offers you, once, a short private debrief that stays out of what the team
+sees. A finished
 example is in [`docs/examples/`](docs/examples/).
 
 ## Words that steer it
@@ -321,14 +323,14 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
-- **Early results look good but aren't confirmed.** There are now 109
+- **Early results look good but aren't confirmed.** There are now 111
   test scenarios. Most of the first 36 passed, but that run didn't prove
   Magpie was loaded each time. Three later runs used the stricter rules: 6
   of 7 coaching scenarios and 7 of 8 HEARTS scenarios passed, with one
   partial each, and the diary capture scenario passed. All were judged by
   a model, not yet by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 125 standards in
+- **Its rules are written down.** Magpie follows 127 standards in
   [`core/standards/`](core/standards/). 54 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.

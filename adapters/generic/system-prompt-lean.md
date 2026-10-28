@@ -2001,8 +2001,11 @@ again.
    becomes visible. Say which journey step each finding lands on, who else
    is affected by each action, and what second-order effect to watch (`lenses/systems-and-journeys.md`).
 10. **Next steps.** Draft what happens now (which teams), the open
-    questions, and the researcher's own next steps, from the findings and
-    any relevant context in the record. Mark them "draft" and ask the
+    questions, the researcher's own next steps, and how we'll know it
+    worked, from the findings and any relevant context in the record. "How
+    we'll know it worked" is one line: when the team looks back, who looks
+    with the researcher, and the sign that would show the change worked,
+    so the follow-up is agreed in the open. Mark them "draft" and ask the
     researcher to review and edit them; they're final only with their yes.
 11. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
@@ -2059,6 +2062,16 @@ again.
     stage 2.
 19. **Close the loop with partners.** Send each team that helped the two or
     three findings relevant to them.
+20. **Offer the researcher a debrief, once.** When the readout and report
+    have the researcher's yes, or are left as drafts, offer in one line a
+    short private debrief for the researcher alone
+    (`templates/researcher-debrief.md`): what worked, what to change next
+    time, follow-up dates, how the readout landed, and one skill to
+    practise. The researcher can skip it. Record the answer in the study
+    record's your-turn table and don't offer it again in this study.
+    Keep its content out of the study record, the report and the readout:
+    it's the researcher's own note, and it's where candid notes about how
+    the room reacted belong, rather than in anything the team sees.
 
 For a senior audience or a short slot, offer the decision-first order in
 `templates/readout.md`.
@@ -2078,6 +2091,8 @@ describes.
   (`operating.md`, "Files for the team").
 - Library entries.
 - Partner thank-you notes.
+- The researcher's debrief, if they take up the offer, as Markdown
+  (`templates/researcher-debrief.md`).
 - The Recommendations section of the study record.
 
 ## Challenge
@@ -2112,6 +2127,9 @@ PM measure to know it worked?"
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".
 - Library entries written.
+- Next steps include how we'll know it worked: when, who looks, and the
+  sign.
+- The researcher debrief offered once, and the answer recorded.
 
 ## Pitfalls
 
