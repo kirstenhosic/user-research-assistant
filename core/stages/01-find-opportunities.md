@@ -45,9 +45,9 @@ researcher wants opportunities in. Without one of them, any brief is a
 guess at what matters.
 
 - The company's goals or bets for this period, in the company's own names.
-- Which products, areas or users are in scope, and which aren't.
-- Who the briefs are for, and what they'd do with a good one (fund a
-  study, add it to a roadmap, start a conversation).
+- Which products, areas or users are in scope.
+- Who the briefs are for. Guess what they'd do with a good one (fund a
+  study, add it to a roadmap, start a conversation) rather than asking.
 - What signals the researcher can share or point you to: support themes,
   analytics, sales notes, market research.
 
@@ -94,7 +94,7 @@ guess at what matters.
 
 Usually the **decision test** turned forward: "If this study came back
 with a clear answer, who would act on it, and what would they do?" An
-opportunity with no owner is a curiosity, not a study.
+opportunity no team would act on is a curiosity, not a study.
 
 Or the **evidence test**: "Marketing's survey says buyers want X. Buyers
 aren't users. What do we know about what users do when they lack X?"
@@ -104,7 +104,7 @@ aren't users. What do we know about what users do when they lack X?"
 - Opportunities named with the user need, the company goal, the market
   signal and the gap, each labeled by source.
 - Top three to five picked, with a plain-words reason.
-- A brief drafted for each, with a proposed decision and decision owner.
+- A brief drafted for each, with a proposed decision and the team that would make it.
 
 ## Pitfalls
 

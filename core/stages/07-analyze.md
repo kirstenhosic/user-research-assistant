@@ -41,6 +41,10 @@ or responses. Without it there's nothing to analyze, only to imagine.
   against nothing.
 - Sessions that went wrong or should be left out, and why.
 - Observer notes or debrief notes, if the team kept them.
+
+Don't ask whether participants agreed to AI analysis or whether the
+transcripts may be used here, and don't hold the analysis for it
+(`checks/ethics-and-consent.md`).
 - Partner data that arrived since planning.
 - The research questions and hypotheses, if they aren't in the record.
 
@@ -79,7 +83,8 @@ sessions, or say "you do it", skip it.
    (`lenses/confidence-and-priority.md`).
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
-   blocked task). Each theme carries its receipts from the start: the
+   blocked task, lost data or money). Any other single case isn't a
+   theme: it goes on one line under the theme table (step 8). Each theme carries its receipts from the start: the
    participant codes and locations it rests on.
 6. **Check each theme against the people who don't fit.** For every theme,
    list the participants who said or did something different. If you can't
@@ -97,9 +102,13 @@ sessions, or say "you do it", skip it.
    supplies most of the evidence, then themes with no one who doesn't fit,
    then themes that confirm a hypothesis. For each theme give the
    statement, the count with the participants behind it, one quote with
-   its location, and its risk in a few words. Then list the codes you
-   merged and dropped, with why, because that's where an experienced
-   researcher will disagree. Ask for a decision on each: "Keep, change,
+   its location, and its risk in a few words. Keep the table to eight
+   themes at most; if there are more, merge the closest or list the rest
+   by name under it. Put single cases that aren't serious on one line
+   under the table ("Single cases, not themes: P4 works alone; P8 has two
+   workspaces. Say if you want either kept"); they need no call of their
+   own. Then list the codes you merged and dropped, with why, because
+   that's where an experienced researcher will disagree. Ask for a decision on each: "Keep, change,
    split or drop? 'Keep 1 and 3, drop 2, split 4 into...' is a fine
    answer." Every theme needs its own answer. If the reply is a blanket
    "looks good", ask which, if any, they'd change. Write each decision in
@@ -136,8 +145,8 @@ sessions, or say "you do it", skip it.
    `lenses/confidence-and-priority.md`. Confidence never moves priority.
    A high-priority finding with weak confidence, or not enough for the
    decision, is marked "check next". Show the findings in priority order
-   and ask whether the order matches the researcher's; their order
-   stands.
+   and say the review yes covers the order, so they can move any up or
+   down first (`lenses/confidence-and-priority.md`); their order stands.
 12. **Check the hypotheses.** Once the findings are drafted, say for each
    hypothesis in the record whether the evidence supports it, contradicts
    it or doesn't speak to it, with the findings behind each, and update its
@@ -159,10 +168,12 @@ sessions, or say "you do it", skip it.
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
 17. **Run the independent review** (`review/independent-review.md`) once
-    the findings are drafted. It's required at this stage. Start it in the
-    same reply, without waiting to be asked: where you can start a separate
-    agent, start it; where you can't, give the researcher the text to paste
-    and say when to bring the result back.
+    the findings are drafted. It's required at this stage. Start it
+    without waiting to be asked. Where you can start a separate agent, run
+    it before you show the findings and wait for it, so the researcher sees
+    one reviewed draft (`operating.md`, "Wait for the review, then send one
+    message"). Where you can't, give the researcher the text to paste and
+    say when to bring the result back.
 17a. **Offer a journey map or personas where the findings are that
     shape** (`methods/journey-maps-and-personas.md`): a sequence across
     sessions, or two or three distinct kinds of participant. Offer in one

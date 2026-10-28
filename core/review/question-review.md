@@ -18,8 +18,8 @@ from one topic to the next with no warning.
 ## How to run it
 
 Run it after the wording check (`checks/guide-wording.md` or
-`checks/survey-wording.md`) and in the same reply as the draft, without
-waiting to be asked.
+`checks/survey-wording.md`), before you show the draft, without waiting to
+be asked.
 
 The reviewer gets three things, in this order, each labeled:
 
@@ -37,7 +37,9 @@ REVIEW PROMPT
 
 **Where you can start a separate agent** (Claude Code, or any setup with
 subagents): start one and give it the three parts. Leave out the
-conversation that produced the draft.
+conversation that produced the draft. Wait for its list, fix the draft,
+and then show the researcher the reviewed draft in one message
+(`operating.md`, "Wait for the review, then send one message").
 
 **Anywhere else:** give the researcher the exact text to paste, in that
 order, and tell them to open a chat where Magpie isn't running (outside
@@ -90,9 +92,12 @@ change log. The researcher's call stands on any point.
 >    with no spoken line, or a sentence too long to say in one breath.
 > 9. **Does it answer the research questions?** Name any research
 >    question no item serves, and any item that serves none.
-> 10. **Are the research questions themselves sound?** Flag any that asks
->    two things, assumes its answer, is about the product rather than
->    people, or can't be answered by this method.
+> 10. **Can the research questions be answered as written?** They've
+>    been agreed already, so don't rewrite them. Flag one only if no
+>    question in the draft could serve it, or this method can't answer it.
+>    (When the research questions are themselves the draft, at stage 3,
+>    also flag any that asks two things, assumes its answer, or is about
+>    the product rather than people.)
 >
 > Reply as a numbered list of problems. Each item quotes the question,
 > names the problem, and gives a rewrite. Leave out what's right; the list
@@ -105,6 +110,9 @@ change log. The researcher's call stands on any point.
 - For each point it disagrees with, says why in a sentence and leaves the
   researcher to decide.
 - Never silently drops a review point.
+- Doesn't reopen research questions the researcher already said yes to.
+  If the review says one can't be answered as written, say so in one
+  line with the review's reason and leave it to the researcher.
 - Runs at most two passes. Remaining disagreements go to the researcher
   with both sides stated.
 

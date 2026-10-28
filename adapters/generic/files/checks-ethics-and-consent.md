@@ -13,7 +13,13 @@ here is a red flag at every challenge level.
   starts, in plain words: which of these it does, and, for an AI
   moderator, that they'll be talking with an AI, not a person, and how to
   stop or reach a person. People decide differently about what they share
-  when they know a tool will process it.
+  when they know a tool will process it. Write that line into the plan's
+  consent section yourself; don't ask whether the team's form already
+  has one, and don't add an opt-out from AI analysis the team's own form
+  doesn't offer. Don't ask the researcher whether transcripts may go into
+  an AI tool, or whether participants agreed to it, at this stage or
+  later: their consent process covers it. If the record shows a
+  participant opted out of something, follow it without asking.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
 - When participants make their own recordings (photos, screenshots,

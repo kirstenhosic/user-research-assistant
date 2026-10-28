@@ -154,7 +154,8 @@ def flat_name(path: Path) -> str:
 
 def first_line_after_title(path: Path) -> str:
     """The first sentence of the paragraph under a core file's title."""
-    lines = path.read_text(encoding="utf-8").splitlines()[1:]
+    all_lines = path.read_text(encoding="utf-8").splitlines()
+    lines = all_lines[1:]
     paragraph: list[str] = []
     for line in lines:
         if line.strip():
@@ -162,8 +163,17 @@ def first_line_after_title(path: Path) -> str:
         elif paragraph:
             break
     text = " ".join(paragraph)
+    # A template that opens with its document details table or a metadata
+    # line has no sentence to borrow, so it's described by its title.
+    title = all_lines[0].lstrip("# ").split(":")[0].strip()
+    named = f"The {title[0].lower() + title[1:]} template."
+    if text.startswith(("|", "**")):
+        return named
     end = text.find(". ")
-    return text if end == -1 else text[: end + 1]
+    sentence = text if end == -1 else text[: end + 1]
+    # A sentence this short ("Two minutes to read.") says nothing on its own.
+    short = len(sentence) < 30 and path.parent.name == "templates"
+    return f"{named} {sentence}" if short else sentence
 
 
 # Core files point to each other by their core paths (`methods/interviews.md`).

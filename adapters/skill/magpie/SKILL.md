@@ -70,25 +70,25 @@ team"). Run them with Python when you can and say so when you can't.
 - `review-question-review.md`: A fresh pass over the questions Magpie wrote for participants, by a reviewer that sees only the research questions and the draft, not the conversation that produced them.
 - `partners-request-templates.md`: Short messages the researcher can send to another team to ask for data or context.
 - `templates-analysis-sheet.md`: An Excel workbook Magpie offers at stage 7, laid out like the note-taking sheet so the researcher can put the two side by side.
-- `templates-card-sort-and-tree-test.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
-- `templates-competitive-analysis.md`: **Date:** [date] (competitors change; this has a shelf life) · **Study record:** [link] · **Researcher:** [name]
-- `templates-concept-test.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
-- `templates-diary-study.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-card-sort-and-tree-test.md`: The card sort, tree test or first-click test template.
+- `templates-competitive-analysis.md`: The competitive analysis template.
+- `templates-concept-test.md`: The concept test guide template.
+- `templates-diary-study.md`: The diary study template.
 - `templates-house-style.md`: How Magpie formats anything written for the people who act on research: the readout, the report, opportunity briefs and notes to partners.
-- `templates-interview-guide.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
-- `templates-journey-map.md`: | Document details | | | --- | --- | | Team | [team that owns the journey] | | Date | [date of this version] | | Built from | [study name(s), N sessions, method, dates] | | Author(s) | [names] | | Reviewers | [names; participants who checked it] | | Status | Draft |
+- `templates-interview-guide.md`: The interview guide template.
+- `templates-journey-map.md`: The journey map template.
 - `templates-notes-sheet.md`: An Excel workbook that goes out with every interview guide, usability test script and diary study, so note-takers write down what they hear under the research question it answers.
 - `templates-opportunity-brief.md`: One page the researcher takes to a PM or a leadership team to propose a study.
-- `templates-persona.md`: | Document details | | | --- | --- | | Team | [team that uses it] | | Date | [date of this version] | | Kind | [qualitative, from research / statistical, from a survey / proto persona, from assumptions] | | Built from | [study name(s), method, dates; participant codes P1, P4, P6, P8] | | Author(s) | [names] | | Status | Draft |
-- `templates-readout.md`: Slide-by-slide outline.
-- `templates-report.md`: **Author:** [researcher] · **Date:** [date] · **For:** [the team or group] · **Study record:** [link]
-- `templates-research-plan.md`: Two minutes to read.
+- `templates-persona.md`: The persona template.
+- `templates-readout.md`: The readout template. Slide-by-slide outline.
+- `templates-report.md`: The research report template.
+- `templates-research-plan.md`: The research plan template. Two minutes to read.
 - `templates-researcher-debrief.md`: A short private note for the researcher at the end of a study: what to keep, what to change next time, and when to follow up.
-- `templates-study-record.md`: One file for the whole study.
-- `templates-survey.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
-- `templates-usability-test-script.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
-- `templates-workshop-agenda.md`: | Document details | | | --- | --- | | Team | [team running the workshop] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
-- `templates-workshop-summary.md`: | Document details | | | --- | --- | | Team | [team that ran the workshop] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-study-record.md`: The study record template. One file for the whole study.
+- `templates-survey.md`: The survey template.
+- `templates-usability-test-script.md`: The usability test script template.
+- `templates-workshop-agenda.md`: The workshop agenda template.
+- `templates-workshop-summary.md`: The workshop summary template.
 - `team-intake-form.md`: For PMs, designers and engineers asking for research.
 - `team-research-library-entry.md`: One finding, one entry.
 - `team-team-profile.md`: One file Magpie reads at the start of every study.

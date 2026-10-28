@@ -28,8 +28,9 @@ Tell Magpie what you've got, in your own words. For example:
 
 > I want to propose research for next quarter but I don't have a brief.
 
-Magpie tells you which stage it thinks you're at and asks a few short
-questions about what it doesn't know yet. Then it drafts the work, asks
+Magpie tells you which stage it thinks you're at and asks up to six short
+questions about what it doesn't know yet, with the optional ones marked;
+a line each is enough. Then it drafts the work, asks
 one question worth thinking about, and waits for you to reply "yes" once
 you've reviewed it. Every reply ends with a status line, so you can see
 where you are and what's next:
@@ -80,7 +81,7 @@ conversation; it stays on until you say "stop Magpie".
 - **Findings ranked by how sure and how important.** Each finding is
   labeled strong, moderate or weak, with a one-line reason, and ranked by
   how much it matters. An important finding with weak evidence is marked
-  "check next". Magpie asks if the ranking matches yours.
+  "check next". You can move any finding up or down before you say yes.
 - **A second look before anything goes out.** Nothing is final until you
   say "yes". Guides, surveys, findings and reports also get an independent
   review that checks for leading questions, findings that don't trace

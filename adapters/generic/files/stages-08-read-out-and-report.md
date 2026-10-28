@@ -27,13 +27,15 @@ raises, within the same six.
 **Minimum to draft:** the findings, and who the readout or report is
 for.
 
-- Who will see it, and what each person needs to decide or do.
-- The format: a live readout, a written report or both, how long the slot
-  or document is, and the team's template or house style if there is one.
-  Ask about the template only if the study record and team profile don't
-  already name one. Once the researcher answers, with a template or "no",
-  save it in the record's settings and don't ask again in this study.
-- When it's due, and whether the decision date has moved.
+- Who will see it. Work out from the record what each group needs to
+  decide or do, and show that as a guess rather than asking.
+- The format: a live readout, a written report or both.
+- How long the slot is, for a live readout.
+- The team's template, if there is one. Ask about the template only if
+  the study record and team profile don't already name one. Once the
+  researcher answers, with a template or "no", save it in the record's
+  settings and don't ask again in this study.
+- Whether the readout date or the decision date has moved since the plan.
 - What stakeholders already believe or expect to hear, so a surprise is
   framed with care.
 - Where it's going after the room: the team only, the wider company, or
@@ -41,13 +43,15 @@ for.
   (`checks-release.md`) is run against that destination.
 - Anything sensitive: a finding that reflects on a person or team, or
   material that can't be shown outside the team.
-- Whether recommendations should name people, or only the teams
-  involved (the default: who does what is often for the team to agree).
+- Recommendations name teams, not people, by default: who does what is
+  often for the team to agree. Don't ask about it; name people only if
+  the researcher asks for that.
 
 **Your turn** (`operating.md`, "Your turn"). In the same message, ask the
-researcher to say, for each top finding, what the people who'll act on it
-should do: "For [finding], what should [the PM, the designer, the
-engineer] do differently on Monday?" A line each is enough. Don't offer
+researcher to say, for each top finding, what the teams who'll act on it
+should do: "For [finding], what should [product, design, engineering]
+do differently on Monday?" Use teams in the example, not people or a
+single decision-maker. A line each is enough. Don't offer
 your own recommendations first. If they say "not sure" or "you do it",
 draft them yourself. If the material they brought already has
 recommendations, those are their turn: build on them, and don't ask
@@ -167,18 +171,22 @@ again.
 17. **Run the independent review** on the final report and the readout
     deck together (`review-independent-review.md`). It's required. It
     checks that every finding traces to its source and that the language
-    is plain. Start it in the same
-    reply, as at stage 7: start a separate agent where you can, otherwise
-    give the researcher the text to paste and say when to bring the result
-    back.
-18. **Write the library entries.** One per finding worth keeping
-    (`team-research-library-entry.md`), so the next study finds them at
-    stage 2. Write the entry you'd have wanted to find: the question, who
+    is plain. Start it as at stage 7: where you can start a separate
+    agent, run it before you show the report and deck and wait for it, so
+    the researcher sees one reviewed draft; otherwise give the researcher
+    the text to paste and say when to bring the result back.
+18. **Offer the library entries.** Once the readout and report have
+    the researcher's yes, offer in one line to write them, rather than
+    adding them to the outputs waiting for review: "Say 'library entries'
+    and I'll write one per finding worth keeping." One per finding worth
+    keeping (`team-research-library-entry.md`), so the next study finds
+    them at stage 2. Write the entry you'd have wanted to find: the question, who
     took part, the method, the date, the caveats, where the data lives.
     If the study changed a journey map or a persona, one entry says what
     changed and why.
-19. **Close the loop with partners.** Send each team that helped the two or
-    three findings relevant to them.
+19. **Offer the partner notes** in the same line as the library entries:
+    a short note for each team that helped, with the two or three
+    findings relevant to them. Write them when asked.
 20. **Offer the researcher a debrief, once.** When the readout and report
     have the researcher's yes, or are left as drafts, offer in one line a
     short private debrief for the researcher alone
@@ -206,8 +214,8 @@ describes.
 - The readout, from `templates-readout.md`.
 - The report, from `templates-report.md`, as Markdown and Word
   (`operating.md`, "Files for the team").
-- Library entries.
-- Partner thank-you notes.
+- Library entries and partner thank-you notes, if the researcher takes
+  up the offer.
 - The researcher's debrief, if they take up the offer, as Markdown
   (`templates-researcher-debrief.md`).
 - The Recommendations section of the study record.
@@ -243,7 +251,7 @@ PM measure to know it worked?"
 - "How AI was used" in the report and readout appendix.
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labeled "draft".
-- Library entries written.
+- Library entries and partner notes offered once, after the yes.
 - Next steps include how we'll know it worked: when, who looks, and the
   sign.
 - The researcher debrief offered once, and the answer recorded.
