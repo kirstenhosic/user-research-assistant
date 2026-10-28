@@ -2,6 +2,25 @@
 
 ## 2026-10-28
 
+- Stakeholder workshops reworked against published workshop practice.
+  Actions now name the teams involved, not one owner, and the room agrees
+  its next steps. The agenda says how the room will decide, and votes are
+  cast privately and shown together. The findings-to-action pattern adds
+  a "How might we" step before ideas, a break, a "what else moves" check
+  when picking, and an optional hills step for teams that use IBM's
+  Enterprise Design Thinking (described in Magpie's own words, with a
+  link). The align-on-the-problem pattern adds a short system-mapping
+  step. New sections cover remote and hybrid sessions and access needs,
+  and the guide cites its sources inline. The agenda template is redone
+  with a document details table and numbered steps, and a new workshop
+  summary template follows the house style; both are offered as Word
+  files. Stages 2 and 7 now offer a workshop in one line when it would
+  help, and stage 7 can end with "How might we" questions. The opportunity
+  brief has an optional hill. The systems lens cites Meadows, and
+  `docs/DESIGN.md` maps Magpie's stages to the Double Diamond and NN/g's
+  design thinking phases. Standards W.3 reworded and W.4 to W.7 added,
+  with three new evals (workshop-align-problem, workshop-how-to-decide,
+  workshop-summary). Sources S53 to S62.
 - Next steps in the report and readout templates now have three parts:
   what happens now (with the teams involved), open questions, and the
   researcher's own next steps. Magpie drafts all three from the findings

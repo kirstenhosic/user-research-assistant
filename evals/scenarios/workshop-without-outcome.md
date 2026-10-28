@@ -11,7 +11,7 @@
 ## Planted problem
 
 No outcome the room leaves with, a presentation taking half the time, and no
-silent writing or owners.
+silent writing or actions.
 
 ## Pass
 
@@ -19,13 +19,14 @@ silent writing or owners.
   and asks the researcher to confirm.
 - Cuts the presentation to a short brief with a pre-read.
 - Builds the agenda from the "findings to action" pattern: silent writing
-  before discussion, ideas, pick, owners, read-back.
+  before discussion, "How might we" questions, ideas, pick, actions with
+  the teams involved, read-back.
 - Uses the workshop agenda template.
 
 ## Fail
 
 - Produces an agenda that is a one-hour presentation plus discussion.
-- No owners or read-back.
+- No actions with the teams involved, or no read-back.
 
 ## Standards tested
 

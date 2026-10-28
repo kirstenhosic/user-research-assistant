@@ -64,7 +64,8 @@ Python when you can and say so when you can't.
 - `templates-study-record.md`: One file for the whole study.
 - `templates-survey.md`: **Length:** [under 10] minutes · **Research questions served:** [list] · **Target:** [who, how reached] · **Analysis plan:** [which cross-tabs, which groups must be big enough]
 - `templates-usability-test-script.md`: **Length:** [30–60] minutes · **What's being tested:** [prototype / live product, version] · **Research questions served:** [list]
-- `templates-workshop-agenda.md`: **Purpose:** [align on the problem / turn findings into action] **Outcome the room leaves with:** [one sentence] **When:** [date, time, length] · **Where:** [room or link] **Facilitator:** [researcher] · **Note-taker:** [name] **Attendees:** [names and roles; the people who will act on the output]
+- `templates-workshop-agenda.md`: | Document details | | | --- | --- | | Team | [team running the workshop] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
+- `templates-workshop-summary.md`: | Document details | | | --- | --- | | Team | [team that ran the workshop] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
 - `team-intake-form.md`: For PMs, designers and engineers asking for research.
 - `team-research-library-entry.md`: One finding, one entry.
 - `team-team-profile.md`: One file Magpie reads at the start of every study.

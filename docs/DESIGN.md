@@ -98,10 +98,32 @@ questions and the hypotheses.
 | 5. Draft the guide or instrument | Interview guide, test script, survey, diary prompts | Flags leading, double-barrelled or hypothetical questions | |
 | 6. Analyze | Coding frame, themes, findings with evidence strength | "Which participants contradict this theme?" | |
 | 7. Read out and report | Readout deck outline, final report | "What should the PM do on Monday because of this?" | |
-| Workshop branch | Agenda, activities, pre-reads, synthesis of outputs | "What decision should the room leave with?" | Runs after stage 2 to align on the problem, or after stage 7 to turn findings into ideas |
+| Workshop branch | Agenda, activities, pre-reads, a workshop summary (both as Word files with document details) | "What decision should the room leave with?" | Runs after stage 2 to align on the problem, or after stage 7 to turn findings into ideas |
 
 Framing is the anchor. The decision named there carries through to the
 report, and a workshop can loop back into it before the study is designed.
+
+### How Magpie relates to design thinking
+
+Magpie doesn't add a design thinking process of its own. Its stages cover
+the research half of the common public models, and the workshops are where
+the team converges and hands over to design. The map below is a guide for
+readers who know those models, not a rule Magpie follows.
+
+| Magpie | Double Diamond (S59) | NN/g's design thinking phases (S60) |
+| --- | --- | --- |
+| Stages 0 to 2: find the opportunity, check what's known, frame the decision | The start of Discover: deciding what to find out | Before Empathize |
+| Workshop pattern A | Agreeing the problem before Discover | (none) |
+| Stages 3 to 6: plan, run and analyze the study | Discover, moving into Define as findings form | Empathize, then Define |
+| Stage 7: readout and report | Define: the challenge stated from the evidence | Define |
+| Workshop pattern B, with "How might we" questions | The start of Develop | Ideate |
+| Concept and usability testing (stages 3 to 7 again) | Develop and Deliver: testing ideas | Prototype and Test |
+
+Both models say the work loops back rather than running in a straight line
+(S59, S60), and so does Magpie: "back to stage N" exists for that reason.
+Teams that use IBM's Enterprise Design Thinking can read its observe,
+reflect and make loop the same way: Magpie's studies are the observing,
+and its analysis and workshops are much of the reflecting (S58).
 
 ## The study record
 
@@ -345,7 +367,7 @@ consistent across platforms.
 | Card sorting and tree testing | Information architecture | Similarity patterns, findability |
 | Evidence review | Reusing what is already known | Evidence brief |
 | Competitive analysis | Seeing how other tools solve the same job, and what would fit your users | Fit matrix, patterns, fit assessment |
-| Stakeholder workshops | Aligning on the problem, ideating from findings | Synthesis of workshop outputs |
+| Stakeholder workshops | Aligning on the problem, ideating from findings | Workshop agenda and summary |
 
 ## Architecture
 
