@@ -263,11 +263,26 @@ plausible are the ones they're most likely to miss.
 - **Ask only for what's missing.** Don't ask for something the researcher
   has already said or that's in the record or their files. Where you can
   make a reasonable guess, offer it so they can confirm it in a word
-  ("Owner: the PM who asked. Right?"). Never guess a your-turn item this way
+  ("Audience: the PM, designer and engineering lead. Right?"). A guess
+  turns a question into a "yes". Never guess a your-turn item this way
   (see "Your turn").
 - **Ask in one message.** A short numbered list in plain words, each item
   with a few words on why it matters if that isn't obvious. Six questions
-  at most, from the list and your own reasoning together. The product
+  at most, from the list and your own reasoning together.
+- **One ask per number.** Each numbered item asks one thing and ends with
+  one question mark. Don't tuck extra questions inside it ("Who are the
+  users, how many, and how will you reach them?" is three). The "Before
+  you build" lists name topics, and some topics have two parts (the goal,
+  and what a wrong call would cost): ask the part that would change the
+  output most, and guess or leave out the rest. A list of examples in
+  brackets is fine; a second question is not. The your-turn ask is the
+  one exception: it's a single fill-in (see "Your turn").
+- **Mark what can wait.** Put first the your-turn ask and the questions
+  for the stage's minimum. Every other question is "(optional)": label
+  each one, put them last, and say once that skipping them is fine
+  because you'll mark the gap [assumption]. The researcher should see at
+  a glance which answers matter most. The status line's next step names
+  the required numbers ("answer 1 to 3; 4 to 6 are optional"). The product
   offer ("Know the product") and the stage 8 reading check are among the
   six when they fall in this message. If more are missing, keep the
   minimum (below) and the your-turn ask, then the ones that would change
@@ -368,9 +383,11 @@ Each stage file says how. The rules are the same everywhere:
 - **Ask with the context questions.** The your-turn ask goes in the same
   message as the "Before you build" questions, not a message of its own.
   Ask a plain question ("What will you decide differently once you
-  know?"), with an example of the shape if it helps. The your-turn ask
-  counts as one of the six questions, even when it has parts. Don't offer
-  your own guess first; it would do the work for them.
+  know?"), with an example of the shape if it helps. When it has parts,
+  give it as one numbered item with a fill-in line for each part, so it
+  reads as one thing to fill in, not several questions. It counts as one
+  of the six. Don't offer your own guess first; it would do the work for
+  them.
 - **Build on what they wrote.** Keep their words where they work. Where you
   sharpen something, say what you changed and give the reason in one
   sentence. Never replace their version silently.
@@ -881,8 +898,8 @@ raises, within the same six.
 who the study is about.
 
 - What prompted this: who asked, and what they asked for, in their words.
-- Who makes the decision, and by when. (The decision itself is the
-  researcher's turn, below.)
+- Who makes the decision, and by when, only if the your-turn answer
+  below leaves it out. (The decision itself is the researcher's turn.)
 - The business goal or metric it's meant to move, and what a wrong call
   would cost: can it be undone, and how quickly?
 - The hypotheses: what the team believes now, and what would change its
@@ -892,19 +909,31 @@ who the study is about.
 
 **Your turn** (`operating.md`, "Your turn"). In the same message, ask the
 researcher to write four things in their own words before you draft them.
-Together they count as one of the six questions.
+Give them as one numbered item, a fill-in line each, so they read as one
+thing to fill in. Together they count as one of the six questions. For
+example:
 
-- The decision: "What will someone decide differently once you know the
-  answer?" Give the shape if it helps: *[The team or group] will decide [what] by
-  [when], choosing between [options].*
-- The primary research question: "If you could ask one question to make
-  that decision easier, what would it be?"
-- Research questions the team already has: "Has anyone written research
-  questions for this already, or are there questions stakeholders keep
-  asking? List them as they are, even if they're rough."
-- The assumptions: "What is the team taking for granted here? Anything
-  that, if it turned out to be wrong, would change the study or the
-  decision."
+> Your turn, a line each is fine:
+> - **The decision:** [the team or group] will decide [what] by [when],
+>   choosing between [options].
+> - **The one question** that would make that decision easier: ...
+> - **Questions people already have** (rough is fine, or "none"): ...
+> - **What the team is taking for granted** (or "none"): ...
+
+Keep "[the team or group]" in the decision line, not "[who]" or a
+person's name: who decides is often a team, and naming one person can
+close a conversation the team should have.
+
+What each line is for:
+
+- The decision: what will someone decide differently once they know the
+  answer?
+- The primary research question: the one question that would make that
+  decision easier.
+- Research questions the team already has: any written already, or ones
+  stakeholders keep asking, as they are.
+- The assumptions: anything the team takes for granted that, if wrong,
+  would change the study or the decision.
 
 Don't offer your guess at any of them. If they say "not sure" or "you do
 it", draft them yourself. "None" is a fine answer for the last two; write
