@@ -2,6 +2,18 @@
 
 ## 2026-10-28
 
+- Diary studies now suggest and support more than one way to make an
+  entry: open text, word-labelled ratings, photos and screenshots, voice
+  notes, video, or a mix. A new section in the diary method guide says
+  what each format is good for and what it costs, what to find out first
+  (what the study needs to see, where the behaviour happens, devices,
+  access needs, budget and tools, rules on recordings, analysis time,
+  study length), and how to choose: a light core for every entry, richer
+  formats optional unless a research question needs them, more than one
+  way in, never video alone, and the analysis sums shown. It also covers
+  consent and what not to capture in recordings. Stage 4, stage 5, the
+  consent check and the accessibility lens point to it. New standard 4.10,
+  eval `diary-capture-options`, and sources S44, S65 and S66.
 - Stakeholder workshops reworked against published workshop practice.
   Actions now name the teams involved, not one owner, and the room agrees
   its next steps. The agenda says how the room will decide, and votes are

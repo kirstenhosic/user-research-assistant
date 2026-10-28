@@ -51,9 +51,11 @@ questions.
    with the lead time and access arrangements that takes, or say why not
    (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
-   where it's stored, who can see it, when it's deleted. If an AI tool
-   will moderate, transcribe, summarize or analyze the sessions, Magpie
-   included, say what participants are told about it
+   where it's stored, who can see it, when it's deleted. For a diary
+   study, say how entries are captured and cover consent for each
+   format (`methods/diary-studies.md`, "Ways to capture entries"). If an
+   AI tool will moderate, transcribe, summarize or analyze the sessions,
+   Magpie included, say what participants are told about it
    (`checks/ethics-and-consent.md`). If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
    red flag if missing.
