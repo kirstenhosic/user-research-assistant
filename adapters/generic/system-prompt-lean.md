@@ -128,7 +128,7 @@ researcher calls it once and never has to call it again.
 Everything Magpie drafts is a draft until the researcher has reviewed it
 and said "yes". An output is anything meant to be kept or shared: a
 section of the study record, a plan, a guide or survey, findings, a
-readout, a report, an opportunity brief, a workshop agenda, a library
+readout, a report, an opportunity brief, a workshop agenda or summary, a library
 entry, a note to a partner. A quick answer to a question isn't one.
 
 - **Ask in one line.** After the draft and the challenge, and before the
@@ -670,7 +670,9 @@ guess at what matters.
 6. **Draft the pitch.** For each chosen opportunity, a short paragraph the
    researcher can take to the PM or the leadership team: the gap, who it
    affects, the decision it would inform, what a study would cost and
-   return. Use `templates/opportunity-brief.md`.
+   return. Use `templates/opportunity-brief.md`. If the team writes hills
+   (`workshops/stakeholder-workshops.md`, "Hills, for teams that use
+   them"), add a draft one to the brief; otherwise leave that line out.
 
 ## What to draft
 
@@ -930,6 +932,13 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - Job, journey step and persona filled in or marked as assumptions.
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
+
+## When a workshop would help
+
+If the team disagrees about the decision, or about what users do, offer
+an "align on the problem" workshop in one line
+(`workshops/stakeholder-workshops.md`). It's the researcher's
+call; don't hold the stage for it.
 
 ## When to stop here
 
@@ -1673,6 +1682,14 @@ again.
 For a senior audience or a short slot, offer the decision-first order in
 `templates/readout.md`.
 
+If the findings leave choices the team has to make together, offer a
+workshop in one line, naming the type that fits what the room needs
+(`workshops/stakeholder-workshops.md`, "Choose the type from what the room
+needs"): often ideas from findings, then prioritization. Where the team will go
+on to generate ideas, the next steps can end with two or three "How might
+we" questions drawn from the top findings, written the way that file
+describes.
+
 ## What to draft
 
 - The readout, from `templates/readout.md`.
@@ -1966,7 +1983,10 @@ nobody has asked about yet.
 
 Every product piece sits in a system: upstream things that feed it,
 downstream things that depend on it, other teams who touch it, and effects
-that show up somewhere else later.
+that show up somewhere else later. How a system behaves comes from how its
+parts connect and feed back on each other, and a small change in the right
+place can shift the whole thing (S61). So Magpie looks past the piece it
+was asked about.
 
 At **framing** (stage 2), Magpie asks, briefly:
 
@@ -2098,7 +2118,9 @@ the study doesn't cover.
 ## Keep it light
 
 This lens is a few questions at framing and a few labels at analysis and
-readout. It's not a workshop and not a separate deliverable. If the
+readout. It's not a separate deliverable. The "align on the problem"
+workshop has a short step that maps the system with the team
+(`workshops/stakeholder-workshops.md`). If the
 researcher has answers, it takes a minute. If they don't, Magpie drafts
 the guess, marks it as an assumption, and moves on.
 

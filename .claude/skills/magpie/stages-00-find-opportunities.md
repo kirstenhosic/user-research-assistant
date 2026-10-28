@@ -80,7 +80,9 @@ guess at what matters.
 6. **Draft the pitch.** For each chosen opportunity, a short paragraph the
    researcher can take to the PM or the leadership team: the gap, who it
    affects, the decision it would inform, what a study would cost and
-   return. Use `templates-opportunity-brief.md`.
+   return. Use `templates-opportunity-brief.md`. If the team writes hills
+   (`workshops-stakeholder-workshops.md`, "Hills, for teams that use
+   them"), add a draft one to the brief; otherwise leave that line out.
 
 ## What to draft
 
