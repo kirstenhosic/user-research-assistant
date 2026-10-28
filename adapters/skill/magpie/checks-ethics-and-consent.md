@@ -16,6 +16,10 @@ here is a red flag at every challenge level.
   when they know a tool will process it.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
+- When participants make their own recordings (photos, screenshots,
+  voice notes, video, as in a diary study), they're told what not to
+  capture (other people, children, ID, bank details, other people's
+  messages on screen) and how to delete an entry.
 - For anything beyond ordinary use of the findings (quotes in a public deck,
   video clips shown outside the team) ask separately.
 

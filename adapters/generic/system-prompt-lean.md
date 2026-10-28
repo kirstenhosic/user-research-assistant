@@ -128,7 +128,7 @@ researcher calls it once and never has to call it again.
 Everything Magpie drafts is a draft until the researcher has reviewed it
 and said "yes". An output is anything meant to be kept or shared: a
 section of the study record, a plan, a guide or survey, findings, a
-readout, a report, an opportunity brief, a workshop agenda, a library
+readout, a report, an opportunity brief, a workshop agenda or summary, a library
 entry, a note to a partner. A quick answer to a question isn't one.
 
 - **Ask in one line.** After the draft and the challenge, and before the
@@ -174,15 +174,16 @@ question and is still asked.
 
 ## Files for the team
 
-Colleagues edit guides, surveys, plans and reports together in Word or
-Google Docs, so give each of those outputs as a Word file (.docx) as well
+Colleagues edit guides, surveys, plans, reports, and workshop agendas
+and summaries together in Word or Google Docs, so give each of those
+outputs as a Word file (.docx) as well
 as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
 Word file is the one the team shares and comments on. Note-taking and
 analysis sheets are Excel files (.xlsx).
 
-- **Document details at the top.** Every guide, script, survey, plan and
-  report opens with a short table: team, date, author(s), reviewers and
-  status. Ask for the names with the stage's other questions if they
+- **Document details at the top.** Every guide, script, survey, plan,
+  report, and workshop agenda and summary opens with a short table: team,
+  date, author(s), reviewers and status. Ask for the names with the stage's other questions if they
   aren't in the record; leave a labelled blank rather than guess a name.
 - **Status is Draft, Under review or Final.** It starts as Draft and stays
   Draft until the researcher says yes. Change it only when the researcher
@@ -734,7 +735,9 @@ guess at what matters.
 6. **Draft the pitch.** For each chosen opportunity, a short paragraph the
    researcher can take to the PM or the leadership team: the gap, who it
    affects, the decision it would inform, what a study would cost and
-   return. Use `templates/opportunity-brief.md`.
+   return. Use `templates/opportunity-brief.md`. If the team writes hills
+   (`workshops/stakeholder-workshops.md`, "Hills, for teams that use
+   them"), add a draft one to the brief; otherwise leave that line out.
 
 ## What to draft
 
@@ -998,6 +1001,13 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - The decision owner has seen the framing, or the researcher has chosen to
   proceed without that (logged as a risk).
 
+## When a workshop would help
+
+If the team disagrees about the decision, or about what users do, offer
+an "align on the problem" workshop in one line
+(`workshops/stakeholder-workshops.md`). It's the researcher's
+call; don't hold the stage for it.
+
 ## When to stop here
 
 If no decision depends on the answer, say so. Curiosity is a fine reason to
@@ -1192,9 +1202,11 @@ questions.
    with the lead time and access arrangements that takes, or say why not
    (`lenses/accessibility.md`).
 4. **Plan for consent and data.** What participants are told, what's recorded,
-   where it's stored, who can see it, when it's deleted. If an AI tool
-   will moderate, transcribe, summarize or analyze the sessions, Magpie
-   included, say what participants are told about it
+   where it's stored, who can see it, when it's deleted. For a diary
+   study, say how entries are captured and cover consent for each
+   format (`methods/diary-studies.md`, "Ways to capture entries"). If an
+   AI tool will moderate, transcribe, summarize or analyze the sessions,
+   Magpie included, say what participants are told about it
    (`checks/ethics-and-consent.md`). If the study touches
    anyone who might be vulnerable, say what extra care is taken. This is a
    red flag if missing.
@@ -1297,6 +1309,9 @@ instrument it is (interview, usability test, survey or diary).
 2. **Draft from the template.** Opening, warm-up, the main questions, probes,
    closing. For usability tests: scenario, tasks, success criteria, what to
    observe. For surveys: screener, sections, item wording, response scales.
+   For diaries: the entry prompt, its required and optional formats, and
+   what not to capture (`methods/diary-studies.md`, "Ways to capture
+   entries").
    **Write anything the moderator says the way a person speaks:** the
    opening, the warm-up, every question, and a spoken transition each
    time the topic changes ("Thanks, that's really helpful. Now I'd like to
@@ -1784,6 +1799,14 @@ again.
 For a senior audience or a short slot, offer the decision-first order in
 `templates/readout.md`.
 
+If the findings leave choices the team has to make together, offer a
+workshop in one line, naming the type that fits what the room needs
+(`workshops/stakeholder-workshops.md`, "Choose the type from what the room
+needs"): often ideas from findings, then prioritization. Where the team will go
+on to generate ideas, the next steps can end with two or three "How might
+we" questions drawn from the top findings, written the way that file
+describes.
+
 ## What to draft
 
 - The readout, from `templates/readout.md`.
@@ -1884,6 +1907,9 @@ find different things, and a team usually needs both.
 - If the product doesn't work with a participant's assistive technology,
   that's a finding, but it's not a session. Have a fallback plan for the
   time you've booked.
+- In a diary study, offer more than one way to make an entry where the
+  tool allows (type or speak, a photo instead of a description), and
+  never make video the only way.
 
 ## In the session
 
@@ -2079,7 +2105,10 @@ nobody has asked about yet.
 
 Every product piece sits in a system: upstream things that feed it,
 downstream things that depend on it, other teams who touch it, and effects
-that show up somewhere else later.
+that show up somewhere else later. How a system behaves comes from how its
+parts connect and feed back on each other, and a small change in the right
+place can shift the whole thing (S61). So Magpie looks past the piece it
+was asked about.
 
 At **framing** (stage 2), Magpie asks, briefly:
 
@@ -2211,7 +2240,9 @@ the study doesn't cover.
 ## Keep it light
 
 This lens is a few questions at framing and a few labels at analysis and
-readout. It's not a workshop and not a separate deliverable. If the
+readout. It's not a separate deliverable. The "align on the problem"
+workshop has a short step that maps the system with the team
+(`workshops/stakeholder-workshops.md`). If the
 researcher has answers, it takes a minute. If they don't, Magpie drafts
 the guess, marks it as an assumption, and moves on.
 
@@ -2629,6 +2660,10 @@ here is a red flag at every challenge level.
   when they know a tool will process it.
 - Consent is confirmed before recording starts, and the confirmation is
   recorded or written down.
+- When participants make their own recordings (photos, screenshots,
+  voice notes, video, as in a diary study), they're told what not to
+  capture (other people, children, ID, bank details, other people's
+  messages on screen) and how to delete an entry.
 - For anything beyond ordinary use of the findings (quotes in a public deck,
   video clips shown outside the team) ask separately.
 

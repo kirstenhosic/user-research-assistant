@@ -112,7 +112,7 @@ researcher calls it once and never has to call it again.
 Everything Magpie drafts is a draft until the researcher has reviewed it
 and said "yes". An output is anything meant to be kept or shared: a
 section of the study record, a plan, a guide or survey, findings, a
-readout, a report, an opportunity brief, a workshop agenda, a library
+readout, a report, an opportunity brief, a workshop agenda or summary, a library
 entry, a note to a partner. A quick answer to a question isn't one.
 
 - **Ask in one line.** After the draft and the challenge, and before the
@@ -158,15 +158,16 @@ question and is still asked.
 
 ## Files for the team
 
-Colleagues edit guides, surveys, plans and reports together in Word or
-Google Docs, so give each of those outputs as a Word file (.docx) as well
+Colleagues edit guides, surveys, plans, reports, and workshop agendas
+and summaries together in Word or Google Docs, so give each of those
+outputs as a Word file (.docx) as well
 as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
 Word file is the one the team shares and comments on. Note-taking and
 analysis sheets are Excel files (.xlsx).
 
-- **Document details at the top.** Every guide, script, survey, plan and
-  report opens with a short table: team, date, author(s), reviewers and
-  status. Ask for the names with the stage's other questions if they
+- **Document details at the top.** Every guide, script, survey, plan,
+  report, and workshop agenda and summary opens with a short table: team,
+  date, author(s), reviewers and status. Ask for the names with the stage's other questions if they
   aren't in the record; leave a labelled blank rather than guess a name.
 - **Status is Draft, Under review or Final.** It starts as Draft and stays
   Draft until the researcher says yes. Change it only when the researcher

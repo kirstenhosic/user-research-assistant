@@ -125,7 +125,7 @@ name one yourself. Each method has a guide Magpie reads when you choose it.
 | [Card sorting and tree testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, and whether they can find them | Card and task lists, findings |
 | [Evidence review](core/methods/evidence-review.md) | What the organization already knows | Evidence log, gaps, one-page brief |
 | [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job | Comparison built around the user's job |
-| [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings | Agenda, named owners, summary |
+| [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings | Agenda, actions with the teams involved, summary |
 | [Finding opportunities](core/stages/00-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and owner |
 
 Every study ends the same way: findings with counts and participant
@@ -304,8 +304,8 @@ As of October 27, 2026.
   time. The details, and the stricter rules for the next run, are in
   [`evals/runs/2026-10-27.md`](evals/runs/2026-10-27.md) and
   [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 104 standards in
-  [`core/standards/`](core/standards/). 42 cite a public source, such as
+- **Its rules are written down.** Magpie follows 110 standards in
+  [`core/standards/`](core/standards/). 47 cite a public source, such as
   the ICC/ESOMAR code, Braun and Clarke, or Nielsen Norman Group. The
   others are based on professional judgment and say so. Every source is
   listed in [`docs/PROVENANCE.md`](docs/PROVENANCE.md).
