@@ -2,8 +2,10 @@
 
 **Length:** [45–60] minutes · **Research questions served:** [list]
 
-Every main question names the research question it serves (RQ1, RQ2…). Run
-`checks/guide-wording.md` before using.
+Every main question names the research question it serves (RQ1, RQ2…).
+Everything here is written to be said aloud as it stands, including the
+move from one section to the next. Run `checks/guide-wording.md` and the
+question review (`review/question-review.md`) before using.
 
 ## Opening (2 min)
 
@@ -15,12 +17,18 @@ stop at any time. OK to start recording?
 
 ## Warm-up (5 min)
 
+> Great, thanks. Before we get into [topic], I'd love to hear a little
+> about you.
+
 - Tell me a bit about what you do and how [area] fits into your week.
 - [One more easy question about them, not the product.]
 
 ## Main questions (30 min)
 
 ### [Topic 1] → RQ1
+
+> That's really helpful, thank you. Now I'd like to talk about [topic 1,
+> in their words].
 
 - Tell me about the last time you [did the thing]. Walk me through it from
   the start.
@@ -30,12 +38,17 @@ stop at any time. OK to start recording?
 
 ### [Topic 2] → RQ2
 
+> Thanks, that gives me a clear picture. Now I'd like to shift our focus
+> to [topic 2, in their words].
+
 - [Question]
   - Probe:
 - [Question]
   - Probe:
 
 ### Rating with a why (optional, one to three per session) → RQ[n]
+
+> I've got a quick one now that I'm asking everyone.
 
 - Thinking about the last time you [did the thing], how easy or hard was
   it, from 1, very hard, to 7, very easy?
@@ -45,12 +58,18 @@ stop at any time. OK to start recording?
 ## Deep dive (10 min)
 
 Pick the one thing they raised that matters most for the decision and go
-deeper. Prepared prompts:
+deeper.
+
+> I'd like to go back to something you said earlier, about [thing].
+
+Prepared prompts:
 
 - You mentioned [thing]. Say more about that.
 - What would have to be true for that to go differently?
 
 ## Close (3 min)
+
+> We're almost out of time. This has been really useful.
 
 - Is there anything about [topic] I should have asked and didn't?
 - Thanks. Here's what happens next: [incentive, findings, follow-up].

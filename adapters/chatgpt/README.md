@@ -39,10 +39,10 @@ instruction and file limits are unverified.)
 
 ## What works where
 
-- The independent review at stages 6 and 7: ChatGPT has no separate-agent
-  step in a skill, so Magpie gives you the three-part paste (raw material,
-  draft, review prompt) for a fresh chat, as `review-independent-review.md`
-  describes.
+- The independent reviews (questions at stage 5, findings and report at
+  stages 6 and 7): ChatGPT has no separate-agent step in a skill, so
+  Magpie gives you the three-part paste for a fresh chat, as
+  `review-question-review.md` and `review-independent-review.md` describe.
 - The quote and count checks: OpenAI's skill docs allow scripts in
   `scripts/`. Whether ChatGPT runs these two hasn't been tested; if it
   doesn't, Magpie does the checks by hand and says so.

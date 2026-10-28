@@ -3,8 +3,11 @@
 **Length:** [30–60] minutes · **What's being tested:** [prototype / live
 product, version] · **Research questions served:** [list]
 
-Run `checks/guide-wording.md` before using. Tasks are scenarios, not
+Run `checks/guide-wording.md` and the question review
+(`review/question-review.md`) before using. Tasks are scenarios, not
 instructions, and each has a success criterion written before the session.
+Everything the moderator says is written to be said aloud as it stands,
+including the line that moves from one task to the next.
 
 ## Opening (3 min)
 
@@ -27,6 +30,9 @@ the task, not during it.
 
 ### Task 1 → RQ[n]
 
+> Thanks, that's helpful. Now I'm going to ask you to try a few things.
+> There's no rush, and remember to think out loud.
+
 **Scenario:** You want to [goal, in the participant's terms, no feature
 names]. Show me how you'd do that.
 
@@ -37,6 +43,8 @@ difficult, to 7, very easy? Why that rating? What did you expect to happen?
 
 ### Task 2 → RQ[n]
 
+> Great, thank you. Let's move on to the next one.
+
 **Scenario:**
 **Success:**
 **Watch for:**
@@ -44,12 +52,17 @@ difficult, to 7, very easy? Why that rating? What did you expect to happen?
 
 ### Task 3 → RQ[n]
 
+> Thanks. Here's the next one.
+
 **Scenario:**
 **Success:**
 **Watch for:**
 **After:** Ease rating (1–7), why that rating, what they expected.
 
 ## Debrief and close (5–10 min)
+
+> That's all the tasks, thank you. I've just got a few questions about how
+> that went overall.
 
 - When you [something they did, described neutrally], what were you
   looking for?

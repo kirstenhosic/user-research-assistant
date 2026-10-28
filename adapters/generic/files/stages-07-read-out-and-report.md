@@ -132,14 +132,17 @@ again.
     or the recommendations. If there's nothing for them, say so, so they
     can stop reading. Then sweep for terms a new PM would have to look up
     and replace each or add a four-word gloss.
-15. **Check the quotes and counts again** in the readout and report.
-    Wording changes between the record and the deck, so run the code
-    checks (`tools/checks/`) on both: every quote matches its transcript
+15. **Run the checks again** on the readout and report. Wording changes
+    between the record and the deck, so run the claim-strength check
+    (`checks-claim-strength.md`) over every slide and section, then the
+    code checks (`tools/checks/`) on both: every quote matches its transcript
     and the person it's credited to, every count's arithmetic holds, and
     every count lists as many participants as it claims. Where you can't
     run code, do it by hand and say so.
-16. **Run the independent review** on the final report
-    (`review-independent-review.md`). It's required. Start it in the same
+16. **Run the independent review** on the final report and the readout
+    deck together (`review-independent-review.md`). It's required. It
+    checks that every finding traces to its source and that the language
+    is plain. Start it in the same
     reply, as at stage 6: start a separate agent where you can, otherwise
     give the researcher the text to paste and say when to bring the result
     back.
@@ -183,7 +186,8 @@ PM measure to know it worked?"
   limits present in the report regardless.
 - Quote and count checks run on the readout and report, by code or by
   hand.
-- Independent review done on the report.
+- Claim-strength check run on the readout and report.
+- Independent review done on the report and the deck.
 - "How AI was used" in the report and readout appendix.
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".

@@ -361,7 +361,7 @@ Understand these however they're phrased.
 | just the work | Turn personality off for the session |
 | back to stage N | Return to that stage; list what later sections depend on it |
 | start over | Confirm, then start a fresh record |
-| review this | Run the independent review on the current draft (see `review/independent-review.md`) |
+| review this | Run the independent review on the current draft (see `review/independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review/question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
 
@@ -876,7 +876,9 @@ it in the record.
    it serves. Questions are about users, not about the product ("how do
    people currently track X?" not "do users like our tracker?"). Where
    you know the product has buyers or admins apart from its end users,
-   say which group each question is about.
+   say which group each question is about. Run
+   `checks/research-questions.md` over them, the researcher's own
+   included, and say what you changed.
 5. **Write down the hypotheses.** What does the team already believe, and
    what would change its mind? Write each one in the record's Hypotheses
    section, with who holds it. The study tests them; it doesn't set out to
@@ -920,6 +922,7 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
+- Research-question check run.
 - Hypotheses and assumptions listed, or a note that the team has none.
 - Job, journey step and persona filled in or marked as assumptions.
 - The decision owner has seen the framing, or the researcher has chosen to
@@ -1161,7 +1164,8 @@ would you miss without them?"
 # Stage 5: Draft the guide or instrument
 
 Write the thing the researcher will put in front of participants: an
-interview guide, a usability test script, a survey or diary prompts.
+interview guide, a usability test script, a survey, diary prompts, a
+focus group guide or a concept test.
 
 ## Goal
 
@@ -1205,6 +1209,12 @@ instrument it is (interview, usability test, survey or diary).
 2. **Draft from the template.** Opening, warm-up, the main questions, probes,
    closing. For usability tests: scenario, tasks, success criteria, what to
    observe. For surveys: screener, sections, item wording, response scales.
+   **Write anything the moderator says the way a person speaks:** the
+   opening, the warm-up, every question, and a spoken transition each
+   time the topic changes ("Thanks, that's really helpful. Now I'd like to
+   shift our focus to how you set up your team."). Short sentences the
+   moderator can read aloud as written, not headings or notes. Survey and
+   diary intros and section openers get the same plain, friendly voice.
 3. **Fit it to the product.** Base tasks and scenarios on what the
    product does and the part under study (Product section, if filled, or
    what the researcher has told you), so they match what participants can
@@ -1220,16 +1230,22 @@ instrument it is (interview, usability test, survey or diary).
    say why and I'll rework it." A counter is new input: rework the guide
    with their reasoning, or say in a line or two why you'd keep it. Their
    call stands.
-5. **Run the wording check.** Use `checks/guide-wording.md` for interviews
-   and tests, `checks/survey-wording.md` for surveys. Fix what it catches and
-   say what you fixed.
-6. **Add the moderator notes.** What to do if a participant says "it's fine"
+5. **Run the wording check.** Use `checks/guide-wording.md` for interviews,
+   tests, focus groups, concept tests and diary prompts, and
+   `checks/survey-wording.md` for surveys. Fix what it catches and say what
+   you fixed.
+6. **Run the question review** (`review/question-review.md`). It's
+   required. Start it in the same reply, without waiting to be asked: start
+   a separate agent where you can, otherwise give the researcher the text
+   to paste and say when to bring the result back. Fix what it got right
+   and say why you disagree with the rest.
+7. **Add the moderator notes.** What to do if a participant says "it's fine"
    to everything, runs short, runs long, or gets upset.
-7. **Time it.** Estimate the length. If it runs over, say what to cut and
+8. **Time it.** Estimate the length. If it runs over, say what to cut and
    why those items matter least.
-8. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
+9. **Suggest a pilot.** One or two pilot sessions catch most problems. Say
    what to watch for in the pilot.
-9. **Check it works with assistive technology.** If participants use a
+10. **Check it works with assistive technology.** If participants use a
    screen reader, magnification or voice control, try the instrument or
    prototype with it before the sessions (`lenses/accessibility.md`).
 
@@ -1237,7 +1253,8 @@ instrument it is (interview, usability test, survey or diary).
 
 - The instrument, from the right template.
 - The question map: what each item serves and why it sits where it does.
-- A list of what the wording check caught and changed.
+- A list of what the wording check and the question review caught and
+  changed.
 - An updated Instruments section in the study record.
 
 ## If an AI tool will moderate
@@ -1262,6 +1279,11 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 
 - Every item maps to a research question.
 - Wording check run and fixes made.
+- Question review run and each point fixed or answered. If the researcher
+  is running it in another chat and hasn't brought it back, it's listed as
+  waiting in the record and the status line.
+- Everything the moderator says is written to be said aloud, with a spoken
+  transition at each change of topic.
 - Moderator notes present.
 - Pilot planned or deliberately skipped (logged as a risk).
 
@@ -1272,6 +1294,9 @@ Always raise a leading, loaded or double-barrelled question, even at "light".
 - Questions that are really the product team's hopes with a question mark.
 - A guide so long the best material comes after the participant is tired.
 - No probes, so every answer stays at the surface.
+- Topic headings with no spoken line, so the moderator improvises the
+  transition or skips it and the participant is jolted from one subject to
+  the next.
 
 <!-- core/stages/06-analyze.md -->
 
@@ -1618,14 +1643,17 @@ again.
     or the recommendations. If there's nothing for them, say so, so they
     can stop reading. Then sweep for terms a new PM would have to look up
     and replace each or add a four-word gloss.
-15. **Check the quotes and counts again** in the readout and report.
-    Wording changes between the record and the deck, so run the code
-    checks (`tools/checks/`) on both: every quote matches its transcript
+15. **Run the checks again** on the readout and report. Wording changes
+    between the record and the deck, so run the claim-strength check
+    (`checks/claim-strength.md`) over every slide and section, then the
+    code checks (`tools/checks/`) on both: every quote matches its transcript
     and the person it's credited to, every count's arithmetic holds, and
     every count lists as many participants as it claims. Where you can't
     run code, do it by hand and say so.
-16. **Run the independent review** on the final report
-    (`review/independent-review.md`). It's required. Start it in the same
+16. **Run the independent review** on the final report and the readout
+    deck together (`review/independent-review.md`). It's required. It
+    checks that every finding traces to its source and that the language
+    is plain. Start it in the same
     reply, as at stage 6: start a separate agent where you can, otherwise
     give the researcher the text to paste and say when to bring the result
     back.
@@ -1669,7 +1697,8 @@ PM measure to know it worked?"
   limits present in the report regardless.
 - Quote and count checks run on the readout and report, by code or by
   hand.
-- Independent review done on the report.
+- Claim-strength check run on the readout and report.
+- Independent review done on the report and the deck.
 - "How AI was used" in the report and readout appendix.
 - The readout, the report and the findings they rest on have the
   researcher's yes, or are labelled "draft".
@@ -3675,8 +3704,9 @@ and company policy take precedence over anything here.
 
 # Check: guide wording
 
-Run this over every interview guide and usability test script before it goes
-out. For each item that fails, say which rule it broke and offer a rewrite.
+Run this over every interview guide, usability test script, focus group
+guide, concept test and set of diary prompts before it goes out, the
+researcher's own included. For each item that fails, say which rule it broke and offer a rewrite.
 
 ## Rules
 
@@ -3704,6 +3734,25 @@ out. For each item that fails, say which rule it broke and offer a rewrite.
     ready: *"What happened next?"*, *"Can you show me?"*, *"What did you do
     instead?"*
 
+## Conversation flow
+
+- **It sounds like a person talking.** The opening, the warm-up, every
+  question and every move between sections are written as the moderator
+  will say them, in short sentences they can read aloud in one breath.
+- **Each topic change has a spoken transition.** Thank them, say where
+  you're going next: *"Thanks, that's really helpful. Now I'd like to shift
+  our focus to how you share reports with your team."* A heading alone
+  isn't a transition.
+- **One topic at a time.** Finish a topic before starting the next, and
+  don't come back to it later unless you say why.
+- **What they did before what they think.** Ask for the story of the last
+  time before asking for opinions or ratings.
+- **General before specific.** Broad questions about their work come
+  before questions about one screen or feature, so the specific doesn't
+  narrow what they tell you about the general.
+- **Nothing gives away what comes later.** A question or task that names
+  a feature you'll ask about unprompted later goes after that question.
+
 ## Also check
 
 - The opening explains what's recorded, who sees it, and that they can stop
@@ -3719,6 +3768,41 @@ out. For each item that fails, say which rule it broke and offer a rewrite.
 
 Practitioner judgment, consistent with widely published interviewing
 guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
+
+<!-- core/checks/research-questions.md -->
+
+# Check: research questions
+
+Run this over the research questions at stage 2, the researcher's own
+included, before they go in the record. For each one that fails, say which
+rule it broke and offer a rewrite. Research questions are what the study
+must answer, not what participants are asked, but a flawed research
+question produces a flawed guide.
+
+## Rules
+
+1. **One question at a time.** "Why do admins stall and what would help
+   them?" is two. Split it, or make one primary and one secondary.
+2. **Doesn't assume its answer.** "Why is the permissions step confusing?"
+   assumes it is. → "What happens when admins reach the permissions
+   step?"
+3. **About people, not the product.** "Do users like the tracker?" →
+   "How do people keep track of X today?"
+4. **Open.** A question a yes or no answers ("Do admins invite others in
+   week one?") is a metric to look up, not a research question. Ask how
+   or why, or turn it into a hypothesis.
+5. **Answerable by a study you could run.** Not "what will the market want
+   in five years", and not a rate from eight interviews.
+6. **Tied to the decision.** Each names the decision it serves. If the
+   answer wouldn't change what the team does, it goes under "nice to know".
+7. **Plain words.** No internal names a new team member would have to look
+   up.
+
+## Basis
+
+Practitioner judgment, consistent with widely published guidance on
+framing research questions. Sources will be added to `docs/PROVENANCE.md`
+as they are checked.
 
 <!-- core/checks/survey-wording.md -->
 
@@ -3779,10 +3863,12 @@ guidance. Sources will be added to `docs/PROVENANCE.md` as they are checked.
 
 # Independent review
 
-A fresh pass over the findings or the report, by a reviewer that sees only
-the source material and the output, not the conversation that produced them.
-Required at stage 6 (findings) and stage 7 (report). Available on request at
-any other stage.
+A fresh pass over the findings, or the report and readout deck, by a
+reviewer that sees only the source material and the output, not the
+conversation that produced them. Required at stage 6 (findings) and stage 7
+(the report and the deck together). Available on request at any other
+stage. The questions Magpie writes for participants get their own review at
+stage 5 (`review/question-review.md`).
 
 ## Why it's separate
 
@@ -3807,7 +3893,7 @@ RAW MATERIAL
 (transcripts, notes, survey export, with participant codes)
 
 DRAFT
-(the findings or the report)
+(the findings; at stage 7, the report and the readout deck, each labelled)
 
 REVIEW PROMPT
 (the text below)
@@ -3834,7 +3920,7 @@ review in the record's change log.
 
 > You are reviewing a user research output. Above this prompt are two
 > things: the raw material (transcripts, notes or data) and the draft (the
-> findings or the report). You have not seen how the draft was made, which
+> findings, or a report and the readout deck that goes with it). You have not seen how the draft was made, which
 > is why your reading is useful: you can only see what the evidence shows.
 >
 > Check every claim in the draft against the raw material and answer these
@@ -3863,6 +3949,16 @@ review in the record's change log.
 >    ability, how technical they are) that the participants didn't state
 >    themselves. Name the finding and say what the raw material actually
 >    shows.
+> 9. **Can every finding be traced to its source?** Each finding, on every
+>    slide and in every section, names the participants and locations it
+>    rests on, or says it's a single case. Flag any that don't, and any
+>    slide that says something the report doesn't.
+> 10. **Is it plain?** Flag sentences a product manager new to the team
+>    would have to read twice: research or internal terms with no short
+>    explanation, acronyms not spelled out, sentences over about 25 words,
+>    passive voice that hides who did what, and vague words ("most",
+>    "significant", "users want") where a number or a name belongs. Quote
+>    the sentence and offer a plainer version.
 >
 > Reply as a numbered list of problems. Each item names the finding or
 > recommendation, states the problem in a sentence, and points to the
@@ -3891,6 +3987,123 @@ The reviewer is a model too. It can miss things and it can be wrong. The
 review is one layer, alongside the grounding rules, the source labels, the
 code checks and the researcher's own judgment. Say that in the report when
 you mention the review.
+
+<!-- core/review/question-review.md -->
+
+# Question review
+
+A fresh pass over the questions Magpie wrote for participants, by a
+reviewer that sees only the research questions and the draft, not the
+conversation that produced them. Required at stage 5, for every interview
+guide, usability test script, survey, diary study, focus group guide and
+concept test. Available on request at any other stage, including on
+research questions at stage 2 and on a guide the researcher wrote.
+
+## Why it's separate
+
+The pass that wrote the questions knows what each one is meant to ask, so
+it reads the intent rather than the words. A participant hears only the
+words. A reviewer that hasn't seen the intent hears them the same way: the
+question that hints at the answer, the one that asks two things, the jump
+from one topic to the next with no warning.
+
+## How to run it
+
+Run it after the wording check (`checks/guide-wording.md` or
+`checks/survey-wording.md`) and in the same reply as the draft, without
+waiting to be asked.
+
+The reviewer gets three things, in this order, each labelled:
+
+```
+RESEARCH QUESTIONS
+(the primary and secondary questions, the decision they serve, who the
+participants are, the session length and format)
+
+DRAFT
+(the guide, script, survey or prompts, word for word)
+
+REVIEW PROMPT
+(the text below)
+```
+
+**Where you can start a separate agent** (Claude Code, or any setup with
+subagents): start one and give it the three parts. Leave out the
+conversation that produced the draft.
+
+**Anywhere else:** give the researcher the exact text to paste, in that
+order, and tell them to open a chat where Magpie isn't running (outside
+the Magpie project on Claude.ai or ChatGPT, or with the Magpie skill
+turned off in Gemini or Copilot), paste it, and paste the reviewer's list
+back into this conversation. Until it comes back, the status line shows
+the review as waiting.
+
+**Either way:** Magpie goes through the list, fixes what's right, says
+why it disagrees with what's wrong, and logs the review in the record's
+change log. The researcher's call stands on any point.
+
+## The review prompt
+
+> You are reviewing questions written for a user research study. Above
+> this prompt are the research questions the study must answer and the
+> draft that participants will hear or read. You have not seen how the
+> draft was made, which is why your reading is useful: read it as a
+> participant would, and as the moderator who has to say it aloud.
+>
+> Go through the draft item by item, then as a whole. Be specific: quote
+> the item, say what's wrong in a sentence, and offer a rewrite.
+>
+> 1. **Does any question lead?** It hints at the answer, praises or
+>    criticises the product, or assumes a feeling ("what frustrates you
+>    about…").
+> 2. **Does any question ask two things?** "Fast and easy", "how and why",
+>    "this or that". Split it.
+> 3. **Does any question ask people to predict themselves?** "Would you
+>    use…", "how likely are you to…" where a question about what they last
+>    did would work.
+> 4. **Is any question closed when it should be open, or too abstract?**
+>    A yes/no where a story is needed; "what do you value" where a
+>    specific time would get a real answer.
+> 5. **Is any wording unfamiliar to participants?** Internal feature
+>    names, acronyms, research terms.
+> 6. **For surveys:** one idea per item, balanced and labelled scales,
+>    answer options that cover every case without overlapping, a specific
+>    time period, sensitive items late and optional.
+> 7. **Does the order make sense as a conversation?** Easy before hard;
+>    what they did before what they think; general before specific; one
+>    topic finished before the next starts; sensitive questions after
+>    rapport; the questions that matter most before the halfway point; no
+>    task or question that gives away a later one.
+> 8. **Does it sound like a person talking?** Read the opening, the
+>    warm-up and every move between sections aloud. Each should be words
+>    the moderator can say as written, with a short spoken transition
+>    between topics ("Thanks, that's really helpful. Now I'd like to
+>    shift to how you…"). Flag anything that reads like a form, a heading
+>    with no spoken line, or a sentence too long to say in one breath.
+> 9. **Does it answer the research questions?** Name any research
+>    question no item serves, and any item that serves none.
+> 10. **Are the research questions themselves sound?** Flag any that asks
+>    two things, assumes its answer, is about the product rather than
+>    people, or can't be answered by this method.
+>
+> Reply as a numbered list of problems. Each item quotes the question,
+> names the problem, and gives a rewrite. Leave out what's right; the list
+> is for fixing. Leave the draft as it is; the author will make the
+> changes.
+
+## What Magpie does with the result
+
+- Fixes every problem the review got right and names the fix.
+- For each point it disagrees with, says why in a sentence and leaves the
+  researcher to decide.
+- Never silently drops a review point.
+- Runs at most two passes. Remaining disagreements go to the researcher
+  with both sides stated.
+
+## Limits
+
+The reviewer is a model too. It can miss things and it can be wrong. A
+pilot session with a real participant still catches what no review does.
 
 <!-- core/partners/request-templates.md -->
 
@@ -4151,8 +4364,10 @@ The same rules, plus:
 
 **Length:** [45–60] minutes · **Research questions served:** [list]
 
-Every main question names the research question it serves (RQ1, RQ2…). Run
-`checks/guide-wording.md` before using.
+Every main question names the research question it serves (RQ1, RQ2…).
+Everything here is written to be said aloud as it stands, including the
+move from one section to the next. Run `checks/guide-wording.md` and the
+question review (`review/question-review.md`) before using.
 
 ## Opening (2 min)
 
@@ -4164,12 +4379,18 @@ stop at any time. OK to start recording?
 
 ## Warm-up (5 min)
 
+> Great, thanks. Before we get into [topic], I'd love to hear a little
+> about you.
+
 - Tell me a bit about what you do and how [area] fits into your week.
 - [One more easy question about them, not the product.]
 
 ## Main questions (30 min)
 
 ### [Topic 1] → RQ1
+
+> That's really helpful, thank you. Now I'd like to talk about [topic 1,
+> in their words].
 
 - Tell me about the last time you [did the thing]. Walk me through it from
   the start.
@@ -4179,12 +4400,17 @@ stop at any time. OK to start recording?
 
 ### [Topic 2] → RQ2
 
+> Thanks, that gives me a clear picture. Now I'd like to shift our focus
+> to [topic 2, in their words].
+
 - [Question]
   - Probe:
 - [Question]
   - Probe:
 
 ### Rating with a why (optional, one to three per session) → RQ[n]
+
+> I've got a quick one now that I'm asking everyone.
 
 - Thinking about the last time you [did the thing], how easy or hard was
   it, from 1, very hard, to 7, very easy?
@@ -4194,12 +4420,18 @@ stop at any time. OK to start recording?
 ## Deep dive (10 min)
 
 Pick the one thing they raised that matters most for the decision and go
-deeper. Prepared prompts:
+deeper.
+
+> I'd like to go back to something you said earlier, about [thing].
+
+Prepared prompts:
 
 - You mentioned [thing]. Say more about that.
 - What would have to be true for that to go differently?
 
 ## Close (3 min)
+
+> We're almost out of time. This has been really useful.
 
 - Is there anything about [topic] I should have asked and didn't?
 - Thanks. Here's what happens next: [incentive, findings, follow-up].
@@ -4863,8 +5095,10 @@ reviewed it. An output stays "not yet" until the researcher says yes.
 **Target:** [who, how reached] · **Analysis plan:** [which cross-tabs,
 which groups must be big enough]
 
-Every item names the research question it serves. Run
-`checks/survey-wording.md` before fielding. Pilot with five people first.
+Every item names the research question it serves. The intro and the line
+that opens each section are written in a plain, friendly voice, as if to
+one person. Run `checks/survey-wording.md` and the question review
+(`review/question-review.md`) before fielding. Pilot with five people first.
 
 ## Intro
 
@@ -4880,6 +5114,8 @@ S1. In the last 30 days, have you [behaviour]?
 
 ## Section 1: [topic] → RQ1
 
+First, a few questions about [topic, in their words].
+
 Q1. In the last 30 days, how many times did you [behaviour]?
 - 0 · 1–2 · 3–5 · 6–10 · More than 10
 
@@ -4892,6 +5128,8 @@ Q3. How would you rate [thing] overall?
 - Very poor · Poor · Fair · Good · Very good
 
 ## Section 2: [topic] → RQ2
+
+Thanks. Next, we'd like to ask about [topic, in their words].
 
 Q4. [item]
 
@@ -4919,8 +5157,11 @@ Thank you. [What happens next, incentive if any.]
 **Length:** [30–60] minutes · **What's being tested:** [prototype / live
 product, version] · **Research questions served:** [list]
 
-Run `checks/guide-wording.md` before using. Tasks are scenarios, not
+Run `checks/guide-wording.md` and the question review
+(`review/question-review.md`) before using. Tasks are scenarios, not
 instructions, and each has a success criterion written before the session.
+Everything the moderator says is written to be said aloud as it stands,
+including the line that moves from one task to the next.
 
 ## Opening (3 min)
 
@@ -4943,6 +5184,9 @@ the task, not during it.
 
 ### Task 1 → RQ[n]
 
+> Thanks, that's helpful. Now I'm going to ask you to try a few things.
+> There's no rush, and remember to think out loud.
+
 **Scenario:** You want to [goal, in the participant's terms, no feature
 names]. Show me how you'd do that.
 
@@ -4953,6 +5197,8 @@ difficult, to 7, very easy? Why that rating? What did you expect to happen?
 
 ### Task 2 → RQ[n]
 
+> Great, thank you. Let's move on to the next one.
+
 **Scenario:**
 **Success:**
 **Watch for:**
@@ -4960,12 +5206,17 @@ difficult, to 7, very easy? Why that rating? What did you expect to happen?
 
 ### Task 3 → RQ[n]
 
+> Thanks. Here's the next one.
+
 **Scenario:**
 **Success:**
 **Watch for:**
 **After:** Ease rating (1–7), why that rating, what they expected.
 
 ## Debrief and close (5–10 min)
+
+> That's all the tasks, thank you. I've just got a few questions about how
+> that went overall.
 
 - When you [something they did, described neutrally], what were you
   looking for?

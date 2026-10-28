@@ -26,7 +26,7 @@ Python when you can and say so when you can't.
 - `stages-02-frame-the-problem.md`: Turn the ask into a decision, a business reason and research questions.
 - `stages-03-choose-the-approach.md`: Pick the cheapest method that can answer the primary question well enough for the decision.
 - `stages-04-plan-the-study.md`: Write the research plan: who, how, when, and how participants are protected.
-- `stages-05-draft-the-guide.md`: Write the thing the researcher will put in front of participants: an interview guide, a usability test script, a survey or diary prompts.
+- `stages-05-draft-the-guide.md`: Write the thing the researcher will put in front of participants: an interview guide, a usability test script, a survey, diary prompts, a focus group guide or a concept test.
 - `stages-06-analyze.md`: Turn raw material into findings that say what the evidence supports, how strongly, and what cuts against it.
 - `stages-07-read-out-and-report.md`: Tell the team what was found, how sure we are, and what to do about it, in a form they'll actually use.
 - `lenses-accessibility.md`: Disabled people are among the users of almost every product, and a study that leaves them out will miss problems that block them completely.
@@ -50,9 +50,11 @@ Python when you can and say so when you can't.
 - `checks-ai-assisted-research.md`: What to do when an AI tool moderates sessions, summarizes transcripts, recruits participants, or is Magpie itself drafting findings.
 - `checks-claim-strength.md`: Run this over every finding before it leaves stage 6, and again over every slide or paragraph of the readout and report.
 - `checks-ethics-and-consent.md`: Run this at stage 4 for every study that involves people.
-- `checks-guide-wording.md`: Run this over every interview guide and usability test script before it goes out.
+- `checks-guide-wording.md`: Run this over every interview guide, usability test script, focus group guide, concept test and set of diary prompts before it goes out, the researcher's own included.
+- `checks-research-questions.md`: Run this over the research questions at stage 2, the researcher's own included, before they go in the record.
 - `checks-survey-wording.md`: Run this over every survey before it goes out.
-- `review-independent-review.md`: A fresh pass over the findings or the report, by a reviewer that sees only the source material and the output, not the conversation that produced them.
+- `review-independent-review.md`: A fresh pass over the findings, or the report and readout deck, by a reviewer that sees only the source material and the output, not the conversation that produced them.
+- `review-question-review.md`: A fresh pass over the questions Magpie wrote for participants, by a reviewer that sees only the research questions and the draft, not the conversation that produced them.
 - `partners-request-templates.md`: Short messages the researcher can send to another team to ask for data or context.
 - `templates-competitive-analysis.md`: **Date:** [date] (competitors change; this has a shelf life) · **Study record:** [link] · **Researcher:** [name]
 - `templates-house-style.md`: How Magpie formats anything written for the people who act on research: the readout, the report, opportunity briefs and notes to partners.

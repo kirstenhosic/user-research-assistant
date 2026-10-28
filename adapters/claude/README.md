@@ -13,8 +13,8 @@ beside it, and the code checks in `scripts/`.
   `adapters/skill/magpie/` there.
 
 Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
-`scripts/evidence_check.py` itself, and can start a separate agent for the independent review at stages
-6 and 7.
+`scripts/evidence_check.py` itself, and can start a separate agent for the independent reviews: the question
+review at stage 5 and the findings and report review at stages 6 and 7.
 
 ## Claude.ai
 
@@ -29,8 +29,8 @@ Don't paste `adapters/generic/system-prompt.md` as the instructions. At
 about 200 KB it repeats every file in the knowledge.
 
 Without a code tool, Magpie does the quote and count checks by hand and
-says so in the record, and the independent review runs in a fresh chat as
-described in `review-independent-review.md`.
+says so in the record, and the independent reviews run in a fresh chat as
+described in `review-question-review.md` and `review-independent-review.md`.
 
 ## Checked
 

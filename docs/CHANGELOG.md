@@ -2,6 +2,27 @@
 
 ## 2026-10-28
 
+- Independent checks on questions, and on the deck as well as the report.
+  - New question review (`core/review/question-review.md`), required at
+    stage 5 for every guide, script, survey and set of prompts, run the
+    same way as the findings review: a separate agent where one can be
+    started, a fresh-chat paste otherwise. It checks leading,
+    double-barrelled, hypothetical and closed questions, survey item
+    rules, conversation order, spoken style, coverage of the research
+    questions, and the research questions themselves.
+  - New research-question check (`core/checks/research-questions.md`) at
+    stage 2.
+  - Scripts are written the way a person speaks: the opening, the warm-up,
+    every question and a spoken transition at each change of topic. The
+    guide wording check gains a conversation-flow section and now covers
+    focus groups, concept tests and diary prompts. The interview,
+    usability and survey templates carry example transitions.
+  - Stage 7: the independent review sees the readout deck as well as the
+    report, and gains two questions: can every finding be traced to its
+    source, and is the language plain. The claim-strength check is now a
+    named step on the deck and report.
+  - Standards 2.8, 5.8 and 5.9 added, 7.5 extended. Four new eval
+    scenarios (not yet run).
 - Next steps in the report and readout templates now have three parts:
   what happens now (with the teams involved), open questions, and the
   researcher's own next steps. Magpie drafts all three from the findings

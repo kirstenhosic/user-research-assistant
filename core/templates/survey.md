@@ -4,8 +4,10 @@
 **Target:** [who, how reached] · **Analysis plan:** [which cross-tabs,
 which groups must be big enough]
 
-Every item names the research question it serves. Run
-`checks/survey-wording.md` before fielding. Pilot with five people first.
+Every item names the research question it serves. The intro and the line
+that opens each section are written in a plain, friendly voice, as if to
+one person. Run `checks/survey-wording.md` and the question review
+(`review/question-review.md`) before fielding. Pilot with five people first.
 
 ## Intro
 
@@ -21,6 +23,8 @@ S1. In the last 30 days, have you [behaviour]?
 
 ## Section 1: [topic] → RQ1
 
+First, a few questions about [topic, in their words].
+
 Q1. In the last 30 days, how many times did you [behaviour]?
 - 0 · 1–2 · 3–5 · 6–10 · More than 10
 
@@ -33,6 +37,8 @@ Q3. How would you rate [thing] overall?
 - Very poor · Poor · Fair · Good · Very good
 
 ## Section 2: [topic] → RQ2
+
+Thanks. Next, we'd like to ask about [topic, in their words].
 
 Q4. [item]
 

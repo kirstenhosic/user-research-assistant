@@ -90,7 +90,9 @@ it in the record.
    it serves. Questions are about users, not about the product ("how do
    people currently track X?" not "do users like our tracker?"). Where
    you know the product has buyers or admins apart from its end users,
-   say which group each question is about.
+   say which group each question is about. Run
+   `checks-research-questions.md` over them, the researcher's own
+   included, and say what you changed.
 5. **Write down the hypotheses.** What does the team already believe, and
    what would change its mind? Write each one in the record's Hypotheses
    section, with who holds it. The study tests them; it doesn't set out to
@@ -134,6 +136,7 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
 - A primary research question tied to the decision.
+- Research-question check run.
 - Hypotheses and assumptions listed, or a note that the team has none.
 - Job, journey step and persona filled in or marked as assumptions.
 - The decision owner has seen the framing, or the researcher has chosen to

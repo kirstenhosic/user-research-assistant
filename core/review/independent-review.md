@@ -1,9 +1,11 @@
 # Independent review
 
-A fresh pass over the findings or the report, by a reviewer that sees only
-the source material and the output, not the conversation that produced them.
-Required at stage 6 (findings) and stage 7 (report). Available on request at
-any other stage.
+A fresh pass over the findings, or the report and readout deck, by a
+reviewer that sees only the source material and the output, not the
+conversation that produced them. Required at stage 6 (findings) and stage 7
+(the report and the deck together). Available on request at any other
+stage. The questions Magpie writes for participants get their own review at
+stage 5 (`review/question-review.md`).
 
 ## Why it's separate
 
@@ -28,7 +30,7 @@ RAW MATERIAL
 (transcripts, notes, survey export, with participant codes)
 
 DRAFT
-(the findings or the report)
+(the findings; at stage 7, the report and the readout deck, each labelled)
 
 REVIEW PROMPT
 (the text below)
@@ -55,7 +57,7 @@ review in the record's change log.
 
 > You are reviewing a user research output. Above this prompt are two
 > things: the raw material (transcripts, notes or data) and the draft (the
-> findings or the report). You have not seen how the draft was made, which
+> findings, or a report and the readout deck that goes with it). You have not seen how the draft was made, which
 > is why your reading is useful: you can only see what the evidence shows.
 >
 > Check every claim in the draft against the raw material and answer these
@@ -84,6 +86,16 @@ review in the record's change log.
 >    ability, how technical they are) that the participants didn't state
 >    themselves. Name the finding and say what the raw material actually
 >    shows.
+> 9. **Can every finding be traced to its source?** Each finding, on every
+>    slide and in every section, names the participants and locations it
+>    rests on, or says it's a single case. Flag any that don't, and any
+>    slide that says something the report doesn't.
+> 10. **Is it plain?** Flag sentences a product manager new to the team
+>    would have to read twice: research or internal terms with no short
+>    explanation, acronyms not spelled out, sentences over about 25 words,
+>    passive voice that hides who did what, and vague words ("most",
+>    "significant", "users want") where a number or a name belongs. Quote
+>    the sentence and offer a plainer version.
 >
 > Reply as a numbered list of problems. Each item names the finding or
 > recommendation, states the problem in a sentence, and points to the

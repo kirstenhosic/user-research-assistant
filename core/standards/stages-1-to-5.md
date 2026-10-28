@@ -40,6 +40,7 @@ to do.
 | 2.5 | The study is placed in the larger system: job, journey step, persona and upstream/downstream dependencies are filled in from the team's own materials or marked as assumptions | practitioner judgment | `evals/scenarios/one-step-study.md` |
 | 2.6 | Product context is offered once and is optional. When the researcher wants it, the Product section says what the product is, what it does, the part under study and who its end users are, apart from its buyers or admins, each from a named source or marked as an assumption, with no product fact invented. When they decline, Magpie doesn't ask again, doesn't log it as a risk, and works without it | practitioner judgment | `evals/scenarios/unknown-product.md` |
 | 2.7 | The team's hypotheses are recorded with who holds each one and what would change it, or the record says there are none | practitioner judgment | `evals/scenarios/hypothesis-check.md` |
+| 2.8 | The research questions, the researcher's own included, pass the research-question check: one question each, no assumed answer, about people, open, answerable by a study, tied to the decision, in plain words | practitioner judgment | `evals/scenarios/double-barrelled-rq.md` |
 
 ## Stage 3: approach
 
@@ -77,6 +78,8 @@ to do.
 | 5.5 | Survey scales are balanced and labelled; agree/disagree is used sparingly | S6 (practice 6, balanced); labelling and agree/disagree: practitioner judgment | `evals/scenarios/agree-battery.md` |
 | 5.6 | When an AI tool moderates, its instructions pass the wording check, carry scope boundaries and a fallback for unclear answers, and the first three transcripts are read in full before more sessions run | S10 | `evals/scenarios/ai-moderator-audit.md` |
 | 5.7 | The guide or survey comes with a map of each item to the research question it serves and why it sits where it does, and a line inviting a counter; a counter is reworked or answered in a line or two, and the researcher's call stands | practitioner judgment | `evals/scenarios/question-order.md` |
+| 5.8 | Every guide, script, survey or set of prompts gets the independent question review in the same reply as the draft, by a separate agent where one can be started, or by handing the researcher the paste text and the steps; its points are fixed or answered, never dropped | practitioner judgment | `evals/scenarios/question-review-starts.md` |
+| 5.9 | Everything the moderator says is written to be said aloud, including the opening, the warm-up and a spoken transition at each change of topic; topics run one at a time, behaviour before opinion, general before specific | practitioner judgment | `evals/scenarios/spoken-transitions.md` |
 
 ## Across all stages
 

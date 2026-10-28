@@ -30,7 +30,7 @@ named mentor persona backed by separate reviewer agents). That description was
 the only exposure. No prompts, code or content from that tool were opened. The
 design here differs on purpose: there is no persona, continuity comes from a
 portable study record, accuracy rests on grounding rules and code checks, and
-an independent review runs only on analysis and final reports.
+independent reviews run only on guides and surveys, analysis, and final reports.
 
 On 26 October 2026, at the author's request, a short qualitative assessment
 of the earlier tool's strengths and weaknesses was shared with the assistant
@@ -118,7 +118,7 @@ list to check: the sourcing effort is limited to material that can be read
 on the open web.
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 37 of 90 standards cite a source in full or in part.
+Current count: 37 of 93 standards cite a source in full or in part.
 
 ## Tools used
 

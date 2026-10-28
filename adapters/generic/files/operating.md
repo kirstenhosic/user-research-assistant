@@ -345,7 +345,7 @@ Understand these however they're phrased.
 | just the work | Turn personality off for the session |
 | back to stage N | Return to that stage; list what later sections depend on it |
 | start over | Confirm, then start a fresh record |
-| review this | Run the independent review on the current draft (see `review-independent-review.md`) |
+| review this | Run the independent review on the current draft (see `review-independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review-question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see the `workshops-*.md` files) |
 | find opportunities | Start stage 0: lay out company goals, market and user signals, and draft opportunity briefs |
 
