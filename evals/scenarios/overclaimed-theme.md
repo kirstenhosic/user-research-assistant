@@ -1,6 +1,6 @@
 # Overclaimed theme
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -37,4 +37,4 @@ didn't fit. Strength labels missing.
 
 ## Standards tested
 
-6.2, 6.3, 6.5
+7.2, 7.3, 7.5

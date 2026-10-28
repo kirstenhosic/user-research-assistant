@@ -1,6 +1,6 @@
 # Uncoded count
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -46,4 +46,4 @@ codes, so nothing can check the count.
 
 ## Standards tested
 
-6.11, 6.2, 6.3
+7.11, 7.2, 7.3

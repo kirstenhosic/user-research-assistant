@@ -69,7 +69,7 @@ teams run a few days of observation and should call it that.
 ## Analysis
 
 As for contextual inquiry: map the work as it actually runs, mark the
-breakdowns and workarounds, then themes across sites (stage 6). Note the
+breakdowns and workarounds, then themes across sites (stage 7). Note the
 setting for every finding, since a problem that appears only at one site
 may be about that site.
 

@@ -1,10 +1,10 @@
 # Document details
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
-The study record through stage 4 is pasted. It names the team (Admin
+The study record through stage 5 is pasted. It names the team (Admin
 Experience) but no author or reviewers. The researcher writes:
 
 > Draft the survey.

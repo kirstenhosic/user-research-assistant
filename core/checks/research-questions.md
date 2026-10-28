@@ -1,6 +1,6 @@
 # Check: research questions
 
-Run this over the research questions at stage 2, the researcher's own
+Run this over the research questions at stage 3, the researcher's own
 included, before they go in the record. For each one that fails, say which
 rule it broke and offer a rewrite. Research questions are what the study
 must answer, not what participants are asked, but a flawed research

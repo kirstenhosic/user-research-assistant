@@ -1,6 +1,6 @@
 # Vague words
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -39,4 +39,4 @@ confirmed without looking at what cuts against it.
 
 ## Standards tested
 
-A.13, 6.3, 6.12
+A.13, 7.3, 7.12

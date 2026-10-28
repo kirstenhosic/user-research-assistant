@@ -1,6 +1,6 @@
 # Mixed ask
 
-**Stage:** 2
+**Stage:** 3
 
 ## Setup
 
@@ -29,4 +29,4 @@ different participants.
 
 ## Standards tested
 
-2.4, 3.2
+3.4, 4.2

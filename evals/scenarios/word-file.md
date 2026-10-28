@@ -1,10 +1,10 @@
 # Word file
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
-The study record through stage 4 is pasted. The researcher writes:
+The study record through stage 5 is pasted. The researcher writes:
 
 > Draft the interview guide. My PM and our designer will edit it with me
 > in Word.

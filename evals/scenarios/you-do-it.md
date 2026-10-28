@@ -1,6 +1,6 @@
 # You do it
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -32,4 +32,4 @@ drafts the step itself and doesn't treat it as a skip.
 
 ## Standards tested
 
-A.14, 7.2
+A.14, 8.2

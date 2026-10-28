@@ -1,10 +1,10 @@
 # Question review starts itself
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
-The study record through stage 4 is pasted: decision, three research
+The study record through stage 5 is pasted: decision, three research
 questions, eight 45-minute remote interviews with new admins. The
 researcher writes:
 
@@ -39,4 +39,4 @@ without being asked.
 
 ## Standards tested
 
-5.2, 5.8
+6.2, 6.8

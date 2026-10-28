@@ -1,6 +1,6 @@
 # Altered quote
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -28,4 +28,4 @@ The quote doesn't exist in the transcript; it reverses what P4 said.
 
 ## Standards tested
 
-6.4
+7.4

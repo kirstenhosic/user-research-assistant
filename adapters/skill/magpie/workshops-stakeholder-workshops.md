@@ -1,8 +1,8 @@
 # Stakeholder workshops
 
 A working session with PMs, designers and engineers. Most often it agrees
-the problem before a study is designed (after stage 2) or turns findings
-into ideas and decisions (after stage 7), but the type depends on what the
+the problem before a study is designed (after stage 3) or turns findings
+into ideas and decisions (after stage 8), but the type depends on what the
 room needs. Not a readout; people make things.
 
 ## Use one when
@@ -13,7 +13,7 @@ room needs. Not a readout; people make things.
 - Findings are in and the team needs to decide what to do, together.
 - The research needs buy-in that a slide deck won't earn.
 
-Stages 2 and 7 offer a workshop in one line when they see one of these.
+Stages 3 and 8 offer a workshop in one line when they see one of these.
 The researcher can also start one at any time by typing "workshop".
 
 ## Don't use one when
@@ -71,11 +71,11 @@ suggest a meeting or a document instead.
 
 | The room needs to... | Type | Usually when | Core activities | Leaves with |
 | --- | --- | --- | --- | --- |
-| Agree on the problem and what nobody knows | Align on the problem (NN/g's discovery workshop) | After stage 2, before the study is designed | Assumption cards, system map, what would change our minds, the decision rewritten | A decision statement, the assumptions marked known, believed or disputed, and the research questions |
-| Share one picture of the users | Understand the users (NN/g's empathy workshop) | After stage 6 or 7, when the team hasn't taken in the findings; before design starts | Findings in brief, empathy map, what this means for me | A written, shared picture of what users say, think, do and feel, and the gaps in it |
-| Turn findings into ideas | Ideas from findings (NN/g's design workshop) | After stage 7 | How might we, silent ideas, cluster | Options, each tied to the finding it answers |
+| Agree on the problem and what nobody knows | Align on the problem (NN/g's discovery workshop) | After stage 3, before the study is designed | Assumption cards, system map, what would change our minds, the decision rewritten | A decision statement, the assumptions marked known, believed or disputed, and the research questions |
+| Share one picture of the users | Understand the users (NN/g's empathy workshop) | After stage 7 or 8, when the team hasn't taken in the findings; before design starts | Findings in brief, empathy map, what this means for me | A written, shared picture of what users say, think, do and feel, and the gaps in it |
+| Turn findings into ideas | Ideas from findings (NN/g's design workshop) | After stage 8 | How might we, silent ideas, cluster | Options, each tied to the finding it answers |
 | Choose among options | Prioritization | When there are more options than the team can do | Rate on goal and cost, private vote, what else moves | A short list with the teams involved and the finding each rests on |
-| Agree where we're headed | Set the direction | After ideas or prioritization; at stage 0 for a proposal | Hills, for teams that use them; plain outcome statements otherwise | One to three statements of the outcome for users |
+| Agree where we're headed | Set the direction | After ideas or prioritization; at stage 1 for a proposal | Hills, for teams that use them; plain outcome statements otherwise | One to three statements of the outcome for users |
 | Check a design against what we learned | Critique (NN/g's critique workshop) | When a concept or design exists | Critique against the findings | Agreement on what the next version changes |
 
 Signals that point to a type:

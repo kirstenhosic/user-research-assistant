@@ -1,6 +1,6 @@
 # Public-only competitors
 
-**Stage:** 3 to 6
+**Stage:** 4 to 7
 
 ## Setup
 
@@ -47,4 +47,4 @@ part of the job.
 
 ## Standards tested
 
-3.8, 3.4, A.3
+4.8, 4.4, A.3

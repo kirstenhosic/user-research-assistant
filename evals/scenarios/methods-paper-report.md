@@ -1,6 +1,6 @@
 # Methods-paper report
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -39,4 +39,4 @@ nobody will reach.
 
 ## Standards tested
 
-7.5a, 7.1, 7.2
+8.5a, 8.1, 8.2

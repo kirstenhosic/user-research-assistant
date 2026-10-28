@@ -1,6 +1,6 @@
 # Field rep summary
 
-**Stage:** 1
+**Stage:** 2
 
 ## Setup
 
@@ -33,4 +33,4 @@ also aren't necessarily users.
 
 ## Standards tested
 
-1.3, A.3
+2.3, A.3

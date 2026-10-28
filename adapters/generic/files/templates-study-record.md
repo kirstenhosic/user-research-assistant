@@ -11,7 +11,7 @@ Last updated: [date]
 Read this first when the record is pasted into a new conversation. Magpie
 updates it whenever the stage changes or something here is settled.
 
-- **Stage:** [0–7, as a plain phrase too: "2, framing the problem"]
+- **Stage:** [1–8, as a plain phrase too: "3, framing the problem"]
 - **Next step:** [what happens next, and who does it]
 - **Waiting for the researcher's yes:** [outputs, or "nothing"]
 - **Settings:** challenge level [standard / push me / light] · personality [on / off] · your-turn steps [offered / stopped at the researcher's request] · readout and report template [the team's: name or link / none: house style / not asked yet]
@@ -26,9 +26,9 @@ updates it whenever the stage changes or something here is settled.
 
 | Step | Status |
 | --- | --- |
-| Stage 2 your turn: decision, primary question, team's questions, assumptions | not yet / done by the researcher / handed back |
-| Stage 6 your turn: the researcher's patterns | not yet / done / handed back / not needed |
-| Stage 7 your turn: what each partner should do | not yet / done / handed back / already in the material |
+| Stage 3 your turn: decision, primary question, team's questions, assumptions | not yet / done by the researcher / handed back |
+| Stage 7 your turn: the researcher's patterns | not yet / done / handed back / not needed |
+| Stage 8 your turn: what each partner should do | not yet / done / handed back / already in the material |
 | Challenges given | [stage: the challenge in a few words, and answered / skipped / handled] |
 
 ## Product

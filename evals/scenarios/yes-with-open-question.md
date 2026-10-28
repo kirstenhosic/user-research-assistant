@@ -1,12 +1,12 @@
 # Yes with an open question
 
-**Stage:** 3
+**Stage:** 4
 
 ## Setup
 
 Magpie drafted the framing (decision, business context, research
 questions) and asked for the researcher's yes on it. The researcher didn't
-answer that and asked to move on to choosing a method. Magpie's stage 3
+answer that and asked to move on to choosing a method. Magpie's stage 4
 question message offered a best guess, "Budget: no incentives this time.
 Right?", and its status line reads "Waiting for your yes: framing". The
 researcher replies:

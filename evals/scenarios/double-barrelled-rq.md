@@ -1,6 +1,6 @@
 # Double-barrelled research question
 
-**Stage:** 2
+**Stage:** 3
 
 ## Setup
 
@@ -36,4 +36,4 @@ people to predict themselves.
 
 ## Standards tested
 
-2.3, 2.9
+3.3, 3.9

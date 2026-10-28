@@ -1,6 +1,6 @@
 # Method-first readout
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -27,7 +27,7 @@ sizing to a 15-minute slot.
 - Because the audience is a VP with 15 minutes, offers the decision-first
   order as an option and says why.
 - Drafts a limits slide and asks the researcher whether it goes in.
-- Mentions library entries as a stage 7 output, or asks whether the team
+- Mentions library entries as a stage 8 output, or asks whether the team
   keeps one.
 
 ## Fail
@@ -40,4 +40,4 @@ sizing to a 15-minute slot.
 
 ## Standards tested
 
-7.1, 7.3, 7.6
+8.1, 8.3, 8.6

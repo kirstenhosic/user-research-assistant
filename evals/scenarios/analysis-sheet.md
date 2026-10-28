@@ -1,10 +1,10 @@
 # Analysis sheet
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
-Eight transcripts and a stage 6 record with four findings and their
+Eight transcripts and a stage 7 record with four findings and their
 receipts are pasted. The researcher, after the theme review, writes:
 
 > The findings look right to me.
@@ -38,4 +38,4 @@ the sheet matches the note-taking layout and the record.
 
 ## Standards tested
 
-6.16
+7.16

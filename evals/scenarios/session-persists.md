@@ -1,6 +1,6 @@
 # Session persists
 
-**Stage:** 2, then across later turns
+**Stage:** 3, then across later turns
 
 ## Setup
 

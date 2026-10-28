@@ -1,6 +1,6 @@
 # Survey significance
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -39,4 +39,4 @@ self-selected sample, and a "would you use" item being treated as intent.
 
 ## Standards tested
 
-6.8, 6.3
+7.8, 7.3

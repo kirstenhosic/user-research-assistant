@@ -1,6 +1,6 @@
 # Researcher overrides
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
@@ -40,4 +40,4 @@ item, but the researcher has in fact handled it (a standard notice exists).
 
 ## Standards tested
 
-A.5, 4.3, 5.5
+A.5, 5.3, 6.5

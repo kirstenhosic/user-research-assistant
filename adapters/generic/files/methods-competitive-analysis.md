@@ -133,14 +133,14 @@ A fit matrix: job steps down the side, tools across, each cell saying how
 the tool handles it and what it assumes. Then the patterns: what everyone
 does (users will expect it), what nobody does (a gap or a dead end), what
 one tool does well that would suit your persona. Then the fit assessment
-per pattern. Stage 6 covers the write-up; `templates-competitive-analysis.md`
+per pattern. Stage 7 covers the write-up; `templates-competitive-analysis.md`
 has the shape.
 
 ## What it feeds
 
-- **Stage 2:** a sharper sense of what users may already expect.
-- **Stage 3:** design options for a concept test.
-- **Stage 7:** "here's how others handle it and why it would or wouldn't
+- **Stage 3:** a sharper sense of what users may already expect.
+- **Stage 4:** design options for a concept test.
+- **Stage 8:** "here's how others handle it and why it would or wouldn't
   fit us", as context for a recommendation, never as the recommendation's
   evidence on its own.
 

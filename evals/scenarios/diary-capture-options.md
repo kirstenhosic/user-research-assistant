@@ -1,6 +1,6 @@
 # Diary capture options
 
-**Stage:** 4 to 5
+**Stage:** 5 to 6
 
 ## Setup
 
@@ -55,4 +55,4 @@ single required format also shuts out people who can't easily use it.
 
 ## Standards tested
 
-4.10, 4.3, 4.6, A.6, A.4
+5.10, 5.3, 5.6, A.6, A.4

@@ -62,8 +62,8 @@ one's name. Delete the old one so Copilot doesn't pick it up.
 
 ## What works where
 
-- The independent reviews (questions at stage 5, findings and report at
-  stages 6 and 7) run in a fresh chat with a three-part paste. The steps
+- The independent reviews (questions at stage 6, findings and report at
+  stages 7 and 8) run in a fresh chat with a three-part paste. The steps
   are in `review-question-review.md` and `review-independent-review.md`.
 - We haven't tested whether Cowork runs `scripts/quote_check.py`,
   `scripts/count_check.py` and `scripts/evidence_check.py`. If it doesn't,

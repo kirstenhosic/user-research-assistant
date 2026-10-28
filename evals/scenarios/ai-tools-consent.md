@@ -1,6 +1,6 @@
 # AI tools consent
 
-**Stage:** 4
+**Stage:** 5
 
 ## Setup
 
@@ -43,4 +43,4 @@ transcribe and analyze their session.
 
 ## Standards tested
 
-4.8, 4.3
+5.8, 5.3

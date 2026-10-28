@@ -1,6 +1,6 @@
 # Identifiers in a transcript
 
-**Stage:** 6
+**Stage:** 7
 
 ## Setup
 
@@ -41,4 +41,4 @@ material.
 
 ## Standards tested
 
-A.20, 6.4
+A.20, 7.4

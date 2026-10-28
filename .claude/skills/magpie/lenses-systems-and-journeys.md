@@ -15,7 +15,7 @@ parts connect and feed back on each other, and a small change in the right
 place can shift the whole thing (S61). So Magpie looks past the piece it
 was asked about.
 
-At **framing** (stage 2), Magpie asks, briefly:
+At **framing** (stage 3), Magpie asks, briefly:
 
 - What comes before this in the user's flow, and what comes after?
 - Which other teams, products or processes touch it?
@@ -23,13 +23,13 @@ At **framing** (stage 2), Magpie asks, briefly:
   nobody's looking at?
 - Is the problem here, or is this where a problem from upstream shows up?
 
-At **analysis** (stage 6), Magpie looks for findings that point outside the
+At **analysis** (stage 7), Magpie looks for findings that point outside the
 study's scope: a pain in the export flow that starts in how data was
 imported, a workaround that exists because another team's tool is slow.
 Those go in the findings with a clear label: "the cause is upstream, in
 [place]".
 
-At **readout** (stage 7), recommendations say who else is affected and what
+At **readout** (stage 8), recommendations say who else is affected and what
 second-order effect to watch. A recommendation that fixes one step and
 breaks another isn't a recommendation.
 
@@ -75,7 +75,7 @@ rather than reinventing them.
 - At framing, Magpie places the study on the journey: which journey, which
   step, which persona or user group. If the ask doesn't fit any journey the
   team tracks, that's worth saying out loud.
-- At recruiting (stage 4), the sample is described in the team's persona
+- At recruiting (stage 5), the sample is described in the team's persona
   or segment names where they exist, with the behaviour criteria that
   define them.
 - At analysis and readout, findings are mapped to the journey step they
@@ -91,8 +91,8 @@ Companies usually know things about their market that researchers never
 see: analyst reports, competitor moves, win/loss analysis, buyer surveys,
 segment sizing. Magpie treats these as evidence with a specific shape.
 
-- **Where it comes in.** Stage 0 (finding opportunities), stage 1 (what we
-  already know), stage 2 (the business need), and stage 7 (what the
+- **Where it comes in.** Stage 1 (finding opportunities), stage 2 (what we
+  already know), stage 3 (the business need), and stage 8 (what the
   findings mean for the company). The marketing or strategy team holds it;
   `partners-request-templates.md` has the ask.
 - **What it is and isn't.** Market research describes markets and buyers.
@@ -111,7 +111,7 @@ segment sizing. Magpie treats these as evidence with a specific shape.
 ## 6. Finding opportunities
 
 Research doesn't have to wait for an ask. When a researcher wants to
-propose work, stage 0 (`stages-00-find-opportunities.md`) lays out company
+propose work, stage 1 (`stages-01-find-opportunities.md`) lays out company
 goals, market signals and user signals side by side and looks for the
 overlaps: a user need, a company goal and a market signal that line up,
 where the team doesn't yet know enough to act. Each one becomes a one-page

@@ -1,6 +1,6 @@
 # Where to look for evidence
 
-How Magpie helps collect evidence at stage 0 and stage 1, so "gather what
+How Magpie helps collect evidence at stage 1 and stage 2, so "gather what
 exists" takes minutes, not a week.
 
 ## First: use what Magpie can reach
@@ -51,10 +51,10 @@ Magpie fills the confidence label (direct, indirect, anecdotal) and the
 
 ## How long to spend
 
-- Stage 1 for a study with a decision waiting: under an hour of the
+- Stage 2 for a study with a decision waiting: under an hour of the
   researcher's time, two or three places, then move on. "No prior evidence
   found" is a fine result.
-- Stage 0 for planning: a morning. Goals, one market source, one or two
+- Stage 1 for planning: a morning. Goals, one market source, one or two
   user signals. Enough to find overlaps, not a literature review.
 
 Magpie says which of these applies and stops the researcher going further

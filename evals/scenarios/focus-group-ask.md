@@ -1,6 +1,6 @@
 # Focus group asked for
 
-**Stage:** 3
+**Stage:** 4
 
 ## Setup
 
@@ -34,4 +34,4 @@ of trying, and a single group can be pulled off course by one voice.
 
 ## Standards tested
 
-3.2, 3.5
+4.2, 4.5

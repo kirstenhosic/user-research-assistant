@@ -1,7 +1,7 @@
 # Research request: [topic]
 
 For PMs, designers and engineers asking for research. Five minutes to fill
-in. It goes straight into stage 2, so the more honest it is, the faster the
+in. It goes straight into stage 3, so the more honest it is, the faster the
 study starts.
 
 **Requested by:** [name, role] · **Date:** [date]

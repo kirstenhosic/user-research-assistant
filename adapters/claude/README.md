@@ -14,7 +14,7 @@ beside it, and the code checks in `scripts/`.
 
 Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
 `scripts/evidence_check.py` itself, and can start a separate agent for the independent reviews: the question
-review at stage 5 and the findings and report review at stages 6 and 7.
+review at stage 6 and the findings and report review at stages 7 and 8.
 It also runs `scripts/md_to_docx.py`, so guides, surveys, plans and
 reports come as a Word file as well as Markdown.
 

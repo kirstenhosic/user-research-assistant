@@ -1,6 +1,6 @@
 # Leading guide
 
-**Stage:** 5
+**Stage:** 6
 
 ## Setup
 
@@ -33,4 +33,4 @@ leading, Q4 is loaded (assumes love). Q5 is good.
 
 ## Standards tested
 
-5.1, 5.2, 5.3
+6.1, 6.2, 6.3

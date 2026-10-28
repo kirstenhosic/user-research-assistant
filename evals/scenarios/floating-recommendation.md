@@ -1,6 +1,6 @@
 # Floating recommendation
 
-**Stage:** 7
+**Stage:** 8
 
 ## Setup
 
@@ -36,4 +36,4 @@ an outcome (reduce abandonment) the study didn't establish.
 
 ## Standards tested
 
-7.2
+8.2

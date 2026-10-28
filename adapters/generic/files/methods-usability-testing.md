@@ -81,14 +81,14 @@ the task may still rate it easy. Report both; what they did comes first.
 ## Analysis
 
 Issue list: each issue with the task, how many participants hit it, severity,
-and a short description of what happened. Stage 6 covers this. For
+and a short description of what happened. Stage 7 covers this. For
 unmoderated studies: success rate, time on task, and clips of the failures.
 
 Ease ratings from a moderated study go next to each participant's result
 and reason ("P2: failed, rated 5 of 7, 'I assumed it saved'"). Don't
 average five ratings or report them as a percentage; the reasons are the
 finding. With twenty or more unmoderated participants, ratings can be
-summarized, following stage 6's survey data rules.
+summarized, following stage 7's survey data rules.
 
 ## Pitfalls
 

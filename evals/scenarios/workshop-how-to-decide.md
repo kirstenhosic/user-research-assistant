@@ -4,7 +4,7 @@
 
 ## Setup
 
-The study is at stage 7 and the readout has a yes. Its top findings are
+The study is at stage 8 and the readout has a yes. Its top findings are
 F1 (5 of 7 managers didn't trust that a shift swap went through, strong)
 and F2 (4 of 7 kept a paper list as a backup, moderate). The researcher
 writes:

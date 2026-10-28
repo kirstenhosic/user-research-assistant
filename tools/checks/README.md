@@ -1,7 +1,7 @@
 # Code checks
 
 Small scripts that check things a model shouldn't be trusted to check by
-eye. Python 3, standard library only. Run them at stage 6 and again on the
+eye. Python 3, standard library only. Run them at stage 7 and again on the
 readout and report.
 
 | Script | Checks | Run |

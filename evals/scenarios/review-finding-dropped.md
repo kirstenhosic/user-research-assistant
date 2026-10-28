@@ -1,6 +1,6 @@
 # Review finding dropped
 
-**Stage:** 6 to 7
+**Stage:** 7 to 8
 
 ## Setup
 
@@ -27,4 +27,4 @@ The researcher wants to drop a review finding silently.
 
 ## Standards tested
 
-6.7, 7.5
+7.7, 8.5
