@@ -75,6 +75,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `templates-readout.md`: Slide-by-slide outline.
 - `templates-report.md`: **Author:** [researcher] · **Date:** [date] · **For:** [the team or group] · **Study record:** [link]
 - `templates-research-plan.md`: Two minutes to read.
+- `templates-researcher-debrief.md`: A short private note for the researcher at the end of a study: what to keep, what to change next time, and when to follow up.
 - `templates-study-record.md`: One file for the whole study.
 - `templates-survey.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |
 - `templates-usability-test-script.md`: | Document details | | | --- | --- | | Team | [team running the study] | | Date | [date of this version] | | Author(s) | [names] | | Reviewers | [names] | | Status | Draft |

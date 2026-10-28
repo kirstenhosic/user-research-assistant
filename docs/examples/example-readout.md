@@ -110,7 +110,8 @@ Who takes each one is for the teams to agree together.
 1. **October 24:** Support counts the finance-team customers, so we know how big finding 2 is.
 2. **October 30:** the team decides, using this deck and the report.
 3. **November:** 3 follow-up sessions with finance teams, if the import warning goes ahead.
-4. **Later:** one open question. Does the import problem affect scheduled reports too?
+4. **January:** check it worked. Fewer exports abandoned after a recent import is the sign.
+5. **Later:** one open question. Does the import problem affect scheduled reports too?
 
 ## 14. What this study can't tell us
 

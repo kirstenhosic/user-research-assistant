@@ -119,7 +119,9 @@ per conversation; it stays on until you say "stop Magpie".
 - **Writes for the people who act on it.** Readouts and reports lead with
   why the study was done and up to five top findings, the most important
   first. Every other finding stays on one page, and each recommendation
-  says which teams it touches.
+  says which teams it touches. The next steps end with "How we'll know it
+  worked": when the team will look back, and what sign would show the
+  change worked.
 - **Writes in American English.** Every output uses American spelling
   and dates written month first ("October 28, 2026"). Quotes from
   participants and the titles of sources stay exactly as they were.
@@ -168,8 +170,9 @@ name one yourself. Each method has a guide Magpie reads when you choose it.
 
 Every study ends the same way: findings with counts and participant
 references, a readout, a report, and research library entries, drafted
-from the templates in [`core/templates/`](core/templates/). A finished
-example is in [`docs/examples/`](docs/examples/).
+from the templates in [`core/templates/`](core/templates/). Magpie also
+offers you, once, a short private debrief that stays out of what the team
+sees. A finished example is in [`docs/examples/`](docs/examples/).
 
 ## Words that steer it
 
@@ -273,7 +276,7 @@ You need a Claude.ai account with Projects.
    `operating.md` from the zip (about 39,000 characters). That's
    the rulebook; the rest are reference files Claude reads when it needs
    them. Don't paste `adapters/generic/system-prompt.md` here; at about
-   325 KB it repeats every file you just added.
+   330 KB it repeats every file you just added.
 4. Start a chat in the project and describe your study.
 
 ### ChatGPT
@@ -338,7 +341,7 @@ the folder as files.
 
 `adapters/generic/system-prompt.md` holds all of Magpie in one file, for
 tools that take one very long system prompt, such as some API setups. It's
-about 325 KB, and the lean version, `system-prompt-lean.md`, is about
+about 330 KB, and the lean version, `system-prompt-lean.md`, is about
 180 KB. Most custom-instruction boxes in chat apps are far smaller, so
 expect them to refuse both.
 
@@ -349,7 +352,7 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
-- **Early results look good but aren't confirmed.** There are now 110
+- **Early results look good but aren't confirmed.** There are now 112
   test scenarios. Most of the first 36 passed, but that run didn't prove
   Magpie was loaded each time. Later runs used stricter rules. 6 of 7
   coaching scenarios and 7 of 8 HEARTS scenarios passed, with one partial
@@ -360,7 +363,7 @@ As of October 28, 2026.
   American English. All results so far were judged by a model, not yet
   by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 126 standards in
+- **Its rules are written down.** Magpie follows 128 standards in
   [`core/standards/`](core/standards/). 54 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.

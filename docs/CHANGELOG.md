@@ -17,7 +17,20 @@
   day-first dates in the files people write. The README was updated for
   the drafting gate, the review state in the status line, the release
   check, confidence and priority, and method choice, with current counts
-  and file sizes.
+  and file sizes. The new debrief and look-back text from the entries
+  below was converted as well.
+- The next steps in every readout and report now end with "How we'll know
+  it worked": when the team looks back, who looks with the researcher, and
+  the sign that would show the change worked (standard 8.17). It's one
+  line, drafted with the other next steps and reviewed with them. The
+  example report and deck show it.
+- At the end of stage 8, Magpie offers the researcher a private debrief,
+  once (new `core/templates/researcher-debrief.md`, standard 8.18): what
+  worked, what to change next time, follow-up dates, how the readout
+  landed, and one skill to practise. It's kept to one screen, stays out of
+  the study record, report and readout, and the study record notes that
+  it was offered so it isn't offered again. Scenarios `look-back-line` and
+  `researcher-debrief`; neither has been run live yet.
 - Choosing a method now weighs the same things two method-choice guides
   do (Rohrer at Nielsen Norman Group, S11, and Alvarez at UserTesting,
   S72). Before naming a method, stage 4 places the question on four lines:

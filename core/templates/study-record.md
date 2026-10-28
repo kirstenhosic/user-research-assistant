@@ -29,6 +29,7 @@ updates it whenever the stage changes or something here is settled.
 | Stage 3 your turn: decision, primary question, team's questions, assumptions | not yet / done by the researcher / handed back |
 | Stage 7 your turn: the researcher's patterns | not yet / done / handed back / not needed |
 | Stage 8 your turn: what each partner should do | not yet / done / handed back / already in the material |
+| Stage 8 researcher debrief | not yet / offered and made / offered and skipped |
 | Challenges given | [stage: the challenge in a few words, and answered / skipped / handled] |
 
 ## Product
