@@ -84,7 +84,7 @@ the end, and no probing during tasks.
 
 ## Basis
 
-S70 (what benchmarking is; a summative snapshot of one version, run at
+S73 (what benchmarking is; a summative snapshot of one version, run at
 the end of a design cycle; example measures, including support data;
 comparison with an earlier version, a competitor, an industry figure or a
 stakeholder goal; analytics, surveys and quantitative usability testing

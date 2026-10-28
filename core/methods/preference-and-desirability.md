@@ -78,11 +78,11 @@ Inside a usability test, add the questions after the tasks in
 
 ## Basis
 
-S74 (preference testing with two or three versions that vary in a few
+S77 (preference testing with two or three versions that vary in a few
 things, order shuffled; noticeable differences or people invent a
 preference; ask why only when moderated; ask about looks after usability
 tasks, because choosing a favourite first hides its problems; word-choice
-methods; ratings need more people than qualitative methods). S73 (the
+methods; ratings need more people than qualitative methods). S76 (the
 desirability toolkit, first published by Benedek and Miner at Microsoft as
 described there: people pick about five words; adapt the list to what you
 measure; about 25 words or fewer in surveys; shuffle; mix negative,

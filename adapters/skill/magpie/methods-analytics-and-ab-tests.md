@@ -95,10 +95,10 @@ the question, the numbers, the time period and when they're needed.
 
 ## Basis
 
-S72 (three uses of analytics: spotting issues, investigating them, and
+S75 (three uses of analytics: spotting issues, investigating them, and
 checking findings from qualitative research; numbers as clues read in
 context; a small test finds the spot and analytics sizes it; the risk of
-data with no question). S71 (what an A/B test is; live product and
+data with no question). S74 (what an A/B test is; live product and
 enough traffic, often thousands of users; one change at a time; a
 hypothesis from research; main and guardrail measures; duration set in
 advance, at least one to two weeks; an A/A test of a new tool; don't stop

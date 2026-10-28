@@ -80,12 +80,17 @@ again.
    yet" is fine; it goes in the risks until it's done. Magpie's findings
    are a draft until a person has read what they rest on.
    `checks-ai-assisted-research.md`, sections 2 and 3.
-7. **Top findings, never more than five.** The findings the decision
-   rests on, one line each with strength and whether it's enough for this
-   decision; a not-enough finding says what would make the team surer and
-   roughly what that costs (`lenses-minimum-viable-rigor.md`). Confidence
-   never rises to fit a deadline. An unexpected finding can be
-   one of the five if it's serious enough. Then one slide per top finding,
+7. **Top findings, never more than five.** The highest-priority findings
+   for this decision, in the order the researcher agreed at stage 7, ties
+   broken by the primary research question
+   (`lenses-confidence-and-priority.md`). One line each with its priority,
+   its confidence and why, and whether it's enough for this decision; a
+   not-enough finding says what would make the team surer and roughly
+   what that costs (`lenses-minimum-viable-rigor.md`), and a high-priority
+   finding with weak confidence is marked "check next". Priority and
+   confidence are shown side by side; neither changes the other.
+   Confidence never rises to fit a deadline. An unexpected finding is one
+   of the five when its priority puts it there. Then one slide per top finding,
    pitched for PMs and engineers: enough to believe it and act on it.
    Depth goes to the appendix.
 8. **Other findings, on one slide.** Every finding that met the evidence
@@ -93,11 +98,14 @@ again.
    "unexpected" where it fell outside the research questions. Nothing that
    passed the evidence bar is dropped from the readout; the only way a
    finding leaves is if its evidence doesn't hold, and then it goes in the
-   appendix with the reason. The study record's findings table stays the
+   appendix with the reason. List them in priority order, each with its
+   priority and confidence. The study record's findings table stays the
    full list; the top five are a selection from it.
 9. **Summarize, then recommend in detail.** A short summary slide, drawn
    from this study's focus, goals and findings rather than fixed
    headings, then recommendations as actions with the teams they touch,
+   numbered in the priority order of the findings they rest on unless the
+   researcher orders them differently,
    built from the researcher's your-turn answers where they gave them.
    Don't make one named person carry the decision or an action; say "the
    team" unless the researcher asks for names. Keep their words; where

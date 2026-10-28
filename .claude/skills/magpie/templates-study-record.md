@@ -110,6 +110,16 @@ Known assumptions, plus every challenge that was skipped and why.
 - **Trade-offs accepted:** [What this approach won't tell us]
 - **Partner data requested:** [Team, what, status]
 
+## Participants
+
+Who the findings should speak for, and how well each participant fits.
+
+**Target users:** [who the study is meant to speak for]
+
+| Code | Role | Segment | Fit to target users |
+| --- | --- | --- | --- |
+| P1 | | | matches / partly: [how] / stand-in: [for whom] / not known |
+
 ## Instruments
 
 - [Guide, script or survey: link or file name]
@@ -137,17 +147,31 @@ Each finding is a claim with its evidence, including what cuts against it.
 Every count lists the participants and lines behind it: "3 of 8 (P1 06,
 P5 06, P7 06)".
 
-| Finding | Supporting evidence | Contradicting evidence | Strength | Enough for the decision? |
+| Finding | Supporting evidence | Contradicting evidence | Strength and confidence line | Enough for the decision? |
 | --- | --- | --- | --- | --- |
-| | | | strong / moderate / weak | yes / with a caveat: [what] / no: [what would make it enough] |
+| | [codes, each tagged seen / past time / opinion] | | strong / moderate / weak: [count and segments; fit; seen or said; other sources agree / disagree / none yet] | yes / with a caveat: [what] / no: [what would make it enough] |
 
 Strength: **strong** (consistent across most participants or statistically
 reliable), **moderate** (clear pattern with exceptions), **weak** (few
-participants or mixed signals).
+participants or mixed signals). Behaviour that rests only on opinions, or
+a finding that rests only on stand-ins, is moderate at most. "No other
+sources yet" lowers nothing (`lenses-confidence-and-priority.md`).
+
+## Priority
+
+How much each finding matters, kept apart from how sure we are. Listed in
+priority order.
+
+| Finding | Impact and why | Reach and why | Priority | Check next? |
+| --- | --- | --- | --- | --- |
+| | high / medium / low: [on users; on the decision] | wide / some / narrow: [in the study; outside it, or "not known"] | high / medium / low | yes: [what would make us surer] / no |
+
+**Order:** [agreed with the researcher on [date] / Magpie's draft, not yet
+reviewed]
 
 ## Recommendations
 
-| Action | Owner | Answers question | Serves decision | Confidence |
+| Action | Teams involved | Answers question | Serves decision | Confidence |
 | --- | --- | --- | --- | --- |
 | | | | | |
 

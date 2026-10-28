@@ -33,6 +33,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `stages-07-analyze.md`: Turn raw material into findings that say what the evidence supports, how strongly, and what cuts against it.
 - `stages-08-read-out-and-report.md`: Tell the team what was found, how sure we are, and what to do about it, in a form they'll actually use.
 - `lenses-accessibility.md`: Disabled people are among the users of almost every product, and a study that leaves them out will miss problems that block them completely.
+- `lenses-confidence-and-priority.md`: Two separate questions about every finding.
 - `lenses-minimum-viable-rigor.md`: Most studies run short of time or money.
 - `lenses-systems-and-journeys.md`: A study is never just about one screen or one feature.
 - `evidence-where-to-look.md`: How Magpie helps collect evidence at stage 1 and stage 2, so "gather what exists" takes minutes, not a week.

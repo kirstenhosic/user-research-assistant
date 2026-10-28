@@ -321,15 +321,15 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish. Their setup steps come from each
   company's help pages, so expect small differences.
-- **Early results look good but aren't confirmed.** There are now 105
+- **Early results look good but aren't confirmed.** There are now 109
   test scenarios. Most of the first 36 passed, but that run didn't prove
   Magpie was loaded each time. Three later runs used the stricter rules: 6
   of 7 coaching scenarios and 7 of 8 HEARTS scenarios passed, with one
   partial each, and the diary capture scenario passed. All were judged by
   a model, not yet by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 121 standards in
-  [`core/standards/`](core/standards/). 51 cite a public source, at least
+- **Its rules are written down.** Magpie follows 125 standards in
+  [`core/standards/`](core/standards/). 54 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.
   Every source is listed in [`docs/PROVENANCE.md`](docs/PROVENANCE.md).

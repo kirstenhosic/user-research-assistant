@@ -18,7 +18,7 @@ The same rows and research-question columns as the note-taking sheet.
 | Participant | Who they are | RQ1: [question] | RQ2: [question] | Also noticed |
 | --- | --- | --- | --- | --- |
 | P1 | [role, segment] | [what they said or did, with line numbers, and the codes applied in brackets] | | |
-| **Findings** | | [each finding for this question: claim, N of M with codes, strength] | | |
+| **Findings** | | [each finding for this question: claim, N of M with codes, strength, priority] | | |
 
 - Each cell says what that participant said or did on that question,
   with transcript references written as in the study record ("Invited

@@ -4,7 +4,7 @@
 
 - Choosing a method now weighs the same things two method-choice guides
   do (Rohrer at Nielsen Norman Group, S11, and Alvarez at UserTesting,
-  S69). Before naming a method, stage 4 places the question on four lines:
+  S72). Before naming a method, stage 4 places the question on four lines:
   the kind of question, whether it needs what people say or what they do
   (leaning on what they do), where the product stands (exploring,
   designing, or live and measured) and the setting (real or scripted use,
@@ -17,9 +17,34 @@
   analytics and A/B tests, and preference and desirability testing, with
   a check that a measuring method has what it needs before it's planned
   (4.13). The usability testing guide gains a section on remote moderated
-  sessions. Sources S69 to S75; scenarios `say-or-do`, `pair-methods` and
+  sessions. Sources S72 to S78; scenarios `say-or-do`, `pair-methods` and
   `ab-test-ask`, and `method-reasoning` now checks the what-you'll-get
   line. None of the new scenarios has been run live yet.
+- Every finding now says how sure we are and how much it matters, as two
+  separate things (new `core/lenses/confidence-and-priority.md`).
+  **Confidence** keeps the strong, moderate or weak label and adds a
+  one-line reason: the count and segments, how well the people fit the
+  target users (matches, partly, stand-in, not known), whether it was seen,
+  described as a real past time, or an opinion, whether other sources
+  agree or disagree, and who didn't fit. Behaviour that rests only on
+  opinions or predictions, and findings that rest only on stand-ins
+  (buyers, admins, colleagues speaking for users), are moderate at most.
+  A gap between what people said and what they did is a finding of its
+  own. Having no other source yet, as in a first study on a topic, lowers
+  nothing and is said plainly. **Priority** comes from impact and reach,
+  read off a small grid, and confidence never changes it; a high-priority
+  finding with weak confidence is marked "check next". Magpie shows the
+  findings in priority order and asks whether the order matches the
+  researcher's. The top findings in the readout and report are now the
+  highest-priority ones, each with both labels and their reasons, and
+  recommendations follow the same order. Stage 7 asks who the target
+  users are and whether other sources exist, if the record doesn't say.
+  The study record gains a Participants table (with fit) and a Priority
+  table, and its Recommendations table names "Teams involved" instead of
+  an owner. Stage 7's duplicate step 16 is renumbered. New standards 7.17,
+  7.18, 7.19 and 8.16 (121 in all), sources S69 to S71, and scenarios
+  `first-study-no-sources`, `opinion-only-behaviour`, `stand-in-only` and
+  `rare-blocker-ranking`.
 - The status line shows where the required reviews stand. From the guide
   stage on it carries a `Reviews:` segment after the waiting-for-yes
   items, with the question review, the findings review and the report

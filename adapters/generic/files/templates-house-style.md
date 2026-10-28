@@ -28,8 +28,8 @@ sentences.
 ## Lists
 
 - **Numbers only where order or rank matters:** top findings (ranked by
-  how much the decision rests on them), recommendations (in priority
-  order), and steps someone will follow. A reader can then say "finding
+  priority, `lenses-confidence-and-priority.md`), recommendations (in
+  priority order), and steps someone will follow. A reader can then say "finding
   2" in a meeting and everyone looks at the same thing.
 - **Bullets for items with no order.** Three to seven per list. More than
   seven: group them under subheadings or make a table.

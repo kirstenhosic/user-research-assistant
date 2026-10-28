@@ -137,7 +137,7 @@ and order unchanged, ten items, a 0 to 100 score that isn't a percentage;
 twenty to thirty users or more for questionnaire numbers; pair a rating
 with "why"); S12 (numbers from small qualitative studies carry large
 error). Probing after rather than during the task, and the debrief:
-practitioner judgment. Remote, moderated: S75 (advantages and the
+practitioner judgment. Remote, moderated: S78 (advantages and the
 extra preparation; choosing a call tool; how tasks reach the participant,
 with the moderator reading them as the weakest choice; a tech check the
 day before on something else; reminders; observers; recruiting extra and
