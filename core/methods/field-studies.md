@@ -73,6 +73,30 @@ breakdowns and workarounds, then themes across sites (stage 7). Note the
 setting for every finding, since a problem that appears only at one site
 may be about that site.
 
+## Worked example
+
+> **Decision.** Whether Dockside (warehouse returns) builds a mobile
+> scanning app or improves the desk screens. Operations decides next
+> quarter.
+>
+> **Research question.** Where does a return physically go between the
+> loading bay and the desk, and who touches it?
+>
+> **Kind.** Direct observation, then a site visit led by the floor
+> manager, at four sites across two regions; two observers, one shared
+> observation guide.
+>
+> **Access.** Permission from the site manager and the clerks; consent
+> for photos of the floor with no faces; agreed not to record the
+> loading bay cameras' area.
+>
+> **Finding, as reported.** At 3 of 4 sites a return is handled by three
+> people before it reaches the desk (bay, sorting, desk), and the paper
+> slip travels with it; the desk screen is the first place it's typed.
+> Site D (the smallest) has one person doing all three. Reported per
+> site, with the setting next to each finding, since a problem seen at
+> one site may be about that site.
+
 ## Pitfalls
 
 - Turning it into an interview at a desk.

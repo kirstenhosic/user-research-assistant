@@ -163,6 +163,12 @@ sessions, or say "you do it", skip it.
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
     and say when to bring the result back.
+17a. **Offer a journey map or personas where the findings are that
+    shape** (`methods/journey-maps-and-personas.md`): a sequence across
+    sessions, or two or three distinct kinds of participant. Offer in one
+    line, once; build it from the coded findings with the counts and
+    codes in every cell, mark what the study didn't cover, and say which
+    kind of persona it is.
 18. **Offer the analysis sheet** (`templates/analysis-sheet.md`) in one
     line once the findings are drafted: an Excel file laid out like the
     note-taking sheet, filled with what each participant said on each

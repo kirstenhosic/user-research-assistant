@@ -16,7 +16,7 @@ in `tools/build.py` assembles these files into the adapters for each platform.
 | `checks/` | Checklists for research questions, guide wording, survey wording, ethics and consent, claim strength, release, and AI-assisted research (AI moderators, AI summaries, receipts, participant quality) | Phase 2–3 |
 | `review/` | The independent reviews (questions, and findings and reports): when they run and the prompts they use | Phase 3 |
 | `partners/` | Request templates for analytics, field, support and other teams | Phase 2 |
-| `templates/` | Study record, plan, interview guide, usability test script, survey, readout, report, researcher debrief, workshop agenda and summary, opportunity brief | Phase 1–3 |
+| `templates/` | Study record, plan, interview guide, usability test script, survey, concept test guide, diary study, card sort and tree test, journey map, persona, readout, report, researcher debrief, workshop agenda and summary, opportunity brief | Phase 1–3 |
 | `team/` | Team profile, intake form, research library entry | Phase 3 |
 | `voice.md` | Magpie's voice, with example lines | Phase 2 |
 

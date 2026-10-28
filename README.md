@@ -132,8 +132,11 @@ name one yourself. Each method has a guide Magpie reads when you choose it.
 | [Benchmarking](core/methods/benchmarking.md) | Whether the experience is getting better, against a set point | Measures, comparison point, a plan you can repeat |
 | [Analytics and A/B tests](core/methods/analytics-and-ab-tests.md) | What people do in a live product, and which version does better | Data request, test plan with guardrails, what it can't say |
 | [Preference and desirability testing](core/methods/preference-and-desirability.md) | How a design looks and feels to people | Versions or word list, questions, counts with reasons |
-| [Card sorting and tree testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, and whether they can find them | Card and task lists, findings |
+| [Card sorting, tree testing and first-click testing](core/methods/card-sorting-and-tree-testing.md) | How people group and name things, whether they can find them, and where they go first | Card and task lists, findings |
 | [Evidence review](core/methods/evidence-review.md) | What the organization already knows | Evidence log, gaps, one-page brief |
+| [Coding customer feedback](core/methods/customer-feedback-coding.md) | What people write in about, and how that's changing | Code frame, counted themes with their limits |
+| [Stakeholder interviews](core/methods/stakeholder-interviews.md) | What the project is for and what stakeholders believe, before research is planned | Interview guide, success measures, beliefs logged as hypotheses |
+| [Journey maps and personas](core/methods/journey-maps-and-personas.md) | The shape of a journey, or the kinds of user, built from findings | Map and personas with participant codes in every cell |
 | [Competitive analysis](core/methods/competitive-analysis.md) | How other tools solve the same job | Comparison built around the user's job |
 | [Stakeholder workshops](core/workshops/stakeholder-workshops.md) | Agreement on the problem, or actions from findings | Agenda, actions with the teams involved, summary |
 | [Finding opportunities](core/stages/01-find-opportunities.md) | Where company goals and user signals overlap | Opportunity briefs with a decision and the team that would make it |
@@ -330,7 +333,7 @@ As of October 28, 2026.
   partial each, and the diary capture scenario passed. All were judged by
   a model, not yet by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 127 standards in
+- **Its rules are written down.** Magpie follows 132 standards in
   [`core/standards/`](core/standards/). 54 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.

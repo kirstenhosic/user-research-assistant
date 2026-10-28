@@ -47,6 +47,35 @@ how to choose between them.
    let them correct you. Their corrections are often the best data of the
    session.
 
+## Remote contextual inquiry
+
+When you can't be there, the participant shares their screen and, where
+the work leaves the screen, points a phone camera at it. The session shape
+holds. Ask for what the camera misses: "What's on the desk?", "Who else is
+in the room?", "What did you just look at?" Expect to see the happy path
+more than you would on site, because the participant chooses what to
+show; say so in the findings. `methods/field-studies.md` covers remote
+sessions and their limits.
+
+## After each session: the team interpretation
+
+Within a day, the people who were in the session (and one or two who
+weren't) go through the notes together, in order, and build three
+things:
+
+- **The sequence.** The steps as they actually ran, with the triggers,
+  the waits and the handoffs between people and tools.
+- **The artifacts.** Everything the person used or made: the sticky
+  note, the spreadsheet on the side, the printed list. What each one is
+  for, and what in the product it stands in for.
+- **The breakdowns.** Each moment where the work stalled or the person
+  improvised, with what caused it as far as you saw.
+
+Keep what you saw apart from what you think it means. Questions that
+come up go on a list for the next session. After the last session, lay
+the sequences side by side and look for the steps everyone has, the
+steps only some have, and the breakdowns that repeat (stage 7).
+
 ## What makes it good
 
 - You're an apprentice, not an interviewer. They're the expert, and either
@@ -61,6 +90,31 @@ how to choose between them.
 
 Map the workflow as it actually runs, with the tools and people involved
 and the breakdowns marked. Then themes across sessions. Stage 7 covers this.
+
+## Worked example
+
+> **Decision.** Whether Dockside (warehouse returns) replaces the paper
+> returns log with in-app steps. Operations decides this quarter.
+>
+> **Research question.** How do returns clerks process a return today,
+> and where does the work leave the system?
+>
+> **Sample.** Five clerks at five sites, 90 minutes each, on a normal
+> shift.
+>
+> **Session.** Primer and consent for screen photos; the transition said
+> aloud; watched ten returns; asked "what's the notepad for?" when it
+> appeared; wrap-up where the researcher's reading ("you don't trust the
+> screen") was corrected by the participant ("only the refund bit, it
+> resets").
+>
+> **Interpretation, same day.** Sequence: scan, search, refund, confirm.
+> Artifacts: a sticky-note SKU list on the drawer (3 of 5 sites), a
+> notepad for refund amounts (P3). Breakdowns: search times out on
+> unlabelled items (P1, P3, P5); refund screen resets (P3, P5). Finding,
+> as reported: the paper exists because of two system failures, not a
+> preference for paper; removing it without fixing them removes the
+> workaround.
 
 ## Pitfalls
 
@@ -87,4 +141,5 @@ interpretations for the end and letting the participant correct them;
 pitfalls of interview mode, complaint sessions and researcher reactions;
 a small sample of people qualified in the work); S52 (definition); S33
 (contextual inquiry as one kind of field study). The sample range, the
-session length and the observation-sheet columns: practitioner judgment.
+session length, the remote section, the team interpretation and the
+observation-sheet columns: practitioner judgment.

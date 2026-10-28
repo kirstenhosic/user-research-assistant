@@ -66,6 +66,35 @@ reaches people who can't travel. It takes more preparation.
   can do it.
 - At the start, ask permission to record and confirm the end time.
 
+## Testing with assistive technology
+
+Some sessions, in most studies, should be with people who use a screen
+reader, magnification, speech input, switch access or the keyboard
+alone. `lenses/accessibility.md` covers recruiting and running them; the
+points that change the test itself:
+
+- **Clear the obvious first.** Have someone who knows accessibility check
+  the design against a standard (WCAG) before the sessions, and fix what
+  that finds. Then the sessions find what only users can show.
+- **Match the participant to the audience.** An expert screen-reader user
+  suits a tool for specialists; a public service needs people who are
+  new to their assistive technology too. Recruit a range; one person's
+  experience doesn't stand for everyone with that disability.
+- **Their own setup.** Their device, their software, their settings.
+  Check in the tech check that the prototype works with it at all; if it
+  doesn't, that's a finding, not a session.
+- **Think-aloud, with more help from the moderator.** Ask what they hear
+  and what they're trying to do, and point tasks at the parts of the
+  design the team is unsure about.
+- **Analyze the cause, not only the failure.** An error can come from the
+  content, the browser, the assistive technology, the person's
+  familiarity with it, or plain bad design. Record which, with the
+  technology and settings next to each issue, and report what blocked
+  people ahead of time on task.
+- **Don't generalize from a few.** Say in the report who took part, with
+  what technology, and that the sessions were not a conformance check.
+  The team needs both.
+
 ## What makes it good
 
 - Tasks have a written success criterion before the session.
@@ -120,6 +149,28 @@ average five ratings or report them as a percentage; the reasons are the
 finding. With more than thirty unmoderated participants, ratings can be
 summarized, following stage 7's survey data rules.
 
+## Worked example
+
+> **Decision.** Whether Tally (expense tracking) ships the redesigned
+> receipt capture flow next month or holds it for another round.
+>
+> **Research question.** Can people photograph a receipt and file it to
+> the right expense claim without help, and where do they get stuck?
+>
+> **Sample.** Five people who filed an expense claim in the last month,
+> moderated, remote, 45 minutes.
+>
+> **Tasks.** "You've just paid for a client lunch and have the receipt.
+> Add it to this month's claim." Success: receipt attached to the March
+> claim with the amount matching. Then the ease rating and "why that
+> number?"
+>
+> **Issue, as reported.** 4 of 5 attached the receipt to a new claim
+> instead of the existing one (P1, P2, P4, P5), because the "Add to
+> claim" sheet opens on "New claim". Severity: high (frequent, blocked
+> the task, would happen every time). Ease ratings 3, 4, 6, 2, 5 of 7,
+> each next to its reason; no average reported.
+
 ## Pitfalls
 
 - Leading tasks that name the feature or the button.
@@ -152,5 +203,13 @@ extra preparation; choosing a call tool; how tasks reach the participant,
 with the moderator reading them as the weakest choice; a tech check the
 day before on something else; reminders; observers; recruiting extra and
 spare time; a pilot that tests the test; recording consent at the start).
-Background: S7. Session timings, probing after rather than during the
-task, the debrief, and the pitfalls: practitioner judgment.
+Background: S7. Testing with assistive technology: S98 (an expert
+review for obvious barriers first; match assistive technology experience
+to the audience; a range of participants, since one person doesn't stand
+for all; think-aloud with high facilitator interaction and tasks aimed at
+areas of concern; errors can come from content, browser, assistive
+technology, unfamiliarity or poor design; focus on barriers over time on
+task; combine with a conformance evaluation; don't generalize from a few;
+report scope, methods and participants). Session timings, probing after
+rather than during the task, the debrief, and the pitfalls: practitioner
+judgment.

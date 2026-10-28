@@ -32,6 +32,21 @@ better.
   Usability Scale), or something analytics records, such as how many
   people finish a form or come back after eight weeks. Support contacts
   about a task can count too.
+- If the team has a metrics framework, pick from it. One common one
+  names five kinds of measure: happiness (attitudes: satisfaction, ease),
+  engagement (how often and how deeply people use it), adoption (new
+  users in a period), retention (who's still there later) and task
+  success (completion, time, errors). Not every project needs all five;
+  a tool people must use at work may care about task success and
+  happiness and not engagement. For each goal the team names, decide
+  what people would do or say if it were met (the signal), then how to
+  count it as a rate or a per-user figure, not a raw count that grows
+  with the user base (the metric).
+- Start tasks from the home screen, not inside the flow. Analytics only
+  sees people who got into a flow; it can't count the ones who wanted to
+  and never found the way in. A benchmark that starts each task from
+  the top catches them, and failing to find the start is often the
+  biggest problem.
 - Choose what you'll compare against before you measure. A number on its
   own means nothing. In the first round there is no earlier version, so
   compare with a competitor, a published figure or a goal the team agrees
@@ -68,6 +83,40 @@ compared with. Test the difference before calling it a change (stage 7).
 Say what else changed between rounds besides the design (a new kind of
 customer, a price change, a season).
 
+Report a change in its own unit ("12 points higher completion", "20
+seconds faster"), with the range it probably sits in, and say what it
+means at the product's volume ("about 400 more completed orders a
+month"). Agree before the round what size of change would count as
+worth acting on; deciding afterwards makes any result look like the
+one the team wanted.
+
+A SUS score is not a percentage. Across about 500 studies the average
+is 68; above 68 is better than average, and a 74 is only a little
+above it. Report it against that average, or as a percentile, so the
+team doesn't read 68 as "a D".
+
+## Worked example
+
+> **Decision.** Whether the BrightPay (payroll) pay-run redesign, live
+> since March, is better than the old one, and whether to roll it out to
+> the remaining accounts.
+>
+> **Measures, chosen before March.** Task success and time for "run this
+> month's payroll for 12 employees with one new starter", from the home
+> screen; an ease rating after the task; SUS after the session; from
+> analytics, pay runs completed in one sitting. Comparison: the same
+> study run on the old version in January.
+>
+> **Sample.** 42 payroll admins per round, unmoderated, same screener,
+> same tasks and wording.
+>
+> **Result, as reported.** Success 31 of 42 (74%) against 22 of 40 (55%)
+> in January: 19 points higher, likely between 1 and 36. Median time 11
+> minutes against 16. SUS 71 against 62 (both reported against the
+> 68 average, not as percentages). What else changed: a pricing change
+> in February. The agreed bar was 10 points on success; met, with a wide
+> range, so the readout says "better, by how much is uncertain".
+
 ## Pitfalls
 
 - A number with nothing to compare it to.
@@ -92,5 +141,16 @@ as the usual ways to collect; how often is the team's call). S11
 (benchmarking as tightly scripted and summative, at the launch and assess
 phase). S38 (the Single Ease Question, the System Usability Scale, twenty
 or more people for questionnaire numbers). S12 (report the interval;
-test before claiming a difference). Keeping every round the same and
-naming what else changed: practitioner judgment.
+test before claiming a difference). S97 (the HEART
+categories happiness, engagement, adoption, retention and task success;
+goals, signals and metrics; not every category fits every project;
+normalize counts into rates or per-user figures; define terms before
+tracking). S87 (log data misses people who wanted to start a task and
+never found it; a behavioral benchmark that starts from the home page
+captures intent and shows navigation failures). S96 (the average SUS
+score across about 500 studies is 68; a score isn't a percentage; report
+it as a percentile against that average). S84 and S85 (report raw
+differences in their own units with intervals; make them concrete at
+the product's volume; set the "big enough" bar before the data arrives).
+Keeping every round the same and naming what else changed: practitioner
+judgment.

@@ -34,7 +34,11 @@ and shape what to test; it can't stand behind a recommendation on its own.
 ## Heuristic evaluation
 
 1. **Prepare.** Pick the heuristics (Nielsen's ten usability heuristics
-   are the common set; add domain-specific ones if needed). Narrow the
+   are the common set, S95: visibility of system status, match with the
+   real world, user control and freedom, consistency and standards, error
+   prevention, recognition over recall, flexibility and efficiency,
+   aesthetic and minimalist design, help with errors, help and
+   documentation; add domain-specific ones if needed). Narrow the
    scope to a task, a section, a user group or a device. Agree how issues
    will be recorded.
 2. **Review alone.** Three to five reviewers, each working independently
@@ -76,6 +80,26 @@ reviewers found it, and a note on whether users need to confirm it. Then
 the short list of tasks to put in front of users. Keep it separate from
 findings from users, in the record and in any readout.
 
+## Worked example
+
+> **Decision.** Which tasks to put in next month's usability test of
+> Tally's (expense tracking) new approvals flow, and what to fix before
+> it.
+>
+> **Review.** Heuristic evaluation, four reviewers (two designers, a
+> content designer, a support lead), independently, 90 minutes each, on
+> the approvals flow only, against Nielsen's ten heuristics.
+>
+> **Combined list.** 23 issues; 6 found by three or more reviewers.
+> Top: no confirmation after "Approve" (visibility of system status,
+> 4 of 4 reviewers); "Reject" and "Return for changes" look the same
+> (error prevention, 3 of 4).
+>
+> **As recorded.** Every issue is [assumption] in the evidence log:
+> "Reviewers predict people won't know an approval went through." The
+> two top issues become test tasks; three cheap fixes (labels) go in
+> before the test. Nothing from the review appears as a finding.
+
 ## Pitfalls
 
 - Presenting review issues as "users struggle with…".
@@ -96,6 +120,6 @@ hours each, narrow scope, consolidate afterwards, heuristics are
 guidelines, it can't replace user research); S35 (cognitive walkthrough:
 the four questions, a cross-functional group, a facilitator and a recorder,
 best for new or unfamiliar systems, to be combined with usability
-testing). The [assumption] label and keeping results apart from user
+testing); S95 (the ten heuristics by name). The [assumption] label and keeping results apart from user
 findings follow `operating.md`. Avoiding self-review, the pitfalls and
 the issue-list columns: practitioner judgment.
