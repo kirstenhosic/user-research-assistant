@@ -33,7 +33,7 @@
     report, and gains two questions: can every finding be traced to its
     source, and is the language plain. The claim-strength check is now a
     named step on the deck and report.
-  - Standards 2.8, 5.8 and 5.9 added, 7.5 extended. Four new eval
+  - Standards 2.9, 5.8 and 5.9 added, 7.5 extended. Four new eval
     scenarios (not yet run).
   - Word files: guides, surveys, plans and reports come as .docx as well
     as Markdown, so colleagues can edit together. New
@@ -53,8 +53,33 @@
     a matching analysis sheet (`templates/analysis-sheet.md`) with
     evidence per participant, findings, themes and codes; "make the sheet"
     builds it. New `tools/export/make_sheet.py` writes .xlsx with the
-    standard library. Standards A.22, 5.10, 6.14; A.21 extended; three new
+    standard library. Standards A.22, 5.10, 6.16; A.21 extended; three new
     scenarios.
+- Minimum viable research and minimum viable rigor, for every study. A
+  new lens, `lenses/minimum-viable-rigor.md`, draws on Nick Lioudis's
+  User Interviews guide (S63) and Carl J. Pearson's article (S64). Stage
+  2 now rates the decision risk (low, medium or high) from what a wrong
+  call would cost and whether it can be undone. Stage 3 matches the
+  study's rigor to that risk, checks the plan against a floor of
+  shortcuts that break the answer, and, when the budget can't reach the
+  floor, offers the smaller question that can be answered. Stage 4 tries
+  time-saving moves that keep rigor before any cut, and lists what each
+  cut costs. Stage 6 re-judges each finding on what actually happened in
+  the sessions and marks it enough, enough with a caveat, or not enough
+  for the decision; stage 7 and the report and readout templates carry
+  that line. The team, not one named person, decides how much risk to
+  accept. New standards 2.8, 3.9, 4.9, 6.15 and 7.14, and evals
+  `quick-low-risk`, `below-the-floor` and `rigor-after-sessions`.
+- Competitive analysis now works when nobody can get into the competitor
+  tools. The method has two routes, hands-on and public sources only, with
+  a ranked list of public sources (help docs and demos first, marketing
+  last). Every tool and cell is marked walked, shown or described, so a
+  marketing claim is never read as an observation. A new section says how
+  Magpie handles screenshots, photos, screen recordings, demo videos and
+  web pages: it says which it can read in this setup, asks for stills or a
+  transcript when it can't take video, logs each page with URL and date,
+  and never signs up for accounts or gets past a login. New standard 3.8
+  and eval `public-only-competitors`.
 - Next steps in the report and readout templates now have three parts:
   what happens now (with the teams involved), open questions, and the
   researcher's own next steps. Magpie drafts all three from the findings

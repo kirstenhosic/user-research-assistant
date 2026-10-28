@@ -52,8 +52,9 @@ long the study can take.
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
    (`methods/competitive-analysis.md`) as a cheap first step or a companion
-   to the main method. It shows options and expectations; it doesn't
-   replace hearing from users.
+   to the main method. It works from public sources when nobody can get
+   into the tools. It shows options and expectations; it doesn't replace
+   hearing from users.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences. If
    the ask names a method, check it against the question the same way. A
@@ -72,7 +73,15 @@ long the study can take.
 7. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
-8. **Ask about partner data.** Would telemetry help choose who to recruit, or
+8. **Match the rigor to the decision risk** (`lenses/minimum-viable-rigor.md`).
+   Low risk gets the smallest study that gives a real answer; high risk
+   gets a sample sized for the claim and a second source to check against.
+   Say in a line how the recommendation fits the risk from stage 2. Check
+   the plan against the floor in the lens, whatever the budget. If the
+   time and money can't reach the floor, say so now: offer the smaller
+   question they can answer well and what the original would take, and
+   let the researcher and the team choose.
+9. **Ask about partner data.** Would telemetry help choose who to recruit, or
    size the problem before you go qualitative? Draft the request if so.
 
 ## What to draft
@@ -94,6 +103,8 @@ watching them do step 3 tell you that the survey can't?"
 
 - One method chosen, with the reason written down.
 - Sample sized and described.
+- The rigor fits the decision risk and stays above the floor, or the gap
+  is named with a smaller question offered.
 - Trade-offs written.
 - Partner data requests drafted or marked not needed.
 
@@ -105,3 +116,6 @@ watching them do step 3 tell you that the survey can't?"
 - An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.
+- A large study for a decision that's cheap to undo.
+- Cutting below the floor to hit a deadline, and finding out at the
+  readout.

@@ -30,7 +30,8 @@ who the study is about.
 - What prompted this: who asked, and what they asked for, in their words.
 - Who makes the decision, and by when. (The decision itself is the
   researcher's turn, below.)
-- The business goal or metric it's meant to move.
+- The business goal or metric it's meant to move, and what a wrong call
+  would cost: can it be undone, and how quickly?
 - The hypotheses: what the team believes now, and what would change its
   mind.
 - Who the study is about: which users or customers.
@@ -79,7 +80,10 @@ it in the record.
    you have them, and note any market signal that bears on it (a competitor
    move, a segment the company is chasing), labelled as partner data. If
    the researcher doesn't know, that's fine: write "[assumption]" and move
-   on. Don't invent a metric or a market claim.
+   on. Don't invent a metric or a market claim. From the cost and whether
+   the decision can be undone, draft the decision risk (low, medium or
+   high) with a one-line reason (`lenses-minimum-viable-rigor.md`). It
+   sets how much rigor the study needs at stage 3.
 4. **Write the research questions.** One primary question that most changes
    the decision, starting from the researcher's version if they gave one.
    Fold in the questions the team already had: keep the ones that serve
@@ -135,6 +139,8 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
   researcher's choice.
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
+- Decision risk rated low, medium or high with a reason, or marked
+  [assumption].
 - A primary research question tied to the decision.
 - Research-question check run.
 - Hypotheses and assumptions listed, or a note that the team has none.

@@ -880,7 +880,8 @@ who the study is about.
 - What prompted this: who asked, and what they asked for, in their words.
 - Who makes the decision, and by when. (The decision itself is the
   researcher's turn, below.)
-- The business goal or metric it's meant to move.
+- The business goal or metric it's meant to move, and what a wrong call
+  would cost: can it be undone, and how quickly?
 - The hypotheses: what the team believes now, and what would change its
   mind.
 - Who the study is about: which users or customers.
@@ -929,7 +930,10 @@ it in the record.
    you have them, and note any market signal that bears on it (a competitor
    move, a segment the company is chasing), labelled as partner data. If
    the researcher doesn't know, that's fine: write "[assumption]" and move
-   on. Don't invent a metric or a market claim.
+   on. Don't invent a metric or a market claim. From the cost and whether
+   the decision can be undone, draft the decision risk (low, medium or
+   high) with a one-line reason (`lenses/minimum-viable-rigor.md`). It
+   sets how much rigor the study needs at stage 3.
 4. **Write the research questions.** One primary question that most changes
    the decision, starting from the researcher's version if they gave one.
    Fold in the questions the team already had: keep the ones that serve
@@ -985,6 +989,8 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
   researcher's choice.
 - A decision statement with owner, deadline and options.
 - A business reason, or an honest "[assumption]" placeholder.
+- Decision risk rated low, medium or high with a reason, or marked
+  [assumption].
 - A primary research question tied to the decision.
 - Research-question check run.
 - Hypotheses and assumptions listed, or a note that the team has none.
@@ -1063,8 +1069,9 @@ long the study can take.
    something other tools already offer, or users will arrive with
    expectations from elsewhere, suggest a competitive analysis
    (`methods/competitive-analysis.md`) as a cheap first step or a companion
-   to the main method. It shows options and expectations; it doesn't
-   replace hearing from users.
+   to the main method. It works from public sources when nobody can get
+   into the tools. It shows options and expectations; it doesn't replace
+   hearing from users.
 4. **Recommend one method and one backup.** Use `methods/` for the fit, the
    sample guidance and the pitfalls. Give the reason in two sentences. If
    the ask names a method, check it against the question the same way. A
@@ -1083,7 +1090,15 @@ long the study can take.
 7. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
-8. **Ask about partner data.** Would telemetry help choose who to recruit, or
+8. **Match the rigor to the decision risk** (`lenses/minimum-viable-rigor.md`).
+   Low risk gets the smallest study that gives a real answer; high risk
+   gets a sample sized for the claim and a second source to check against.
+   Say in a line how the recommendation fits the risk from stage 2. Check
+   the plan against the floor in the lens, whatever the budget. If the
+   time and money can't reach the floor, say so now: offer the smaller
+   question they can answer well and what the original would take, and
+   let the researcher and the team choose.
+9. **Ask about partner data.** Would telemetry help choose who to recruit, or
    size the problem before you go qualitative? Draft the request if so.
 
 ## What to draft
@@ -1105,6 +1120,8 @@ watching them do step 3 tell you that the survey can't?"
 
 - One method chosen, with the reason written down.
 - Sample sized and described.
+- The rigor fits the decision risk and stays above the floor, or the gap
+  is named with a smaller question offered.
 - Trade-offs written.
 - Partner data requests drafted or marked not needed.
 
@@ -1116,6 +1133,9 @@ watching them do step 3 tell you that the survey can't?"
 - An expert review reported as what users do.
 - Treating a sample of five as proof of "how many".
 - Skipping the cheap check because it feels like not doing research.
+- A large study for a decision that's cheap to undo.
+- Cutting below the floor to hit a deadline, and finding out at the
+  readout.
 
 <!-- core/stages/04-plan-the-study.md -->
 
@@ -1180,7 +1200,9 @@ questions.
    red flag if missing.
 5. **Set the timeline backwards from the decision deadline.** Readout date
    first, then analysis, then sessions, then recruiting. If it doesn't fit,
-   say what to cut.
+   use the smallest-study moves in `lenses/minimum-viable-rigor.md` first,
+   since they save time without weakening the answer. Any cut that does
+   weaken it goes under trade-offs with what it costs.
 6. **Plan for participant quality.** Say where participants come from and
    how much fraud risk that carries (own verified users: low; third-party
    panels: high). Set the disqualification threshold and the replacement
@@ -1212,6 +1234,7 @@ would you miss without them?"
 - Disabled participants included, with access arrangements, or the reason
   they aren't written under trade-offs.
 - Timeline fits the decision deadline, or the gap is named.
+- Every cut made to fit time or budget is listed with what it costs.
 - Risks listed, including skipped challenges.
 
 ## Pitfalls
@@ -1479,27 +1502,33 @@ sessions, or say "you do it", skip it.
    "most". Write each count with the people and lines behind it, "3 of 8
    (P1 06, P5 06, P7 06)", so the count can be checked by code instead of
    by trust.
-10. **Check the hypotheses.** Once the findings are drafted, say for each
+10. **Re-judge the rigor.** Look at what actually happened in the
+   sessions (no-shows, sessions cut short, flagged participants, a missing
+   group, a question that turned out to lead) and lower a strength where
+   it weakened the evidence, saying why. Then mark each finding enough for
+   this decision, enough with a caveat, or not enough, using the decision
+   risk in the record (`lenses/minimum-viable-rigor.md`).
+11. **Check the hypotheses.** Once the findings are drafted, say for each
    hypothesis in the record whether the evidence supports it, contradicts
    it or doesn't speak to it, with the findings behind each, and update its
    status. Do this after coding, not before, so the hypotheses don't steer
    what you see.
-11. **Look outside the frame.** Some findings point upstream or downstream
+12. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses/systems-and-journeys.md`).
-12. **Bring in partner data where it applies.** Say whether it agrees,
+13. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-13. **Run the claim-strength check** (`checks/claim-strength.md`) over the
+14. **Run the claim-strength check** (`checks/claim-strength.md`) over the
    draft findings.
-14. **Run the code checks if you can** (`tools/checks/`): every quote matches
+15. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-15. **Run the independent review** (`review/independent-review.md`) once
+16. **Run the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage. Start it in the
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
@@ -1550,7 +1579,8 @@ Five participants are five people, not percentages.
 ## What to draft
 
 - The Findings section of the study record: claim, supporting evidence,
-  contradicting evidence, strength.
+  contradicting evidence, strength, and whether it's enough for the
+  decision.
 - The "also noticed" findings, for things outside the questions, held to
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
@@ -1574,6 +1604,8 @@ it.
 
 - Every finding answers a research question or is listed as "also noticed".
 - Every finding has its evidence, its counter-evidence and a strength label.
+- Each finding is marked enough, enough with a caveat, or not enough for
+  this decision, judged on what happened in the sessions.
 - The researcher kept, changed, split or dropped each theme, or the skip
   is logged as a risk.
 - Claim-strength check run.
@@ -1672,7 +1704,10 @@ again.
    are a draft until a person has read what they rest on.
    `checks/ai-assisted-research.md`, sections 2 and 3.
 7. **Top findings, never more than five.** The findings the decision
-   rests on, one line each with strength. An unexpected finding can be
+   rests on, one line each with strength and whether it's enough for this
+   decision; a not-enough finding says what would make the team surer and
+   roughly what that costs (`lenses/minimum-viable-rigor.md`). Confidence
+   never rises to fit a deadline. An unexpected finding can be
    one of the five if it's serious enough. Then one slide per top finding,
    pitched for PMs and engineers: enough to believe it and act on it.
    Depth goes to the appendix.
@@ -1890,6 +1925,145 @@ with a screen reader, keyboard, high contrast and 400% zoom; breaks and
 stopping). S37 was last updated in July 2019, so check it against current
 practice. The audit distinction, the fallback plan, and the analysis
 points: practitioner judgment.
+
+<!-- core/lenses/minimum-viable-rigor.md -->
+
+# Lens: minimum viable research and minimum viable rigor
+
+Most studies run short of time or money. This lens helps Magpie find the
+smallest study that is still good enough for the decision, and shows where
+cutting further would make the answer mislead the team. It applies to every
+study and every method.
+
+## Two ideas
+
+- **Minimum viable research.** Start small and get findings to the team
+  quickly, rather than waiting for the study you'd run with no limits: a
+  clear goal, a short screener, a few sessions, and results shared in a
+  form people will read. Small is not the same as sloppy; the study still
+  follows sound practice. (S63)
+- **Minimum viable rigor.** Every study has a lowest acceptable level of
+  rigor. Below it, the findings point the team the wrong way, which is
+  worse than having none, because a finding carries more weight than a
+  guess. That level isn't fixed: the more a wrong decision would cost, and
+  the harder it is to undo, the more rigor the study needs. Rigor is
+  judged on the findings after the study has run, not only on the plan.
+  (S64)
+
+Both names shorten to "MVR". Magpie writes them out in full so nobody mixes
+them up.
+
+## Decision risk (stage 2)
+
+Ask what happens if the decision turns out wrong, and whether it can be
+undone, and how quickly. Then draft a rating with a one-line reason:
+
+| Risk | What it usually looks like |
+| --- | --- |
+| Low | Easy and quick to undo; affects few people or little money. A wording change, an early concept, a design that can be changed after launch. |
+| Medium | Can be undone, but at real cost or after real users have met it. Most feature and flow decisions. |
+| High | Hard or slow to undo, or touches a lot of revenue, people's safety, legal duties, or many users at once. |
+
+The rating is Magpie's draft; the researcher can change it, and their call
+stands. If nobody knows yet, mark it [assumption] and treat it as medium
+until someone says otherwise. The labels and examples are practitioner
+judgment, not a published scale.
+
+## Matching rigor to risk (stage 3)
+
+Pick the smallest study that can answer the primary question for this
+level of risk, and say why in a line.
+
+- **Low risk:** the cheapest option that gives a real answer: existing
+  data, a handful of sessions, a quick unmoderated test. Results in days.
+  Spending more than the decision is worth is its own mistake.
+- **Medium risk:** a method that fits the question, a sample that covers
+  the groups the decision affects, and one other source to check against
+  (analytics, support tickets, a second round) where it's cheap.
+- **High risk:** a sample sized for the claim the team needs to make,
+  measures that are known to work (an established scale, tasks with a
+  right answer), and a second method or source to cross-check. If the
+  budget can't reach that, say so before the study runs, not at the
+  readout.
+
+## The floor: shortcuts that break the answer
+
+Whatever the risk or budget, these make findings mislead rather than
+inform. If the plan relies on one, name it and offer the fix.
+
+- **Asking people to judge their own understanding or ease** when you
+  could watch them try. Give a task with a right answer and see whether
+  they get it.
+- **Asking what people want or would do** instead of what they did
+  (`checks/guide-wording.md`).
+- **Comparing rating-scale scores across countries or cultures** as if
+  the scale meant the same everywhere. People in some groups tend to agree
+  or rate higher whatever the question; compare rankings or behaviour
+  instead.
+- **A sample with none of the people the decision is about.**
+- **A method that can't answer the kind of question asked:** a survey for
+  "why", a handful of sessions for "how many".
+- **Findings from a tool's summary** that nobody checked against the
+  transcripts (`checks/ai-assisted-research.md`).
+
+## When the budget can't reach the floor
+
+Don't run the study anyway, and don't simply refuse. Say what the time and
+money available *can* answer well, as a smaller or different question, and
+what it would take to answer the original one. Put both to the researcher;
+they and the team choose. Whichever way it goes, write the gap under
+Assumptions and risks.
+
+## Who decides
+
+Magpie and the researcher judge how sure the evidence can make the team.
+How much risk to accept is the team's call. Name the team or group, not one
+person. Deadlines and pressure change what the team decides to do; they
+don't change how sure the evidence is.
+
+## The smallest study (stage 4)
+
+Moves that save time without lowering rigor:
+
+- One primary question; the rest go under "nice to know".
+- A short screener based on behaviour, aimed at users the team can reach
+  quickly.
+- Sessions close together, with a short debrief after each, so analysis
+  starts during fieldwork.
+- A guide with the goals at the top and the opening and closing written
+  out, so anyone on the team can run a session.
+- A note-taker, so the moderator can listen.
+- Findings shared in a short form within days, then discussed with the
+  team.
+
+A cut that does lower rigor (fewer sessions, a missing group, no pilot)
+goes under trade-offs with what it costs: "six sessions, not ten: fine for
+spotting problems, too few to say which segment has them more".
+
+## After the sessions (stage 6)
+
+Judge each finding against what actually happened, not what was planned:
+no-shows, sessions cut short, participants flagged for quality, a group
+that didn't turn up, questions that turned out to lead. Lower a strength
+label where that weakened the evidence, and say why. Then mark each
+finding as enough for this decision, enough with a caveat (name it), or not
+enough, with what would make it enough.
+
+## In the readout and report (stage 7)
+
+Each top finding says whether it's enough for this decision, and the
+not-enough ones say what would make the team surer and roughly what that
+costs. Confidence never rises to fit a deadline.
+
+## Basis
+
+S63 (start small, the four steps, small is not careless) and S64 (a floor
+of rigor, rigor rising with decision risk, judged on the findings, the
+researcher judges rigor while the stakeholders accept the risk, offering
+what can be answered instead of a plain no). Both credit Erika Hall's
+*Just Enough Research* as related work; Magpie hasn't read it. The risk
+labels, the floor list as written and the stage steps are practitioner
+judgment.
 
 <!-- core/lenses/systems-and-journeys.md -->
 
@@ -2319,6 +2493,65 @@ the user's job, not the feature list.
 - Three to five user jobs or journey steps to compare across them, taken
   from the study record, not from a feature list.
 
+## Access: hands-on or public sources only
+
+Find out early which of two routes this is. Ask once if it isn't clear.
+
+- **Hands-on.** Someone can use each tool: an account, a free tier, a
+  trial the team has set up. The researcher walks the job, or Magpie does
+  where the setup lets it open the tool.
+- **Public sources only.** Nobody on the team can get into the tools.
+  This is common and still worth doing. Build the comparison from what's
+  public, best first:
+  1. Help docs, tutorials and onboarding guides. They often show the real
+     screens step by step.
+  2. The product's own demo videos, webinars and walkthroughs.
+  3. Public pages of the product itself (a sign-up flow, a public
+     template gallery, a pricing and plans page).
+  4. Release notes and changelogs, for what changed and when.
+  5. Public reviews, community forums and app store listings, for what
+     users say goes wrong. These are other people's users, not yours.
+  6. Marketing pages and analyst summaries, for positioning and claims.
+
+  Help docs and demos show how a task is meant to go, not how it goes for
+  a user. Errors, dead ends and slow steps rarely show up in them, so the
+  fit assessment leans harder on "check with our users", and "What this
+  can't tell us" says so.
+
+Either way, mark each tool and each cell with how it was seen:
+
+- **walked:** someone did the task in the tool.
+- **shown:** material that shows the real screens: screenshots, a screen
+  recording, help docs with screen images, a demo video.
+- **described:** someone's words about the tool: marketing copy, a review,
+  an analyst note, a sales deck.
+
+A cell that is only **described** is a claim, not an observation. Never
+call a marketing page an observation.
+
+## What Magpie can take in
+
+What Magpie can read depends on the tool it's running in. It says which
+of these it can use in this setup, in one line, and never pretends to
+have read something it couldn't.
+
+- **Screenshots and photos.** Magpie reads what's on screen: the step, the
+  words the tool uses, the choices offered. It asks which step each image
+  shows if that isn't clear, and doesn't guess what happens off screen.
+- **Screen recordings and demo videos.** Where Magpie can take video, it
+  works through it and cites the moment (timestamp) for each step. Where
+  it can't, it says so and asks for a still of each step, a transcript,
+  or a short written walk-through. It never describes a video it hasn't
+  seen.
+- **Web pages and links.** Where Magpie has web access, it reads public
+  pages and logs each one with its URL and the date read. Where it
+  doesn't, it says so and asks for the page text or a screenshot. It
+  doesn't sign up for accounts or trials, enter anyone's details, or get
+  around a login or paywall; that's the researcher's call and the
+  researcher's account.
+- **Notes.** A researcher's written walk-through of a tool counts as
+  **walked** for the steps they did.
+
 ## Shape
 
 1. **Start from the job.** Name the user, the job and the journey step
@@ -2326,15 +2559,18 @@ the user's job, not the feature list.
    done in [tool], and what would fit our [persona]?"
 2. **Pick the set.** Two to four tools, with one that solves the job
    differently. Say why each is in.
-3. **Walk the job in each tool.** Do the task as the user would. Record
-   what happens at each step: screenshots, the words the tool uses, where
-   it asks for effort, where it decides for the user. Note what it assumes
-   about the user.
+3. **Walk the job in each tool, or trace it from public sources.** Do the
+   task as the user would. Record what happens at each step: screenshots,
+   the words the tool uses, where it asks for effort, where it decides for
+   the user. Note what it assumes about the user. With public sources
+   only, trace each step through help docs and demos, and leave a step
+   blank, marked "not shown publicly", rather than guess.
 4. **Compare on fit, not on count.** For each job step and each tool: how
    the tool handles it, what it assumes about the user, and whether that
    assumption holds for your persona. "Has feature X" is not a row.
 5. **Separate what you saw from what you infer.** What the tool does is
-   [their data] about the tool, observed directly. Why it does it, and
+   [their data] about the tool when it was walked or shown, with the
+   source. Why it does it, and
    whether their users like it, is [assumption] unless you have evidence
    (public reviews, support forums, a user who's used both).
 6. **Draft the fit assessment.** For each pattern worth considering: what
@@ -2343,7 +2579,9 @@ the user's job, not the feature list.
 
 ## What makes it good
 
-- Doing the task in each tool, not reading their marketing.
+- Doing the task in each tool where you can. Where you can't, using
+  material that shows the real screens over marketing claims, and saying
+  which cells rest on which.
 - A tool from outside the category in the set.
 - Every "they do X" paired with "and that fits or doesn't fit our users
   because".
@@ -2372,6 +2610,9 @@ has the shape.
 ## Pitfalls
 
 - A feature checklist with ticks. It tells you what exists, not what fits.
+- Calling a marketing page or a demo video an observation of how the tool
+  works for users. A demo shows the happy path.
+- Filling a cell from memory of how a tool used to work.
 - Assuming a competitor's choice is good because they're big.
 - Treating public reviews as your users' views.
 - Only looking at direct competitors, and missing the spreadsheet everyone
@@ -4341,21 +4582,23 @@ How do people get [job] done in other tools, and what would fit our
 - **Persona and journey step:** [from the study record]
 - **What we know about our users here:** [from the evidence log; one or
   two lines; "nothing yet" is fine]
+- **Access:** [hands-on / public sources only / mixed: say which tools]
 
 ## The set
 
-| Tool | Why it's in | How it solves the job | Observed on |
-| --- | --- | --- | --- |
-| [direct competitor] | | | [date] |
-| [direct competitor] | | | |
-| [different approach, e.g. spreadsheet or adjacent tool] | | | |
+| Tool | Why it's in | How it solves the job | How we saw it | Sources and date |
+| --- | --- | --- | --- | --- |
+| [direct competitor] | | | [walked / shown / described] | [help doc URL, demo video, screenshots; date] |
+| [direct competitor] | | | | |
+| [different approach, e.g. spreadsheet or adjacent tool] | | | | |
 
 ## Fit matrix
 
 Each cell: how the tool handles the step, what it assumes about the user,
-and whether that holds for our persona. What the tool does is observed.
-Why, and whether its users like it, is an assumption unless labelled with
-evidence.
+and whether that holds for our persona, marked (walked), (shown) or
+(described). A step nobody could see is "not shown publicly", not a guess.
+What the tool does is observed only when it was walked or shown. Why, and
+whether its users like it, is an assumption unless labelled with evidence.
 
 | Job step | [Tool 1] | [Tool 2] | [Tool 3] |
 | --- | --- | --- | --- |
@@ -4387,7 +4630,8 @@ One per pattern worth considering.
 
 Their users' satisfaction, their data, why they chose it, whether it works
 at scale for people like ours. Say it here so nobody reads the matrix as
-proof.
+proof. If any tool was seen only through public sources, say that its
+errors, dead ends and slow steps are mostly invisible here.
 
 ## Next step
 
@@ -4796,10 +5040,10 @@ not on this slide; see "Limits" below.
 ## 4. Top findings
 
 Never more than five: the findings the decision rests on. One line each,
-with strength. This is the slide people photograph. An unexpected finding
+with strength and whether it's enough for this decision. This is the slide people photograph. An unexpected finding
 belongs here if it's serious enough.
 
-1. [Finding, one line] · [strength]
+1. [Finding, one line] · [strength] · [enough / enough if [caveat] / not enough]
 2. …
 
 ## 5 to [n]. Findings in detail
@@ -4976,9 +5220,11 @@ here; those live in the study record and the appendix.
 
 ## Top findings
 
-Never more than five. One or two lines each, with strength.
+Never more than five. One or two lines each, with strength and whether it's
+enough for this decision. A not-enough finding says what would make us
+surer and roughly what that costs.
 
-1. **[Finding]** · [strength]
+1. **[Finding]** · [strength] · [enough / enough if [caveat] / not enough: [what would make us surer]]
 2. …
 
 ## Findings in detail
@@ -5109,6 +5355,8 @@ users are. Who buys or sets it up, if different.]
 
 **Why it matters:** [goal or metric it moves; cost of getting it wrong]
 
+**Decision risk:** [low / medium / high, and why]
+
 ## What we already know
 
 [Two or three lines from the evidence log and gap summary. "No prior
@@ -5131,6 +5379,7 @@ What the team believes now, and what we'd need to see to change our minds.
 - **Method:** [method]
 - **Why:** [two sentences]
 - **What it won't tell us:** [trade-offs]
+- **Why this is enough for the risk:** [one line; any cut made for time or budget and what it costs]
 - **Partner data:** [team, what, status]
 
 ## Participants
@@ -5237,6 +5486,7 @@ out, write "not added" and delete the lines below.
 
 - **Goal or metric this moves:** [The company goal or metric at stake]
 - **Cost of getting it wrong:** [What happens if the decision goes the wrong way]
+- **Decision risk:** [low / medium / high, because [can it be undone, how quickly, who and what it touches]; or [assumption]]
 - **Who else cares:** [Stakeholders beyond the owner]
 - **Job:** [what the user is trying to get done, in their terms]
 - **Journey and step:** [which CUJ or journey, which step; "none tracked" is fine]
@@ -5283,6 +5533,7 @@ Known assumptions, plus every challenge that was skipped and why.
 - **Method:** [Method chosen]
 - **Why this method:** [One or two sentences]
 - **Sample:** [Who, how many, how recruited]
+- **Rigor for this risk:** [why this study is enough for the decision risk; any floor problem and the smaller question offered]
 - **Trade-offs accepted:** [What this approach won't tell us]
 - **Partner data requested:** [Team, what, status]
 
@@ -5313,9 +5564,9 @@ Each finding is a claim with its evidence, including what cuts against it.
 Every count lists the participants and lines behind it: "3 of 8 (P1 06,
 P5 06, P7 06)".
 
-| Finding | Supporting evidence | Contradicting evidence | Strength |
-| --- | --- | --- | --- |
-| | | | strong / moderate / weak |
+| Finding | Supporting evidence | Contradicting evidence | Strength | Enough for the decision? |
+| --- | --- | --- | --- | --- |
+| | | | strong / moderate / weak | yes / with a caveat: [what] / no: [what would make it enough] |
 
 Strength: **strong** (consistent across most participants or statistically
 reliable), **moderate** (clear pattern with exceptions), **weak** (few

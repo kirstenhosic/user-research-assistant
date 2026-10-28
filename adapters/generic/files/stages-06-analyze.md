@@ -103,27 +103,33 @@ sessions, or say "you do it", skip it.
    "most". Write each count with the people and lines behind it, "3 of 8
    (P1 06, P5 06, P7 06)", so the count can be checked by code instead of
    by trust.
-10. **Check the hypotheses.** Once the findings are drafted, say for each
+10. **Re-judge the rigor.** Look at what actually happened in the
+   sessions (no-shows, sessions cut short, flagged participants, a missing
+   group, a question that turned out to lead) and lower a strength where
+   it weakened the evidence, saying why. Then mark each finding enough for
+   this decision, enough with a caveat, or not enough, using the decision
+   risk in the record (`lenses-minimum-viable-rigor.md`).
+11. **Check the hypotheses.** Once the findings are drafted, say for each
    hypothesis in the record whether the evidence supports it, contradicts
    it or doesn't speak to it, with the findings behind each, and update its
    status. Do this after coding, not before, so the hypotheses don't steer
    what you see.
-11. **Look outside the frame.** Some findings point upstream or downstream
+12. **Look outside the frame.** Some findings point upstream or downstream
    of what was studied, or at another team's piece. Keep them, label the
    cause's location ("starts at import, not export"), and map each finding
    to the journey step and persona it affects, in the team's names
    (`lenses-systems-and-journeys.md`).
-12. **Bring in partner data where it applies.** Say whether it agrees,
+13. **Bring in partner data where it applies.** Say whether it agrees,
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
-13. **Run the claim-strength check** (`checks-claim-strength.md`) over the
+14. **Run the claim-strength check** (`checks-claim-strength.md`) over the
    draft findings.
-14. **Run the code checks if you can** (`tools/checks/`): every quote matches
+15. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
-15. **Run the independent review** (`review-independent-review.md`) once
+16. **Run the independent review** (`review-independent-review.md`) once
     the findings are drafted. It's required at this stage. Start it in the
     same reply, without waiting to be asked: where you can start a separate
     agent, start it; where you can't, give the researcher the text to paste
@@ -174,7 +180,8 @@ Five participants are five people, not percentages.
 ## What to draft
 
 - The Findings section of the study record: claim, supporting evidence,
-  contradicting evidence, strength.
+  contradicting evidence, strength, and whether it's enough for the
+  decision.
 - The "also noticed" findings, for things outside the questions, held to
   the same evidence bar.
 - A coding frame (the list of codes with one-line definitions) so a
@@ -198,6 +205,8 @@ it.
 
 - Every finding answers a research question or is listed as "also noticed".
 - Every finding has its evidence, its counter-evidence and a strength label.
+- Each finding is marked enough, enough with a caveat, or not enough for
+  this decision, judged on what happened in the sessions.
 - The researcher kept, changed, split or dropped each theme, or the skip
   is logged as a risk.
 - Claim-strength check run.

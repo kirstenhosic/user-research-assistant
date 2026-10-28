@@ -36,4 +36,4 @@ people to predict themselves.
 
 ## Standards tested
 
-2.3, 2.8
+2.3, 2.9
