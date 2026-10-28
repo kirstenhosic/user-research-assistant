@@ -62,6 +62,13 @@ testing rounds take longer and cost more.
 
 - Twenty or more people per user group for task numbers or questionnaire
   scores, and the same kind of people each round.
+- Every score gets its range: a t-interval around the mean for SUS and
+  SEQ, the geometric mean with its interval for task times below about
+  25 people, the adjusted-Wald interval for completion rates (stage 7,
+  "Numbers from small samples"). Halving a range takes four times the
+  people, so plan the sample from the precision the decision needs.
+- Comparing two rounds: the same people on both is a paired comparison;
+  different people is a two-sample one. Say which.
 - Recruit people who would really do these tasks.
 
 ## Keep it comparable
@@ -93,7 +100,14 @@ one the team wanted.
 A SUS score is not a percentage. Across about 500 studies the average
 is 68; above 68 is better than average, and a 74 is only a little
 above it. Report it against that average, or as a percentile, so the
-team doesn't read 68 as "a D".
+team doesn't read 68 as "a D". Two large published sets of SUS scores
+had means near 70 and near 62 with a typical spread of about 22 points
+either way, so single-study differences of a few points sit inside the
+noise; give the interval. SUS also tracks the likelihood-to-recommend
+question: a rough rule is recommend score ≈ SUS ÷ 10, and in one large
+set people who would recommend averaged a SUS of about 81 against
+about 52 for those who wouldn't, so a SUS above 80 is a fair "people
+would recommend it" bar.
 
 ## Worked example
 
@@ -152,6 +166,16 @@ score across about 500 studies is 68; a score isn't a percentage; report
 it as a percentile against that average). S84 and S85 (report raw
 differences in their own units with intervals; make them concrete at
 the product's volume; set the "big enough" bar before the data arrives).
+S100 (pp. 19–31: a confidence interval's width depends on confidence
+level, variability and sample size, and halving the margin of error
+takes about four times the sample; t-interval for rating-scale means;
+geometric mean for task times below 25; adjusted-Wald for rates. p. 93:
+two-sample t for different users, paired for the same users. pp.
+200–201: the Bangor et al. set of 2,324 SUS questionnaires with a mean
+of 70.14 and standard deviation 21.71, and the Lewis and Sauro set of 324
+with a mean of 62.10 and standard deviation 22.24; p. 236: SUS against
+likelihood to recommend across 2,201 users, correlation 0.623, LTR ≈
+SUS/10, promoters averaging 81 and detractors 52.5).
 Keeping every round the same and naming what else changed: practitioner
 judgment.
 

@@ -52,7 +52,9 @@ method).
 The sources checked give no number. For reasons to explore, five to eight
 people per group in moderated sessions is a common size. For shares you
 want to compare (how many picked each word or each version), you need
-many more, and stage 7's survey data rules apply.
+many more, and stage 7's survey data rules apply: a share from ten
+people carries a range of 30 points or more, and halving that range
+takes four times the people.
 
 ## Analysis
 
@@ -108,4 +110,5 @@ positive and neutral words; a screenshot is enough; rank by share; compare
 groups and versions; count people who chose a brand word). S11
 (desirability studies as a method). Asking about each chosen word, the
 five to eight per group, and counts instead of percentages for small
-samples: practitioner judgment.
+samples: practitioner judgment. The width of a small-sample range and
+the four-times rule: S100 (pp. 19–25).

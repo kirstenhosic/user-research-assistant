@@ -363,7 +363,7 @@ As of October 28, 2026.
   spelling and dates. All results so far were judged by a model, not yet
   by a person. The details are in
   [`evals/runs/`](evals/runs/) and [`evals/README.md`](evals/README.md).
-- **Its rules are written down.** Magpie follows 133 standards in
+- **Its rules are written down.** Magpie follows 134 standards in
   [`core/standards/`](core/standards/). 54 cite a public source, at least
   in part, such as the ICC/ESOMAR code, Braun and Clarke, or Nielsen
   Norman Group. The others are based on professional judgment and say so.

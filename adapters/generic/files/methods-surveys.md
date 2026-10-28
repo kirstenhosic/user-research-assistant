@@ -60,6 +60,10 @@ about 3.9. Go ahead.
   a larger sample; say in the readout whether it was done. Don't weight
   an experiment where people were assigned at random; that already
   handles it.
+- The margin of error shrinks with the square root of the sample, not
+  the sample: halving it takes about four times the responses (a margin
+  of about 20 points from 20 answers needs about 80 answers to reach 10
+  points). Decide the precision the decision needs, then the sample.
 - Say the response rate and who answered in the readout.
 
 ## Question types
@@ -88,7 +92,14 @@ about 3.9. Go ahead.
 - **Validated questionnaires.** For common things (perceived usability, task
   ease), use a published scale as written (`methods-usability-testing.md`,
   "Follow-up questions"). The wording has already been tested, and the
-  score can be compared with published figures.
+  score can be compared with published figures. Beyond the SUS: the
+  CSUQ (16 items, seven points, free) for any system; the SUPR-Q (eight
+  items) for websites, with paid norms; the WAMMI (20 items, licensed)
+  for websites; the UEQ or AttrakDiff when the question is how a
+  product feels rather than how usable it is; the TAM's two six-item
+  scales for perceived usefulness and ease of use. Use one as
+  published; small wording swaps ("website" for "system") don't change
+  what it measures.
 
 ## Wording
 
@@ -254,7 +265,15 @@ or five from one group, two or three per segment; save as a template).
 Reporting differences: S84 (raw, unstandardized differences with
 intervals; standardized effects hide the unit and distort near a scale
 ceiling); S85 (set the "big enough" bar before collecting data; make
-effects concrete). Sample size rule of thumb ("a few hundred"), the
+effects concrete). The other standardized questionnaires: S100 (pp. 226–237: WAMMI,
+SUPR-Q and their norms databases and licensing; CSUQ as a PSSUQ
+variant with the same scoring; USE; hedonic quality, AttrakDiff and
+the UEQ; the TAM's two scales; minor wording changes don't change the
+factor structure).
+The four-times rule for halving a margin of error: S100 (pp. 19–24:
+a confidence interval is set by the confidence level, the variability
+and the sample size; to cut the margin in half you need about four
+times the sample). Sample size rule of thumb ("a few hundred"), the
 ten-minute limit and the survey shape: practitioner judgment.
 
 ---

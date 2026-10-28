@@ -1872,6 +1872,68 @@ noticed low) and sets its priority with reach
 (`lenses/confidence-and-priority.md`). Then the patterns across issues.
 Five participants are five people, not percentages.
 
+### Numbers from small samples
+
+A usability test of five to twenty people still produces numbers: a
+completion rate, an ease rating, a task time. Report each with the range
+it could sit in, computed by a method that works at that sample size.
+Textbook methods built for large samples go wrong here.
+
+- **Decide what kind of number it is first.** A pass/fail count (a rate)
+  and a measurement (a time, a rating) take different methods. Then
+  decide what the question is: how sure we are of this number (an
+  interval), whether we met a goal (a test against a benchmark), or
+  whether design A differs from design B (a comparison), and whether
+  the same people or different people were measured.
+- **Rates: the adjusted-Wald interval.** Add two successes and two
+  failures, then compute the usual interval. The plain interval is badly
+  wrong below about a hundred people or near 0% or 100%, and the exact
+  interval is too wide. Seven of ten completing gives a 95% range of
+  about 39% to 90%. Below twenty people, also adjust the point estimate:
+  add one success and one failure when the rate is 90% or above; add
+  two and two when it is 50% or below; between them, report the sample
+  rate. Always show the interval next to it.
+- **Expect wide ranges.** With five people a 95% range for a completion
+  rate is typically more than 30 points wide, and the sample rate is off
+  the true rate by about 11 points on average. Dropping to 90%
+  confidence can be a fair trade; say which level was used.
+- **A problem seen in three of five people is not "60% of users".** The
+  range is about 23% to 88%. What it supports is "one in five or more of
+  all users would probably hit this".
+- **Ratings (SUS, SEQ, any scale): the mean with a t-interval.** The
+  mean, plus and minus a t value times the standard deviation over the
+  square root of the sample size, with one fewer degree of freedom than
+  people. Twelve SUS scores averaging 82.9 (standard deviation 13.5)
+  give 74.3 to 91.5.
+- **Task times: the geometric mean below about 25 people.** Times are
+  skewed; one slow person drags the mean up, and the median is biased
+  upward at small sizes. Log every time, average the logs, convert back;
+  compute the interval the same way. With more people the median is
+  fine.
+- **Comparing two designs.** Different people on each, pass/fail: the
+  N−1 two-proportion test (the usual two-proportion test scaled by the
+  square root of (N−1)/N), which works at small sizes as long as every
+  expected cell count is above 1; below that, the Fisher exact test.
+  Skip the Yates correction. Same people on both, pass/fail: only the
+  people who passed on one and failed on the other count; use the
+  McNemar exact test with the mid-p value (the sign test on those
+  switchers). Means (ratings, times): a paired t-test for the same
+  people, a two-sample t-test for different people. For the size of the
+  difference, give the adjusted-Wald interval around it: add one
+  success and one failure to each group (for the same-people case, half
+  a person to each cell of the two-by-two table) before the usual
+  formula. The interval and the p value usually agree; when they sit
+  either side of the cutoff, both are close to it, and in applied work
+  94% confidence and 95% should not lead to different decisions. Use
+  exact p values only where the result must be guaranteed, such as a
+  medical device.
+- **Say it the right way round.** "We're 95% confident the method
+  captured the true rate" is the strict reading; "there's a 95% chance
+  the true rate is in here" is not. Treat every value inside the range
+  as plausible, not only the middle.
+- **Show the inputs.** The counts, the sample size, the confidence
+  level and the method, so the researcher can check the arithmetic.
+
 ## What to draft
 
 - The Findings section of the study record: claim, supporting evidence
@@ -3223,6 +3285,15 @@ partner data) and helps read the results. It doesn't run the test.
   2.1 points on 50,000 visitors a month is about 1,050 sign-ups. Small
   differences add up when the thing happens often; a 17-second saving
   on a task done a hundred times a day is weeks a year.
+- **The range and the p value usually agree.** When one says
+  "different" and the other doesn't, both are sitting near the cutoff.
+  Treat a result at 94% confidence like one at 95% unless the setting
+  demands a guarantee; a rigid cutoff is for publication, not product
+  decisions. For two conversion rates, the test is the N−1
+  two-proportion test and the range is the adjusted-Wald interval
+  around the difference (stage 7, "Numbers from small samples"). Read
+  the low end of the range at volume too: a small lower limit can still
+  be a lot of orders.
 
 ## Worked example
 
@@ -3282,7 +3353,16 @@ benchmarking or a first-click test for navigation). S97 (goals, signals,
 metrics). S84 and S85 (raw differences with intervals over standardized
 effects; make them concrete at volume; small effects add up with
 repeated exposure; set the action threshold before collecting data).
-Who does the work: practitioner judgment.
+S100 (pp. 78–93: the N−1 two-proportion test for two groups of
+different users, recommended when every expected cell count is above 1,
+Fisher exact otherwise; the adjusted-Wald interval around the difference
+between two proportions, adding one success and one failure to each
+group; an A/B example at 90% confidence where even the low end of the
+range meant a lot of revenue at volume; p values fluctuate by a few
+points with the method chosen; a confidence interval and a p value usually point the
+same way, and 94% against 95% confidence shouldn't change an applied
+decision; a rigid 0.05 cutoff for publication). Who does the work:
+practitioner judgment.
 
 <!-- core/methods/benchmarking.md -->
 
@@ -3350,6 +3430,13 @@ testing rounds take longer and cost more.
 
 - Twenty or more people per user group for task numbers or questionnaire
   scores, and the same kind of people each round.
+- Every score gets its range: a t-interval around the mean for SUS and
+  SEQ, the geometric mean with its interval for task times below about
+  25 people, the adjusted-Wald interval for completion rates (stage 7,
+  "Numbers from small samples"). Halving a range takes four times the
+  people, so plan the sample from the precision the decision needs.
+- Comparing two rounds: the same people on both is a paired comparison;
+  different people is a two-sample one. Say which.
 - Recruit people who would really do these tasks.
 
 ## Keep it comparable
@@ -3381,7 +3468,14 @@ one the team wanted.
 A SUS score is not a percentage. Across about 500 studies the average
 is 68; above 68 is better than average, and a 74 is only a little
 above it. Report it against that average, or as a percentile, so the
-team doesn't read 68 as "a D".
+team doesn't read 68 as "a D". Two large published sets of SUS scores
+had means near 70 and near 62 with a typical spread of about 22 points
+either way, so single-study differences of a few points sit inside the
+noise; give the interval. SUS also tracks the likelihood-to-recommend
+question: a rough rule is recommend score ≈ SUS ÷ 10, and in one large
+set people who would recommend averaged a SUS of about 81 against
+about 52 for those who wouldn't, so a SUS above 80 is a fair "people
+would recommend it" bar.
 
 ## Worked example
 
@@ -3440,6 +3534,16 @@ score across about 500 studies is 68; a score isn't a percentage; report
 it as a percentile against that average). S84 and S85 (report raw
 differences in their own units with intervals; make them concrete at
 the product's volume; set the "big enough" bar before the data arrives).
+S100 (pp. 19–31: a confidence interval's width depends on confidence
+level, variability and sample size, and halving the margin of error
+takes about four times the sample; t-interval for rating-scale means;
+geometric mean for task times below 25; adjusted-Wald for rates. p. 93:
+two-sample t for different users, paired for the same users. pp.
+200–201: the Bangor et al. set of 2,324 SUS questionnaires with a mean
+of 70.14 and standard deviation 21.71, and the Lewis and Sauro set of 324
+with a mean of 62.10 and standard deviation 22.24; p. 236: SUS against
+likelihood to recommend across 2,201 users, correlation 0.623, LTR ≈
+SUS/10, promoters averaging 81 and detractors 52.5).
 Keeping every round the same and naming what else changed: practitioner
 judgment.
 
@@ -5573,7 +5677,9 @@ method).
 The sources checked give no number. For reasons to explore, five to eight
 people per group in moderated sessions is a common size. For shares you
 want to compare (how many picked each word or each version), you need
-many more, and stage 7's survey data rules apply.
+many more, and stage 7's survey data rules apply: a share from ten
+people carries a range of 30 points or more, and halving that range
+takes four times the people.
 
 ## Analysis
 
@@ -5629,7 +5735,8 @@ positive and neutral words; a screenshot is enough; rank by share; compare
 groups and versions; count people who chose a brand word). S11
 (desirability studies as a method). Asking about each chosen word, the
 five to eight per group, and counts instead of percentages for small
-samples: practitioner judgment.
+samples: practitioner judgment. The width of a small-sample range and
+the four-times rule: S100 (pp. 19–25).
 
 <!-- core/methods/stakeholder-interviews.md -->
 
@@ -5839,6 +5946,10 @@ about 3.9. Go ahead.
   a larger sample; say in the readout whether it was done. Don't weight
   an experiment where people were assigned at random; that already
   handles it.
+- The margin of error shrinks with the square root of the sample, not
+  the sample: halving it takes about four times the responses (a margin
+  of about 20 points from 20 answers needs about 80 answers to reach 10
+  points). Decide the precision the decision needs, then the sample.
 - Say the response rate and who answered in the readout.
 
 ## Question types
@@ -5867,7 +5978,14 @@ about 3.9. Go ahead.
 - **Validated questionnaires.** For common things (perceived usability, task
   ease), use a published scale as written (`methods/usability-testing.md`,
   "Follow-up questions"). The wording has already been tested, and the
-  score can be compared with published figures.
+  score can be compared with published figures. Beyond the SUS: the
+  CSUQ (16 items, seven points, free) for any system; the SUPR-Q (eight
+  items) for websites, with paid norms; the WAMMI (20 items, licensed)
+  for websites; the UEQ or AttrakDiff when the question is how a
+  product feels rather than how usable it is; the TAM's two six-item
+  scales for perceived usefulness and ease of use. Use one as
+  published; small wording swaps ("website" for "system") don't change
+  what it measures.
 
 ## Wording
 
@@ -6033,7 +6151,15 @@ or five from one group, two or three per segment; save as a template).
 Reporting differences: S84 (raw, unstandardized differences with
 intervals; standardized effects hide the unit and distort near a scale
 ceiling); S85 (set the "big enough" bar before collecting data; make
-effects concrete). Sample size rule of thumb ("a few hundred"), the
+effects concrete). The other standardized questionnaires: S100 (pp. 226–237: WAMMI,
+SUPR-Q and their norms databases and licensing; CSUQ as a PSSUQ
+variant with the same scoring; USE; hedonic quality, AttrakDiff and
+the UEQ; the TAM's two scales; minor wording changes don't change the
+factor structure).
+The four-times rule for halving a margin of error: S100 (pp. 19–24:
+a confidence interval is set by the confidence level, the variability
+and the sample size; to cut the margin in half you need about four
+times the sample). Sample size rule of thumb ("a few hundred"), the
 ten-minute limit and the survey shape: practitioner judgment.
 
 <!-- core/methods/usability-testing.md -->
@@ -6063,6 +6189,23 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
   With two distinct groups, three or four from each; with three or more,
   three from each. Run another small round after fixes rather than one big
   first round.
+- Why five: across many studies the average chance that one person hits
+  any given problem in one round is about 0.31, so five people reveal
+  about 85% of the problems that round can show. It was never 85% of
+  the product's problems. Nielsen's own account is fishing in ponds: a
+  round empties the easy problems from one pond, and the next round,
+  with the fixes and often new tasks or a new group, fishes a new one.
+  Five only works as part of that loop. A mature website with the easy
+  problems already removed, or loosely structured tasks, can have a
+  per-person chance near 0.03, where five people show about 14% and
+  85% takes about 65. If late participants keep finding new problems,
+  the round isn't done.
+- How often a problem appears says nothing about how severe it is;
+  plan as if the two are unrelated, and expect serious problems from
+  late participants too.
+- Rates from a small test (completion, time) follow stage 7's "Numbers
+  from small samples": an adjusted-Wald interval, the geometric mean for
+  times.
 - Unmoderated, for rates (task success, time on task): more than thirty
   people, and forty or more if you want ranges narrow enough to compare.
   Five people can show problems but can't give you a rate.
@@ -6173,6 +6316,15 @@ them after the task, not during it, so you don't change what happens.
   a score from 0 to 100) goes here, with the wording and order unchanged.
   It needs twenty to thirty or more people per round to mean much; with
   five, use it as a conversation starter, not a score.
+- SUS details: ten items on a five-point agree scale, odd items worded
+  positively and even items negatively; people answer all ten right
+  after using the product and before any debrief, picking the middle
+  point if they can't answer one. Score each odd item as its position
+  minus 1, each even item as 5 minus its position, add the ten and
+  multiply by 2.5. Swapping "system" for "website" or "product", or
+  "awkward" for the original "cumbersome", doesn't change the result.
+  It measures perceived usability as one number; it says nothing about
+  which part of the product caused it.
 
 A participant's rating and what they did can disagree. Someone who failed
 the task may still rate it easy. Report both; what they did comes first.
@@ -6237,7 +6389,19 @@ impact, persistence). Follow-up questions: S38 (a post-task ease rating on
 seven points while the task is fresh; SUS after the session, wording and
 order unchanged, ten items, a 0 to 100 score that isn't a percentage; 20
 to 30 or more users for questionnaire numbers; pair a rating with "why");
-S12 (numbers from small qualitative studies carry large error).
+S12 (numbers from small qualitative studies carry large error). S100
+(pp. 162–166: average problem-occurrence rate of 0.31 and the
+1 − (1 − p)^n arithmetic behind "five users find 85%"; the guideline
+misread as 85% of a product's problems; Nielsen's fishing analogy, five
+being contingent on iteration with changed tasks or groups; the Spool
+and Schroeder "eight is not enough" study reconciled as p near 0.029,
+where five users find about 14% and 85% takes 65; serious problems found
+at the same rate as others; Sauro's review of 24 tests giving p of about
+0.37 for business applications, 0.23 for consumer software and 0.04 for
+websites; p. 162: no reliable link between problem frequency and
+severity. pp. 198–199: the SUS items, response rules, scoring and the
+wording substitutions that make no difference; a single-number measure
+that doesn't locate the cause).
 Remote, moderated: S78 (advantages and the
 extra preparation; choosing a call tool; how tasks reach the participant,
 with the moderator reading them as the weakest choice; a tech check the

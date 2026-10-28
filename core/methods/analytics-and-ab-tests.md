@@ -96,6 +96,15 @@ partner data) and helps read the results. It doesn't run the test.
   2.1 points on 50,000 visitors a month is about 1,050 sign-ups. Small
   differences add up when the thing happens often; a 17-second saving
   on a task done a hundred times a day is weeks a year.
+- **The range and the p value usually agree.** When one says
+  "different" and the other doesn't, both are sitting near the cutoff.
+  Treat a result at 94% confidence like one at 95% unless the setting
+  demands a guarantee; a rigid cutoff is for publication, not product
+  decisions. For two conversion rates, the test is the N−1
+  two-proportion test and the range is the adjusted-Wald interval
+  around the difference (stage 7, "Numbers from small samples"). Read
+  the low end of the range at volume too: a small lower limit can still
+  be a lot of orders.
 
 ## Worked example
 
@@ -155,4 +164,13 @@ benchmarking or a first-click test for navigation). S97 (goals, signals,
 metrics). S84 and S85 (raw differences with intervals over standardized
 effects; make them concrete at volume; small effects add up with
 repeated exposure; set the action threshold before collecting data).
-Who does the work: practitioner judgment.
+S100 (pp. 78–93: the N−1 two-proportion test for two groups of
+different users, recommended when every expected cell count is above 1,
+Fisher exact otherwise; the adjusted-Wald interval around the difference
+between two proportions, adding one success and one failure to each
+group; an A/B example at 90% confidence where even the low end of the
+range meant a lot of revenue at volume; p values fluctuate by a few
+points with the method chosen; a confidence interval and a p value usually point the
+same way, and 94% against 95% confidence shouldn't change an applied
+decision; a rigid 0.05 cutoff for publication). Who does the work:
+practitioner judgment.

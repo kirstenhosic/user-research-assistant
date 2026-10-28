@@ -23,6 +23,23 @@ they struggle. Moderated (you're there) or unmoderated (a tool records them).
   With two distinct groups, three or four from each; with three or more,
   three from each. Run another small round after fixes rather than one big
   first round.
+- Why five: across many studies the average chance that one person hits
+  any given problem in one round is about 0.31, so five people reveal
+  about 85% of the problems that round can show. It was never 85% of
+  the product's problems. Nielsen's own account is fishing in ponds: a
+  round empties the easy problems from one pond, and the next round,
+  with the fixes and often new tasks or a new group, fishes a new one.
+  Five only works as part of that loop. A mature website with the easy
+  problems already removed, or loosely structured tasks, can have a
+  per-person chance near 0.03, where five people show about 14% and
+  85% takes about 65. If late participants keep finding new problems,
+  the round isn't done.
+- How often a problem appears says nothing about how severe it is;
+  plan as if the two are unrelated, and expect serious problems from
+  late participants too.
+- Rates from a small test (completion, time) follow stage 7's "Numbers
+  from small samples": an adjusted-Wald interval, the geometric mean for
+  times.
 - Unmoderated, for rates (task success, time on task): more than thirty
   people, and forty or more if you want ranges narrow enough to compare.
   Five people can show problems but can't give you a rate.
@@ -133,6 +150,15 @@ them after the task, not during it, so you don't change what happens.
   a score from 0 to 100) goes here, with the wording and order unchanged.
   It needs twenty to thirty or more people per round to mean much; with
   five, use it as a conversation starter, not a score.
+- SUS details: ten items on a five-point agree scale, odd items worded
+  positively and even items negatively; people answer all ten right
+  after using the product and before any debrief, picking the middle
+  point if they can't answer one. Score each odd item as its position
+  minus 1, each even item as 5 minus its position, add the ten and
+  multiply by 2.5. Swapping "system" for "website" or "product", or
+  "awkward" for the original "cumbersome", doesn't change the result.
+  It measures perceived usability as one number; it says nothing about
+  which part of the product caused it.
 
 A participant's rating and what they did can disagree. Someone who failed
 the task may still rate it easy. Report both; what they did comes first.
@@ -197,7 +223,19 @@ impact, persistence). Follow-up questions: S38 (a post-task ease rating on
 seven points while the task is fresh; SUS after the session, wording and
 order unchanged, ten items, a 0 to 100 score that isn't a percentage; 20
 to 30 or more users for questionnaire numbers; pair a rating with "why");
-S12 (numbers from small qualitative studies carry large error).
+S12 (numbers from small qualitative studies carry large error). S100
+(pp. 162–166: average problem-occurrence rate of 0.31 and the
+1 − (1 − p)^n arithmetic behind "five users find 85%"; the guideline
+misread as 85% of a product's problems; Nielsen's fishing analogy, five
+being contingent on iteration with changed tasks or groups; the Spool
+and Schroeder "eight is not enough" study reconciled as p near 0.029,
+where five users find about 14% and 85% takes 65; serious problems found
+at the same rate as others; Sauro's review of 24 tests giving p of about
+0.37 for business applications, 0.23 for consumer software and 0.04 for
+websites; p. 162: no reliable link between problem frequency and
+severity. pp. 198–199: the SUS items, response rules, scoring and the
+wording substitutions that make no difference; a single-number measure
+that doesn't locate the cause).
 Remote, moderated: S78 (advantages and the
 extra preparation; choosing a call tool; how tasks reach the participant,
 with the moderator reading them as the weakest choice; a tech check the

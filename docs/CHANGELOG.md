@@ -2,6 +2,20 @@
 
 ## 2026-10-28
 
+- Stage 7 gains "Numbers from small samples", from Sauro and Lewis,
+  *Quantifying the User Experience*, 2nd ed. (S100, passages supplied by
+  Kirsten Hosic): decide the data type first; the adjusted-Wald interval
+  and best point estimate for completion rates; what a rate from five
+  people can and can't say; a t-interval for ratings; the geometric mean
+  for task times; which test compares two designs when the same or
+  different people used them; the strict wording for a confidence
+  interval. Standard 7.21 and eval `small-sample-rate` (not run live).
+  Usability testing explains where "five users" comes from, why it only
+  works as part of an iterative loop, that problem frequency says
+  nothing about severity, and how the SUS is scored. Benchmarking,
+  surveys, preference testing and analytics gain the four-times rule for
+  halving a margin of error, SUS norms, and the interval around a
+  difference.
 - Every method guide now has a worked example: a decision, a research
   question, a sample and a finding written the way Magpie reports it
   (counts with participant codes, confidence, what it can't say). Five
