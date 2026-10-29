@@ -139,8 +139,10 @@ researcher calls it once and never has to call it again.
 - **Say how to answer, once.** The first time the section appears in a
   study, its first line, before item 1 and unnumbered, is: "Answer in
   any order and any way: by number, by label or in a paragraph. 'Skip 3'
-  is fine." Don't repeat it, except once in the reply after a blanket
-  reply (see "Read every reply, then say what you took from it"). Any
+  is fine." Show it once per study. Before you write it, look back: if
+  any earlier reply in this conversation already has it, leave it out,
+  even at a new stage. The one exception is the reply right after a
+  blanket reply (see "Blanket replies"). Any
   answer format works; what matters is that each answer can be matched to
   one item.
 - **Label every item the same way.** Each numbered item ends with
