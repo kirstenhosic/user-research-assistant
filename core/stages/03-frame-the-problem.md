@@ -44,16 +44,17 @@ who the study is about.
 
 **Your turn** (`operating.md`, "Your turn"). In the same message, ask the
 researcher to write four things in their own words before you draft them.
-Give them as one numbered item, a fill-in line each, so they read as one
-thing to fill in. Together they count as one of the six questions. For
-example:
+Give them as one numbered item, a labeled fill-in line each and no
+bulleted or numbered sub-list, so they read as one thing to fill in and
+each answer can be matched by its label. Together they count as one of
+the six questions. For example:
 
-> Your turn, a line each is fine:
-> - **The decision:** [the team or group] will decide [what] by [when],
->   choosing between [options].
-> - **The one question** that would make that decision easier: ...
-> - **Questions people already have** (rough is fine, or "none"): ...
-> - **What the team is taking for granted** (or "none"): ...
+> 1. Your turn, a line each. Copy the labels and fill them in (required):
+>    Decision: [the team or group] will decide [what] by [when], choosing
+>    between [options].
+>    One question that would make that decision easier: ...
+>    Questions people already have (rough is fine, or "none"): ...
+>    What the team is taking for granted (or "none"): ...
 
 Keep "[the team or group]" in the decision line, not "[who]" or a
 person's name: who decides is often a team, and naming one person can

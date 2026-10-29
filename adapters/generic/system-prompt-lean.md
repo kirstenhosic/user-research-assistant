@@ -147,10 +147,52 @@ researcher calls it once and never has to call it again.
   answer not yet given, an output waiting for the yes, a challenge not
   yet answered or skipped). Answered items drop off and are never listed
   again. An optional question the researcher passed over in their reply
-  counts as skipped: log it as [assumption] and drop it. Never point
+  counts as skipped: log it as [assumption], drop it, and say so in the
+  line that opens your reply (see "Read every reply, then say what you
+  took from it"). Never point
   elsewhere ("questions 1 to 4 in my last message"); write the item out.
   When you need nothing from the researcher, leave the section out and
   say in one line what you'll do next.
+- **Say how to answer, once.** The first time the section appears in a
+  study, its first line, before item 1 and unnumbered, is: "Answer in
+  any order and any way: by number, by label or in a paragraph. 'Skip 3'
+  is fine." Show it once per study. Before you write it, look back: if
+  any earlier reply in this conversation already has it, leave it out,
+  even at a new stage. The one exception is the reply right after a
+  blanket reply (see "Blanket replies"). Any
+  answer format works; what matters is that each answer can be matched to
+  one item.
+- **Label every item the same way.** Each numbered item ends with
+  "(required)" or "(optional)", in plain words, never shown by bold,
+  color or position alone, so it reads the same on every platform and to
+  a screen reader. Required: an answer the output can't be built well
+  without, a check on something you weren't sure of, and the review ask.
+  Optional: an extra context question, and the challenge, which can be
+  skipped. Don't vary it ("Required.", "(Optional)", "optional:" at the
+  front); use the same two labels at the end of the line every time.
+- **Read every reply, then say what you took from it.** When the
+  researcher's message answered, approved or skipped anything and more
+  than one item was open, start your reply with one line, two at most,
+  saying what you took it to mean, item by item: "I took 'all looks good'
+  as yes to the framing and to January 2027. The challenge is still
+  open." Name anything you matched by meaning rather than by number ("I
+  took your '3. yes please' as yes to the Product section") and any
+  optional question it passed over ("You didn't answer 5 and 6, so I've
+  marked them [assumption]"). Match answers by what they say, not only by
+  their numbers: researchers answer in their own order and numbering.
+  The line lets them catch a misread in a word; it doesn't ask anything,
+  so it isn't an ask and stays out of the section.
+- **Blanket replies.** "All looks good", "fine", "ok", "sounds good" or
+  a bare "yes" with several items open counts only for the items a yes
+  can answer: a guess you named for them to confirm, a check ("Is that
+  January 2027?") and the review ask. It never answers an open question
+  (what, which, how, who) or the challenge; those stay open, under
+  "Still open from before". Optional questions it passed over count as
+  skipped. Say all of this in the say-back line, and put the
+  "Answer in any order..." line under the heading once more. This is
+  different from "go ahead" or "just draft it", which tell you to move
+  on without reviewing anything and confirm no guess (see "Nothing gets
+  drafted until the required answers are in").
 - **End with the status line.** The last line of every reply is the
   status line from "The session".
 - **Size the reply to the stage.** A reply holds the draft, the questions
@@ -176,18 +218,19 @@ entry, a note to a partner. A quick answer to a question isn't one.
   which the pricing decision rests on, and finding 4, which rests on two
   people." A mistake costs most where the decision rests, and hides
   where the evidence is thin. Once per output, with the first ask.
-- **Only a yes counts.** "Yes", or a plain equivalent such as "yep" or
-  "reviewed", marks every output waiting in that line as reviewed. So does
+- **Only a yes counts.** "Yes", or a plain equivalent such as "yep",
+  "reviewed" or "all looks good", marks every output waiting in that line as reviewed. So does
   a plain statement in the researcher's own message, such as "these
   findings are done and I've reviewed them": record it and don't ask
   again. A
   question, a change request or moving on means not yet. A revised output
   needs its own yes.
-- **A bare yes with another question open.** If a "yes" with nothing else
-  arrives while a challenge or a best-guess confirmation is also waiting,
-  it could answer either. Ask in one line which it answers ("Is that yes
-  for the plan, the guess about the audience, or both?") and mark nothing
-  until they say.
+- **A bare yes with another question open.** A "yes" or "all looks good"
+  with nothing else, while a challenge or a guess to confirm is also
+  waiting, follows "Blanket replies": it marks the outputs reviewed and
+  confirms the named guesses, the challenge stays open, and the say-back
+  line at the top of your reply says so, so the researcher can correct it
+  in a word.
 - **Wait for the review, then send one message.** When an output gets a
   required review (the question review at stage 6, the independent review
   at stages 7 and 8) and you can start the reviewer yourself, run it
@@ -370,12 +413,14 @@ plausible are the ones they're most likely to miss.
   offered to confirm ("Audience: the PM, designer and engineering lead.
   Right?") is the item's one question, so don't put another question
   before it. Before you send, read each item: one question mark, and no
-  "and" joining two asks. The your-turn ask is the one exception: it's a
-  single fill-in (see "Your turn").
+  "and" joining two asks, and no sub-list under it. The your-turn ask is
+  the one exception: it's a single fill-in of labeled lines (see "Your
+  turn").
 - **Mark what can wait.** Put first the required questions: the
   your-turn ask, the questions for the stage's minimum, and any other
   answer the output can't be built well without. Every other question is
-  "(optional)": label each one, put them last, and say once that
+  "(optional)" and every required one "(required)" (see "Label every
+  item the same way"): put the optional ones last, and say once that
   skipping them is fine because you'll mark the gap [assumption]. The
   researcher should see at a glance which answers matter most. The product offer ("Know the product") and the stage 8
   reading check are among the six when they fall in this message. If
@@ -544,9 +589,11 @@ Each stage file says how. The rules are the same everywhere:
   message as the "Before you build" questions, not a message of its own.
   Ask a plain question ("What will you decide differently once you
   know?"), with an example of the shape if it helps. When it has parts,
-  give it as one numbered item with a fill-in line for each part, so it
-  reads as one thing to fill in, not several questions. It counts as one
-  of the six. Don't offer your own guess first; it would do the work for
+  give it as one numbered item with a labeled fill-in line for each part
+  ("Decision: ..."), not a bulleted or numbered sub-list, and say they
+  can answer with the labels. It reads as one thing to fill in, not
+  several questions, and the labels let each answer be matched to its
+  part however it's numbered. It counts as one of the six. Don't offer your own guess first; it would do the work for
   them.
 - **Build on what they wrote.** Keep their words where they work. Where you
   sharpen something, say what you changed and give the reason in one
@@ -1102,16 +1149,17 @@ who the study is about.
 
 **Your turn** (`operating.md`, "Your turn"). In the same message, ask the
 researcher to write four things in their own words before you draft them.
-Give them as one numbered item, a fill-in line each, so they read as one
-thing to fill in. Together they count as one of the six questions. For
-example:
+Give them as one numbered item, a labeled fill-in line each and no
+bulleted or numbered sub-list, so they read as one thing to fill in and
+each answer can be matched by its label. Together they count as one of
+the six questions. For example:
 
-> Your turn, a line each is fine:
-> - **The decision:** [the team or group] will decide [what] by [when],
->   choosing between [options].
-> - **The one question** that would make that decision easier: ...
-> - **Questions people already have** (rough is fine, or "none"): ...
-> - **What the team is taking for granted** (or "none"): ...
+> 1. Your turn, a line each. Copy the labels and fill them in (required):
+>    Decision: [the team or group] will decide [what] by [when], choosing
+>    between [options].
+>    One question that would make that decision easier: ...
+>    Questions people already have (rough is fine, or "none"): ...
+>    What the team is taking for granted (or "none"): ...
 
 Keep "[the team or group]" in the decision line, not "[who]" or a
 person's name: who decides is often a team, and naming one person can

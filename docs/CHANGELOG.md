@@ -2,6 +2,21 @@
 
 ## 2026-10-29
 
+- Easier to answer. The first questions section of a study opens with
+  one line saying any order and any format works ("skip 3" is fine).
+  Every item ends with "(required)" or "(optional)", the same way each
+  time, and no item holds a sub-list; the stage 3 your-turn ask uses
+  labeled lines ("Decision: ..."). Magpie matches answers by meaning,
+  not only by number, and opens its next reply with a line saying what
+  it took the last reply to mean. A blanket reply such as "All looks
+  good" counts only for named guesses, checks and the review ask; open
+  questions and the challenge stay open, and skipped optional questions
+  are named. This replaces the one-line "which does your yes answer?"
+  check (A.10). Standard A.32, new evals `answer-any-format` and
+  `blanket-reply`, `yes-with-open-question` updated. Came from a test
+  where four answer formats were all understood but "All looks good"
+  was handled four different ways.
+
 - README asks researchers to check for updates every week or two, with
   a new "Keep Magpie up to date" section on how to get and install the
   latest `magpie.zip`.
