@@ -2,6 +2,11 @@
 
 ## 2026-10-29
 
+- Clearer stage 3 wording. The your-turn line for the primary research
+  question now reads "Main research question, written as a question (what do
+  you most need to learn to make that decision?)", in place of "One question that would
+  make that decision easier", which a researcher found confusing.
+
 - Easier to answer. The first questions section of a study opens with
   one line saying any order and any format works ("skip 3" is fine).
   Every item ends with "(required)" or "(optional)", the same way each
