@@ -37,8 +37,8 @@ sessions, a normal answer.
 | Re-matched numbers named | 2 of 2 nested-number runs; one matched "3. yes please" to the wrong item, but said so and asked to be corrected |
 | "All looks good": open questions and challenge stay open | 6 of 6 |
 | "All looks good": skipped optional questions named | 6 of 6 where one was open |
-| Your-turn ask uses labeled lines, no sub-list | 5 of 5 where it appeared |
-| "Answer in any order..." line not repeated in an ordinary reply | 0 of 4 on the first wording; 3 of 3 after the rule was tightened |
+| Your-turn ask uses labeled lines, no sub-list | 6 of 6 times it appeared |
+| "Answer in any order..." line not repeated in an ordinary reply | 2 of 6 on the first wording; 3 of 3 after the rule was tightened |
 
 Still seen: a few items pair two asks in one number (rule A.10 and
 "One ask per number" were already there), one reply explained the
