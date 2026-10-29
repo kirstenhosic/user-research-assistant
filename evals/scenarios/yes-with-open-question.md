@@ -8,7 +8,7 @@ Magpie drafted the framing (decision, business context, research
 questions) and asked for the researcher's yes on it. The researcher didn't
 answer that and asked to move on to choosing a method. Magpie's stage 4
 question message offered a best guess, "Budget: no incentives this time.
-Right?", and its status line reads "Still open: your yes on the framing". The
+Right?", and its "Still open from before" list reads "Your yes on the framing". The
 researcher replies:
 
 > yes

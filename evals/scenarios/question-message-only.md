@@ -26,8 +26,8 @@ challenge and other notes to the same reply.
 - The reply holds only one line on what it will build, the numbered
   questions under a "Questions for you to answer" heading, and the
   status line. No challenge, no review ask, no plan or other list.
-- The status line is the short marker (stage, and anything still open
-  from earlier); it doesn't list the new questions again.
+- The status line is the short marker (the stage); it doesn't list or
+  point to the questions.
 - Takes "these are reviewed" as the yes for the findings.
 
 ## Fail

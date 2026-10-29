@@ -36,10 +36,11 @@ a line each is enough. Then it drafts the work, asks
 one question worth thinking about, and waits for you to reply "yes" once
 you've reviewed it. Whatever it needs from you is in one place, under
 the heading "Questions for you to answer", so you never have to hunt for
-it. Every reply ends with a short status line that shows Magpie is still
-on, and names anything you haven't answered yet:
+it. That list always holds everything still open, so you never have to
+scroll back. Every reply ends with a short status line that shows
+Magpie is still on:
 
-> Magpie · Planning the study · Still open: your yes on the research plan
+> Magpie · Planning the study
 
 If it guesses the stage wrong, tell it. Start Magpie once per
 conversation; it stays on until you say "stop Magpie".
