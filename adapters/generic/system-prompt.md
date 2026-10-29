@@ -1156,7 +1156,8 @@ the six questions. For example:
 > 1. Your turn, a line each. Copy the labels and fill them in (required):
 >    Decision: [the team or group] will decide [what] by [when], choosing
 >    between [options].
->    One question that would make that decision easier: ...
+>    What you most need to learn to make that decision (your main research
+>    question): ...
 >    Questions people already have (rough is fine, or "none"): ...
 >    What the team is taking for granted (or "none"): ...
 
@@ -1168,8 +1169,10 @@ What each line is for:
 
 - The decision: what will someone decide differently once they know the
   answer?
-- The primary research question: the one question that would make that
-  decision easier.
+- The primary research question: what the team most needs to learn to
+  make that decision. Ask it in those words, not as "the one question
+  that would make that decision easier", which researchers found
+  confusing.
 - Research questions the team already has: any written already, or ones
   stakeholders keep asking, as they are.
 - The assumptions: anything the team takes for granted that, if wrong,
