@@ -29,7 +29,7 @@ is which.
   findings are offered for the yes with the review named as waiting.
 - Once the researcher pastes the result and the points are fixed or
   answered, the segment shows `findings done`, in the same reply.
-- The segment appears after anything named as still open.
+- The segment appears right after the stage.
 
 ## Fail
 

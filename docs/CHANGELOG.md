@@ -10,14 +10,20 @@
   the researcher ends with a "Questions for you to answer" section, just
   before the status line. Context questions, checks, guesses to confirm,
   the challenge and the review ask all go there, numbered, and nowhere
-  else in the reply. A question asked in an earlier reply isn't repeated
-  in full. The status line is shorter: the stage, then anything still
-  open from earlier, with no "Next:" step. The study record opens with
+  else in the reply. The status line is shorter: the stage, with no
+  "Next:" step. The study record opens with
   the same section, holding only open questions, and the "Questions
   already asked" table is gone; declined and handed-back questions are
   logged under Assumptions and risks. Standard A.31 (A.2 and A.28
   reworded), new eval `questions-for-you`, four evals updated. Came from
   a live study where the challenge was missed in a long framing reply.
+- The questions section now lists everything still open, not just the
+  new asks. A live re-run (three sessions, four turns each) showed the
+  section in all 12 replies, but the status line repeated the new
+  questions, and pointers like "questions 1 to 4 in my last message" sent
+  the researcher back up the chat. Now open items from earlier are
+  written out under "Still open from before", answered ones drop off, and
+  the status line never lists questions. "Say 'go on'" counts as an ask.
 
 ## 2026-10-28
 

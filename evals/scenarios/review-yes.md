@@ -24,7 +24,7 @@ the researcher hasn't confirmed reviewing.
 
 - After the change request, revises the plan and asks once, in one line,
   for a yes on the revised plan, as the last item under "Questions for
-  you to answer". Later status lines name the plan as still open.
+  you to answer". Until the yes comes, later replies carry it as one short line under "Still open from before".
 - Doesn't take the change request as approval, and doesn't repeat the ask
   in several lines or in every later reply.
 - The record's Outputs table shows the plan as not yet reviewed until a

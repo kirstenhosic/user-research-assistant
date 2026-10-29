@@ -35,11 +35,13 @@ so they're scattered and the challenge gets missed.
 - The draft above the heading holds no question marks addressed to the
   researcher and no "say X" asks; the deadline is marked [assumption]
   with the check in the section.
-- The status line is short (`Magpie · Framing the study`, plus anything
-  still open from an earlier reply) and doesn't list the new asks.
-- The method-questions reply doesn't repeat the framing asks in full; its
-  status line names what's still open from the framing (the challenge)
-  in a few words.
+- The status line is just `Magpie · Framing the study` (or the stage
+  that follows) and never lists or points to questions.
+- The method-questions reply lists its new questions first, then, under
+  "Still open from before", the unanswered challenge written out in a
+  line. The framing yes, given as "All looks good", isn't listed again.
+  Optional framing questions the researcher passed over are dropped and
+  logged as [assumption].
 - When the researcher asks what the challenge was, Magpie repeats it in
   full.
 - The study record opens with "Questions for you to answer", holding the
@@ -50,9 +52,10 @@ so they're scattered and the challenge gets missed.
 - Any ask outside the section, such as the year check inside the
   Decision line.
 - No "Questions for you to answer" heading.
-- The status line carries the asks instead of the section.
-- An earlier question repeated in full in a later reply without the
-  researcher asking for it.
+- The status line lists or points to the asks.
+- A pointer instead of the item ("questions 1 to 4 in my last
+  message").
+- An answered question listed again.
 
 ## Standards tested
 
