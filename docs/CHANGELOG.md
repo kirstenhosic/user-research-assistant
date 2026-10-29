@@ -2,6 +2,10 @@
 
 ## 2026-10-29
 
+- README asks researchers to check for updates every week or two, with
+  a new "Keep Magpie up to date" section on how to get and install the
+  latest `magpie.zip`.
+
 - Easier to see what you're asked. Every reply that needs something from
   the researcher ends with a "Questions for you to answer" section, just
   before the status line. Context questions, checks, guesses to confirm,
