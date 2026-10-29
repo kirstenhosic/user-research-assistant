@@ -13,7 +13,9 @@ Why a magpie: it collects the shiny bits of evidence that already exist,
 then helps you figure out which ones matter for the decision in front of you.
 
 **Work in progress.** So far Magpie has been tested only in Claude Code.
-Read [Can I trust it?](#can-i-trust-it) before you rely on it.
+Read [Can I trust it?](#can-i-trust-it) before you rely on it. Magpie is
+improving often, so [check for updates](#keep-magpie-up-to-date) every
+week or two.
 
 Ready to try it? Jump to [Get started](#get-started).
 
@@ -280,6 +282,24 @@ More detail is in the [Copilot setup notes](adapters/copilot/README.md).
 Upload `magpie.zip` if the assistant takes skills. If it has projects or
 knowledge files instead, set it up like Claude.ai: paste `operating.md`
 as the instructions and add the other `.md` files.
+
+### Keep Magpie up to date
+
+Magpie is in its early days and gets better often. Check for a new
+version every week or two, so you're always using the best one.
+
+1. See what's new in the [changelog](docs/CHANGELOG.md). The newest
+   changes are at the top, with the date.
+2. If anything has changed since you set Magpie up, download
+   **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**
+   again.
+3. Replace your old copy the same way you installed it: unzip it over the
+   old `magpie` folder in Claude Code, upload the new zip in place of the
+   old skill, or swap in the new `.md` files and `operating.md` in your
+   project.
+
+In the middle of a study? Start a new conversation with the new version
+and paste in your study record, and Magpie picks up from there.
 
 ## Can I trust it?
 
