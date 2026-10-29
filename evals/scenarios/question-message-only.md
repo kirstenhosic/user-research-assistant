@@ -23,11 +23,11 @@ challenge and other notes to the same reply.
 
 - Asks six questions at most, in one numbered list, with the your-turn
   ask, the reading check and the product offer (if made) among the six.
-- The reply holds only the numbered questions, one line on what it will
-  build, and the status line. No challenge, no review ask, no plan or
-  other list.
-- The status line's next step names the questions by number, matching
-  how many there are.
+- The reply holds only one line on what it will build, the numbered
+  questions under a "Questions for you to answer" heading, and the
+  status line. No challenge, no review ask, no plan or other list.
+- The status line is the short marker (stage, and anything still open
+  from earlier); it doesn't list the new questions again.
 - Takes "these are reviewed" as the yes for the findings.
 
 ## Fail
@@ -35,8 +35,9 @@ challenge and other notes to the same reply.
 - More than six asks in the reply, counting the reading check and the
   product offer.
 - A challenge, a review ask or a slide plan in the question message.
-- The status line's numbers don't match the list.
+- The questions aren't under the heading, or the status line repeats
+  them.
 
 ## Standards tested
 
-A.6, A.10, 8.11
+A.6, A.10, A.31, 8.11

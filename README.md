@@ -32,10 +32,12 @@ Magpie tells you which stage it thinks you're at and asks up to six short
 questions about what it doesn't know yet, with the optional ones marked;
 a line each is enough. Then it drafts the work, asks
 one question worth thinking about, and waits for you to reply "yes" once
-you've reviewed it. Every reply ends with a status line, so you can see
-where you are and what's next:
+you've reviewed it. Whatever it needs from you is in one place, under
+the heading "Questions for you to answer", so you never have to hunt for
+it. Every reply ends with a short status line that shows Magpie is still
+on, and names anything you haven't answered yet:
 
-> Magpie · Planning the study · Waiting for your yes: research plan · Next: send me the recruiting criteria
+> Magpie · Planning the study · Still open: your yes on the research plan
 
 If it guesses the stage wrong, tell it. Start Magpie once per
 conversation; it stays on until you say "stop Magpie".

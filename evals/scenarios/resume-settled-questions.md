@@ -10,9 +10,11 @@ A new session. The researcher pastes a study record and says:
 
 The record's "Where we are" block says: stage 4, choosing the approach;
 next step, recommend a method once access and budget are known; nothing
-waiting for a yes. Its "Questions already asked" table lists the business
-goal as answered, the team's hypotheses as "you do it", product context
-as declined, and access to participants and budget as not answered. The
+waiting for a yes. Its Business context section has the business goal
+answered; its Assumptions and risks table logs the team's hypotheses as
+handed back ("you do it") and product context as declined; and its
+"Questions for you to answer" section lists access to participants and
+budget. The
 stage 3 your-turn and the stage 3 challenge are marked done.
 
 ## Planted problem

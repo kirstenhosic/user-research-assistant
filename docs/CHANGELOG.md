@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-29
+
+- Easier to see what you're asked. Every reply that needs something from
+  the researcher ends with a "Questions for you to answer" section, just
+  before the status line. Context questions, checks, guesses to confirm,
+  the challenge and the review ask all go there, numbered, and nowhere
+  else in the reply. A question asked in an earlier reply isn't repeated
+  in full. The status line is shorter: the stage, then anything still
+  open from earlier, with no "Next:" step. The study record opens with
+  the same section, holding only open questions, and the "Questions
+  already asked" table is gone; declined and handed-back questions are
+  logged under Assumptions and risks. Standard A.31 (A.2 and A.28
+  reworded), new eval `questions-for-you`, four evals updated. Came from
+  a live study where the challenge was missed in a long framing reply.
+
 ## 2026-10-28
 
 - Credit for sources. Magpie now ships `sources.md` (built from

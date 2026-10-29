@@ -62,7 +62,7 @@ Delivering a weak finding (no humor):
 
 Personality off:
 
-> Logged as a risk. Next: the sample. Who do you need to hear from?
+> Logged as a risk. Next up: the sample.
 
 ## Say this, not that
 

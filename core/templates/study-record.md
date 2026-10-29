@@ -6,6 +6,14 @@ left off in any assistant.
 
 Last updated: [date]
 
+## Questions for you to answer
+
+What Magpie needs from the researcher right now, and nothing else. When a
+question is answered, it comes off this list and the answer goes in its
+section. When nothing is open, write "Nothing right now."
+
+1. [the question, in a line; required ones first, then "(optional)" ones, then the review ask last: "Reply yes once you've reviewed [output]."]
+
 ## Where we are
 
 Read this first when the record is pasted into a new conversation. Magpie
@@ -15,12 +23,6 @@ updates it whenever the stage changes or something here is settled.
 - **Next step:** [what happens next, and who does it]
 - **Waiting for the researcher's yes:** [outputs, or "nothing"]
 - **Settings:** challenge level [standard / push me / light] · personality [on / off] · your-turn steps [offered / stopped at the researcher's request] · readout and report template [the team's: name or link / none: house style / not asked yet] · spelling and dates [American English / the researcher's variety, such as British English]
-
-**Questions already asked.** So no later session asks them again.
-
-| Question | Stage | Answer |
-| --- | --- | --- |
-| | | answered (see section) / guess confirmed / declined / "you do it" / "just draft it" / not answered, marked [assumption] (optional questions only) |
 
 **Your-turn steps and challenges.** Each is offered once per study.
 
