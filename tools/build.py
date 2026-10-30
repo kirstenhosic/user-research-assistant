@@ -23,6 +23,9 @@ Reads every Markdown file under core/ in a fixed order and writes:
   magpie-gemini.zip                      the same without scripts/, for
                                          Gemini, which won't load a skill
                                          that carries code
+  magpie-copilot.zip                     the same without scripts/ and with
+                                         the files combined into 20 or
+                                         fewer, for Copilot Cowork
 
 The code checks in tools/checks/ are copied into the skill's scripts/
 folder so the skill can run them. The per-platform setup notes in
@@ -44,6 +47,7 @@ SKILL = ROOT / "adapters" / "skill" / "magpie"
 CLAUDE_LOCAL = ROOT / ".claude" / "skills" / "magpie"
 ZIP = ROOT / "magpie.zip"
 GEMINI_ZIP = ROOT / "magpie-gemini.zip"
+COPILOT_ZIP = ROOT / "magpie-copilot.zip"
 
 # Files and folders in reading order. A folder that doesn't exist yet is skipped.
 # core/standards/ is left out on purpose: the stage files already carry the
@@ -337,6 +341,102 @@ def gemini_files() -> dict[str, bytes]:
     return files
 
 
+# Copilot Cowork's help gives two limits for a skill: "up to 20 companion
+# files" (Use Cowork) and "up to 100 files" per archive (Customize Cowork),
+# both updated 2026-10-21. The skill folder has more than 70 files, so the
+# Copilot copy combines them to fit the lower one. Each rule maps a file
+# name prefix to the combined file it goes in; methods and templates are
+# split by first letter so no combined file gets too long.
+COPILOT_BUNDLES = [
+    ("stages-01-", "stages-1-to-4.md"),
+    ("stages-02-", "stages-1-to-4.md"),
+    ("stages-03-", "stages-1-to-4.md"),
+    ("stages-04-", "stages-1-to-4.md"),
+    ("stages-05-", "stages-5-and-6.md"),
+    ("stages-06-", "stages-5-and-6.md"),
+    ("stages-07-", "stages-7-and-8.md"),
+    ("stages-08-", "stages-7-and-8.md"),
+    ("lenses-", "lenses-and-evidence.md"),
+    ("evidence-", "lenses-and-evidence.md"),
+    ("checks-", "checks.md"),
+    ("challenges-", "challenges-workshops-and-requests.md"),
+    ("workshops-", "challenges-workshops-and-requests.md"),
+    ("partners-", "challenges-workshops-and-requests.md"),
+    ("team-", "team.md"),
+]
+COPILOT_SPLITS = {
+    "methods-": [("a", "c"), ("d", "i"), ("j", "z")],
+    "templates-": [("a", "i"), ("j", "z")],
+}
+COPILOT_MAX_COMPANIONS = 20
+
+COPILOT_PARAGRAPH = """This copy has no scripts, and to fit Copilot's file limit most of the
+files are combined. When a file names another, such as
+`stages-07-analyze.md`, open the combined file the list below gives for it
+and go to the line `<!-- file: stages-07-analyze.md -->`; that file runs
+until the next such line. Do the quote, count and evidence checks at
+stages 7 and 8 by hand and say so in the record. For Word or Excel files,
+use the tool's own way to make them if it has one, or give the formatted
+draft to copy in.
+"""
+
+
+def copilot_bundle(name: str) -> str:
+    """The combined file a skill file goes in, or its own name if it stays alone."""
+    for prefix, bundle in COPILOT_BUNDLES:
+        if name.startswith(prefix):
+            return bundle
+    for prefix, ranges in COPILOT_SPLITS.items():
+        if name.startswith(prefix):
+            first = name[len(prefix)]
+            for low, high in ranges:
+                if low <= first <= high:
+                    return f"{prefix}{low}-to-{high}.md"
+    return name
+
+
+def copilot_files() -> dict[str, bytes]:
+    """The skill folder without scripts/, combined to 20 companion files or fewer.
+
+    Every original file keeps its name on a marker line inside the combined
+    file, so cross-references between files still lead somewhere, and
+    SKILL.md's list says which combined file each one is in.
+    """
+    singles = {}
+    bundles: dict[str, list[tuple[str, str]]] = {}
+    for name, data in gemini_files().items():
+        bundle = copilot_bundle(name)
+        if bundle == name:
+            singles[name] = data
+        else:
+            bundles.setdefault(bundle, []).append((name, data.decode("utf-8")))
+
+    skill = singles.pop("SKILL.md").decode("utf-8")
+    if NO_SCRIPTS_PARAGRAPH not in skill:
+        raise SystemExit("SKILL.md no longer has the no-scripts paragraph; update copilot_files()")
+    skill = skill.replace(NO_SCRIPTS_PARAGRAPH, COPILOT_PARAGRAPH)
+    listed = set(re.findall(r"^- `([^`]+)`:", skill, flags=re.M))
+    for bundle, parts in bundles.items():
+        for name, _ in parts:
+            if name not in listed:
+                raise SystemExit(f"{name} isn't in SKILL.md's list; update copilot_files()")
+            skill = skill.replace(f"- `{name}`:", f"- `{name}` (in `{bundle}`):", 1)
+
+    files = dict(singles)
+    files["SKILL.md"] = skill.encode("utf-8")
+    for bundle, parts in sorted(bundles.items()):
+        names = ", ".join(f"`{name}`" for name, _ in parts)
+        body = [f"<!-- Magpie, combined for Copilot. Holds {names}. -->\n"]
+        for name, text in parts:
+            body.append(f"<!-- file: {name} -->\n\n{text.strip()}\n")
+        files[bundle] = "\n".join(body).encode("utf-8")
+
+    companions = len(files) - 1
+    if companions > COPILOT_MAX_COMPANIONS:
+        raise SystemExit(f"magpie-copilot.zip has {companions} companion files; Copilot allows {COPILOT_MAX_COMPANIONS}")
+    return files
+
+
 def write_zip(files: dict[str, bytes], target: Path) -> None:
     """Write name -> contents to a zip with fixed dates and order."""
     target.unlink(missing_ok=True)
@@ -370,7 +470,8 @@ def main() -> None:
     build_skill(files)
     build_zip(SKILL, ZIP)
     write_zip(gemini_files(), GEMINI_ZIP)
-    print(f"Built adapters/generic, adapters/skill, .claude/skills, magpie.zip and magpie-gemini.zip from {len(files)} core file(s):")
+    write_zip(copilot_files(), COPILOT_ZIP)
+    print(f"Built adapters/generic, adapters/skill, .claude/skills, magpie.zip, magpie-gemini.zip and magpie-copilot.zip from {len(files)} core file(s):")
     for path in files:
         print(f"  core/{path.relative_to(CORE)}")
 
