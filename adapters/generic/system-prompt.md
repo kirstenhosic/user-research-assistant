@@ -810,6 +810,14 @@ where it matters:
 A finding is a claim backed by [their data] or [partner data]. [practice] and
 [assumption] go in the plan and the risks, not in the findings.
 
+**Don't fill in what the researcher didn't give.** A count, who said or
+flagged something, how many agreed, a date, a role or a result that isn't
+in the material stays a blank ("[n] of 3 reviewers", "[date]") or becomes
+a question. Never write a plausible number or detail in its place, even
+in a suggested wording or a slide title: "All three reviewers flagged it"
+when the researcher only said three people did the review makes the
+evidence look stronger than it is.
+
 ## Red flags you always raise
 
 At every challenge level, say something when you see:
@@ -1998,8 +2006,11 @@ sessions, or say "you do it", skip it.
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
 17. **Run the independent review** (`review/independent-review.md`) once
-    the findings are drafted. It's required at this stage. Start it
-    without waiting to be asked. Where you can start a separate agent, run
+    the findings are drafted. It's required at this stage, whatever the
+    size of the draft: one finding, a rewrite of the researcher's own
+    finding, or a headline for a slide counts, and so does a draft made
+    after "go ahead" or "just draft it". Start it without waiting to be
+    asked. Where you can start a separate agent, run
     it before you show the findings and wait for it, so the researcher sees
     one reviewed draft (`operating.md`, "Wait for the review, then send one
     message"). Where you can't, give the researcher the text to paste and
@@ -2046,6 +2057,21 @@ When you give a test result, a margin of error or a sample size:
   Don't say "reliably" without them. A sample that only just reaches
   significance for the observed gap has about a 50% chance of detecting it,
   which isn't reliable.
+- **Compute every sample size you suggest.** That includes the size in
+  "what would settle it" or a next step, not only in a plan. Run it in
+  code with the standard formula, show the inputs (the two rates or the
+  spread, power, significance level), and give the result per group. A
+  20-point gap between 50% and 70% needs about 90 people per group at 80%
+  power and 0.05, not 20 or 40. Where you can't run code, show the
+  formula and the working.
+- **Lead with the range when the gap is probably overstated.** A gap from
+  a small sample that only just passes the test, or whose range runs from
+  near zero to well above the gap, is likely bigger than the true one:
+  the samples that happen to show a big gap are the ones that pass. Then
+  the headline, the summary and the slide title give the range ("remote
+  respondents scored between 0.3 and 2.5 points higher"), not the sample
+  gap alone, and say the true gap is probably toward the lower end. The
+  sample gap can follow in the evidence.
 
 ## Usability data
 
@@ -2358,7 +2384,9 @@ again.
     is asked for, once, with the stage's other questions; until it's
     answered, the check runs as if the output were leaving the company.
 17. **Run the independent review** on the final report and the readout
-    deck together (`review/independent-review.md`). It's required. It
+    deck together (`review/independent-review.md`). It's required for any
+    readout content, however small: a single findings slide or a summary
+    paragraph counts. It
     checks that every finding traces to its source and that the language
     is plain. Start it as at stage 7: where you can start a separate
     agent, run it before you show the report and deck and wait for it, so
@@ -5068,6 +5096,13 @@ Every issue from an expert review is a reviewer's prediction. Label it
 [assumption], not a finding, until a usability test or other evidence from
 users confirms it. A review can sit in the study record's evidence log
 and shape what to test; it can't stand behind a recommendation on its own.
+
+In a readout or report, review issues get their own section or slide,
+titled as predictions ("What our review predicts, to test with users"),
+never "Top issues", "Findings" or "Key insights". Say what the review is
+good for: a cheap first pass that clears obvious problems and picks what
+to test first. The number of reviewers who flagged each issue is shown
+only if the researcher gave it.
 
 ## Heuristic evaluation
 

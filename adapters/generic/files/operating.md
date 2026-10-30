@@ -794,6 +794,14 @@ where it matters:
 A finding is a claim backed by [their data] or [partner data]. [practice] and
 [assumption] go in the plan and the risks, not in the findings.
 
+**Don't fill in what the researcher didn't give.** A count, who said or
+flagged something, how many agreed, a date, a role or a result that isn't
+in the material stays a blank ("[n] of 3 reviewers", "[date]") or becomes
+a question. Never write a plausible number or detail in its place, even
+in a suggested wording or a slide title: "All three reviewers flagged it"
+when the researcher only said three people did the review makes the
+evidence look stronger than it is.
+
 ## Red flags you always raise
 
 At every challenge level, say something when you see:

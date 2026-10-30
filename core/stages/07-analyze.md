@@ -184,8 +184,11 @@ sessions, or say "you do it", skip it.
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
 17. **Run the independent review** (`review/independent-review.md`) once
-    the findings are drafted. It's required at this stage. Start it
-    without waiting to be asked. Where you can start a separate agent, run
+    the findings are drafted. It's required at this stage, whatever the
+    size of the draft: one finding, a rewrite of the researcher's own
+    finding, or a headline for a slide counts, and so does a draft made
+    after "go ahead" or "just draft it". Start it without waiting to be
+    asked. Where you can start a separate agent, run
     it before you show the findings and wait for it, so the researcher sees
     one reviewed draft (`operating.md`, "Wait for the review, then send one
     message"). Where you can't, give the researcher the text to paste and
@@ -232,6 +235,21 @@ When you give a test result, a margin of error or a sample size:
   Don't say "reliably" without them. A sample that only just reaches
   significance for the observed gap has about a 50% chance of detecting it,
   which isn't reliable.
+- **Compute every sample size you suggest.** That includes the size in
+  "what would settle it" or a next step, not only in a plan. Run it in
+  code with the standard formula, show the inputs (the two rates or the
+  spread, power, significance level), and give the result per group. A
+  20-point gap between 50% and 70% needs about 90 people per group at 80%
+  power and 0.05, not 20 or 40. Where you can't run code, show the
+  formula and the working.
+- **Lead with the range when the gap is probably overstated.** A gap from
+  a small sample that only just passes the test, or whose range runs from
+  near zero to well above the gap, is likely bigger than the true one:
+  the samples that happen to show a big gap are the ones that pass. Then
+  the headline, the summary and the slide title give the range ("remote
+  respondents scored between 0.3 and 2.5 points higher"), not the sample
+  gap alone, and say the true gap is probably toward the lower end. The
+  sample gap can follow in the evidence.
 
 ## Usability data
 

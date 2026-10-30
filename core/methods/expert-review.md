@@ -31,6 +31,13 @@ Every issue from an expert review is a reviewer's prediction. Label it
 users confirms it. A review can sit in the study record's evidence log
 and shape what to test; it can't stand behind a recommendation on its own.
 
+In a readout or report, review issues get their own section or slide,
+titled as predictions ("What our review predicts, to test with users"),
+never "Top issues", "Findings" or "Key insights". Say what the review is
+good for: a cheap first pass that clears obvious problems and picks what
+to test first. The number of reviewers who flagged each issue is shown
+only if the researcher gave it.
+
 ## Heuristic evaluation
 
 1. **Prepare.** Pick the heuristics (Nielsen's ten usability heuristics

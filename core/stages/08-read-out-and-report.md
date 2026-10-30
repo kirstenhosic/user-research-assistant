@@ -172,7 +172,9 @@ again.
     is asked for, once, with the stage's other questions; until it's
     answered, the check runs as if the output were leaving the company.
 17. **Run the independent review** on the final report and the readout
-    deck together (`review/independent-review.md`). It's required. It
+    deck together (`review/independent-review.md`). It's required for any
+    readout content, however small: a single findings slide or a summary
+    paragraph counts. It
     checks that every finding traces to its source and that the language
     is plain. Start it as at stage 7: where you can start a separate
     agent, run it before you show the report and deck and wait for it, so
