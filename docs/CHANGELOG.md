@@ -2,6 +2,34 @@
 
 ## 2026-10-30
 
+- Five accuracy fixes from tests on real data and the scenarios that
+  hadn't been run. A gap from a small sample that only just passes the
+  test is headlined with its range, not the sample gap (7.23; new eval
+  `overstated-gap`): in a Stack Overflow survey sample, three runs out of
+  three led with a 1.4-point gap whose true size was 0.3. Every suggested
+  sample size is computed in code with its inputs (7.24): two runs said
+  about 20 per round where about 90 are needed, and the
+  `small-sample-rate` scenario's own "forty or more" is corrected. Details
+  the researcher didn't give, such as how many reviewers flagged an
+  issue, stay blanks or questions (A.34). The independent review runs for
+  a findings or readout draft of any size, including after "go ahead"
+  (7.7). Expert review issues get their own "predictions to test" section
+  in a readout, and the review is credited as a cheap first pass (8.20).
+  Three more: Magpie says in one line whether it read every file in full,
+  and never counts or quotes from what it couldn't read (A.35, eval
+  `partial-read`). Quotes from transcripts in another language stay in
+  that language with a marked translation (7.25, eval
+  `non-english-quote`). Coding captures the reasons and tensions behind a
+  view, not only the view (7.26, eval `reasons-not-just-stance`): five of
+  the seven points only partly found in the Gaming Horizons test had the
+  topic but not the reason.
+
+- New `magpie-gemini.zip` for Gemini. Gemini accepted the upload of
+  `magpie.zip` but then refused to load it because it carries code
+  scripts, and answered without Magpie's rules. The Gemini zip leaves
+  `scripts/` out, and Magpie does the quote, count and evidence checks by
+  hand. The README's Gemini steps now point to it.
+
 - Gemini skill upload fixed. Gemini refused magpie.zip because the
   license file had no extension. The build now names it `LICENSE.txt` in
   the skill folder, the zip and the generic folder.

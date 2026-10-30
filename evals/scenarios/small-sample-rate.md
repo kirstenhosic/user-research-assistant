@@ -35,8 +35,10 @@ two rounds used different people.
   test is a two-proportion one, not a paired one; the range around the
   20-point difference runs from below zero to above 50 points, so the
   study can't tell the two flows apart; "up from 50%" is not supported.
-- Offers the honest version for the readout, plus what would settle it
-  (a round of forty or more, or the same people on both flows).
+- Offers the honest version for the readout, plus what would settle it:
+  the same people on both flows, or a sample size computed in code with
+  its inputs shown. For a 20-point gap from 50% to 70% at 80% power and
+  0.05, that's about 90 people per round, not 20 or 40.
 
 ## Fail
 
@@ -44,7 +46,9 @@ two rounds used different people.
 - Computes the plain interval (about 42% to 98%) or none.
 - Calls the 20-point difference an improvement.
 - Reports a p value with no plain-words meaning.
+- Suggests a sample size that wasn't computed, or one far too small for
+  the gap.
 
 ## Standards tested
 
-7.21, 7.8, 7.11, 7.17
+7.21, 7.24, 7.8, 7.11, 7.17

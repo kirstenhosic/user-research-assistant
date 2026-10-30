@@ -20,6 +20,9 @@ Reads every Markdown file under core/ in a fixed order and writes:
   magpie.zip                             the skill folder's contents, zipped
                                          with SKILL.md at the top, for people
                                          who download Magpie and upload it
+  magpie-gemini.zip                      the same without scripts/, for
+                                         Gemini, which won't load a skill
+                                         that carries code
 
 The code checks in tools/checks/ are copied into the skill's scripts/
 folder so the skill can run them. The per-platform setup notes in
@@ -40,6 +43,7 @@ GENERIC = ROOT / "adapters" / "generic"
 SKILL = ROOT / "adapters" / "skill" / "magpie"
 CLAUDE_LOCAL = ROOT / ".claude" / "skills" / "magpie"
 ZIP = ROOT / "magpie.zip"
+GEMINI_ZIP = ROOT / "magpie-gemini.zip"
 
 # Files and folders in reading order. A folder that doesn't exist yet is skipped.
 # core/standards/ is left out on purpose: the stage files already carry the
@@ -295,6 +299,55 @@ def build_skill(files: list[Path]) -> None:
     shutil.copytree(SKILL, CLAUDE_LOCAL)
 
 
+SCRIPTS_PARAGRAPH = """`scripts/quote_check.py`, `scripts/count_check.py` and
+`scripts/evidence_check.py` are scripts to run, not read: they check quotes,
+counts and the receipts behind counts at stages 7 and 8.
+`scripts/md_to_docx.py` turns a Markdown output into a Word file and
+`scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
+files, for the team to edit together (`operating.md`, "Files for the
+team"). Run them with Python when you can and say so when you can't.
+"""
+
+NO_SCRIPTS_PARAGRAPH = """This copy has no scripts. Do the quote, count and evidence checks at
+stages 7 and 8 by hand and say so in the record. For Word or Excel files,
+use the tool's own way to make them if it has one, or give the formatted
+draft to copy in.
+"""
+
+
+def gemini_files() -> dict[str, bytes]:
+    """The skill folder without scripts/, as name -> contents.
+
+    Gemini refuses to load a skill that carries code ("contains executable
+    components that aren't supported"), and then answers without Magpie's
+    rules. Found on a free account on 2026-10-30.
+    """
+    files = {}
+    for path in sorted(p for p in SKILL.rglob("*") if p.is_file()):
+        name = path.relative_to(SKILL).as_posix()
+        if name.startswith("scripts/"):
+            continue
+        data = path.read_bytes()
+        if name == "SKILL.md":
+            text = data.decode("utf-8")
+            if SCRIPTS_PARAGRAPH not in text:
+                raise SystemExit("SKILL.md no longer has the scripts paragraph; update gemini_files()")
+            data = text.replace(SCRIPTS_PARAGRAPH, NO_SCRIPTS_PARAGRAPH).encode("utf-8")
+        files[name] = data
+    return files
+
+
+def write_zip(files: dict[str, bytes], target: Path) -> None:
+    """Write name -> contents to a zip with fixed dates and order."""
+    target.unlink(missing_ok=True)
+    with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+        for name in sorted(files):
+            info = zipfile.ZipInfo(name, (1980, 1, 1, 0, 0, 0))
+            info.external_attr = 0o644 << 16
+            info.compress_type = zipfile.ZIP_DEFLATED
+            zf.writestr(info, files[name])
+
+
 def build_zip(source: Path, target: Path) -> None:
     """Zip the skill folder's contents, SKILL.md at the top, not in a folder.
 
@@ -316,7 +369,8 @@ def main() -> None:
     build_generic(files)
     build_skill(files)
     build_zip(SKILL, ZIP)
-    print(f"Built adapters/generic, adapters/skill, .claude/skills and magpie.zip from {len(files)} core file(s):")
+    write_zip(gemini_files(), GEMINI_ZIP)
+    print(f"Built adapters/generic, adapters/skill, .claude/skills, magpie.zip and magpie-gemini.zip from {len(files)} core file(s):")
     for path in files:
         print(f"  core/{path.relative_to(CORE)}")
 

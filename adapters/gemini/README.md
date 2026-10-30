@@ -18,9 +18,9 @@ is web and Mac only. No paid plan is needed for chats.
 
 1. At gemini.google.com, open **Customize** in the sidebar (under **More**
    if you don't see it), then **Skills**.
-2. **Create** > **Upload**, and choose `magpie.zip` from the top of the
-   repository, or the `adapters/skill/magpie/` folder. `SKILL.md` must be
-   in the top folder, which it is in both.
+2. **Create** > **Upload**, and choose `magpie-gemini.zip` from the top of
+   the repository. It's the skill folder without `scripts/`. `SKILL.md`
+   is in the top folder.
 3. Review the name, description and instructions Gemini shows, then
    **Create**.
 4. In a chat, type `/magpie` (or `@magpie` with the newer shortcut), or
@@ -45,13 +45,16 @@ upload the whole folder again.
 - The independent reviews (questions at stage 6, findings and report at
   stages 7 and 8) run in a fresh chat with a three-part paste, as
   `review-question-review.md` and `review-independent-review.md` describe.
-- Whether Gemini runs `scripts/quote_check.py`, `scripts/count_check.py`
-  and `scripts/evidence_check.py` hasn't been tested. If it doesn't, Magpie does
-  the checks by hand and says so.
-- Word files: `scripts/md_to_docx.py` turns a guide, survey, plan or
-  report into a .docx using only Python. Whether Gemini runs it hasn't been
-  tested. If it doesn't, Magpie uses Gemini's own way to make a Word file if
-  it has one, or tells you to copy the formatted draft into Word.
+- Gemini won't load a skill that carries code. On a free account on
+  2026-10-30, uploading `magpie.zip` (which has `scripts/`) worked, but in
+  chat Gemini said the skill "couldn't be loaded because it contains custom
+  code scripts" and answered without Magpie's rules. So `magpie-gemini.zip`
+  leaves `scripts/` out, and its `SKILL.md` tells Magpie to do the quote,
+  count and evidence checks by hand and say so.
+- Word files: with no scripts, Magpie uses Gemini's own way to make a Word
+  file if it has one, or tells you to copy the formatted draft into Word.
+- Not yet tested: whether Gemini follows Magpie's rules once
+  `magpie-gemini.zip` is loaded.
 
 ## Checked
 

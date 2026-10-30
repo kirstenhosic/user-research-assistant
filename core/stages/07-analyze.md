@@ -70,7 +70,8 @@ sessions, or say "you do it", skip it.
 3. **Read everything once before coding.** No themes yet. Note what
    surprised you. If a tool (Magpie included) has already produced a
    summary, use it to decide which transcripts to read closely, not as a
-   substitute for reading them.
+   substitute for reading them. Then say what you read, in one line
+   (`operating.md`, "Say what you read").
 4. **Code what's there, all of it.** Code every transcript from start to
    end, the warm-up and background included: how people got started,
    who introduced them, their history, asides and stories told in
@@ -79,6 +80,17 @@ sessions, or say "you do it", skip it.
    (consent, "can you see my screen") go uncoded. Tag each passage with
    a short label and its source: participant code plus line, timestamp
    or question number.
+   Code material in the language it's in. A quote from a transcript in
+   another language stays in that language, word for word, with a
+   translation after it marked as one: "[translated by Magpie]" or "[the
+   researcher's translation]". The quote check runs on the original. A
+   translation is never shown as the participant's own words.
+   Code the reasons as well as the stance. When someone takes a view,
+   code why they hold it, when it changes and what they set against it:
+   "aggression comes from losing, not from violent content", "games are
+   art, but the gameplay comes first", "the story is what keeps me
+   playing". These reasons and tensions are often the finding; a count of
+   who agrees is only its start.
    Codes describe what people did or said, not what you think it means.
    Tag each code with the kind of evidence: **seen** (watched doing it),
    **past time** (described a real, specific time) or **opinion** (a
@@ -89,7 +101,9 @@ sessions, or say "you do it", skip it.
    (`lenses/confidence-and-priority.md`).
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
-   blocked task, lost data or money). Any other single case isn't a
+   blocked task, lost data or money). A theme on a topic everyone was
+   asked about (a prompt, a keyword slide) states the reasons people gave
+   and where they pulled against each other, not only how many agreed. Any other single case isn't a
    theme: it goes on one line under the theme table (step 8). Each theme carries its receipts from the start: the
    participant codes and locations it rests on.
 5a. **Look for connections nobody asked about.** Before settling the
@@ -184,8 +198,11 @@ sessions, or say "you do it", skip it.
    and each cited line exists and is that participant speaking. Where you
    can't run code, do it by hand and say so.
 17. **Run the independent review** (`review/independent-review.md`) once
-    the findings are drafted. It's required at this stage. Start it
-    without waiting to be asked. Where you can start a separate agent, run
+    the findings are drafted. It's required at this stage, whatever the
+    size of the draft: one finding, a rewrite of the researcher's own
+    finding, or a headline for a slide counts, and so does a draft made
+    after "go ahead" or "just draft it". Start it without waiting to be
+    asked. Where you can start a separate agent, run
     it before you show the findings and wait for it, so the researcher sees
     one reviewed draft (`operating.md`, "Wait for the review, then send one
     message"). Where you can't, give the researcher the text to paste and
@@ -232,6 +249,21 @@ When you give a test result, a margin of error or a sample size:
   Don't say "reliably" without them. A sample that only just reaches
   significance for the observed gap has about a 50% chance of detecting it,
   which isn't reliable.
+- **Compute every sample size you suggest.** That includes the size in
+  "what would settle it" or a next step, not only in a plan. Run it in
+  code with the standard formula, show the inputs (the two rates or the
+  spread, power, significance level), and give the result per group. A
+  20-point gap between 50% and 70% needs about 90 people per group at 80%
+  power and 0.05, not 20 or 40. Where you can't run code, show the
+  formula and the working.
+- **Lead with the range when the gap is probably overstated.** A gap from
+  a small sample that only just passes the test, or whose range runs from
+  near zero to well above the gap, is likely bigger than the true one:
+  the samples that happen to show a big gap are the ones that pass. Then
+  the headline, the summary and the slide title give the range ("remote
+  respondents scored between 0.3 and 2.5 points higher"), not the sample
+  gap alone, and say the true gap is probably toward the lower end. The
+  sample gap can follow in the evidence.
 
 ## Usability data
 
