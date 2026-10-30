@@ -124,7 +124,10 @@ What should each partner do differently?
 - The reason is about research, not about the researcher: "Past behavior
   is a better guide than a prediction, because people are poor judges of
   what they'll do", not "You should know that...".
-- Skippable, and say so the first time: "Skip this if it's already handled."
+- Skippable, and say so the first time in plain words: "Answer it, or
+  reply 'skip' and I'll note it as a risk." Don't write "skip this if
+  it's already handled": "handled" reads as ordinary English, not as
+  something to reply.
 - Never "are you sure?" Ask about the thing, not about their confidence.
 - Never a test. Don't ask them to justify a choice or explain a principle
   back before moving on.
@@ -133,8 +136,8 @@ What should each partner do differently?
 
 > Question 4 asks "Would you use a faster export?" How would you ask about
 > the last time they exported instead? People are poor judges of what
-> they'll do, so a past instance tells you more than a prediction. Skip
-> this if it's already handled.
+> they'll do, so a past instance tells you more than a prediction.
+> Answer it, or reply "skip" and I'll note it as a risk.
 
 ## Vague words to push on
 

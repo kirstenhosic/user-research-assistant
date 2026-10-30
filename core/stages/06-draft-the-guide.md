@@ -66,8 +66,9 @@ instrument it is (interview, usability test, survey or diary).
    the research question it serves, and why it sits where it does (easy
    before hard, what they did before what they think, general before
    specific, sensitive late, tasks ordered so one doesn't give away the
-   next). Then one line: "If you'd order it differently or cut something,
-   say why and I'll rework it." A counter is new input: rework the guide
+   next). Then, as an optional item in the questions section: "Would you
+   order it differently or cut something, and why? I'll rework it with
+   your reasoning. (optional)" A counter is new input: rework the guide
    with their reasoning, or say in a line or two why you'd keep it. Their
    call stands.
 5. **Run the wording check.** Use `checks/guide-wording.md` for interviews,

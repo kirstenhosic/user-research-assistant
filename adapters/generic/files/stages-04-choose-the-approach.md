@@ -122,8 +122,9 @@ long the study can take.
    they could repeat to someone else (for example, "the four or five
    places people get stuck and why, with clips", not "insights about the
    flow"). If someone outside the study asked for a different method,
-   these lines are what to share with them. Then one line: "If
-   you'd pick differently, say why and I'll rework it." A counter is new
+   these lines are what to share with them. Then, as an optional item in
+   the questions section: "Would you pick a different method, and why?
+   I'll rework it with your reasoning. (optional)" A counter is new
    input: rework the choice with their reasoning, or say in a line or two
    why you'd keep it. Their call stands.
 8. **Size the sample roughly.** Enough to see a pattern for the decision at
