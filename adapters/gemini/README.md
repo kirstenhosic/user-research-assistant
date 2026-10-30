@@ -32,8 +32,10 @@ upload the whole folder again.
 ## Limits checked
 
 - Total upload at most 100 MB; the package is well under 1 MB.
-- Plain-text files only (`.md`, `.py`, `.txt` and similar). The package
-  has nothing else.
+- Plain-text files only (`.md`, `.py`, `.txt` and similar), and every file
+  needs an extension. A file named just `LICENSE` is refused with "The
+  skill folder contains a file with an unsupported file type", so the
+  build names it `LICENSE.txt`. Found on 2026-10-30.
 - Scripts can't use the internet or act on external sites. The three
   checks in `scripts/` read local files only.
 - The skill name must be lowercase with hyphens. It's `magpie`.

@@ -2,6 +2,10 @@
 
 ## 2026-10-30
 
+- Gemini skill upload fixed. Gemini refused magpie.zip because the
+  license file had no extension. The build now names it `LICENSE.txt` in
+  the skill folder, the zip and the generic folder.
+
 - Clearer asks from framing to readout. Invitations ("tell me if you
   have a template", "say why and I'll rework it", "go on") now go in the
   questions section as items; at stage 3 the review yes moves on to the

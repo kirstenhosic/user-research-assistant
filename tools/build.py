@@ -262,7 +262,7 @@ def build_generic(files: list[Path]) -> None:
         text = path.read_text(encoding="utf-8").strip().replace(PROVENANCE_REF, SOURCES_REF)
         lean.append(f"<!-- core/{rel} -->\n\n{text}\n")
     (GENERIC / "system-prompt-lean.md").write_text("\n".join(lean), encoding="utf-8")
-    shutil.copyfile(ROOT / "LICENSE", GENERIC / "LICENSE")
+    shutil.copyfile(ROOT / "LICENSE", GENERIC / "LICENSE.txt")
 
 
 def build_skill(files: list[Path]) -> None:
@@ -278,7 +278,9 @@ def build_skill(files: list[Path]) -> None:
 
     skill = SKILL_FRONTMATTER + "\n" + SKILL_INTRO + "\n".join(index) + "\n"
     (SKILL / "SKILL.md").write_text(skill, encoding="utf-8")
-    shutil.copyfile(ROOT / "LICENSE", SKILL / "LICENSE")
+    # Gemini refuses a skill upload with any file that has no extension,
+    # so the license goes in as LICENSE.txt.
+    shutil.copyfile(ROOT / "LICENSE", SKILL / "LICENSE.txt")
 
     scripts = SKILL / "scripts"
     scripts.mkdir()
