@@ -102,6 +102,13 @@ def check_zip_fresh() -> None:
     if gemini != build.gemini_files():
         fail("magpie-gemini.zip is stale; run python3 tools/build.py")
 
+    if not build.COPILOT_ZIP.exists():
+        fail("magpie-copilot.zip is missing; run python3 tools/build.py")
+    with zipfile.ZipFile(build.COPILOT_ZIP) as zf:
+        copilot = {name: zf.read(name) for name in zf.namelist()}
+    if copilot != build.copilot_files():
+        fail("magpie-copilot.zip is stale; run python3 tools/build.py")
+
 
 def trees_differ(a: Path, b: Path) -> str:
     cmp = filecmp.dircmp(a, b)

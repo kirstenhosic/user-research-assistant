@@ -2,6 +2,16 @@
 
 ## 2026-10-30
 
+- New `magpie-copilot.zip` for Copilot Cowork. One Microsoft page says a
+  Cowork skill can carry up to 20 companion files and another says 100;
+  `magpie.zip` has more than 70. The Copilot zip has no scripts and
+  combines Magpie's files into 18 plus `SKILL.md`, so it fits either
+  limit. Each original file keeps its name on a marker line, and Magpie
+  does the quote, count and evidence checks by hand. The Copilot notes now
+  say which personal plans have Cowork: Microsoft 365 Premium and Pro in
+  the US and Canada, not Personal, Family or the free app. Not yet tested
+  in Copilot.
+
 - Five accuracy fixes from tests on real data and the scenarios that
   hadn't been run. A gap from a small sample that only just passes the
   test is headlined with its range, not the sample gap (7.23; new eval

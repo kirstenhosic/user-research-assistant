@@ -294,11 +294,16 @@ Uploading works in the web app and the Mac app, not the phone apps.
 ### Copilot
 
 Use **Cowork** in Microsoft 365 Copilot. At work you need a Copilot
-license, and your admin has to turn Cowork on.
+license, and your admin has to turn Cowork on. On a personal Microsoft
+account you need Microsoft 365 Premium or Pro, in the US or Canada.
+Personal, Family and the free Copilot app don't have Cowork.
 
-1. In Cowork, open **Customize** > **Skills**, choose the arrow next to
-   **Add**, then **Upload skill**, and pick `magpie.zip`.
-2. When it appears under **Your skills**, start a chat and describe your
+1. Download
+   **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie-copilot.zip)**,
+   not `magpie.zip`. It has its files combined to fit Copilot's file limit.
+2. In Cowork, open **Customize** > **Skills**, choose the arrow next to
+   **Add**, then **Upload skill**, and pick `magpie-copilot.zip`.
+3. When it appears under **Your skills**, start a chat and describe your
    study.
 
 More detail is in the [Copilot setup notes](adapters/copilot/README.md).
@@ -318,7 +323,8 @@ version every week or two, so you're always using the best one.
    changes are at the top, with the date.
 2. If anything has changed since you set Magpie up, download
    **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**
-   again.
+   again, or `magpie-gemini.zip` or `magpie-copilot.zip` if you use
+   Gemini or Copilot.
 3. Replace your old copy the same way you installed it: unzip it over the
    old `magpie` folder in Claude Code, upload the new zip in place of the
    old skill, or swap in the new `.md` files and `operating.md` in your
