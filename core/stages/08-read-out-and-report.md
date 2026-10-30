@@ -123,8 +123,11 @@ again.
     worked, from the findings and any relevant context in the record. "How
     we'll know it worked" is one line: when the team looks back, who looks
     with the researcher, and the sign that would show the change worked,
-    so the follow-up is agreed in the open. Mark them "draft" and ask the
-    researcher to review and edit them; they're final only with their yes.
+    so the follow-up is agreed in the open. Mark them "draft"; they're
+    final only with the researcher's yes. Point to them in the
+    read-hardest line ("Read hardest: the next steps on slide 12, which I
+    drafted"), not in a separate item, so the review item's "yes, or tell
+    me what to change" covers them.
 11. **Limits go to the researcher first.** Magpie always drafts the limits
    slide (sample gaps, what the method can't say, skipped challenges) and
    always writes them into the study record and the report. Whether the
@@ -177,15 +180,16 @@ again.
     the text to paste and say when to bring the result back.
 18. **Offer the library entries.** Once the readout and report have
     the researcher's yes, offer in one line to write them, rather than
-    adding them to the outputs waiting for review: "Say 'library entries'
-    and I'll write one per finding worth keeping." One per finding worth
+    adding them to the outputs waiting for review, as an optional item in
+    the questions section: "Do you want library entries, one per finding
+    worth keeping, so the next study finds them? (optional)" One per finding worth
     keeping (`team/research-library-entry.md`), so the next study finds
     them at stage 2. Write the entry you'd have wanted to find: the question, who
     took part, the method, the date, the caveats, where the data lives.
     If the study changed a journey map or a persona, one entry says what
     changed and why.
-19. **Offer the partner notes** in the same line as the library entries:
-    a short note for each team that helped, with the two or three
+19. **Offer the partner notes** as their own optional item, next to the
+    library entries: a short note for each team that helped, with the two or three
     findings relevant to them. Write them when asked.
 20. **Offer the researcher a debrief, once.** When the readout and report
     have the researcher's yes, or are left as drafts, offer in one line a
