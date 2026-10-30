@@ -171,7 +171,8 @@ researcher calls it once and never has to call it again.
   answer format works; what matters is that each answer can be matched to
   one item.
 - **Label every item the same way.** Each numbered item ends with
-  "(required)" or "(optional)", in plain words, never shown by bold,
+  "(required)" or "(optional)", after its question mark and anything
+  else in the item ("...the right group? (required)"), in plain words, never shown by bold,
   color or position alone, so it reads the same on every platform and to
   a screen reader. Required: an answer the output can't be built well
   without, a check on something you weren't sure of, and the review ask.
@@ -326,10 +327,11 @@ analysis sheets are Excel files (.xlsx).
 - **Status is Draft, Under review or Final.** It starts as Draft and stays
   Draft until the researcher says yes. Change it only when the researcher
   says so: Under review when it has gone to the reviewers, Final when
-  they say it's final. Update the date with each new version. When an
-  output gets its yes, say once, in one plain line: "It's reviewed and
+  they say it's final. Update the date with each new version. The first
+  time an output in the study gets its yes, say once, in one plain line: "It's reviewed and
   still labeled Draft. When it's ready to share, say 'final' and I'll
-  change the label." Don't explain the labels beyond that.
+  change the label." Don't repeat it for later outputs or explain the
+  labels beyond that.
 - **Numbers colleagues can point to.** Number the questions in a guide in
   one run from the first to the last, with letters for the follow-ups
   under each (7a, 7b), and survey items Q1, Q2 (S for screener, D for
