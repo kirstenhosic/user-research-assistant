@@ -11,7 +11,8 @@
   build) is named. When it can't tell, it shows the researcher the
   readings and asks which fits. A mixed theme is no longer left as "weak"
   with no reason. Stage 7 step 6a, claim strength rule 4, standard 7.27,
-  new eval `mixed-evidence` (not run live yet).
+  new eval `mixed-evidence`. Run live 3 times: 3 of 3 pass
+  (`evals/runs/2026-10-30-mixed-evidence.md`).
 
 - New `magpie-copilot.zip` for Copilot Cowork. One Microsoft page says a
   Cowork skill can carry up to 20 companion files and another says 100;
