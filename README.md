@@ -281,7 +281,11 @@ on.
 
 1. Go to gemini.google.com. In the sidebar, open **Customize** (it may be
    under **More**), then **Skills**.
-2. Choose **Create** > **Upload** and pick `magpie.zip`.
+2. Choose **Create** > **Upload** and pick
+   **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie-gemini.zip)**,
+   not `magpie.zip`. Gemini won't load a skill that contains code, and
+   this copy leaves the code checks out. Magpie does those checks by hand
+   instead.
 3. Check what Gemini shows, then choose **Create**.
 4. In a chat, type `/magpie`, or just describe your study.
 
@@ -348,6 +352,8 @@ with the tool you used, the step, and what you saw.
 - **The assistant doesn't seem to know Magpie.** In Claude Code, check the
   file is at `.claude/skills/magpie/SKILL.md`. In other tools, check the
   skill is installed and turned on, then name it in the chat.
+- **Gemini says Magpie "contains executable components" or "couldn't be
+  loaded".** You uploaded `magpie.zip`. Replace it with `magpie-gemini.zip`.
 - **It won't take the upload.** Use `magpie.zip` exactly as downloaded,
   without unzipping and re-zipping it. If it's still refused, try
   uploading the unzipped folder, and please open an issue saying what

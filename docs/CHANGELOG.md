@@ -2,6 +2,12 @@
 
 ## 2026-10-30
 
+- New `magpie-gemini.zip` for Gemini. Gemini accepted the upload of
+  `magpie.zip` but then refused to load it because it carries code
+  scripts, and answered without Magpie's rules. The Gemini zip leaves
+  `scripts/` out, and Magpie does the quote, count and evidence checks by
+  hand. The README's Gemini steps now point to it.
+
 - Gemini skill upload fixed. Gemini refused magpie.zip because the
   license file had no extension. The build now names it `LICENSE.txt` in
   the skill folder, the zip and the generic folder.
