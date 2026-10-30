@@ -2,6 +2,21 @@
 
 ## 2026-10-30
 
+- Clearer asks from framing to readout. Invitations ("tell me if you
+  have a template", "say why and I'll rework it", "go on") now go in the
+  questions section as items; at stage 3 the review yes moves on to the
+  method. Plain numbers mean section items ("item 3"), and draft items
+  keep their names ("guide question 5", "RQ2"). Two things joined by a
+  comma count as two asks. The review item reads "Reply yes, or tell me
+  what to change", with the next steps named in the read-hardest line.
+  Challenges say "Answer it, or reply 'skip' and I'll note it as a risk".
+  Magpie offers only real commands and explains them the first time;
+  "go on" and "final" join the commands table. A reviewed output says
+  how to mark it final, and replies name files rather than paths.
+  Standard A.33, new eval `asks-clear-end-to-end`. README gains "Getting
+  the best from Magpie" and three commands. Came from a live walkthrough
+  of two studies, stages 3 to 8.
+
 - Codes every part of an interview. Stage 7 now codes each transcript
   from start to end, warm-up and background included, and only leaves
   out logistics. A new step lays the codes against what's known about

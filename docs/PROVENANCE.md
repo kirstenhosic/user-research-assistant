@@ -193,7 +193,7 @@ with S10 and S100 (Sauro and Lewis, supplied as photographs on
 2026-10-28).
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 65 of 138 standards cite a source in full or in part.
+Current count: 65 of 139 standards cite a source in full or in part.
 
 ## Tools used
 

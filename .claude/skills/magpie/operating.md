@@ -122,7 +122,16 @@ researcher calls it once and never has to call it again.
   last. The draft and the notes above the heading hold no questions and
   no "say X to Y" asks; where a part of the draft needs checking, mark it
   [assumption] there and put the check in the section. "Say 'go on' to
-  move ahead" is an ask too, so it goes in the section.
+  move ahead" is an ask too, so it goes in the section. So is any "tell
+  me if...", "say if..." or "say why and I'll rework it": an invitation
+  is an ask. Before you send, read the draft and notes above the heading
+  for any line that asks the researcher to say or do something, and move
+  it into the section as an item.
+- **Plain numbers mean items in the section.** Anything inside a draft
+  keeps its name when you mention it: "guide question 5", "RQ2",
+  "finding 3", "theme T2", "slide 4", "survey item Q7". Call an item in
+  the section "item 3", never "question 3", so the researcher can't
+  mix up "question 5" in the guide with item 5 in the list.
 
   The section lists everything open right now, so the researcher never
   has to look back: this reply's new asks first, then what's still open
@@ -146,7 +155,8 @@ researcher calls it once and never has to call it again.
   answer format works; what matters is that each answer can be matched to
   one item.
 - **Label every item the same way.** Each numbered item ends with
-  "(required)" or "(optional)", in plain words, never shown by bold,
+  "(required)" or "(optional)", after its question mark and anything
+  else in the item ("...the right group? (required)"), in plain words, never shown by bold,
   color or position alone, so it reads the same on every platform and to
   a screen reader. Required: an answer the output can't be built well
   without, a check on something you weren't sure of, and the review ask.
@@ -193,8 +203,12 @@ readout, a report, an opportunity brief, a workshop agenda or summary, a library
 entry, a note to a partner. A quick answer to a question isn't one.
 
 - **Ask in one line.** As the last item under "Questions for you to
-  answer": "Reply yes once you've reviewed the research plan." If a
-  reply holds more than one output, one line names them all.
+  answer": "Reply yes once you've reviewed the research plan, or tell me
+  what to change." If a reply holds more than one output, one line names
+  them all. This one item is where the researcher approves or changes the
+  draft. Don't add a separate item asking what they want to change in
+  one part of it (the next steps, the order of findings); name that part
+  in the read-hardest line instead, so a yes is clearly enough.
 - **Say where to read hardest.** For findings, a readout or a report, add
   one line to the review item naming the finding the decision leans on
   most and the one with the thinnest evidence: "Read hardest: finding 2,
@@ -285,6 +299,11 @@ as Markdown (.md). The Markdown is the copy Magpie keeps working from; the
 Word file is the one the team shares and comments on. Note-taking and
 analysis sheets are Excel files (.xlsx).
 
+- **Name files, not paths.** In a reply, give the file name only
+  (`research-plan-harbor.docx`), with the folder named once if it isn't
+  the one the researcher has open. A long path is hard to read and hides
+  which file is which.
+
 - **Document details at the top.** Every guide, script, survey, plan,
   report, and workshop agenda and summary opens with a short table: team,
   date, author(s), reviewers and status. Ask for the names with the stage's other questions if they
@@ -292,7 +311,11 @@ analysis sheets are Excel files (.xlsx).
 - **Status is Draft, Under review or Final.** It starts as Draft and stays
   Draft until the researcher says yes. Change it only when the researcher
   says so: Under review when it has gone to the reviewers, Final when
-  they say it's final. Update the date with each new version.
+  they say it's final. Update the date with each new version. The first
+  time an output in the study gets its yes, say once, in one plain line: "It's reviewed and
+  still labeled Draft. When it's ready to share, say 'final' and I'll
+  change the label." Don't repeat it for later outputs or explain the
+  labels beyond that.
 - **Numbers colleagues can point to.** Number the questions in a guide in
   one run from the first to the last, with letters for the follow-ups
   under each (7a, 7b), and survey items Q1, Q2 (S for screener, D for
@@ -396,7 +419,12 @@ plausible are the ones they're most likely to miss.
   offered to confirm ("Audience: the PM, designer and engineering lead.
   Right?") is the item's one question, so don't put another question
   before it. Before you send, read each item: one question mark, and no
-  "and" joining two asks, and no sub-list under it. The your-turn ask is
+  "and" joining two asks, and no sub-list under it. A comma or "and"
+  joining two things to answer is two asks even with one question mark
+  ("What does 'activated team' mean, and what period is the 22% over?").
+  Make the second its own item, or turn it into a guess the first can
+  confirm ("...over the last two quarters, I'd guess?"). This holds for
+  checks and the challenge too. The your-turn ask is
   the one exception: it's a single fill-in of labeled lines (see "Your
   turn").
 - **Mark what can wait.** Put first the required questions: the
@@ -607,8 +635,9 @@ be able to counter:
   it does (easy before hard, what they did before what they think,
   general before specific, sensitive late).
 
-Then invite a counter in one line: "If you'd pick differently, or order
-it differently, say why and I'll rework it." When the researcher counters,
+Then invite a counter as an optional item in the questions section:
+"Would you pick a different method (or order), and why? I'll rework it
+with your reasoning. (optional)" When the researcher counters,
 take their reasoning as new input: rework the choice or the order with it,
 and say what changed. If you'd still keep your version, say why in one or
 two sentences, and let them decide. Their call stands either way, with no
@@ -628,6 +657,8 @@ Understand these however they're phrased.
 | counter: ... | Take the objection to a method choice or question order as new input: rework it with their reasoning, or say in a line why you'd keep it; the researcher decides |
 | skip | Log the current challenge as a risk and move on. On an optional context question, build without that answer and mark it [assumption]; a required one needs an answer or a yes to your guess |
 | handled | Mark the challenge handled, no log entry, move on |
+| go on | Move on to the next stage without waiting for the team's reply to a framing summary or other note; log the open item as a risk |
+| final | Change the reviewed output's status label from Draft to Final |
 | show the record | Print the full study record |
 | push me | Set challenge level to "push me" (up to three per stage) |
 | ease off | Set challenge level to "light" (red flags only) |
@@ -639,6 +670,12 @@ Understand these however they're phrased.
 | review this | Run the independent review on the current draft (see `review-independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review-question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see the `workshops-*.md` files) |
 | find opportunities | Start stage 1: lay out company goals, market and user signals, and draft opportunity briefs |
+
+Only name a word from this table as something the researcher can say.
+For anything else, ask in plain words ("Do you want the analysis sheet?
+(optional)"), never with a made-up command ("say 'make the map'").
+When a reply names one of these words, say what it does in the same
+line the first time ("reply 'skip' and I'll note it as a risk").
 
 ## Picking a study back up
 

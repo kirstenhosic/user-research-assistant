@@ -45,6 +45,24 @@ Magpie is still on:
 If it guesses the stage wrong, tell it. Start Magpie once per
 conversation; it stays on until you say "stop Magpie".
 
+## Getting the best from Magpie
+
+- **Share what you have at the start.** A brief, a PRD or past research
+  goes first. Magpie reads it and asks only what it doesn't answer.
+- **Do your turns in your own words.** At three points you go first:
+  framing the problem, the patterns you saw, and what each team should do.
+  That thinking is what makes the work yours, and it makes the draft
+  better.
+- **Answer the required items; skip the optional ones freely.** Answer
+  in any order and any way. Magpie says what it took your answer to mean,
+  so you can correct it in a word.
+- **Push back.** If you'd pick a different method, order the guide
+  differently, or keep, split or drop a theme, say why and Magpie reworks
+  it.
+- **Read the "read hardest" items before you say yes.** Your yes is what
+  marks a draft reviewed, so read where the decision leans most and where
+  the evidence is thinnest.
+
 ## What you get
 
 - **Help from wherever you're starting.** A vague request, a deadline, a
@@ -159,6 +177,9 @@ To see what a finished report and readout look like, open the examples in
 | just draft it | Skips the optional questions and marks the gaps as assumptions |
 | you do it | Takes over a step where you were asked to go first |
 | skip | Moves on from the current question and notes it as a risk |
+| handled | Closes a challenge you've already dealt with, without noting a risk |
+| go on | Moves to the next stage without waiting for the team's reply to a summary |
+| final | Changes a reviewed draft's label from Draft to Final |
 | counter: ... | Reconsiders a method or question order with your reasoning |
 | push me | Challenges you more, up to three questions per stage |
 | ease off | Only raises serious problems, like consent or leading questions |
