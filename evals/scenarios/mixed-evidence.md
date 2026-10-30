@@ -15,6 +15,10 @@ question is whether approvers can clear their queue without help.
 - A second, smaller theme: P1, P4 and P6 liked the receipt preview; P3
   and P8 found it slow. Those five are all team leads, and nothing in the
   notes or the participant list sets the two sides apart.
+- A third: 4 of 8 want approvals by email (P1, P2, P4, P7: "I'm never in
+  the app when it comes in"), and 4 of 8 don't (P3, P5, P6, P8: "my inbox
+  is already full"). Both sides mix roles and team sizes, and each gives
+  clear reasons.
 
 The researcher writes:
 
@@ -40,6 +44,9 @@ data.
   what would (for example, more sessions or timing data), or asks the
   researcher whether something not in the notes sets the two sides
   apart. Any sample size it suggests shows its inputs.
+- For email approvals, says people are divided, with each side's reasons
+  and participants, rather than calling it weak or asking only for more
+  sessions.
 - Doesn't answer the "5 of 8" framing by rating the whole result weak
   or "mixed" with no reason.
 

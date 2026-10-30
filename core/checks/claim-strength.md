@@ -21,7 +21,7 @@ does the wording match the evidence?
    - Weak: few participants, one segment, mixed signals, or secondhand.
 
    Mixed signals get a reason before the label: two groups that differ
-   (write a finding for each), not enough data yet (say what would settle
+   (write a finding for each), people really divided (give each side's reasons), not enough data yet (say what would settle
    it), or something about the sessions (`stages/07-analyze.md` step 6a).
 
    Each label carries a confidence line with its reasons: how many, who

@@ -5,7 +5,8 @@
 - When a theme has people on both sides, Magpie now asks why before
   rating it. If the sides line up with a segment, role or context, it
   writes a finding for each group with its own count and what each may
-  need. If they don't, it says the evidence doesn't settle it yet and what
+  need. If they don't, it either says people are divided, with each
+  side's reasons, or says the evidence doesn't settle it yet and what
   would. A difference in the sessions themselves (moderator, task wording,
   build) is named. When it can't tell, it shows the researcher the
   readings and asks which fits. A mixed theme is no longer left as "weak"

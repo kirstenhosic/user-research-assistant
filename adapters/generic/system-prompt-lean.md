@@ -1964,10 +1964,16 @@ sessions, or say "you do it", skip it.
      or want differently. With a handful of people per group, the split
      says the groups may differ, not how much or how often.
    - **Not enough data yet.** If the sides don't line up with anything
-     you know about the people, say the evidence doesn't settle it, and
+     you know about the people, and the reasons on each side are thin,
+     say the evidence doesn't settle it, and
      say what would: more sessions, with which kind of people, or another
      source, such as analytics for how common it is. Any number you
      suggest is computed (see "Survey data" below).
+   - **People really are divided.** An even split, such as 4 of 8 each
+     way, that lines up with no group may simply be how people are. More
+     sessions might only confirm it. Write it as a finding that people
+     are divided, with the reasons each side gave (step 4), not as a weak
+     theme.
    - **Something about the sessions.** If one side all saw a different
      moderator, task wording or build, say so; it may be the study, not
      the users (step 10).
@@ -3451,7 +3457,7 @@ does the wording match the evidence?
    - Weak: few participants, one segment, mixed signals, or secondhand.
 
    Mixed signals get a reason before the label: two groups that differ
-   (write a finding for each), not enough data yet (say what would settle
+   (write a finding for each), people really divided (give each side's reasons), not enough data yet (say what would settle
    it), or something about the sessions (`stages/07-analyze.md` step 6a).
 
    Each label carries a confidence line with its reasons: how many, who
