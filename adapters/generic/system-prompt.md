@@ -1885,8 +1885,14 @@ sessions, or say "you do it", skip it.
    surprised you. If a tool (Magpie included) has already produced a
    summary, use it to decide which transcripts to read closely, not as a
    substitute for reading them.
-4. **Code what's there.** Tag each relevant passage with a short label and
-   its source: participant code plus line, timestamp or question number.
+4. **Code what's there, all of it.** Code every transcript from start to
+   end, the warm-up and background included: how people got started,
+   who introduced them, their history, asides and stories told in
+   passing. Background often explains the answers that come later, and
+   no research question will point you to it. Only the logistics
+   (consent, "can you see my screen") go uncoded. Tag each passage with
+   a short label and its source: participant code plus line, timestamp
+   or question number.
    Codes describe what people did or said, not what you think it means.
    Tag each code with the kind of evidence: **seen** (watched doing it),
    **past time** (described a real, specific time) or **opinion** (a
@@ -1900,6 +1906,16 @@ sessions, or say "you do it", skip it.
    blocked task, lost data or money). Any other single case isn't a
    theme: it goes on one line under the theme table (step 8). Each theme carries its receipts from the start: the
    participant codes and locations it rests on.
+5a. **Look for connections nobody asked about.** Before settling the
+   themes, lay the codes against what you know about each participant
+   (gender, age, role, location, experience) and against each other,
+   background codes included. Ask which codes cluster in one group, and
+   which early-interview codes travel with later ones: "both women who
+   play learned from their fathers", "the three who started at work are
+   the three who distrust the tool". A connection that meets the evidence
+   bar becomes a candidate theme, tagged "also noticed" if it answers no
+   research question (step 1). One that rests on two or three people is
+   still worth a line, with the count, so the researcher can decide.
 6. **Check each theme against the people who don't fit.** For every theme,
    list the participants who said or did something different. If you can't
    find any, look harder. Write them into the finding.
