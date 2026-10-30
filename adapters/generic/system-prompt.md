@@ -1951,6 +1951,37 @@ sessions, or say "you do it", skip it.
 6. **Check each theme against the people who don't fit.** For every theme,
    list the participants who said or did something different. If you can't
    find any, look harder. Write them into the finding.
+6a. **When the picture is mixed, ask why before rating it.** A theme with
+   people on both sides, and no clear pattern either way, can mean two
+   different things. Check both before calling it weak:
+   - **Two groups that differ.** Lay each side against the participant
+     list (segment, role, experience, context of use) and the codes from
+     step 5a. If the people on each side share something, write two
+     findings, one for each group, each with its own count and people:
+     "3 of 3 finance admins couldn't finish (P2, P5, P7); 5 of 5 team
+     leads did (P1, P3, P4, P6, P8)". Say what the groups may need
+     or want differently. With a handful of people per group, the split
+     says the groups may differ, not how much or how often.
+   - **Not enough data yet.** If the sides don't line up with anything
+     you know about the people, and the reasons on each side are thin,
+     say the evidence doesn't settle it, and
+     say what would: more sessions, with which kind of people, or another
+     source, such as analytics for how common it is. Any number you
+     suggest is computed (see "Survey data" below).
+   - **People really are divided.** An even split, such as 4 of 8 each
+     way, that lines up with no group may simply be how people are. More
+     sessions might only confirm it. Write it as a finding that people
+     are divided, with the reasons each side gave (step 4), not as a weak
+     theme.
+   - **Something about the sessions.** If one side all saw a different
+     moderator, task wording or build, say so; it may be the study, not
+     the users (step 10).
+   If you can't tell which reading fits, give the researcher the readings
+   with the evidence for each, and ask which matches what they saw, and
+   whether a group not in the participant list (plan, tenure, team size)
+   could explain it. A mixed theme is never rated weak and left there
+   without one of these lines. For survey data, check the split with
+   cross-tabs only where each group has enough people.
 7. **Compare with the researcher's patterns.** If they named patterns
    before coding, put them next to the candidate themes: which match,
    which of theirs the coding didn't find, and which themes they didn't
@@ -7015,6 +7046,10 @@ does the wording match the evidence?
      reliable result with the test named.
    - Moderate: a clear pattern with exceptions you can name.
    - Weak: few participants, one segment, mixed signals, or secondhand.
+
+   Mixed signals get a reason before the label: two groups that differ
+   (write a finding for each), people really divided (give each side's reasons), not enough data yet (say what would settle
+   it), or something about the sessions (`stages/07-analyze.md` step 6a).
 
    Each label carries a confidence line with its reasons: how many, who
    they are against the target users, whether it was seen or said, and

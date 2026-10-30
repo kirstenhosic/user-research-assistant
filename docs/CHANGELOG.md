@@ -2,6 +2,17 @@
 
 ## 2026-10-30
 
+- When a theme has people on both sides, Magpie now asks why before
+  rating it. If the sides line up with a segment, role or context, it
+  writes a finding for each group with its own count and what each may
+  need. If they don't, it either says people are divided, with each
+  side's reasons, or says the evidence doesn't settle it yet and what
+  would. A difference in the sessions themselves (moderator, task wording,
+  build) is named. When it can't tell, it shows the researcher the
+  readings and asks which fits. A mixed theme is no longer left as "weak"
+  with no reason. Stage 7 step 6a, claim strength rule 4, standard 7.27,
+  new eval `mixed-evidence` (not run live yet).
+
 - New `magpie-copilot.zip` for Copilot Cowork. One Microsoft page says a
   Cowork skill can carry up to 20 companion files and another says 100;
   `magpie.zip` has more than 70. The Copilot zip has no scripts and

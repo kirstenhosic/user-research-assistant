@@ -20,6 +20,10 @@ does the wording match the evidence?
    - Moderate: a clear pattern with exceptions you can name.
    - Weak: few participants, one segment, mixed signals, or secondhand.
 
+   Mixed signals get a reason before the label: two groups that differ
+   (write a finding for each), people really divided (give each side's reasons), not enough data yet (say what would settle
+   it), or something about the sessions (`stages/07-analyze.md` step 6a).
+
    Each label carries a confidence line with its reasons: how many, who
    they are against the target users, whether it was seen or said, and
    whether other sources agree (`lenses/confidence-and-priority.md`).
