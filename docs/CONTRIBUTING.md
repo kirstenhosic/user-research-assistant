@@ -35,7 +35,7 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish; their setup steps come from
   each company's help pages.
-- **Evals.** There are 125 test scenarios in `evals/scenarios/`. Most of
+- **Evals.** There are 128 test scenarios in `evals/scenarios/`. Most of
   the first 36 passed, but that run didn't prove Magpie was loaded each
   time. Later runs used stricter rules: 6 of 7 coaching scenarios and 7 of
   8 HEARTS scenarios (Loosbrock, K. (2025). The HEARTS Framework: Six
@@ -48,7 +48,7 @@ As of October 28, 2026.
   and priority, choosing a method, and spelling and dates. All results so
   far were judged by a model, not yet by a person. Details are in
   `evals/runs/` and `evals/README.md`.
-- **Standards.** Magpie follows 143 standards in `core/standards/`. 66 cite
+- **Standards.** Magpie follows 146 standards in `core/standards/`. 66 cite
   a public source, at least in part, such as the ICC/ESOMAR code, Braun
   and Clarke, or Nielsen Norman Group. The others are marked practitioner
   judgment. Every source is listed in `docs/PROVENANCE.md`.

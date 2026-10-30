@@ -15,6 +15,14 @@
   a findings or readout draft of any size, including after "go ahead"
   (7.7). Expert review issues get their own "predictions to test" section
   in a readout, and the review is credited as a cheap first pass (8.20).
+  Three more: Magpie says in one line whether it read every file in full,
+  and never counts or quotes from what it couldn't read (A.35, eval
+  `partial-read`). Quotes from transcripts in another language stay in
+  that language with a marked translation (7.25, eval
+  `non-english-quote`). Coding captures the reasons and tensions behind a
+  view, not only the view (7.26, eval `reasons-not-just-stance`): five of
+  the seven points only partly found in the Gaming Horizons test had the
+  topic but not the reason.
 
 - New `magpie-gemini.zip` for Gemini. Gemini accepted the upload of
   `magpie.zip` but then refused to load it because it carries code

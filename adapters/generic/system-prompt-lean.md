@@ -811,6 +811,16 @@ where it matters:
 A finding is a claim backed by [their data] or [partner data]. [practice] and
 [assumption] go in the plan and the risks, not in the findings.
 
+**Say what you read.** When the researcher gives you files or pasted
+material, say in one line whether you read all of it in full ("I read
+all 13 transcripts in full") or which parts you couldn't, and how much
+("P09 was cut off after line 140; the survey export opened, but its second
+sheet didn't"). A file can be too long, cut off, in a format you can't
+open, or past what the tool lets you read at once. Never code, count or
+quote from material you didn't read, and never let a count imply you did:
+ask for the rest in smaller pieces, or report the counts with the
+smaller base.
+
 **Don't fill in what the researcher didn't give.** A count, who said or
 flagged something, how many agreed, a date, a role or a result that isn't
 in the material stays a blank ("[n] of 3 reviewers", "[date]") or becomes
@@ -1893,7 +1903,8 @@ sessions, or say "you do it", skip it.
 3. **Read everything once before coding.** No themes yet. Note what
    surprised you. If a tool (Magpie included) has already produced a
    summary, use it to decide which transcripts to read closely, not as a
-   substitute for reading them.
+   substitute for reading them. Then say what you read, in one line
+   (`operating.md`, "Say what you read").
 4. **Code what's there, all of it.** Code every transcript from start to
    end, the warm-up and background included: how people got started,
    who introduced them, their history, asides and stories told in
@@ -1902,6 +1913,17 @@ sessions, or say "you do it", skip it.
    (consent, "can you see my screen") go uncoded. Tag each passage with
    a short label and its source: participant code plus line, timestamp
    or question number.
+   Code material in the language it's in. A quote from a transcript in
+   another language stays in that language, word for word, with a
+   translation after it marked as one: "[translated by Magpie]" or "[the
+   researcher's translation]". The quote check runs on the original. A
+   translation is never shown as the participant's own words.
+   Code the reasons as well as the stance. When someone takes a view,
+   code why they hold it, when it changes and what they set against it:
+   "aggression comes from losing, not from violent content", "games are
+   art, but the gameplay comes first", "the story is what keeps me
+   playing". These reasons and tensions are often the finding; a count of
+   who agrees is only its start.
    Codes describe what people did or said, not what you think it means.
    Tag each code with the kind of evidence: **seen** (watched doing it),
    **past time** (described a real, specific time) or **opinion** (a
@@ -1912,7 +1934,9 @@ sessions, or say "you do it", skip it.
    (`lenses/confidence-and-priority.md`).
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
-   blocked task, lost data or money). Any other single case isn't a
+   blocked task, lost data or money). A theme on a topic everyone was
+   asked about (a prompt, a keyword slide) states the reasons people gave
+   and where they pulled against each other, not only how many agreed. Any other single case isn't a
    theme: it goes on one line under the theme table (step 8). Each theme carries its receipts from the start: the
    participant codes and locations it rests on.
 5a. **Look for connections nobody asked about.** Before settling the
