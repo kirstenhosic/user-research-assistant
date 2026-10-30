@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-30
+
+- Codes every part of an interview. Stage 7 now codes each transcript
+  from start to end, warm-up and background included, and only leaves
+  out logistics. A new step lays the codes against what's known about
+  each participant (gender, age, role, location, experience) and against
+  each other, so a connection no research question asked about can
+  surface as a candidate theme, tagged "also noticed". Standard 7.22, new
+  eval `background-connection`. Came from a test on the Gaming Horizons
+  player interviews: in three runs out of three, Magpie missed that the
+  women players had learned to play from their fathers, a pattern the
+  project's own report used. It was only in the warm-up answers.
+
 ## 2026-10-29
 
 - Clearer stage 3 wording. The your-turn line for the primary research
