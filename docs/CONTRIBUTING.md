@@ -76,8 +76,9 @@ Magpie is MIT licensed, and copies must keep the copyright notice and the
 license text. `tools/build.py` adds a credit line to the top of `SKILL.md`
 and both system prompts, the foot of every method guide, template and other
 file, and the top of each script, and copies `LICENSE` into
-`adapters/skill/magpie/` and `adapters/generic/`. Keep this when changing
-the build.
+`adapters/skill/magpie/` and `adapters/generic/` as `LICENSE.txt`. Gemini
+rejects a skill folder with a file that has no extension. Keep this when
+changing the build.
 
 The people behind Magpie's rules get credit too. The build turns the
 source table in `docs/PROVENANCE.md` into `sources.md` (code, authors,
