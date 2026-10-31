@@ -30,7 +30,7 @@ Reference:
 - [What you get](#what-you-get)
 - [The stages](#the-stages)
 - [Methods it covers](#methods-it-covers)
-- [Words that steer it](#words-that-steer-it)
+- [Shortcuts you can type](#shortcuts-you-can-type)
 - [Pick up where you left off](#pick-up-where-you-left-off)
 - [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions)
 - [Can I trust it?](#can-i-trust-it)
@@ -55,7 +55,8 @@ own way.
 
 Magpie works best in an **agent tool**, such as Claude Code, OpenAI
 Codex, Gemini CLI or OpenCode. There it can run its own quote and count
-checks and start its independent checker agents for you. A **chat**,
+checks and start its independent checker agents (a second AI that
+checks Magpie's drafts) for you. A **chat**,
 such as Claude.ai, ChatGPT, Gemini or Copilot, is a good way to try it
 out. [Compare the two](#which-kind-of-ai-tool-to-use).
 
@@ -198,7 +199,7 @@ as the instructions and add the other `.md` files.
 
 Start a conversation and ask for help with a study. You'll know Magpie
 is working when the first reply starts *"Magpie is on for this
-conversation"* and every reply ends with a short line such as *Magpie ·
+conversation"* and every reply ends with a status line, such as *Magpie ·
 Planning the study*. If not, see
 [When something goes wrong](#when-something-goes-wrong).
 
@@ -216,7 +217,7 @@ Once Magpie is set up:
    eight interview transcripts. Help me find what matters."* In a chat,
    upload or paste what you have in the same message. If Magpie doesn't
    start, say "magpie".
-3. **Answer its questions.** Magpie says which stage it thinks you're at
+3. **Answer its questions.** Magpie says which [stage](#the-stages) it thinks you're at
    (tell it if that's wrong), then asks up to six short questions under
    "Questions for you to answer". A line each is enough, and you can skip
    the ones marked optional. The more you share at the start, such as a
@@ -232,11 +233,11 @@ Once Magpie is set up:
    should do. Use your own words. That thinking is what makes the work
    yours. Say "you do it" to hand a step back.
 6. **Keep going, one stage at a time.** A study takes many messages.
-   Every reply ends with a short line such as *Magpie · Planning the
-   study*, so you know Magpie is still on. Say "stop Magpie" when you're
+   The status line at the end of each reply shows Magpie is still on. Say "stop Magpie" when you're
    done.
-7. **Save your place.** Magpie keeps a study record you can bring to a
-   new conversation. See
+7. **Save your place.** Magpie keeps a study record: a running summary
+   of your decisions, questions and findings. Bring it to a new
+   conversation to carry on. See
    [Pick up where you left off](#pick-up-where-you-left-off).
 
 **Tip:** a small study you've already finished makes a good first try.
@@ -257,14 +258,8 @@ After that, the tool follows Magpie's process whenever you ask for help
 with a study, so you never have to explain how you work. It's one skill
 with many parts: a guide for each stage and method, checklists, and a
 few small programs that check quotes and counts. In an agent tool,
-Magpie also brings in **independent checker agents** at three required
-points: your guide or survey questions, your findings, and your report
-and deck. More on that below.
-
-Each AI company uses these words a little differently. ChatGPT also
-calls a saved set of instructions a GPT, and Copilot calls one an agent.
-If a word in your tool doesn't match this page, ask the tool what it
-means.
+Magpie also brings in **independent checker agents** to check its
+drafts. More on that below.
 
 ### Why one skill, with independent checker agents
 
@@ -289,7 +284,7 @@ The checker doesn't know what anyone hoped to find, so it can only go by
 the evidence. It checks that each finding matches the evidence, lists the
 participants whose answers went against it, recounts the numbers, and
 flags questions that push people toward an answer. Magpie then checks
-each point against your material before acting on it, because a checker
+each point the checker raises against your material before acting on it, because a checker
 can be wrong too. Then you read the result before you say yes. The
 checkers make Magpie's work easier to trust, not automatically right
 (see [Can I trust it?](#can-i-trust-it)).
@@ -309,9 +304,9 @@ There are two kinds of AI tool:
   browser or app. It works with what you paste or upload into the
   conversation.
 - **An agent tool**, such as Claude Code, OpenAI Codex, Gemini CLI or
-  OpenCode. It's the same kind of AI, but it can take steps on its own:
-  open the files in a folder you choose, save new files there, run small
-  programs, and start a checker agent. You talk to it in plain words,
+  OpenCode. It's the same kind of AI, but it can take steps on its own.
+  It can open and save files in a folder you choose, run small programs,
+  and start a checker agent. You talk to it in plain words,
   and it asks before it changes anything.
 
 **Magpie works best in an agent tool**, because there it can use all of
@@ -330,6 +325,11 @@ a study and drafting a guide. The extra checks matter most when you
 analyze data and write the report, because that's where a wrong quote or
 count is most likely to slip through. You can start in a chat and move
 later without losing your work.
+
+Each AI company uses these words a little differently. ChatGPT calls a
+saved set of instructions a GPT. In Copilot, "agent" can also mean a
+saved set of instructions, like a skill. If a word in your tool doesn't
+match this page, ask the tool what it means.
 
 ## What you get
 
@@ -408,7 +408,7 @@ can see what good looks like.
 To see what a finished report and readout look like, open the examples in
 [`docs/examples/`](docs/examples/).
 
-## Words that steer it
+## Shortcuts you can type
 
 You never need these: plain words always work. They're shortcuts. The
 five you'll use most are first.

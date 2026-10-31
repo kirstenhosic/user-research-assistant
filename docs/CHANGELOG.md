@@ -2,6 +2,12 @@
 
 ## 2026-10-31
 
+- README readability: terms are explained where they first appear now
+  that "Get started" comes first (checker agents, study record, stage),
+  the status line has one name throughout, the three checker points are
+  listed once, the Copilot meaning of "agent" sits apart from checker
+  agents, a few long sentences are split, and "Words that steer it" is
+  now "Shortcuts you can type".
 - README reordered so new readers can start right away: "Get started"
   (pick your tool, set up, first study) now comes first, and the
   explanation of skills, agents and how Magpie works has its own "How
