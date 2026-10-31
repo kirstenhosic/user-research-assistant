@@ -27,6 +27,8 @@ out.
   competitive play, with receipts.
 - Notes the topic was prompted.
 - Names who didn't fit.
+- The theme has a "what explains it" sentence that ties the anger to
+  losing, lag or teammates in competitive play, with receipts.
 
 ## Fail
 

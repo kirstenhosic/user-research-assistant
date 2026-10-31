@@ -2,6 +2,25 @@
 
 ## 2026-10-31
 
+- Analysis: five changes from a fair re-score of the Gaming Horizons
+  player interviews. The re-score used only what's in the 13 public
+  transcripts; points that rested on interviews not in the public data
+  were dropped. Every theme now has a "what explains it" sentence from
+  participants' own reasons (standard 7.26). The findings end with a list
+  of single voices worth noting (7.30) and a list of codes that no
+  finding uses (7.31). The step that looks for connections nobody asked
+  about now goes through every background and warm-up code against each
+  participant attribute and lists each pair it checked in a new
+  Connections checked table (7.22). Code definitions are treated as the
+  researcher's choice: each says what it captures for the study, notes
+  words that may mean something different across countries, cultures or
+  varieties of English, and the researcher can redefine any code at the
+  theme review (7.32). New evals `single-voices`, `coded-not-reported` and
+  `code-definitions`, none run live yet. Run notes:
+  `evals/runs/2026-10-31-gaming-horizons-fair.md`. An earlier changelog
+  line about this test is reworded so it no longer rests on those
+  dropped points.
+
 - README readability: terms are explained where they first appear now
   that "Get started" comes first (checker agents, study record, stage),
   the status line has one name throughout, the three checker points are
@@ -155,9 +174,10 @@
   `partial-read`). Quotes from transcripts in another language stay in
   that language with a marked translation (7.25, eval
   `non-english-quote`). Coding captures the reasons and tensions behind a
-  view, not only the view (7.26, eval `reasons-not-just-stance`): five of
-  the seven points only partly found in the Gaming Horizons test had the
-  topic but not the reason.
+  view, not only the view (7.26, eval `reasons-not-just-stance`). In the
+  Gaming Horizons test, several points were found only in part because
+  the topic was there but not the reason (for example, that players tied
+  rage to competitive play rather than to violent content).
 
 - New `magpie-gemini.zip` for Gemini. Gemini accepted the upload of
   `magpie.zip` but then refused to load it because it carries code

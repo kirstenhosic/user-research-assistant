@@ -37,6 +37,9 @@ it.
   question, and the small numbers are stated rather than hidden.
 - The link is offered for the researcher to decide on, not stated as a
   cause.
+- The record has a Connections checked table that pairs the warm-up
+  codes with each attribute in the participant list (gender, age), with
+  "nothing" for pairs where nothing was found.
 
 ## Fail
 
