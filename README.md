@@ -12,12 +12,84 @@ Made by Kirsten Hosic.
 Why a magpie: it collects the shiny bits of evidence that already exist,
 then helps you figure out which ones matter for the decision in front of you.
 
+To get going, see [So how do I use this?](#so-how-do-i-use-this).
+
 **Work in progress.** So far Magpie has been tested only in Claude Code.
 Read [Can I trust it?](#can-i-trust-it) before you rely on it. Magpie is
 improving often, so [check for updates](#keep-magpie-up-to-date) every
 week or two.
 
 Ready to try it? Jump to [Get started](#get-started).
+
+## So how do I use this?
+
+Magpie works with you on a whole study, over many messages. It asks you
+questions, drafts the work, and waits for you to check it before moving
+on. Here's how to set it up and what helps along the way.
+
+### Two kinds of AI tool
+
+Magpie runs in either kind:
+
+- **A chat**, such as Claude.ai, ChatGPT, Gemini or Copilot in a web
+  browser. It works with what you paste or upload into the conversation.
+- **An agent tool**, such as Claude Code. It's the same kind of AI, but
+  it can also work with files on your computer when you ask: open the
+  files in a folder, save new files there, and run small programs. You
+  talk to it in plain words, and it asks before it changes anything.
+
+**Magpie works best in an agent tool.** There it checks every quote and
+count with a small program, has a second AI review its drafts, and saves
+Word and Excel files straight to your folder. In a chat, Magpie does
+these checks by reading, or asks you to help, so they take more of your
+time. A chat is a good way to try Magpie out.
+
+### Your first study, step by step
+
+1. **Set it up once.** Follow the steps for your tool in
+   [Get started](#get-started). In Claude Code you can ask it to install
+   Magpie for you.
+2. **Make a folder for the study** (agent tool only). Put in what you
+   already have: a brief, notes, old research, transcripts. Open that
+   folder in your agent tool, so Magpie can read it and save its work
+   there.
+3. **Say what you're working on, in your own words.** One or two
+   sentences is enough, for example: *"A PM wants to know if we should
+   build an onboarding checklist. Deadline is two weeks."* In a chat,
+   upload or paste what you have in the same message. If Magpie doesn't
+   start, say "magpie".
+4. **Answer its questions.** Magpie asks a few short questions before it
+   drafts anything. A line each is enough. Optional ones are marked, and
+   you can skip those.
+5. **Read the draft, then say "yes".** Nothing counts as done until you
+   do. If something's off, say what and why, and Magpie reworks it.
+6. **Keep going, one stage at a time.** A study takes many messages, and
+   often several days.
+7. **Save your place.** In an agent tool, Magpie saves a study record in
+   your folder. In a chat, say "show the record" and paste it into a
+   document. Next time, start a new conversation and give Magpie the
+   record, and it carries on where you left off.
+
+**Your tool knows itself best.** Whenever you're not sure how to do
+something, ask the tool you're using, for example: *"How do I add files
+to this conversation?"*, *"How do I open a folder here?"* or *"How do I
+install a skill from a zip file?"* Each tool works a little differently,
+and it can walk you through its own way.
+
+**Tip:** a small study you've already finished makes a good first try.
+You'll know the answers, so you can see how well Magpie does.
+
+### What helps
+
+| How Magpie works | What helps |
+| --- | --- |
+| It asks questions before it drafts, so the draft fits your study. | Answer in a line or two. Skip the optional ones if you like. |
+| A study moves in stages, over many messages. | Take it one stage at a time. Each one is quicker than doing it alone. |
+| It reads whatever you give it. | Share the brief, notes or past research at the start, and it asks less. |
+| A new conversation starts fresh. | Keep the study record and give it to Magpie next time. |
+| Your "yes" is what marks a draft reviewed. | Read the "read hardest" items first: where the decision leans most and the evidence is thinnest. |
+| At three points you go first: framing the problem, the patterns you saw, and what each team should do. | Use your own words. That thinking makes the work yours, and the draft better. |
+| It reworks a method, question order or theme when you give a reason. | If you'd do it differently, say so and say why. |
 
 ## What a session looks like
 
@@ -44,24 +116,6 @@ Magpie is still on:
 
 If it guesses the stage wrong, tell it. Start Magpie once per
 conversation; it stays on until you say "stop Magpie".
-
-## Getting the best from Magpie
-
-- **Share what you have at the start.** A brief, a PRD or past research
-  goes first. Magpie reads it and asks only what it doesn't answer.
-- **Do your turns in your own words.** At three points you go first:
-  framing the problem, the patterns you saw, and what each team should do.
-  That thinking is what makes the work yours, and it makes the draft
-  better.
-- **Answer the required items; skip the optional ones freely.** Answer
-  in any order and any way. Magpie says what it took your answer to mean,
-  so you can correct it in a word.
-- **Push back.** If you'd pick a different method, order the guide
-  differently, or keep, split or drop a theme, say why and Magpie reworks
-  it.
-- **Read the "read hardest" items before you say yes.** Your yes is what
-  marks a draft reviewed, so read where the decision leans most and where
-  the evidence is thinnest.
 
 ## What you get
 
@@ -222,10 +276,26 @@ First, download
 **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**.
 It holds everything Magpie needs.
 
-Then set it up in your tool. **Best results: Claude Code.** There, Magpie
-checks quotes and counts itself and runs its independent reviews on its
-own; in other tools you paste the review in by hand. **Easiest start:
-Claude.ai, Gemini or Copilot.**
+Then set it up in your tool.
+
+### Which tool to use
+
+| | Agent tool (Claude Code, and others like it) | Chat (Claude.ai, ChatGPT, Gemini, Copilot) |
+| --- | --- | --- |
+| Quote and count checks | Done by a small program | Done by reading, which is less reliable |
+| Independent review | Starts on its own | You paste it into a fresh chat and paste the result back |
+| Word and Excel files | Saved to your folder | Made by the chat tool if it can, or you copy into Word |
+| Study record | Saved and kept up to date for you | You copy it into a document |
+| Setup | A few more steps, which it can do for you | Upload a file and go |
+
+The extra checks matter most when you analyze data and write the report,
+because that's where a wrong quote or count is most likely to slip
+through. You can start in a chat and move later: give your study record
+to Magpie in the agent tool and it carries on.
+
+An agent tool can open files on your computer, so open only the study
+folder, and keep in it only what you mean to share. The rules in
+[Using Magpie at work](#get-started) apply either way.
 
 ### Claude Code
 
@@ -244,6 +314,16 @@ are hidden: on a Mac, press Cmd+Shift+. in Finder to show them; on
 Windows, turn on **Hidden items** in File Explorer's **View** menu. More
 in Claude Code's [skills docs](https://code.claude.com/docs/en/skills)
 (checked October 28, 2026).
+
+### Other agent tools (Codex, OpenCode, Gemini CLI)
+
+These tools can load Magpie the same way Claude Code does, but **Magpie
+hasn't been tested in them yet.** Ask your tool to install it, for
+example: *"Install the skill in ~/Downloads/magpie.zip so it works in all
+my projects."* It knows where its own skills go. Then start a
+conversation and ask for help with a study, or say "magpie". If
+something doesn't work, please
+[open an issue](https://github.com/kirstenhosic/user-research-assistant/issues).
 
 ### Claude.ai
 
@@ -335,9 +415,10 @@ and paste in your study record, and Magpie picks up from there.
 
 ## Can I trust it?
 
-- **It's early.** Magpie has been tested only in Claude Code. The setup
-  steps for other tools come from each company's help pages, so expect
-  small differences.
+- **It's early.** Magpie has been tested only in Claude Code. Other agent
+  tools should work the same way, but that hasn't been checked yet. The
+  setup steps for other tools come from each company's help pages, so
+  expect small differences.
 - **Its tests are promising but not confirmed.** Magpie is tested against
   realistic study scenarios with planted problems, such as a leading
   question or a finding the data doesn't support. Most pass, but so far an
