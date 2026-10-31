@@ -36,7 +36,8 @@ REVIEW PROMPT
 (the text below)
 ```
 
-**On Claude** (Claude Code or a setup with subagents): start a separate
+**Where you can start a separate agent** (Claude Code, Codex, OpenCode,
+Gemini CLI, or any setup with subagents): start a separate
 agent and give it the three parts above. Leave out the conversation that
 produced the draft. Wait for its list, fix the draft, and then show the
 researcher the reviewed draft in one message (`operating.md`, "Wait for

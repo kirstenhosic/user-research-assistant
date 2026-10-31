@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-31
+
+- README: new "So how do I use this?" section near the top. It explains
+  the two kinds of AI tool Magpie runs in (a chat and an agent tool),
+  gives seven steps for a first study, suggests asking your own tool how
+  to do a step, and has a "What helps" table that replaces "Getting the
+  best from Magpie". Get started now has a "Which tool to use" table and
+  a short section for Codex, OpenCode and Gemini CLI, which can load
+  Magpie like Claude Code but haven't been tested.
+- The independent review and the question review now name Codex,
+  OpenCode and Gemini CLI as tools that can start a separate reviewer, so
+  they don't fall back to asking the researcher to paste the review.
+
 ## 2026-10-30
 
 - When a theme has people on both sides, Magpie now asks why before
