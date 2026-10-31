@@ -104,12 +104,28 @@ sessions, or say "you do it", skip it.
    users, so a theme that comes only from buyers isn't reported as what
    end users do. Where someone says one thing and does another, code both
    (`lenses-confidence-and-priority.md`).
+   A code's definition is a choice, and the researcher owns it. Two
+   researchers can define the same code differently and neither be
+   wrong. Write each definition to capture what matters to this study
+   (the research question or hypothesis it serves) in plain words close
+   to how participants put it. Where a word may carry a different
+   meaning for participants from another country, culture or variety of
+   English, or for people speaking English as a second language, say so
+   in the definition. The researcher can redefine any code at the theme
+   review (step 8), and their definition stands.
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task, lost data or money). A theme on a topic everyone was
    asked about (a prompt, a keyword slide) states the reasons people gave
-   and where they pulled against each other, not only how many agreed. Any other single case isn't a
-   theme: it goes on one line under the theme table (step 8). Each theme carries its receipts from the start: the
+   and where they pulled against each other, not only how many agreed.
+   Every theme carries one "what explains it" sentence, written from
+   participants' own reasons, with receipts: what drives it, what sets it
+   off, or what they set against it ("players tie their rage to losing
+   in competitive matches, not to violent content (P1 88, P3 102)").
+   Where participants gave no reason, the sentence says so. Any other
+   single case isn't a theme: it goes on one line under the theme table
+   (step 8), and into the findings' single voices list unless the
+   researcher drops it. Each theme carries its receipts from the start: the
    participant codes and locations it rests on.
 5a. **Look for connections nobody asked about.** Before settling the
    themes, lay the codes against what you know about each participant
@@ -121,6 +137,13 @@ sessions, or say "you do it", skip it.
    bar becomes a candidate theme, tagged "also noticed" if it answers no
    research question (step 1). One that rests on two or three people is
    still worth a line, with the count, so the researcher can decide.
+   Don't leave this to what catches the eye. Go through every background
+   and warm-up code (how they started, who introduced them, their
+   history, their work) against each attribute in the participant list,
+   one pair at a time, and write the pairs you checked in the record's
+   Connections checked table, with what you found or "nothing". A pair
+   with nothing is still listed, so the researcher can see it was
+   checked.
 6. **Check each theme against the people who don't fit.** For every theme,
    list the participants who said or did something different. If you can't
    find any, look harder. Write them into the finding.
@@ -174,7 +197,8 @@ sessions, or say "you do it", skip it.
    under the table ("Single cases, not themes: P4 works alone; P8 has two
    workspaces. Say if you want either kept"); they need no call of their
    own. Then list the codes you merged and dropped, with why, because
-   that's where an experienced researcher will disagree. Ask for a decision on each: "Keep, change,
+   that's where an experienced researcher will disagree. Say they can
+   also redefine any code; their definition replaces yours. Ask for a decision on each: "Keep, change,
    split or drop? 'Keep 1 and 3, drop 2, split 4 into...' is a fine
    answer." Every theme needs its own answer. If the reply is a blanket
    "looks good", ask which, if any, they'd change. In the same message,
@@ -426,6 +450,17 @@ the tool gives no range, or gives one that doesn't fit the sample.
   reasons, in the order the researcher agreed or marked as Magpie's draft.
 - The "also noticed" findings, for things outside the questions, held to
   the same evidence bar.
+- **Single voices worth noting:** after the findings, a short list of
+  points one participant made that are specific and add something no
+  theme covers (a distinct view, reason or experience). One line each,
+  with the participant and line, written as one person's view, never
+  counted as a theme. Leave out ones the researcher dropped at the theme
+  review.
+- **Coded but not reported:** at the end of the findings, every code that
+  no finding, single voice or "also noticed" line uses, one line each
+  with its count and participants, so nothing in the codebook silently
+  drops out and the researcher can pull any of it back in.
+- The Connections checked table from step 5a.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
 - The analysis sheet, if the researcher wants it.
@@ -449,6 +484,10 @@ it.
 ## Exit criteria
 
 - Every finding answers a research question or is listed as "also noticed".
+- Every theme has a "what explains it" sentence, from participants'
+  reasons, or says none were given.
+- The findings end with the single voices list and the coded but not
+  reported list, and the record has the Connections checked table.
 - Every finding has its evidence, its counter-evidence, a strength label
   and a confidence line.
 - Every finding has an impact, a reach and a priority, and the order has

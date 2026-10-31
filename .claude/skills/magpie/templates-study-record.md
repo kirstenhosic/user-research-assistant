@@ -160,6 +160,32 @@ participants or mixed signals). Behavior that rests only on opinions, or
 a finding that rests only on stand-ins, is moderate at most. "No other
 sources yet" lowers nothing (`lenses-confidence-and-priority.md`).
 
+Each theme's finding includes one "what explains it" sentence from
+participants' own reasons, with receipts, or says none were given.
+
+### Single voices worth noting
+
+Points one participant made that are specific and add something no theme
+covers. One person's view each, not a theme.
+
+- [P# line]: [the point]
+
+### Coded but not reported
+
+Codes no finding, single voice or "also noticed" line uses.
+
+- [code]: [count] ([participants])
+
+### Connections checked
+
+Every background and warm-up code laid against each participant attribute
+(`stages-07-analyze.md`, step 5a). List each pair checked, even with
+nothing found.
+
+| Background code | Attribute | What was found |
+| --- | --- | --- |
+| | | [pattern with count and participants] / nothing |
+
 ## Key findings: what would prove them wrong
 
 For the findings the decision rests on, three at most. The researcher
