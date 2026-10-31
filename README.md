@@ -24,14 +24,15 @@ week or two.
 
 - [So how do I use this?](#so-how-do-i-use-this)
 - [Set up Magpie](#set-up-magpie)
-- [What a session looks like](#what-a-session-looks-like)
 - [What you get](#what-you-get)
 - [The stages](#the-stages)
 - [Methods it covers](#methods-it-covers)
 - [Words that steer it](#words-that-steer-it)
 - [Pick up where you left off](#pick-up-where-you-left-off)
+- [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions)
 - [Can I trust it?](#can-i-trust-it)
 - [When something goes wrong](#when-something-goes-wrong)
+- [Keep Magpie up to date](#keep-magpie-up-to-date)
 - [For contributors](#for-contributors)
 - [Thanks to](#thanks-to)
 - [Credit and license](#credit-and-license)
@@ -40,55 +41,83 @@ week or two.
 
 Magpie works with you on a whole study, over many messages. It asks you
 questions, drafts the work, and waits for you to check it before moving
-on. You add it to your AI tool once, usually as a **skill**: a set of
-instructions the tool follows whenever you ask for Magpie.
+on.
 
-### Prompts, skills and agents
+### What Magpie is: one skill that brings in agents
 
-You'll see these three words a lot. Here's what they mean:
+A **prompt** is one message you send an AI tool, and it applies only to
+that request. Magpie isn't a prompt. It's a **skill**: a saved set of
+instructions and reference files that you add to your AI tool once.
+After that, the tool follows Magpie's process whenever you ask for help
+with a study, so you never have to explain how you work. It's one skill
+with many parts: a guide for each stage and method, checklists, and a
+few small programs that check quotes and counts. In an agent tool,
+Magpie also brings in **independent checker agents** at three required
+points: your guide or survey questions, your findings, and your report
+and deck. More on that below.
 
-- **A prompt** is a single message you type to the AI, such as
-  *"Summarize these interview notes."* It lasts only for that request,
-  so you explain what you want each time.
-- **A skill** is a saved set of instructions, with reference files if
-  needed, that the AI loads when it's relevant. It's like handing a
-  colleague a playbook once instead of explaining your process every
-  time. Magpie is a skill.
-- **An agent** is an AI tool that can take steps on its own to finish a
-  task. It can read and write files, run checks, and keep working
-  across many steps. Claude Code, Codex and Gemini CLI are agents.
+Each AI company uses these words a little differently. ChatGPT also
+calls a saved set of instructions a GPT, and Copilot calls one an agent.
+If a word in your tool doesn't match this page, ask the tool what it
+means.
 
-Put simply: the prompt is what you ask, the skill is the expertise, and
-the agent does the work. That's why Magpie works best in an agent tool:
-the agent can use all of Magpie's files and run its checks.
+### Why one skill, with independent checker agents
 
-Each AI company uses these words a little differently. ChatGPT calls a
-saved set of instructions a GPT, for example, and Copilot calls one an
-agent. If a word in your tool doesn't match this page, ask the tool what
-it means.
+Magpie is a single skill on purpose, and it brings in independent
+checker agents where independence matters most. A study is one line of
+thinking: the decision shapes the method, the method shapes the
+questions, and the questions shape what you find. Keeping it all in one
+place means nothing gets lost between steps, and you work with one
+research partner.
 
-### Two kinds of AI tool
+But whoever drafts something can't check it with fresh eyes. So at three
+required points, Magpie brings in an **independent checker agent**: a
+separate AI that sees only your raw material and the draft, never the
+conversation behind it.
 
-Magpie runs in either kind:
+- **Before you talk to participants:** the questions in your guide or
+  survey.
+- **After analysis:** the findings.
+- **Before you share:** the report and the readout deck.
+
+The checker doesn't know what anyone hoped to find, so it can only go by
+the evidence. It checks that each finding matches the evidence, lists the
+participants whose answers went against it, recounts the numbers, and
+flags questions that push people toward an answer. Magpie then checks
+each point against your material before acting on it, because a checker
+can be wrong too. Then you read the result before you say yes. The
+checkers make Magpie's work easier to trust, not automatically right
+(see [Can I trust it?](#can-i-trust-it)).
+
+In an agent tool, Magpie starts the checker agent on its own, and small
+programs also match every quote to its transcript and recount every
+number. A chat can't start a separate agent, so you play that part:
+Magpie gives you the text to paste into a new chat, and you paste the
+result back.
+
+### Which kind of AI tool to use
+
+Where you add Magpie changes how much of the checking it can do for you.
+There are two kinds of AI tool:
 
 - **A chat**, such as Claude.ai, ChatGPT, Gemini or Copilot, in a web
   browser or app. It works with what you paste or upload into the
   conversation.
 - **An agent tool**, such as Claude Code, OpenAI Codex, Gemini CLI or
-  OpenCode. It's the same kind of AI, but it can also work with files on
-  your computer when you ask: open the files in a folder, save new files
-  there, and run small programs. You talk to it in plain words, and it
-  asks before it changes anything.
+  OpenCode. It's the same kind of AI, but it can take steps on its own:
+  open the files in a folder you choose, save new files there, run small
+  programs, and start a checker agent. You talk to it in plain words,
+  and it asks before it changes anything.
 
-**Magpie works best in an agent tool**, because there it can do more of
-the checking for you:
+**Magpie works best in an agent tool**, because there it can use all of
+its files and run its own checks:
 
 | | Agent tool | Chat |
 | --- | --- | --- |
 | Quote and count checks | Done by a small program | Done by reading, which is less reliable |
-| Independent review | Starts on its own | You paste it into a new chat and paste the result back |
+| Independent checker agent | Starts on its own | You paste the draft into a new chat and paste the result back |
 | Word and Excel files | Saved to your folder | Made by the chat if it can, or you copy into Word |
-| Study record | Saved and kept up to date for you | You copy it into a document |
+| Study record (a running summary of your study's decisions and findings) | Saved and kept up to date for you | You copy it into a document |
 | Setup | A few more steps, which it can do for you | Upload a file and go |
 
 A chat is a good way to try Magpie out, and it works well for planning
@@ -108,20 +137,32 @@ later without losing your work.
    there.
 3. **Say what you're working on, in your own words.** One or two
    sentences is enough, for example: *"A PM wants to know if we should
-   build an onboarding checklist. Deadline is two weeks."* In a chat,
+   build an onboarding checklist. Deadline is two weeks."* or *"Here are
+   eight interview transcripts. Help me find what matters."* In a chat,
    upload or paste what you have in the same message. If Magpie doesn't
    start, say "magpie".
-4. **Answer its questions.** Magpie asks a few short questions before it
-   drafts anything. A line each is enough. Optional ones are marked, and
-   you can skip those.
+4. **Answer its questions.** Magpie says which stage it thinks you're at
+   (tell it if that's wrong), then asks up to six short questions under
+   "Questions for you to answer". A line each is enough, and you can skip
+   the ones marked optional. The more you share at the start, such as a
+   brief or past research, the fewer questions it asks. To share less
+   each time, see
+   [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions).
 5. **Read the draft, then say "yes".** Nothing counts as done until you
-   do. If something's off, say what and why, and Magpie reworks it.
-6. **Keep going, one stage at a time.** A study takes many messages, and
-   you can stop and come back whenever you like.
-7. **Save your place.** In an agent tool, Magpie saves a study record in
-   your folder. In a chat, say "show the record" and paste it into a
-   document. Next time, start a new conversation, give Magpie the record,
-   and it carries on where you left off.
+   do. Start with the points marked "read hardest": where the decision
+   leans most and the evidence is thinnest. If you'd do something
+   differently, say what and why, and Magpie reworks it.
+6. **Take your turn.** At three points you go first: framing the
+   problem, spotting patterns in the data, and deciding what each team
+   should do. Use your own words. That thinking is what makes the work
+   yours. Say "you do it" to hand a step back.
+7. **Keep going, one stage at a time.** A study takes many messages.
+   Every reply ends with a short line such as *Magpie · Planning the
+   study*, so you know Magpie is still on. Say "stop Magpie" when you're
+   done.
+8. **Save your place.** Magpie keeps a study record you can bring to a
+   new conversation. See
+   [Pick up where you left off](#pick-up-where-you-left-off).
 
 **Your tool knows itself best.** Whenever you're not sure how to do
 something, ask the tool you're using, for example: *"How do I add files
@@ -131,19 +172,6 @@ and it can walk you through its own way.
 
 **Tip:** a small study you've already finished makes a good first try.
 You'll know the answers, so you can see how well Magpie does.
-
-### What helps
-
-| How Magpie works | What helps |
-| --- | --- |
-| It asks questions before it drafts, so the draft fits your study. | Answer in a line or two. Skip the optional ones if you like. |
-| A study moves in stages, over many messages. | Take it one stage at a time. Each one is quicker than doing it alone. |
-| It reads whatever you give it. | Share the brief, notes or past research at the start, and it asks less. |
-| A new conversation starts fresh. | Keep the study record and give it to Magpie next time. |
-| AI tools can hold only so much of one conversation. Very long ones start to lose the early parts. | Start a new conversation before analysis and before the report, and bring your study record. Say "fresh start" and Magpie gets it ready. |
-| Your "yes" is what marks a draft reviewed. | Read the "read hardest" items first: where the decision leans most and the evidence is thinnest. |
-| At three points you go first: framing the problem, the patterns you saw, and what each team should do. | Use your own words. That thinking makes the work yours, and the draft better. |
-| It reworks a method, question order or theme when you give a reason. | If you'd do it differently, say so and say why. |
 
 ## Set up Magpie
 
@@ -167,12 +195,14 @@ versions, linked in their steps below.
 
 ### Claude Code
 
-You need the Claude Code desktop app or command-line tool.
+You need the Claude Code desktop app or the command-line tool (it runs
+in a Terminal window).
 
 1. Download `magpie.zip` and open Claude Code.
 2. Ask Claude Code to install it, for example: *"Unzip
    ~/Downloads/magpie.zip into ~/.claude/skills/magpie/"*. Magpie then
-   works in all your projects on this computer.
+   works in all your projects on this computer. (`~` is short for your
+   home folder.)
 3. Start a conversation and ask for help with a study, or say "magpie".
 
 To share Magpie with a team, put it in a shared project's
@@ -197,9 +227,10 @@ something doesn't work, please
 You need a Claude.ai account with Projects.
 
 1. Create a new Project.
-2. Unzip `magpie.zip` and add all the `.md` files to the project's
-   knowledge.
-3. Paste the contents of `operating.md` into the project's instructions.
+2. Unzip `magpie.zip` and add all the files whose names end in `.md` to
+   the project's knowledge.
+3. Paste the contents of `operating.md` (Magpie's main instructions) into
+   the project's instructions.
 4. Start a chat in the project and describe your study.
 
 ### ChatGPT
@@ -212,9 +243,10 @@ Business, Enterprise, Healthcare and Edu workspaces (checked October 26,
 2. Choose **Create** > **Upload from your computer** and upload
    `magpie.zip`.
 3. If ChatGPT says **Needs Review**, read what it flags. The only code in
-   the package is five small scripts that check quotes and counts and
-   make Word and Excel files; none of them connects to the internet.
-4. Install it, then start a chat and @-mention `magpie`, or just describe
+   the package is seven small scripts that check quotes, counts and
+   wording and make Word and Excel files; none of them connects to the
+   internet.
+4. Install it, then start a chat and type `@magpie`, or just describe
    your study.
 
 **If there's no Skills page:** unzip `magpie.zip`, create a Project,
@@ -261,133 +293,40 @@ Upload `magpie.zip` if the tool takes skills. If it has projects or
 knowledge files instead, set it up like Claude.ai: paste `operating.md`
 as the instructions and add the other `.md` files.
 
-### Keep Magpie up to date
-
-Magpie gets better often. Check for a new version every week or two.
-Updating takes a few minutes.
-
-**Keep only one copy.** If your AI tool has two copies of Magpie, it may
-use the old one, or mix rules from both, without telling you. So each
-time, remove the old copy before you add the new one.
-
-1. **See what's new.** Open the [changelog](docs/CHANGELOG.md). The
-   newest changes are at the top, with the date. To see which version
-   you have, ask Magpie: *"Which version of Magpie is this?"*
-2. **Save your study record** if you're in the middle of a study (in a
-   chat, say "show the record" and paste it into a document). Then you
-   can carry on with the new version.
-3. **Download the new version:**
-   **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)**,
-   or `magpie-gemini.zip` or `magpie-copilot.zip` if you use Gemini or
-   Copilot. Delete the old zip from your Downloads folder first. If you
-   don't, your browser may save the new one as `magpie (1).zip`, and
-   it's easy to upload the old one by mistake.
-4. **Remove the old copy, then add the new one.** How you do this
-   depends on your tool:
-   - **Agent tool** (Claude Code, Codex, Gemini CLI, OpenCode): ask it,
-     for example: *"Remove my old Magpie skill and install the new one
-     from ~/Downloads/magpie.zip. Then check there's only one copy of
-     Magpie left."* If you also put Magpie in a shared project folder,
-     update that copy too.
-   - **Chat with skills** (ChatGPT, Gemini, Copilot): delete the old
-     Magpie skill, then upload the new zip. Check that only one Magpie
-     is listed.
-   - **Claude.ai project:** remove all the old Magpie files from the
-     project's knowledge, add the new `.md` files, and replace the
-     project instructions with the new `operating.md`. Or make a new
-     project for the new version, and keep the old one only until you've
-     finished the studies in it.
-5. **Start a new conversation.** A conversation that's already open
-   keeps using the version it started with. If you were mid-study, give
-   Magpie your study record and it picks up from there.
-
-Not sure how to do a step? Ask your tool, for example: *"How do I delete
-a skill here?"*
-
-## What a session looks like
-
-You can start from anywhere. For example:
-
-> Here are eight interview transcripts. Help me find what matters.
-
-> I want to propose research for next quarter but I don't have a brief.
-
-Magpie tells you which stage it thinks you're at and asks up to six short
-questions, with the optional ones marked. Everything it needs from you
-is in one place, under "Questions for you to answer", and that list
-always holds everything still open, so you never have to scroll back.
-Then it drafts the work, asks one question worth thinking about, and
-waits for your "yes". Every reply ends with a short status line, so you
-know Magpie is still on:
-
-> Magpie · Planning the study
-
-If it guesses the stage wrong, tell it. Start Magpie once per
-conversation; it stays on until you say "stop Magpie".
-
 ## What you get
 
-- **Help from wherever you're starting.** A vague request, a deadline, a
-  half-written plan or a folder of transcripts: Magpie picks up from
-  there.
-- **Questions before drafts.** Magpie asks about your goals, hypotheses,
-  the decision and who will read the work before it builds anything.
-  Share a brief, PRD or past research and it reads that first, so it only
-  asks what's missing. It won't draft on guesses you haven't seen: if
-  something important is missing, it shows its best guess and waits for
-  your yes. Say "just draft it" to skip the optional questions.
-- **A coach, not a quiz.**
-  - After each draft it asks the one question most likely to improve it,
-    and says why. You can skip it.
-  - It explains a research principle once, then leaves it.
-  - It asks what vague words like "confused" or "most" really mean.
-  - When it rewrites your research question or hypothesis, it shows your
-    version next to its own and says why.
-  - At three points you go first: framing the problem, spotting patterns
-    in analysis, and deciding what each team should do. Say "you do it" to
-    hand a step back.
-  - It explains why it chose a method and why the guide's questions are in
-    that order, and you can push back.
-  - In analysis, you decide whether to keep, change, split or drop each
-    theme it suggests.
+- **Help from wherever you're starting:** a vague request, a deadline, a
+  half-written plan or a folder of transcripts.
 - **The right method for the question.** Magpie checks whether you need
-  to hear what people say or see what they do, where the product is, and
-  where the research has to happen. It tells you up front what you'll
-  have at the end.
-- **Findings you can check.** Every claim says where it came from: your
-  data, another team's data, general practice, or an assumption. Magpie
-  never makes up a quote, a number or a participant, and every count names
-  the participants behind it.
-- **Careful with numbers from small samples.** When you have ratings,
-  completion rates, task times or survey results, Magpie gives a range,
-  not just one number, and says what a result from a handful of people
-  can and can't tell you. If your tool already reports the statistics,
-  Magpie checks them instead of redoing them.
-- **Findings ranked by how sure and how important.** Each finding is
-  labeled strong, moderate or weak, with a one-line reason, and ranked by
-  how much it matters. An important finding with weak evidence is marked
-  "check next". You can move any finding up or down before you say yes.
-- **A second look before anything goes out.** Nothing is final until you
-  say "yes". Guides, surveys, findings and reports also get an independent
-  review that checks for leading questions, findings that don't trace
-  back to the data, and unclear language. Before a readout or report is
-  shared, Magpie checks it fits the audience: no names or employers,
-  nobody identifiable, and quotes used only as participants agreed.
-- **Files your team can edit.** Guides, surveys, plans and reports come as
-  Word files, with numbered questions and a header showing the team,
-  authors, reviewers and status. Guides come with an Excel note-taking
-  sheet, and analysis can come with a matching findings sheet. In an agent
-  tool this happens on its own; in a chat, Magpie uses the chat's own
-  way to make a Word file, or you copy the draft into Word.
-- **Readouts and reports people will read.** They open with why the study
-  was done and up to five top findings, most important first. Each
-  recommendation names the teams it affects, and the next steps say how
-  the team will know the change worked. At the end, Magpie offers you a
-  short private debrief that the team doesn't see.
+  to hear what people say or see what they do, and tells you up front
+  what you'll have at the end.
+- **Coaching as you go.** After each draft it asks the one question most
+  likely to improve it, and says why. It asks what vague words like
+  "confused" or "most" really mean, and explains why it chose a method or
+  question order. You can push back on any of it.
+- **Findings you can check.** Every claim says where it came from. Magpie
+  never makes up a quote, a number or a participant, and every count
+  names the participants behind it.
+- **Honest about how sure it is.** Each finding is labeled strong,
+  moderate or weak, and ranked by how much it matters. With small
+  samples, it gives a range rather than one number and says what a
+  handful of people can and can't tell you.
+- **A second look before anything goes out.** An independent checker
+  agent reviews guides, surveys, findings and reports for leading
+  questions, findings the data doesn't support, and unclear language.
+  Before a readout or report is shared, Magpie also checks that nobody
+  can be identified.
+- **Files your team can edit.** Word files for guides, surveys, plans and
+  reports, and Excel sheets for notes and findings.
+- **Readouts people will read.** Up to five top findings first,
+  recommendations that name the teams they affect, and next steps that
+  say how the team will know a change worked.
 
 ## The stages
 
-Magpie works in eight stages. You can start at any of them.
+Magpie works in eight stages. It tells you which one you're in, and you
+can start at any of them or go back (say "back to stage 4"). Knowing them
+helps you tell Magpie where you are.
 
 1. Find the opportunities, when nobody has asked for research yet
 2. Check existing evidence
@@ -433,13 +372,16 @@ To see what a finished report and readout look like, open the examples in
 
 ## Words that steer it
 
-You can always say what you want in your own words. These are shortcuts.
+You never need these: plain words always work. They're shortcuts. The
+five you'll use most are first.
 
 | Say | Magpie does |
 | --- | --- |
 | yes | Marks what's waiting as reviewed |
 | just draft it | Skips the optional questions and marks the gaps as assumptions |
 | you do it | Takes over a step where you were asked to go first |
+| fresh start | Gets your study record ready to take to a new conversation (unlike "start over", it keeps your study) |
+| stop Magpie | Ends the session and offers the record to save |
 | skip | Moves on from the current question and notes it as a risk |
 | handled | Closes a challenge you've already dealt with, without noting a risk |
 | go on | Moves to the next stage without waiting for the team's reply to a summary |
@@ -450,11 +392,9 @@ You can always say what you want in your own words. These are shortcuts.
 | standard | Goes back to one question per stage |
 | just the work | Drops the personality for the session |
 | show the record | Shows the full study record |
-| fresh start | Gets your study record ready to take to a new conversation (unlike "start over", it keeps your study) |
 | make the sheet | Builds the analysis spreadsheet (Excel) |
-| review this | Runs an independent review of your guide, survey, findings or report |
+| review this | Brings in an independent checker for your guide, survey, findings or report |
 | back to stage 4 | Returns to that stage and says what depends on it |
-| stop Magpie | Ends the session and offers the record to save |
 
 ## Pick up where you left off
 
@@ -490,12 +430,13 @@ what you've already answered.
 Some tools show how much of the conversation they can still hold. Ask
 yours: *"Does this tool show how full this conversation is?"*
 
-**Optional: a team profile and an intake form.** Fill in the
-[team profile](core/team/team-profile.md) once with your products, users,
-goals and research rules, and attach it when you start a study, so Magpie
-asks fewer questions. Send the [intake form](core/team/intake-form.md) to
-PMs and designers who ask you for research; Magpie can start from a
-filled one.
+## Make Magpie ask fewer questions
+
+These are optional. Fill in the [team profile](core/team/team-profile.md)
+once with your products, users, goals and research rules, and attach it
+when you start a study, so Magpie doesn't have to ask about them. Send
+the [intake form](core/team/intake-form.md) to PMs and designers who ask
+you for research; Magpie can start from a filled one.
 
 ## Can I trust it?
 
@@ -508,7 +449,8 @@ filled one.
   question or a finding the data doesn't support. Most pass, but so far an
   AI model has judged the results, not a person.
 - **Its rules are written down.** Where a rule comes from published
-  research practice, such as Nielsen Norman Group or the ICC/ESOMAR code,
+  research practice, such as Nielsen Norman Group or the ICC/ESOMAR code
+  (the market research industry's code of conduct),
   the source is listed in [`docs/PROVENANCE.md`](docs/PROVENANCE.md).
   Where it's professional judgment, it says so.
 - **It can be wrong.** Like any AI tool, Magpie makes mistakes, and
@@ -547,6 +489,49 @@ with the tool you used, the step, and what you saw.
   install the new one again, and start a new conversation.
 - **The quote or count check didn't run.** Not every AI tool can run
   small programs. When it can't, Magpie checks by reading and tells you so.
+
+## Keep Magpie up to date
+
+Magpie gets better often. Check for a new version every week or two.
+Updating takes a few minutes.
+
+**Keep only one copy.** If your AI tool has two copies of Magpie, it may
+use the old one, or mix rules from both, without telling you. So each
+time, remove the old copy before you add the new one.
+
+1. **See what's new.** Open the [changelog](docs/CHANGELOG.md). The
+   newest changes are at the top, with the date. To see which version
+   you have, ask Magpie: *"Which version of Magpie is this?"*
+2. **Save your study record** if you're in the middle of a study (in a
+   chat, say "show the record" and paste it into a document). Then you
+   can carry on with the new version.
+3. **Download the new version:**
+   **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)**,
+   or `magpie-gemini.zip` or `magpie-copilot.zip` if you use Gemini or
+   Copilot. Delete the old zip from your Downloads folder first. If you
+   don't, your browser may save the new one as `magpie (1).zip`, and
+   it's easy to upload the old one by mistake.
+4. **Remove the old copy, then add the new one.** How you do this
+   depends on your tool:
+   - **Agent tool** (Claude Code, Codex, Gemini CLI, OpenCode): ask it,
+     for example: *"Remove my old Magpie skill and install the new one
+     from ~/Downloads/magpie.zip. Then check there's only one copy of
+     Magpie left."* If you also put Magpie in a shared project folder,
+     update that copy too.
+   - **Chat with skills** (ChatGPT, Gemini, Copilot): delete the old
+     Magpie skill, then upload the new zip. Check that only one Magpie
+     is listed.
+   - **Claude.ai project:** remove all the old Magpie files from the
+     project's knowledge, add the new `.md` files, and replace the
+     project instructions with the new `operating.md`. Or make a new
+     project for the new version, and keep the old one only until you've
+     finished the studies in it.
+5. **Start a new conversation.** A conversation that's already open
+   keeps using the version it started with. If you were mid-study, give
+   Magpie your study record and it picks up from there.
+
+Not sure how to do a step? Ask your tool, for example: *"How do I delete
+a skill here?"*
 
 ## For contributors
 
