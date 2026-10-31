@@ -2,6 +2,17 @@
 
 ## 2026-10-31
 
+- README rewritten for clarity, for readers new to AI tools. A new
+  section says what Magpie is: one skill that brings in independent
+  checker agents at three required points (guide or survey questions,
+  findings, report and deck), and why it's built that way. Which kind of
+  AI tool to use now says why it matters. "What helps" and "What a
+  session looks like" are folded into the first-study steps, so each
+  piece of advice appears once. "What you get" is shorter. "The stages"
+  and "Words that steer it" say why they matter, the team profile and
+  intake form have their own section, "Keep Magpie up to date" moved
+  near the end, and a few terms are explained where they first appear.
+  The ChatGPT setup now says seven scripts, not five.
 - README: a new "Prompts, skills and agents" section explains the three
   words in plain language, with a note that each AI company uses them a
   little differently. An "On this page" list near the top links to each
