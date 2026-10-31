@@ -48,6 +48,11 @@ transcripts may be used here, and don't hold the analysis for it
 - Partner data that arrived since planning.
 - The research questions and hypotheses, if they aren't in the record.
 
+If a lot of material lands in one conversation, offer once to start the
+analysis in a new one (`operating.md`, "Long conversations"). Where you
+can write files, keep each transcript's codes in a coding-notes file as
+you go.
+
 **Your turn** (`operating.md`, "Your turn"). If the researcher sat in or
 watched the sessions, ask in the same message: "Before I code anything,
 what were the two or three patterns that stood out to you?" Write their

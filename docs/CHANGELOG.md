@@ -2,6 +2,25 @@
 
 ## 2026-10-31
 
+- Long conversations: Magpie now helps researchers move to a new
+  conversation before a long one hurts the work. At the end of stages 6
+  and 7 the save-point line also suggests a new conversation. A new
+  command, "fresh start", updates the study record and gives a line to
+  paste into the new conversation (unlike "start over", it keeps the
+  study). When a lot of material lands at once (more than about eight
+  transcripts, a very long file, or material after several stages),
+  Magpie offers once to start the analysis fresh, and never holds the
+  work for it. In agent tools it keeps each transcript's codes in a
+  coding-notes file and compares from that. When it can't find something
+  said to be settled, it says so and asks, instead of guessing. Magpie
+  never claims to know how full the conversation is (`operating.md`,
+  "Long conversations"; standards A.36 to A.38; new evals
+  `fresh-start-before-analysis`, `fresh-start-command`, `heavy-paste`;
+  not yet run live).
+- README: new "When to start a new conversation" section with warning
+  signs, a "What helps" row, the "fresh start" command, and a
+  troubleshooting line.
+
 - Magpie now carries a version: the date of the newest changelog entry,
   stamped by `tools/build.py` into the credit line of `SKILL.md` and the
   prompts and the footer of every file. Ask Magpie "Which version of

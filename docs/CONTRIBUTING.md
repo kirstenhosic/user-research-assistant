@@ -50,7 +50,7 @@ As of October 28, 2026.
   and priority, choosing a method, and spelling and dates. All results so
   far were judged by a model, not yet by a person. Details are in
   `evals/runs/` and `evals/README.md`.
-- **Standards.** Magpie follows 147 standards in `core/standards/`. 66 cite
+- **Standards.** Magpie follows 150 standards in `core/standards/`. 66 cite
   a public source, at least in part, such as the ICC/ESOMAR code, Braun
   and Clarke, or Nielsen Norman Group. The others are marked practitioner
   judgment. Every source is listed in `docs/PROVENANCE.md`.
