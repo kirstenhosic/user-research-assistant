@@ -31,9 +31,11 @@ on. Here's how to set it up and what helps along the way.
 
 Magpie runs in either kind:
 
-- **A chat**, such as Claude.ai, ChatGPT, Gemini or Copilot in a web
-  browser. It works with what you paste or upload into the conversation.
-- **An agent tool**, such as Claude Code. It's the same kind of AI, but
+- **A chat**, such as Claude.ai, ChatGPT, Gemini or Copilot, in a web
+  browser or app. It works with what you paste or upload into the
+  conversation.
+- **An agent tool**, such as Claude Code, OpenAI Codex, Gemini CLI or
+  OpenCode. It's the same kind of AI, but
   it can also work with files on your computer when you ask: open the
   files in a folder, save new files there, and run small programs. You
   talk to it in plain words, and it asks before it changes anything.
@@ -280,7 +282,7 @@ Then set it up in your tool.
 
 ### Which tool to use
 
-| | Agent tool (Claude Code, and others like it) | Chat (Claude.ai, ChatGPT, Gemini, Copilot) |
+| | Agent tool (Claude Code, Codex, Gemini CLI, OpenCode) | Chat (Claude.ai, ChatGPT, Gemini, Copilot) |
 | --- | --- | --- |
 | Quote and count checks | Done by a small program | Done by reading, which is less reliable |
 | Independent review | Starts on its own | You paste it into a fresh chat and paste the result back |
