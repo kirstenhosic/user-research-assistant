@@ -177,7 +177,14 @@ sessions, or say "you do it", skip it.
    that's where an experienced researcher will disagree. Ask for a decision on each: "Keep, change,
    split or drop? 'Keep 1 and 3, drop 2, split 4 into...' is a fine
    answer." Every theme needs its own answer. If the reply is a blanket
-   "looks good", ask which, if any, they'd change. Write each decision in
+   "looks good", ask which, if any, they'd change. In the same message,
+   the researcher takes their turn on the two or three themes the
+   decision leans on most, which you name (`operating.md`, "Your turn"):
+   one numbered item with labeled lines for each, "Theme 1. Would be
+   wrong if: ... Other explanation: ...", and an example of the shape if
+   it helps ("Would be wrong if: the people who gave up had already
+   decided to leave. Other explanation: the new layout, not the export
+   bug"). Don't offer your own first. Write each decision in
    the record's Theme review table. Don't carry a dropped theme into the
    findings, and re-check the evidence for a split one. The review is
    skipped only when the researcher says so about the themes themselves,
@@ -213,6 +220,30 @@ sessions, or say "you do it", skip it.
    decision, is marked "check next". Show the findings in priority order
    and say the review yes covers the order, so they can move any up or
    down first (`lenses/confidence-and-priority.md`); their order stands.
+11a. **Try to break the key findings.** For each finding the decision
+   rests on (the high-priority ones, three at most), start from what the
+   researcher wrote at step 8, keep their words where they work, and add
+   what you see. Write two things in the record's Key findings table:
+   - **Would be wrong if:** what you'd expect to see in the material if
+     the finding were wrong, and whether you see it. Look for it in the
+     transcripts before you write that it isn't there.
+   - **Other explanations:** at least one other reading of the same
+     evidence, such as something else that changed at the same time,
+     the way the task or question was set up, who was recruited, or a
+     reason people gave that points elsewhere. Mark each one **ruled
+     out**, with the participants and lines that rule it out, or **still
+     open**, with what would settle it. Any number in "what would settle
+     it" is computed (see "Survey data" below).
+
+   An explanation still open that fits the evidence as well as the
+   finding does means the finding can't be strong; say so in its
+   confidence line. A high-priority finding with one still open is
+   marked "check next". Never decide for the researcher which reading is
+   right: show both with their evidence. If they said "you do it" at
+   step 8, draft these yourself and say so. Don't invent evidence for
+   either side; an explanation with nothing in the material for or
+   against it is still open, not ruled out. The idea comes from
+   claim-stress-tester (S102).
 12. **Check the hypotheses.** Once the findings are drafted, say for each
    hypothesis in the record whether the evidence supports it, contradicts
    it or doesn't speak to it, with the findings behind each, and update its
@@ -227,12 +258,15 @@ sessions, or say "you do it", skip it.
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
 15. **Run the claim-strength check** (`checks/claim-strength.md`) over the
-   draft findings.
+   draft findings, including its "Words to look for" list. Where you can
+   run code, `tools/checks/wording_check.py` finds those words; reword
+   each flagged sentence or keep it with a reason in the change log.
 16. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
-   and each cited line exists and is that participant speaking. Where you
-   can't run code, do it by hand and say so.
+   and each cited line exists and is that participant speaking; and the
+   wording check above. Where you can't run code, do it by hand and say
+   so.
 17. **Run the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage, whatever the
     size of the draft: one finding, a rewrite of the researcher's own
@@ -242,7 +276,9 @@ sessions, or say "you do it", skip it.
     it before you show the findings and wait for it, so the researcher sees
     one reviewed draft (`operating.md`, "Wait for the review, then send one
     message"). Where you can't, give the researcher the text to paste and
-    say when to bring the result back.
+    say when to bring the result back. Either way, label every point
+    found, lead or not found before acting on it
+    (`review/independent-review.md`, "What Magpie does with the result").
 17a. **Offer a journey map or personas where the findings are that
     shape** (`methods/journey-maps-and-personas.md`): a sequence across
     sessions, or two or three distinct kinds of participant. Offer in one
@@ -395,6 +431,9 @@ the tool gives no range, or gives one that doesn't fit the sample.
 - The analysis sheet, if the researcher wants it.
 - The theme review: the themes riskiest first, the merged and dropped
   codes, and the researcher's decision on each theme, in the record.
+- The Key findings table: for each finding the decision rests on, what
+  would prove it wrong and the other explanations, each ruled out or
+  still open.
 
 ## Challenge
 
@@ -418,9 +457,13 @@ it.
   this decision, judged on what happened in the sessions.
 - The researcher kept, changed, split or dropped each theme, or the skip
   is logged as a risk.
-- Claim-strength check run.
-- Quote and count checks run, by code or by hand.
-- Independent review run and each point fixed or answered, and the status
+- Each key finding has a "would be wrong if" line and at least one other
+  explanation, ruled out with evidence or still open with what would
+  settle it.
+- Claim-strength check run, with its word search.
+- Quote, count and wording checks run, by code or by hand.
+- Independent review run, each point labeled found, lead or not found,
+  and each point fixed or answered, and the status
   line shows it as done. If the researcher is running it in another chat
   and hasn't brought it back, it's listed as waiting in the record and the
   status line.

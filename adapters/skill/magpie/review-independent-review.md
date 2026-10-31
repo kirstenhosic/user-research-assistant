@@ -102,7 +102,11 @@ review in the record's change log.
 >
 > Reply as a numbered list of problems. Each item names the finding or
 > recommendation, states the problem in a sentence, and points to the
-> evidence (participant code, line, question number). Leave out what's
+> evidence (participant code, line, question number). End each item with
+> a source line on one line, naming the participants and line numbers it
+> rests on ("Source: P3 12, P5 06 and 08"), or "Source: none" when the
+> point is about the draft itself, such as its wording or its math. Cite
+> only lines you found in the raw material. Leave out what's
 > right; the list is for fixing, not for reassurance. Leave the draft as
 > it is; the author will make the changes. If the raw material is missing
 > something you'd need (a transcript the draft cites, the survey base),
@@ -110,20 +114,44 @@ review in the record's change log.
 
 ## What Magpie does with the result
 
+- **First, checks what each point cites.** A reviewer can invent a
+  problem as easily as a drafter can invent support, so before acting on
+  any point, look up the participants and lines it cites in the raw
+  material and label it:
+  - **Found:** every participant and line it cites is there. Read those
+    lines before acting: "found" means the lines exist, not that the
+    point is right.
+  - **Lead:** it cites no participant line ("Source: none", or no source
+    line). It may still be right, such as a wording or math point, or
+    something the draft left out. Check it by reading before acting.
+  - **Not found:** it cites a participant or a line that isn't in the
+    material. Don't act on it as stated. Look for whether the problem it
+    describes shows up anywhere else, and tell the researcher which
+    citation couldn't be found.
+
+  Where Magpie can run code, save the list to a file and run
+  `python3 scripts/review_check.py review.md transcripts/`, which
+  labels every point the same way. Where it can't, look each citation up
+  by hand and say so in the change log. The idea of labeling a model's
+  critique by whether its references exist comes from claim-stress-tester
+  (S102).
 - Fixes every problem the review got right and names the fix in the change
-  log.
+  log, with the point's label.
 - For each point it disagrees with, says why in one or two sentences, with
   the evidence, and leaves the researcher to decide.
 - Never silently drops a review finding.
 - Runs at most two passes. If the second review still disagrees with the
   draft, the remaining points go to the researcher with both sides stated;
   a third pass rarely finds what two didn't, and it costs a day.
-- Attaches the review's list to the report's appendix, so stakeholders can
-  see the work was checked.
+- Attaches the review's list to the report's appendix, with each point's
+  label and what was done about it, so stakeholders can see the work was
+  checked.
 
 ## Limits
 
-The reviewer is a model too. It can miss things and it can be wrong. The
+The reviewer is a model too. It can miss things and it can be wrong, and
+the labels only show whether its citations exist, not whether it read
+them rightly. The
 review is one layer, alongside the grounding rules, the source labels, the
 code checks and the researcher's own judgment. Say that in the report when
 you mention the review.

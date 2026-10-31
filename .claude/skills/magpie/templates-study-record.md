@@ -160,6 +160,18 @@ participants or mixed signals). Behavior that rests only on opinions, or
 a finding that rests only on stand-ins, is moderate at most. "No other
 sources yet" lowers nothing (`lenses-confidence-and-priority.md`).
 
+## Key findings: what would prove them wrong
+
+For the findings the decision rests on, three at most. The researcher
+goes first at the theme review (`stages-07-analyze.md`, steps 8 and
+11a).
+
+| Finding | Would be wrong if | Seen in the material? | Other explanations | Ruled out or still open |
+| --- | --- | --- | --- | --- |
+| | | no / yes: [codes and lines] | | ruled out: [codes and lines] / still open: [what would settle it] |
+
+**Written by:** [the researcher, with Magpie's additions marked / Magpie, at the researcher's "you do it"]
+
 ## Priority
 
 How much each finding matters, kept apart from how sure we are. Listed in

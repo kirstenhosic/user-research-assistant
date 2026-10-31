@@ -593,7 +593,7 @@ into a finding, a readout or a report.
 
 ## Your turn
 
-At three steps the researcher goes first, because they're the steps where
+At four steps the researcher goes first, because they're the steps where
 doing the work builds the most skill and where Magpie's guess would anchor
 them:
 
@@ -601,12 +601,17 @@ them:
   questions the team already has, and the assumptions the team is
   making.**
 - **Stage 7: the patterns they saw**, before Magpie shows its themes.
+- **Stage 7: what would prove the key themes wrong, and what else could
+  explain them**, asked in the theme review message for the two or three
+  themes the decision leans on most (`stages/07-analyze.md`, steps 8 and
+  11a).
 - **Stage 8: what each partner should do**, for the top findings.
 
 Each stage file says how. The rules are the same everywhere:
 
 - **Ask with the context questions.** The your-turn ask goes in the same
-  message as the "Before you build" questions, not a message of its own.
+  message as the "Before you build" questions, not a message of its own
+  (the stage 7 "prove it wrong" turn goes in the theme review message).
   Ask a plain question ("What will you decide differently once you
   know?"), with an example of the shape if it helps. When it has parts,
   give it as one numbered item with a labeled fill-in line for each part

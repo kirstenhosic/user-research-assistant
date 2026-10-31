@@ -50,7 +50,7 @@ upload the whole folder again.
   chat Gemini said the skill "couldn't be loaded because it contains custom
   code scripts" and answered without Magpie's rules. So `magpie-gemini.zip`
   leaves `scripts/` out, and its `SKILL.md` tells Magpie to do the quote,
-  count and evidence checks by hand and say so.
+  count, evidence, review-point and wording checks by hand and say so.
 - Word files: with no scripts, Magpie uses Gemini's own way to make a Word
   file if it has one, or tells you to copy the formatted draft into Word.
 - Not yet tested: whether Gemini follows Magpie's rules once

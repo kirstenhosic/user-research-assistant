@@ -3,7 +3,8 @@
 
 Usage: python3 tools/checks/tests/run_tests.py
 
-Runs quote_check.py, count_check.py and evidence_check.py on a clean fixture (expected to pass)
+Runs quote_check.py, count_check.py, evidence_check.py, review_check.py and
+wording_check.py on a clean fixture (expected to pass)
 and a planted fixture (expected to fail on known lines). Exit 1 if any
 expectation is missed, so tools/check.py can call this.
 """
@@ -43,6 +44,16 @@ CASES = [
     ("evidence_check planted", [PY, str(CHECKS / "evidence_check.py"), "evidence-planted.md", "transcripts"], 1,
      ["2 of 2: 1 code(s) listed (P1), not 2", "P3 is not a participant", "P1 has no line 40",
       "P2 line 09 is spoken by Interviewer", "2 of 2: no participant codes listed"]),
+    ("review_check clean", [PY, str(CHECKS / "review_check.py"), "review-clean.md", "transcripts"], 0,
+     ["Review points: 2 (found 1, lead 1, not found 0)", "1. found: P2 08; P2 10", "2. lead"]),
+    ("review_check planted", [PY, str(CHECKS / "review_check.py"), "review-points.md", "transcripts"], 1,
+     ["found 3, lead 1, not found 2", "2. found: P2 08", "3. lead", "P3 is not a participant",
+      "P1 has no line 40", "6. found: P2 09; P2 10"]),
+    ("wording_check clean", [PY, str(CHECKS / "wording_check.py"), "wording-clean.md"], 0,
+     ["No wording flags"]),
+    ("wording_check planted", [PY, str(CHECKS / "wording_check.py"), "wording-planted.md"], 1,
+     ["7 to reread", "every-or-none word 'All'", "vague amount 'Most'", "cause word 'drives'",
+      "vague amount 'users want'", "overclaiming word 'clearly'", "'significant' with no test named"]),
     # The fixture studies in evals/fixtures/ carry planted quote and count
     # problems; the code checks must catch the ones they can.
     ("quote_check harbor-invites", [PY, str(CHECKS / "quote_check.py"), str(HARBOR / "draft-findings.md"),
