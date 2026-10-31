@@ -2,6 +2,21 @@
 
 ## 2026-10-31
 
+- README readability: terms are explained where they first appear now
+  that "Get started" comes first (checker agents, study record, stage),
+  the status line has one name throughout, the three checker points are
+  listed once, the Copilot meaning of "agent" sits apart from checker
+  agents, a few long sentences are split, and "Words that steer it" is
+  now "Shortcuts you can type".
+- README reordered so new readers can start right away: "Get started"
+  (pick your tool, set up, first study) now comes first, and the
+  explanation of skills, agents and how Magpie works has its own "How
+  Magpie works" section after it. Usability fixes: a table of which zip
+  to download for each tool, a "Jump to your tool" line, a "Check that
+  it worked" step (the first reply starts "Magpie is on for this
+  conversation"), "Stuck on a step? Ask your tool" at the top, a link to
+  get Claude Code, the work rules as three bullets, and "On this page"
+  marks where to start.
 - README rewritten for clarity, for readers new to AI tools. A new
   section says what Magpie is: one skill that brings in independent
   checker agents at three required points (guide or survey questions,
