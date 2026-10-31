@@ -63,6 +63,16 @@ The judge here is stricter than the reading behind the first October 30
 write-up, so these numbers aren't comparable with it. They are
 comparable with each other.
 
+**Point by point.** Because a row with six pieces counts as partial
+when any one is missing, the 25 points were also split into 99 smaller
+pieces. The judge was asked only whether each piece's substance appears
+anywhere in the findings or codebook, however it is grouped or named
+(two passes, agreeing on 98% of pieces). October 30 runs: 66 to 74 of 99
+present, about 70%. October 31 runs: 63 to 73 of 99, about 68%. Allowing
+other groupings at the row level changed little, so most of what's
+missing is absent, not framed differently. Of the 16 pieces absent from
+every October 31 judgment, 8 come from a single participant.
+
 **What every October 31 run found only in part:** what drives
 engagement and what breaks it; that players tie rage to competitive
 play rather than to violent content; one-person points on identity and
