@@ -2,6 +2,10 @@
 
 ## 2026-10-31
 
+- README: a new "Prompts, skills and agents" section explains the three
+  words in plain language, with a note that each AI company uses them a
+  little differently. An "On this page" list near the top links to each
+  main section.
 - Citing Magpie: a new `CITATION.cff` file makes GitHub show a "Cite this
   repository" link with APA and BibTeX citations. The README's credit
   section points to it.

@@ -20,12 +20,52 @@ and it improves often. Read [Can I trust it?](#can-i-trust-it) before
 you rely on it, and [check for updates](#keep-magpie-up-to-date) every
 week or two.
 
+**On this page**
+
+- [So how do I use this?](#so-how-do-i-use-this)
+- [Set up Magpie](#set-up-magpie)
+- [What a session looks like](#what-a-session-looks-like)
+- [What you get](#what-you-get)
+- [The stages](#the-stages)
+- [Methods it covers](#methods-it-covers)
+- [Words that steer it](#words-that-steer-it)
+- [Pick up where you left off](#pick-up-where-you-left-off)
+- [Can I trust it?](#can-i-trust-it)
+- [When something goes wrong](#when-something-goes-wrong)
+- [For contributors](#for-contributors)
+- [Thanks to](#thanks-to)
+- [Credit and license](#credit-and-license)
+
 ## So how do I use this?
 
 Magpie works with you on a whole study, over many messages. It asks you
 questions, drafts the work, and waits for you to check it before moving
 on. You add it to your AI tool once, usually as a **skill**: a set of
 instructions the tool follows whenever you ask for Magpie.
+
+### Prompts, skills and agents
+
+You'll see these three words a lot. Here's what they mean:
+
+- **A prompt** is a single message you type to the AI, such as
+  *"Summarize these interview notes."* It lasts only for that request,
+  so you explain what you want each time.
+- **A skill** is a saved set of instructions, with reference files if
+  needed, that the AI loads when it's relevant. It's like handing a
+  colleague a playbook once instead of explaining your process every
+  time. Magpie is a skill.
+- **An agent** is an AI tool that can take steps on its own to finish a
+  task. It can read and write files, run checks, and keep working
+  across many steps. Claude Code, Codex and Gemini CLI are agents.
+
+Put simply: the prompt is what you ask, the skill is the expertise, and
+the agent does the work. That's why Magpie works best in an agent tool:
+the agent can use all of Magpie's files and run its checks.
+
+Each AI company uses these words a little differently. ChatGPT calls a
+saved set of instructions a GPT, for example, and Copilot calls one an
+agent. If a word in your tool doesn't match this page, ask the tool what
+it means.
 
 ### Two kinds of AI tool
 
