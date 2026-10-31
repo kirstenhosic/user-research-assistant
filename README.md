@@ -22,8 +22,11 @@ week or two.
 
 **On this page**
 
-- [So how do I use this?](#so-how-do-i-use-this)
-- [Set up Magpie](#set-up-magpie)
+- **[Get started](#get-started)** (start here)
+- **[How Magpie works](#how-magpie-works)**
+
+Reference:
+
 - [What you get](#what-you-get)
 - [The stages](#the-stages)
 - [Methods it covers](#methods-it-covers)
@@ -37,7 +40,209 @@ week or two.
 - [Thanks to](#thanks-to)
 - [Credit and license](#credit-and-license)
 
-## So how do I use this?
+## Get started
+
+Three steps: pick your AI tool, set Magpie up, and start your first
+study. If you'd like to know how Magpie works first, read
+[How Magpie works](#how-magpie-works).
+
+**Stuck on a step?** Ask the AI tool you're using, for example: *"How do
+I install a skill from a zip file?"* or *"How do I open a folder here?"*
+Each tool works a little differently, and it can walk you through its
+own way.
+
+### Pick your AI tool
+
+Magpie works best in an **agent tool**, such as Claude Code, OpenAI
+Codex, Gemini CLI or OpenCode. There it can run its own quote and count
+checks and start its independent checker agents for you. A **chat**,
+such as Claude.ai, ChatGPT, Gemini or Copilot, is a good way to try it
+out. [Compare the two](#which-kind-of-ai-tool-to-use).
+
+### Using Magpie at work
+
+Anything you share with Magpie goes to the AI tool it runs in. So for
+work projects:
+
+- **Use an approved tool.** Use Magpie only in an AI tool your employer
+  has approved.
+- **Follow your data rules.** That includes your organization's rules on
+  participant data, transcripts, recordings and anything your company
+  treats as internal.
+- **Open only the study folder.** An agent tool can open files on your
+  computer, so keep in that folder only what you mean to share.
+
+If you aren't sure what's allowed, ask your manager or your privacy or
+security team before you start.
+
+### Set up Magpie
+
+Jump to your tool: [Claude Code](#claude-code) ·
+[Other agent tools](#other-agent-tools-codex-opencode-gemini-cli) ·
+[Claude.ai](#claudeai) · [ChatGPT](#chatgpt) · [Gemini](#gemini) ·
+[Copilot](#copilot) · [Any other AI tool](#any-other-ai-tool)
+
+First, download the file for your tool:
+
+| Your tool | Download |
+| --- | --- |
+| Gemini | **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)** |
+| Copilot | **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)** |
+| Any other tool | **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)** |
+
+Each one holds everything Magpie needs for that tool.
+
+#### Claude Code
+
+You need the Claude Code desktop app or the command-line tool (it runs
+in a Terminal window). Anthropic's
+[Claude Code overview](https://code.claude.com/docs/en/overview) shows
+how to get it (checked October 31, 2026).
+
+1. Download `magpie.zip` and open Claude Code.
+2. Ask Claude Code to install it, for example: *"Unzip
+   ~/Downloads/magpie.zip into ~/.claude/skills/magpie/"*. Magpie then
+   works in all your projects on this computer. (`~` is short for your
+   home folder.)
+3. Start a conversation and ask for help with a study, or say "magpie".
+
+To share Magpie with a team, put it in a shared project's
+`.claude/skills/magpie/` folder instead. Folders that start with a dot
+are hidden: on a Mac, press Cmd+Shift+. in Finder to show them; on
+Windows, turn on **Hidden items** in File Explorer's **View** menu. More
+in Claude Code's [skills docs](https://code.claude.com/docs/en/skills)
+(checked October 28, 2026).
+
+#### Other agent tools (Codex, OpenCode, Gemini CLI)
+
+These tools can load Magpie the same way Claude Code does, but **Magpie
+hasn't been tested in them yet.** Ask your tool to install it, for
+example: *"Install the skill in ~/Downloads/magpie.zip so it works in all
+my projects."* It knows where its own skills go. Then start a
+conversation and ask for help with a study, or say "magpie". If
+something doesn't work, please
+[open an issue](https://github.com/kirstenhosic/user-research-assistant/issues).
+
+#### Claude.ai
+
+You need a Claude.ai account with Projects.
+
+1. Create a new Project.
+2. Unzip `magpie.zip` and add all the files whose names end in `.md` to
+   the project's knowledge.
+3. Paste the contents of `operating.md` (Magpie's main instructions) into
+   the project's instructions.
+4. Start a chat in the project and describe your study.
+
+#### ChatGPT
+
+ChatGPT adds Magpie as a skill. OpenAI's help center lists skills for
+Business, Enterprise, Healthcare and Edu workspaces (checked October 26,
+2026); on a personal plan, try the steps anyway.
+
+1. In the sidebar, open **Plugins**, then the **Skills** tab.
+2. Choose **Create** > **Upload from your computer** and upload
+   `magpie.zip`.
+3. If ChatGPT says **Needs Review**, read what it flags. The only code in
+   the package is seven small scripts that check quotes, counts and
+   wording and make Word and Excel files; none of them connects to the
+   internet.
+4. Install it, then start a chat and type `@magpie`, or just describe
+   your study.
+
+**If there's no Skills page:** unzip `magpie.zip`, create a Project,
+paste `operating.md` as the project instructions, and add the other `.md`
+files as project files.
+
+#### Gemini
+
+You need a Google account signed in to Gemini, with Keep Activity turned
+on.
+
+1. Go to gemini.google.com. In the sidebar, open **Customize** (it may be
+   under **More**), then **Skills**.
+2. Choose **Create** > **Upload** and pick
+   **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)**,
+   not `magpie.zip`. Gemini won't load a skill that contains code, and
+   this copy leaves the code checks out. Magpie does those checks by hand
+   instead.
+3. Check what Gemini shows, then choose **Create**.
+4. In a chat, type `/magpie`, or just describe your study.
+
+Uploading works in the web app and the Mac app, not the phone apps.
+
+#### Copilot
+
+Use **Cowork** in Microsoft 365 Copilot. At work you need a Copilot
+license, and your admin has to turn Cowork on. On a personal Microsoft
+account you need Microsoft 365 Premium or Pro, in the US or Canada.
+Personal, Family and the free Copilot app don't have Cowork.
+
+1. Download
+   **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)**,
+   not `magpie.zip`. It has its files combined to fit Copilot's file limit.
+2. In Cowork, open **Customize** > **Skills**, choose the arrow next to
+   **Add**, then **Upload skill**, and pick `magpie-copilot.zip`.
+3. When it appears under **Your skills**, start a chat and describe your
+   study.
+
+More detail is in the [Copilot setup notes](adapters/copilot/README.md).
+
+#### Any other AI tool
+
+Upload `magpie.zip` if the tool takes skills. If it has projects or
+knowledge files instead, set it up like Claude.ai: paste `operating.md`
+as the instructions and add the other `.md` files.
+
+#### Check that it worked
+
+Start a conversation and ask for help with a study. You'll know Magpie
+is working when the first reply starts *"Magpie is on for this
+conversation"* and every reply ends with a short line such as *Magpie ·
+Planning the study*. If not, see
+[When something goes wrong](#when-something-goes-wrong).
+
+### Your first study, step by step
+
+Once Magpie is set up:
+
+1. **Make a folder for the study** (agent tool only). Put in what you
+   already have: a brief, notes, past research, transcripts. Open that
+   folder in your agent tool, so Magpie can read it and save its work
+   there.
+2. **Say what you're working on, in your own words.** One or two
+   sentences is enough, for example: *"A PM wants to know if we should
+   build an onboarding checklist. Deadline is two weeks."* or *"Here are
+   eight interview transcripts. Help me find what matters."* In a chat,
+   upload or paste what you have in the same message. If Magpie doesn't
+   start, say "magpie".
+3. **Answer its questions.** Magpie says which stage it thinks you're at
+   (tell it if that's wrong), then asks up to six short questions under
+   "Questions for you to answer". A line each is enough, and you can skip
+   the ones marked optional. The more you share at the start, such as a
+   brief or past research, the fewer questions it asks. To share less
+   each time, see
+   [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions).
+4. **Read the draft, then say "yes".** Nothing counts as done until you
+   do. Start with the points marked "read hardest": where the decision
+   leans most and the evidence is thinnest. If you'd do something
+   differently, say what and why, and Magpie reworks it.
+5. **Take your turn.** At three points you go first: framing the
+   problem, spotting patterns in the data, and deciding what each team
+   should do. Use your own words. That thinking is what makes the work
+   yours. Say "you do it" to hand a step back.
+6. **Keep going, one stage at a time.** A study takes many messages.
+   Every reply ends with a short line such as *Magpie · Planning the
+   study*, so you know Magpie is still on. Say "stop Magpie" when you're
+   done.
+7. **Save your place.** Magpie keeps a study record you can bring to a
+   new conversation. See
+   [Pick up where you left off](#pick-up-where-you-left-off).
+
+**Tip:** a small study you've already finished makes a good first try.
+You'll know the answers, so you can see how well Magpie does.
+
+## How Magpie works
 
 Magpie works with you on a whole study, over many messages. It asks you
 questions, drafts the work, and waits for you to check it before moving
@@ -125,173 +330,6 @@ a study and drafting a guide. The extra checks matter most when you
 analyze data and write the report, because that's where a wrong quote or
 count is most likely to slip through. You can start in a chat and move
 later without losing your work.
-
-### Your first study, step by step
-
-1. **Set it up once.** Follow the steps for your tool in
-   [Set up Magpie](#set-up-magpie). In Claude Code you can ask it to
-   install Magpie for you.
-2. **Make a folder for the study** (agent tool only). Put in what you
-   already have: a brief, notes, past research, transcripts. Open that
-   folder in your agent tool, so Magpie can read it and save its work
-   there.
-3. **Say what you're working on, in your own words.** One or two
-   sentences is enough, for example: *"A PM wants to know if we should
-   build an onboarding checklist. Deadline is two weeks."* or *"Here are
-   eight interview transcripts. Help me find what matters."* In a chat,
-   upload or paste what you have in the same message. If Magpie doesn't
-   start, say "magpie".
-4. **Answer its questions.** Magpie says which stage it thinks you're at
-   (tell it if that's wrong), then asks up to six short questions under
-   "Questions for you to answer". A line each is enough, and you can skip
-   the ones marked optional. The more you share at the start, such as a
-   brief or past research, the fewer questions it asks. To share less
-   each time, see
-   [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions).
-5. **Read the draft, then say "yes".** Nothing counts as done until you
-   do. Start with the points marked "read hardest": where the decision
-   leans most and the evidence is thinnest. If you'd do something
-   differently, say what and why, and Magpie reworks it.
-6. **Take your turn.** At three points you go first: framing the
-   problem, spotting patterns in the data, and deciding what each team
-   should do. Use your own words. That thinking is what makes the work
-   yours. Say "you do it" to hand a step back.
-7. **Keep going, one stage at a time.** A study takes many messages.
-   Every reply ends with a short line such as *Magpie · Planning the
-   study*, so you know Magpie is still on. Say "stop Magpie" when you're
-   done.
-8. **Save your place.** Magpie keeps a study record you can bring to a
-   new conversation. See
-   [Pick up where you left off](#pick-up-where-you-left-off).
-
-**Your tool knows itself best.** Whenever you're not sure how to do
-something, ask the tool you're using, for example: *"How do I add files
-to this conversation?"*, *"How do I open a folder here?"* or *"How do I
-install a skill from a zip file?"* Each tool works a little differently,
-and it can walk you through its own way.
-
-**Tip:** a small study you've already finished makes a good first try.
-You'll know the answers, so you can see how well Magpie does.
-
-## Set up Magpie
-
-### Using Magpie at work
-
-Anything you share with Magpie goes to the AI tool it runs in. For work
-projects, use Magpie only in an AI tool your employer has approved, and
-follow your organization's rules on data, privacy and confidentiality.
-That includes participant data, transcripts, recordings and anything
-your company treats as internal. An agent tool can open files on your
-computer, so open only the study folder, and keep in it only what you
-mean to share. If you aren't sure what's allowed, ask your manager or
-your privacy or security team before you start.
-
-### Download Magpie
-
-Download
-**[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)**.
-It holds everything Magpie needs. Gemini and Copilot use their own
-versions, linked in their steps below.
-
-### Claude Code
-
-You need the Claude Code desktop app or the command-line tool (it runs
-in a Terminal window).
-
-1. Download `magpie.zip` and open Claude Code.
-2. Ask Claude Code to install it, for example: *"Unzip
-   ~/Downloads/magpie.zip into ~/.claude/skills/magpie/"*. Magpie then
-   works in all your projects on this computer. (`~` is short for your
-   home folder.)
-3. Start a conversation and ask for help with a study, or say "magpie".
-
-To share Magpie with a team, put it in a shared project's
-`.claude/skills/magpie/` folder instead. Folders that start with a dot
-are hidden: on a Mac, press Cmd+Shift+. in Finder to show them; on
-Windows, turn on **Hidden items** in File Explorer's **View** menu. More
-in Claude Code's [skills docs](https://code.claude.com/docs/en/skills)
-(checked October 28, 2026).
-
-### Other agent tools (Codex, OpenCode, Gemini CLI)
-
-These tools can load Magpie the same way Claude Code does, but **Magpie
-hasn't been tested in them yet.** Ask your tool to install it, for
-example: *"Install the skill in ~/Downloads/magpie.zip so it works in all
-my projects."* It knows where its own skills go. Then start a
-conversation and ask for help with a study, or say "magpie". If
-something doesn't work, please
-[open an issue](https://github.com/kirstenhosic/user-research-assistant/issues).
-
-### Claude.ai
-
-You need a Claude.ai account with Projects.
-
-1. Create a new Project.
-2. Unzip `magpie.zip` and add all the files whose names end in `.md` to
-   the project's knowledge.
-3. Paste the contents of `operating.md` (Magpie's main instructions) into
-   the project's instructions.
-4. Start a chat in the project and describe your study.
-
-### ChatGPT
-
-ChatGPT adds Magpie as a skill. OpenAI's help center lists skills for
-Business, Enterprise, Healthcare and Edu workspaces (checked October 26,
-2026); on a personal plan, try the steps anyway.
-
-1. In the sidebar, open **Plugins**, then the **Skills** tab.
-2. Choose **Create** > **Upload from your computer** and upload
-   `magpie.zip`.
-3. If ChatGPT says **Needs Review**, read what it flags. The only code in
-   the package is seven small scripts that check quotes, counts and
-   wording and make Word and Excel files; none of them connects to the
-   internet.
-4. Install it, then start a chat and type `@magpie`, or just describe
-   your study.
-
-**If there's no Skills page:** unzip `magpie.zip`, create a Project,
-paste `operating.md` as the project instructions, and add the other `.md`
-files as project files.
-
-### Gemini
-
-You need a Google account signed in to Gemini, with Keep Activity turned
-on.
-
-1. Go to gemini.google.com. In the sidebar, open **Customize** (it may be
-   under **More**), then **Skills**.
-2. Choose **Create** > **Upload** and pick
-   **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)**,
-   not `magpie.zip`. Gemini won't load a skill that contains code, and
-   this copy leaves the code checks out. Magpie does those checks by hand
-   instead.
-3. Check what Gemini shows, then choose **Create**.
-4. In a chat, type `/magpie`, or just describe your study.
-
-Uploading works in the web app and the Mac app, not the phone apps.
-
-### Copilot
-
-Use **Cowork** in Microsoft 365 Copilot. At work you need a Copilot
-license, and your admin has to turn Cowork on. On a personal Microsoft
-account you need Microsoft 365 Premium or Pro, in the US or Canada.
-Personal, Family and the free Copilot app don't have Cowork.
-
-1. Download
-   **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)**,
-   not `magpie.zip`. It has its files combined to fit Copilot's file limit.
-2. In Cowork, open **Customize** > **Skills**, choose the arrow next to
-   **Add**, then **Upload skill**, and pick `magpie-copilot.zip`.
-3. When it appears under **Your skills**, start a chat and describe your
-   study.
-
-More detail is in the [Copilot setup notes](adapters/copilot/README.md).
-
-### Any other AI tool
-
-Upload `magpie.zip` if the tool takes skills. If it has projects or
-knowledge files instead, set it up like Claude.ai: paste `operating.md`
-as the instructions and add the other `.md` files.
 
 ## What you get
 
