@@ -22,8 +22,11 @@ week or two.
 
 **On this page**
 
-- [Get started](#get-started)
-- [How Magpie works](#how-magpie-works)
+- **[Get started](#get-started)** (start here)
+- **[How Magpie works](#how-magpie-works)**
+
+Reference:
+
 - [What you get](#what-you-get)
 - [The stages](#the-stages)
 - [Methods it covers](#methods-it-covers)
@@ -43,6 +46,11 @@ Three steps: pick your AI tool, set Magpie up, and start your first
 study. If you'd like to know how Magpie works first, read
 [How Magpie works](#how-magpie-works).
 
+**Stuck on a step?** Ask the AI tool you're using, for example: *"How do
+I install a skill from a zip file?"* or *"How do I open a folder here?"*
+Each tool works a little differently, and it can walk you through its
+own way.
+
 ### Pick your AI tool
 
 Magpie works best in an **agent tool**, such as Claude Code, OpenAI
@@ -53,26 +61,43 @@ out. [Compare the two](#which-kind-of-ai-tool-to-use).
 
 ### Using Magpie at work
 
-Anything you share with Magpie goes to the AI tool it runs in. For work
-projects, use Magpie only in an AI tool your employer has approved, and
-follow your organization's rules on data, privacy and confidentiality.
-That includes participant data, transcripts, recordings and anything
-your company treats as internal. An agent tool can open files on your
-computer, so open only the study folder, and keep in it only what you
-mean to share. If you aren't sure what's allowed, ask your manager or
-your privacy or security team before you start.
+Anything you share with Magpie goes to the AI tool it runs in. So for
+work projects:
+
+- **Use an approved tool.** Use Magpie only in an AI tool your employer
+  has approved.
+- **Follow your data rules.** That includes your organization's rules on
+  participant data, transcripts, recordings and anything your company
+  treats as internal.
+- **Open only the study folder.** An agent tool can open files on your
+  computer, so keep in that folder only what you mean to share.
+
+If you aren't sure what's allowed, ask your manager or your privacy or
+security team before you start.
 
 ### Set up Magpie
 
-Download
-**[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)**.
-It holds everything Magpie needs. Gemini and Copilot use their own
-versions, linked in their steps below.
+Jump to your tool: [Claude Code](#claude-code) ·
+[Other agent tools](#other-agent-tools-codex-opencode-gemini-cli) ·
+[Claude.ai](#claudeai) · [ChatGPT](#chatgpt) · [Gemini](#gemini) ·
+[Copilot](#copilot) · [Any other AI tool](#any-other-ai-tool)
+
+First, download the file for your tool:
+
+| Your tool | Download |
+| --- | --- |
+| Gemini | **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)** |
+| Copilot | **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)** |
+| Any other tool | **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)** |
+
+Each one holds everything Magpie needs for that tool.
 
 #### Claude Code
 
 You need the Claude Code desktop app or the command-line tool (it runs
-in a Terminal window).
+in a Terminal window). Anthropic's
+[Claude Code overview](https://code.claude.com/docs/en/overview) shows
+how to get it (checked October 31, 2026).
 
 1. Download `magpie.zip` and open Claude Code.
 2. Ask Claude Code to install it, for example: *"Unzip
@@ -169,6 +194,14 @@ Upload `magpie.zip` if the tool takes skills. If it has projects or
 knowledge files instead, set it up like Claude.ai: paste `operating.md`
 as the instructions and add the other `.md` files.
 
+#### Check that it worked
+
+Start a conversation and ask for help with a study. You'll know Magpie
+is working when the first reply starts *"Magpie is on for this
+conversation"* and every reply ends with a short line such as *Magpie ·
+Planning the study*. If not, see
+[When something goes wrong](#when-something-goes-wrong).
+
 ### Your first study, step by step
 
 Once Magpie is set up:
@@ -205,12 +238,6 @@ Once Magpie is set up:
 7. **Save your place.** Magpie keeps a study record you can bring to a
    new conversation. See
    [Pick up where you left off](#pick-up-where-you-left-off).
-
-**Your tool knows itself best.** Whenever you're not sure how to do
-something, ask the tool you're using, for example: *"How do I add files
-to this conversation?"*, *"How do I open a folder here?"* or *"How do I
-install a skill from a zip file?"* Each tool works a little differently,
-and it can walk you through its own way.
 
 **Tip:** a small study you've already finished makes a good first try.
 You'll know the answers, so you can see how well Magpie does.
