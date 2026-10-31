@@ -106,6 +106,14 @@ change log. The researcher's call stands on any point.
 
 ## What Magpie does with the result
 
+- First, checks each point quotes a question that is really in the
+  draft, word for word or close to it, and labels it **found** (the
+  question is there), **lead** (it names no question, such as a point
+  about order or length) or **not found** (the quoted question isn't in
+  the draft). A "not found" point isn't acted on as stated; say which
+  quote couldn't be found. This is done by reading, in every tool, since
+  the draft is short (`review-independent-review.md`, "What Magpie does
+  with the result").
 - Fixes every problem the review got right and names the fix.
 - For each point it disagrees with, says why in a sentence and leaves the
   researcher to decide.

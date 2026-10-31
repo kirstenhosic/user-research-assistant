@@ -13,7 +13,7 @@ adapters/skill/magpie/   the skill folder people install (generated)
 adapters/generic/        one long prompt for any other assistant (generated)
 adapters/claude|chatgpt|gemini|copilot/   setup notes per platform, with what was checked and when
 core/                    everything Magpie knows, in plain Markdown (edit here)
-tools/                   the build script, the quote, count and evidence checks, the Word and Excel export, and the example deck builder
+tools/                   the build script, the quote, count, evidence, review-point and wording checks, the Word and Excel export, and the example deck builder
 .github/workflows/       runs tools/check.py on every pull request
 evals/                   test scenarios with planted problems, fixtures and run notes
 docs/                    design, provenance, contributing, prompt style, changelog
@@ -37,7 +37,7 @@ As of October 28, 2026.
 - **Tested in Claude Code only.** Claude.ai, ChatGPT, Gemini and Copilot
   haven't been tested from start to finish; their setup steps come from
   each company's help pages.
-- **Evals.** There are 129 test scenarios in `evals/scenarios/`. Most of
+- **Evals.** There are 135 test scenarios in `evals/scenarios/`. Most of
   the first 36 passed, but that run didn't prove Magpie was loaded each
   time. Later runs used stricter rules: 6 of 7 coaching scenarios and 7 of
   8 HEARTS scenarios (Loosbrock, K. (2025). The HEARTS Framework: Six
@@ -50,7 +50,11 @@ As of October 28, 2026.
   and priority, choosing a method, and spelling and dates. All results so
   far were judged by a model, not yet by a person. Details are in
   `evals/runs/` and `evals/README.md`.
-- **Standards.** Magpie follows 150 standards in `core/standards/`. 66 cite
+- **Not covered yet: AI-generated participants and synthetic data.**
+  Magpie has no rule yet for responses from simulated users, AI personas
+  or other synthetic data offered as evidence. It's planned for a later
+  change.
+- **Standards.** Magpie follows 153 standards in `core/standards/`. 69 cite
   a public source, at least in part, such as the ICC/ESOMAR code, Braun
   and Clarke, or Nielsen Norman Group. The others are marked practitioner
   judgment. Every source is listed in `docs/PROVENANCE.md`.
@@ -70,7 +74,8 @@ The README sends most people to `magpie.zip`. For other setups:
   files; it repeats them.
 - If you make your own zip, zip the files inside `adapters/skill/magpie/`,
   not the folder itself. Copilot needs `SKILL.md` at the top.
-- The quote, count and evidence checks can be run by hand with Python, for
+- The quote, count, evidence, review-point and wording checks can be run
+  by hand with Python, for
   example `python3 adapters/skill/magpie/scripts/count_check.py findings.md`.
 
 ## Credit lines

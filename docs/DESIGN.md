@@ -64,12 +64,13 @@ Five things make it different from a general-purpose chat assistant:
    and stays at ten pages or fewer with a linked contents list; method is a
    paragraph, and admin detail lives in the appendix.
 8. **The researcher stays the author.** The assistant proposes; the researcher
-   decides and owns the work. At three steps the researcher goes first:
+   decides and owns the work. At four steps the researcher goes first:
    the decision, the primary question, the team's existing questions and
-   its assumptions; the patterns they saw before the themes; and what
+   its assumptions; the patterns they saw before the themes; what would
+   prove the key themes wrong and what else could explain them; and what
    each partner should do. Those are where doing the work builds the most
    skill and where the assistant's guess would anchor them. "You do it"
-   hands any of the three back. At two more steps the assistant chooses
+   hands any of the four back. At two more steps the assistant chooses
    but shows its reasoning so the researcher can counter: the method, and
    the order of the questions in a guide. Themes are reviewed one by one,
    riskiest first, before findings are written. This is one way of

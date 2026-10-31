@@ -83,7 +83,8 @@ one's name. Delete the old one so Copilot doesn't pick it up.
   stages 7 and 8) run in a fresh chat with a three-part paste. The steps
   are in `review-question-review.md` and `review-independent-review.md`,
   which stay as separate files in the Copilot zip.
-- No scripts, so Magpie does the quote, count and evidence checks by hand
+- No scripts, so Magpie does the quote, count, evidence, review-point
+  and wording checks by hand
   and says so in the record.
 - Word files: Magpie uses Cowork's own way to make a Word file if it has
   one, or tells you to copy the formatted draft into Word.

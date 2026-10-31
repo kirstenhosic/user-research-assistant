@@ -92,6 +92,10 @@ each with its code and descriptor: "— P3, finance manager, SMB".]
 **What cuts against it:** [participants who didn't fit, what they did or
 said.]
 
+**What would change this:** [what would prove it wrong, and the other
+explanations: each ruled out, with the evidence, or still open, with what
+would settle it.]
+
 **What it means:** [for the decision, two or three sentences.]
 
 **More:** [link to the appendix section, clips, or the study record.]

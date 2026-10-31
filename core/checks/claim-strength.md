@@ -71,6 +71,12 @@ does the wording match the evidence?
 14. **No other source isn't a weakness.** "First study on this; no other
     sources" is stated plainly and lowers nothing. Only a source that
     disagrees lowers the label.
+15. **Key findings say what would prove them wrong.** Each finding the
+    decision rests on carries a "Would be wrong if" line and at least one
+    other explanation for the same evidence, each marked ruled out (with
+    the evidence) or still open (with what would settle it). An open
+    explanation that fits the evidence as well as the finding does means
+    the finding can't be strong (`stages/07-analyze.md`, step 11a).
 
 ## Wording to replace
 
@@ -84,8 +90,28 @@ does the wording match the evidence?
 | It's clear that | (delete) |
 | Users check the preview (from interviews) | 5 of 8 said they check the preview; in the task, 2 of them did |
 
+## Words to look for
+
+Go through the draft for these words, outside quotes from participants.
+Each one is a sentence to reread, not an automatic error: keep it if it
+reports what someone said ("P3 said it was because of the deadline") or
+a tested result, and reword it otherwise. Where Magpie can run code,
+`python3 tools/checks/wording_check.py findings.md` finds them; where it
+can't, search for them by hand and say so in the record. Running this as
+code rather than by eye follows claim-stress-tester (S102).
+
+| Kind | Words | Fine when | Otherwise |
+| --- | --- | --- | --- |
+| Every or none | all, always, never, every, everyone, everybody, nobody, no one, none, without exception | the sentence gives the count, and it's true for every person | give the count and name who didn't fit |
+| Cause | causes, caused, drives, drove, driven by, leads to, led to, results in, because of, due to | a test showed the cause, or it's a reason someone gave | say what's known: a pattern, or what people said |
+| Vague amount | most, many, some, a few, several, the majority, nearly all, almost all, almost everyone, users want, customers want, people want | the sentence gives the count | replace with the count |
+| Overclaiming | proves, proven, clearly, obviously, definitely, undeniably, it's clear that | never | "suggests", "supports", "is consistent with", or delete |
+| Significant | significant, significantly | the test is named (a p-value, t-test, chi-square, confidence interval) | "large", "clear", or the number |
+
 ## Basis
 
 Practitioner judgment, consistent with widely published guidance on
-reporting qualitative and survey research. Sources will be added to
+reporting qualitative and survey research. Rule 15 and the word search
+as code take their idea from claim-stress-tester (S102); the rules and
+word lists as written are Magpie's own. Sources will be added to
 `docs/PROVENANCE.md` as they are checked.

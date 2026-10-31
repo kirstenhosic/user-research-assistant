@@ -2,6 +2,35 @@
 
 ## 2026-10-31
 
+- Checking the checker: before acting on any point from the independent
+  review, Magpie now labels it found (every participant and line it cites
+  is in the material), lead (it cites nothing to look up, so it's checked
+  by reading) or not found (it cites something that isn't there, so it
+  isn't acted on as stated). Found means the lines exist, not that the
+  point is right. The question review gets the same labels by reading.
+  The review prompt now asks for a source line on every point. New script
+  `tools/checks/review_check.py` does the lookup; copies with no scripts
+  do it by hand and say so (`review/independent-review.md`; standard
+  A.39; eval `review-points-checked`).
+- Wording check: a "Words to look for" list in `checks/claim-strength.md`
+  (every-or-none words, cause words, vague amounts, overclaiming words,
+  "significant" with no test), searched by the new script
+  `tools/checks/wording_check.py` or by hand, outside participants'
+  quotes. Each flag is reworded or kept with a reason (standard 7.28;
+  eval `wording-flags`).
+- Prove it wrong: for the two or three findings the decision rests on,
+  the researcher writes first, in the theme review message, what would
+  prove each wrong and what else could explain it. Magpie adds what it
+  sees and marks each other explanation ruled out, with the evidence, or
+  still open, with what would settle it. An open explanation that fits
+  as well keeps the finding below strong. New Key findings table in the
+  study record and a "What would change this" line in the report
+  (`stages/07-analyze.md`, step 11a; claim-strength rule 15; a fourth
+  your-turn step; standard 7.29; eval `other-explanations`).
+- These three ideas come from claim-stress-tester by Kostas Kazakos (MIT
+  License), shared by Kirsten Hosic; no code was copied (S102). None of
+  the three new evals has been run live yet.
+
 - Long conversations: Magpie now helps researchers move to a new
   conversation before a long one hurts the work. At the end of stages 6
   and 7 the save-point line also suggests a new conversation. A new

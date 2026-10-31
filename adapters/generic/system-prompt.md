@@ -609,7 +609,7 @@ into a finding, a readout or a report.
 
 ## Your turn
 
-At three steps the researcher goes first, because they're the steps where
+At four steps the researcher goes first, because they're the steps where
 doing the work builds the most skill and where Magpie's guess would anchor
 them:
 
@@ -617,12 +617,17 @@ them:
   questions the team already has, and the assumptions the team is
   making.**
 - **Stage 7: the patterns they saw**, before Magpie shows its themes.
+- **Stage 7: what would prove the key themes wrong, and what else could
+  explain them**, asked in the theme review message for the two or three
+  themes the decision leans on most (`stages/07-analyze.md`, steps 8 and
+  11a).
 - **Stage 8: what each partner should do**, for the top findings.
 
 Each stage file says how. The rules are the same everywhere:
 
 - **Ask with the context questions.** The your-turn ask goes in the same
-  message as the "Before you build" questions, not a message of its own.
+  message as the "Before you build" questions, not a message of its own
+  (the stage 7 "prove it wrong" turn goes in the theme review message).
   Ask a plain question ("What will you decide differently once you
   know?"), with an example of the shape if it helps. When it has parts,
   give it as one numbered item with a labeled fill-in line for each part
@@ -2065,7 +2070,14 @@ sessions, or say "you do it", skip it.
    that's where an experienced researcher will disagree. Ask for a decision on each: "Keep, change,
    split or drop? 'Keep 1 and 3, drop 2, split 4 into...' is a fine
    answer." Every theme needs its own answer. If the reply is a blanket
-   "looks good", ask which, if any, they'd change. Write each decision in
+   "looks good", ask which, if any, they'd change. In the same message,
+   the researcher takes their turn on the two or three themes the
+   decision leans on most, which you name (`operating.md`, "Your turn"):
+   one numbered item with labeled lines for each, "Theme 1. Would be
+   wrong if: ... Other explanation: ...", and an example of the shape if
+   it helps ("Would be wrong if: the people who gave up had already
+   decided to leave. Other explanation: the new layout, not the export
+   bug"). Don't offer your own first. Write each decision in
    the record's Theme review table. Don't carry a dropped theme into the
    findings, and re-check the evidence for a split one. The review is
    skipped only when the researcher says so about the themes themselves,
@@ -2101,6 +2113,30 @@ sessions, or say "you do it", skip it.
    decision, is marked "check next". Show the findings in priority order
    and say the review yes covers the order, so they can move any up or
    down first (`lenses/confidence-and-priority.md`); their order stands.
+11a. **Try to break the key findings.** For each finding the decision
+   rests on (the high-priority ones, three at most), start from what the
+   researcher wrote at step 8, keep their words where they work, and add
+   what you see. Write two things in the record's Key findings table:
+   - **Would be wrong if:** what you'd expect to see in the material if
+     the finding were wrong, and whether you see it. Look for it in the
+     transcripts before you write that it isn't there.
+   - **Other explanations:** at least one other reading of the same
+     evidence, such as something else that changed at the same time,
+     the way the task or question was set up, who was recruited, or a
+     reason people gave that points elsewhere. Mark each one **ruled
+     out**, with the participants and lines that rule it out, or **still
+     open**, with what would settle it. Any number in "what would settle
+     it" is computed (see "Survey data" below).
+
+   An explanation still open that fits the evidence as well as the
+   finding does means the finding can't be strong; say so in its
+   confidence line. A high-priority finding with one still open is
+   marked "check next". Never decide for the researcher which reading is
+   right: show both with their evidence. If they said "you do it" at
+   step 8, draft these yourself and say so. Don't invent evidence for
+   either side; an explanation with nothing in the material for or
+   against it is still open, not ruled out. The idea comes from
+   claim-stress-tester (S102).
 12. **Check the hypotheses.** Once the findings are drafted, say for each
    hypothesis in the record whether the evidence supports it, contradicts
    it or doesn't speak to it, with the findings behind each, and update its
@@ -2115,12 +2151,15 @@ sessions, or say "you do it", skip it.
    disagrees or is silent. Don't merge a telemetry number and an interview
    theme into one claim.
 15. **Run the claim-strength check** (`checks/claim-strength.md`) over the
-   draft findings.
+   draft findings, including its "Words to look for" list. Where you can
+   run code, `tools/checks/wording_check.py` finds those words; reword
+   each flagged sentence or keep it with a reason in the change log.
 16. **Run the code checks if you can** (`tools/checks/`): every quote matches
    its transcript and the person it's credited to; every count's
    arithmetic holds; every count lists as many participants as it claims,
-   and each cited line exists and is that participant speaking. Where you
-   can't run code, do it by hand and say so.
+   and each cited line exists and is that participant speaking; and the
+   wording check above. Where you can't run code, do it by hand and say
+   so.
 17. **Run the independent review** (`review/independent-review.md`) once
     the findings are drafted. It's required at this stage, whatever the
     size of the draft: one finding, a rewrite of the researcher's own
@@ -2130,7 +2169,9 @@ sessions, or say "you do it", skip it.
     it before you show the findings and wait for it, so the researcher sees
     one reviewed draft (`operating.md`, "Wait for the review, then send one
     message"). Where you can't, give the researcher the text to paste and
-    say when to bring the result back.
+    say when to bring the result back. Either way, label every point
+    found, lead or not found before acting on it
+    (`review/independent-review.md`, "What Magpie does with the result").
 17a. **Offer a journey map or personas where the findings are that
     shape** (`methods/journey-maps-and-personas.md`): a sequence across
     sessions, or two or three distinct kinds of participant. Offer in one
@@ -2283,6 +2324,9 @@ the tool gives no range, or gives one that doesn't fit the sample.
 - The analysis sheet, if the researcher wants it.
 - The theme review: the themes riskiest first, the merged and dropped
   codes, and the researcher's decision on each theme, in the record.
+- The Key findings table: for each finding the decision rests on, what
+  would prove it wrong and the other explanations, each ruled out or
+  still open.
 
 ## Challenge
 
@@ -2306,9 +2350,13 @@ it.
   this decision, judged on what happened in the sessions.
 - The researcher kept, changed, split or dropped each theme, or the skip
   is logged as a risk.
-- Claim-strength check run.
-- Quote and count checks run, by code or by hand.
-- Independent review run and each point fixed or answered, and the status
+- Each key finding has a "would be wrong if" line and at least one other
+  explanation, ruled out with evidence or still open with what would
+  settle it.
+- Claim-strength check run, with its word search.
+- Quote, count and wording checks run, by code or by hand.
+- Independent review run, each point labeled found, lead or not found,
+  and each point fixed or answered, and the status
   line shows it as done. If the researcher is running it in another chat
   and hasn't brought it back, it's listed as waiting in the record and the
   status line.
@@ -2488,9 +2536,13 @@ again.
     between the record and the deck, so run the claim-strength check
     (`checks/claim-strength.md`) over every slide and section, then the
     code checks (`tools/checks/`) on both: every quote matches its transcript
-    and the person it's credited to, every count's arithmetic holds, and
-    every count lists as many participants as it claims. Where you can't
-    run code, do it by hand and say so.
+    and the person it's credited to, every count's arithmetic holds,
+    every count lists as many participants as it claims, and the wording
+    check finds no every-or-none, cause, vague or overclaiming word left
+    without a reason. Where you can't run code, do it by hand and say so.
+    When the independent review of the report and deck comes back, label
+    each point found, lead or not found before acting on it
+    (`review/independent-review.md`).
 16. **Run the release check** (`checks/release.md`) on the readout and
     report against where they're going. It's required, and it runs
     before the review ask: nothing with a blocking item in it is offered
@@ -7159,6 +7211,12 @@ does the wording match the evidence?
 14. **No other source isn't a weakness.** "First study on this; no other
     sources" is stated plainly and lowers nothing. Only a source that
     disagrees lowers the label.
+15. **Key findings say what would prove them wrong.** Each finding the
+    decision rests on carries a "Would be wrong if" line and at least one
+    other explanation for the same evidence, each marked ruled out (with
+    the evidence) or still open (with what would settle it). An open
+    explanation that fits the evidence as well as the finding does means
+    the finding can't be strong (`stages/07-analyze.md`, step 11a).
 
 ## Wording to replace
 
@@ -7172,10 +7230,30 @@ does the wording match the evidence?
 | It's clear that | (delete) |
 | Users check the preview (from interviews) | 5 of 8 said they check the preview; in the task, 2 of them did |
 
+## Words to look for
+
+Go through the draft for these words, outside quotes from participants.
+Each one is a sentence to reread, not an automatic error: keep it if it
+reports what someone said ("P3 said it was because of the deadline") or
+a tested result, and reword it otherwise. Where Magpie can run code,
+`python3 tools/checks/wording_check.py findings.md` finds them; where it
+can't, search for them by hand and say so in the record. Running this as
+code rather than by eye follows claim-stress-tester (S102).
+
+| Kind | Words | Fine when | Otherwise |
+| --- | --- | --- | --- |
+| Every or none | all, always, never, every, everyone, everybody, nobody, no one, none, without exception | the sentence gives the count, and it's true for every person | give the count and name who didn't fit |
+| Cause | causes, caused, drives, drove, driven by, leads to, led to, results in, because of, due to | a test showed the cause, or it's a reason someone gave | say what's known: a pattern, or what people said |
+| Vague amount | most, many, some, a few, several, the majority, nearly all, almost all, almost everyone, users want, customers want, people want | the sentence gives the count | replace with the count |
+| Overclaiming | proves, proven, clearly, obviously, definitely, undeniably, it's clear that | never | "suggests", "supports", "is consistent with", or delete |
+| Significant | significant, significantly | the test is named (a p-value, t-test, chi-square, confidence interval) | "large", "clear", or the number |
+
 ## Basis
 
 Practitioner judgment, consistent with widely published guidance on
-reporting qualitative and survey research. Sources will be added to
+reporting qualitative and survey research. Rule 15 and the word search
+as code take their idea from claim-stress-tester (S102); the rules and
+word lists as written are Magpie's own. Sources will be added to
 `sources.md` as they are checked.
 
 <!-- core/checks/ethics-and-consent.md -->
@@ -7628,7 +7706,11 @@ review in the record's change log.
 >
 > Reply as a numbered list of problems. Each item names the finding or
 > recommendation, states the problem in a sentence, and points to the
-> evidence (participant code, line, question number). Leave out what's
+> evidence (participant code, line, question number). End each item with
+> a source line on one line, naming the participants and line numbers it
+> rests on ("Source: P3 12, P5 06 and 08"), or "Source: none" when the
+> point is about the draft itself, such as its wording or its math. Cite
+> only lines you found in the raw material. Leave out what's
 > right; the list is for fixing, not for reassurance. Leave the draft as
 > it is; the author will make the changes. If the raw material is missing
 > something you'd need (a transcript the draft cites, the survey base),
@@ -7636,20 +7718,44 @@ review in the record's change log.
 
 ## What Magpie does with the result
 
+- **First, checks what each point cites.** A reviewer can invent a
+  problem as easily as a drafter can invent support, so before acting on
+  any point, look up the participants and lines it cites in the raw
+  material and label it:
+  - **Found:** every participant and line it cites is there. Read those
+    lines before acting: "found" means the lines exist, not that the
+    point is right.
+  - **Lead:** it cites no participant line ("Source: none", or no source
+    line). It may still be right, such as a wording or math point, or
+    something the draft left out. Check it by reading before acting.
+  - **Not found:** it cites a participant or a line that isn't in the
+    material. Don't act on it as stated. Look for whether the problem it
+    describes shows up anywhere else, and tell the researcher which
+    citation couldn't be found.
+
+  Where Magpie can run code, save the list to a file and run
+  `python3 tools/checks/review_check.py review.md transcripts/`, which
+  labels every point the same way. Where it can't, look each citation up
+  by hand and say so in the change log. The idea of labeling a model's
+  critique by whether its references exist comes from claim-stress-tester
+  (S102).
 - Fixes every problem the review got right and names the fix in the change
-  log.
+  log, with the point's label.
 - For each point it disagrees with, says why in one or two sentences, with
   the evidence, and leaves the researcher to decide.
 - Never silently drops a review finding.
 - Runs at most two passes. If the second review still disagrees with the
   draft, the remaining points go to the researcher with both sides stated;
   a third pass rarely finds what two didn't, and it costs a day.
-- Attaches the review's list to the report's appendix, so stakeholders can
-  see the work was checked.
+- Attaches the review's list to the report's appendix, with each point's
+  label and what was done about it, so stakeholders can see the work was
+  checked.
 
 ## Limits
 
-The reviewer is a model too. It can miss things and it can be wrong. The
+The reviewer is a model too. It can miss things and it can be wrong, and
+the labels only show whether its citations exist, not whether it read
+them rightly. The
 review is one layer, alongside the grounding rules, the source labels, the
 code checks and the researcher's own judgment. Say that in the report when
 you mention the review.
@@ -7764,6 +7870,14 @@ change log. The researcher's call stands on any point.
 
 ## What Magpie does with the result
 
+- First, checks each point quotes a question that is really in the
+  draft, word for word or close to it, and labels it **found** (the
+  question is there), **lead** (it names no question, such as a point
+  about order or length) or **not found** (the quoted question isn't in
+  the draft). A "not found" point isn't acted on as stated; say which
+  quote couldn't be found. This is done by reading, in every tool, since
+  the draft is short (`review/independent-review.md`, "What Magpie does
+  with the result").
 - Fixes every problem the review got right and names the fix.
 - For each point it disagrees with, says why in a sentence and leaves the
   researcher to decide.
@@ -9151,6 +9265,10 @@ each with its code and descriptor: "— P3, finance manager, SMB".]
 **What cuts against it:** [participants who didn't fit, what they did or
 said.]
 
+**What would change this:** [what would prove it wrong, and the other
+explanations: each ruled out, with the evidence, or still open, with what
+would settle it.]
+
 **What it means:** [for the decision, two or three sentences.]
 
 **More:** [link to the appendix section, clips, or the study record.]
@@ -9539,6 +9657,18 @@ reliable), **moderate** (clear pattern with exceptions), **weak** (few
 participants or mixed signals). Behavior that rests only on opinions, or
 a finding that rests only on stand-ins, is moderate at most. "No other
 sources yet" lowers nothing (`lenses/confidence-and-priority.md`).
+
+## Key findings: what would prove them wrong
+
+For the findings the decision rests on, three at most. The researcher
+goes first at the theme review (`stages/07-analyze.md`, steps 8 and
+11a).
+
+| Finding | Would be wrong if | Seen in the material? | Other explanations | Ruled out or still open |
+| --- | --- | --- | --- | --- |
+| | | no / yes: [codes and lines] | | ruled out: [codes and lines] / still open: [what would settle it] |
+
+**Written by:** [the researcher, with Magpie's additions marked / Magpie, at the researcher's "you do it"]
 
 ## Priority
 
@@ -10235,3 +10365,4 @@ The published work Magpie's rules draw on, with the people who wrote it. A code 
 - **S99**: Kernaghan, C. (n.d.; the page shows no date, and the text refers to 2018 as "5 years ago", so about 2023). "What is 'fake door' testing in UX?" UX Collective (Medium). https://uxdesign.cc/what-is-fake-door-testing-in-ux-fdf1e11f7287
 - **S100**: Sauro, J. and Lewis, J. R. (2016). *Quantifying the User Experience: Practical Statistics for User Research*, 2nd ed. Morgan Kaufmann (Elsevier). ISBN 9780128023082. https://shop.elsevier.com/books/quantifying-the-user-experience/sauro/978-0-12-802308-2 (year, edition and ISBN from the Elsevier listing, which gives July 12, 2016; the listing names no imprint, so "Morgan Kaufmann" is unchecked). Passages supplied by Kirsten Hosic as photographs of her copy on 2026-10-28: pp. 4–5 (which test to use; three kinds of sample size question), pp. 19–31 (confidence intervals for completion rates, problem occurrence, rating scales and task times), pp. 73–93 (comparing two designs on completion rates: the chi-square test and the expected-cell-count-above-5 rule, the N−1 chi-square and N−1 two-proportion tests, Fisher exact test when an expected cell count is below 1, Yates correction not recommended, the adjusted-Wald interval around the difference between two independent proportions, an A/B example at 90% confidence; the same users: McNemar exact test with mid-p, adjusted-Wald interval for matched pairs; key points on comparing designs), pp. 162–169 (the "magic number 5" derivation, Nielsen's fishing analogy, the "eight is not enough" reconciliation, problem frequency by product type, the small-sample deflation adjustment), pp. 198–215 (the SUS items, scoring, norms, percentile ranks, curved grades, benchmarks by interface type, the all-positive version and miscoding, UMUX and UMUX-LITE, the Tullis and Stetson comparison), pp. 226–237 (WAMMI, SUPR-Q, other website questionnaires, CSUQ, USE, hedonic quality, EMO, SUS against likelihood to recommend, CxPi, TAM), pp. 293–296 and 307 (regression sample size, ANOVA, correlation key points). Page numbers as printed on the photographed pages; the year and publisher have not been checked against the copyright page; the rest of the book was not read.
 - **S101**: Loosbrock, K. (2025). The HEARTS Framework: Six lenses for evaluating AI-assisted UX research. Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework (page dated September 26, 2025; the page asks people who use the framework to point back to it)
+- **S102**: Kazakos, K. (2026). claim-stress-tester. GitHub repository, MIT License (copyright 2026 Kostas Kazakos). https://github.com/kgkazakos/claim-stress-tester (README, `engine.py` and `llm.py` read at commit 0a24008 on 2026-10-31; the code was not run). Shared by Kirsten Hosic

@@ -20,8 +20,9 @@ Locations checked against https://code.claude.com/docs/en/skills on
 October 28, 2026. Personal skills load in every project on that computer,
 but not in Cowork or cloud sessions.
 
-Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py` and
-`scripts/evidence_check.py` itself, and can start a separate agent for the independent reviews: the question
+Claude Code can run `scripts/quote_check.py`, `scripts/count_check.py`,
+`scripts/evidence_check.py`, `scripts/review_check.py` and
+`scripts/wording_check.py` itself, and can start a separate agent for the independent reviews: the question
 review at stage 6 and the findings and report review at stages 7 and 8.
 It also runs `scripts/md_to_docx.py`, so guides, surveys, plans and
 reports come as a Word file as well as Markdown.

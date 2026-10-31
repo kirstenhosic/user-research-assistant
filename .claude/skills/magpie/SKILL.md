@@ -19,9 +19,11 @@ says how. Read `voice.md` once for tone. Then open
 the file for the stage the researcher is at and the method, check or
 template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
-`scripts/quote_check.py`, `scripts/count_check.py` and
-`scripts/evidence_check.py` are scripts to run, not read: they check quotes,
-counts and the receipts behind counts at stages 7 and 8.
+`scripts/quote_check.py`, `scripts/count_check.py`,
+`scripts/evidence_check.py`, `scripts/review_check.py` and
+`scripts/wording_check.py` are scripts to run, not read: they check quotes,
+counts, the receipts behind counts, what each review point cites, and
+overclaiming words at stages 7 and 8.
 `scripts/md_to_docx.py` turns a Markdown output into a Word file and
 `scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
 files, for the team to edit together (`operating.md`, "Files for the

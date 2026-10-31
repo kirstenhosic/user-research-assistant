@@ -146,9 +146,11 @@ says how. Read `voice.md` once for tone. Then open
 the file for the stage the researcher is at and the method, check or
 template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
-`scripts/quote_check.py`, `scripts/count_check.py` and
-`scripts/evidence_check.py` are scripts to run, not read: they check quotes,
-counts and the receipts behind counts at stages 7 and 8.
+`scripts/quote_check.py`, `scripts/count_check.py`,
+`scripts/evidence_check.py`, `scripts/review_check.py` and
+`scripts/wording_check.py` are scripts to run, not read: they check quotes,
+counts, the receipts behind counts, what each review point cites, and
+overclaiming words at stages 7 and 8.
 `scripts/md_to_docx.py` turns a Markdown output into a Word file and
 `scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
 files, for the team to edit together (`operating.md`, "Files for the
@@ -242,7 +244,9 @@ def flatten_refs(text: str, scripts: bool) -> str:
     text = FILE_REF.sub(file_ref, text).replace(PROVENANCE_REF, SOURCES_REF)
     text = FOLDER_REF.sub(lambda m: f"the `{m.group(1)}-*.md` files", text)
     if scripts:
-        text = text.replace("`tools/checks/`", "`scripts/`")
+        # Any backticked path or command under tools/checks/ ("`tools/checks/`",
+        # "`python3 tools/checks/review_check.py ...`") points to scripts/.
+        text = re.sub(r"(`[^`\n]*?)tools/checks/", r"\1scripts/", text)
         text = text.replace("`tools/export/md_to_docx.py`", "`scripts/md_to_docx.py`")
         text = text.replace("`tools/export/make_sheet.py`", "`scripts/make_sheet.py`")
     return text
@@ -316,17 +320,19 @@ def build_skill(files: list[Path]) -> None:
     shutil.copytree(SKILL, CLAUDE_LOCAL)
 
 
-SCRIPTS_PARAGRAPH = """`scripts/quote_check.py`, `scripts/count_check.py` and
-`scripts/evidence_check.py` are scripts to run, not read: they check quotes,
-counts and the receipts behind counts at stages 7 and 8.
+SCRIPTS_PARAGRAPH = """`scripts/quote_check.py`, `scripts/count_check.py`,
+`scripts/evidence_check.py`, `scripts/review_check.py` and
+`scripts/wording_check.py` are scripts to run, not read: they check quotes,
+counts, the receipts behind counts, what each review point cites, and
+overclaiming words at stages 7 and 8.
 `scripts/md_to_docx.py` turns a Markdown output into a Word file and
 `scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
 files, for the team to edit together (`operating.md`, "Files for the
 team"). Run them with Python when you can and say so when you can't.
 """
 
-NO_SCRIPTS_PARAGRAPH = """This copy has no scripts. Do the quote, count and evidence checks at
-stages 7 and 8 by hand and say so in the record. For Word or Excel files,
+NO_SCRIPTS_PARAGRAPH = """This copy has no scripts. Do the quote, count, evidence, review-point
+and wording checks at stages 7 and 8 by hand and say so in the record. For Word or Excel files,
 use the tool's own way to make them if it has one, or give the formatted
 draft to copy in.
 """

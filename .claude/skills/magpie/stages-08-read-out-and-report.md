@@ -160,9 +160,13 @@ again.
     between the record and the deck, so run the claim-strength check
     (`checks-claim-strength.md`) over every slide and section, then the
     code checks (`scripts/`) on both: every quote matches its transcript
-    and the person it's credited to, every count's arithmetic holds, and
-    every count lists as many participants as it claims. Where you can't
-    run code, do it by hand and say so.
+    and the person it's credited to, every count's arithmetic holds,
+    every count lists as many participants as it claims, and the wording
+    check finds no every-or-none, cause, vague or overclaiming word left
+    without a reason. Where you can't run code, do it by hand and say so.
+    When the independent review of the report and deck comes back, label
+    each point found, lead or not found before acting on it
+    (`review-independent-review.md`).
 16. **Run the release check** (`checks-release.md`) on the readout and
     report against where they're going. It's required, and it runs
     before the review ask: nothing with a blocking item in it is offered
