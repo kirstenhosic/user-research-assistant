@@ -121,7 +121,7 @@ your privacy or security team before you start.
 ### Download Magpie
 
 Download
-**[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**.
+**[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)**.
 It holds everything Magpie needs. Gemini and Copilot use their own
 versions, linked in their steps below.
 
@@ -189,7 +189,7 @@ on.
 1. Go to gemini.google.com. In the sidebar, open **Customize** (it may be
    under **More**), then **Skills**.
 2. Choose **Create** > **Upload** and pick
-   **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie-gemini.zip)**,
+   **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)**,
    not `magpie.zip`. Gemini won't load a skill that contains code, and
    this copy leaves the code checks out. Magpie does those checks by hand
    instead.
@@ -206,7 +206,7 @@ account you need Microsoft 365 Premium or Pro, in the US or Canada.
 Personal, Family and the free Copilot app don't have Cowork.
 
 1. Download
-   **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie-copilot.zip)**,
+   **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)**,
    not `magpie.zip`. It has its files combined to fit Copilot's file limit.
 2. In Cowork, open **Customize** > **Skills**, choose the arrow next to
    **Add**, then **Upload skill**, and pick `magpie-copilot.zip`.
@@ -237,7 +237,7 @@ time, remove the old copy before you add the new one.
    chat, say "show the record" and paste it into a document). Then you
    can carry on with the new version.
 3. **Download the new version:**
-   **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**,
+   **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)**,
    or `magpie-gemini.zip` or `magpie-copilot.zip` if you use Gemini or
    Copilot. Delete the old zip from your Downloads folder first. If you
    don't, your browser may save the new one as `magpie (1).zip`, and

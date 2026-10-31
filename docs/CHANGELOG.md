@@ -8,6 +8,10 @@
 - Download counts: `docs/CONTRIBUTING.md` now has steps for publishing
   the three zips as a GitHub release, which is the only way GitHub counts
   downloads. Nothing in Magpie tracks anyone.
+- Download links: the README now links to the zips on the newest GitHub
+  release, so downloads are counted. A new workflow,
+  `.github/workflows/release.yml`, publishes a release whenever the zips
+  change on main, so those links always give the newest Magpie.
 - Checking the checker: before acting on any point from the independent
   review, Magpie now labels it found (every participant and line it cites
   is in the material), lead (it cites nothing to look up, so it's checked
