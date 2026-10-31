@@ -2,6 +2,12 @@
 
 ## 2026-10-31
 
+- Citing Magpie: a new `CITATION.cff` file makes GitHub show a "Cite this
+  repository" link with APA and BibTeX citations. The README's credit
+  section points to it.
+- Download counts: `docs/CONTRIBUTING.md` now has steps for publishing
+  the three zips as a GitHub release, which is the only way GitHub counts
+  downloads. Nothing in Magpie tracks anyone.
 - Checking the checker: before acting on any point from the independent
   review, Magpie now labels it found (every participant and line it cites
   is in the material), lead (it cites nothing to look up, so it's checked

@@ -97,6 +97,36 @@ runs. Any mention of HEARTS gives the full citation: Loosbrock, K.
 (2025). The HEARTS Framework: Six lenses for evaluating AI-assisted UX
 research. Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework
 
+## Publishing a release
+
+GitHub counts downloads only for files attached to a release, not for
+files stored in the repository. To publish one after a change is merged:
+
+1. On the repository's main page, click **Releases**, then **Draft a new
+   release**.
+2. Under **Choose a tag**, type the Magpie version, the newest date in
+   `docs/CHANGELOG.md`, for example `v2026-10-31`, and click **Create new
+   tag**. Pick `main` as the target.
+3. Use the version as the title, and paste that version's changelog entry
+   as the notes.
+4. Drag `magpie.zip`, `magpie-gemini.zip` and `magpie-copilot.zip` from
+   the latest `main` into the binaries box.
+5. Click **Publish release**.
+
+Download counts appear in the `download_count` field of the
+[release assets API](https://docs.github.com/en/rest/releases/assets),
+not on the release page. To have the README's download links counted,
+point them at
+`https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip`
+(and the same for the other two zips) once the first release exists.
+Each link then always gets the newest release's file.
+
+## Citing Magpie
+
+`CITATION.cff` at the top of the repository makes GitHub show a **Cite
+this repository** link in the sidebar, with APA and BibTeX versions.
+Keep it in step with the credit line in `tools/build.py`.
+
 ## Making a change
 
 1. Edit the files in `core/`.
