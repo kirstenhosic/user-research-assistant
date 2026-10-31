@@ -100,6 +100,7 @@ You'll know the answers, so you can see how well Magpie does.
 | A study moves in stages, over many messages. | Take it one stage at a time. Each one is quicker than doing it alone. |
 | It reads whatever you give it. | Share the brief, notes or past research at the start, and it asks less. |
 | A new conversation starts fresh. | Keep the study record and give it to Magpie next time. |
+| AI tools can hold only so much of one conversation. Very long ones start to lose the early parts. | Start a new conversation before analysis and before the report, and bring your study record. Say "fresh start" and Magpie gets it ready. |
 | Your "yes" is what marks a draft reviewed. | Read the "read hardest" items first: where the decision leans most and the evidence is thinnest. |
 | At three points you go first: framing the problem, the patterns you saw, and what each team should do. | Use your own words. That thinking makes the work yours, and the draft better. |
 | It reworks a method, question order or theme when you give a reason. | If you'd do it differently, say so and say why. |
@@ -409,6 +410,7 @@ You can always say what you want in your own words. These are shortcuts.
 | standard | Goes back to one question per stage |
 | just the work | Drops the personality for the session |
 | show the record | Shows the full study record |
+| fresh start | Gets your study record ready to take to a new conversation (unlike "start over", it keeps your study) |
 | make the sheet | Builds the analysis spreadsheet (Excel) |
 | review this | Runs an independent review of your guide, survey, findings or report |
 | back to stage 4 | Returns to that stage and says what depends on it |
@@ -422,6 +424,31 @@ saves the record to a file for you. In a chat, say "show the record" and
 paste it into a document; Magpie reminds you at the end of each stage.
 Next time, give it back to Magpie, in any AI tool, and it carries on
 without asking what you've already answered.
+
+### When to start a new conversation
+
+Every AI tool can hold only so much of one conversation. When a
+conversation gets very long, the tool starts to lose or shorten the
+earlier parts, and the work gets less careful, often before you'd notice.
+Magpie can't see how full the conversation is, so it suggests a new one
+at natural break points: before analysis and before the report. It also
+offers one if a lot of material arrives at once.
+
+Starting a new conversation is a good idea if you notice any of these:
+
+- The status line at the end of each reply has stopped appearing.
+- Magpie asks again about something you already settled.
+- It forgets a decision, a participant or your house style.
+- A quote doesn't match the transcript, or participants get mixed up.
+- Its answers get vaguer than they were earlier.
+
+To move: say **"fresh start"**. Magpie updates the study record and gives
+you a line to paste. Start a new conversation, start Magpie, and paste
+the record and that line. Nothing is lost, and Magpie won't ask again
+what you've already answered.
+
+Some tools show how much of the conversation they can still hold. Ask
+yours: *"Does this tool show how full this conversation is?"*
 
 **Optional: a team profile and an intake form.** Fill in the
 [team profile](core/team/team-profile.md) once with your products, users,
@@ -471,6 +498,10 @@ with the tool you used, the step, and what you saw.
 - **The status line stopped appearing.** The session may have dropped in a
   long conversation. Say "Magpie, pick up where we were", or paste your
   study record. A new conversation always needs Magpie started again.
+- **Magpie forgets things or asks again about what you settled.** The
+  conversation has probably grown too long for the tool to hold all of
+  it. Say "fresh start" and move to a new conversation (see "When to
+  start a new conversation").
 - **Magpie seems to follow old rules after an update.** You may have two
   copies. Ask your tool to list its skills, remove every copy of Magpie,
   install the new one again, and start a new conversation.

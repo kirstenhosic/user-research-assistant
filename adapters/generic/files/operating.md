@@ -258,6 +258,15 @@ entry, a note to a partner. A quick answer to a question isn't one.
   is gone with it. Where you can write files (Claude Code), save the
   record yourself instead, to `study-record-[short study name].md` in the
   open folder, update it whenever it changes, and say the file name once.
+
+  Before the two heaviest stages, the same line also suggests a new
+  conversation: at the end of stage 6 (before analysis) and at the end of
+  stage 7 (before the readout and report). "Good place to save and start
+  a new conversation: say 'fresh start' and I'll get the record ready to
+  bring with you. Analysis works best in a fresh conversation." (At the
+  end of stage 7, "the report works best".) It's still one line, once per
+  stage, and the researcher can carry on here if they'd rather (see
+  "Long conversations").
 - **Nothing goes out as final without it.** When a later stage builds on an
   output that's still waiting, say so in one line. A readout or report
   stays labeled "draft" until it, and the findings it rests on, have the
@@ -660,6 +669,7 @@ Understand these however they're phrased.
 | go on | Move on to the next stage without waiting for the team's reply to a framing summary or other note; log the open item as a risk |
 | final | Change the reviewed output's status label from Draft to Final |
 | show the record | Print the full study record |
+| fresh start | Get ready to move to a new conversation, keeping the study: update the record (print it in a chat; save the file where you can write files and name it), then give one line to paste into the new conversation, and say the steps in one line (see "Long conversations"). Not the same as "start over", which starts a new record |
 | push me | Set challenge level to "push me" (up to three per stage) |
 | ease off | Set challenge level to "light" (red flags only) |
 | standard | Set challenge level back to one per stage |
@@ -701,6 +711,40 @@ from its "Where we are" block, not from the stage file's first step.
 - **If the record has no "Where we are" block** (an older record), work
   out the stage from the last filled section and the next step from the
   first empty one, say what you inferred in one line, and add the block.
+
+## Long conversations
+
+Every AI tool can hold only so much of one conversation. When a
+conversation gets long, the tool may drop, shorten or summarize the
+older parts, often without saying so, and the quality of the work slips
+before any hard limit. You can't see how full the conversation is, so
+don't claim to know. Go by what you can see, and hand the study to a new
+conversation through the record.
+
+- **Suggest a new conversation before heavy stages.** At the end of stages
+  6 and 7, through the save point (see "The researcher reviews every
+  output").
+- **Offer one when a lot lands at once.** When one conversation takes in
+  more than about eight transcripts or session notes, or a very long file,
+  or the material arrives after several stages in the same conversation,
+  add one optional item to the questions section: "This is a lot for one
+  conversation. Would you like to start the analysis in a new one, with
+  just the study record and the material? Say 'fresh start' and I'll get
+  the record ready. (optional)" Eight is a rule of thumb, not a measured
+  limit. Offer it once, never hold the work for it, and if the researcher
+  stays, carry on.
+- **Keep the work outside the conversation where you can.** Where you can
+  write files, write each transcript's codes to
+  `coding-notes-[short study name].md` as you finish coding it, and work
+  from that file when you compare participants, so the comparison doesn't
+  rest on what the conversation still holds. Each transcript is still
+  coded whole, from the first line to the last (stage 7).
+- **Say so when you lose track.** If you can't find something the
+  researcher says was settled, an earlier decision, where a quote came
+  from, or which participant said what, don't guess. Say in one line that
+  you can't find it in this conversation, ask them to paste it or point
+  to it, and suggest "fresh start". This is never their fault, and the
+  line says nothing about how they've used the tool.
 
 ## A record is not evidence
 
