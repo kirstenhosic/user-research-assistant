@@ -553,6 +553,10 @@ substantial parts of it, keep the copyright notice and the license text.
 Every Magpie file carries a credit line to make that easy; if you share or
 adapt part of Magpie, please keep it.
 
+To cite Magpie in a paper, talk or other project, use **Cite this
+repository** in the sidebar of the GitHub page. It gives the citation in
+APA and BibTeX.
+
 The license covers the Magpie files only. It doesn't give permission to
 use any particular AI tool at work, or to share any data with one; see
 [Using Magpie at work](#using-magpie-at-work).

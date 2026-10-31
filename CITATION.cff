@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use Magpie or adapt part of it, please cite it using the metadata from this file."
+title: "Magpie"
+type: software
+authors:
+  - given-names: Kirsten
+    family-names: Hosic
+abstract: "An open-source UX research companion that runs inside AI assistants, from the first question to the final report."
+repository-code: "https://github.com/kirstenhosic/user-research-assistant"
+url: "https://github.com/kirstenhosic/user-research-assistant"
+license: MIT
+keywords:
+  - user research
+  - UX research
+  - research synthesis
+  - usability testing
