@@ -1,0 +1,46 @@
+# Publishes the three Magpie zips as a GitHub release whenever they change
+# on main, so the README's "latest release" download links always give the
+# newest files and GitHub counts the downloads. It sends nothing anywhere
+# and adds no tracking to Magpie.
+#
+# The tag is the Magpie version (the newest date in docs/CHANGELOG.md),
+# for example v2026-10-31. If that tag already exists because Magpie
+# changed more than once that day, the next one is v2026-10-31.2, then .3.
+# Each release keeps its own download counts.
+name: release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - magpie.zip
+      - magpie-gemini.zip
+      - magpie-copilot.zip
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish the zips as a release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          version=$(grep -m1 -E '^## [0-9]{4}-[0-9]{2}-[0-9]{2}$' docs/CHANGELOG.md | cut -c4-)
+          tag="v$version"
+          title="Magpie $version"
+          n=1
+          while gh release view "$tag" >/dev/null 2>&1; do
+            n=$((n + 1))
+            tag="v$version.$n"
+            title="Magpie $version (update $n)"
+          done
+          # Notes: that version's changelog entry.
+          awk -v v="## $version" '$0 == v {on=1; next} /^## / && on {exit} on' docs/CHANGELOG.md > notes.md
+          gh release create "$tag" magpie.zip magpie-gemini.zip magpie-copilot.zip \
+            --title "$title" --notes-file notes.md --target "$GITHUB_SHA" --latest

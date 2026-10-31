@@ -100,26 +100,39 @@ research. Hey Kaleb & Co. https://www.heykaleb.com/hearts-framework
 ## Publishing a release
 
 GitHub counts downloads only for files attached to a release, not for
-files stored in the repository. To publish one after a change is merged:
+files stored in the repository. So the README's download links point at
+`https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip`
+(and the same for the other two zips), which always gives the newest
+release's file.
+
+`.github/workflows/release.yml` publishes a release by itself whenever
+`magpie.zip`, `magpie-gemini.zip` or `magpie-copilot.zip` changes on
+`main`. The tag is the Magpie version, the newest date in
+`docs/CHANGELOG.md`, for example `v2026-10-31`. A second change on the
+same day gets `v2026-10-31.2`, and so on. The notes are that version's
+changelog entry. To run it without a change, open **Actions**, pick
+**release** and click **Run workflow**.
+
+To publish one by hand instead:
 
 1. On the repository's main page, click **Releases**, then **Draft a new
    release**.
-2. Under **Choose a tag**, type the Magpie version, the newest date in
-   `docs/CHANGELOG.md`, for example `v2026-10-31`, and click **Create new
-   tag**. Pick `main` as the target.
-3. Use the version as the title, and paste that version's changelog entry
-   as the notes.
-4. Drag `magpie.zip`, `magpie-gemini.zip` and `magpie-copilot.zip` from
-   the latest `main` into the binaries box.
-5. Click **Publish release**.
+2. Under **Choose a tag**, type the version, for example `v2026-10-31`,
+   and click **Create new tag**. Pick `main` as the target.
+3. Use "Magpie" and the version as the title, and paste that version's
+   changelog entry as the notes.
+4. Drag the three zips from the latest `main` into the box below the
+   notes that says "Attach binaries by dropping them here or selecting
+   them". Don't drop them in the notes box: that only adds links to the
+   text, and those downloads aren't counted. Keep the file names as they
+   are; the README links use them.
+5. Click **Publish release**. The zips should now be listed under
+   **Assets** on the release page.
 
 Download counts appear in the `download_count` field of the
 [release assets API](https://docs.github.com/en/rest/releases/assets),
-not on the release page. To have the README's download links counted,
-point them at
-`https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip`
-(and the same for the other two zips) once the first release exists.
-Each link then always gets the newest release's file.
+not on the release page. Each release keeps its own counts, so add them
+up across releases for a total.
 
 ## Citing Magpie
 
