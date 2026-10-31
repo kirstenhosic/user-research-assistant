@@ -2,6 +2,10 @@
 
 ## 2026-10-31
 
+- Eval notes: added the re-run of the Gaming Horizons test after the
+  analysis changes (`evals/runs/2026-10-31-gaming-horizons-fair.md`).
+  Pieces present rose from about 68% to about 72%; points fully found
+  stayed about the same.
 - Analysis: five changes from a fair re-score of the Gaming Horizons
   player interviews. The re-score used only what's in the 13 public
   transcripts; points that rested on interviews not in the public data
