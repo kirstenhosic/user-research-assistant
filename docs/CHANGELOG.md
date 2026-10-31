@@ -2,6 +2,17 @@
 
 ## 2026-10-31
 
+- Magpie now carries a version: the date of the newest changelog entry,
+  stamped by `tools/build.py` into the credit line of `SKILL.md` and the
+  prompts and the footer of every file. Ask Magpie "Which version of
+  Magpie is this?" to see it. If it finds two version dates among its
+  files, it says you may have two copies installed (`operating.md`,
+  "Which version this is").
+- README: "Keep Magpie up to date" now says to keep only one copy, save
+  the study record first, delete the old zip, remove the old copy before
+  adding the new one (with steps for agent tools, chats with skills and
+  Claude.ai projects), and start a new conversation. New troubleshooting
+  line for old rules after an update.
 - README: new "So how do I use this?" section near the top. It explains
   the two kinds of AI tool Magpie runs in (a chat and an agent tool),
   gives seven steps for a first study, suggests asking your own tool how

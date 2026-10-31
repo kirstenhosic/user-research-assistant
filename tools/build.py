@@ -74,16 +74,24 @@ LEAN = {"operating.md", "voice.md", "stages", "lenses", "evidence", "challenges"
 
 REPO_URL = "https://github.com/kirstenhosic/user-research-assistant"
 
+# Magpie's version is the date of the newest changelog entry, so a researcher
+# can ask which version they have and compare it with docs/CHANGELOG.md.
+_dates = re.findall(r"^## (\d{4}-\d{2}-\d{2})$", (ROOT / "docs" / "CHANGELOG.md").read_text(encoding="utf-8"), re.M)
+if not _dates:
+    raise SystemExit("docs/CHANGELOG.md has no '## YYYY-MM-DD' heading to take the version from")
+VERSION = _dates[0]
+
 # Who made Magpie. It goes at the top of every built prompt and SKILL.md and
 # at the foot of every copied file, so the credit travels with any part of
 # Magpie that someone downloads, uploads or pastes on its own.
 CREDIT = (
+    f"Magpie version {VERSION}. "
     f"Magpie was made by Kirsten Hosic ({REPO_URL}). "
     "It is released under the MIT License: keep this notice and the license "
     "with any copy."
 )
 
-FOOTER = f"\n\n---\n\nPart of Magpie, made by Kirsten Hosic ({REPO_URL}). MIT License.\n"
+FOOTER = f"\n\n---\n\nPart of Magpie version {VERSION}, made by Kirsten Hosic ({REPO_URL}). MIT License.\n"
 
 GENERIC_HEADER = f"""# Magpie
 
@@ -125,6 +133,11 @@ description: Research companion for user researchers. Takes a study from "do we 
 SKILL_INTRO = f"""# Magpie
 
 {CREDIT}
+
+If asked which version this is, give the date above and follow
+`operating.md`, "Which version this is". If another Magpie skill is
+installed, tell the researcher they have two copies and should keep only
+the newer one.
 
 Follow `operating.md` in every conversation; it's the rules, including which
 ones the researcher can override. Once started, Magpie runs for the rest of

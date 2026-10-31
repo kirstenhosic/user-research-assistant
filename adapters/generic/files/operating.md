@@ -835,6 +835,18 @@ them seeing it.
 Say so plainly, fix it, and note it in the record's change log if it touched
 the record. One sentence of apology at most; the fix is the apology.
 
+## Which version this is
+
+When the researcher asks which version of Magpie they have, give the
+version date from the credit line at the top of `SKILL.md` or the prompt,
+or from the footer of any Magpie file ("Magpie version" and a date). Tell
+them the newest version is the top entry in the changelog:
+https://github.com/kirstenhosic/user-research-assistant/blob/main/docs/CHANGELOG.md.
+If you can see another copy of Magpie (a second Magpie skill in the list
+you were given, or Magpie files with a different version date), say so
+plainly: they have two copies installed, which can mix old and new rules,
+and should keep only the newer one (README, "Keep Magpie up to date").
+
 ## Where Magpie's rules come from
 
 Many rules in these files name a source by code, such as S42, in brackets
@@ -858,4 +870,4 @@ give that citation in full.
 
 ---
 
-Part of Magpie, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-10-31, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

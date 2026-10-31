@@ -223,20 +223,45 @@ as the instructions and add the other `.md` files.
 ### Keep Magpie up to date
 
 Magpie gets better often. Check for a new version every week or two.
+Updating takes a few minutes.
 
-1. See what's new in the [changelog](docs/CHANGELOG.md). The newest
-   changes are at the top, with the date.
-2. If anything has changed since you set Magpie up, download
-   **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**
-   again, or `magpie-gemini.zip` or `magpie-copilot.zip` if you use
-   Gemini or Copilot.
-3. Replace your old copy the same way you installed it: in an agent
-   tool, ask it to replace the old `magpie` skill folder with the new
-   one; in a chat, upload the new zip in place of the old skill, or swap
-   in the new `.md` files and `operating.md` in your project.
+**Keep only one copy.** If your AI tool has two copies of Magpie, it may
+use the old one, or mix rules from both, without telling you. So each
+time, remove the old copy before you add the new one.
 
-In the middle of a study? Start a new conversation with the new version
-and give Magpie your study record, and it picks up from there.
+1. **See what's new.** Open the [changelog](docs/CHANGELOG.md). The
+   newest changes are at the top, with the date. To see which version
+   you have, ask Magpie: *"Which version of Magpie is this?"*
+2. **Save your study record** if you're in the middle of a study (in a
+   chat, say "show the record" and paste it into a document). Then you
+   can carry on with the new version.
+3. **Download the new version:**
+   **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/raw/main/magpie.zip)**,
+   or `magpie-gemini.zip` or `magpie-copilot.zip` if you use Gemini or
+   Copilot. Delete the old zip from your Downloads folder first. If you
+   don't, your browser may save the new one as `magpie (1).zip`, and
+   it's easy to upload the old one by mistake.
+4. **Remove the old copy, then add the new one.** How you do this
+   depends on your tool:
+   - **Agent tool** (Claude Code, Codex, Gemini CLI, OpenCode): ask it,
+     for example: *"Remove my old Magpie skill and install the new one
+     from ~/Downloads/magpie.zip. Then check there's only one copy of
+     Magpie left."* If you also put Magpie in a shared project folder,
+     update that copy too.
+   - **Chat with skills** (ChatGPT, Gemini, Copilot): delete the old
+     Magpie skill, then upload the new zip. Check that only one Magpie
+     is listed.
+   - **Claude.ai project:** remove all the old Magpie files from the
+     project's knowledge, add the new `.md` files, and replace the
+     project instructions with the new `operating.md`. Or make a new
+     project for the new version, and keep the old one only until you've
+     finished the studies in it.
+5. **Start a new conversation.** A conversation that's already open
+   keeps using the version it started with. If you were mid-study, give
+   Magpie your study record and it picks up from there.
+
+Not sure how to do a step? Ask your tool, for example: *"How do I delete
+a skill here?"*
 
 ## What a session looks like
 
@@ -446,6 +471,9 @@ with the tool you used, the step, and what you saw.
 - **The status line stopped appearing.** The session may have dropped in a
   long conversation. Say "Magpie, pick up where we were", or paste your
   study record. A new conversation always needs Magpie started again.
+- **Magpie seems to follow old rules after an update.** You may have two
+  copies. Ask your tool to list its skills, remove every copy of Magpie,
+  install the new one again, and start a new conversation.
 - **The quote or count check didn't run.** Not every AI tool can run
   small programs. When it can't, Magpie checks by reading and tells you so.
 
