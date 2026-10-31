@@ -105,13 +105,16 @@ files stored in the repository. So the README's download links point at
 (and the same for the other two zips), which always gives the newest
 release's file.
 
-`.github/workflows/release.yml` publishes a release by itself whenever
-`magpie.zip`, `magpie-gemini.zip` or `magpie-copilot.zip` changes on
-`main`. The tag is the Magpie version, the newest date in
-`docs/CHANGELOG.md`, for example `v2026-10-31`. A second change on the
-same day gets `v2026-10-31.2`, and so on. The notes are that version's
-changelog entry. To run it without a change, open **Actions**, pick
-**release** and click **Run workflow**.
+`.github/workflows/release.yml` runs once a day, at 06:00 UTC. If
+`magpie.zip`, `magpie-gemini.zip` or `magpie-copilot.zip` on `main`
+differs from the latest release, it publishes a new release with all
+three; if not, it does nothing. So a change reaches the download links by
+the next morning (UTC), and a day of several changes makes one release.
+The tag is the Magpie version, the newest date in `docs/CHANGELOG.md`,
+for example `v2026-10-31`. If that tag is taken, it uses
+`v2026-10-31.2`, and so on. The notes are that version's changelog entry.
+To publish straight away, open **Actions**, pick **release** and click
+**Run workflow**.
 
 To publish one by hand instead:
 
