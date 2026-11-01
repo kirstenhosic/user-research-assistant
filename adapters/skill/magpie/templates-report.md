@@ -62,8 +62,10 @@ here; those live in the study record and the appendix.
 ## Top findings
 
 Never more than five, the highest-priority findings for this decision, in
-priority order. One or two lines each, with priority, confidence and
-whether it's enough for this decision. A not-enough finding says what would
+priority order. Together they answer every research question; a question
+the data didn't answer gets one line saying so and why. One or two lines
+each, with the question it answers, priority, confidence and whether it's
+enough for this decision. A not-enough finding says what would
 make us surer and roughly what that costs; a high-priority finding with
 weak confidence is marked "check next".
 

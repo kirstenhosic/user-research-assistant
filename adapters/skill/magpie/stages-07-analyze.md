@@ -254,8 +254,11 @@ sessions, or say "you do it", skip it.
    often), each with a reason, and read the priority off the grid in
    `lenses-confidence-and-priority.md`. Confidence never moves priority.
    A high-priority finding with weak confidence, or not enough for the
-   decision, is marked "check next". Show the findings in priority order
-   and say the review yes covers the order, so they can move any up or
+   decision, is marked "check next". Show the findings in priority order,
+   checking that each research question, the primary one first, is
+   answered in the first five; if one isn't, move up its highest-priority
+   finding, or say in one line that the data didn't answer it and why
+   (`lenses-confidence-and-priority.md`). Then say the review yes covers the order, so they can move any up or
    down first (`lenses-confidence-and-priority.md`); their order stands.
 11a. **Try to break the key findings.** For each finding the decision
    rests on (the high-priority ones, three at most), start from what the
