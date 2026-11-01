@@ -2,6 +2,16 @@
 
 ## 2026-11-01
 
+- Analysis: identity coding narrowed. Identity gets a code of its own
+  only when it bears on the research questions or study focus, when the
+  researcher asks, or when a participant ties it to their experience of
+  the topic, even once. Any other mention is weighed, not set aside by
+  default: if it could bear on the study's main questions or affect the
+  product, organization, company or end-user base, it gets its own code
+  and a one-line reason for the researcher. Otherwise it's coded as
+  ordinary background and isn't singled out (standard 7.33).
+  Eval scenario `identity-mentions` updated.
+
 - Analysis: identity is coded by name, even when it comes up once or in
   passing (sexual identity, race or ethnicity, disability or a health
   condition, gender, age, religion, class or income), instead of being
