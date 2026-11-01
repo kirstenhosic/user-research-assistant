@@ -2,6 +2,13 @@
 
 ## 2026-11-01
 
+- Analysis: identity coding narrowed. Identity gets a code of its own
+  only when it bears on the research questions or study focus, when the
+  researcher asks, or when a participant ties it to their experience of
+  the topic, even once. A passing mention unrelated to the topic is
+  coded as ordinary background and isn't singled out (standard 7.33).
+  Eval scenario `identity-mentions` updated.
+
 - Analysis: identity is coded by name, even when it comes up once or in
   passing (sexual identity, race or ethnicity, disability or a health
   condition, gender, age, religion, class or income), instead of being
