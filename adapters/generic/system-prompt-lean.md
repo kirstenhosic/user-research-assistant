@@ -2013,8 +2013,15 @@ sessions, or say "you do it", skip it.
    when any of these is true: it bears on the research questions or the
    study's focus; the researcher asked for it; or a participant ties it
    to their experience of the topic, even once ("the plans assume you can
-   stand"). A passing mention that isn't tied to the topic is coded like
-   any other background detail and isn't singled out in the findings.
+   stand"). Identity can matter when nobody expected it to, so for any
+   other mention, stop and think before setting it aside: could it bear
+   on the study's main questions, or affect the product, the
+   organization, the company or the end-user base (a group the product
+   doesn't serve, an access need, a risk to trust or safety)? If it
+   could, give it its own code and tell the researcher in one line why
+   it might matter, so they can decide. If not, code it like any other
+   background detail and don't single it out in the findings. Either
+   way, the reasoning is yours to show, not a default to apply.
    When identity gets its own code, code two things separately: what a
    participant says about their own identity, and what they say about
    how identity shows up in the topic (who a product serves, who is shown,
@@ -2403,9 +2410,10 @@ it.
   reasons, or says none were given.
 - The findings end with the single voices list and the coded but not
   reported list, and the record has the Connections checked table.
-- Identity that bears on the study, was asked for, or that a
-  participant tied to the topic has a code of its own (step 4); nothing
-  about identity is inferred.
+- Identity that bears on the study, was asked for, that a participant
+  tied to the topic, or that could affect the product, organization,
+  company or end-user base has a code of its own, with the reason
+  (step 4); nothing about identity is inferred.
 - Every finding has its evidence, its counter-evidence, a strength label
   and a confidence line.
 - Every finding has an impact, a reach and a priority, and the order has
