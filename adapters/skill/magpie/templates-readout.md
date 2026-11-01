@@ -36,8 +36,8 @@ not on this slide; see "Limits" below.
 ## 4. Top findings
 
 Never more than five: the highest-priority findings for this decision,
-in priority order. Together they answer every research question; a
-question the data didn't answer gets one line saying so and why. One line
+in priority order. At least one answers the primary research question;
+if the data didn't answer it, one line says so and why. One line
 each, with the question it answers, priority, confidence and whether it's
 enough for this decision. This is the slide people photograph. An
 unexpected finding belongs here when its priority puts it there.

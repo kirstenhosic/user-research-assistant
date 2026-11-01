@@ -2148,9 +2148,9 @@ sessions, or say "you do it", skip it.
    `lenses/confidence-and-priority.md`. Confidence never moves priority.
    A high-priority finding with weak confidence, or not enough for the
    decision, is marked "check next". Show the findings in priority order,
-   checking that each research question, the primary one first, is
-   answered in the first five; if one isn't, move up its highest-priority
-   finding, or say in one line that the data didn't answer it and why
+   checking that the primary research question is answered in the first
+   five; if it isn't, move up its highest-priority finding, or say in one
+   line that the data didn't answer it and why
    (`lenses/confidence-and-priority.md`). Then say the review yes covers the order, so they can move any up or
    down first (`lenses/confidence-and-priority.md`); their order stands.
 11a. **Try to break the key findings.** For each finding the decision
@@ -2519,9 +2519,9 @@ again.
    `checks/ai-assisted-research.md`, sections 2 and 3.
 7. **Top findings, never more than five.** The highest-priority findings
    for this decision, in the order the researcher agreed at stage 7, ties
-   broken by the primary research question. Together they answer every
-   research question, or say in one line which one the data didn't
-   answer and why (`lenses/confidence-and-priority.md`). One line each
+   broken by the primary research question. At least one answers the
+   primary research question, or one line says the data didn't answer
+   it and why (`lenses/confidence-and-priority.md`). One line each
    with the question it answers, its priority,
    its confidence and why, and whether it's enough for this decision; a
    not-enough finding says what would make the team surer and roughly
@@ -2950,20 +2950,19 @@ The impact and reach labels and the grid are practitioner judgment, not a
 published scale. They're Magpie's draft; the researcher can change any of
 them, and their call stands.
 
-### Answer the study's questions in the top findings
+### Answer the primary question in the top findings
 
-The top findings, five at most, must answer what the study set out to
-learn. Before settling the order, check that each research question has
-at least one finding in the first five that answers it, the primary
-question first. If one doesn't, move up its highest-priority finding in
-place of the lowest-priority finding in the five whose question is
-already answered there. Within the five, priority still sets the order.
-If a question got no clear answer from the data, the top findings say so
-in one line, with why (too few people, the guide didn't reach it, the
-answer is mixed), rather than leaving it out. A finding that answers no
-research question can still be in the five when its priority puts it
-there, as long as every question is answered too. If there are more
-research questions than places, say which ones share a finding.
+The top findings, five at most, must answer the study's primary research
+question: the main thing the study set out to learn. Before settling the
+order, check that at least one finding in the first five answers it. If
+none does, move up its highest-priority finding in place of the
+lowest-priority finding in the five. Within the five, priority still sets
+the order. If the data didn't clearly answer the primary question, the
+top findings say so in one line, with why (too few people, the guide
+didn't reach it, the answer is mixed), rather than leaving it out. The
+other research questions don't need a place in the five; their answers
+go in the rest of the findings, where every finding already names the
+question it answers.
 
 ### Keep priority and confidence apart
 
@@ -2978,7 +2977,7 @@ counts as high priority, because the team needs to know about it.
 - **Stage 7.** Tag each code seen, past time or opinion. Note each
   participant's fit. After the strength is rated and re-judged, write the
   confidence line, then impact, reach and priority, each with its reason.
-  Show the findings in priority order, with each research question
+  Show the findings in priority order, with the primary question
   answered in the first five (above), and make the order part of the
   review ask, so it needs no answer of its own: "This is the order I'd
   put them in. Move any up or down if you'd rank them differently; your
@@ -2987,7 +2986,7 @@ counts as high priority, because the team needs to know about it.
   order stands; a yes keeps Magpie's order and records it as agreed.
 - **Stage 8.** The top findings, five at most, are the highest priority
   ones for this decision, with ties broken by the primary research
-  question, and every research question answered among them (above).
+  question, and the primary question answered among them (above).
   Each one gets a line on why it's there and which question it answers. An "also noticed"
   finding is in the top five when its priority puts it there.
   Recommendations follow the same order unless the researcher orders them
@@ -9124,8 +9123,8 @@ not on this slide; see "Limits" below.
 ## 4. Top findings
 
 Never more than five: the highest-priority findings for this decision,
-in priority order. Together they answer every research question; a
-question the data didn't answer gets one line saying so and why. One line
+in priority order. At least one answers the primary research question;
+if the data didn't answer it, one line says so and why. One line
 each, with the question it answers, priority, confidence and whether it's
 enough for this decision. This is the slide people photograph. An
 unexpected finding belongs here when its priority puts it there.
@@ -9313,8 +9312,8 @@ here; those live in the study record and the appendix.
 ## Top findings
 
 Never more than five, the highest-priority findings for this decision, in
-priority order. Together they answer every research question; a question
-the data didn't answer gets one line saying so and why. One or two lines
+priority order. At least one answers the primary research question; if
+the data didn't answer it, one line says so and why. One or two lines
 each, with the question it answers, priority, confidence and whether it's
 enough for this decision. A not-enough finding says what would
 make us surer and roughly what that costs; a high-priority finding with

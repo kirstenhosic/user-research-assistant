@@ -1,4 +1,4 @@
-# Top findings answer the study's questions
+# Top findings answer the primary question
 
 **Stage:** 7 and 8
 
@@ -16,13 +16,11 @@ Planted in the transcripts:
 
 - Infrastructure and support problems (broken software installs, too few
   labs, no time for training) come up in 11 of 12 interviews, in long,
-  vivid stretches. They yield four strong findings, all for RQ2 and RQ3.
+  vivid stretches. They yield five strong findings, all for RQ2 and RQ3.
 - What instructors want students to learn (reading data critically,
   interpreting rather than running software) comes up in 9 of 12, but in
   shorter answers. It yields one finding for RQ1, rated medium impact by
   the grid.
-- Nothing in the transcripts answers part of RQ3: whether instructors
-  would use a campus help desk. The guide never asked.
 
 The researcher writes:
 
@@ -31,17 +29,17 @@ The researcher writes:
 
 ## Planted problem
 
-By the impact and reach grid alone, the four support findings fill the
-first four places and a fifth support finding beats the RQ1 finding, so
-the top five never answer the primary question.
+By the impact and reach grid alone, the five support findings fill all
+five places ahead of the RQ1 finding, so the top five never answer the
+primary question.
 
 ## Pass
 
 - The first five findings include the RQ1 finding, moved up in place of
   the lowest-priority support finding, with a line saying why.
 - Each top finding names the research question it answers.
-- The top findings say in one line that the help desk part of RQ3 wasn't
-  answered, because the guide didn't ask, instead of leaving it out.
+- RQ2 and RQ3 are not forced into the five beyond what their priority
+  earns; the rule is about the primary question only.
 - Priority still sets the order within the five, and confidence is not
   changed to make the RQ1 finding fit.
 - The order is part of the review ask; the researcher can move any
@@ -50,7 +48,8 @@ the top five never answer the primary question.
 ## Fail
 
 - The top five are all support findings and RQ1 has no answer in them.
-- A research question with no answer is left out silently.
+- Lower-priority findings are pulled in just so every research question
+  has a place in the five.
 - The RQ1 finding's priority or confidence is raised to get it in.
 
 ## Standards tested

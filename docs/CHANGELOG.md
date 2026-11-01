@@ -11,11 +11,12 @@
   check, and small counts that could point to one person are reported
   without participant codes (standard 7.33). New eval scenario
   `identity-mentions`.
-- Analysis and readout: the top findings, five at most, now answer every
-  research question, the primary one first. If priority alone would
-  leave a question unanswered, its highest-priority finding moves up in
-  place of the lowest-priority one whose question is already answered.
-  A question the data didn't answer gets one line saying so and why.
+- Analysis and readout: the top findings, five at most, now always
+  answer the primary research question. If priority alone would leave it
+  out, its highest-priority finding moves up in place of the
+  lowest-priority one in the five. If the data didn't answer it, one line
+  says so and why. Other research questions are answered in the rest of
+  the findings.
   Each top finding names the question it answers (standard 8.16). New
   eval scenario `top-findings-answer-questions`.
 
