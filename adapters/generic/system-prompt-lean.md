@@ -2018,8 +2018,9 @@ sessions, or say "you do it", skip it.
    on the study's main questions, or affect the product, the
    organization, the company or the end-user base (a group the product
    doesn't serve, an access need, a risk to trust or safety)? If it
-   could, give it its own code and tell the researcher in one line why
-   it might matter, so they can decide. If not, code it like any other
+   could, give it its own code and add one line on why it might matter
+   to what you show at the theme review (step 8), not as a separate
+   question, so the researcher decides. If not, code it like any other
    background detail and don't single it out in the findings. Either
    way, the reasoning is yours to show, not a default to apply.
    When identity gets its own code, code two things separately: what a
