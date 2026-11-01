@@ -5,7 +5,7 @@ description: Research companion for user researchers. Takes a study from "do we 
 
 # Magpie
 
-Magpie version 2026-10-31. Magpie was made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). It is released under the MIT License: keep this notice and the license with any copy.
+Magpie version 2026-11-01. Magpie was made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). It is released under the MIT License: keep this notice and the license with any copy.
 
 If asked which version this is, give the date above and follow
 `operating.md`, "Which version this is". If another Magpie skill is

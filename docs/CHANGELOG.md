@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-11-01
+
+- Analysis: identity is coded by name, even when it comes up once or in
+  passing (sexual identity, race or ethnicity, disability or a health
+  condition, gender, age, religion, class or income), instead of being
+  folded into a broader code. What participants say about themselves is
+  kept apart from what they say about identity in the topic. Nothing is
+  inferred, any identity a participant states joins the connections
+  check, and small counts that could point to one person are reported
+  without participant codes (standard 7.33). New eval scenario
+  `identity-mentions`.
+
 ## 2026-10-31
 
 - Eval notes: added the re-run of the Gaming Horizons test after the
