@@ -88,7 +88,36 @@ that the three women avoid violent play).
 ## Changes made after this run
 
 Standards 7.22, 7.26, 7.30, 7.31 and 7.32 (see `docs/CHANGELOG.md`,
-October 31, 2026). Not yet re-run.
+October 31, 2026, PR #85).
+
+## Re-run after the changes
+
+Three new runs on main at 4f48b67 (just after PR #85), set up the same
+way as above, scored by the same judge against the same 25-point key.
+The two judge passes agreed on 68 of 75 point scores (91%) and on 292
+of 297 pieces (98%).
+
+| Run | Fully found (of 25) | At least in part | Missed |
+| --- | --- | --- | --- |
+| After PR #85, run 1 | 6.5 | 25 | 0 |
+| After PR #85, run 2 | 9.5 | 25 | 0 |
+| After PR #85, run 3 | 8.5 | 24 | 1 |
+
+Point by point: 66 to 76 of 99 pieces present, about 72% (about 68%
+before the changes).
+
+**What changed.** The fathers pattern was stated in 2 of 3 runs (0 of
+3 before). The third run checked gender against who people first
+played with and judged the split too small to report, which is a
+defensible reading. Every run now has a Connections checked table, a
+single voices list and a list of codes no finding uses.
+
+**What didn't.** The number of points fully found stayed about the
+same, and the spread between runs is as wide as the change. The rows
+found only in part are mostly the same ones as before: what drives and
+breaks engagement, rage tied to competitive play, narrative, and the
+tension between art and gameplay. With three runs per side, a 4-point
+rise in pieces present could be noise.
 
 ## Limits
 

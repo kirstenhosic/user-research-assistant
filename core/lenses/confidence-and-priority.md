@@ -139,6 +139,20 @@ The impact and reach labels and the grid are practitioner judgment, not a
 published scale. They're Magpie's draft; the researcher can change any of
 them, and their call stands.
 
+### Answer the primary question in the top findings
+
+The top findings, five at most, must answer the study's primary research
+question: the main thing the study set out to learn. Before settling the
+order, check that at least one finding in the first five answers it. If
+none does, move up its highest-priority finding in place of the
+lowest-priority finding in the five. Within the five, priority still sets
+the order. If the data didn't clearly answer the primary question, the
+top findings say so in one line, with why (too few people, the guide
+didn't reach it, the answer is mixed), rather than leaving it out. The
+other research questions don't need a place in the five; their answers
+go in the rest of the findings, where every finding already names the
+question it answers.
+
 ### Keep priority and confidence apart
 
 Confidence never raises or lowers priority. Show them next to each other.
@@ -152,7 +166,8 @@ counts as high priority, because the team needs to know about it.
 - **Stage 7.** Tag each code seen, past time or opinion. Note each
   participant's fit. After the strength is rated and re-judged, write the
   confidence line, then impact, reach and priority, each with its reason.
-  Show the findings in priority order and make the order part of the
+  Show the findings in priority order, with the primary question
+  answered in the first five (above), and make the order part of the
   review ask, so it needs no answer of its own: "This is the order I'd
   put them in. Move any up or down if you'd rank them differently; your
   yes on the findings covers the order too." Don't ask a yes-or-no
@@ -160,7 +175,8 @@ counts as high priority, because the team needs to know about it.
   order stands; a yes keeps Magpie's order and records it as agreed.
 - **Stage 8.** The top findings, five at most, are the highest priority
   ones for this decision, with ties broken by the primary research
-  question. Each one gets a line on why it's there. An "also noticed"
+  question, and the primary question answered among them (above).
+  Each one gets a line on why it's there and which question it answers. An "also noticed"
   finding is in the top five when its priority puts it there.
   Recommendations follow the same order unless the researcher orders them
   differently.

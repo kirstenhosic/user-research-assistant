@@ -113,6 +113,18 @@ sessions, or say "you do it", skip it.
    English, or for people speaking English as a second language, say so
    in the definition. The researcher can redefine any code at the theme
    review (step 8), and their definition stands.
+   Code identity by name, even when it comes up once or in passing:
+   sexual identity, race or ethnicity, disability or a health condition,
+   gender, age, religion, and class or income. These can shape what
+   people experience and why, so don't fold them into a broader code
+   ("representation", "background"). Code two things separately: what a
+   participant says about their own identity, and what they say about
+   how identity shows up in the topic (who a product serves, who is shown,
+   who is left out). Never infer anyone's identity from a name, a voice,
+   a photo or a turn of phrase; code only what a participant says. These
+   codes are sensitive. In the findings, a count small enough to point to
+   one person goes in without participant codes, or is left out with a
+   line saying why.
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task, lost data or money). A theme on a topic everyone was
@@ -140,6 +152,7 @@ sessions, or say "you do it", skip it.
    Don't leave this to what catches the eye. Go through every background
    and warm-up code (how they started, who introduced them, their
    history, their work) against each attribute in the participant list,
+   plus any identity a participant stated about themselves (step 4),
    one pair at a time, and write the pairs you checked in the record's
    Connections checked table, with what you found or "nothing". A pair
    with nothing is still listed, so the researcher can see it was
@@ -241,8 +254,11 @@ sessions, or say "you do it", skip it.
    often), each with a reason, and read the priority off the grid in
    `lenses/confidence-and-priority.md`. Confidence never moves priority.
    A high-priority finding with weak confidence, or not enough for the
-   decision, is marked "check next". Show the findings in priority order
-   and say the review yes covers the order, so they can move any up or
+   decision, is marked "check next". Show the findings in priority order,
+   checking that the primary research question is answered in the first
+   five; if it isn't, move up its highest-priority finding, or say in one
+   line that the data didn't answer it and why
+   (`lenses/confidence-and-priority.md`). Then say the review yes covers the order, so they can move any up or
    down first (`lenses/confidence-and-priority.md`); their order stands.
 11a. **Try to break the key findings.** For each finding the decision
    rests on (the high-priority ones, three at most), start from what the
@@ -488,6 +504,8 @@ it.
   reasons, or says none were given.
 - The findings end with the single voices list and the coded but not
   reported list, and the record has the Connections checked table.
+- Every mention of identity has a code of its own (step 4), kept apart
+  from broader codes. If none came up, the record says so.
 - Every finding has its evidence, its counter-evidence, a strength label
   and a confidence line.
 - Every finding has an impact, a reach and a priority, and the order has

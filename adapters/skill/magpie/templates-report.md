@@ -62,8 +62,10 @@ here; those live in the study record and the appendix.
 ## Top findings
 
 Never more than five, the highest-priority findings for this decision, in
-priority order. One or two lines each, with priority, confidence and
-whether it's enough for this decision. A not-enough finding says what would
+priority order. At least one answers the primary research question; if
+the data didn't answer it, one line says so and why. One or two lines
+each, with the question it answers, priority, confidence and whether it's
+enough for this decision. A not-enough finding says what would
 make us surer and roughly what that costs; a high-priority finding with
 weak confidence is marked "check next".
 
@@ -188,4 +190,4 @@ facts, no reassurance.
 
 ---
 
-Part of Magpie version 2026-10-31, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-01, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

@@ -86,8 +86,10 @@ again.
    `checks-ai-assisted-research.md`, sections 2 and 3.
 7. **Top findings, never more than five.** The highest-priority findings
    for this decision, in the order the researcher agreed at stage 7, ties
-   broken by the primary research question
-   (`lenses-confidence-and-priority.md`). One line each with its priority,
+   broken by the primary research question. At least one answers the
+   primary research question, or one line says the data didn't answer
+   it and why (`lenses-confidence-and-priority.md`). One line each
+   with the question it answers, its priority,
    its confidence and why, and whether it's enough for this decision; a
    not-enough finding says what would make the team surer and roughly
    what that costs (`lenses-minimum-viable-rigor.md`), and a high-priority
@@ -282,4 +284,4 @@ PM measure to know it worked?"
 
 ---
 
-Part of Magpie version 2026-10-31, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-01, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

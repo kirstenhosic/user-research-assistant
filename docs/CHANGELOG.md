@@ -1,7 +1,31 @@
 # Changelog
 
+## 2026-11-01
+
+- Analysis: identity is coded by name, even when it comes up once or in
+  passing (sexual identity, race or ethnicity, disability or a health
+  condition, gender, age, religion, class or income), instead of being
+  folded into a broader code. What participants say about themselves is
+  kept apart from what they say about identity in the topic. Nothing is
+  inferred, any identity a participant states joins the connections
+  check, and small counts that could point to one person are reported
+  without participant codes (standard 7.33). New eval scenario
+  `identity-mentions`.
+- Analysis and readout: the top findings, five at most, now always
+  answer the primary research question. If priority alone would leave it
+  out, its highest-priority finding moves up in place of the
+  lowest-priority one in the five. If the data didn't answer it, one line
+  says so and why. Other research questions are answered in the rest of
+  the findings.
+  Each top finding names the question it answers (standard 8.16). New
+  eval scenario `top-findings-answer-questions`.
+
 ## 2026-10-31
 
+- Eval notes: added the re-run of the Gaming Horizons test after the
+  analysis changes (`evals/runs/2026-10-31-gaming-horizons-fair.md`).
+  Pieces present rose from about 68% to about 72%; points fully found
+  stayed about the same.
 - Analysis: five changes from a fair re-score of the Gaming Horizons
   player interviews. The re-score used only what's in the 13 public
   transcripts; points that rested on interviews not in the public data

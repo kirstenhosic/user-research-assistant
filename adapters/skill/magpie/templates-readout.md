@@ -36,8 +36,10 @@ not on this slide; see "Limits" below.
 ## 4. Top findings
 
 Never more than five: the highest-priority findings for this decision,
-in priority order. One line each, with priority, confidence and whether
-it's enough for this decision. This is the slide people photograph. An
+in priority order. At least one answers the primary research question;
+if the data didn't answer it, one line says so and why. One line
+each, with the question it answers, priority, confidence and whether it's
+enough for this decision. This is the slide people photograph. An
 unexpected finding belongs here when its priority puts it there.
 Priority and confidence sit side by side; neither changes the other
 (`lenses-confidence-and-priority.md`).
@@ -159,4 +161,4 @@ under fifteen minutes; otherwise the default above applies.
 
 ---
 
-Part of Magpie version 2026-10-31, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-01, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
