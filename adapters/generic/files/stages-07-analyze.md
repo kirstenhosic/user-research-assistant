@@ -24,6 +24,11 @@ conversation or files you can reach, in one message, before you build
 This list is the floor: add the questions this particular study or task
 raises, within the same six.
 
+The first time this study asks for raw material, the ask carries the
+one-line note on what Magpie does with names and what it can't do
+(`operating.md`, "Personal details in the material"). Say it once; don't
+ask about it.
+
 **Minimum to draft:** the raw material: transcripts, notes, recordings
 or responses. Without it there's nothing to analyze, only to imagine.
 
