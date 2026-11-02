@@ -2,6 +2,11 @@
 
 ## 2026-11-02
 
+- README privacy section: new "Make it fit your team's rules" part. Teams
+  can write their data rules in the team profile, or change Magpie's own
+  files (for example, to add their own privacy checkpoints), keeping the
+  credit line.
+
 - Personal details: the first time a study asks for transcripts or
   notes, Magpie says once that it keeps names out of what it writes, but
   what is pasted goes to the AI tool as it is, so remove names first if

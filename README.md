@@ -589,6 +589,16 @@ AI tool, remove them before you start. Magpie leaves them out of what it
 writes, but it can't remove them from what you share. Like any AI, it
 can also miss something.
 
+### Make it fit your team's rules
+
+Your team can adapt Magpie to its own privacy rules. The simplest way is
+to write your data rules, such as where recordings are kept and who can
+see them, in the [team profile](core/team/team-profile.md). Magpie reads
+it at the start of each study. You can also change Magpie's own files,
+for example to add your own privacy checkpoints or your company's AI
+policy. The license allows this, as long as you keep the credit line
+(see [Credit and license](#credit-and-license)).
+
 ### Good to know
 
 Magpie is a free personal project. No outside company has checked its
