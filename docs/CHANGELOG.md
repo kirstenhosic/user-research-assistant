@@ -2,6 +2,15 @@
 
 ## 2026-11-02
 
+- README: new "Privacy, security and personal details" section. It says
+  what Magpie is made of (text files; seven small scripts in `magpie.zip`
+  only, no internet connections; no server, tracking or storage), how it
+  handles personal details, what it can reach (pasted files, the open
+  folder, connected tools, the web), and which questions belong to the
+  AI tool and the company (training, retention, data location, admin
+  controls). "Using Magpie at work" links to it. Written in plain
+  language for a broad audience, including security teams.
+
 - Analysis and reporting: what participants believe causes something, or
   doesn't, is reported as their belief with a count, never as a fact.
   This applies to finding titles, summaries and top-findings lines, not

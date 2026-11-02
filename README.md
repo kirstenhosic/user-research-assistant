@@ -34,6 +34,7 @@ Reference:
 - [Pick up where you left off](#pick-up-where-you-left-off)
 - [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions)
 - [Can I trust it?](#can-i-trust-it)
+- [Privacy, security and personal details](#privacy-security-and-personal-details)
 - [When something goes wrong](#when-something-goes-wrong)
 - [Keep Magpie up to date](#keep-magpie-up-to-date)
 - [For contributors](#for-contributors)
@@ -75,6 +76,9 @@ work projects:
 
 If you aren't sure what's allowed, ask your manager or your privacy or
 security team before you start.
+
+For what Magpie does with personal details, and what's up to your AI
+tool, see [Privacy, security and personal details](#privacy-security-and-personal-details).
 
 ### Set up Magpie
 
@@ -497,6 +501,95 @@ you for research; Magpie can start from a filled one.
 
 Found a problem? [Open an issue](https://github.com/kirstenhosic/user-research-assistant/issues)
 with the tool you used, the step, and what you saw.
+
+## Privacy, security and personal details
+
+Magpie is a set of written instructions. It works inside the AI tool you
+add it to, such as ChatGPT or Claude. Magpie doesn't collect or keep
+your data. Your AI tool does. So most privacy and security questions are
+really about that tool and how your company has set it up. This section
+explains what Magpie does and what it leaves to your tool.
+
+### What's inside Magpie
+
+- **Text files anyone can read.** Magpie is mostly plain text: its
+  instructions, guides, checklists and templates. You or your security
+  team can open and read every file before you use it.
+- **Nothing that tracks you or stores your data.** Magpie has no
+  website, no account and no database. It doesn't send anything to its
+  maker or to anyone else. If you save a file, like a report, it
+  goes wherever you choose to save it.
+- **Seven small programs, in one download only.** `magpie.zip` includes
+  seven small programs. They check quotes and numbers and create Word
+  and Excel files. None of them connects to the internet, and they only
+  run if your AI tool allows it. The Gemini and Copilot downloads have no
+  programs at all.
+- **An add-on that can't access anything by itself.** Some AI tools call
+  add-ons like Magpie "plugins". Magpie doesn't install software or ask
+  for permission to reach anything. It can only use what your AI tool
+  already gives it.
+
+### How Magpie protects people's personal details
+
+- **It looks for personal details.** In everything you share, such as
+  interview transcripts, notes, past reports and support tickets, Magpie
+  looks for details like names, email addresses, phone numbers and
+  workplaces.
+- **It leaves them out of everything it writes.** Each participant gets
+  a code, such as P1 or P2, instead of their name. If a quote includes a
+  personal detail, Magpie swaps it for [name] or something similar. It
+  tells you once what it left out.
+- **Quotes don't name anyone.** In a report, each quote
+  is labeled with a code and a general description, such as a job role.
+  It never shows a name or a company. If a description could point to
+  one person, Magpie makes it more general.
+- **It checks again before anything is shared.** Before a report or
+  presentation goes out, Magpie checks that nobody in it can be
+  identified.
+- **Its own notes stay free of personal details.** The notes Magpie
+  keeps about your study and your team never include participants' names
+  or contact details.
+
+### What Magpie can use
+
+Magpie can only use what your AI tool lets it use:
+
+- files and text you share with it
+- the folder you open, if you use Magpie in an
+  [agent tool](#which-kind-of-ai-tool-to-use) on your computer. It never
+  looks through the rest of your computer.
+- shared drives, wikis or chat tools, but only if your team has already
+  connected them to your AI tool
+- the internet, but only if your AI tool can search it. Magpie uses it
+  for public information, such as news about competitors.
+
+Magpie doesn't need any connections. You can simply share the files you
+want it to use.
+
+### What's up to your AI tool and your company
+
+Anything you share with Magpie goes to your AI tool. Magpie keeps
+personal details out of what it writes, but it can't stop them from
+reaching the tool. Your AI tool's own privacy information and your
+company's agreement with that tool answer questions like these:
+
+- Is what you share used to train AI?
+- How long is it kept, and can you delete it?
+- Where is it stored?
+- What can your company's administrators turn on or off?
+
+If your company says personal details must be removed before you use an
+AI tool, remove them before you start. Magpie leaves them out of what it
+writes, but it can't remove them from what you share. Like any AI, it
+can also miss something.
+
+### Good to know
+
+Magpie is a free personal project. No outside company has checked its
+security. It doesn't claim to meet any privacy law or security standard.
+It also comes with no guarantee or support. Your security team is
+welcome to read every file. Only download Magpie from this page's
+[releases](https://github.com/kirstenhosic/user-research-assistant/releases).
 
 ## When something goes wrong
 
