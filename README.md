@@ -512,9 +512,10 @@ explains what Magpie does and what it leaves to your tool.
 
 ### What's inside Magpie
 
-- **Text files anyone can read.** Magpie is mostly plain text: its
-  instructions, guides, checklists and templates. You or your security
-  team can open and read every file before you use it.
+- **Open and easy to check.** Magpie is mostly plain text: its
+  instructions, guides, checklists and templates. Before you use it,
+  you or your security team can open every file and see exactly what it
+  tells your AI tool to do.
 - **Nothing that tracks you or stores your data.** Magpie has no
   website, no account and no database. It doesn't send anything to its
   maker or to anyone else. If you save a file, like a report, it
