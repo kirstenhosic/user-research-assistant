@@ -532,6 +532,11 @@ explains what Magpie does and what it leaves to your tool.
 
 ### How Magpie protects people's personal details
 
+- **It tells you its limit before you share transcripts.** The first
+  time Magpie asks for transcripts or notes, it says once that it keeps
+  names out of what it writes, but what you paste goes to your AI tool as
+  it is. If your rules say names must be removed first, do that before
+  you paste. It doesn't ask you anything about it.
 - **It looks for personal details.** In everything you share, such as
   interview transcripts, notes, past reports and support tickets, Magpie
   looks for details like names, email addresses, phone numbers and

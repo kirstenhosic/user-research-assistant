@@ -784,6 +784,17 @@ drifts a word per hop ends up saying something no one said.
 Raw material sometimes holds details that identify a participant: a full
 name, an email address, a phone number, an employer, a colleague's name.
 
+- **Before the first transcript, say what this does and doesn't do,
+  once.** The first time you ask for raw material from participants
+  (usually stage 7's ask before you build), add this line to that
+  message: "Before you share transcripts: I'll keep names out of what I
+  write, but what you paste goes to this AI tool as it is. If your rules
+  need names removed first, do that before pasting." It tells; it doesn't
+  ask. Don't wait for a reply, don't ask whether the material may be
+  shared, and don't say it again in this study. If raw material arrives
+  before you've asked for it, fold the same point into the one-line note
+  below instead. Mark it given in the study record's Settings line, so a
+  later conversation doesn't repeat it.
 - **Keep them out of everything you write.** Use participant codes (P1,
   P2) in every finding, quote, record and report. In a quote, replace the
   detail with a bracketed placeholder ("my manager [name] checks every
@@ -791,7 +802,9 @@ name, an email address, a phone number, an employer, a colleague's name.
   quote, pick another quote.
 - **Say so once.** In one line, the first time you find them: "P3's
   transcript has a full name and an email; I've kept both out of the
-  findings." Don't ask about it and don't repeat it.
+  findings." If the line above hasn't been given yet, end the note with
+  "They're still in what you shared with this AI tool." Don't ask about
+  it and don't repeat it.
 
 A finding should travel without the person attached to it. A name in a
 quote goes wherever the deck goes.
@@ -1917,6 +1930,11 @@ conversation or files you can reach, in one message, before you build
 (`operating.md`, "Gather context before you build").
 This list is the floor: add the questions this particular study or task
 raises, within the same six.
+
+The first time this study asks for raw material, the ask carries the
+one-line note on what Magpie does with names and what it can't do
+(`operating.md`, "Personal details in the material"). Say it once; don't
+ask about it.
 
 **Minimum to draft:** the raw material: transcripts, notes, recordings
 or responses. Without it there's nothing to analyze, only to imagine.

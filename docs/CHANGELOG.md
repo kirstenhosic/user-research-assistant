@@ -2,6 +2,16 @@
 
 ## 2026-11-02
 
+- Personal details: the first time a study asks for transcripts or
+  notes, Magpie says once that it keeps names out of what it writes, but
+  what is pasted goes to the AI tool as it is, so remove names first if
+  your rules need it. It tells; it doesn't ask. If material arrives
+  before Magpie asks, the existing personal-details note says the same.
+  It's marked in the study record's Settings line so it isn't repeated
+  (standard A.40). This answers feedback that Magpie's anonymizing could
+  give a false sense that what you share is made safe. New eval scenario
+  `note-before-first-transcript`; `identifiers-in-transcript` updated.
+
 - README: new "Privacy, security and personal details" section. It says
   what Magpie is made of (text files; seven small scripts in `magpie.zip`
   only, no internet connections; no server, tracking or storage), how it
