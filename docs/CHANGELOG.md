@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-02
+
+- Analysis and reporting: what participants believe causes something, or
+  doesn't, is reported as their belief with a count, never as a fact.
+  This applies to finding titles, summaries and top-findings lines, not
+  just the body, because readers quote those on their own. Only a design
+  that tests cause and effect can state a cause or rule one out (rule 5
+  in `checks/claim-strength.md`, standard 7.34). New eval scenario
+  `belief-not-cause`.
+
 ## 2026-11-01
 
 - Analysis: identity coding narrowed. Identity gets a code of its own
