@@ -29,7 +29,14 @@ does the wording match the evidence?
    whether other sources agree (`lenses-confidence-and-priority.md`).
 5. **Causes need more than correlation.** "People who used feature X
    renewed more" is not "feature X causes renewal". Say what's known and
-   what would be needed to know more.
+   what would be needed to know more. The same goes for what participants
+   believe about cause and effect. Interviews and surveys show what people
+   think causes something, or doesn't; only a design that tests cause and
+   effect, such as an experiment, can show it. Report the belief as theirs
+   ("9 of 13 said violent games don't make players violent"), never as a
+   fact ("Violent games don't make players violent"), and that includes
+   finding titles, summaries and top-findings lines, which readers quote
+   on their own.
 6. **Quotes carry a code, not a conclusion.** Each quote has a participant
    code and a location. One quote illustrates; it doesn't prove. In a
    readout or report, the code comes with a short descriptor from the
@@ -118,4 +125,4 @@ word lists as written are Magpie's own. Sources will be added to
 
 ---
 
-Part of Magpie version 2026-11-01, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-02, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
