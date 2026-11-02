@@ -8,7 +8,8 @@
   handles personal details, what it can reach (pasted files, the open
   folder, connected tools, the web), and which questions belong to the
   AI tool and the company (training, retention, data location, admin
-  controls). "Using Magpie at work" links to it.
+  controls). "Using Magpie at work" links to it. Written in plain
+  language for a broad audience, including security teams.
 
 - Analysis and reporting: what participants believe causes something, or
   doesn't, is reported as their belief with a count, never as a fact.
