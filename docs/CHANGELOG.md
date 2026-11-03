@@ -2,7 +2,7 @@
 
 ## 2026-11-03
 
-- README: a "Use at your own risk" note near the top. Magpie is free and
+- README: a "Free and as is" note near the top. Magpie is free and
   comes as is, with no warranty or support; people are responsible for
   what they share, for checking Magpie's work and for following their
   organization's rules; its suggestions are a starting point, not legal,

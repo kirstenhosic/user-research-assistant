@@ -20,7 +20,7 @@ and it improves often. Read [Can I trust it?](#can-i-trust-it) before
 you rely on it, and [check for updates](#keep-magpie-up-to-date) every
 week or two.
 
-**Use at your own risk.** Magpie is free and comes "as is", with no
+**Free and "as is".** Magpie is free and comes "as is", with no
 warranty and no support (see the [license](LICENSE)). You're responsible
 for what you share with your AI tool, for checking Magpie's work before
 you use or share it, and for following your organization's rules.
