@@ -2,6 +2,10 @@
 
 ## 2026-11-03
 
+- README: removed the "Make Magpie ask fewer questions" section, its
+  "On this page" link and the pointer to it in "Get started". It
+  encouraged skipping Magpie's questions, which are intended.
+
 - Personal details in shared outputs: the release check now runs on any
   output meant for other people (findings summaries, workshop summaries,
   personas, journey maps, library entries, opportunity briefs), not just

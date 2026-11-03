@@ -40,7 +40,6 @@ Reference:
 - [Methods it covers](#methods-it-covers)
 - [Shortcuts you can type](#shortcuts-you-can-type)
 - [Pick up where you left off](#pick-up-where-you-left-off)
-- [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions)
 - [Can I trust it?](#can-i-trust-it)
 - [Privacy, security and personal details](#privacy-security-and-personal-details)
 - [When something goes wrong](#when-something-goes-wrong)
@@ -233,9 +232,7 @@ Once Magpie is set up:
    (tell it if that's wrong), then asks up to six short questions under
    "Questions for you to answer". A line each is enough, and you can skip
    the ones marked optional. The more you share at the start, such as a
-   brief or past research, the fewer questions it asks. To share less
-   each time, see
-   [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions).
+   brief or past research, the fewer questions it asks.
 4. **Read the draft, then say "yes".** Nothing counts as done until you
    do. Start with the points marked "read hardest": where the decision
    leans most and the evidence is thinnest. If you'd do something
@@ -479,14 +476,6 @@ what you've already answered.
 
 Some tools show how much of the conversation they can still hold. Ask
 yours: *"Does this tool show how full this conversation is?"*
-
-## Make Magpie ask fewer questions
-
-These are optional. Fill in the [team profile](core/team/team-profile.md)
-once with your products, users, goals and research rules, and attach it
-when you start a study, so Magpie doesn't have to ask about them. Send
-the [intake form](core/team/intake-form.md) to PMs and designers who ask
-you for research; Magpie can start from a filled one.
 
 ## Can I trust it?
 
