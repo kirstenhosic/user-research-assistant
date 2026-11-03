@@ -20,6 +20,14 @@ and it improves often. Read [Can I trust it?](#can-i-trust-it) before
 you rely on it, and [check for updates](#keep-magpie-up-to-date) every
 week or two.
 
+**Free and "as is".** Magpie is free and comes "as is", with no
+warranty and no support (see the [license](LICENSE)). You're responsible
+for what you share with your AI tool, for checking Magpie's work before
+you use or share it, and for following your organization's rules.
+Magpie's suggestions on methods, statistics, ethics and consent are a
+starting point for your own judgment. They aren't legal, privacy or
+compliance advice.
+
 **On this page**
 
 - **[Get started](#get-started)** (start here)
@@ -606,6 +614,13 @@ security. It doesn't claim to meet any privacy law or security standard.
 It also comes with no guarantee or support. Your security team is
 welcome to read every file. Only download Magpie from this page's
 [releases](https://github.com/kirstenhosic/user-research-assistant/releases).
+Each release also includes `SHA256SUMS.txt`, a fingerprint for each
+zip. Your security team can use it to check that a download is the real
+file and hasn't been changed. To do it yourself, ask your AI tool: *"How
+do I check the SHA-256 fingerprint of a file?"*
+
+Found a security problem? Please report it privately, as
+[`SECURITY.md`](SECURITY.md) explains, not in a public issue.
 
 ## When something goes wrong
 

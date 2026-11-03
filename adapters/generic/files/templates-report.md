@@ -172,7 +172,7 @@ pages.
 
 ### How AI was used
 
-Four or five lines, written from the study record, so a stakeholder can
+Five or six lines, written from the study record, so a stakeholder can
 see which parts an AI drafted and which a person did or checked. Plain
 facts, no reassurance.
 
@@ -187,7 +187,9 @@ facts, no reassurance.
   reviewer is a model too and can be wrong.
 - **Other AI tools in the study:** [an AI moderator, transcription or
   summary tool, if the record names one; otherwise leave the line out]
+- **Before acting on it:** AI can make mistakes. Check quotes and
+  findings against the raw material before acting on them.
 
 ---
 
-Part of Magpie version 2026-11-02, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-03, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

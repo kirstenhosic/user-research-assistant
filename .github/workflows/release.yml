@@ -8,6 +8,9 @@
 # docs/CHANGELOG.md), for example v2026-10-31. If that tag already exists,
 # the next one is v2026-10-31.2, then .3. Each release keeps its own
 # download counts. To publish straight away, run it from Actions.
+#
+# Each release also carries SHA256SUMS.txt, a SHA-256 fingerprint for
+# each zip, so people can check a download is the real file.
 name: release
 
 on:
@@ -51,5 +54,7 @@ jobs:
           done
           # Notes: that version's changelog entry.
           awk -v v="## $version" '$0 == v {on=1; next} /^## / && on {exit} on' docs/CHANGELOG.md > notes.md
-          gh release create "$tag" $zips \
+          # Fingerprints, so people can check their download.
+          sha256sum $zips > SHA256SUMS.txt
+          gh release create "$tag" $zips SHA256SUMS.txt \
             --title "$title" --notes-file notes.md --target "$GITHUB_SHA" --latest
