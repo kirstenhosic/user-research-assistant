@@ -18,6 +18,24 @@
   download is the real file. The README's privacy section says how.
   Releases made before this change don't have it.
 
+- Sensitive topics: the one-time line before the first transcript adds
+  half a sentence when the study is likely to include health details,
+  children, money troubles or another topic many rules treat as
+  sensitive ("This study touches on health, which many rules treat as
+  sensitive."). The after-the-fact personal-details note names them too.
+  It still tells and never asks (standard A.40). New eval scenario
+  `sensitive-topic-note`.
+
+- Passwords and access keys: Magpie never asks for a password, access
+  key, token or other sign-in detail, and never writes one into anything
+  it drafts or saves. If one turns up in shared material, it leaves it
+  out and says so once in one line, without asking (new standard A.41).
+  New eval scenario `no-secrets`.
+
+- Reports and readouts: "How AI was used" ends with a line saying AI can
+  make mistakes, so quotes and findings should be checked against the
+  raw material before anyone acts on them (standard 8.12).
+
 ## 2026-11-02
 
 - README privacy section: new "Make it fit your team's rules" part. Teams

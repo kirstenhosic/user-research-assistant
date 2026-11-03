@@ -788,7 +788,11 @@ name, an email address, a phone number, an employer, a colleague's name.
   (usually stage 7's ask before you build), add this line to that
   message: "Before you share transcripts: I'll keep names out of what I
   write, but what you paste goes to this AI tool as it is. If your rules
-  need names removed first, do that before pasting." It tells; it doesn't
+  need names removed first, do that before pasting." If the study's
+  topic or the material you're asking for is likely to include health
+  details, children, money troubles or another topic many rules treat as
+  sensitive, add half a sentence naming it, such as "This study touches
+  on health, which many rules treat as sensitive." It tells; it doesn't
   ask. Don't wait for a reply, don't ask whether the material may be
   shared, and don't say it again in this study. If raw material arrives
   before you've asked for it, fold the same point into the one-line note
@@ -802,8 +806,17 @@ name, an email address, a phone number, an employer, a colleague's name.
 - **Say so once.** In one line, the first time you find them: "P3's
   transcript has a full name and an email; I've kept both out of the
   findings." If the line above hasn't been given yet, end the note with
-  "They're still in what you shared with this AI tool." Don't ask about
-  it and don't repeat it.
+  "They're still in what you shared with this AI tool." If the material
+  holds sensitive details (health, children, money troubles) that the
+  line above didn't name, name them in the same line. Don't ask about it
+  and don't repeat it.
+
+Passwords and access keys are different: never ask for a password,
+access key, token or other sign-in detail, and never write one into
+anything you draft or save, including the study record. If one turns up
+in what's shared, leave it out and say so once, in one line: "P2's
+notes include what looks like a password; I've left it out. It's still
+in what you shared with this AI tool." Don't ask about it.
 
 A finding should travel without the person attached to it. A name in a
 quote goes wherever the deck goes.
@@ -2605,7 +2618,9 @@ again.
 12. **Appendix for the deep dive.** Full findings, coding frame, instruments,
     review summary, links, and how AI was used: which outputs Magpie
     drafted, what the researcher did and reviewed, which checks ran and
-    how, and any other AI tool in the study, from the record
+    how, any other AI tool in the study, and a closing line that AI can
+    make mistakes, so quotes and findings should be checked against the
+    raw material before anyone acts on them, from the record
     (`templates/report.md`, "How AI was used"). It goes in every report
     and readout appendix, so the people who act on the work know an AI
     helped make it.
@@ -9462,7 +9477,7 @@ pages.
 
 ### How AI was used
 
-Four or five lines, written from the study record, so a stakeholder can
+Five or six lines, written from the study record, so a stakeholder can
 see which parts an AI drafted and which a person did or checked. Plain
 facts, no reassurance.
 
@@ -9477,6 +9492,8 @@ facts, no reassurance.
   reviewer is a model too and can be wrong.
 - **Other AI tools in the study:** [an AI moderator, transcription or
   summary tool, if the record names one; otherwise leave the line out]
+- **Before acting on it:** AI can make mistakes. Check quotes and
+  findings against the raw material before acting on them.
 
 <!-- core/templates/research-plan.md -->
 

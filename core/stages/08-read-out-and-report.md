@@ -139,7 +139,9 @@ again.
 12. **Appendix for the deep dive.** Full findings, coding frame, instruments,
     review summary, links, and how AI was used: which outputs Magpie
     drafted, what the researcher did and reviewed, which checks ran and
-    how, and any other AI tool in the study, from the record
+    how, any other AI tool in the study, and a closing line that AI can
+    make mistakes, so quotes and findings should be checked against the
+    raw material before anyone acts on them, from the record
     (`templates/report.md`, "How AI was used"). It goes in every report
     and readout appendix, so the people who act on the work know an AI
     helped make it.
