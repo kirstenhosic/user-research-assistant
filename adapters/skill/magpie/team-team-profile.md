@@ -78,6 +78,11 @@ downstream effects.
 - **Incentives:** [amounts, how paid, who approves]
 - **Consent:** [standard form or script, where it lives]
 - **Recording and storage:** [tool, where files go, who has access]
+- **Company names in internal outputs:** [allowed / not allowed]. Whether
+  customers' or employers' company names may appear in outputs shared
+  inside the team or company. Leave it blank for "not allowed". Never
+  allowed in outputs shared outside, and participants' names are never
+  allowed anywhere.
 - **Retention:** [how long raw data is kept, who deletes it]
 - **Extra rules:** [legal, regional, industry-specific]
 

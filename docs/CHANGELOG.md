@@ -2,6 +2,31 @@
 
 ## 2026-11-03
 
+- Personal details in shared outputs: the release check now runs on any
+  output meant for other people (findings summaries, workshop summaries,
+  personas, journey maps, library entries, opportunity briefs), not just
+  the readout and report. It has rules for each destination. For the
+  team, the company or outside, participants' names, emails, phone
+  numbers and colleagues' names are never allowed. Customers' and
+  employers' company names are left out unless the team profile allows
+  them for internal outputs, and never go outside. Descriptors are
+  broadened further for outside, quotes going outside need consent for
+  that use, and the participant list and raw counts stay with the team.
+  When the destination is unknown, the check runs for the company
+  (before, it assumed outside). It still fixes and tells; it never asks
+  (standard 8.15). New team-profile line "Company names in internal
+  outputs". New eval scenario `release-check-destinations`.
+
+- New code check `tools/checks/personal_details_check.py`: flags emails,
+  phone numbers, handles and the names Magpie noted in the material,
+  passed on the command line so they're never written to a file.
+  `magpie.zip` now has eight small programs; README and SECURITY.md
+  updated.
+
+- Independent review: a new question 11, "Could anyone be identified?",
+  covering names, company names and details that together point to one
+  person.
+
 - README: a "Free and as is" note near the top. Magpie is free and
   comes as is, with no warranty or support; people are responsible for
   what they share, for checking Magpie's work and for following their

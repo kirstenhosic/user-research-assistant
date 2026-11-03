@@ -147,10 +147,11 @@ the file for the stage the researcher is at and the method, check or
 template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
 `scripts/quote_check.py`, `scripts/count_check.py`,
-`scripts/evidence_check.py`, `scripts/review_check.py` and
-`scripts/wording_check.py` are scripts to run, not read: they check quotes,
-counts, the receipts behind counts, what each review point cites, and
-overclaiming words at stages 7 and 8.
+`scripts/evidence_check.py`, `scripts/review_check.py`,
+`scripts/wording_check.py` and `scripts/personal_details_check.py` are
+scripts to run, not read: they check quotes, counts, the receipts behind
+counts, what each review point cites, overclaiming words at stages 7 and
+8, and personal details left in anything meant to be shared.
 `scripts/md_to_docx.py` turns a Markdown output into a Word file and
 `scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
 files, for the team to edit together (`operating.md`, "Files for the
@@ -321,18 +322,19 @@ def build_skill(files: list[Path]) -> None:
 
 
 SCRIPTS_PARAGRAPH = """`scripts/quote_check.py`, `scripts/count_check.py`,
-`scripts/evidence_check.py`, `scripts/review_check.py` and
-`scripts/wording_check.py` are scripts to run, not read: they check quotes,
-counts, the receipts behind counts, what each review point cites, and
-overclaiming words at stages 7 and 8.
+`scripts/evidence_check.py`, `scripts/review_check.py`,
+`scripts/wording_check.py` and `scripts/personal_details_check.py` are
+scripts to run, not read: they check quotes, counts, the receipts behind
+counts, what each review point cites, overclaiming words at stages 7 and
+8, and personal details left in anything meant to be shared.
 `scripts/md_to_docx.py` turns a Markdown output into a Word file and
 `scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
 files, for the team to edit together (`operating.md`, "Files for the
 team"). Run them with Python when you can and say so when you can't.
 """
 
-NO_SCRIPTS_PARAGRAPH = """This copy has no scripts. Do the quote, count, evidence, review-point
-and wording checks at stages 7 and 8 by hand and say so in the record. For Word or Excel files,
+NO_SCRIPTS_PARAGRAPH = """This copy has no scripts. Do the quote, count, evidence, review-point,
+wording and personal-details checks by hand and say so in the record. For Word or Excel files,
 use the tool's own way to make them if it has one, or give the formatted
 draft to copy in.
 """
@@ -393,8 +395,8 @@ COPILOT_PARAGRAPH = """This copy has no scripts, and to fit Copilot's file limit
 files are combined. When a file names another, such as
 `stages-07-analyze.md`, open the combined file the list below gives for it
 and go to the line `<!-- file: stages-07-analyze.md -->`; that file runs
-until the next such line. Do the quote, count and evidence checks at
-stages 7 and 8 by hand and say so in the record. For Word or Excel files,
+until the next such line. Do the quote, count, evidence and
+personal-details checks by hand and say so in the record. For Word or Excel files,
 use the tool's own way to make them if it has one, or give the formatted
 draft to copy in.
 """

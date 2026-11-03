@@ -1,8 +1,8 @@
 # Security
 
 Magpie is a set of plain-text instructions for an AI tool. `magpie.zip`
-also includes seven small Python programs that check quotes and numbers
-and create Word and Excel files. None of them connects to the internet.
+also includes eight small Python programs that check quotes, numbers
+and personal details and create Word and Excel files. None of them connects to the internet.
 Magpie has no server, no accounts and no database, and it doesn't send
 anything to its maker. So most security questions are about the AI tool
 you run it in. The README's

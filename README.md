@@ -157,8 +157,8 @@ Business, Enterprise, Healthcare and Edu workspaces (checked October 26,
 2. Choose **Create** > **Upload from your computer** and upload
    `magpie.zip`.
 3. If ChatGPT says **Needs Review**, read what it flags. The only code in
-   the package is seven small scripts that check quotes, counts and
-   wording and make Word and Excel files; none of them connects to the
+   the package is eight small scripts that check quotes, counts,
+   wording and personal details and make Word and Excel files; none of them connects to the
    internet.
 4. Install it, then start a chat and type `@magpie`, or just describe
    your study.
@@ -528,9 +528,9 @@ explains what Magpie does and what it leaves to your tool.
   website, no account and no database. It doesn't send anything to its
   maker or to anyone else. If you save a file, like a report, it
   goes wherever you choose to save it.
-- **Seven small programs, in one download only.** `magpie.zip` includes
-  seven small programs. They check quotes and numbers and create Word
-  and Excel files. None of them connects to the internet, and they only
+- **Eight small programs, in one download only.** `magpie.zip` includes
+  eight small programs. They check quotes, numbers and personal details
+  and create Word and Excel files. None of them connects to the internet, and they only
   run if your AI tool allows it. The Gemini and Copilot downloads have no
   programs at all.
 - **An add-on that can't access anything by itself.** Some AI tools call
@@ -557,9 +557,16 @@ explains what Magpie does and what it leaves to your tool.
   is labeled with a code and a general description, such as a job role.
   It never shows a name or a company. If a description could point to
   one person, Magpie makes it more general.
-- **It checks again before anything is shared.** Before a report or
-  presentation goes out, Magpie checks that nobody in it can be
-  identified.
+- **It checks again before anything is shared.** Before a report, a
+  deck, a summary, a persona or anything else meant for other people
+  goes out, Magpie checks that nobody in it can be identified. It fixes
+  what it finds before asking for your OK, and tells you what it changed.
+- **The rules depend on where it's going.** Shared with your team, the
+  wider company, or outside it: each has its own rules. Participants'
+  names are never allowed anywhere. Customer or employer company names
+  are left out unless your [team profile](core/team/team-profile.md)
+  allows them for internal outputs, and never go outside. If Magpie
+  doesn't know where something is going, it assumes the wider company.
 - **Its own notes stay free of personal details.** The notes Magpie
   keeps about your study and your team never include participants' names
   or contact details.
