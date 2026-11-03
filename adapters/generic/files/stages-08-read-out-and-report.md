@@ -178,7 +178,7 @@ again.
     changed ("two employer names became [company]; P7's label broadened
     to 'technical leader'"). A destination the researcher hasn't named
     is asked for, once, with the stage's other questions; until it's
-    answered, the check runs as if the output were leaving the company.
+    answered, the check runs for the company.
 17. **Run the independent review** on the final report and the readout
     deck together (`review-independent-review.md`). It's required for any
     readout content, however small: a single findings slide or a summary

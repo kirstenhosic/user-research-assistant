@@ -99,6 +99,11 @@ review in the record's change log.
 >    passive voice that hides who did what, and vague words ("most",
 >    "significant", "users want") where a number or a name belongs. Quote
 >    the sentence and offer a plainer version.
+> 11. **Could anyone be identified?** Flag any name, email, phone number,
+>    handle or company name left in, and any description or quote detail
+>    that, alone or together, points to one person (the only person in a
+>    role, a city or a company size in the sample). Say what to make
+>    more general.
 >
 > Reply as a numbered list of problems. Each item names the finding or
 > recommendation, states the problem in a sentence, and points to the

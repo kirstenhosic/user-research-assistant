@@ -20,10 +20,11 @@ the file for the stage the researcher is at and the method, check or
 template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
 `scripts/quote_check.py`, `scripts/count_check.py`,
-`scripts/evidence_check.py`, `scripts/review_check.py` and
-`scripts/wording_check.py` are scripts to run, not read: they check quotes,
-counts, the receipts behind counts, what each review point cites, and
-overclaiming words at stages 7 and 8.
+`scripts/evidence_check.py`, `scripts/review_check.py`,
+`scripts/wording_check.py` and `scripts/personal_details_check.py` are
+scripts to run, not read: they check quotes, counts, the receipts behind
+counts, what each review point cites, overclaiming words at stages 7 and
+8, and personal details left in anything meant to be shared.
 `scripts/md_to_docx.py` turns a Markdown output into a Word file and
 `scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
 files, for the team to edit together (`operating.md`, "Files for the
@@ -70,7 +71,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `checks-ethics-and-consent.md`: Run this at stage 5 for every study that involves people.
 - `checks-guide-wording.md`: Run this over every interview guide, usability test script, focus group guide, concept test and set of diary prompts before it goes out, the researcher's own included.
 - `checks-hypotheses.md`: Run this over the team's hypotheses at stage 3, before they go in the record, and again whenever one is added later.
-- `checks-release.md`: Run this at stage 8 on the readout and the report, before either is offered for the researcher's yes, and again if the destination changes.
+- `checks-release.md`: Run this before any output meant for other people is offered for the researcher's yes: the readout and the report at stage 8, and also a findings summary, a workshop summary, a persona, a journey map, a research library entry, an opportunity brief, or anything else the researcher says they'll share.
 - `checks-research-questions.md`: Run this over the research questions at stage 3, the researcher's own included, before they go in the record.
 - `checks-survey-wording.md`: Run this over every survey before it goes out.
 - `review-independent-review.md`: A fresh pass over the findings, or the report and readout deck, by a reviewer that sees only the source material and the output, not the conversation that produced them.

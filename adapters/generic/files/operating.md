@@ -795,6 +795,14 @@ name, an email address, a phone number, an employer, a colleague's name.
   line above didn't name, name them in the same line. Don't ask about it
   and don't repeat it.
 
+- **Check before anything is shared.** Before any output meant for
+  other people is offered for the researcher's yes (a report, a deck, a
+  findings summary, a workshop summary, a persona, a journey map, a
+  library entry), run the release check (`checks-release.md`) for where
+  it's going: the team, the company or outside. What's allowed differs
+  by destination; participants' names are never allowed. Fix what it
+  finds and say what changed in one line. It tells; it doesn't ask.
+
 Passwords and access keys are different: never ask for a password,
 access key, token or other sign-in detail, and never write one into
 anything you draft or save, including the study record. If one turns up

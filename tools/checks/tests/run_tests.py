@@ -3,8 +3,8 @@
 
 Usage: python3 tools/checks/tests/run_tests.py
 
-Runs quote_check.py, count_check.py, evidence_check.py, review_check.py and
-wording_check.py on a clean fixture (expected to pass)
+Runs quote_check.py, count_check.py, evidence_check.py, review_check.py,
+wording_check.py and personal_details_check.py on a clean fixture (expected to pass)
 and a planted fixture (expected to fail on known lines). Exit 1 if any
 expectation is missed, so tools/check.py can call this.
 """
@@ -54,6 +54,13 @@ CASES = [
     ("wording_check planted", [PY, str(CHECKS / "wording_check.py"), "wording-planted.md"], 1,
      ["7 to reread", "every-or-none word 'All'", "vague amount 'Most'", "cause word 'drives'",
       "vague amount 'users want'", "overclaiming word 'clearly'", "'significant' with no test named"]),
+    ("personal_details_check clean", [PY, str(CHECKS / "personal_details_check.py"), "details-clean.md",
+                                      "--names", "Marcus, Northwind"], 0,
+     ["No personal details found", "2 name(s)"]),
+    ("personal_details_check planted", [PY, str(CHECKS / "personal_details_check.py"), "details-planted.md",
+                                        "--names", "Marcus, Northwind"], 1,
+     ["line 3: name 'Marcus'", "line 4: name 'Northwind'", "email 'jo.baker@example.com'",
+      "phone number '+1 (555) 012-3456'", "handle '@ledgerline_jo'", "5 personal detail(s) to remove"]),
     # The fixture studies in evals/fixtures/ carry planted quote and count
     # problems; the code checks must catch the ones they can.
     ("quote_check harbor-invites", [PY, str(CHECKS / "quote_check.py"), str(HARBOR / "draft-findings.md"),
