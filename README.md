@@ -214,6 +214,81 @@ conversation"* and every reply ends with a status line, such as *Magpie ·
 Planning the study*. If not, see
 [When something goes wrong](#when-something-goes-wrong).
 
+### Get more from Magpie (optional)
+
+Magpie works fine without any of this. These are small changes to your
+AI tool's settings that can make its answers more careful. Try one, or
+none. You can undo each of them any time.
+
+Menus in AI tools move often. The steps below were checked on each
+company's help pages on November 3, 2026. If you can't find a setting,
+ask your AI tool where it is. It can usually tell you.
+
+#### 1. Ask your AI to say when it isn't sure
+
+AI tools can sound just as confident when they're wrong as when they're
+right. You can give your tool standing instructions, which are notes it
+reads before every chat. Magpie already follows rules like these. Adding
+them to your tool helps in your other chats too.
+
+Copy this and paste it where your tool keeps its instructions:
+
+```
+Be accurate before you are helpful. A confident wrong answer is worse
+than no answer.
+- If you are not sure about something, say so. Never present a guess
+  as a fact.
+- Do not make up sources, authors, links or book titles. If you can't
+  name a real source, say so.
+- Only say a real person said something if you are sure they did.
+- If a number doesn't come from what I gave you, say how sure you are
+  and suggest I check it. Counts from my own data don't need this.
+- Tell me when something may have changed since your information was
+  last updated.
+- If something is unclear or missing, ask me instead of guessing.
+```
+
+- **Claude.ai:** select your initials in the lower left, then
+  **Settings** > **Your Claude** > **Instructions**. (In some accounts
+  it's **Settings** > **Account** > **Instructions for Claude**.)
+- **Gemini:** open the menu, then **Settings & help** > **Personal
+  Intelligence** > **Instructions for Gemini**, and choose **Add**.
+- **Copilot Cowork:** open **Customize**, then the **Preferences** tab.
+
+These instructions apply to every chat in that tool, not only Magpie.
+Can't find the place? Ask your tool: *"Where do I add instructions that
+apply to every chat?"*
+
+#### 2. Give it more time to think for analysis and reports
+
+Most AI tools let you pick a **model**, which is the version of the AI
+that answers you. Some also let it **think** longer before it answers.
+A stronger model with more thinking is usually more careful with
+transcripts, themes and reports. Answers come more slowly, and they may
+use up your plan's limit faster. So it's worth it for analysis and
+reports more than for quick questions.
+
+- **Claude.ai:** select the model name next to the send button. Pick a
+  model, and raise **Effort** or turn on **Thinking** if you see them.
+- **Copilot Cowork:** the model picker starts on **Auto** and reasoning
+  effort starts on **Medium**. You can pick a model and raise the effort.
+- **Gemini:** ask Gemini: *"How do I choose a different model?"*
+
+#### 3. Share transcripts as files, one per participant
+
+Magpie checks each quote against the transcript it came from. That's
+easiest when each participant has their own file, named with their
+participant code, such as `P01.docx` or `P01.txt`. Pasting works too,
+but files make it simpler for you to check Magpie's work later.
+
+#### 4. Know whether your tool remembers past chats (Gemini)
+
+Some tools can remember things from past conversations. In Gemini this is
+called **Memory**, under **Settings & help** > **Personal Intelligence**.
+It's only available in some places and plans. If it's on, details from
+an older study could slip into a new one. If that happens, tell Magpie
+which study you're working on, or turn Memory off while you work.
+
 ### Your first study, step by step
 
 Once Magpie is set up:
