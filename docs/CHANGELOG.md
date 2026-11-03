@@ -13,6 +13,11 @@
   the AI tools themselves go to their makers. The README's privacy
   section links to it.
 
+- Releases: each release now includes `SHA256SUMS.txt`, a SHA-256
+  fingerprint for each zip, so people and security teams can check a
+  download is the real file. The README's privacy section says how.
+  Releases made before this change don't have it.
+
 ## 2026-11-02
 
 - README privacy section: new "Make it fit your team's rules" part. Teams

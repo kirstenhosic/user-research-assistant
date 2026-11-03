@@ -614,6 +614,10 @@ security. It doesn't claim to meet any privacy law or security standard.
 It also comes with no guarantee or support. Your security team is
 welcome to read every file. Only download Magpie from this page's
 [releases](https://github.com/kirstenhosic/user-research-assistant/releases).
+Each release also includes `SHA256SUMS.txt`, a fingerprint for each
+zip. Your security team can use it to check that a download is the real
+file and hasn't been changed. To do it yourself, ask your AI tool: *"How
+do I check the SHA-256 fingerprint of a file?"*
 
 Found a security problem? Please report it privately, as
 [`SECURITY.md`](SECURITY.md) explains, not in a public issue.
