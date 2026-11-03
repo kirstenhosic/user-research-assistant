@@ -5,6 +5,9 @@
 - README: removed the "Make Magpie ask fewer questions" section, its
   "On this page" link and the pointer to it in "Get started". It
   encouraged skipping Magpie's questions, which are intended.
+- README: in "What's inside Magpie", the first and last bullets now
+  name what is inside Magpie ("Plain-text files you can read", "No
+  installer and no permissions of its own").
 
 - Personal details in shared outputs: the release check now runs on any
   output meant for other people (findings summaries, workshop summaries,

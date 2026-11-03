@@ -509,7 +509,7 @@ explains what Magpie does and what it leaves to your tool.
 
 ### What's inside Magpie
 
-- **Open and easy to check.** Magpie is mostly plain text: its
+- **Plain-text files you can read.** Most of Magpie is plain text:
   instructions, guides, checklists and templates. Before you use it,
   you or your security team can open every file and see exactly what it
   tells your AI tool to do.
@@ -522,7 +522,7 @@ explains what Magpie does and what it leaves to your tool.
   and create Word and Excel files. None of them connects to the internet, and they only
   run if your AI tool allows it. The Gemini and Copilot downloads have no
   programs at all.
-- **An add-on that can't access anything by itself.** Some AI tools call
+- **No installer and no permissions of its own.** Some AI tools call
   add-ons like Magpie "plugins". Magpie doesn't install software or ask
   for permission to reach anything. It can only use what your AI tool
   already gives it.
