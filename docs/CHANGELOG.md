@@ -2,6 +2,15 @@
 
 ## 2026-11-03
 
+- README: a new section, "How Magpie helps your product team", right
+  after "How Magpie works" and linked from the intro and "On this page".
+  It says why research matters (it helps the team make a better
+  decision) and how Magpie builds that thinking into each study: checking
+  what's already known, finding questions nobody has asked yet, bringing
+  in stakeholders and other teams' data, turning findings into action
+  while the team agrees who does what, and helping researchers at every
+  level. No change to how Magpie works.
+
 - Personal details in shared outputs: the release check now runs on any
   output meant for other people (findings summaries, workshop summaries,
   personas, journey maps, library entries, opportunity briefs), not just
