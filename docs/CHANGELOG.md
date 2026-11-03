@@ -2,6 +2,14 @@
 
 ## 2026-11-03
 
+- README: new section "Get more from Magpie (optional)" after "Check
+  that it worked". Four tips for AI beginners: a copy-paste set of
+  accuracy instructions and where to add them in Claude.ai, Gemini and
+  Copilot Cowork; more thinking for analysis and reports; one transcript
+  file per participant; and knowing whether Gemini remembers past chats.
+  Menu paths were checked on each company's help pages on November 3,
+  2026.
+
 - README: removed the "Make Magpie ask fewer questions" section, its
   "On this page" link and the pointer to it in "Get started". It
   encouraged skipping Magpie's questions, which are intended.
