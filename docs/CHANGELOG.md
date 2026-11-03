@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-11-03
+
+- README: a "Use at your own risk" note near the top. Magpie is free and
+  comes as is, with no warranty or support; people are responsible for
+  what they share, for checking Magpie's work and for following their
+  organization's rules; its suggestions are a starting point, not legal,
+  privacy or compliance advice.
+
+- New `SECURITY.md`: how to report a security problem privately, what to
+  expect (no promised response time or support), and that problems in
+  the AI tools themselves go to their makers. The README's privacy
+  section links to it.
+
 ## 2026-11-02
 
 - README privacy section: new "Make it fit your team's rules" part. Teams
