@@ -40,7 +40,6 @@ Reference:
 - [Methods it covers](#methods-it-covers)
 - [Shortcuts you can type](#shortcuts-you-can-type)
 - [Pick up where you left off](#pick-up-where-you-left-off)
-- [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions)
 - [Can I trust it?](#can-i-trust-it)
 - [Privacy, security and personal details](#privacy-security-and-personal-details)
 - [When something goes wrong](#when-something-goes-wrong)
@@ -233,9 +232,7 @@ Once Magpie is set up:
    (tell it if that's wrong), then asks up to six short questions under
    "Questions for you to answer". A line each is enough, and you can skip
    the ones marked optional. The more you share at the start, such as a
-   brief or past research, the fewer questions it asks. To share less
-   each time, see
-   [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions).
+   brief or past research, the fewer questions it asks.
 4. **Read the draft, then say "yes".** Nothing counts as done until you
    do. Start with the points marked "read hardest": where the decision
    leans most and the evidence is thinnest. If you'd do something
@@ -480,14 +477,6 @@ what you've already answered.
 Some tools show how much of the conversation they can still hold. Ask
 yours: *"Does this tool show how full this conversation is?"*
 
-## Make Magpie ask fewer questions
-
-These are optional. Fill in the [team profile](core/team/team-profile.md)
-once with your products, users, goals and research rules, and attach it
-when you start a study, so Magpie doesn't have to ask about them. Send
-the [intake form](core/team/intake-form.md) to PMs and designers who ask
-you for research; Magpie can start from a filled one.
-
 ## Can I trust it?
 
 - **It's early.** Magpie has been tested only in Claude Code. Other agent
@@ -520,7 +509,7 @@ explains what Magpie does and what it leaves to your tool.
 
 ### What's inside Magpie
 
-- **Open and easy to check.** Magpie is mostly plain text: its
+- **Plain-text files you can read.** Most of Magpie is plain text:
   instructions, guides, checklists and templates. Before you use it,
   you or your security team can open every file and see exactly what it
   tells your AI tool to do.
@@ -533,7 +522,7 @@ explains what Magpie does and what it leaves to your tool.
   and create Word and Excel files. None of them connects to the internet, and they only
   run if your AI tool allows it. The Gemini and Copilot downloads have no
   programs at all.
-- **An add-on that can't access anything by itself.** Some AI tools call
+- **No installer and no permissions of its own.** Some AI tools call
   add-ons like Magpie "plugins". Magpie doesn't install software or ask
   for permission to reach anything. It can only use what your AI tool
   already gives it.
