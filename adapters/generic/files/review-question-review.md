@@ -131,4 +131,4 @@ pilot session with a real participant still catches what no review does.
 
 ---
 
-Part of Magpie version 2026-11-03, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-04, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
