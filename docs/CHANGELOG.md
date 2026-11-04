@@ -7,6 +7,9 @@
   (`docs/images/magpie-intro-video.jpg`). This first version has
   captions only; a version with voice-over is planned.
 
+- README: the intro video link now points to the version with
+  voice-over (voice by Prabarna Ganguly).
+
 ## 2026-11-03
 
 - README: new section "Get more from Magpie (optional)" after "Check
