@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-04
+
+- README: a link to the new intro video on YouTube, near the top, with a
+  thumbnail made from the video's title frame
+  (`docs/images/magpie-intro-video.jpg`). This first version has
+  captions only; a version with voice-over is planned.
+
 ## 2026-11-03
 
 - README: new section "Get more from Magpie (optional)" after "Check

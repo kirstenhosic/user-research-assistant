@@ -9,6 +9,11 @@ you can spend more of your time on the thinking only you can do. It's
 built for researchers, and for PMs and designers doing their own
 research.
 
+**Watch the intro video** (about 3½ minutes, with captions) to see what
+Magpie does and how to get started:
+
+<a href="https://youtu.be/mdAPt98_u64"><img src="docs/images/magpie-intro-video.jpg" alt="Meet Magpie: watch the intro video on YouTube" width="560"></a>
+
 Made by Kirsten Hosic.
 
 Why a magpie: it collects the shiny bits of evidence that already exist,
