@@ -10,6 +10,12 @@
 - README: the intro video link now points to the version with
   voice-over (voice by Prabarna Ganguly).
 
+- README: links to each tool's setup steps, so readers can skip ahead.
+  "On this page" now lists every tool under "Get started". In "Set up
+  Magpie", the tool list is now a bulleted list with a link to "Check
+  that it worked", and the tool names in the download table link to
+  their steps.
+
 ## 2026-11-03
 
 - README: new section "Get more from Magpie (optional)" after "Check

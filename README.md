@@ -37,6 +37,11 @@ compliance advice.
 **On this page**
 
 - **[Get started](#get-started)** (start here)
+  - Set up Magpie in your tool: [Claude Code](#claude-code) ·
+    [Claude.ai](#claudeai) · [ChatGPT](#chatgpt) · [Gemini](#gemini) ·
+    [Copilot](#copilot) ·
+    [Codex, OpenCode or Gemini CLI](#other-agent-tools-codex-opencode-gemini-cli) ·
+    [another AI tool](#any-other-ai-tool)
 - **[How Magpie works](#how-magpie-works)**
 
 Reference:
@@ -95,18 +100,25 @@ tool, see [Privacy, security and personal details](#privacy-security-and-persona
 
 ### Set up Magpie
 
-Jump to your tool: [Claude Code](#claude-code) ·
-[Other agent tools](#other-agent-tools-codex-opencode-gemini-cli) ·
-[Claude.ai](#claudeai) · [ChatGPT](#chatgpt) · [Gemini](#gemini) ·
-[Copilot](#copilot) · [Any other AI tool](#any-other-ai-tool)
+Jump to the steps for your tool:
+
+- [Claude Code](#claude-code)
+- [Codex, OpenCode or Gemini CLI](#other-agent-tools-codex-opencode-gemini-cli)
+- [Claude.ai](#claudeai)
+- [ChatGPT](#chatgpt)
+- [Gemini](#gemini)
+- [Copilot](#copilot)
+- [Any other AI tool](#any-other-ai-tool)
+
+When you're done, [check that it worked](#check-that-it-worked).
 
 First, download the file for your tool:
 
 | Your tool | Download |
 | --- | --- |
-| Gemini | **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)** |
-| Copilot | **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)** |
-| Any other tool | **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)** |
+| [Gemini](#gemini) | **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)** |
+| [Copilot](#copilot) | **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)** |
+| Any other tool, including [Claude Code](#claude-code), [Claude.ai](#claudeai) and [ChatGPT](#chatgpt) | **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)** |
 
 Each one holds everything Magpie needs for that tool.
 
