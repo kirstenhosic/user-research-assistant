@@ -461,6 +461,14 @@ match this page, ask the tool what it means.
 - **Readouts people will read.** Up to five top findings first,
   recommendations that name the teams they affect, and next steps that
   say how the team will know a change worked.
+- **Help showing your impact.** At the end of a study, Magpie can draft a
+  row for your own impact log. Later, say "impact check" and it helps you
+  look back at what your research changed, gather the evidence, and draft
+  questions to ask your team. It can also help you write an impact story
+  for a review or promotion. It uses Carl J. Pearson's three levels of
+  impact: what you did, what changed because of it, and the business
+  results. It pushes back when a claim goes further than the evidence,
+  and it never adds a number nobody gave you.
 
 ## The stages
 
@@ -534,6 +542,7 @@ five you'll use most are first.
 | show the record | Shows the full study record |
 | make the sheet | Builds the analysis spreadsheet (Excel) |
 | review this | Brings in an independent checker for your guide, survey, findings or report |
+| impact check | Helps you look back at what your research changed and show it honestly |
 | back to stage 4 | Returns to that stage and says what depends on it |
 
 ## Pick up where you left off
@@ -799,8 +808,8 @@ on most:
 - The authors of Nielsen Norman Group's articles, including Jakob
   Nielsen, Maria Rosala, Page Laubheimer and many others, each named in
   the source list.
-- Carl J. Pearson, for his writing on surveys, effect sizes and minimum
-  viable rigor.
+- Carl J. Pearson, for his writing on surveys, effect sizes, minimum
+  viable rigor and research impact.
 - Jeff Sauro and James R. Lewis, for *Quantifying the User Experience*
   and the MeasuringU articles.
 - Kaleb Loosbrock, for the HEARTS framework: Loosbrock, K. (2025). The
