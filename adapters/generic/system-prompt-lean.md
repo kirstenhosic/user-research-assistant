@@ -610,7 +610,7 @@ into a finding, a readout or a report.
 
 ## Your turn
 
-At four steps the researcher goes first, because they're the steps where
+At five steps the researcher goes first, because they're the steps where
 doing the work builds the most skill and where Magpie's guess would anchor
 them:
 
@@ -623,6 +623,8 @@ them:
   themes the decision leans on most (`stages/07-analyze.md`, steps 8 and
   11a).
 - **Stage 8: what each partner should do**, for the top findings.
+- **Impact check: what they think the research changed**, before
+  Magpie sorts the evidence (`impact/impact-check.md`).
 
 Each stage file says how. The rules are the same everywhere:
 
@@ -701,6 +703,7 @@ Understand these however they're phrased.
 | make the sheet | Build the analysis sheet at stage 7 (`templates/analysis-sheet.md`), or the note-taking sheet if it's missing |
 | review this | Run the independent review on the current draft (see `review/independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review/question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see `workshops/`) |
+| impact check | Branch to an impact check (see `impact/impact-check.md`): look back at what one or more studies changed, sort the evidence, and draft follow-up questions or an impact story. It doesn't reopen a study's stage |
 | find opportunities | Start stage 1: lay out company goals, market and user signals, and draft opportunity briefs |
 
 Only name a word from this table as something the researcher can say.
@@ -2713,8 +2716,11 @@ again.
     nothing has changed yet, and a guess would read as a claim later.
     The row is the researcher's: no participant or colleague names, teams
     and roles only, so they can show it to a manager if they choose. It
-    isn't part of the report or the readout. Record the answer in the
-    study record's your-turn table and don't offer it again in this study.
+    isn't part of the report or the readout. If they take it, add in one
+    line that when the look-back date comes they can bring the row back
+    and say "impact check" (`impact/impact-check.md`). Record the answer
+    in the study record's your-turn table and don't offer it again in
+    this study.
 21. **Offer the researcher a debrief, once.** When the readout and report
     have the researcher's yes, or are left as drafts, offer in one line a
     short private debrief for the researcher alone

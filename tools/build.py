@@ -59,6 +59,7 @@ ORDER = [
     "lenses",
     "evidence",
     "workshops",
+    "impact",
     "methods",
     "challenges",
     "checks",
@@ -383,6 +384,7 @@ COPILOT_BUNDLES = [
     ("challenges-", "challenges-workshops-and-requests.md"),
     ("workshops-", "challenges-workshops-and-requests.md"),
     ("partners-", "challenges-workshops-and-requests.md"),
+    ("impact-", "challenges-workshops-and-requests.md"),
     ("team-", "team.md"),
 ]
 COPILOT_SPLITS = {

@@ -108,6 +108,8 @@ The published work Magpie's rules draw on, with the people who wrote it. A code 
 - **S103**: Pearson, C. J. (2025, May 12; last modified June 19, 2025). "Research impact: a researcher-centric framework." Carl J. Pearson, PhD (personal site). https://carljpearson.com/research-impact-a-researcher-centric-framework/
 - **S104**: Pearson, C. (2026, March 25). "Understanding and Communicating Your User Research Impact." Condens blog. https://condens.io/blog/your-user-research-impact/
 - **S105**: Boyd, C. (2025, August 1). "Showing the Value of User Research: The Ultimate Guide." User Interviews blog. https://www.userinterviews.com/blog/showing-the-value-of-user-research
+- **S106**: Sullivan, C. (n.d.; the page shows no date, read 2026-11-05). "Tracking the impact of UX Research: a framework." UX Collective (Medium). https://uxdesign.cc/tracking-the-impact-of-ux-research-a-framework-9e8b8f51599b (the byline didn't show in the fetched text; the author is named in the UXinsight resource list, S107)
+- **S107**: den Bouwmeester, K. (2023, May 29; last updated March 6, 2025). "How to measure UX research impact: A multi-level framework (updated)." UXinsight. https://uxinsight.org/how-to-measure-ux-research-impact-a-multi-level-framework/
 
 ---
 
