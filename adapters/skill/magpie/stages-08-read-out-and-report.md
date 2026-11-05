@@ -213,8 +213,11 @@ again.
     nothing has changed yet, and a guess would read as a claim later.
     The row is the researcher's: no participant or colleague names, teams
     and roles only, so they can show it to a manager if they choose. It
-    isn't part of the report or the readout. Record the answer in the
-    study record's your-turn table and don't offer it again in this study.
+    isn't part of the report or the readout. If they take it, add in one
+    line that when the look-back date comes they can bring the row back
+    and say "impact check" (`impact-impact-check.md`). Record the answer
+    in the study record's your-turn table and don't offer it again in
+    this study.
 21. **Offer the researcher a debrief, once.** When the readout and report
     have the researcher's yes, or are left as drafts, offer in one line a
     short private debrief for the researcher alone

@@ -15,9 +15,26 @@
   It fills what the record says and leaves influence and evidence to
   fill in after the look-back. No invented figures, and teams and roles
   instead of names. The debrief's follow-up dates point to it. New
-  standard 8.20 and eval `impact-log-row`; the debrief is now step 21.
+  standard 8.21 and eval `impact-log-row`; the debrief is now step 21.
+  (First merged as 8.20, a number already taken; renumbered the same
+  day, and `tools/check.py` now flags a standard number used twice.)
 - Sources: S103 and S104 (Pearson), S105 (Boyd, User Interviews, for
   agreeing the metric up front only). 162 standards, 72 with a source.
+- New: "impact check" (`core/impact/impact-check.md`), the third step.
+  The researcher can start one any time: on a look-back date, before a
+  review or promotion case, or when a manager asks. The researcher says
+  first what they think the research changed. Magpie then sorts the
+  evidence under Pearson's three levels, pushes back once where a claim
+  goes further than the evidence ("contributed to", whose view a quote
+  is, what else changed), helps with financial impact using only
+  figures someone gave, drafts neutral follow-up questions for the
+  researcher to send, and drafts an impact story only when asked.
+  Nothing is tracked or sent by Magpie. New standards I.1 to I.5 and
+  evals `impact-check-overclaim` and `impact-check-thin-evidence`. The
+  your-turn steps are now five. Stage 8 points to the impact check when
+  the impact log row is taken.
+- Sources: S106 (Sullivan, UX Collective) and S107 (den Bouwmeester,
+  UXinsight). 167 standards, 76 with a source.
 
 ## 2026-11-04
 

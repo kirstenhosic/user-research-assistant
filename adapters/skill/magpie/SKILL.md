@@ -46,6 +46,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `lenses-systems-and-journeys.md`: A study is never just about one screen or one feature.
 - `evidence-where-to-look.md`: How Magpie helps collect evidence at stage 1 and stage 2, so "gather what exists" takes minutes, not a week.
 - `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers.
+- `impact-impact-check.md`: Help the researcher look back at what their research changed, gather the evidence, and say it honestly.
 - `methods-analytics-and-ab-tests.md`: Learn from records of what people do in a live product.
 - `methods-benchmarking.md`: Measure how well a product works with a few set numbers, then compare them with something: an earlier version, a competitor, a published figure or a goal the team set.
 - `methods-card-sorting-and-tree-testing.md`: Three methods for information architecture.

@@ -169,6 +169,8 @@ def check_standards_and_evals() -> None:
             if not m:
                 continue
             sid, _, basis, evals = m.groups()
+            if sid in ids:
+                fail(f"{path.name}: standard {sid} is listed twice")
             ids.add(sid)
             for src in SRC.findall(basis):
                 if src not in known:

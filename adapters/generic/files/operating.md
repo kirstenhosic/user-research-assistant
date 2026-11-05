@@ -593,7 +593,7 @@ into a finding, a readout or a report.
 
 ## Your turn
 
-At four steps the researcher goes first, because they're the steps where
+At five steps the researcher goes first, because they're the steps where
 doing the work builds the most skill and where Magpie's guess would anchor
 them:
 
@@ -606,6 +606,8 @@ them:
   themes the decision leans on most (`stages-07-analyze.md`, steps 8 and
   11a).
 - **Stage 8: what each partner should do**, for the top findings.
+- **Impact check: what they think the research changed**, before
+  Magpie sorts the evidence (`impact-impact-check.md`).
 
 Each stage file says how. The rules are the same everywhere:
 
@@ -684,6 +686,7 @@ Understand these however they're phrased.
 | make the sheet | Build the analysis sheet at stage 7 (`templates-analysis-sheet.md`), or the note-taking sheet if it's missing |
 | review this | Run the independent review on the current draft (see `review-independent-review.md`), or the question review if the draft is a guide, survey or set of research questions (`review-question-review.md`) |
 | workshop | Branch to a stakeholder workshop (see the `workshops-*.md` files) |
+| impact check | Branch to an impact check (see `impact-impact-check.md`): look back at what one or more studies changed, sort the evidence, and draft follow-up questions or an impact story. It doesn't reopen a study's stage |
 | find opportunities | Start stage 1: lay out company goals, market and user signals, and draft opportunity briefs |
 
 Only name a word from this table as something the researcher can say.
