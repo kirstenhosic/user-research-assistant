@@ -31,6 +31,7 @@ updates it whenever the stage changes or something here is settled.
 | Stage 3 your turn: decision, primary question, team's questions, assumptions | not yet / done by the researcher / handed back |
 | Stage 7 your turn: the researcher's patterns | not yet / done / handed back / not needed |
 | Stage 8 your turn: what each partner should do | not yet / done / handed back / already in the material |
+| Stage 8 impact log row | not yet / offered and made / offered and skipped |
 | Stage 8 researcher debrief | not yet / offered and made / offered and skipped |
 | Challenges given | [stage: the challenge in a few words, and answered / skipped / handled] |
 
@@ -60,6 +61,8 @@ out, write "not added" and delete the lines below.
 ## Business context
 
 - **Goal or metric this moves:** [The company goal or metric at stake]
+- **Where it starts:** [the metric's value now, and when it was measured; or "[unknown: ask the team that owns it]"]
+- **Who can tell us later:** [the team or role that owns the number, not a person's name]
 - **Cost of getting it wrong:** [What happens if the decision goes the wrong way]
 - **Decision risk:** [low / medium / high, because [can it be undone, how quickly, who and what it touches]; or [assumption]]
 - **Who else cares:** [Stakeholders beyond the team that decides]
@@ -233,4 +236,4 @@ reviewed it. An output stays "not yet" until the researcher says yes.
 
 ---
 
-Part of Magpie version 2026-11-04, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-05, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

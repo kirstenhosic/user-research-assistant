@@ -105,6 +105,16 @@ it in the record.
    the decision can be undone, draft the decision risk (low, medium or
    high) with a one-line reason (`lenses-minimum-viable-rigor.md`). It
    sets how much rigor the study needs at stage 4.
+   Then, in the same step, draft two lines that make the impact
+   checkable later: where the metric starts (its value now and when it
+   was measured, from the team profile, a document or the researcher's
+   words) and who can tell us later (the team or role that owns the
+   number, not a person's name). Draft them; don't add questions for
+   them. If nobody has said, write "[unknown: ask the team that owns
+   it]" and name that team if you know it. Never guess a value. These
+   lines feed the "How we'll know it worked" line and the impact log row
+   at stage 8 (`templates-impact-log.md`): without a starting point,
+   nobody can say later whether the number moved.
 4. **Write the research questions.** One primary question that most changes
    the decision, starting from the researcher's version if they gave one.
    Fold in the questions the team already had: keep the ones that serve
@@ -166,6 +176,8 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
   researcher's choice.
 - A decision statement with the team or group making it, the deadline and the options.
 - A business reason, or an honest "[assumption]" placeholder.
+- Where the metric starts and who can tell us later, drafted or marked
+  unknown, never guessed.
 - Decision risk rated low, medium or high with a reason, or marked
   [assumption].
 - A primary research question tied to the decision.
@@ -207,4 +219,4 @@ satisfy it.
 
 ---
 
-Part of Magpie version 2026-11-04, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-05, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

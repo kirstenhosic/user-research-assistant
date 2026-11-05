@@ -28,7 +28,8 @@ happened yet, leave that part as a prompt to fill in afterwards.
 ## Follow-up dates
 
 - [Date: what to check, and which team to check with. Include the "How
-  we'll know it worked" date from the report's next steps]
+  we'll know it worked" date from the report's next steps. On that date,
+  fill in the influence and evidence in the impact log row, if there is one]
 
 ## How the readout landed
 

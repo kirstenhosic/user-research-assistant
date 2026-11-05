@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-11-05
+
+- New: help researchers show the impact of their research, in two
+  steps. It uses Carl J. Pearson's three levels of research impact
+  (execution, influence and outcome) and credits him (S103, S104).
+- Stage 3: the business context now drafts where the metric starts
+  and who can tell us later (a team or role, not a person). Magpie
+  drafts these lines rather than asking more questions, and writes
+  "unknown" instead of guessing a value. New standard 3.12 and eval
+  `impact-starting-point`.
+- Stage 8: a new optional offer, once, next to the library entries: one
+  row for the researcher's own impact log (`templates/impact-log.md`).
+  It fills what the record says and leaves influence and evidence to
+  fill in after the look-back. No invented figures, and teams and roles
+  instead of names. The debrief's follow-up dates point to it. New
+  standard 8.20 and eval `impact-log-row`; the debrief is now step 21.
+- Sources: S103 and S104 (Pearson), S105 (Boyd, User Interviews, for
+  agreeing the metric up front only). 162 standards, 72 with a source.
+
 ## 2026-11-04
 
 - README: a link to the new intro video on YouTube, near the top, with a
