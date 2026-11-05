@@ -35,6 +35,10 @@
   the impact log row is taken.
 - Sources: S106 (Sullivan, UX Collective) and S107 (den Bouwmeester,
   UXinsight). 167 standards, 76 with a source.
+- README: "What you get" now describes the impact log row and the
+  impact check, "Shortcuts you can type" lists "impact check", and
+  "Thanks to" credits Carl J. Pearson for his writing on research
+  impact.
 
 ## 2026-11-04
 
