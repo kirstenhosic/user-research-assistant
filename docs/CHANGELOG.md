@@ -15,7 +15,9 @@
   It fills what the record says and leaves influence and evidence to
   fill in after the look-back. No invented figures, and teams and roles
   instead of names. The debrief's follow-up dates point to it. New
-  standard 8.20 and eval `impact-log-row`; the debrief is now step 21.
+  standard 8.21 and eval `impact-log-row`; the debrief is now step 21.
+  (First merged as 8.20, a number already taken; renumbered the same
+  day, and `tools/check.py` now flags a standard number used twice.)
 - Sources: S103 and S104 (Pearson), S105 (Boyd, User Interviews, for
   agreeing the metric up front only). 162 standards, 72 with a source.
 
