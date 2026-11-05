@@ -201,7 +201,21 @@ again.
 19. **Offer the partner notes** as their own optional item, next to the
     library entries: a short note for each team that helped, with the two or three
     findings relevant to them. Write them when asked.
-20. **Offer the researcher a debrief, once.** When the readout and report
+20. **Offer the impact log row, once.** Next to the library entries and
+    partner notes, offer one more optional item in one line: "Do you
+    want a row for your impact log, so you can show later what this study
+    changed? (optional)" If they say yes, draft one row from
+    `templates-impact-log.md`, using Carl J. Pearson's three levels:
+    execution, influence and outcome. Fill what the record already says:
+    the decision, what was done, the metric with where it starts and who
+    can tell us later, and the "How we'll know it worked" date. Leave the
+    influence and evidence columns to fill in after the look-back:
+    nothing has changed yet, and a guess would read as a claim later.
+    The row is the researcher's: no participant or colleague names, teams
+    and roles only, so they can show it to a manager if they choose. It
+    isn't part of the report or the readout. Record the answer in the
+    study record's your-turn table and don't offer it again in this study.
+21. **Offer the researcher a debrief, once.** When the readout and report
     have the researcher's yes, or are left as drafts, offer in one line a
     short private debrief for the researcher alone
     (`templates-researcher-debrief.md`): what worked, what to change next
@@ -230,6 +244,8 @@ describes.
   (`operating.md`, "Files for the team").
 - Library entries and partner thank-you notes, if the researcher takes
   up the offer.
+- One impact log row, if the researcher takes up the offer
+  (`templates-impact-log.md`).
 - The researcher's debrief, if they take up the offer, as Markdown
   (`templates-researcher-debrief.md`).
 - The Recommendations section of the study record.
@@ -268,6 +284,7 @@ PM measure to know it worked?"
 - Library entries and partner notes offered once, after the yes.
 - Next steps include how we'll know it worked: when, who looks, and the
   sign.
+- The impact log row offered once, and the answer recorded.
 - The researcher debrief offered once, and the answer recorded.
 
 ## Pitfalls
@@ -286,4 +303,4 @@ PM measure to know it worked?"
 
 ---
 
-Part of Magpie version 2026-11-04, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-05, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
