@@ -10,6 +10,7 @@ readout and report.
 | `count_check.py` | "N of M" arithmetic, percentage math, percentages from small bases | `python3 tools/checks/count_check.py findings.md` |
 | `evidence_check.py` | Every count lists as many participant codes as it claims, every code is a real participant, every cited line exists and is that participant speaking; a whole-sample count with no codes is flagged | `python3 tools/checks/evidence_check.py findings.md transcripts/` |
 | `review_check.py` | Labels each point of a reviewer's list found (every participant and line it cites is in the material), lead (cites nothing to look up) or not found (cites something that isn't there); found means the lines exist, not that the point is right | `python3 tools/checks/review_check.py review.md transcripts/` |
+| `coverage_check.py` | Gives a reading receipt for each transcript (its line span, last line and first words) and warns when a file may be cut off (starts after line 1, ends mid-sentence, line numbers jump); with coding notes, lists each participant's lines that no code cites; it can't tell that a file is complete, only what it holds | `python3 tools/checks/coverage_check.py transcripts/ --codes coding-notes.md` |
 | `wording_check.py` | Every-or-none, cause, vague-amount and overclaiming words, and "significant" with no test named, outside quotes; each flag is a sentence to reread, not an error | `python3 tools/checks/wording_check.py findings.md` |
 
 Inside the skill package they live at `scripts/`, so the same commands are
