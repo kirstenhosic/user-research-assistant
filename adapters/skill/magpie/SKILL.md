@@ -21,10 +21,12 @@ template it points to, and work from the file rather than from memory of
 it; the specifics live there. File names below are relative to this folder.
 `scripts/quote_check.py`, `scripts/count_check.py`,
 `scripts/evidence_check.py`, `scripts/review_check.py`,
-`scripts/wording_check.py` and `scripts/personal_details_check.py` are
-scripts to run, not read: they check quotes, counts, the receipts behind
-counts, what each review point cites, overclaiming words at stages 7 and
-8, and personal details left in anything meant to be shared.
+`scripts/wording_check.py`, `scripts/personal_details_check.py` and
+`scripts/coverage_check.py` are scripts to run, not read: they check
+quotes, counts, the receipts behind counts, what each review point cites,
+overclaiming words at stages 7 and 8, personal details left in anything
+meant to be shared, and whether each transcript was read to its end and
+coded line by line.
 `scripts/md_to_docx.py` turns a Markdown output into a Word file and
 `scripts/make_sheet.py` builds the note-taking and analysis sheets as Excel
 files, for the team to edit together (`operating.md`, "Files for the

@@ -4,7 +4,7 @@
 Usage: python3 tools/checks/tests/run_tests.py
 
 Runs quote_check.py, count_check.py, evidence_check.py, review_check.py,
-wording_check.py and personal_details_check.py on a clean fixture (expected to pass)
+wording_check.py, personal_details_check.py and coverage_check.py on a clean fixture (expected to pass)
 and a planted fixture (expected to fail on known lines). Exit 1 if any
 expectation is missed, so tools/check.py can call this.
 """
@@ -61,6 +61,13 @@ CASES = [
                                         "--names", "Marcus, Northwind"], 1,
      ["line 3: name 'Marcus'", "line 4: name 'Northwind'", "email 'jo.baker@example.com'",
       "phone number '+1 (555) 012-3456'", "handle '@ledgerline_jo'", "5 personal detail(s) to remove"]),
+    ("coverage_check clean", [PY, str(CHECKS / "coverage_check.py"), "coverage/transcripts",
+                              "--codes", "coverage/notes-clean.md"], 0,
+     ["lines 01 to 09 (9 lines)", "P1: all 5 of their lines coded", "every participant line is coded"]),
+    ("coverage_check planted", [PY, str(CHECKS / "coverage_check.py"), "coverage/transcripts", "coverage/cutoff",
+                                "--codes", "coverage/notes-gaps.md"], 1,
+     ["last line stops without an end mark", "line numbers jump (06 to 09)",
+      "P1: 3 of 5 of their lines uncoded: 04, 07, 09", "P2: 2 of 4 of their lines uncoded: 04, 09"]),
     # The fixture studies in evals/fixtures/ carry planted quote and count
     # problems; the code checks must catch the ones they can.
     ("quote_check harbor-invites", [PY, str(CHECKS / "quote_check.py"), str(HARBOR / "draft-findings.md"),

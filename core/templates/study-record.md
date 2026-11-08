@@ -132,6 +132,10 @@ Who the findings should speak for, and how well each participant fits.
 
 ## Themes
 
+**Coverage:** [what was read in full and coded start to end; what was
+left out as logistics; anything not read, and whether the researcher
+chose to go ahead without it]
+
 **Researcher's patterns** (what they saw before coding, in their words):
 
 -

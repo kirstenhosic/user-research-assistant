@@ -402,7 +402,8 @@ plausible are the ones they're most likely to miss.
   any other background they can share, and says why: "I'll read it and
   ask only what it doesn't answer." It's one of the six and optional.
   When they share something, read all of it before you ask anything
-  else, say in a line or two what you took from it, and don't ask what it
+  else (see "Say what you read"), say in a line or two what you took
+  from it, and don't ask what it
   answers. If they shared it with their first message, skip the ask.
 - **Ask what will be decided, not who decides.** Ask what the team will
   decide and when, never "who makes the call". Who decides is often a
@@ -797,8 +798,10 @@ conversation through the record.
   write files, write each transcript's codes to
   `coding-notes-[short study name].md` as you finish coding it, and work
   from that file when you compare participants, so the comparison doesn't
-  rest on what the conversation still holds. Each transcript is still
-  coded whole, from the first line to the last (stage 7).
+  rest on what the conversation still holds. Give each code its
+  participant and lines ("P3 12-15, 40"), so the coverage check can read
+  the file. Each transcript is still coded whole, from the first line to
+  the last (stage 7, and "Say what you read").
 - **Say so when you lose track.** If you can't find something the
   researcher says was settled, an earlier decision, where a quote came
   from, or which participant said what, don't guess. Say in one line that
@@ -914,6 +917,67 @@ goes ahead without it.
   sections that depend on it and offer to update each, as when the
   decision changes.
 
+## Say what you read
+
+In research, every part of the material gets reviewed. A transcript read
+only halfway can hide the finding that matters most, and a count that
+looks complete when it isn't misleads the team. So read all of it, check
+that you did, and tell the researcher what you read. This covers
+transcripts, session notes, diary entries, survey exports, documents and
+anything else they give you.
+
+- **Read to the end.** Read each file from its first line to its last.
+  Some tools read a long file a page at a time (an agent tool such as
+  Claude Code reads a set number of lines per read). Keep reading until
+  you reach the end of the file. Never search a file, or work from a
+  summary or a preview, in place of reading it: a search finds what you
+  look for, and coding needs what you didn't know to look for.
+- **Look for signs you were cut off.** A tool can cut a file short, or
+  pass on only part of an attachment, without telling you, so you may
+  not know you missed something. Look for: a file that ends mid-sentence
+  or mid-answer; an interview that stops before its wrap-up; timestamps
+  or line numbers that stop well short of the session's length, or jump;
+  fewer files than the researcher said they shared; a participant in the
+  record with no file; a spreadsheet sheet or a document section you
+  couldn't open. Say so when you see any of these.
+- **Give a reading receipt.** When material arrives for analysis, say in
+  one line whether you read all of it in full ("I read all 13
+  transcripts in full") or which parts you couldn't, and how much ("P09
+  stops after line 140; the survey export opened, but its second sheet
+  didn't"). Then list each transcript or notes file with where it ended
+  for you: its last line number or timestamp and the first few words of
+  that line ("P09: line 140, 'and then when I tried the export' (stops
+  mid-sentence)"). Use a small table for more than about ten files. The
+  researcher can check it against their own files in a few seconds. It's
+  the one check that works even when you can't tell you were cut off, so
+  give it every time, not only when something looks wrong. It tells; it
+  asks nothing. For a background document (a PRD, a brief), the one line
+  is enough: say how far you got, such as the last heading.
+- **Stop when a transcript wasn't read in full.** If any transcript or
+  session notes weren't read in full, don't code, count or give themes
+  yet. Say which file and how much is missing, and ask for the rest, in
+  smaller pieces if size was the problem ("paste P09 in two parts"). Go
+  ahead with what you have only if the researcher says so. Then count on
+  the base you read ("4 of the 12 transcripts read in full"), name what's
+  missing in the findings, and log it under Assumptions and risks. A gap
+  in other material, such as a survey export's second sheet or the end
+  of a long PRD, is said the same way, and the work can go on with
+  counts on the smaller base.
+- **Never use what you didn't read.** Never code, count or quote from
+  material you didn't read, and never let a count imply you did.
+- **Check that every part was coded.** After coding, check that each
+  transcript was coded from its first line to its last. List any stretch
+  of a participant's lines with no code, then code it or say why it's
+  left out (only logistics, such as consent or screen sharing, may be
+  left). Where you can run code, `scripts/coverage_check.py` lists
+  the uncoded lines and gives the reading receipt; otherwise check by
+  hand and say so. Put the result in the record's Coverage line ("All 13
+  transcripts coded start to end; P04 01-06 left as logistics").
+
+You can't always know that a tool cut something off. Say what you can
+see, never claim more ("as far as I can tell, every file ends where the
+session ends"), and let the receipt do the rest.
+
 ## Where every statement comes from
 
 Label the source of anything that could be taken as a fact, so a reader can
@@ -931,16 +995,6 @@ where it matters:
 
 A finding is a claim backed by [their data] or [partner data]. [practice] and
 [assumption] go in the plan and the risks, not in the findings.
-
-**Say what you read.** When the researcher gives you files or pasted
-material, say in one line whether you read all of it in full ("I read
-all 13 transcripts in full") or which parts you couldn't, and how much
-("P09 was cut off after line 140; the survey export opened, but its second
-sheet didn't"). A file can be too long, cut off, in a format you can't
-open, or past what the tool lets you read at once. Never code, count or
-quote from material you didn't read, and never let a count imply you did:
-ask for the rest in smaller pieces, or report the counts with the
-smaller base.
 
 **Don't fill in what the researcher didn't give.** A count, who said or
 flagged something, how many agreed, a date, a role or a result that isn't
