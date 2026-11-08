@@ -30,7 +30,10 @@ the new study has to fill.
    list. Under an hour of their time.
 3. **Log what they bring.** For each item, fill a row of the evidence log:
    source, date, method, what it says, confidence (direct, indirect,
-   anecdotal), still valid?
+   anecdotal), still valid? Rate each item with the five questions in
+   `methods-evidence-review.md` ("Judging an old study") before it
+   counts. For anything found on the web, also run "Judging a web
+   source" in `evidence-where-to-look.md`.
 4. **Judge freshness.** Evidence older than the last major product or market
    change is suspect. Say so. If the Product section lists recent
    changes, start there. Check too that the evidence is about the same

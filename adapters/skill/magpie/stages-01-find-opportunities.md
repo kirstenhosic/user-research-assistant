@@ -65,8 +65,11 @@ guess at what matters.
 2. **Lay out what the market is saying.** What market research or market
    needs the company already has: who's buying, who's switching, what
    competitors are betting on, what customers ask for that nobody builds.
-   Log each source with date and confidence. Market research describes
-   markets and buyers; it's indirect evidence about users. Say so.
+   Log each source with date and confidence, rated with the five
+   questions in `methods-evidence-review.md` ("Judging an old study"),
+   and for web sources "Judging a web source" in
+   `evidence-where-to-look.md`. Market research describes markets and
+   buyers; it's indirect evidence about users. Say so.
 3. **Lay out what users are saying.** The library, support themes,
    analytics stalls, sales objections. Where do users struggle or go
    without?

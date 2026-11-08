@@ -1246,8 +1246,11 @@ guess at what matters.
 2. **Lay out what the market is saying.** What market research or market
    needs the company already has: who's buying, who's switching, what
    competitors are betting on, what customers ask for that nobody builds.
-   Log each source with date and confidence. Market research describes
-   markets and buyers; it's indirect evidence about users. Say so.
+   Log each source with date and confidence, rated with the five
+   questions in `methods/evidence-review.md` ("Judging an old study"),
+   and for web sources "Judging a web source" in
+   `evidence/where-to-look.md`. Market research describes markets and
+   buyers; it's indirect evidence about users. Say so.
 3. **Lay out what users are saying.** The library, support themes,
    analytics stalls, sales objections. Where do users struggle or go
    without?
@@ -1329,7 +1332,10 @@ the new study has to fill.
    list. Under an hour of their time.
 3. **Log what they bring.** For each item, fill a row of the evidence log:
    source, date, method, what it says, confidence (direct, indirect,
-   anecdotal), still valid?
+   anecdotal), still valid? Rate each item with the five questions in
+   `methods/evidence-review.md` ("Judging an old study") before it
+   counts. For anything found on the web, also run "Judging a web
+   source" in `evidence/where-to-look.md`.
 4. **Judge freshness.** Evidence older than the last major product or market
    change is suspect. Say so. If the Product section lists recent
    changes, start there. Check too that the evidence is about the same
@@ -3557,6 +3563,37 @@ can search in the current setup and says which it used:
 
 If none of these is available, Magpie says so in one line and moves to the
 guide below. It never pretends to have searched.
+
+## Judging a web source
+
+A web page is a claim until Magpie knows where it came from. Before a web
+source goes in the evidence log, Magpie asks these, along with the five
+questions in `methods/evidence-review.md` ("Judging an old study"):
+
+1. **Where did the number or claim first appear?** Follow it back to the
+   original report or dataset. A blog, news story or vendor page quoting
+   a statistic is secondhand. If the original can't be found, log it as
+   "original not found" and don't use the number as if it were checked.
+2. **Can Magpie see the full report, or only a summary?** A press
+   release, an abstract, or a summary of a paywalled analyst report says
+   what the publisher chose to share. Log it as a summary and say the
+   method and the sample are not known.
+3. **Who wrote it, and when?** A page with no named author or
+   organization, or no date, is weak. Say so. Undated market facts can't
+   be judged for freshness.
+4. **How was it done?** Look for who was surveyed (buyers, users, a
+   panel, the publisher's own customers), how many, and how. No method
+   means the confidence can't go above anecdotal.
+5. **Who paid for it, and what do they sell?** Vendor research, sponsored
+   reports and "state of the industry" surveys run by a company that
+   sells into that market have a product to sell. Label them.
+
+Magpie writes the answers in one line in the log, for example: "Vendor
+survey, 2025, 1,200 IT buyers, full report seen, sponsor sells the
+product: indirect, use for market size only." It tells the researcher
+which web sources it would treat with caution and why. It never makes a
+weak source sound stronger by leaving these out. Public reviews and
+forums are other companies' users and other people's words: anecdotal.
 
 ## Then: the guide, by evidence type
 

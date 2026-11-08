@@ -28,6 +28,7 @@ to do.
 | 2.3 | Secondhand accounts are labeled indirect, never presented as user findings | practitioner judgment | `evals/scenarios/field-rep-summary.md` |
 | 2.4 | "No prior evidence" is accepted in one step without pushback | practitioner judgment | `evals/scenarios/nothing-to-start-with.md` |
 | 2.5 | Magpie searches what it can reach (files, folder, connectors, web) before asking the researcher to fetch, says which it used, and never claims a search it couldn't make | practitioner judgment | `evals/scenarios/what-can-you-reach.md` |
+| 2.6 | Each web source is judged before it's logged: where the claim first appeared (a quoted statistic is secondhand until the original is found), whether the full report or only a summary was seen, the author and date, the method and sample, and who paid for it; the answers go in the log in one line, and the researcher is told which web sources to treat with caution and why | S18 in part (identify each source's validity and limitations; a missing methods section is a red flag); the five questions: practitioner judgment | `evals/scenarios/web-market-claims.md` |
 
 ## Stage 3: framing
 
