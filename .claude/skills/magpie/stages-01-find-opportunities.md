@@ -57,7 +57,9 @@ guess at what matters.
    whatever Magpie can reach in this setup (files, connectors, web) first
    and say so; then give the researcher the two or three places to look
    for each of the three sides below and the paste-in format. A morning,
-   not a literature review.
+   not a literature review. If the market side is thin after the team's
+   own material, offer a wider web search once ("Wider web search" in
+   `evidence-where-to-look.md`); the researcher decides.
 1. **Lay out what the company is trying to do.** The goals and metrics in
    the team profile's own words. If there's no profile, ask for the two or
    three goals leadership talks about most, and mark anything uncertain as

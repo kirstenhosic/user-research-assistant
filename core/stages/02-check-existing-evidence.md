@@ -45,6 +45,10 @@ the new study has to fill.
    users. If yes, draft the request from `partners/request-templates.md`.
 6. **Write the gap summary.** Three lines at most: what we know, what we
    half-know, what we don't know.
+7. **Offer a wider web search, if it would help.** Only after the
+   internal material, and only for a gap the public web could fill. One
+   line, once; the researcher decides. Follow "Wider web search" in
+   `evidence/where-to-look.md`, then update the gap summary.
 
 ## What to draft
 
