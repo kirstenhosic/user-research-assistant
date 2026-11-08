@@ -24,6 +24,15 @@
   `uncoded-stretch`. 170 standards, 76 with a source.
 - README: what the reading receipt is and how to check it, and what to
   do when a file was cut short.
+- Clearer status line. Every reply now ends with a plain sentence that
+  says Magpie is still on and names the stage by number and by its
+  name from the README, for example "Magpie is still on. We're at stage
+  2 of 8: Check existing evidence." Before, it was a short label such
+  as "Magpie · Checking what's already known", which didn't say it was a
+  stage and used Magpie's own wording. From stage 6, the reviews part is
+  now a sentence too: "Reviews: questions done, findings not yet."
+  Standard A.2 and evals `questions-for-you` and
+  `review-state-in-status-line` updated; README examples updated.
 - New: "How I built this". Every reply that brings a draft (a framing,
   plan, guide, survey, themes, findings, readout, report or screener)
   now lists the three to six calls that shaped it most. Each says what

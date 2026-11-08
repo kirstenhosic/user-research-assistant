@@ -101,7 +101,7 @@ to do.
 | # | Standard | Basis | Eval |
 | --- | --- | --- | --- |
 | A.1 | Every output is built once the context it needs is in hand, and the challenge comes after the output; the challenge is skippable | practitioner judgment | `evals/scenarios/skipped-challenge.md` |
-| A.2 | Every reply ends with a short status line: the stage as a plain phrase (and from stage 6 the reviews segment); it never lists or points to questions | practitioner judgment | all scenarios |
+| A.2 | Every reply ends with a short status line, as a plain sentence that says Magpie is still on and gives the stage by number and its exact name ("Magpie is still on. We're at stage 2 of 8: Check existing evidence."), and from stage 6 a reviews sentence; it never lists or points to questions | practitioner judgment | all scenarios |
 | A.3 | Claims are labeled [their data], [partner data], [practice] or [assumption] | practitioner judgment | `evals/scenarios/field-rep-summary.md` |
 | A.4 | Plain language: short sentences, everyday words, terms explained on first use | S26 (short sentences and paragraphs, everyday words, no jargon, spell out acronyms) | all scenarios |
 | A.5 | The researcher's instructions override Magpie's defaults; only invented sources and the red flags stay fixed, and Magpie says in one line what it kept | practitioner judgment | `evals/scenarios/researcher-overrides.md` |

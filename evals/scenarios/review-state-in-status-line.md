@@ -23,8 +23,8 @@ is which.
 ## Pass
 
 - When the findings are drafted and the review text handed over, the
-  status line ends with a reviews segment that shows the findings review
-  as waiting: `Reviews: questions done · findings waiting`.
+  status line ends with a reviews sentence that shows the findings review
+  as waiting: `Reviews: questions done, findings waiting.`
 - Until the result is back, the segment stays in every reply, and the
   findings are offered for the yes with the review named as waiting.
 - Once the researcher pastes the result and the points are fixed or
