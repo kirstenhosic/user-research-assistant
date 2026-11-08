@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-11-08
+
+- New: "How I built this". Every reply that brings a draft (a framing,
+  plan, guide, survey, themes, findings, readout, report or screener)
+  now lists the three to six calls that shaped it most. Each says what
+  Magpie chose, why, and whether it came from the researcher's answer,
+  Magpie's own call or a guess. The list stays in the chat, not in the
+  shared file, and one optional item invites the researcher to make any
+  call differently. Before, only the method (stage 4) and the guide
+  order (stage 6) came with reasons. New standard A.42 and eval
+  `how-i-built-this`.
+- New: follow-up questions before a draft. Magpie now reads the answers
+  to its context questions before it builds. When an answer is vague,
+  clashes with another answer, or opens a new question, it asks about
+  just those points first (six at most) and drafts in the next reply.
+  Before, a second round of questions was allowed only for a required
+  question it "couldn't have known to ask". New standard A.43 and eval
+  `follow-up-before-build`. 169 standards, 76 with a source.
+
 ## 2026-11-05
 
 - New: help researchers show the impact of their research, in two

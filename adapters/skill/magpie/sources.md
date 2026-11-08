@@ -113,4 +113,4 @@ The published work Magpie's rules draw on, with the people who wrote it. A code 
 
 ---
 
-Part of Magpie version 2026-11-05, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-08, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
