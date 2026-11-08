@@ -10,6 +10,12 @@ built for researchers, and for PMs and designers doing their own
 research. See
 [how it helps your product team](#how-magpie-helps-your-product-team).
 
+**Watch the intro video** (about 3 minutes, with voice-over and
+captions) to see what
+Magpie does and how to get started:
+
+<a href="https://youtu.be/2tVyQar-_vo"><img src="docs/images/magpie-intro-video.jpg" alt="Meet Magpie: watch the intro video on YouTube" width="560"></a>
+
 Made by Kirsten Hosic.
 
 Why a magpie: it collects the shiny bits of evidence that already exist,
@@ -32,6 +38,11 @@ compliance advice.
 **On this page**
 
 - **[Get started](#get-started)** (start here)
+  - Set up Magpie in your tool: [Claude Code](#claude-code) ·
+    [Claude.ai](#claudeai) · [ChatGPT](#chatgpt) · [Gemini](#gemini) ·
+    [Copilot](#copilot) ·
+    [Codex, OpenCode or Gemini CLI](#other-agent-tools-codex-opencode-gemini-cli) ·
+    [another AI tool](#any-other-ai-tool)
 - **[How Magpie works](#how-magpie-works)**
 - **[How Magpie helps your product team](#how-magpie-helps-your-product-team)**
 
@@ -42,7 +53,6 @@ Reference:
 - [Methods it covers](#methods-it-covers)
 - [Shortcuts you can type](#shortcuts-you-can-type)
 - [Pick up where you left off](#pick-up-where-you-left-off)
-- [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions)
 - [Can I trust it?](#can-i-trust-it)
 - [Privacy, security and personal details](#privacy-security-and-personal-details)
 - [When something goes wrong](#when-something-goes-wrong)
@@ -92,18 +102,25 @@ tool, see [Privacy, security and personal details](#privacy-security-and-persona
 
 ### Set up Magpie
 
-Jump to your tool: [Claude Code](#claude-code) ·
-[Other agent tools](#other-agent-tools-codex-opencode-gemini-cli) ·
-[Claude.ai](#claudeai) · [ChatGPT](#chatgpt) · [Gemini](#gemini) ·
-[Copilot](#copilot) · [Any other AI tool](#any-other-ai-tool)
+Jump to the steps for your tool:
+
+- [Claude Code](#claude-code)
+- [Codex, OpenCode or Gemini CLI](#other-agent-tools-codex-opencode-gemini-cli)
+- [Claude.ai](#claudeai)
+- [ChatGPT](#chatgpt)
+- [Gemini](#gemini)
+- [Copilot](#copilot)
+- [Any other AI tool](#any-other-ai-tool)
+
+When you're done, [check that it worked](#check-that-it-worked).
 
 First, download the file for your tool:
 
 | Your tool | Download |
 | --- | --- |
-| Gemini | **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)** |
-| Copilot | **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)** |
-| Any other tool | **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)** |
+| [Gemini](#gemini) | **[magpie-gemini.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-gemini.zip)** |
+| [Copilot](#copilot) | **[magpie-copilot.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie-copilot.zip)** |
+| Any other tool, including [Claude Code](#claude-code), [Claude.ai](#claudeai) and [ChatGPT](#chatgpt) | **[magpie.zip](https://github.com/kirstenhosic/user-research-assistant/releases/latest/download/magpie.zip)** |
 
 Each one holds everything Magpie needs for that tool.
 
@@ -217,6 +234,81 @@ conversation"* and every reply ends with a status line, such as *Magpie ·
 Planning the study*. If not, see
 [When something goes wrong](#when-something-goes-wrong).
 
+### Get more from Magpie (optional)
+
+Magpie works fine without any of this. These are small changes to your
+AI tool's settings that can make its answers more careful. Try one, or
+none. You can undo each of them any time.
+
+Menus in AI tools move often. The steps below were checked on each
+company's help pages on November 3, 2026. If you can't find a setting,
+ask your AI tool where it is. It can usually tell you.
+
+#### 1. Ask your AI to say when it isn't sure
+
+AI tools can sound just as confident when they're wrong as when they're
+right. You can give your tool standing instructions, which are notes it
+reads before every chat. Magpie already follows rules like these. Adding
+them to your tool helps in your other chats too.
+
+Copy this and paste it where your tool keeps its instructions:
+
+```
+Be accurate before you are helpful. A confident wrong answer is worse
+than no answer.
+- If you are not sure about something, say so. Never present a guess
+  as a fact.
+- Do not make up sources, authors, links or book titles. If you can't
+  name a real source, say so.
+- Only say a real person said something if you are sure they did.
+- If a number doesn't come from what I gave you, say how sure you are
+  and suggest I check it. Counts from my own data don't need this.
+- Tell me when something may have changed since your information was
+  last updated.
+- If something is unclear or missing, ask me instead of guessing.
+```
+
+- **Claude.ai:** select your initials in the lower left, then
+  **Settings** > **Your Claude** > **Instructions**. (In some accounts
+  it's **Settings** > **Account** > **Instructions for Claude**.)
+- **Gemini:** open the menu, then **Settings & help** > **Personal
+  Intelligence** > **Instructions for Gemini**, and choose **Add**.
+- **Copilot Cowork:** open **Customize**, then the **Preferences** tab.
+
+These instructions apply to every chat in that tool, not only Magpie.
+Can't find the place? Ask your tool: *"Where do I add instructions that
+apply to every chat?"*
+
+#### 2. Give it more time to think for analysis and reports
+
+Most AI tools let you pick a **model**, which is the version of the AI
+that answers you. Some also let it **think** longer before it answers.
+A stronger model with more thinking is usually more careful with
+transcripts, themes and reports. Answers come more slowly, and they may
+use up your plan's limit faster. So it's worth it for analysis and
+reports more than for quick questions.
+
+- **Claude.ai:** select the model name next to the send button. Pick a
+  model, and raise **Effort** or turn on **Thinking** if you see them.
+- **Copilot Cowork:** the model picker starts on **Auto** and reasoning
+  effort starts on **Medium**. You can pick a model and raise the effort.
+- **Gemini:** ask Gemini: *"How do I choose a different model?"*
+
+#### 3. Share transcripts as files, one per participant
+
+Magpie checks each quote against the transcript it came from. That's
+easiest when each participant has their own file, named with their
+participant code, such as `P01.docx` or `P01.txt`. Pasting works too,
+but files make it simpler for you to check Magpie's work later.
+
+#### 4. Know whether your tool remembers past chats (Gemini)
+
+Some tools can remember things from past conversations. In Gemini this is
+called **Memory**, under **Settings & help** > **Personal Intelligence**.
+It's only available in some places and plans. If it's on, details from
+an older study could slip into a new one. If that happens, tell Magpie
+which study you're working on, or turn Memory off while you work.
+
 ### Your first study, step by step
 
 Once Magpie is set up:
@@ -235,9 +327,7 @@ Once Magpie is set up:
    (tell it if that's wrong), then asks up to six short questions under
    "Questions for you to answer". A line each is enough, and you can skip
    the ones marked optional. The more you share at the start, such as a
-   brief or past research, the fewer questions it asks. To share less
-   each time, see
-   [Make Magpie ask fewer questions](#make-magpie-ask-fewer-questions).
+   brief or past research, the fewer questions it asks.
 4. **Read the draft, then say "yes".** Nothing counts as done until you
    do. Start with the points marked "read hardest": where the decision
    leans most and the evidence is thinnest. If you'd do something
@@ -402,6 +492,14 @@ For everything Magpie makes, see [What you get](#what-you-get).
 - **Readouts people will read.** Up to five top findings first,
   recommendations that name the teams they affect, and next steps that
   say how the team will know a change worked.
+- **Help showing your impact.** At the end of a study, Magpie can draft a
+  row for your own impact log. Later, say "impact check" and it helps you
+  look back at what your research changed, gather the evidence, and draft
+  questions to ask your team. It can also help you write an impact story
+  for a review or promotion. It uses Carl J. Pearson's three levels of
+  impact: what you did, what changed because of it, and the business
+  results. It pushes back when a claim goes further than the evidence,
+  and it never adds a number nobody gave you.
 
 ## The stages
 
@@ -475,6 +573,7 @@ five you'll use most are first.
 | show the record | Shows the full study record |
 | make the sheet | Builds the analysis spreadsheet (Excel) |
 | review this | Brings in an independent checker for your guide, survey, findings or report |
+| impact check | Helps you look back at what your research changed and show it honestly |
 | back to stage 4 | Returns to that stage and says what depends on it |
 
 ## Pick up where you left off
@@ -511,14 +610,6 @@ what you've already answered.
 Some tools show how much of the conversation they can still hold. Ask
 yours: *"Does this tool show how full this conversation is?"*
 
-## Make Magpie ask fewer questions
-
-These are optional. Fill in the [team profile](core/team/team-profile.md)
-once with your products, users, goals and research rules, and attach it
-when you start a study, so Magpie doesn't have to ask about them. Send
-the [intake form](core/team/intake-form.md) to PMs and designers who ask
-you for research; Magpie can start from a filled one.
-
 ## Can I trust it?
 
 - **It's early.** Magpie has been tested only in Claude Code. Other agent
@@ -551,7 +642,7 @@ explains what Magpie does and what it leaves to your tool.
 
 ### What's inside Magpie
 
-- **Open and easy to check.** Magpie is mostly plain text: its
+- **Plain-text files you can read.** Most of Magpie is plain text:
   instructions, guides, checklists and templates. Before you use it,
   you or your security team can open every file and see exactly what it
   tells your AI tool to do.
@@ -564,7 +655,7 @@ explains what Magpie does and what it leaves to your tool.
   and create Word and Excel files. None of them connects to the internet, and they only
   run if your AI tool allows it. The Gemini and Copilot downloads have no
   programs at all.
-- **An add-on that can't access anything by itself.** Some AI tools call
+- **No installer and no permissions of its own.** Some AI tools call
   add-ons like Magpie "plugins". Magpie doesn't install software or ask
   for permission to reach anything. It can only use what your AI tool
   already gives it.
@@ -748,8 +839,8 @@ on most:
 - The authors of Nielsen Norman Group's articles, including Jakob
   Nielsen, Maria Rosala, Page Laubheimer and many others, each named in
   the source list.
-- Carl J. Pearson, for his writing on surveys, effect sizes and minimum
-  viable rigor.
+- Carl J. Pearson, for his writing on surveys, effect sizes, minimum
+  viable rigor and research impact.
 - Jeff Sauro and James R. Lewis, for *Quantifying the User Experience*
   and the MeasuringU articles.
 - Kaleb Loosbrock, for the HEARTS framework: Loosbrock, K. (2025). The

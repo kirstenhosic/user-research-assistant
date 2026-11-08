@@ -1,6 +1,6 @@
 # Changelog
 
-## 2026-11-03
+## 2026-11-08
 
 - README: a new section, "How Magpie helps your product team", right
   after "How Magpie works" and linked from the intro and "On this page".
@@ -10,6 +10,80 @@
   in stakeholders and other teams' data, turning findings into action
   while the team agrees who does what, and helping researchers at every
   level. No change to how Magpie works.
+
+## 2026-11-05
+
+- New: help researchers show the impact of their research, in two
+  steps. It uses Carl J. Pearson's three levels of research impact
+  (execution, influence and outcome) and credits him (S103, S104).
+- Stage 3: the business context now drafts where the metric starts
+  and who can tell us later (a team or role, not a person). Magpie
+  drafts these lines rather than asking more questions, and writes
+  "unknown" instead of guessing a value. New standard 3.12 and eval
+  `impact-starting-point`.
+- Stage 8: a new optional offer, once, next to the library entries: one
+  row for the researcher's own impact log (`templates/impact-log.md`).
+  It fills what the record says and leaves influence and evidence to
+  fill in after the look-back. No invented figures, and teams and roles
+  instead of names. The debrief's follow-up dates point to it. New
+  standard 8.21 and eval `impact-log-row`; the debrief is now step 21.
+  (First merged as 8.20, a number already taken; renumbered the same
+  day, and `tools/check.py` now flags a standard number used twice.)
+- Sources: S103 and S104 (Pearson), S105 (Boyd, User Interviews, for
+  agreeing the metric up front only). 162 standards, 72 with a source.
+- New: "impact check" (`core/impact/impact-check.md`), the third step.
+  The researcher can start one any time: on a look-back date, before a
+  review or promotion case, or when a manager asks. The researcher says
+  first what they think the research changed. Magpie then sorts the
+  evidence under Pearson's three levels, pushes back once where a claim
+  goes further than the evidence ("contributed to", whose view a quote
+  is, what else changed), helps with financial impact using only
+  figures someone gave, drafts neutral follow-up questions for the
+  researcher to send, and drafts an impact story only when asked.
+  Nothing is tracked or sent by Magpie. New standards I.1 to I.5 and
+  evals `impact-check-overclaim` and `impact-check-thin-evidence`. The
+  your-turn steps are now five. Stage 8 points to the impact check when
+  the impact log row is taken.
+- Sources: S106 (Sullivan, UX Collective) and S107 (den Bouwmeester,
+  UXinsight). 167 standards, 76 with a source.
+- README: "What you get" now describes the impact log row and the
+  impact check, "Shortcuts you can type" lists "impact check", and
+  "Thanks to" credits Carl J. Pearson for his writing on research
+  impact.
+
+## 2026-11-04
+
+- README: a link to the new intro video on YouTube, near the top, with a
+  thumbnail made from the video's title frame
+  (`docs/images/magpie-intro-video.jpg`). This first version has
+  captions only; a version with voice-over is planned.
+
+- README: the intro video link now points to the version with
+  voice-over (voice by Prabarna Ganguly).
+
+- README: links to each tool's setup steps, so readers can skip ahead.
+  "On this page" now lists every tool under "Get started". In "Set up
+  Magpie", the tool list is now a bulleted list with a link to "Check
+  that it worked", and the tool names in the download table link to
+  their steps.
+
+## 2026-11-03
+
+- README: new section "Get more from Magpie (optional)" after "Check
+  that it worked". Four tips for AI beginners: a copy-paste set of
+  accuracy instructions and where to add them in Claude.ai, Gemini and
+  Copilot Cowork; more thinking for analysis and reports; one transcript
+  file per participant; and knowing whether Gemini remembers past chats.
+  Menu paths were checked on each company's help pages on November 3,
+  2026.
+
+- README: removed the "Make Magpie ask fewer questions" section, its
+  "On this page" link and the pointer to it in "Get started". It
+  encouraged skipping Magpie's questions, which are intended.
+
+- README: in "What's inside Magpie", the first and last bullets now
+  name what is inside Magpie ("Plain-text files you can read", "No
+  installer and no permissions of its own").
 
 - Personal details in shared outputs: the release check now runs on any
   output meant for other people (findings summaries, workshop summaries,

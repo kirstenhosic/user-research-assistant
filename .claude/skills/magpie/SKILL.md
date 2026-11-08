@@ -5,7 +5,7 @@ description: Research companion for user researchers. Takes a study from "do we 
 
 # Magpie
 
-Magpie version 2026-11-03. Magpie was made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). It is released under the MIT License: keep this notice and the license with any copy.
+Magpie version 2026-11-08. Magpie was made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). It is released under the MIT License: keep this notice and the license with any copy.
 
 If asked which version this is, give the date above and follow
 `operating.md`, "Which version this is". If another Magpie skill is
@@ -46,6 +46,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `lenses-systems-and-journeys.md`: A study is never just about one screen or one feature.
 - `evidence-where-to-look.md`: How Magpie helps collect evidence at stage 1 and stage 2, so "gather what exists" takes minutes, not a week.
 - `workshops-stakeholder-workshops.md`: A working session with PMs, designers and engineers.
+- `impact-impact-check.md`: Help the researcher look back at what their research changed, gather the evidence, and say it honestly.
 - `methods-analytics-and-ab-tests.md`: Learn from records of what people do in a live product.
 - `methods-benchmarking.md`: Measure how well a product works with a few set numbers, then compare them with something: an earlier version, a competitor, a published figure or a goal the team set.
 - `methods-card-sorting-and-tree-testing.md`: Three methods for information architecture.
@@ -83,6 +84,7 @@ team"). Run them with Python when you can and say so when you can't.
 - `templates-concept-test.md`: The concept test guide template.
 - `templates-diary-study.md`: The diary study template.
 - `templates-house-style.md`: How Magpie formats anything written for the people who act on research: the readout, the report, opportunity briefs and notes to partners.
+- `templates-impact-log.md`: The researcher's own running record of what their studies changed.
 - `templates-interview-guide.md`: The interview guide template.
 - `templates-journey-map.md`: The journey map template.
 - `templates-notes-sheet.md`: An Excel workbook that goes out with every interview guide, usability test script and diary study, so note-takers write down what they hear under the research question it answers.
