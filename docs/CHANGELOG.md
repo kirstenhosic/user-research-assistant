@@ -2,6 +2,18 @@
 
 ## 2026-11-08
 
+- New: Magpie judges web sources before it uses them. A new "Judging a
+  web source" list in `core/evidence/where-to-look.md` asks five things:
+  where a number first appeared (a quoted statistic is secondhand until
+  the original is found), whether the full report or only a summary was
+  seen, who wrote it and when, how it was done, and who paid for it.
+  Magpie writes the answers in one line in the evidence log and tells
+  the researcher which web sources to treat with caution and why.
+  Stages 1 and 2 now also point to the five questions in
+  `core/methods/evidence-review.md` ("Judging an old study"), which
+  nothing linked to before. New standard 2.6; new eval
+  `web-market-claims` (not run yet). 171 standards, 77 with a source.
+
 - README: a new section, "How Magpie helps your product team", right
   after "How Magpie works" and linked from the intro and "On this page".
   It says why research matters (it helps the team make a better

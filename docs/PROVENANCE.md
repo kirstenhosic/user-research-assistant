@@ -75,7 +75,7 @@ are paraphrased in the core, never reproduced.
 | S15 | Harley, A. (2017). "Ideation in Practice: How Effective UX Teams Generate Ideas." Nielsen Norman Group. https://www.nngroup.com/articles/ideation-in-practice/ | W.2: written ideation, in which people document ideas individually before the group, avoids groupthink and unbalanced contributions (survey evidence, correlational) | 2026-10-27 |
 | S16 | Kaplan, K. (2021). "How to Handle Dominating Participants in UX Workshops: 3 Tactics." Nielsen Norman Group. https://www.nngroup.com/articles/dominating-workshop-participants/ | W.2: silent post-up and brainwriting so contributions come from the whole group | 2026-10-27 |
 | S17 | Kaplan, K. (2017). "Planning Effective UX Workshop Agendas." Nielsen Norman Group. https://www.nngroup.com/articles/ux-workshop-agendas/ | W.1: articulate the goal as a short description of the ideal end state before anything else | 2026-10-27 |
-| S18 | Azarova, M. (2022). "Secondary Research in UX." Nielsen Norman Group. https://www.nngroup.com/articles/secondary-research-in-ux/ | 2.1 in part (identify each source's validity and limitations; a missing methods section is a red flag); 4.1 in part (secondary research as a standard first step) | 2026-10-27 |
+| S18 | Azarova, M. (2022). "Secondary Research in UX." Nielsen Norman Group. https://www.nngroup.com/articles/secondary-research-in-ux/ | 2.1 in part (identify each source's validity and limitations; a missing methods section is a red flag); 2.6 in part (the same, for web sources); 4.1 in part (secondary research as a standard first step) | 2026-10-27 |
 | S19 | Government Digital Service. "Plan user research for your service." GOV.UK Service Manual, updated October 15, 2026. https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service | 3.3 (be clear what questions each round answers and how it helps the team decide); 3.1 in part | 2026-10-27 |
 | S20 | Government Digital Service. "Sharing user research findings." GOV.UK Service Manual, updated September 9, 2026. https://www.gov.uk/service-manual/user-research/sharing-user-research-findings | 8.1 in part: one or two slides on the research done, five to ten findings slides each with a headline and evidence, one or two on next steps | 2026-10-27 |
 | S21 | Krause, R. (2022). "Creating Engaging Reports & Asynchronous Presentations." Nielsen Norman Group. https://www.nngroup.com/articles/engaging-reports-presentations/ | 8.3a in part: structure for three kinds of reader (headlines, themes, in-depth detail) | 2026-10-27 |
@@ -199,7 +199,7 @@ with S10 and S100 (Sauro and Lewis, supplied as photographs on
 2026-10-28).
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 76 of 170 standards cite a source in full or in part.
+Current count: 77 of 171 standards cite a source in full or in part.
 
 ## Tools used
 
