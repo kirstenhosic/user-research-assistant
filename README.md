@@ -596,6 +596,15 @@ yours: *"Does this tool show how full this conversation is?"*
   (the market research industry's code of conduct),
   the source is listed in [`docs/PROVENANCE.md`](docs/PROVENANCE.md).
   Where it's professional judgment, it says so.
+- **It tells you what it read.** AI tools can cut a long file short,
+  sometimes without telling Magpie. So when you share transcripts or
+  notes, Magpie lists where each file ended for it: the last line or
+  timestamp and its first few words. Take a few seconds to check that
+  against your own files. If a transcript was cut off, Magpie stops and
+  asks for the rest before it codes anything, because every part of a
+  transcript needs to be analyzed. After coding, it checks that each
+  transcript was coded from start to end. A very long file is easier
+  to share in parts; ask your AI tool if you're not sure how.
 - **It can be wrong.** Like any AI tool, Magpie makes mistakes, and
   its independent reviews are done by an AI too. The study record and the
   participant references are there so you can check its work. Please do.
@@ -749,6 +758,8 @@ Found a security problem? Please report it privately, as
 - **Magpie seems to follow old rules after an update.** You may have two
   copies. Ask your tool to list its skills, remove every copy of Magpie,
   install the new one again, and start a new conversation.
+- **A file ends sooner in Magpie's list than in your copy.** Your AI
+  tool cut it short. Share the rest, in smaller parts if it's long.
 - **The quote or count check didn't run.** Not every AI tool can run
   small programs. When it can't, Magpie checks by reading and tells you so.
 

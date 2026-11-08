@@ -2,6 +2,28 @@
 
 ## 2026-11-08
 
+- New: Magpie reads every part of the material, and tells you what it
+  read. When transcripts or notes arrive, it now gives a reading
+  receipt: each file with where it ended (the last line or timestamp
+  and its first few words) and any sign it was cut off, so the
+  researcher can check it against their own files. AI tools can cut a
+  file short without telling the model, so this is the check that works
+  even when Magpie can't tell. In tools that read long files a page at
+  a time, it keeps reading to the end, and it never uses a search or a
+  summary in place of reading. If a transcript wasn't read in full, it
+  stops and asks for the rest before coding, unless the researcher says
+  to go ahead. Before, it could go on and count on the smaller base.
+  Standard A.35 updated; new eval `read-to-the-end`; eval
+  `partial-read` updated.
+- New: coverage check. After coding, Magpie checks that every
+  transcript was coded from its first line to its last, codes any
+  stretch it missed or says why it's left out (only logistics), and
+  writes the result in the record's new Coverage line. New script
+  `tools/checks/coverage_check.py`, which also gives the reading
+  receipt where Magpie can run code. New standard 7.35 and eval
+  `uncoded-stretch`. 170 standards, 76 with a source.
+- README: what the reading receipt is and how to check it, and what to
+  do when a file was cut short.
 - Clearer status line. Every reply now ends with a plain sentence that
   says Magpie is still on and names the stage by number and by its
   name from the README, for example "Magpie is still on. We're at stage
