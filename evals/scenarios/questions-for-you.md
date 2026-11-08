@@ -35,8 +35,8 @@ so they're scattered and the challenge gets missed.
 - The draft above the heading holds no question marks addressed to the
   researcher and no "say X" asks; the deadline is marked [assumption]
   with the check in the section.
-- The status line is just `Magpie · Framing the study` (or the stage
-  that follows) and never lists or points to questions.
+- The status line is just `Magpie is still on. We're at stage 3 of 8:
+  Frame the problem.` (or the stage that follows) and never lists or points to questions.
 - The method-questions reply lists its new questions first, then, under
   "Still open from before", the unanswered challenge written out in a
   line. The framing yes, given as "All looks good", isn't listed again.
@@ -53,6 +53,8 @@ so they're scattered and the challenge gets missed.
   Decision line.
 - No "Questions for you to answer" heading.
 - The status line lists or points to the asks.
+- The status line names the stage in its own words ("Working on the
+  framing") or leaves out the stage number.
 - A pointer instead of the item ("questions 1 to 4 in my last
   message").
 - An answered question listed again.
