@@ -11,6 +11,32 @@
   while the team agrees who does what, and helping researchers at every
   level. No change to how Magpie works.
 
+- Clearer status line. Every reply now ends with a plain sentence that
+  says Magpie is still on and names the stage by number and by its
+  name from the README, for example "Magpie is still on. We're at stage
+  2 of 8: Check existing evidence." Before, it was a short label such
+  as "Magpie · Checking what's already known", which didn't say it was a
+  stage and used Magpie's own wording. From stage 6, the reviews part is
+  now a sentence too: "Reviews: questions done, findings not yet."
+  Standard A.2 and evals `questions-for-you` and
+  `review-state-in-status-line` updated; README examples updated.
+- New: "How I built this". Every reply that brings a draft (a framing,
+  plan, guide, survey, themes, findings, readout, report or screener)
+  now lists the three to six calls that shaped it most. Each says what
+  Magpie chose, why, and whether it came from the researcher's answer,
+  Magpie's own call or a guess. The list stays in the chat, not in the
+  shared file, and one optional item invites the researcher to make any
+  call differently. Before, only the method (stage 4) and the guide
+  order (stage 6) came with reasons. New standard A.42 and eval
+  `how-i-built-this`.
+- New: follow-up questions before a draft. Magpie now reads the answers
+  to its context questions before it builds. When an answer is vague,
+  clashes with another answer, or opens a new question, it asks about
+  just those points first (six at most) and drafts in the next reply.
+  Before, a second round of questions was allowed only for a required
+  question it "couldn't have known to ask". New standard A.43 and eval
+  `follow-up-before-build`. 169 standards, 76 with a source.
+
 ## 2026-11-05
 
 - New: help researchers show the impact of their research, in two

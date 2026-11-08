@@ -230,8 +230,8 @@ as the instructions and add the other `.md` files.
 
 Start a conversation and ask for help with a study. You'll know Magpie
 is working when the first reply starts *"Magpie is on for this
-conversation"* and every reply ends with a status line, such as *Magpie ·
-Planning the study*. If not, see
+conversation"* and every reply ends with a status line, such as *Magpie
+is still on. We're at stage 5 of 8: Plan the study.* If not, see
 [When something goes wrong](#when-something-goes-wrong).
 
 ### Get more from Magpie (optional)
@@ -337,7 +337,7 @@ Once Magpie is set up:
    should do. Use your own words. That thinking is what makes the work
    yours. Say "you do it" to hand a step back.
 6. **Keep going, one stage at a time.** A study takes many messages.
-   The status line at the end of each reply shows Magpie is still on. Say "stop Magpie" when you're
+   The status line at the end of each reply shows Magpie is still on and which stage you're at. Say "stop Magpie" when you're
    done.
 7. **Save your place.** Magpie keeps a study record: a running summary
    of your decisions, questions and findings. Bring it to a new
@@ -473,8 +473,10 @@ For everything Magpie makes, see [What you get](#what-you-get).
   what you'll have at the end.
 - **Coaching as you go.** After each draft it asks the one question most
   likely to improve it, and says why. It asks what vague words like
-  "confused" or "most" really mean, and explains why it chose a method or
-  question order. You can push back on any of it.
+  "confused" or "most" really mean, and asks follow-up questions when an
+  answer is unclear or clashes with another. Every draft comes with "How
+  I built this": the main choices Magpie made and why. You can push back
+  on any of it.
 - **Findings you can check.** Every claim says where it came from. Magpie
   never makes up a quote, a number or a participant, and every count
   names the participants behind it.
@@ -565,7 +567,7 @@ five you'll use most are first.
 | handled | Closes a challenge you've already dealt with, without noting a risk |
 | go on | Moves to the next stage without waiting for the team's reply to a summary |
 | final | Changes a reviewed draft's label from Draft to Final |
-| counter: ... | Reconsiders a method or question order with your reasoning |
+| counter: ... | Reconsiders a method, a question order or any choice under "How I built this" with your reasoning |
 | push me | Challenges you more, up to three questions per stage |
 | ease off | Only raises serious problems, like consent or leading questions |
 | standard | Goes back to one question per stage |
