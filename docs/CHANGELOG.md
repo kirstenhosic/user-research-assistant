@@ -2,6 +2,22 @@
 
 ## 2026-11-08
 
+- New: an optional wider web search, for gaps the team's own material
+  can't fill. Magpie looks at PRDs, past user research and internal
+  market research first. Then, only when a gap is one the public web
+  could fill, it offers a wider search once, in one line, and the
+  researcher decides. If the tool can search the web, Magpie runs it;
+  if not, it says so and writes a ready-to-use prompt for the
+  researcher's own research tool (such as Perplexity, Gemini Deep
+  Research or Claude's Research mode) and checks what comes back.
+  Magpie can't switch on a tool's research mode itself. "Judging a web
+  source" gets a sixth question: does it fit these users and this
+  market? A source that doesn't fit, or can't be told, is logged as "may
+  not apply" and kept out of the gap summary and briefs. Web evidence
+  never outweighs the team's own research. New standard 2.7, 2.6
+  updated; new eval `wider-web-search` (not run yet). 172 standards, 77
+  with a source.
+
 - New: Magpie judges web sources before it uses them. A new "Judging a
   web source" list in `core/evidence/where-to-look.md` asks five things:
   where a number first appeared (a quoted statistic is secondhand until
