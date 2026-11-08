@@ -7,7 +7,8 @@ already know this?", to a report your product manager, designer and
 engineer can act on. It takes on much of the drafting and checking, so
 you can spend more of your time on the thinking only you can do. It's
 built for researchers, and for PMs and designers doing their own
-research.
+research. See
+[how it helps your product team](#how-magpie-helps-your-product-team).
 
 **Watch the intro video** (about 3 minutes, with voice-over and
 captions) to see what
@@ -43,6 +44,7 @@ compliance advice.
     [Codex, OpenCode or Gemini CLI](#other-agent-tools-codex-opencode-gemini-cli) ·
     [another AI tool](#any-other-ai-tool)
 - **[How Magpie works](#how-magpie-works)**
+- **[How Magpie helps your product team](#how-magpie-helps-your-product-team)**
 
 Reference:
 
@@ -432,6 +434,35 @@ Each AI company uses these words a little differently. ChatGPT calls a
 saved set of instructions a GPT. In Copilot, "agent" can also mean a
 saved set of instructions, like a skill. If a word in your tool doesn't
 match this page, ask the tool what it means.
+
+## How Magpie helps your product team
+
+Research is worth doing when it helps the team make a better decision.
+A good report isn't enough on its own. The team also needs to know what's
+already been learned, what nobody has asked yet, and who else should be
+involved. Magpie builds that thinking into every study.
+
+- **It looks beyond this one study.** Before you start something new,
+  Magpie checks what your team already knows. When nobody has asked for
+  research yet, it helps you find questions worth asking: where a user
+  need, a company goal and a market signal line up.
+- **It brings in the right people early.** When the team doesn't agree
+  on the problem, Magpie suggests short stakeholder interviews or a
+  workshop. It also drafts messages to other teams, such as analytics,
+  support and sales, asking for data a study can't give you, like how
+  common a problem is.
+- **It turns findings into action.** Recommendations name the teams they
+  affect, and next steps say how the team will know a change worked.
+  Who does what is left for the team to agree together.
+- **It helps researchers at every level.** If you're newer to research,
+  Magpie explains the reason behind each suggestion in plain words. If
+  you're experienced, it questions each draft to make it stronger.
+  Either way, you can push back.
+- **It gives the team findings it can check.** Every finding shows where
+  it came from, and an independent checker agent reviews the work before
+  it's shared.
+
+For everything Magpie makes, see [What you get](#what-you-get).
 
 ## What you get
 

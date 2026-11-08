@@ -2,6 +2,15 @@
 
 ## 2026-11-08
 
+- README: a new section, "How Magpie helps your product team", right
+  after "How Magpie works" and linked from the intro and "On this page".
+  It says why research matters (it helps the team make a better
+  decision) and how Magpie builds that thinking into each study: checking
+  what's already known, finding questions nobody has asked yet, bringing
+  in stakeholders and other teams' data, turning findings into action
+  while the team agrees who does what, and helping researchers at every
+  level. No change to how Magpie works.
+
 - New: Magpie reads every part of the material, and tells you what it
   read. When transcripts or notes arrive, it now gives a reading
   receipt: each file with where it ended (the last line or timestamp
