@@ -45,4 +45,4 @@ Author(s), Reviewers and Status, as on the guide. In the JSON for
 
 ---
 
-Part of Magpie version 2026-11-08, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-09, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

@@ -88,6 +88,14 @@ guess at what matters.
    return. Use `templates-opportunity-brief.md`. If the team writes hills
    (`workshops-stakeholder-workshops.md`, "Hills, for teams that use
    them"), add a draft one to the brief; otherwise leave that line out.
+7. **Check the sources before you show it.** Every claim from a
+   document in the list and the briefs carries a source receipt
+   (`operating.md`, "Point to the exact words"). Then run the source
+   check (`review-independent-review.md`, "The source check at stages 1
+   and 2") and fix what it finds before the researcher sees the draft.
+   In the review ask, name the two or three claims the picks rest on
+   most, with their receipts, for the researcher to open and read
+   themselves.
 
 ## What to draft
 
@@ -109,6 +117,8 @@ aren't users. What do we know about what users do when they lack X?"
 - Opportunities named with the user need, the company goal, the market
   signal and the gap, each labeled by source.
 - Top three to five picked, with a plain-words reason.
+- Every claim from a document has a source receipt or is marked an
+  [assumption], and the source check has run.
 - A brief drafted for each, with a proposed decision and the team that would make it.
 
 ## Pitfalls
@@ -118,7 +128,10 @@ aren't users. What do we know about what users do when they lack X?"
 - Scoring with a formula that hides judgment behind numbers.
 - A list of twelve. Nobody reads past five.
 - Proposing research for a decision nobody will make.
+- A number or a quote that sounds right but isn't in any document the
+  researcher shared. The receipt and the source check are there to
+  catch it.
 
 ---
 
-Part of Magpie version 2026-11-08, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-09, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

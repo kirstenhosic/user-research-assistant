@@ -3,8 +3,9 @@
 A fresh pass over the findings, or the report and readout deck, by a
 reviewer that sees only the source material and the output, not the
 conversation that produced them. Required at stage 7 (findings) and stage 8
-(the report and the deck together). Available on request at any other
-stage. The questions Magpie writes for participants get their own review at
+(the report and the deck together). A shorter version, the source check,
+is required at stages 1 and 2 (see "The source check at stages 1 and 2"
+below). Available on request at any other stage. The questions Magpie writes for participants get their own review at
 stage 6 (`review-question-review.md`).
 
 ## Why it's separate
@@ -37,7 +38,8 @@ REVIEW PROMPT
 ```
 
 **Where you can start a separate agent** (Claude Code, Codex, OpenCode,
-Gemini CLI, or any setup with subagents): start a separate
+Gemini CLI, GitHub Copilot's agent mode in VS Code, or any setup with
+subagents): start a separate
 agent and give it the three parts above. Leave out the conversation that
 produced the draft. Wait for its list, fix the draft, and then show the
 researcher the reviewed draft in one message (`operating.md`, "Wait for
@@ -152,7 +154,67 @@ review in the record's change log.
   label and what was done about it, so stakeholders can see the work was
   checked.
 
-## Limits
+## The source check at stages 1 and 2
+
+At stages 1 and 2, Magpie works from documents rather than transcripts,
+and the output (an opportunity list and briefs, a gap summary, an
+evidence brief) can steer what a team studies next. A claim that sounds
+right but isn't in any source does the most harm there, because nobody
+goes back to check a pick once it's made. So before any of these is
+shown to the researcher, it gets a source check.
+
+It runs the same way as the review above: a separate agent where you can
+start one, a fresh chat outside Magpie anywhere else, with the same
+three parts in the same order. The raw material is every document the
+claims rest on, each labeled with its name, in full, as it was shared.
+The draft is the output with its source receipts (`operating.md`,
+"Point to the exact words"). Skip it only when the output makes no claim
+from a document, such as "no prior evidence found".
+
+The source check prompt:
+
+> You are checking a research planning draft against the documents it
+> cites. Above this prompt are the documents, each labeled with its
+> name, and the draft. You have not seen how the draft was made.
+>
+> Go through every claim in the draft that rests on a document. Start
+> with the claims the draft's choices lean on most. For each one:
+>
+> 1. **Is the quote there?** Find the quoted words in the named
+>    document. Say found, found in a different document (name it), or
+>    not found.
+> 2. **Does the source say what the claim says?** Flag a claim that is
+>    stronger, broader or more certain than its quote, that leaves out
+>    a condition the passage gives, or that reads the passage out of
+>    context.
+> 3. **Is the place right?** Flag a page, slide or section that doesn't
+>    match where the words are.
+> 4. **Is anything stated as fact with no source?** Flag any claim with
+>    no receipt that isn't marked as an assumption, and any join of two
+>    sources that isn't marked as an inference.
+> 5. **Is the date and kind of evidence fair?** Flag a claim that uses
+>    an old or secondhand source as current or direct.
+> 6. **What did the draft leave out?** Name anything in the documents
+>    that goes against a claim or a pick, or a strong signal the draft
+>    didn't use.
+>
+> Reply as a numbered list of problems. Each item names the claim,
+> states the problem in a sentence, and ends with a source line naming
+> the document and the exact words you found ("Source: Q3 support
+> themes, 'export errors were the second most common ticket type'"),
+> or "Source: none" when the point is about the draft itself. Quote only
+> words you found in the documents. Leave out what's right, and leave
+> the draft as it is. If a document the draft cites isn't above, say so
+> instead of guessing.
+
+Magpie handles the list as in "What Magpie does with the result",
+looking up each point's document and words: found, lead or not found.
+`scripts/review_check.py` works on transcripts, so do this lookup by
+hand and say so in the change log. A claim the check marks "not found" is fixed
+or turned into an [assumption] before the output is shown. Then the
+review ask carries the spot-check line (`operating.md`, "Check two or
+three receipts yourself").
+
 
 The reviewer is a model too. It can miss things and it can be wrong, and
 the labels only show whether its citations exist, not whether it read
@@ -163,4 +225,4 @@ you mention the review.
 
 ---
 
-Part of Magpie version 2026-11-08, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-09, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
