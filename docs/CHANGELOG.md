@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-11-09
+
+- New: source receipts and a source check for work from documents.
+  When Magpie works from PRDs, past reports, support summaries, market
+  studies or web pages (most often at stages 1 and 2, when a team picks
+  what to research next), any model can blend sources or fill a gap
+  with something that sounds right. Now every claim from a document
+  names the document, a place in it the material shows (never a guessed
+  page number) and a short exact quote. A claim with no passage is
+  marked an assumption with "no source found", and a join of two
+  sources is marked as Magpie's own inference. Before an opportunity
+  list, a brief, a gap summary or an evidence brief is shown, a separate
+  reviewer checks each claim against the documents (a separate agent
+  where the tool allows, a fresh chat outside Magpie anywhere else).
+  Then the review ask names the two or three claims the pick rests on
+  most, with their receipts, so the researcher can open and read them
+  before a meeting. This can't promise that nothing is made up; it
+  makes each claim quick to check. The evidence log gets a "Where and
+  exact words" column and the opportunity brief a Sources section. New
+  standards A.44, 1.4 and 2.8, A.30 updated; new eval `source-receipts`
+  (not run yet). 175 standards, 77 with a source.
+
 ## 2026-11-08
 
 - New: an optional wider web search, for gaps the team's own material

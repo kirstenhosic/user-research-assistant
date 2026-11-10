@@ -1,7 +1,8 @@
 # Research opportunity: [name]
 
 One page the researcher takes to a PM or a leadership team to propose a
-study. Plain words. Every claim labeled by where it came from.
+study. Plain words. Every claim labeled by where it came from, and every
+claim from a document numbered [1], [2] with its receipt under Sources.
 
 **Proposed by:** [researcher] · **Date:** [date] · **Would inform:**
 [decision and the team likely to make it]
@@ -53,3 +54,11 @@ how we'd know it made a difference. The team agrees the wording.]
 ## What happens if we don't
 
 [One or two lines.]
+
+## Sources
+
+[One line per numbered claim: the document, the place in it, and a short
+exact quote. "My inference from [1] and [3]" for a join of two sources.
+Claims with no source are marked [assumption] where they appear.]
+
+1. [Document], [page, slide or section]: "[exact words]"

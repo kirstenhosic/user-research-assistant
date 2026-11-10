@@ -84,9 +84,13 @@ to prove them.
 
 What we already know. "No prior evidence found" is a valid entry.
 
-| Source | Date | Method | What it says | Confidence | Still valid? |
-| --- | --- | --- | --- | --- | --- |
-| | | | | | |
+| Source | Date | Method | What it says | Where and exact words | Confidence | Still valid? |
+| --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | |
+
+Where and exact words: the place in the source (page, slide or section
+heading, only if the source shows it) and a short quote copied from it.
+"No source found" means the row is an assumption.
 
 Confidence: **direct** (from users, by a sound method), **indirect** (secondhand,
 such as a field rep's summary), or **anecdotal** (one-off, unverified).

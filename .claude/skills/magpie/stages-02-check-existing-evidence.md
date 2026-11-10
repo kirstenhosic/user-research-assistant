@@ -29,7 +29,9 @@ the new study has to fill.
    `evidence-where-to-look.md`, with the paste-in format. Don't make a long
    list. Under an hour of their time.
 3. **Log what they bring.** For each item, fill a row of the evidence log:
-   source, date, method, what it says, confidence (direct, indirect,
+   source, date, method, what it says, where it says it (the source
+   receipt: the place and a short exact quote, from `operating.md`,
+   "Point to the exact words"), confidence (direct, indirect,
    anecdotal), still valid? Rate each item with the five questions in
    `methods-evidence-review.md` ("Judging an old study") before it
    counts. For anything found on the web, also run "Judging a web
@@ -49,6 +51,15 @@ the new study has to fill.
    internal material, and only for a gap the public web could fill. One
    line, once; the researcher decides. Follow "Wider web search" in
    `evidence-where-to-look.md`, then update the gap summary.
+8. **Check the sources before you show it.** Every claim in the gap
+   summary and any evidence brief points to a row of the log and its
+   receipt, or is marked an [assumption]. Run the source check
+   (`review-independent-review.md`, "The source check at stages 1 and
+   2") and fix what it finds before the researcher sees the draft. In
+   the review ask, name the two or three claims the gap summary rests on
+   most, with their receipts, for the researcher to open and read
+   themselves. Skip the check when the log says "no prior evidence
+   found".
 
 ## What to draft
 
@@ -74,6 +85,8 @@ flow in March. Which parts of it still hold?"
 
 - Evidence log filled or marked "none found".
 - Gap summary written.
+- Every claim from a document has a source receipt or is marked an
+  [assumption], and the source check has run.
 - Decision made: evidence brief, or continue to stage 3.
 
 ## Pitfalls
@@ -85,4 +98,4 @@ flow in March. Which parts of it still hold?"
 
 ---
 
-Part of Magpie version 2026-11-08, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-09, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
