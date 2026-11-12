@@ -6,9 +6,9 @@ Copilot. It works with you on a study from the first question, "Do we
 already know this?", to a report your product manager, designer and
 engineer can act on. It takes on much of the drafting and checking, so
 you can spend more of your time on the thinking only you can do. It's
-built for researchers, and for PMs and designers doing their own
-research. See
-[how it helps your product team](#how-magpie-helps-your-product-team).
+built for researchers and research leads, and for PMs and designers
+doing their own research. See
+[what makes Magpie different](#what-makes-magpie-different).
 
 **Watch the intro video** (about 3 minutes, with voice-over and
 captions) to see what
@@ -22,21 +22,10 @@ Why a magpie: it collects the shiny bits of evidence that already exist,
 then helps you figure out which ones matter for the decision in front of
 you.
 
-**Work in progress.** Magpie has been tested only in Claude Code so far,
-and it improves often. Read [Can I trust it?](#can-i-trust-it) before
-you rely on it, and [check for updates](#keep-magpie-up-to-date) every
-week or two.
-
-**Free and "as is".** Magpie is free and comes "as is", with no
-warranty and no support (see the [license](LICENSE)). You're responsible
-for what you share with your AI tool, for checking Magpie's work before
-you use or share it, and for following your organization's rules.
-Magpie's suggestions on methods, statistics, ethics and consent are a
-starting point for your own judgment. They aren't legal, privacy or
-compliance advice.
-
 **On this page**
 
+- **[What makes Magpie different](#what-makes-magpie-different)**
+- **[Before you rely on Magpie](#before-you-rely-on-magpie)**
 - **[Get started](#get-started)** (start here)
   - Set up Magpie in your tool: [Claude Code](#claude-code) ·
     [Claude.ai](#claudeai) · [ChatGPT](#chatgpt) · [Gemini](#gemini) ·
@@ -60,6 +49,65 @@ Reference:
 - [For contributors](#for-contributors)
 - [Thanks to](#thanks-to)
 - [Credit and license](#credit-and-license)
+
+## What makes Magpie different
+
+- **It finds what a quick AI summary misses.** Ask an AI for themes and
+  you often get what you could have guessed: "users want it faster."
+  Magpie reads every line, notes why people feel the way they do, and
+  keeps the people who disagree and the strongest quotes in view.
+  [How analysis works](core/stages/07-analyze.md)
+- **It asks for your view before it gives its own.** An AI's first
+  answer can steer your thinking. At five key steps, such as naming the
+  patterns you saw in your sessions, you go first. You also decide
+  whether to keep, change or drop each theme before any findings are
+  written. [Where you go first](#your-turn-where-you-go-first)
+- **It shows where every finding came from.** Each finding names the
+  participants and quotes behind it, so you can check it in seconds.
+  A second, separate AI reviews the findings before you share them.
+  [Can I trust it?](#can-i-trust-it)
+- **It stays with you for the whole study.** You don't need a different
+  prompt for each task. Magpie keeps a running record of your study, so
+  your analysis still ties back to the decision the study was for. Start
+  at any stage, even with finished transcripts.
+  [The stages](#the-stages)
+- **It tells you how sure it is.** Each finding says how strong the
+  evidence is, how much it matters, and whether it's enough for the
+  decision your team is making. [What you get](#what-you-get)
+- **It helps you show what your research changed.** At the end of a
+  study, it drafts a row for your impact log. Later, it helps you
+  gather the evidence. [What you get](#what-you-get)
+- **It's free and works in the AI tool you already use.** Claude,
+  ChatGPT, Gemini or Copilot. Magpie itself sends nothing anywhere.
+  [Privacy and security](#privacy-security-and-personal-details)
+
+**An example.** This one is made up, to show the difference. Ten people
+talked about setting up bills in a budgeting app.
+
+- *A quick AI summary:* "Users want bill setup to be faster (8 of 10)."
+- *Magpie:* "8 of 10 said setting up a bill takes too long. For two of
+  them it goes further. P4 has stopped adding small bills, because the
+  app keeps asking for proof of the amount. P9 keeps a paper list,
+  because a setup once vanished halfway through. P7 and P10 found setup
+  fine."
+
+The first tells the team to make a form faster. The second shows people
+working around the app because they don't trust it.
+
+## Before you rely on Magpie
+
+**Work in progress.** Magpie has been tested only in Claude Code so far,
+and it improves often. Read [Can I trust it?](#can-i-trust-it) before
+you rely on it, and [check for updates](#keep-magpie-up-to-date) every
+week or two.
+
+**Free and "as is".** Magpie is free and comes "as is", with no
+warranty and no support (see the [license](LICENSE)). You're responsible
+for what you share with your AI tool, for checking Magpie's work before
+you use or share it, and for following your organization's rules.
+Magpie's suggestions on methods, statistics, ethics and consent are a
+starting point for your own judgment. They aren't legal, privacy or
+compliance advice.
 
 ## Get started
 
@@ -377,6 +425,21 @@ Magpie works with you on a whole study, over many messages. It asks you
 questions, drafts the work, and waits for you to check it before moving
 on.
 
+### Your turn: where you go first
+
+At five steps, Magpie asks for your view before it shows its own,
+because its first answer could steer yours:
+
+1. **Framing the study:** the decision, the main research question, the
+   questions your team already has, and the assumptions it's making.
+2. **Before analysis:** the patterns you saw in your sessions.
+3. **When you review the themes:** what would prove the key ones wrong,
+   and what else could explain them.
+4. **In the readout:** what each team should do about the top findings.
+5. **In an impact check:** what you think your research changed.
+
+If you'd rather Magpie went first, say "you do it".
+
 ### What Magpie is: one skill that brings in agents
 
 A **prompt** is one message you send an AI tool, and it applies only to
@@ -478,6 +541,10 @@ involved. Magpie builds that thinking into every study.
 - **It turns findings into action.** Recommendations name the teams they
   affect, and next steps say how the team will know a change worked.
   Who does what is left for the team to agree together.
+- **It helps research leads keep studies consistent.** A
+  [team profile](core/team/team-profile.md) tells Magpie your team's
+  goals, rules and report template once, so every study starts from
+  them.
 - **It helps researchers at every level.** If you're newer to research,
   Magpie explains the reason behind each suggestion in plain words. If
   you're experienced, it questions each draft to make it stronger.
@@ -490,8 +557,6 @@ For everything Magpie makes, see [What you get](#what-you-get).
 
 ## What you get
 
-- **Help from wherever you're starting:** a vague request, a deadline, a
-  half-written plan or a folder of transcripts.
 - **The right method for the question.** Magpie checks whether you need
   to hear what people say or see what they do, and tells you up front
   what you'll have at the end.
@@ -501,9 +566,6 @@ For everything Magpie makes, see [What you get](#what-you-get).
   answer is unclear or clashes with another. Every draft comes with "How
   I built this": the main choices Magpie made and why. You can push back
   on any of it.
-- **Findings you can check.** Every claim says where it came from. Magpie
-  never makes up a quote, a number or a participant, and every count
-  names the participants behind it.
 - **Honest about how sure it is.** Each finding is labeled strong,
   moderate or weak, and ranked by how much it matters. With small
   samples, it gives a range rather than one number and says what a
@@ -646,6 +708,14 @@ yours: *"Does this tool show how full this conversation is?"*
   realistic study scenarios with planted problems, such as a leading
   question or a finding the data doesn't support. Most pass, but so far an
   AI model has judged the results, not a person.
+- **It's been tested on real studies.** Magpie analyzed interview
+  transcripts from three public research studies, and its findings were
+  compared with what the original researchers reported. In every run,
+  each of their headline findings showed up in Magpie's analysis,
+  though a few only as minor points. Where Magpie fell short, it was
+  mostly on nuance, such as a sharp point made by one or two people.
+  Those gaps have led to changes. An AI model judged these comparisons,
+  not a person.
 - **Its rules are written down.** Where a rule comes from published
   research practice, such as Nielsen Norman Group or the ICC/ESOMAR code
   (the market research industry's code of conduct),

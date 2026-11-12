@@ -2,6 +2,17 @@
 
 ## 2026-11-12
 
+- README: a new "What makes Magpie different" section near the top.
+  Seven short points, each saying what Magpie does and why it matters,
+  with a link to the detail, plus a made-up example that sets a quick AI
+  summary next to a Magpie finding. New "Your turn: where you go first"
+  part under How Magpie works, listing the five steps where the
+  researcher goes first. The "Work in progress" and "Free and 'as is'"
+  notes keep their wording and move into "Before you rely on Magpie".
+  "Can I trust it?" now says Magpie was tested on three public studies
+  against the original researchers' findings (model judging). Research
+  leads are named as an audience, and two points in "What you get" that
+  the new section covers were removed.
 - New: a guide-question sweep at analysis (stage 7, step 4b). Coding
   every line doesn't mean every answer reaches a finding: a finding can
   rest on one person's answer to a guide question while the others'
