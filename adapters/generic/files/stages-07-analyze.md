@@ -52,6 +52,8 @@ transcripts may be used here, and don't hold the analysis for it
 (`checks-ethics-and-consent.md`).
 - Partner data that arrived since planning.
 - The research questions and hypotheses, if they aren't in the record.
+- The discussion guide, script or survey as it was used in the sessions,
+  if it isn't in the record. Step 4b checks the analysis against it.
 - The decision the study feeds and what it would cost if it went wrong,
   if they aren't in the record. A researcher who starts here, with
   sessions already run, often has no record yet. Draft the decision
@@ -74,7 +76,13 @@ sessions, or say "you do it", skip it.
 ## What to do
 
 1. **Anchor on the questions.** Re-read the research questions before
-   reading the data. Findings answer questions; anything that met the
+   reading the data. Copy them word for word from the record, the plan or
+   the guide, with their numbers, and work from that copy to the end of
+   the study. Never reword, merge, split or renumber them from memory: a
+   reworded question can quietly drop part of what was asked, and every
+   check after that runs against the wrong list. If a question seems to
+   need new wording, that's the researcher's call, shown with the
+   before-and-after table (`operating.md`, "Show what you changed"). Findings answer questions; anything that met the
    evidence bar but answers none of them is tagged "also noticed". It is
    still a finding, with the same evidence, counter-evidence and strength,
    and it still reaches the readout; the tag says it was unexpected, not
@@ -160,6 +168,27 @@ sessions, or say "you do it", skip it.
    `tools/checks/coverage_check.py` on the coding notes and the
    transcripts, and fix what it lists; otherwise check by hand and say
    so. Write the result in the record's Coverage line.
+4b. **Sweep the guide questions.** Coding every line doesn't mean every
+   answer reaches a finding. A finding can rest on one person's answer
+   to a guide question while everyone else's answers to it go nowhere,
+   and if that finding is cut, they all go with it. So, from the guide as
+   it was used, go through each guide question in turn and note who
+   answered it and where each answer ends up: a theme, a finding, a
+   single voice, or "Coded but not reported". Look for two things:
+   - A guide question that two or more participants answered whose
+     answers feed nothing. Say which, and why they're left (off topic,
+     too thin), or pull them in.
+   - A theme or finding that uses only some of the people who answered
+     the same guide question. Read the others' answers too: they may
+     agree, disagree, or hold a second finding.
+   Do it again once the findings are drafted, and whenever a theme or
+   finding is dropped, cut or narrowed, or the scope changes: re-check the guide
+   questions its evidence came from, so their answers move to another
+   finding, a single voice or "Coded but not reported" instead of
+   disappearing. If you don't have the guide, ask for it. Without it,
+   say the sweep didn't run; never call coverage complete. Write the
+   result in the record's Guide-question sweep line ("All 14 guide
+   questions used; Q9 answers left as off topic").
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task, lost data or money). A theme on a topic everyone was
@@ -539,6 +568,9 @@ the tool gives no range, or gives one that doesn't fit the sample.
 - The Connections checked table from step 5a.
 - The Coverage line from step 4a: which files were read and coded start
   to end, what was left out as logistics, and anything not read.
+- The Guide-question sweep line from step 4b: any guide question whose
+  answers feed nothing, and why, or that the sweep couldn't run without
+  the guide.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
 - The analysis sheet, if the researcher wants it.
@@ -566,6 +598,12 @@ it.
   go ahead; the Coverage line shows each one coded start to end, with
   only logistics left out.
 - Every finding answers a research question or is listed as "also noticed".
+- The research questions are the record's own, word for word, with their
+  numbers.
+- The guide-question sweep ran, after coding and again once the findings
+  were drafted: every guide question two or more people answered feeds a
+  finding, a single voice or "Coded but not reported", or the record
+  says why not; without the guide, the record says the sweep didn't run.
 - Every theme has a "what explains it" sentence, from participants'
   reasons, or says none were given.
 - Every theme was checked for what it smoothed over (step 6b): a

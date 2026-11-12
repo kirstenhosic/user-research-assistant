@@ -110,6 +110,7 @@ Jump to the steps for your tool:
 - [ChatGPT](#chatgpt)
 - [Gemini](#gemini)
 - [Copilot](#copilot)
+- [GitHub Copilot in VS Code](#github-copilot-in-vs-code)
 - [Any other AI tool](#any-other-ai-tool)
 
 When you're done, [check that it worked](#check-that-it-worked).
@@ -220,6 +221,27 @@ Personal, Family and the free Copilot app don't have Cowork.
 
 More detail is in the [Copilot setup notes](adapters/copilot/README.md).
 
+#### GitHub Copilot in VS Code
+
+This is a different Copilot: the one inside the VS Code editor, used in
+agent mode. Use **magpie.zip**. Unzip it into a folder named `magpie`
+where Copilot looks for skills. Ask Copilot: *"Where do I put an agent
+skill so you can use it?"*
+
+Three things make a big difference here:
+
+- **Pick a model.** The model picker can be set to **Auto**. In one
+  study's logs, Auto used different models on different turns, some of
+  them small and fast. Pick one strong model for the whole study.
+- **Keep one copy of Magpie.** Copilot may find skills in more than one
+  folder, and an old copy can load without telling you. Ask Copilot:
+  *"Which skills can you see, and which folder is each one in?"* Remove
+  any older copy.
+- **Check that the reviews ran.** At some steps, Magpie has a separate
+  reviewer check its draft before you see it. Its reply says when the
+  review ran. If it gives you text to paste into a fresh chat instead,
+  do that before you rely on the draft.
+
 #### Any other AI tool
 
 Upload `magpie.zip` if the tool takes skills. If it has projects or
@@ -292,6 +314,8 @@ reports more than for quick questions.
   model, and raise **Effort** or turn on **Thinking** if you see them.
 - **Copilot Cowork:** the model picker starts on **Auto** and reasoning
   effort starts on **Medium**. You can pick a model and raise the effort.
+- **GitHub Copilot in VS Code:** pick a model in the chat view instead of
+  **Auto**, so the same model works on the whole study.
 - **Gemini:** ask Gemini: *"How do I choose a different model?"*
 
 #### 3. Share transcripts as files, one per participant

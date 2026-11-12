@@ -397,6 +397,16 @@ analysis sheets are Excel files (.xlsx).
 - **When the researcher sends back an edited Word file or sheet,** work
   from it, not from your earlier draft, and say what changed since your
   version.
+- **Never write over the researcher's edits.** Where you write files
+  into their folder, the researcher or a colleague may edit one there
+  (most often the Word file) without telling you. Before you rewrite or
+  rebuild a file you made earlier, check whether it changed since you
+  last wrote it (its modified time, or its content against your last
+  version). If it changed, the edited file is now the source: make your
+  change in it, or carry their edits into your Markdown and show them
+  the difference before you rebuild. If you can't do either, save under
+  a new name and say so. Never rebuild a Word file from Markdown over
+  their edits.
 
 ## Gather context before you build
 
@@ -1087,6 +1097,12 @@ If the researcher changes the decision or the primary question mid-study,
 list the record sections that depend on it (questions, approach, sample,
 instruments) and offer to update each, so nothing is rewritten without
 them seeing it.
+
+When the scope narrows after analysis (a group of participants or a
+topic is set aside, or findings are cut), the evidence behind a cut
+finding doesn't leave with it. Run the guide-question sweep again
+(stage 7, step 4b) and show where those answers went: another finding,
+a single voice, or "Coded but not reported".
 
 ## When you're wrong
 

@@ -2,6 +2,32 @@
 
 ## 2026-11-12
 
+- New: a guide-question sweep at analysis (stage 7, step 4b). Coding
+  every line doesn't mean every answer reaches a finding: a finding can
+  rest on one person's answer to a guide question while the others'
+  answers go nowhere, and if that finding is cut, they all disappear.
+  Now Magpie goes through the guide as it was used and notes, for each
+  question, who answered it and where each answer ends up. It names any
+  question two or more people answered that feeds nothing, and reads
+  the other answers when a finding uses only some of them. It runs the
+  sweep again once findings are drafted and whenever a finding is cut
+  or the scope narrows. Without the guide, it says the sweep didn't
+  run. The study record gets a Guide-question sweep line.
+- Analysis now works from the research questions copied word for word,
+  with their numbers. Magpie never rewords or renumbers them from
+  memory.
+- Magpie never writes over the researcher's edits. Before it rebuilds a
+  file it made earlier in the researcher's folder (most often the Word
+  file), it checks whether the file changed. If it did, Magpie works
+  from the edited file, or shows the difference before rebuilding.
+- README: a new setup section for GitHub Copilot in VS Code, with three
+  tips: pick one model instead of Auto, keep one copy of Magpie, and
+  check that the reviews ran.
+- These come from a review of a missed finding in another AI research
+  tool. New standards 7.38, 7.39 and A.45; new evals
+  `guide-question-sweep` and `edited-word-file` (not run yet). 180
+  standards, 78 with a source.
+
 - New: a check for what each theme smoothed over. Grouping and
   counting make themes tidy, and the tidiness can hide the point that
   matters most. In the Sheffield open qualitative test, one
