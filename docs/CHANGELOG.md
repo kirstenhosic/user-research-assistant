@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-11-12
+
+- New: a check for what each theme smoothed over. Grouping and
+  counting make themes tidy, and the tidiness can hide the point that
+  matters most. In the Sheffield open qualitative test, one
+  participant's sharp political objection was coded in all three runs,
+  then shrunk to a line, half a sentence or a count. Now, before the
+  theme review, Magpie asks two things of every theme: what did it fold
+  in that says more than the theme does (a moral or political
+  objection, something people stopped doing, a workaround, a fear),
+  and would its title still be true for an unrelated company or
+  product? A sharper statement stays visible inside the finding with
+  its participant and line. A generic title is rewritten from the
+  theme's "what explains it" sentence; the theme itself stays. The
+  theme review shows one line only for themes where something changed.
+  The swap test and the idea of looking for what a theme smoothed over
+  come from Nikki Anderson's newsletter (S108). New stage 7 step 6b,
+  standard 7.36 and eval `smoothed-over` (not run yet).
+- New: starting at analysis. A researcher who arrives with sessions
+  already run and no study record is now asked, with the other
+  analysis questions, what decision the study feeds and what a wrong
+  call would cost. Magpie drafts the decision risk from the answer, or
+  marks it as an assumption and treats it as medium, so it can still
+  judge whether each finding is enough for the decision. New standard
+  7.37 and eval `start-at-analysis` (not run yet). 177 standards, 78
+  with a source.
+
 ## 2026-11-09
 
 - New: source receipts and a source check for work from documents.

@@ -110,7 +110,8 @@ The published work Magpie's rules draw on, with the people who wrote it. A code 
 - **S105**: Boyd, C. (2025, August 1). "Showing the Value of User Research: The Ultimate Guide." User Interviews blog. https://www.userinterviews.com/blog/showing-the-value-of-user-research
 - **S106**: Sullivan, C. (n.d.; the page shows no date, read 2026-11-05). "Tracking the impact of UX Research: a framework." UX Collective (Medium). https://uxdesign.cc/tracking-the-impact-of-ux-research-a-framework-9e8b8f51599b (the byline didn't show in the fetched text; the author is named in the UXinsight resource list, S107)
 - **S107**: den Bouwmeester, K. (2023, May 29; last updated March 6, 2025). "How to measure UX research impact: A multi-level framework (updated)." UXinsight. https://uxinsight.org/how-to-measure-ux-research-impact-a-multi-level-framework/
+- **S108**: Anderson, N. (2026, November 12). "How much AI should go into your next study?" The User Research Strategist (newsletter, sent by email under the name Nikki Anderson). https://www.userresearchstrategist.com/p/how-much-ai-should-go-into-your-next-study (read from the email copy supplied by Kirsten Hosic on 2026-11-12; the web page was not read)
 
 ---
 
-Part of Magpie version 2026-11-09, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-12, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

@@ -52,6 +52,12 @@ transcripts may be used here, and don't hold the analysis for it
 (`checks/ethics-and-consent.md`).
 - Partner data that arrived since planning.
 - The research questions and hypotheses, if they aren't in the record.
+- The decision the study feeds and what it would cost if it went wrong,
+  if they aren't in the record. A researcher who starts here, with
+  sessions already run, often has no record yet. Draft the decision
+  risk from the answer (`lenses/minimum-viable-rigor.md`); step 10 needs
+  it to judge whether each finding is enough for the decision. If they
+  don't know, mark it [assumption] and treat the risk as medium.
 
 If a lot of material lands in one conversation, offer once to start the
 analysis in a new one (`operating.md`, "Long conversations"). Where you
@@ -221,6 +227,29 @@ sessions, or say "you do it", skip it.
    could explain it. A mixed theme is never rated weak and left there
    without one of these lines. For survey data, check the split with
    cross-tabs only where each group has enough people.
+6b. **Check what each theme smoothed over.** Grouping and counting make
+   themes tidy, and the tidiness can hide the point that matters most.
+   For every theme, ask two things:
+   - **What did it fold in that says more than the theme does?** Look
+     for the sharpest or most strongly felt statement inside it: a moral
+     or political objection, something people stopped doing, a
+     workaround, a fear, an emotion that changes what the words mean.
+     If one says more than the theme statement, keep it visible inside
+     the finding with its participant and line ("folded in here: P3
+     calls the export 'the part where I lose a day' and now only
+     exports at month end (P3 41)"), and
+     check whether others said something like it. Don't let a count
+     stand in for it.
+   - **Would the title still be true for any other organization or
+     product?** Swap in an unrelated one, such as a bank or a gym app.
+     If the title still holds, it's the generic version: rewrite it
+     from the theme's "what explains it" sentence, so it says what is
+     particular to these people. A generic point can still be true and
+     still matter (a form that loses people's work); the swap only
+     says the title needs the specific reason, not that the theme goes.
+   Show what you found at the theme review (step 8): one line under the
+   themes where something was smoothed over or a title was rewritten,
+   and nothing for the others.
 7. **Compare with the researcher's patterns.** If they named patterns
    before coding, put them next to the candidate themes: which match,
    which of theirs the coding didn't find, and which themes they didn't
@@ -234,7 +263,8 @@ sessions, or say "you do it", skip it.
    supplies most of the evidence, then themes with no one who doesn't fit,
    then themes that confirm a hypothesis. For each theme give the
    statement, the count with the participants behind it, one quote with
-   its location, and its risk in a few words. Keep the table to eight
+   its location, its risk in a few words, and the step 6b line if it
+   has one. Keep the table to eight
    themes at most; if there are more, merge the closest or list the rest
    by name under it. Put single cases that aren't serious on one line
    under the table ("Single cases, not themes: P4 works alone; P8 has two
@@ -538,6 +568,11 @@ it.
 - Every finding answers a research question or is listed as "also noticed".
 - Every theme has a "what explains it" sentence, from participants'
   reasons, or says none were given.
+- Every theme was checked for what it smoothed over (step 6b): a
+  sharper statement folded into it stays visible with its participant
+  and line, and no title would be just as true of any other product.
+- The decision and its risk are in the record, or marked [assumption],
+  even when the study started at this stage.
 - The findings end with the single voices list and the coded but not
   reported list, and the record has the Connections checked table.
 - Identity that bears on the study, was asked for, that a participant
@@ -575,3 +610,5 @@ it.
 - Marking a finding down because no other study exists yet.
 - Ranking findings by how sure we are instead of how much they matter.
 - A theme that is really the research question restated.
+- A count standing in for the sharpest thing people said, or a title
+  that would be just as true of any other product.

@@ -165,6 +165,7 @@ are paraphrased in the core, never reproduced.
 | S105 | Boyd, C. (2025, August 1). "Showing the Value of User Research: The Ultimate Guide." User Interviews blog. https://www.userinterviews.com/blog/showing-the-value-of-user-research | 3.12 in part: agree the metric before building, so the value can be shown before and after; connect to the metrics stakeholders already track (I.4 in part). The guide's cost and revenue statistics come from other sources that were not checked, so nothing in Magpie rests on them | 2026-11-05 |
 | S106 | Sullivan, C. (n.d.; the page shows no date, read 2026-11-05). "Tracking the impact of UX Research: a framework." UX Collective (Medium). https://uxdesign.cc/tracking-the-impact-of-ux-research-a-framework-9e8b8f51599b (the byline didn't show in the fetched text; the author is named in the UXinsight resource list, S107) | `core/impact/impact-check.md`, step 3: a stakeholder rating, on a scale of 1 to 7, of how quickly they could decide after hearing an insight; a stakeholder quote as proof when no metric is obvious. I.5 in part | 2026-11-05 |
 | S107 | den Bouwmeester, K. (2023, May 29; last updated March 6, 2025). "How to measure UX research impact: A multi-level framework (updated)." UXinsight. https://uxinsight.org/how-to-measure-ux-research-impact-a-multi-level-framework/ | `core/impact/impact-check.md`: "It's not about proving a perfect causal link. It's about telling a credible, connected story"; you're not claiming research was the only driver. I.3 | 2026-11-05 |
+| S108 | Anderson, N. (2026, November 12). "How much AI should go into your next study?" The User Research Strategist (newsletter, sent by email under the name Nikki Anderson). https://www.userresearchstrategist.com/p/how-much-ai-should-go-into-your-next-study (read from the email copy supplied by Kirsten Hosic on 2026-11-12; the web page was not read) | Ideas only; no wording was copied. 7.36 in part, `core/stages/07-analyze.md`, step 6b: the swap test (put an unrelated company in place of this one, and if the theme still sounds true it's the obvious version, so go back to the transcripts), and looking for what a theme smoothed over. The newsletter's decision-size score, its plan sentence and its stakeholder answers were compared with Magpie and not used. The paid downloads it mentions were not read | 2026-11-12 |
 
 Located but not read, so not cited: Carter, S. and Mankoff, J. (2005).
 "When participants do the capturing: the role of media in diary studies."
@@ -199,7 +200,7 @@ with S10 and S100 (Sauro and Lewis, supplied as photographs on
 2026-10-28).
 
 Standards with no source yet keep "practitioner judgment" as their basis.
-Current count: 77 of 175 standards cite a source in full or in part.
+Current count: 78 of 177 standards cite a source in full or in part.
 
 ## Tools used
 
