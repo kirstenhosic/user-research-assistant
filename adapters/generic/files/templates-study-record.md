@@ -140,6 +140,10 @@ Who the findings should speak for, and how well each participant fits.
 left out as logistics; anything not read, and whether the researcher
 chose to go ahead without it]
 
+**Guide-question sweep:** [each guide question two or more participants
+answered is used by a finding, a single voice or "Coded but not
+reported"; list any that isn't, and why; or "not run: no guide"]
+
 **Researcher's patterns** (what they saw before coding, in their words):
 
 -

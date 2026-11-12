@@ -48,7 +48,8 @@ every summary needs all of them. Someone with two minutes reads only this.
   wrong]
 - **What we already knew:** [two or three lines; link to prior research or
   the evidence log]
-- **The questions:** [primary, then secondary, each in plain words]
+- **The questions:** [primary, then secondary, word for word as the team
+  agreed them, with their numbers]
 - **Where it sits:** [the job, the journey step, the persona or group, in
   the team's names]
 

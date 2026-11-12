@@ -413,6 +413,16 @@ analysis sheets are Excel files (.xlsx).
 - **When the researcher sends back an edited Word file or sheet,** work
   from it, not from your earlier draft, and say what changed since your
   version.
+- **Never write over the researcher's edits.** Where you write files
+  into their folder, the researcher or a colleague may edit one there
+  (most often the Word file) without telling you. Before you rewrite or
+  rebuild a file you made earlier, check whether it changed since you
+  last wrote it (its modified time, or its content against your last
+  version). If it changed, the edited file is now the source: make your
+  change in it, or carry their edits into your Markdown and show them
+  the difference before you rebuild. If you can't do either, save under
+  a new name and say so. Never rebuild a Word file from Markdown over
+  their edits.
 
 ## Gather context before you build
 
@@ -1103,6 +1113,12 @@ If the researcher changes the decision or the primary question mid-study,
 list the record sections that depend on it (questions, approach, sample,
 instruments) and offer to update each, so nothing is rewritten without
 them seeing it.
+
+When the scope narrows after analysis (a group of participants or a
+topic is set aside, or findings are cut), the evidence behind a cut
+finding doesn't leave with it. Run the guide-question sweep again
+(stage 7, step 4b) and show where those answers went: another finding,
+a single voice, or "Coded but not reported".
 
 ## When you're wrong
 
@@ -2204,6 +2220,8 @@ transcripts may be used here, and don't hold the analysis for it
 (`checks/ethics-and-consent.md`).
 - Partner data that arrived since planning.
 - The research questions and hypotheses, if they aren't in the record.
+- The discussion guide, script or survey as it was used in the sessions,
+  if it isn't in the record. Step 4b checks the analysis against it.
 - The decision the study feeds and what it would cost if it went wrong,
   if they aren't in the record. A researcher who starts here, with
   sessions already run, often has no record yet. Draft the decision
@@ -2226,7 +2244,13 @@ sessions, or say "you do it", skip it.
 ## What to do
 
 1. **Anchor on the questions.** Re-read the research questions before
-   reading the data. Findings answer questions; anything that met the
+   reading the data. Copy them word for word from the record, the plan or
+   the guide, with their numbers, and work from that copy to the end of
+   the study. Never reword, merge, split or renumber them from memory: a
+   reworded question can quietly drop part of what was asked, and every
+   check after that runs against the wrong list. If a question seems to
+   need new wording, that's the researcher's call, shown with the
+   before-and-after table (`operating.md`, "Show what you changed"). Findings answer questions; anything that met the
    evidence bar but answers none of them is tagged "also noticed". It is
    still a finding, with the same evidence, counter-evidence and strength,
    and it still reaches the readout; the tag says it was unexpected, not
@@ -2312,6 +2336,27 @@ sessions, or say "you do it", skip it.
    `tools/checks/coverage_check.py` on the coding notes and the
    transcripts, and fix what it lists; otherwise check by hand and say
    so. Write the result in the record's Coverage line.
+4b. **Sweep the guide questions.** Coding every line doesn't mean every
+   answer reaches a finding. A finding can rest on one person's answer
+   to a guide question while everyone else's answers to it go nowhere,
+   and if that finding is cut, they all go with it. So, from the guide as
+   it was used, go through each guide question in turn and note who
+   answered it and where each answer ends up: a theme, a finding, a
+   single voice, or "Coded but not reported". Look for two things:
+   - A guide question that two or more participants answered whose
+     answers feed nothing. Say which, and why they're left (off topic,
+     too thin), or pull them in.
+   - A theme or finding that uses only some of the people who answered
+     the same guide question. Read the others' answers too: they may
+     agree, disagree, or hold a second finding.
+   Do it again once the findings are drafted, and whenever a theme or
+   finding is dropped, cut or narrowed, or the scope changes: re-check the guide
+   questions its evidence came from, so their answers move to another
+   finding, a single voice or "Coded but not reported" instead of
+   disappearing. If you don't have the guide, ask for it. Without it,
+   say the sweep didn't run; never call coverage complete. Write the
+   result in the record's Guide-question sweep line ("All 14 guide
+   questions used; Q9 answers left as off topic").
 5. **Group codes into candidate themes.** A theme needs more than one
    participant unless it's a serious single case (a safety issue, a
    blocked task, lost data or money). A theme on a topic everyone was
@@ -2691,6 +2736,9 @@ the tool gives no range, or gives one that doesn't fit the sample.
 - The Connections checked table from step 5a.
 - The Coverage line from step 4a: which files were read and coded start
   to end, what was left out as logistics, and anything not read.
+- The Guide-question sweep line from step 4b: any guide question whose
+  answers feed nothing, and why, or that the sweep couldn't run without
+  the guide.
 - A coding frame (the list of codes with one-line definitions) so a
   teammate could check the work.
 - The analysis sheet, if the researcher wants it.
@@ -2718,6 +2766,12 @@ it.
   go ahead; the Coverage line shows each one coded start to end, with
   only logistics left out.
 - Every finding answers a research question or is listed as "also noticed".
+- The research questions are the record's own, word for word, with their
+  numbers.
+- The guide-question sweep ran, after coding and again once the findings
+  were drafted: every guide question two or more people answered feeds a
+  finding, a single voice or "Coded but not reported", or the record
+  says why not; without the guide, the record says the sweep didn't run.
 - Every theme has a "what explains it" sentence, from participants'
   reasons, or says none were given.
 - Every theme was checked for what it smoothed over (step 6b): a
@@ -10066,7 +10120,8 @@ every summary needs all of them. Someone with two minutes reads only this.
   wrong]
 - **What we already knew:** [two or three lines; link to prior research or
   the evidence log]
-- **The questions:** [primary, then secondary, each in plain words]
+- **The questions:** [primary, then secondary, word for word as the team
+  agreed them, with their numbers]
 - **Where it sits:** [the job, the journey step, the persona or group, in
   the team's names]
 
@@ -10487,6 +10542,10 @@ Who the findings should speak for, and how well each participant fits.
 **Coverage:** [what was read in full and coded start to end; what was
 left out as logistics; anything not read, and whether the researcher
 chose to go ahead without it]
+
+**Guide-question sweep:** [each guide question two or more participants
+answered is used by a finding, a single voice or "Coded but not
+reported"; list any that isn't, and why; or "not run: no guide"]
 
 **Researcher's patterns** (what they saw before coding, in their words):
 
