@@ -11,7 +11,9 @@ The researcher writes:
 
 > What method should we use?
 
-After Magpie recommends, the researcher replies:
+Magpie asks for the researcher's own pick first (`method-your-turn.md`).
+The researcher answers "you do it". After Magpie recommends, the
+researcher replies:
 
 > I'd rather do a survey, we can get 200 responses in a week
 

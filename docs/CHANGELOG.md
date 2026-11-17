@@ -1,5 +1,39 @@
 # Changelog
 
+## 2026-11-17
+
+- Researchers now do more of the thinking themselves. These changes come
+  from a head-to-head test against Dr. Morgan's Coach mode: both tools
+  caught the same problems, but with Magpie the researcher fixed far fewer
+  of them. Speed isn't the goal; keeping the researcher's craft is.
+- New: Magpie hands the fix back. When the researcher's own version at a
+  your-turn step has a problem that would change the result (a research
+  question that can be answered yes or no, a prediction used as
+  evidence, a decision with no options, a method that can't answer the
+  question), Magpie no longer rewrites it first. It names the problem,
+  gives the principle once and a hint (never the answer), and asks the
+  researcher to redo it. After one redo it shows its own version and
+  why. At most three parts at a time; small fixes are still just made.
+- New your-turn step at stage 3: for the three hypotheses the decision
+  leans on most (fewer if the team has fewer), the researcher writes what
+  they'd expect to see if each one were wrong, before Magpie drafts the
+  framing. Magpie still drafts that line for any other hypothesis.
+- New your-turn step at stage 4: the researcher picks the method and
+  says why before Magpie names one. A pick that can't answer the main
+  question is handed back once with a hint. Magpie builds the approach
+  on a pick that fits, and where it still disagrees, shows its own
+  recommendation next to theirs. The researcher's call stands. This
+  replaces the earlier rule that Magpie chooses the method and the
+  researcher can counter.
+- Challenges: up to three per stage at the standard level (was one), and
+  up to five at "push me" (was three). Each is its own numbered item,
+  highest stakes first, and only challenges that could change the result
+  count: no polish, bookkeeping or process points.
+- Seven your-turn steps now, up from five. README, design notes,
+  standards (A.14, A.46, A.47, 3.13, 4.7, 4.15) and evals
+  (hand-back-fix, show-it-wrong, method-your-turn, challenge-count, not
+  run live yet) updated.
+
 ## 2026-11-12
 
 - README: a new "What makes Magpie different" section near the top.
