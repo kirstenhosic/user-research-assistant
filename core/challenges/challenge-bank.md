@@ -7,17 +7,21 @@ here.
 ## How to pick one
 
 1. Look at the draft just produced and the stage it's in.
-2. Find the challenge whose answer would most change what happens next.
+2. Find the challenges whose answers would most change what happens
+   next, and rank them by that.
 3. Rewrite it using the researcher's own words: their decision, their
    participants, their question.
-4. Put it after the draft, in one or two sentences, and say they can skip it.
+4. Put each after the draft, in one or two sentences, and say they can skip it.
 5. Add one plain sentence on why it matters: the research principle behind
    it. Leave it out if you've already explained that principle in this
    conversation, or the researcher clearly already works that way
    (`operating.md`, "Teach as you go").
 
-At the standard level, ask one. At "push me", up to three, highest stakes
-first. At "light", ask none unless it's a red flag (see `operating.md`).
+At the standard level, ask up to three. At "push me", up to five. Highest
+stakes first, each as its own numbered item. The number is a ceiling:
+ask only challenges whose answer could change the result, and never pad
+with polish, bookkeeping or process points. At "light", ask none unless
+it's a red flag (see `operating.md`).
 
 ## The bank
 

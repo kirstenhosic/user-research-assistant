@@ -58,8 +58,10 @@ Reference:
   keeps the people who disagree and the strongest quotes in view.
   [How analysis works](core/stages/07-analyze.md)
 - **It asks for your view before it gives its own.** An AI's first
-  answer can steer your thinking. At five key steps, such as naming the
-  patterns you saw in your sessions, you go first. You also decide
+  answer can steer your thinking. At seven key steps, such as picking
+  the method or naming the patterns you saw in your sessions, you go
+  first. When your version has a problem, Magpie points to it and gives
+  you a hint, and you redo it before it offers its own. You also decide
   whether to keep, change or drop each theme before any findings are
   written. [Where you go first](#your-turn-where-you-go-first)
 - **It shows where every finding came from.** Each finding names the
@@ -404,9 +406,9 @@ Once Magpie is set up:
    do. Start with the points marked "read hardest": where the decision
    leans most and the evidence is thinnest. If you'd do something
    differently, say what and why, and Magpie reworks it.
-5. **Take your turn.** At three points you go first: framing the
-   problem, spotting patterns in the data, and deciding what each team
-   should do. Use your own words. That thinking is what makes the work
+5. **Take your turn.** At seven points you go first, such as framing
+   the problem, picking the method, spotting patterns in the data, and
+   deciding what each team should do. Use your own words. That thinking is what makes the work
    yours. Say "you do it" to hand a step back.
 6. **Keep going, one stage at a time.** A study takes many messages.
    The status line at the end of each reply shows Magpie is still on and which stage you're at. Say "stop Magpie" when you're
@@ -427,18 +429,25 @@ on.
 
 ### Your turn: where you go first
 
-At five steps, Magpie asks for your view before it shows its own,
+At seven steps, Magpie asks for your view before it shows its own,
 because its first answer could steer yours:
 
 1. **Framing the study:** the decision, the main research question, the
    questions your team already has, and the assumptions it's making.
-2. **Before analysis:** the patterns you saw in your sessions.
-3. **When you review the themes:** what would prove the key ones wrong,
+2. **Testing your team's beliefs:** for the three hypotheses that matter
+   most, what you'd expect to see if each one were wrong.
+3. **Choosing the method:** which method you'd pick, and why.
+4. **Before analysis:** the patterns you saw in your sessions.
+5. **When you review the themes:** what would prove the key ones wrong,
    and what else could explain them.
-4. **In the readout:** what each team should do about the top findings.
-5. **In an impact check:** what you think your research changed.
+6. **In the readout:** what each team should do about the top findings.
+7. **In an impact check:** what you think your research changed.
 
-If you'd rather Magpie went first, say "you do it".
+If your answer has a problem that would change the result, such as a
+research question that can be answered yes or no, Magpie doesn't
+rewrite it for you. It names the problem, gives you a hint, and asks you
+to try again once. After that, it shows its own version and why. If
+you'd rather Magpie went first, say "you do it".
 
 ### What Magpie is: one skill that brings in agents
 
@@ -654,9 +663,9 @@ five you'll use most are first.
 | go on | Moves to the next stage without waiting for the team's reply to a summary |
 | final | Changes a reviewed draft's label from Draft to Final |
 | counter: ... | Reconsiders a method, a question order or any choice under "How I built this" with your reasoning |
-| push me | Challenges you more, up to three questions per stage |
+| push me | Challenges you more, up to five questions per stage |
 | ease off | Only raises serious problems, like consent or leading questions |
-| standard | Goes back to one question per stage |
+| standard | Goes back to up to three questions per stage |
 | just the work | Drops the personality for the session |
 | show the record | Shows the full study record |
 | make the sheet | Builds the analysis spreadsheet (Excel) |

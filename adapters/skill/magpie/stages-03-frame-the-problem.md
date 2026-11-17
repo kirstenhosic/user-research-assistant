@@ -37,8 +37,10 @@ who the study is about.
 - The business goal or metric it's meant to move.
 - What a wrong call would cost (can it be undone, and how quickly?).
   Optional: guess it from the decision and show the guess when you can.
-- The hypotheses: what the team believes now. Draft what would change
-  its mind yourself, in the hypothesis check, rather than asking.
+- The hypotheses: what the team believes now. Don't ask here what would
+  change the team's mind: for the key ones the researcher writes that
+  next (see "Your turn, part two"), and for any others you draft it in
+  the hypothesis check.
 - Who the study is about: which users or customers.
 - Anything already known or tried, if stage 2 didn't cover it.
 
@@ -78,6 +80,38 @@ Don't offer your guess at any of them. If they say "not sure" or "you do
 it", draft them yourself. "None" is a fine answer for the last two; write
 it in the record.
 
+**When the answers come back, hand back what needs it.** Read the
+decision and the primary question against `checks-research-questions.md`
+and the decision format before you draft anything. A primary question
+that assumes its answer, can be answered yes or no, asks people to
+predict, or is about the product rather than users goes back to the
+researcher to redo, with the problem, the principle and a hint, as does
+a decision with no options (`operating.md`, "Your turn"). The team's
+existing questions aren't the researcher's draft: fold them in at step
+4 as usual.
+
+**Your turn, part two: what would show it wrong.** Once you have the
+hypotheses, pick the ones the decision and the primary question lean on
+most, three at most, fewer if the team has fewer. In the follow-up
+message, before you draft the framing, ask the researcher to write, for
+each, what they'd expect to see if it were wrong. Name each hypothesis in
+the team's words and say who holds it. Give it as one numbered item with
+a labeled line per hypothesis, without your own answer:
+
+> 1. Your turn: for each of these, what would you expect to see in the
+>    study if it were wrong? A line each, rough is fine (required):
+>    H1 (Dana: permissions is the main blocker) would be wrong if: ...
+>    H2 (support lead: admins wait until everything is right) would be wrong if: ...
+
+Why it's a your-turn step: the person who holds a belief is the one most
+likely to read the evidence for it, and writing down in advance what
+would count against it is the plainest guard against that. The check
+in `checks-hypotheses.md` (rule 4) then reads their lines; one nothing
+could ever meet ("if nobody mentions permissions at all") is handed back
+once with a hint. Skip this step when the team has no hypotheses, or
+when each key one already says what would show it wrong. It goes in the
+same follow-up message as any hand-back, so it adds one message at most.
+
 ## What to do
 
 1. **Offer the product context.** Optional. If it hasn't been offered
@@ -92,9 +126,10 @@ it in the record.
    or a feeling ("it's confusing"). Start from the researcher's own
    version (the your-turn ask above). Keep their words, and fill in what's
    missing from the format: *[The team or group] will decide [what] by [when], choosing
-   between [options].* If you sharpen it, say what you changed and why in
-   one sentence: a decision without options can't be ruled in or out by
-   the evidence. If they handed this back, draft it from what you've been
+   between [options].* A decision with no options goes back to them
+   once (see "When the answers come back"). If you still sharpen it after
+   their redo, say what you changed and why in one sentence: a decision
+   without options can't be ruled in or out by the evidence. If they handed this back, draft it from what you've been
    told and ask them to correct it.
 3. **Tie it to the business.** Which goal or metric does it move? What does it
    cost to get it wrong? Use the team profile's goals and current bets if
@@ -116,7 +151,8 @@ it in the record.
    at stage 8 (`templates-impact-log.md`): without a starting point,
    nobody can say later whether the number moved.
 4. **Write the research questions.** One primary question that most changes
-   the decision, starting from the researcher's version if they gave one.
+   the decision, starting from the researcher's version if they gave one
+   (redone once if it had a problem; see "When the answers come back").
    Fold in the questions the team already had: keep the ones that serve
    the decision, rewrite the ones that are really survey questions or are
    about the product rather than users (say what you changed and why in a
@@ -130,8 +166,10 @@ it in the record.
    included, and show what you changed (`operating.md`, "Show what you
    changed").
 5. **Write down the hypotheses.** What does the team already believe, and
-   what would change its mind? Run `checks-hypotheses.md` over each one
-   and show any you sharpened in the same before-and-after table as the
+   what would change its mind? For the key ones, "what would change its
+   mind" is the researcher's line from part two, in their words; draft it
+   yourself for the rest. Run `checks-hypotheses.md` over each one and
+   show any you sharpened in the same before-and-after table as the
    research questions. Write each one in the record's Hypotheses
    section, with who holds it. The study tests them; it doesn't set out to
    prove them. The assumptions the researcher named go under Assumptions
@@ -172,6 +210,10 @@ it's on the roadmap? If they'd ship it anyway, what is the research for?"
 - The researcher was asked to write the decision, the primary question,
   the team's existing questions and the assumptions first, or these came
   with the brief, or they handed it back.
+- A primary question or decision with a problem that would change the
+  result was handed back once before Magpie rewrote it.
+- For the key hypotheses (three at most), the researcher wrote what
+  would show each wrong, or handed it back, or the team has none.
 - Product context offered once: filled, or "not added" by the
   researcher's choice.
 - A decision statement with the team or group making it, the deadline and the options.
@@ -219,4 +261,4 @@ satisfy it.
 
 ---
 
-Part of Magpie version 2026-11-12, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-17, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

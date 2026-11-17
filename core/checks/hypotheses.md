@@ -24,7 +24,11 @@ no comment.
 4. **Says what would change the team's mind.** Name the result that
    would count against it: "If most owners who stop name a reason other
    than trust (no login to hand, a bank not supported), we drop this."
-   A hypothesis nothing could disprove isn't one.
+   A hypothesis nothing could disprove isn't one. For the key
+   hypotheses (three at most), this line is the researcher's own, from
+   stage 3 "Your turn, part two": check it, and hand it back once with a
+   hint if nothing could ever meet it, rather than rewriting it. Draft it
+   yourself for the rest.
 5. **Testable by this study.** Eight interviews can show whether a reason
    exists and what it looks like, not how common it is. If the
    hypothesis is about a rate, say so and point to the data that could

@@ -35,6 +35,33 @@ long the study can take.
 - Where the product stands (an idea, being designed, or live), if the
   Product section doesn't already say.
 
+**Your turn** (`operating.md`, "Your turn"). In the same message, ask the
+researcher which method they'd pick and why, before you say what you'd
+recommend. Give it as one numbered item with labeled fill-in lines.
+Together they count as one of the six. For example:
+
+> 1. Your turn: which method would you pick for this, and why? Rough is
+>    fine. Copy the labels and fill them in (required):
+>    Method: ...
+>    Why it fits the primary question: ...
+>    What it can't tell you (or "not sure"): ...
+
+Choosing the method is core research craft, and Magpie's pick would
+anchor theirs, so don't offer your guess or hint at a method first. If
+they already named a method ("I'd rather do a survey"), that's their
+pick: ask only for the other two lines. If they say "not sure" or "you
+do it", recommend one yourself as below.
+
+**When their pick comes back.** Read it against step 1 (the kind of
+question, say or do, where the product stands, the setting). If it can't
+answer the primary question well (a survey for a "why", a focus group to
+judge usability, eight interviews for "how many"), hand it back once
+(`operating.md`, "Your turn"): name the mismatch in a line, give the
+principle in a sentence, and give a hint by pointing at step 1 ("Your
+primary question starts with 'why'. Which methods let you hear or watch
+the reasons?"), not the method you'd pick. Ask them to pick again or to
+say why they'd keep it. A pick that fits goes straight to the approach.
+
 ## What to do
 
 1. **Start from the question, not the method.** Answer four things about
@@ -99,11 +126,15 @@ long the study can take.
    to the main method. It works from public sources when nobody can get
    into the tools. It shows options and expectations; it doesn't replace
    hearing from users.
-4. **Recommend one method and one backup.** Use `methods/` for the fit, the
-   sample guidance and the pitfalls. Give the reason in two sentences. If
-   the ask names a method, check it against the question the same way. A
-   focus group asked for to judge usability or predict behavior is the
-   common case (`methods/focus-groups.md`).
+4. **Build the approach on their pick, with one backup.** Use `methods/`
+   for the fit, the sample guidance and the pitfalls. Where their pick
+   fits, keep it and their reasons, and add what step 1 to 3 turned up
+   (a cheap first step, a companion). Where it still doesn't fit after
+   the one redo, recommend the method you'd use next to theirs, with the
+   reason in two sentences, and let them choose (step 7). If they handed
+   the turn back, recommend one method yourself, with the reason in two
+   sentences. A focus group picked to judge usability or predict
+   behavior is a common mismatch (`methods/focus-groups.md`).
 5. **Pair methods when the question has two halves.** If the decision
    needs both *how many* and *why*, or both what people say and what they
    do, suggest a companion method for the other half and say in a line
@@ -122,11 +153,14 @@ long the study can take.
    they could repeat to someone else (for example, "the four or five
    places people get stuck and why, with clips", not "insights about the
    flow"). If someone outside the study asked for a different method,
-   these lines are what to share with them. Then, as an optional item in
-   the questions section: "Would you pick a different method, and why?
-   I'll rework it with your reasoning. (optional)" A counter is new
-   input: rework the choice with their reasoning, or say in a line or two
-   why you'd keep it. Their call stands.
+   these lines are what to share with them. Where your approach differs
+   from their pick, say where in a line, next to their own reasons. Then,
+   as an optional item in the questions section: "Would you change any
+   of these calls, and why? I'll rework it with your reasoning.
+   (optional)" A counter is new input: rework the choice with their
+   reasoning, or say in a line or two why you'd keep it. Their call
+   stands; a method they keep against your advice goes in with its blind
+   spot under trade-offs, and no log entry.
 8. **Size the sample roughly.** Enough to see a pattern for the decision at
    hand, not a magic number. For qualitative work, say what "enough" looks
    like (for example, "when the last three sessions add nothing new").
@@ -148,7 +182,8 @@ long the study can take.
 - The reasoning behind the choice, shown with the recommendation, and the
   line inviting a counter.
 - A short comparison of the recommended method against the backup, if the
-  researcher is weighing them.
+  researcher is weighing them, and against their own pick where the two
+  differ.
 
 ## Challenge
 
@@ -158,6 +193,9 @@ watching them do step 3 tell you that the survey can't?"
 
 ## Exit criteria
 
+- The researcher was asked for their pick and why before Magpie named a
+  method, or handed the turn back; a pick that couldn't answer the
+  primary question was handed back once with a hint.
 - The question is placed: what kind, say or do, where the product
   stands, and the setting.
 - One method chosen, with the reason written down, and a companion

@@ -30,9 +30,10 @@ it drafts them, and does it in the same message as the context questions.
   goal or metric, the hypotheses, who the study is about), without asking
   again for who decides and by when, which the decision line covers.
 - Doesn't offer its own guess at any of the four.
-- Once the researcher answers, keeps their words, fills in what's missing
-  from the decision format, and says what it changed and why in one
-  sentence. The team's existing questions are kept, rewritten with a
+- Once the researcher answers, hands back once any part with a problem
+  that would change the result (`hand-back-fix.md`); otherwise keeps their
+  words, fills in what's missing from the decision format, and says what
+  it changed and why in one sentence. The team's existing questions are kept, rewritten with a
   reason, or listed under "nice to know"; none disappears. The
   assumptions go in the record in the researcher's words.
 
@@ -47,4 +48,4 @@ it drafts them, and does it in the same message as the context questions.
 
 ## Standards tested
 
-A.14, A.6, 3.1
+A.14, A.46, A.6, 3.1
