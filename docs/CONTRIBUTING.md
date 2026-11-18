@@ -112,9 +112,19 @@ three; if not, it does nothing. So a change reaches the download links by
 the next morning (UTC), and a day of several changes makes one release.
 The tag is the Magpie version, the newest date in `docs/CHANGELOG.md`,
 for example `v2026-10-31`. If that tag is taken, it uses
-`v2026-10-31.2`, and so on. The notes are that version's changelog entry.
-To publish straight away, open **Actions**, pick **release** and click
+`v2026-10-31.2`, and so on. To publish straight away, open **Actions**, pick **release** and click
 **Run workflow**.
+
+Release notes are public, so they don't come from the changelog. They
+come from that version's entry in `docs/RELEASE-NOTES.md`, a short list
+in plain words for people who know nothing about how Magpie is built.
+Whenever you add a changelog date, add the same date there with a few
+bullets on what changed for the person using Magpie. Leave out pull
+request numbers, rule and source numbers, test names, file names and
+other tools, and keep credits to the people whose ideas Magpie uses.
+`tools/check.py` checks for the entry and for those words. Each run of
+the workflow also rewrites the notes of releases already published to
+match the file, so a fix there reaches old releases by the next morning.
 
 To publish one by hand instead:
 
@@ -123,7 +133,7 @@ To publish one by hand instead:
 2. Under **Choose a tag**, type the version, for example `v2026-10-31`,
    and click **Create new tag**. Pick `main` as the target.
 3. Use "Magpie" and the version as the title, and paste that version's
-   changelog entry as the notes.
+   entry from `docs/RELEASE-NOTES.md` as the notes.
 4. Drag the three zips from the latest `main` into the box below the
    notes that says "Attach binaries by dropping them here or selecting
    them". Don't drop them in the notes box: that only adds links to the

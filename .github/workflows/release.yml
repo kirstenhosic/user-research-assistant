@@ -11,6 +11,11 @@
 #
 # Each release also carries SHA256SUMS.txt, a SHA-256 fingerprint for
 # each zip, so people can check a download is the real file.
+#
+# Release notes are public, so they come from docs/RELEASE-NOTES.md (short,
+# plain words), not from the detailed changelog. Every run also brings the
+# notes of past releases in line with that file, so a fix there reaches
+# releases already published.
 name: release
 
 on:
@@ -26,6 +31,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Bring past release notes in line with docs/RELEASE-NOTES.md
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for tag in $(gh api "repos/$GITHUB_REPOSITORY/releases" --paginate --jq '.[].tag_name'); do
+            # v2026-10-31.2 uses the notes for 2026-10-31.
+            version=$(printf '%s' "$tag" | sed -E 's/^v//; s/\.[0-9]+$//')
+            awk -v v="## $version" '$0 == v {on=1; next} /^## / && on {exit} on && (seen || NF) {seen=1; print}' docs/RELEASE-NOTES.md > notes.md
+            if ! grep -q '[^[:space:]]' notes.md; then
+              echo "No release notes for $version; leaving $tag as it is."
+              continue
+            fi
+            if [ "$(gh release view "$tag" --json body --jq .body)" != "$(cat notes.md)" ]; then
+              gh release edit "$tag" --notes-file notes.md
+              echo "Updated the notes for $tag."
+            fi
+          done
       - name: Publish the zips if they changed
         env:
           GH_TOKEN: ${{ github.token }}
@@ -52,8 +75,11 @@ jobs:
             tag="v$version.$n"
             title="Magpie $version (update $n)"
           done
-          # Notes: that version's changelog entry.
-          awk -v v="## $version" '$0 == v {on=1; next} /^## / && on {exit} on' docs/CHANGELOG.md > notes.md
+          # Notes: that version's plain entry in docs/RELEASE-NOTES.md.
+          awk -v v="## $version" '$0 == v {on=1; next} /^## / && on {exit} on && (seen || NF) {seen=1; print}' docs/RELEASE-NOTES.md > notes.md
+          if ! grep -q '[^[:space:]]' notes.md; then
+            echo "Improvements to Magpie." > notes.md
+          fi
           # Fingerprints, so people can check their download.
           sha256sum $zips > SHA256SUMS.txt
           gh release create "$tag" $zips SHA256SUMS.txt \

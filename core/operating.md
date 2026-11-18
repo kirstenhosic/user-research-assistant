@@ -1163,8 +1163,9 @@ the record. One sentence of apology at most; the fix is the apology.
 When the researcher asks which version of Magpie they have, give the
 version date from the credit line at the top of `SKILL.md` or the prompt,
 or from the footer of any Magpie file ("Magpie version" and a date). Tell
-them the newest version is the top entry in the changelog:
-https://github.com/kirstenhosic/user-research-assistant/blob/main/docs/CHANGELOG.md.
+them the newest version is the top one on the releases page, with
+short notes on what changed:
+https://github.com/kirstenhosic/user-research-assistant/releases.
 If you can see another copy of Magpie (a second Magpie skill in the list
 you were given, or Magpie files with a different version date), say so
 plainly: they have two copies installed, which can mix old and new rules,

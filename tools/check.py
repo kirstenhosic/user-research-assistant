@@ -21,7 +21,10 @@ Checks:
      used in core/ or docs/DESIGN.md is in the list and not retired; the
      standards count line is right; and every paragraph that mentions
      HEARTS gives the full citation.
-  9. Size report for the generic prompts, with a rough token estimate.
+  9. docs/RELEASE-NOTES.md has a plain entry for the newest changelog
+     date, and no entry names internal things the public wouldn't know
+     (pull request numbers, rule numbers, tests, file names, other tools).
+ 10. Size report for the generic prompts, with a rough token estimate.
 
 Exit 1 if any check fails. The size report never fails the run.
 """
@@ -297,6 +300,37 @@ def check_american_english() -> None:
                 fail(f"{path.relative_to(ROOT)}:{n}: \"{m.group(0)}\" is not American English")
 
 
+# Release notes are public: words that only make sense inside the project.
+RELEASE_NOTES_INTERNAL = [
+    (re.compile(r"\bDr\.? Morgan\b", re.I), "another tool (Dr. Morgan)"),
+    (re.compile(r"#\d+|\bPR\b|pull request", re.I), "a pull request"),
+    (re.compile(r"\bevals?\b", re.I), "a test name"),
+    (re.compile(r"\bstandards? [A-Z]?\.?\d|\b[A-Z]?\d+\.\d+\b|\bS\d{2,3}\b"), "a rule or source number"),
+    (re.compile(r"`"), "code or a file name in backticks"),
+    (re.compile(r"\bactually\b", re.I), "the word \"actually\""),
+]
+
+
+def check_release_notes() -> None:
+    path = ROOT / "docs" / "RELEASE-NOTES.md"
+    if not path.exists():
+        fail("docs/RELEASE-NOTES.md is missing")
+        return
+    text = path.read_text(encoding="utf-8")
+    newest = build.VERSION
+    if newest and f"\n## {newest}\n" not in text:
+        fail(f"docs/RELEASE-NOTES.md has no '## {newest}' entry for the newest changelog date")
+    entries = 0
+    for n, line in enumerate(text.splitlines(), 1):
+        if line.startswith("## "):
+            entries += 1
+        if not entries:
+            continue  # the intro for contributors isn't published
+        for pattern, what in RELEASE_NOTES_INTERNAL:
+            if pattern.search(line):
+                fail(f"docs/RELEASE-NOTES.md:{n}: names {what}; release notes are public, keep them plain")
+
+
 def check_export() -> None:
     from xml.dom import minidom
     src = ROOT / "evals" / "fixtures" / "export-sample.md"
@@ -381,6 +415,7 @@ def main() -> int:
     check_fixtures()
     check_export()
     check_american_english()
+    check_release_notes()
     size_report()
     if problems:
         print(f"\n{len(problems)} problem(s):")

@@ -125,4 +125,4 @@ confidentiality and the session timings: practitioner judgment.
 
 ---
 
-Part of Magpie version 2026-11-17, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-18, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-11-18
+
+- Release notes: each GitHub release now shows a short, plain entry
+  from the new `docs/RELEASE-NOTES.md`, written for people who don't
+  know how Magpie is built, instead of this detailed changelog. The
+  release workflow also rewrites the notes of releases already
+  published to match that file, on its next run. `tools/check.py` now
+  checks that the newest changelog date has a release-notes entry and
+  that the entries leave out pull request numbers, rule and source
+  numbers, test names, file names and other tools. When asked which
+  version it is, Magpie now points to the releases page. README "Keep
+  Magpie up to date" and `docs/CONTRIBUTING.md` point to the release
+  notes and say how to write them.
+
 ## 2026-11-17
 
 - Researchers now do more of the thinking themselves. These changes come
