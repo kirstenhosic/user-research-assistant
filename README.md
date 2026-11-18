@@ -906,8 +906,10 @@ Updating takes a few minutes.
 use the old one, or mix rules from both, without telling you. So each
 time, remove the old copy before you add the new one.
 
-1. **See what's new.** Open the [changelog](docs/CHANGELOG.md). The
-   newest changes are at the top, with the date. To see which version
+1. **See what's new.** Open the
+   [release notes](https://github.com/kirstenhosic/user-research-assistant/releases).
+   The newest version is at the top, with the date and a short list of
+   what changed. To see which version
    you have, ask Magpie: *"Which version of Magpie is this?"*
 2. **Save your study record** if you're in the middle of a study (in a
    chat, say "show the record" and paste it into a document). Then you
@@ -944,8 +946,8 @@ a skill here?"*
 
 To change Magpie or see how it's built and tested, start with
 [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md). The reasoning behind its
-design is in [`docs/DESIGN.md`](docs/DESIGN.md), and changes are listed in
-[`docs/CHANGELOG.md`](docs/CHANGELOG.md).
+design is in [`docs/DESIGN.md`](docs/DESIGN.md), and every change is
+listed in detail in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 
 ## Thanks to
 
