@@ -21,6 +21,10 @@ ideas Magpie uses.
   how many questions there are and which ones are required, and which
   answers are holding up what you asked for. Each question comes first,
   with at most one short reason after it.
+- Optional questions keep coming back until you answer them. They
+  don't hold up the draft, but Magpie doesn't let them quietly drop,
+  because each one is part of thinking the study through.
+
 
 ## 2026-11-18
 

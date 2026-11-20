@@ -29,6 +29,20 @@
   sentence after it, with no new claims or lists. Required items come
   before optional ones, among new items and among those still open
   (standard A.48, eval question-clarity, not run live yet).
+- Optional questions now stay open until they're answered. Before, an
+  optional question the researcher passed over counted as skipped and
+  dropped off the list. Now it's listed again under "Still open from
+  before" until the researcher answers it or skips it by name ("skip
+  5", or "just draft it"). A reply that asks for something else doesn't
+  answer it. Optional still means the draft doesn't wait: the gap is
+  marked [assumption] and the draft is updated when the answer comes.
+  Magpie no longer invites skipping: the first questions section no
+  longer says "'Skip 3' is fine", and the line about optional questions
+  no longer says skipping them is fine. Raised by Kirsten Hosic: the
+  questions coming back is good friction, and researchers shouldn't be
+  skipping them. Standards A.31 and A.32, the commands table, the README
+  and five evals updated.
+
 
 ## 2026-11-18
 

@@ -28,8 +28,8 @@ unnoticed.
 ## Pass
 
 - The first questions section opens with one unnumbered line: answer in
-  any order and any way, by number, by label or in a paragraph, and
-  "skip 3" is fine.
+  any order and any way, by number, by label or in a paragraph. It
+  doesn't invite the researcher to skip.
 - Every numbered item ends with "(required)" or "(optional)", written
   the same way, with optional items last.
 - No numbered item holds a sub-list. If the stage 3 your-turn ask

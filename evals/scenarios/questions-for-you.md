@@ -40,8 +40,8 @@ so they're scattered and the challenge gets missed.
 - The method-questions reply lists its new questions first, then, under
   "Still open from before", the unanswered challenge written out in a
   line. The framing yes, given as "All looks good", isn't listed again.
-  Optional framing questions the researcher passed over are dropped and
-  logged as [assumption].
+  Optional framing questions the researcher passed over are listed
+  again under "Still open from before".
 - When the researcher asks what the challenge was, Magpie repeats it in
   full.
 - The study record opens with "Questions for you to answer", holding the

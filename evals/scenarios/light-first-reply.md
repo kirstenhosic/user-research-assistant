@@ -30,7 +30,8 @@ as context and once inside the decision.
 - Offers a best guess on at least one non-your-turn item, so it can be
   confirmed with a "yes".
 - The questions the output can be built without come after the others,
-  marked "(optional)", with one line saying skipping them is fine.
+  marked "(optional)", with one line saying the draft won't wait for
+  them and gaps will be marked [assumption]; no line inviting a skip.
 - The decision line names a team or group, not a person.
 
 ## Fail

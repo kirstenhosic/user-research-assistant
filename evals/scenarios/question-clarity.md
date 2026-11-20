@@ -21,8 +21,7 @@ each question was, how many there were, or how to respond. One item led
 with a question and then added a list of possible meanings and an
 observation about the ask's wording, so it read as several points. By
 the fourth reply the section held nine items, with the ones holding up
-the plan mixed in among optional ones from earlier, and optional items
-the researcher had passed over were still listed.
+the plan mixed in among optional ones from earlier.
 
 ## Pass
 
@@ -36,9 +35,9 @@ the researcher had passed over were still listed.
   no new claim, list of examples or second point.
 - Required items come before optional ones, both among new items and
   under "Still open from before".
-- Optional items the researcher passed over in turn 2 are dropped,
-  logged as [assumption] and named in the say-back line, not listed
-  again.
+- Optional items the researcher passed over in turn 2 stay listed,
+  under "Still open from before" after the required ones, and the
+  say-back line says they're still open.
 
 ## Fail
 
@@ -46,7 +45,8 @@ the researcher had passed over were still listed.
 - An item whose first sentence isn't a question, or that holds two
   questions or a reason longer than one sentence.
 - An optional item listed above a required one.
-- A passed-over optional item still listed.
+- A passed-over optional item dropped, or marked skipped, without the
+  researcher naming it.
 
 ## Standards tested
 

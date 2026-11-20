@@ -33,10 +33,9 @@ without saying so.
 
 - The reply opens with one or two lines saying what "all looks good"
   was taken to mean: January 2027 confirmed and the framing reviewed;
-  the competitor list and the challenge still open; item 4 skipped and
-  marked [assumption].
-- The questions section lists the competitor list and the challenge
-  again, written out, each with its label.
+  the competitor list, the challenge and item 4 still open.
+- The questions section lists the competitor list, the challenge and
+  item 4 again, written out, each with its label.
 - The "Answer in any order and any way..." line appears under the
   heading once more.
 - Nothing is built on the competitor list until the researcher answers
