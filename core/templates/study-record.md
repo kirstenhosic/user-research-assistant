@@ -93,7 +93,13 @@ heading, only if the source shows it) and a short quote copied from it.
 "No source found" means the row is an assumption.
 
 Confidence: **direct** (from users, by a sound method), **indirect** (secondhand,
-such as a field rep's summary), or **anecdotal** (one-off, unverified).
+such as a field rep's summary), **anecdotal** (one-off, unverified), or
+**unverified lead** (who said it, how many, or how it was gathered isn't
+known yet; kept out of "what we know" and out of findings).
+
+For a claim passed on from memory or secondhand, "What it says" also
+records who said it (role or segment), how many and how it was
+gathered, with "not known" for any that's still missing.
 
 ## Research questions
 

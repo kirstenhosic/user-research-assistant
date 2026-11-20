@@ -42,7 +42,10 @@ who the study is about.
   next (see "Your turn, part two"), and for any others you draft it in
   the hypothesis check.
 - Who the study is about: which users or customers.
-- Anything already known or tried, if stage 2 didn't cover it.
+- Anything already known or tried, if stage 2 didn't cover it. A
+  claim about users with nothing behind it gets its backing asked for
+  before the framing leans on it (`operating.md`, "A claim needs its
+  backing before it's evidence").
 
 **Your turn** (`operating.md`, "Your turn"). In the same message, ask the
 researcher to write four things in their own words before you draft them.

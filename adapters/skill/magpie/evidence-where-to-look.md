@@ -121,10 +121,12 @@ paste-in format so Magpie can log it in one step. The partner asks are in
 Whatever the researcher finds, this is enough for Magpie to log it:
 
 > **Source:** [what and who] · **Date:** [when] · **Method or type:** [ ]
-> · **Says:** [one or two lines] · **Link:** [ ]
+> · **Who said it and how many:** [role or segment, and a count] ·
+> **Says:** [one or two lines] · **Link:** [ ]
 
-Magpie fills the confidence label (direct, indirect, anecdotal) and the
-"still valid?" judgment itself, and says what it decided.
+Magpie fills the confidence label (direct, indirect, anecdotal, or
+unverified lead when who said it, how many or how it was gathered isn't
+known) and the "still valid?" judgment itself, and says what it decided.
 
 ## How long to spend
 
@@ -147,4 +149,4 @@ than the decision needs.
 
 ---
 
-Part of Magpie version 2026-11-18, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-20, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

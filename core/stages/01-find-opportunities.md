@@ -49,7 +49,10 @@ guess at what matters.
 - Who the briefs are for. Guess what they'd do with a good one (fund a
   study, add it to a roadmap, start a conversation) rather than asking.
 - What signals the researcher can share or point you to: support themes,
-  analytics, sales notes, market research.
+  analytics, sales notes, market research. A signal passed on with
+  nothing behind it ("customers keep asking for X") gets its backing
+  asked for before it goes in a brief (`operating.md`, "A claim needs
+  its backing before it's evidence").
 
 ## What to do
 

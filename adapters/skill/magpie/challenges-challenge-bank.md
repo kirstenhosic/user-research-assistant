@@ -159,4 +159,4 @@ Not challenges from the bank: one-line questions that can come in any reply
 
 ---
 
-Part of Magpie version 2026-11-18, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-20, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.

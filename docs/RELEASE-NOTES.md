@@ -9,6 +9,19 @@ person using Magpie. Leave out file names, test names, rule numbers,
 pull request numbers and other tools. Keep credits to the people whose
 ideas Magpie uses.
 
+## 2026-11-20
+
+- When you mention evidence without the details behind it, such as
+  "customer feedback says it's slow", Magpie now asks what was said, by
+  whom, how many, when and how it was gathered before it writes it down.
+  Until those details are known, it treats the claim as something the
+  team has heard, not as something we know, and keeps it out of
+  findings and reports.
+- Magpie's questions are easier to answer. Each list starts by saying
+  how many questions there are and which ones are required, and which
+  answers are holding up what you asked for. Each question comes first,
+  with at most one short reason after it.
+
 ## 2026-11-18
 
 - Release notes are now short and in plain words, like these. When you
