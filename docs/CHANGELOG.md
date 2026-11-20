@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-11-20
+
+- New: a claim needs its backing before it's evidence. When the
+  researcher, a stakeholder or a document passes on what users think or
+  do with nothing behind it ("customer feedback says it's slow", "a
+  study last year found"), Magpie no longer logs it straight away. In a
+  follow-up message it asks, as one fill-in item, what was said, by
+  whom (role or segment), how many, when and how it was gathered, and
+  where it lives. Whatever comes back is logged, with "not known" for
+  each gap. While who, how many or how it was gathered is still not
+  known, the row is an "unverified lead": it stays out of the gap
+  summary's "what we know" line, findings, briefs and reports, is listed
+  in a new gap summary line for what we've heard but can't yet back,
+  and goes in the Hypotheses as the team's belief. It's worded as what
+  was heard ("the team has heard..."), never "customers say". The study
+  still goes on. Stages 1, 2 and 3, the study record's evidence log and
+  the paste-in format in the evidence guide are updated (standard 2.9,
+  eval unbacked-feedback, not run live yet). Raised by Kirsten Hosic
+  after a test run wrote one line of relayed feedback into the gap
+  summary as something we know.
+- Questions are easier to act on. Every questions section now opens
+  with a count line ("Three to answer: 1 and 2 are required, 3 is
+  optional"), and when the researcher asks for something Magpie can't
+  build yet, the same line names the items that unlock it ("The plan is
+  waiting on 1 and 2"). Each item opens with the question itself, in
+  one sentence that can be answered alone, and any reason is one short
+  sentence after it, with no new claims or lists. Required items come
+  before optional ones, among new items and among those still open
+  (standard A.48, eval question-clarity, not run live yet).
+
 ## 2026-11-18
 
 - Release notes: each GitHub release now shows a short, plain entry

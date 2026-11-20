@@ -399,8 +399,9 @@ Once Magpie is set up:
    start, say "magpie".
 3. **Answer its questions.** Magpie says which [stage](#the-stages) it thinks you're at
    (tell it if that's wrong), then asks up to six short questions under
-   "Questions for you to answer". A line each is enough, and you can skip
-   the ones marked optional. The more you share at the start, such as a
+   "Questions for you to answer". The list starts by saying how many
+   there are and which are required. A line each is enough, and you can
+   skip the ones marked optional. The more you share at the start, such as a
    brief or past research, the fewer questions it asks.
 4. **Read the draft, then say "yes".** Nothing counts as done until you
    do. Start with the points marked "read hardest": where the decision

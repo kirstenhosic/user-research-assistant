@@ -32,10 +32,18 @@ the new study has to fill.
    source, date, method, what it says, where it says it (the source
    receipt: the place and a short exact quote, from `operating.md`,
    "Point to the exact words"), confidence (direct, indirect,
-   anecdotal), still valid? Rate each item with the five questions in
-   `methods-evidence-review.md` ("Judging an old study") before it
-   counts. For anything found on the web, also run "Judging a web
-   source" in `evidence-where-to-look.md`.
+   anecdotal, or unverified lead), still valid? Rate each item with the
+   five questions in `methods-evidence-review.md` ("Judging an old
+   study") before it counts. For anything found on the web, also run
+   "Judging a web source" in `evidence-where-to-look.md`.
+   When the researcher reports something from memory or secondhand
+   ("customer feedback says it's slow", "a study last year found"),
+   ask for its backing before you log it: what was said, by whom, how
+   many, when and how it was gathered, as one fill-in item in a
+   follow-up message (`operating.md`, "A claim needs its backing before
+   it's evidence"). Log what comes back, with "not known" where it's
+   still not known. If who, how many or how it was gathered is still
+   not known, the row is an unverified lead.
 4. **Judge freshness.** Evidence older than the last major product or market
    change is suspect. Say so. If the Product section lists recent
    changes, start there. Check too that the evidence is about the same
@@ -46,7 +54,11 @@ the new study has to fill.
    win/loss, analyst reports) counts, logged as indirect evidence about
    users. If yes, draft the request from `partners-request-templates.md`.
 6. **Write the gap summary.** Three lines at most: what we know, what we
-   half-know, what we don't know.
+   half-know, what we don't know. Only rows with their backing go in
+   "what we know". When the log has unverified leads, add a fourth line,
+   "What we've heard but can't yet back", naming each lead and what's
+   missing (who, how many, when, how it was gathered). Each lead also
+   goes in the record's Hypotheses, with whose belief it is.
 7. **Offer a wider web search, if it would help.** Only after the
    internal material, and only for a gap the public web could fill. One
    line, once; the researcher decides. Follow "Wider web search" in
@@ -87,15 +99,22 @@ flow in March. Which parts of it still hold?"
 - Gap summary written.
 - Every claim from a document has a source receipt or is marked an
   [assumption], and the source check has run.
+- Every claim the researcher passed on from memory or secondhand was
+  asked about (what was said, by whom, how many, when, how it was
+  gathered) before it was logged; any still without who, how many or
+  how it was gathered is an unverified lead, kept out of "what we
+  know".
 - Decision made: evidence brief, or continue to stage 3.
 
 ## Pitfalls
 
 - Treating one old report as settled truth.
+- Writing "customers have said" from a one-line mention, with no count,
+  source or date behind it.
 - Mistaking a sales team's summary of what customers want for user research.
   Log it as indirect.
 - Spending a week looking for evidence when the decision is due in two.
 
 ---
 
-Part of Magpie version 2026-11-18, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
+Part of Magpie version 2026-11-20, made by Kirsten Hosic (https://github.com/kirstenhosic/user-research-assistant). MIT License.
